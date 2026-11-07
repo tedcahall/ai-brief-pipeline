@@ -1,0 +1,915 @@
+{
+  "source_root": "workspace/briefs/model-tests",
+  "artifacts": [
+    {
+      "destination": "model-comparison/Model-Consensus-2026-10-28.md",
+      "source": "consensus-review/MODEL-CONSENSUS-REVIEW-12-MODELS-14824.md",
+      "sha256": "540b4a9e99b4a71929ef2a216107759850895f42856251aa9ba6780cb216ee04",
+      "bytes": 53809,
+      "selection": "Corrected full 12-model cohort; supersedes mixed-day and today-only drafts."
+    },
+    {
+      "destination": "model-comparison/Model-Consensus-2026-10-29.md",
+      "source": "2026-10-29-delivery/Model-Consensus-2026-10-29.md",
+      "sha256": "5291a5bef93d1029e96e6eb41d27ef5f059f8228b3f2f45419717430f542c29f",
+      "bytes": 40477,
+      "selection": "Latest canonical daily report; updated rerun cohort used where available."
+    },
+    {
+      "destination": "token-costs/Usage-and-Cost-2026-10-29.md",
+      "source": "2026-10-29/usage-audit-ken/usage-and-cost.md",
+      "sha256": "9ebbd357f5957940950507418ffe17f1dc573ef8de6d50241045d4d2f8ed95c7",
+      "bytes": 11298,
+      "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
+    },
+    {
+      "destination": "model-comparison/Model-Consensus-2026-10-30.md",
+      "source": "2026-10-30-delivery/Model-Consensus-2026-10-30.md",
+      "sha256": "24dea976ecda680860ad9cb7731bcc0291fbe1a95c3edadda79afe6f14856c62",
+      "bytes": 39333,
+      "selection": "Latest canonical daily report; updated rerun cohort used where available."
+    },
+    {
+      "destination": "token-costs/Usage-and-Cost-2026-10-30.md",
+      "source": "2026-10-30/usage-audit-ken/Usage-and-Cost-2026-10-30.md",
+      "sha256": "ecae8b127e70f2d5a30cf2e7fd7dd356b1b755eaefa504a6a26ef5c44cbd2bf1",
+      "bytes": 13838,
+      "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
+    },
+    {
+      "destination": "model-comparison/Model-Consensus-2026-10-31.md",
+      "source": "2026-10-31-delivery/Model-Consensus-2026-10-31.md",
+      "sha256": "9409f4fe27f29df0ffa859916083e5198b7dc73918c5b992baf0f16ad3e8757a",
+      "bytes": 41408,
+      "selection": "Latest canonical daily report; updated rerun cohort used where available."
+    },
+    {
+      "destination": "token-costs/Usage-and-Cost-2026-10-31.md",
+      "source": "2026-10-31-delivery/Usage-and-Cost-2026-10-31.md",
+      "sha256": "0febabb31f1ceab58006d1b93163a5130d9544472790f238f104a96bdaabbe13",
+      "bytes": 13901,
+      "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
+    },
+    {
+      "destination": "model-comparison/Model-Consensus-2026-11-01.md",
+      "source": "2026-11-01-update-15312/Model-Consensus-2026-11-01.md",
+      "sha256": "9afa3a478b3be41c4fa8ff38662e4da49cda44261bccc467c430812c983bd71d",
+      "bytes": 41785,
+      "selection": "Latest canonical daily report; updated rerun cohort used where available."
+    },
+    {
+      "destination": "token-costs/Usage-and-Cost-2026-11-01.md",
+      "source": "2026-11-01-update-15312/Usage-and-Cost-2026-11-01.md",
+      "sha256": "f882d6ca7a7c7b16b4ad92a538bfecea08c8ef58e0ca5b64ea6de54e34031d9f",
+      "bytes": 16436,
+      "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
+    },
+    {
+      "destination": "model-comparison/Model-Consensus-2026-11-02.md",
+      "source": "2026-11-02-delivery/Model-Consensus-2026-11-02.md",
+      "sha256": "8b4204ace9ef11807feae236d3119a451b10485d59c2df60b1f9ae9c9a71c5a3",
+      "bytes": 40159,
+      "selection": "Latest canonical daily report; updated rerun cohort used where available."
+    },
+    {
+      "destination": "token-costs/Usage-and-Cost-2026-11-02.md",
+      "source": "2026-11-02-delivery/Usage-and-Cost-2026-11-02.md",
+      "sha256": "e5619ebb33ddf71264880f87feb861da16847559ad3f72e83de3bee778888659",
+      "bytes": 18482,
+      "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
+    },
+    {
+      "destination": "model-comparison/Model-Consensus-2026-11-03.md",
+      "source": "2026-11-03-delivery/Model-Consensus-2026-11-03.md",
+      "sha256": "b5679378b1304c795feea1dd0994bd76afa322a207734607b86b99671f17eb09",
+      "bytes": 38999,
+      "selection": "Latest canonical daily report; updated rerun cohort used where available."
+    },
+    {
+      "destination": "token-costs/Usage-and-Cost-2026-11-03.md",
+      "source": "2026-11-03-delivery/Usage-and-Cost-2026-11-03.md",
+      "sha256": "480ccfd9d4eaefee5d89204ce08e8b39c3cc50eab83210307fe778ad7b37c7b0",
+      "bytes": 14347,
+      "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
+    },
+    {
+      "destination": "model-comparison/Model-Consensus-2026-11-07.md",
+      "source": "2026-11-07-delivery/Model-Consensus-2026-11-07.md",
+      "sha256": "dae1a3e05c42235ad7fcbac4c1cda8207ed51a313946347a8f81afece3c3b38a",
+      "bytes": 32088,
+      "selection": "Latest canonical daily report; updated rerun cohort used where available."
+    },
+    {
+      "destination": "token-costs/Usage-and-Cost-2026-11-07.md",
+      "source": "2026-11-07-delivery/Usage-and-Cost-2026-11-07.md",
+      "sha256": "ac85afa53ffc54570344de8021eb25dfaf7a71a03221b75f4c0f928e489fffe8",
+      "bytes": 6639,
+      "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
+    },
+    {
+      "destination": "model-comparison/Model-Summary-2026-11-03.md",
+      "source": "summary-15487/Model-Summary-Scaled.md",
+      "sha256": "390667be0dce0f2b5a72a48fd1e64d04f0bb158fa481500c9cdc8c5368c24c1b",
+      "bytes": 5107,
+      "selection": "Final scaled revision after aggregate cost/token correction; supersedes earlier summary versions."
+    },
+    {
+      "destination": "model-comparison/GLM-Production-vs-Test-2026-10-28-and-2026-10-29.md",
+      "source": "2026-10-29-delivery/GLM-Production-vs-Test-2026-10-28-and-2026-10-29.md",
+      "sha256": "05cf401b4358194a32ad68e3fe15815ece9ff060611c17819eb9ee270be0e80d",
+      "bytes": 51127,
+      "selection": "Final named comparison; separate Astra attempts retained as distinct analyses."
+    },
+    {
+      "destination": "model-comparison/Model-Word-Comparison-2026-10-29.md",
+      "source": "2026-10-29-delivery/Model-Word-Comparison-2026-10-29.md",
+      "sha256": "0cea1379f52ee0b2fcb5b19f61a7c73902d0cef4692985d738ef776db65a61f2",
+      "bytes": 49896,
+      "selection": "Final named comparison; separate Astra attempts retained as distinct analyses."
+    },
+    {
+      "destination": "model-comparison/GLM-Production-vs-Test-2026-10-30.md",
+      "source": "2026-10-30-delivery/GLM-Production-vs-Test-2026-10-30.md",
+      "sha256": "3a639af96438d343d3a7e27ec3171a6151172415db3a3e662dedee83be6a9bdd",
+      "bytes": 27627,
+      "selection": "Final named comparison; separate Astra attempts retained as distinct analyses."
+    },
+    {
+      "destination": "token-costs/Astra-Codex-vs-OpenRouter-Token-Totals-2026-10-31.md",
+      "source": "2026-10-31-delivery/Astra-Codex-vs-OpenRouter-Token-Totals-2026-10-31.md",
+      "sha256": "1b5b60b5fe8a9e975b52aad99e71d5599c229df57ed06e0134ec157fc299652e",
+      "bytes": 3176,
+      "selection": "Final named token-cost diagnostic report."
+    },
+    {
+      "destination": "token-costs/Astra-OpenRouter-Tokens-and-Costs-Last-Two-Runs-2026-10-31.md",
+      "source": "2026-10-31-delivery/Astra-OpenRouter-Tokens-and-Costs-Last-Two-Runs-2026-10-31.md",
+      "sha256": "1d60b942e722f55a6a9c4ee31fbdcbab5227ec1f7a8c256909ba5037fba6c8a0",
+      "bytes": 7551,
+      "selection": "Final named token-cost diagnostic report."
+    },
+    {
+      "destination": "model-comparison/Astra-Route-Cache-Comparison-2026-10-31.md",
+      "source": "2026-10-31-delivery/Astra-Route-Cache-Comparison-2026-10-31.md",
+      "sha256": "f55f1963ca8d0ce0b7848e4ee33a98bb81fdb9ea664cd4a0b4da9fcaaed52453",
+      "bytes": 7732,
+      "selection": "Final named comparison; separate Astra attempts retained as distinct analyses."
+    },
+    {
+      "destination": "model-comparison/Astra-Route-Cache-Comparison-Fresh-2026-10-31.md",
+      "source": "2026-10-31-delivery/Astra-Route-Cache-Comparison-Fresh-2026-10-31.md",
+      "sha256": "96e3728ae265fab8345c7fc445f6638decb79414b3cda926740df466ee3e53e8",
+      "bytes": 8041,
+      "selection": "Final named comparison; separate Astra attempts retained as distinct analyses."
+    },
+    {
+      "destination": "model-comparison/GLM-Production-vs-Test-2026-10-31.md",
+      "source": "2026-10-31-delivery/GLM-Production-vs-Test-2026-10-31.md",
+      "sha256": "03062e9bf4df60c8744a57acef6105758f6d982f1975e75f32857c64822ee20a",
+      "bytes": 27993,
+      "selection": "Final named comparison; separate Astra attempts retained as distinct analyses."
+    },
+    {
+      "destination": "daily-results/2026-10-26/deepseek-v4-1-flash-1017/brief.html",
+      "source": "2026-10-26/deepseek-v4-1-flash-1017/brief.html",
+      "sha256": "ad78c5b56878c4134721ae911f6482a89c78845d9e969f410752ed55f2ead950",
+      "bytes": 16512,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-26/glm-5-3/brief.html",
+      "source": "2026-10-26/glm-5-3/brief.html",
+      "sha256": "123a99c07584aaeac19ed8807e8d7728faa62e57e9ba1a40344354ef4dbe881d",
+      "bytes": 17126,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-27/deepseek-v4-1-flash-1017/2026-10-27.html",
+      "source": "2026-10-27/deepseek-v4-1-flash-1017/2026-10-27.html",
+      "sha256": "58012bc47b93c0f0c2279993a0454462869f61d53a5c1107c5b0e1bb9ae20b39",
+      "bytes": 17076,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-27/deepseek-v4-pro/2026-10-27.html",
+      "source": "2026-10-27/deepseek-v4-pro/2026-10-27.html",
+      "sha256": "a20c5a95fd76174342386479c08285a037595ea9d2bc97fac5f1186c42336f9a",
+      "bytes": 16134,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-27/glm-5-3/2026-10-27.html",
+      "source": "2026-10-27/glm-5-3/2026-10-27.html",
+      "sha256": "ffc1d3b7fe23441330a0054315cbb3da84e23748da3137ae3796320ce6d23cd8",
+      "bytes": 17445,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-27/gpt-6-astra/2026-10-27.html",
+      "source": "2026-10-27/gpt-6-astra/2026-10-27.html",
+      "sha256": "3e6623edbc07dc9f042fa94c7224fbd828be1d48bc55a4a41a0fd0ebbd45e9dd",
+      "bytes": 16506,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-27/kimi-k3-1-pro/2026-10-27.html",
+      "source": "2026-10-27/kimi-k3-1-pro/2026-10-27.html",
+      "sha256": "4ba9cfff58adc3c921a633c509f95f74672816f7e24db9ae5e05b9ed57258cf4",
+      "bytes": 16450,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-27/opus-5-5/2026-10-27.html",
+      "source": "2026-10-27/opus-5-5/2026-10-27.html",
+      "sha256": "01bb73aad7cadae7cf849b44f9d36e69ffab036ce655dc95b8c3a01822130fb2",
+      "bytes": 16793,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-27/qwen-3-8-max-0902/2026-10-27.html",
+      "source": "2026-10-27/qwen-3-8-max-0902/2026-10-27.html",
+      "sha256": "0aff80cb71fc3fffdeb1827568f0cf40eac6fc75d3808bb42406db281441578e",
+      "bytes": 16916,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/deepseek-v4-1-flash-1017/2026-10-28.html",
+      "source": "2026-10-28/deepseek-v4-1-flash-1017/2026-10-28.html",
+      "sha256": "37f31a0e2f56077ac2e39faefc7d705bb0cb07038012b4c1fbdca73072213080",
+      "bytes": 17664,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/deepseek-v4-pro/2026-10-28.html",
+      "source": "2026-10-28/deepseek-v4-pro/2026-10-28.html",
+      "sha256": "f79b91d490cad69419de59a8abafb2cbd64382d86a56884c82b6e52cd8bebca4",
+      "bytes": 16632,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/glm-5-3/2026-10-28.html",
+      "source": "2026-10-28/glm-5-3/2026-10-28.html",
+      "sha256": "03518920abe73513a99925cadca437fe7bb91bc31e0a57bd1e6956935092b6c1",
+      "bytes": 16773,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/gpt-6-1-sol/2026-10-28.html",
+      "source": "2026-10-28/gpt-6-1-sol/2026-10-28.html",
+      "sha256": "c8c1d6a7e06cb324683aeccf4449246338aa48d59043c5b3b39ff886d2e7d41b",
+      "bytes": 17313,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/gpt-6-1-terra/2026-10-28.html",
+      "source": "2026-10-28/gpt-6-1-terra/2026-10-28.html",
+      "sha256": "bd20f4df33a09bd8b1fc48bac7a4b21ad8a0ed22bf1a16034bf6a3cbc7f3bc73",
+      "bytes": 16501,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/gpt-6-astra/2026-10-28.html",
+      "source": "2026-10-28/gpt-6-astra/2026-10-28.html",
+      "sha256": "77703c0860a44b272043b8614e564048ee742d82e025f9d731ae409ade4ad473",
+      "bytes": 17126,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/gpt-6-luna/2026-10-28.html",
+      "source": "2026-10-28/gpt-6-luna-oneoff-14773/2026-10-28.html",
+      "sha256": "6bbcaa1b8ddd67ce769dac5711cc5edf4771aa257e6dc975d4f2de17c6a24ecd",
+      "bytes": 15843,
+      "selection": "Later authorized one-off output replaces blocked original Luna output."
+    },
+    {
+      "destination": "daily-results/2026-10-28/grok-4-7/2026-10-28.html",
+      "source": "2026-10-28/grok-4-7/2026-10-28.html",
+      "sha256": "0438b1cf7707dabe6bd2b3c64fa914a8ef69547a964b5b5e1d4ac361ace8615d",
+      "bytes": 17238,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/kimi-k3-1-pro/2026-10-28.html",
+      "source": "2026-10-28/kimi-k3-1-pro/2026-10-28.html",
+      "sha256": "89be1419ab0516e5a3760f846bc7b3a813087cee02f4f8d2dad6e956a8ecf768",
+      "bytes": 17207,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/minimax-m3-1-flash/2026-10-28.html",
+      "source": "2026-10-28/minimax-m3-1-flash/2026-10-28.html",
+      "sha256": "1faf8de994e4a517607e3aa9aa7429b4aa5674683a97d42801a32bac0218bb3e",
+      "bytes": 16629,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/opus-5-5/2026-10-28.html",
+      "source": "2026-10-28/opus-5-5/2026-10-28.html",
+      "sha256": "50649617d593e39a54e3589b9cf169d44e6b9d31f927bfde3dcb047e7f9de2d3",
+      "bytes": 17076,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-28/qwen-3-8-max-0902/2026-10-28.html",
+      "source": "2026-10-28/qwen-3-8-max-0902/2026-10-28.html",
+      "sha256": "dd4cce3a18e5e64f4d258f25f706e0febd320e87d8f1dfbe991f183e3868c5b5",
+      "bytes": 16663,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/deepseek-v4-1-flash-1017/2026-10-29.html",
+      "source": "2026-10-29/deepseek-v4-1-flash-1017/2026-10-29.html",
+      "sha256": "b248a78f8d2326534e93b8292e1d78fd6c447a2ecbfddd26c2b62da34c608b79",
+      "bytes": 16965,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/deepseek-v4-pro/2026-10-29.html",
+      "source": "2026-10-29/deepseek-v4-pro/2026-10-29.html",
+      "sha256": "ba55adae15f3dc4db86cfbfae0ad6fbc2e336bf109a46a373c36515b84e9c93d",
+      "bytes": 17171,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/glm-5-3/2026-10-29.html",
+      "source": "2026-10-29/glm-5-3/2026-10-29.html",
+      "sha256": "380e269601c0fd0068d9507ebcbb8f129e0269bf00475a7e87b032df9b7a2112",
+      "bytes": 16186,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/gpt-6-1-sol/2026-10-29.html",
+      "source": "2026-10-29/gpt-6-1-sol/2026-10-29.html",
+      "sha256": "7c2bb4dce7fad10a6ac1346eaebb27e51508dbc5bc63a3a70c919b8565c757f8",
+      "bytes": 16547,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/gpt-6-1-terra/2026-10-29.html",
+      "source": "2026-10-29/gpt-6-1-terra/2026-10-29.html",
+      "sha256": "387f52e534c2a42a0fb9b32639a8ccbed4e93ad1f5e317cf33532d0697c7c837",
+      "bytes": 16564,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/gpt-6-astra/2026-10-29.html",
+      "source": "2026-10-29/gpt-6-astra/2026-10-29.html",
+      "sha256": "8a5b77b2a22385d9f29fe068a8645d1087770e1eb982256ccfd3777068c2102d",
+      "bytes": 16436,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/gpt-6-luna/2026-10-29.html",
+      "source": "2026-10-29/gpt-6-luna/2026-10-29.html",
+      "sha256": "3e59625fcec74e80598dc122aa195a19fea245c2895f33588242e5cbfa0738d6",
+      "bytes": 17010,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/grok-4-7/2026-10-29.html",
+      "source": "2026-10-29/grok-4-7/2026-10-29.html",
+      "sha256": "c48f054039f450ce67a8ffab53ee9f71b137dfea0c2e3ae91ff7fb71e78eab1a",
+      "bytes": 16613,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/kimi-k3-1-pro/2026-10-29.html",
+      "source": "2026-10-29/kimi-k3-1-pro/2026-10-29.html",
+      "sha256": "fc436b7b640d0de4cad34842d7239b9315ae03db903e5a8ae0b437d22e411a99",
+      "bytes": 16114,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/minimax-m3-1-flash/2026-10-29.html",
+      "source": "2026-10-29/minimax-m3-1-flash/2026-10-29.html",
+      "sha256": "8849396e2cde7e94e45ca521564b894e722179154b4504d042f308435954ffd1",
+      "bytes": 16200,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/opus-5-5/2026-10-29.html",
+      "source": "2026-10-29/opus-5-5/2026-10-29.html",
+      "sha256": "0169976dffb9289beff9e717a7244bd03bd547f0d4d9fc487a99c48ac552331b",
+      "bytes": 16343,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-29/qwen-3-8-max-0902/2026-10-29.html",
+      "source": "2026-10-29/qwen-3-8-max-0902/2026-10-29.html",
+      "sha256": "18d8bb5df8884c74af27d4b643942027978c08bcfd5d6b70a6dbc9082bf22632",
+      "bytes": 16761,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/deepseek-v4-1-flash-1017/2026-10-30.html",
+      "source": "2026-10-30/deepseek-v4-1-flash-1017/2026-10-30.html",
+      "sha256": "eb150e09060e6164983e0612e809d17f3cda638f75b1c320067158c9749bf403",
+      "bytes": 17168,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/deepseek-v4-pro/2026-10-30.html",
+      "source": "2026-10-30/deepseek-v4-pro/2026-10-30.html",
+      "sha256": "bfa83a24a27681081d6041581f09d3aed18bd2524c9c8edd0adc7690177e919e",
+      "bytes": 16196,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/glm-5-3/2026-10-30.html",
+      "source": "2026-10-30/glm-5-3/2026-10-30.html",
+      "sha256": "ce80a5970cef3a9d594a02996ef09cba58e8f779fbeb1f6ea6997e37269271b0",
+      "bytes": 16931,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/gpt-6-1-sol/2026-10-30.html",
+      "source": "2026-10-30/gpt-6-1-sol/2026-10-30.html",
+      "sha256": "d3b2878317d79862f6481fe28ca08f0badfefd6f2e434e180abf662803e9f414",
+      "bytes": 16388,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/gpt-6-1-terra/2026-10-30.html",
+      "source": "2026-10-30/gpt-6-1-terra/2026-10-30.html",
+      "sha256": "fbad1f58c2f4ff8dcd1ea62134bd3401fc086c2f9b018b065cc2f381d58d9d02",
+      "bytes": 16041,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/gpt-6-astra/2026-10-30.html",
+      "source": "2026-10-30/gpt-6-astra/2026-10-30.html",
+      "sha256": "c272d795eb2338190ee0c0fdf977622d45a6252d7dce314d4764fe1228496ae8",
+      "bytes": 16432,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/gpt-6-luna/2026-10-30.html",
+      "source": "2026-10-30/gpt-6-luna/2026-10-30.html",
+      "sha256": "34dcbd038cba89065aaadff54065d2cb8a428f55cf353af3227572bcdabb7b03",
+      "bytes": 16911,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/grok-4-7/2026-10-30.html",
+      "source": "2026-10-30/grok-4-7/2026-10-30.html",
+      "sha256": "87a528ffdceafddf614847c062be5785ab7478cf736bdf732624d8af59793a8f",
+      "bytes": 17262,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/kimi-k3-1-pro/2026-10-30.html",
+      "source": "2026-10-30/kimi-k3-1-pro/2026-10-30.html",
+      "sha256": "5498a0d2322c6a8c5c69ac629ee39035e73650486e2b8ff9e13d8f6f892bdc9a",
+      "bytes": 16074,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/minimax-m3-1-flash/2026-10-30.html",
+      "source": "2026-10-30/minimax-m3-1-flash/2026-10-30.html",
+      "sha256": "5adbd07b42c70f85518cd63add9d5362148a465ed081ddd5b03395efa8d3ccb2",
+      "bytes": 16965,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/opus-5-5/2026-10-30.html",
+      "source": "2026-10-30/opus-5-5/2026-10-30.html",
+      "sha256": "7b277af8dde48c15c0f49e7f9ae6d43dc9b2c336c298570109ca352e48ccd126",
+      "bytes": 17094,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-30/qwen-3-8-max-0902/2026-10-30.html",
+      "source": "2026-10-30/qwen-3-8-max-0902/2026-10-30.html",
+      "sha256": "810c3a5222da5c81e881232e0657b4fdd15db72d0c18af6d8a51cf20aabd18a7",
+      "bytes": 16815,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/deepseek-v4-1-flash-1017/2026-10-31.html",
+      "source": "2026-10-31/deepseek-v4-1-flash-1017/2026-10-31.html",
+      "sha256": "a63ee270aceae259289b7fe7a190ac36c392859921868155179d68f6082875cd",
+      "bytes": 17176,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/deepseek-v4-pro/2026-10-31.html",
+      "source": "2026-10-31/deepseek-v4-pro/2026-10-31.html",
+      "sha256": "d9736e5f9fefcfbd77b0fa5e49f7403d93e9821b86c89299fec0d84c3d45a3ca",
+      "bytes": 16367,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/glm-5-3/2026-10-31.html",
+      "source": "2026-10-31/glm-5-3/2026-10-31.html",
+      "sha256": "0cd83b86dadf2f00d9af637d9928b9494eff5df113cd19201c580b20977fbc1c",
+      "bytes": 16307,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/gpt-6-1-sol/2026-10-31.html",
+      "source": "2026-10-31/gpt-6-1-sol/2026-10-31.html",
+      "sha256": "cb22f3d70f6e92af2da402b5cd83bb964389d6ba789365cb0c7347c977916a45",
+      "bytes": 16642,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/gpt-6-1-terra/2026-10-31.html",
+      "source": "2026-10-31/gpt-6-1-terra/2026-10-31.html",
+      "sha256": "9438f60e3b2a030ed9cbfaa832b1866a4051d14ffb2d01ceaf9ae0ae393a2032",
+      "bytes": 16805,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/gpt-6-astra/2026-10-31.html",
+      "source": "2026-10-31/gpt-6-astra/2026-10-31.html",
+      "sha256": "a01e02a2c4c00ac75f62dcc5659ac7fd9537a5eeee40ac8299c1a4ba924cd764",
+      "bytes": 17215,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/gpt-6-astra-openrouter-fresh/2026-10-31.html",
+      "source": "2026-10-31/gpt-6-astra-openrouter-fresh/2026-10-31.html",
+      "sha256": "b7a03289dc63cc954f23aad3ba985c752602044a102d66c6f768846374aa4a57",
+      "bytes": 16743,
+      "selection": "Distinct route diagnostic HTML; not a successful final daily run (HTTP 402)."
+    },
+    {
+      "destination": "daily-results/2026-10-31/gpt-6-luna/2026-10-31.html",
+      "source": "2026-10-31/gpt-6-luna/2026-10-31.html",
+      "sha256": "a21f5e94630224025eb53ba454b1ceee5d864e7bf717c9ef9c526ae4a01191a2",
+      "bytes": 17307,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/grok-4-7/2026-10-31.html",
+      "source": "2026-10-31/grok-4-7/2026-10-31.html",
+      "sha256": "78caa81c225c71677f1591c6fbc0617f03330b6c377ee1ef923598004ab889e2",
+      "bytes": 16390,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/kimi-k3-1-pro/2026-10-31.html",
+      "source": "2026-10-31/kimi-k3-1-pro/2026-10-31.html",
+      "sha256": "cefa2b4b6fea373ec552926e023d691cea555e79aebe52cd965994e5e0178dd1",
+      "bytes": 16834,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/minimax-m3-1-flash/2026-10-31.html",
+      "source": "2026-10-31/minimax-m3-1-flash/2026-10-31.html",
+      "sha256": "4f7aafd0339c23587497c12f8721f2a133881251617a7bd5fd3aec8b456d857d",
+      "bytes": 17258,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/opus-5-5/2026-10-31.html",
+      "source": "2026-10-31/opus-5-5/2026-10-31.html",
+      "sha256": "d86b4de3ff1e0c5096e6defa5d96581cf3ca7d40a69958061f46d2c2b38524db",
+      "bytes": 16738,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-10-31/qwen-3-8-max-0902/2026-10-31.html",
+      "source": "2026-10-31/qwen-3-8-max-0902/2026-10-31.html",
+      "sha256": "d360ede00d713ada8e21c260844e5712bdca7a9892a06fbf23111fd4999e0387",
+      "bytes": 17353,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/deepseek-v4-1-flash-1017/2026-11-01.html",
+      "source": "2026-11-01/deepseek-v4-1-flash-1017/2026-11-01.html",
+      "sha256": "fb4319fb15a4c778b8aa6acd31b93c158321a24aaeb2765297f600eb7059683a",
+      "bytes": 17563,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/deepseek-v4-pro/2026-11-01.html",
+      "source": "2026-11-01/deepseek-v4-pro/2026-11-01.html",
+      "sha256": "0e889e562b67500847f55ae76f4123e336c0a5977fba0004cce2605443580aa3",
+      "bytes": 17034,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/glm-5-3/2026-11-01.html",
+      "source": "2026-11-01/glm-5-3/2026-11-01.html",
+      "sha256": "a63d50f2b85e295a1c54736795664d2f03fec09d53a533bbd2598cccab614038",
+      "bytes": 16715,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/gpt-6-1-sol/2026-11-01.html",
+      "source": "2026-11-01/gpt-6-1-sol/2026-11-01.html",
+      "sha256": "f89ec8df7491cdf7cf657701a22e115221995bb836185ce429e271b4f8b4bc62",
+      "bytes": 16754,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/gpt-6-1-terra/2026-11-01.html",
+      "source": "2026-11-01/gpt-6-1-terra/2026-11-01.html",
+      "sha256": "2c27c4224ed4a6fb363fc4ff3e10e4dfbaffa1daf408fa2b39abfead281fabda",
+      "bytes": 16046,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/gpt-6-astra/2026-11-01.html",
+      "source": "2026-11-01/gpt-6-astra/2026-11-01.html",
+      "sha256": "9370c1e3399193bc01105206a9b7a27882542fd625047321a9e9d64cec816548",
+      "bytes": 16521,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/gpt-6-luna/2026-11-01.html",
+      "source": "2026-11-01/gpt-6-luna/2026-11-01.html",
+      "sha256": "b71937cc00cd7c15415a04ad625f77299d9acf40fdfae757f3fc372176906ec5",
+      "bytes": 16933,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/grok-4-7/2026-11-01.html",
+      "source": "2026-11-01/grok-4-7/2026-11-01.html",
+      "sha256": "1c539de88bcdd77b554b4204e5a0be31badc858258ba0428f96afc171ff020eb",
+      "bytes": 17416,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/kimi-k3-1-pro/2026-11-01.html",
+      "source": "2026-11-01/kimi-k3-1-pro/2026-11-01.html",
+      "sha256": "fa321413511f0e05bd4683f512d6ef8aa8714bb6ec5de4290ac929bacc0fc47a",
+      "bytes": 16967,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/minimax-m3-1-flash/2026-11-01.html",
+      "source": "2026-11-01/minimax-m3-1-flash/2026-11-01.html",
+      "sha256": "1da5005d3351ca2b1ac414068066b32558663309b34315c6abf1607727f3c95c",
+      "bytes": 17065,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/opus-5-5/2026-11-01.html",
+      "source": "2026-11-01/opus-5-5/2026-11-01.html",
+      "sha256": "f7c65ca2f1c0063e5644fd31de66163c21e57110761cb6cf5a4d787be6202519",
+      "bytes": 16817,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-01/qwen-3-8-max-0902/2026-11-01.html",
+      "source": "2026-11-01/qwen-3-8-max-0902/2026-11-01.html",
+      "sha256": "b1de9996cd9d8050b960720aaf4a9b50bc439b7d6cb946a065fda1079e574b6c",
+      "bytes": 16812,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/deepseek-v4-1-flash-1017/2026-11-02.html",
+      "source": "2026-11-02/deepseek-v4-1-flash-1017/2026-11-02.html",
+      "sha256": "dce334b329f8d8a7d5698981684e0365e79ba582744029d787a17398bbec95c1",
+      "bytes": 16782,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/deepseek-v4-pro/2026-11-02.html",
+      "source": "2026-11-02/deepseek-v4-pro/2026-11-02.html",
+      "sha256": "206195d682d409cacc6cdad8e97d4f3816a1576d6cbb45d8d10abd03b64759c4",
+      "bytes": 16245,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/glm-5-3/2026-11-02.html",
+      "source": "2026-11-02/glm-5-3/2026-11-02.html",
+      "sha256": "abc8837156994e74ebd653f4d6c0d86bdee158f22b22add7cce6625f313bf705",
+      "bytes": 15896,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/gpt-6-1-sol/2026-11-02.html",
+      "source": "2026-11-02/gpt-6-1-sol/2026-11-02.html",
+      "sha256": "aaf7688e9e9972b7974c86a73e3f080e6d6a5cb893afe796a887c6048b843daa",
+      "bytes": 16118,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/gpt-6-1-terra/2026-11-02.html",
+      "source": "2026-11-02/gpt-6-1-terra/2026-11-02.html",
+      "sha256": "43fa029348b824d134814eb332849a65738fc9d93cac43fdee4a9e501e1c5801",
+      "bytes": 16057,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/gpt-6-astra/2026-11-02.html",
+      "source": "2026-11-02/gpt-6-astra/2026-11-02.html",
+      "sha256": "4978a453bfe014c1e946481826458042e5b545d1b28f38c39d658da305c7cf8a",
+      "bytes": 16662,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/gpt-6-luna/2026-11-02.html",
+      "source": "2026-11-02/gpt-6-luna/2026-11-02.html",
+      "sha256": "767560f77c5912ff0fcbcd81dc2d185822e1608a0c4caf3f31f60a0cf4503853",
+      "bytes": 16636,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/grok-4-7/2026-11-02.html",
+      "source": "2026-11-02/grok-4-7/2026-11-02.html",
+      "sha256": "cc312f6a378fcba38e67746ff540cfa0ef55c0f481ff8ad0996531f43b5c2f78",
+      "bytes": 16500,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/kimi-k3-1-pro/2026-11-02.html",
+      "source": "2026-11-02/kimi-k3-1-pro/2026-11-02.html",
+      "sha256": "f8ae4b9f7957c324ddafbdddf69a7f64feb7a11752ff66ed057aac4cc60c113c",
+      "bytes": 16233,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/minimax-m3-1-flash/2026-11-02.html",
+      "source": "2026-11-02/minimax-m3-1-flash/2026-11-02.html",
+      "sha256": "7cdfd89a136565ad2efaea79cc623d8afcd6a7c01fe2ebcaeb3a04a3cf6f8ad2",
+      "bytes": 18172,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/opus-5-5/2026-11-02.html",
+      "source": "2026-11-02/opus-5-5/2026-11-02.html",
+      "sha256": "bd2d564c056a1b9b1c3032bb5cbd518cfab82a2e3e992134973de21ef201a24f",
+      "bytes": 16100,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-02/qwen-3-8-max-0902/2026-11-02.html",
+      "source": "2026-11-02/qwen-3-8-max-0902/2026-11-02.html",
+      "sha256": "5dae252ec7506464f5730dfe2c4662e536cdb05e008e04c18ab51dec2a68ef00",
+      "bytes": 16884,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/deepseek-v4-1-flash-1017/2026-11-03.html",
+      "source": "2026-11-03/deepseek-v4-1-flash-1017/2026-11-03.html",
+      "sha256": "fe3190556263ba12fbaab8c1de2ae5258df055ad644914cf68a8a84b09b8ef5c",
+      "bytes": 17277,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/deepseek-v4-pro/2026-11-03.html",
+      "source": "2026-11-03/deepseek-v4-pro/2026-11-03.html",
+      "sha256": "3c04d6471e3a41058d655bb661a7560f559f71a206768052747b4f5f92a89013",
+      "bytes": 16776,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/glm-5-3/2026-11-03.html",
+      "source": "2026-11-03/glm-5-3/2026-11-03.html",
+      "sha256": "32b5fe8b563f81a6046bdf7ce4c982f5bb59818880c865825588e46e6190050e",
+      "bytes": 16577,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/gpt-6-1-sol/2026-11-03.html",
+      "source": "2026-11-03/gpt-6-1-sol/2026-11-03.html",
+      "sha256": "331a38d2ddc6c2adfe384e7994af25b040bbef18278c378d16fc329d8250fc92",
+      "bytes": 16833,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/gpt-6-1-terra/2026-11-03.html",
+      "source": "2026-11-03/gpt-6-1-terra/2026-11-03.html",
+      "sha256": "1214ae1d23e4aa2a6b4636b838ea6b666537cf6b5551d65a0090d4397fcda067",
+      "bytes": 16099,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/gpt-6-astra/2026-11-03.html",
+      "source": "2026-11-03/gpt-6-astra/2026-11-03.html",
+      "sha256": "d9570e06945e2f327b16a83e91fd5d69d127a1eb69983d905fc9f9730246ccf4",
+      "bytes": 16601,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/gpt-6-luna/2026-11-03.html",
+      "source": "2026-11-03/gpt-6-luna/2026-11-03.html",
+      "sha256": "0e8ee9c249ed87effd8cd83949547393c4b7f1d846dd95e74232845d80d9e92a",
+      "bytes": 16802,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/grok-4-7/2026-11-03.html",
+      "source": "2026-11-03/grok-4-7/2026-11-03.html",
+      "sha256": "e79a51a9d4385035ccf5da3252dca0a63809cb181d4e1d5450b20291def4dde1",
+      "bytes": 17248,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/kimi-k3-1-pro/2026-11-03.html",
+      "source": "2026-11-03/kimi-k3-1-pro/2026-11-03.html",
+      "sha256": "22a30cb753556b0bf6648abe9af31438ced2519a22b9f0c4e23449f3dfa54940",
+      "bytes": 16772,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/minimax-m3-1-flash/2026-11-03.html",
+      "source": "2026-11-03/minimax-m3-1-flash/2026-11-03.html",
+      "sha256": "82b484b124e2fd3bd8a1b4675d86a471dea2b3ce5081d3c465997abf6b38e028",
+      "bytes": 17287,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/opus-5-5/2026-11-03.html",
+      "source": "2026-11-03/opus-5-5/2026-11-03.html",
+      "sha256": "8cf73f0e20b8238a83a9b8f92091b70c8d71c922aa03e684279a48ef2127e41c",
+      "bytes": 17092,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-03/qwen-3-8-max-0902/2026-11-03.html",
+      "source": "2026-11-03/qwen-3-8-max-0902/2026-11-03.html",
+      "sha256": "7fe251fb4af79166d19755a850e5aacbcb8c20e1e20ac6ab2fc07f5a6769e464",
+      "bytes": 16748,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/deepseek-v4-1-flash-1017/2026-11-07.html",
+      "source": "2026-11-07/deepseek-v4-1-flash-1017/2026-11-07.html",
+      "sha256": "fd8991ee50541ea97fe69376bf940edc1617cd265a137f0cf259a780105b1779",
+      "bytes": 16274,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/deepseek-v4-pro/2026-11-07.html",
+      "source": "2026-11-07/deepseek-v4-pro/2026-11-07.html",
+      "sha256": "cf2ee9216bb3ad42e801970ffa6806c3fb2e80f0cdc9e776687d9d82d421fb6b",
+      "bytes": 15907,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/glm-5-3/2026-11-07.html",
+      "source": "2026-11-07/glm-5-3/2026-11-07.html",
+      "sha256": "f901830858f8c46c8fbed5bd571354775ee3540fb0fb83ed3134c9411c2a0d4f",
+      "bytes": 16643,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/gpt-6-1-sol/2026-11-07.html",
+      "source": "2026-11-07/gpt-6-1-sol/2026-11-07.html",
+      "sha256": "ba9254d8722b8968dc933588a48534eb351d3b2f752ea48cac2cc8a69c59d494",
+      "bytes": 16453,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/gpt-6-1-terra/2026-11-07.html",
+      "source": "2026-11-07/gpt-6-1-terra/2026-11-07.html",
+      "sha256": "57e56dc38f961e1abde70f8d0d85a57254e4f4b44eedcc3f23b56c6dfbb91fe4",
+      "bytes": 16126,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/gpt-6-astra/2026-11-07.html",
+      "source": "2026-11-07/gpt-6-astra/2026-11-07.html",
+      "sha256": "86d57714af5b7493cc69a1cb805d6de7403411cb5a10f1f26ae64349ad9d6d84",
+      "bytes": 16424,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/gpt-6-luna/2026-11-07.html",
+      "source": "2026-11-07/gpt-6-luna/2026-11-07.html",
+      "sha256": "5042066a138fca948998a3514f90bf0f02c2f38bc0968229a662b972a78577c5",
+      "bytes": 16807,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/grok-4-7/2026-11-07.html",
+      "source": "2026-11-07/grok-4-7/2026-11-07.html",
+      "sha256": "9cbb06178f69c4b27e7dec152836eff1b611bd1a722eef50e9b422fba698646f",
+      "bytes": 16835,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/kimi-k3-1-pro/2026-11-07.html",
+      "source": "2026-11-07/kimi-k3-1-pro/2026-11-07.html",
+      "sha256": "65dd4904cc0ea116594046f386b8e3fb0f52c1c4486b92f6d232adc7126b4230",
+      "bytes": 16809,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/minimax-m3-1-flash/2026-11-07.html",
+      "source": "2026-11-07/minimax-m3-1-flash/2026-11-07.html",
+      "sha256": "e968b47aa632f03add81d2177889e3e35bddb21f08f210e3f715dc420f279c3f",
+      "bytes": 16840,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/opus-5-5/2026-11-07.html",
+      "source": "2026-11-07/opus-5-5/2026-11-07.html",
+      "sha256": "cf4b825eec8964fa60ea9a9425f70ee292ec6608a04728f67b8e860be1871f87",
+      "bytes": 16473,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "daily-results/2026-11-07/qwen-3-8-max-0902/2026-11-07.html",
+      "source": "2026-11-07/qwen-3-8-max-0902/2026-11-07.html",
+      "sha256": "403143cc25e2971aabff111c7d8b00ab26cebd8bbfa2abc2d4b859558bf1aa69",
+      "bytes": 16705,
+      "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    }
+  ]
+}
