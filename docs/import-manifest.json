@@ -107,7 +107,7 @@
       "selection": "Latest finalized daily cost report; historical values preserved, not recalculated."
     },
     {
-      "destination": "model-comparison/Model-Summary-2026-11-03.md",
+      "destination": "summary/Model-Summary-2026-11-03.md",
       "source": "summary-15487/Model-Summary-Scaled.md",
       "sha256": "390667be0dce0f2b5a72a48fd1e64d04f0bb158fa481500c9cdc8c5368c24c1b",
       "bytes": 5107,
@@ -910,6 +910,13 @@
       "sha256": "403143cc25e2971aabff111c7d8b00ab26cebd8bbfa2abc2d4b859558bf1aa69",
       "bytes": 16705,
       "selection": "Latest canonical model output; no history, previews, raw source pages, or superseded attempts."
+    },
+    {
+      "destination": "summary/Model-Summary-2026-11-07.md",
+      "source": "summary-15921/Model-Summary-2026-11-07.md",
+      "sha256": "655072500bbb0d3bdee8be02126ac468b3809efd71908c81d47bc103e4df8e37",
+      "bytes": 6158,
+      "selection": "Updated five-table summary: prior historical columns preserved, latest final results appended."
     }
   ]
 }

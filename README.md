@@ -2,6 +2,7 @@
 
 Private archive of AI Brief model-comparison reports, token-cost reports, and daily model HTML results.
 
+- [Summaries](summary/): dated cumulative model summaries; all future summaries are committed here.
 - [Model comparisons](model-comparison/): final revision of each saved analysis.
 - [Token costs](token-costs/): final saved daily reports and distinct route diagnostics.
 - [Daily results](daily-results/): `YYYY-MM-DD/model/` containing HTML only.
