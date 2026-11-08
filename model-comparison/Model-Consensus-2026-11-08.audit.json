@@ -64,7 +64,7 @@
       "sm": 2,
       "tm": 7,
       "score": 53,
-      "rank": 10
+      "rank": 13
     },
     {
       "name": "Sol",
@@ -127,9 +127,9 @@
       "elapsed_note": "Worker-reported elapsed_seconds.",
       "hm": 0,
       "sm": 3,
-      "tm": 7,
-      "score": 62,
-      "rank": 5
+      "tm": 8,
+      "score": 67,
+      "rank": 7
     },
     {
       "name": "Terra",
@@ -190,11 +190,11 @@
       "elapsed": 232,
       "status": "review_required",
       "elapsed_note": "Worker-reported elapsed_seconds.",
-      "hm": 1,
+      "hm": 0,
       "sm": 2,
-      "tm": 7,
-      "score": 58,
-      "rank": 8
+      "tm": 9,
+      "score": 63,
+      "rank": 10
     },
     {
       "name": "Luna",
@@ -259,7 +259,7 @@
       "sm": 2,
       "tm": 6,
       "score": 48,
-      "rank": 11
+      "rank": 14
     },
     {
       "name": "Qwen",
@@ -320,11 +320,11 @@
       "elapsed": 1599,
       "status": "review_required",
       "elapsed_note": "Worker-reported elapsed_seconds.",
-      "hm": 1,
+      "hm": 0,
       "sm": 4,
       "tm": 7,
-      "score": 76,
-      "rank": 2
+      "score": 71,
+      "rank": 5
     },
     {
       "name": "Flash",
@@ -387,9 +387,9 @@
       "elapsed_note": "Worker-reported elapsed_seconds.",
       "hm": 0,
       "sm": 3,
-      "tm": 6,
-      "score": 57,
-      "rank": 9
+      "tm": 8,
+      "score": 67,
+      "rank": 7
     },
     {
       "name": "Opus",
@@ -519,7 +519,7 @@
       "sm": 3,
       "tm": 6,
       "score": 62,
-      "rank": 5
+      "rank": 12
     },
     {
       "name": "DeepSeek Pro",
@@ -582,9 +582,9 @@
       "elapsed_note": "Worker-reported elapsed_seconds.",
       "hm": 1,
       "sm": 2,
-      "tm": 4,
-      "score": 43,
-      "rank": 12
+      "tm": 5,
+      "score": 48,
+      "rank": 14
     },
     {
       "name": "Kimi",
@@ -647,9 +647,9 @@
       "elapsed_note": "Worker-reported elapsed_seconds.",
       "hm": 0,
       "sm": 3,
-      "tm": 8,
-      "score": 67,
-      "rank": 4
+      "tm": 9,
+      "score": 72,
+      "rank": 3
     },
     {
       "name": "MiniMax",
@@ -712,9 +712,9 @@
       "elapsed_note": "Worker-reported elapsed_seconds.",
       "hm": 0,
       "sm": 3,
-      "tm": 7,
-      "score": 62,
-      "rank": 5
+      "tm": 9,
+      "score": 72,
+      "rank": 3
     },
     {
       "name": "Grok",
@@ -775,11 +775,271 @@
       "elapsed": 1110,
       "status": "review_required",
       "elapsed_note": "Worker-reported elapsed_seconds.",
+      "hm": 0,
+      "sm": 4,
+      "tm": 7,
+      "score": 71,
+      "rank": 5
+    },
+    {
+      "name": "Fable",
+      "slug": "fable-5-1",
+      "keys": [
+        "anthropic_ipo",
+        "arete",
+        "oracle",
+        "xcode_plugin",
+        "ai_safety_wh"
+      ],
+      "head": "anthropic_ipo",
+      "headline": "Investors Cut Anthropic IPO Valuation Expectations as Even $1.5 Trillion Looks Like a 'Stretch'",
+      "stories": [
+        {
+          "title": "Investors Cut Anthropic IPO Valuation Expectations as Even $1.5 Trillion Looks Like a 'Stretch'",
+          "summary": "After the Nasdaq's 5% drop on Thursday, Anthropic stakeholders told CNBC that a $1.5 trillion IPO valuation is now in doubt; one investor called it a \"stretch\" and another cited $1 trillion to $1.25 trillion as more likely. The company had sought up to $2 trillion, was privately valued at $965 billion in May, plans to list on Nasdaq as ANT, and is expected to start its roadshow next week. Anthropic declined to comment.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
+        },
+        {
+          "title": "Nous Research Releases Arete-27B, a Qwen3.8-27B Fine-Tune Targeting State-Aligned Answers",
+          "summary": "Nous Research post-trained Alibaba's open-weight Qwen3.8-27B into Arete-27B, publishing the weights, an 803-prompt Propaganda_Eval dataset and the training data on Hugging Face. On Nous's own evaluation, judged by Grok 4.7, answers adopting the Chinese state's framing fell from 22% to 0.9% and the fact score rose from 2.32 to 2.98 out of 5. Nous reports no significant Hermes Bench regression; these are the developer's own measurements, not independent replication.",
+          "source": "Nous Research (X announcement; blog at nousresearch.com/arete)",
+          "url": "https://x.com/NousResearch/status/2118822925445050435"
+        },
+        {
+          "title": "Microsoft Is Winding Down Its Oracle AI Cloud Capacity Deal, Bloomberg Reports",
+          "summary": "Microsoft is winding down an arrangement to rent AI computing capacity from Oracle as part of a larger reassessment of billions of dollars in cloud partnerships, Bloomberg News reported on Friday, citing people familiar with the matter. Oracle shares fell about 4% on the report. Oracle has said demand for its AI infrastructure remains strong. The move adds to investor scrutiny of AI infrastructure spending after a week of sharp declines in AI-linked stocks.",
+          "source": "Bloomberg via Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-winding-down-oracle-deal-173639264.html"
+        },
+        {
+          "title": "Apple Ships an Official Xcode Plugin for Claude Code",
+          "summary": "Anthropic merged an Apple-authored xcode plugin into its claude-plugins-official marketplace on November 6, exposing Xcode capabilities to Claude Code through MCP for native Apple-platform development. According to the plugin listing and developer reports, it lets Claude build, run and test apps, render SwiftUI previews, drive simulators and devices, and read build logs. It arrives days after Apple's Xcode 27.3 beta added Coding Intelligence support for ChatGPT, Codex and Claude.",
+          "source": "GitHub (anthropics/claude-plugins-official)",
+          "url": "https://github.com/anthropics/claude-plugins-official/pull/6338"
+        },
+        {
+          "title": "US AI Safety Center Staff Now Report Informally to the White House, AP Reports",
+          "summary": "Officials at the Center for Advancing Innovation and Standards for Super Intelligence (CAISSI), the Commerce Department division that evaluates new AI systems, were recently asked to informally report to a White House office, two former officials told the Associated Press. The $10 million-a-year center has had no permanent leader since its director resigned and stopped publishing safety reports in August. Critics worry about politicized findings; others say White House proximity could bring prominence and funding.",
+          "source": "AP News",
+          "url": "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13"
+        }
+      ],
+      "tweets": [
+        "2119142144749293863",
+        "2119081454969798718",
+        "2119296267545419987",
+        "2118851088111865983",
+        "2119267278789197995",
+        "2119083711522316490",
+        "2119162511203131591",
+        "2118836687925354862",
+        "2118825864494235964",
+        "2119201339020648849"
+      ],
+      "elapsed": 813,
+      "status": "review_required",
+      "elapsed_note": "Worker-reported elapsed_seconds.",
+      "hm": 0,
+      "sm": 2,
+      "tm": 9,
+      "score": 63,
+      "rank": 10
+    },
+    {
+      "name": "Sonnet",
+      "slug": "sonnet-5-5",
+      "keys": [
+        "openai_11b",
+        "anthropic_ipo",
+        "ai_safety_wh",
+        "claude_max",
+        "stargate"
+      ],
+      "head": "openai_11b",
+      "headline": "OpenAI Reportedly Closes $11 Billion of New Round at $1.25 Trillion Valuation",
+      "stories": [
+        {
+          "title": "OpenAI Reportedly Closes $11 Billion of New Round at $1.25 Trillion Valuation",
+          "source": "TechCrunch (citing Bloomberg)",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "summary": "Bloomberg reported Friday, citing people familiar with the matter, that OpenAI has received about $11 billion, the first part of a round that values the company at $1.25 trillion. The round is expected to close in the coming weeks and could total about $20 billion. Bloomberg reported in September that OpenAI was seeking $30 billion at a $1.4 trillion value, so the current figures fall well short of that target. OpenAI had not commented."
+        },
+        {
+          "title": "Anthropic IPO Valuation Talk Falls to $1.2 Trillion to $1.3 Trillion After AI Stock Selloff",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "summary": "Bloomberg reports that potential buyers of Anthropic shares are discussing a valuation of about $1.2 trillion to $1.3 trillion ahead of formal IPO marketing expected next week, citing people familiar with the matter. TechCrunch's summary adds that some buyers see $1.1 trillion, against roughly $2 trillion expected a month earlier. These are investor discussions after a sharp AI stock selloff, not an offer price, and Anthropic has set no IPO date or price."
+        },
+        {
+          "title": "Staff at US AI Safety Center Asked to Report to White House, Raising Independence Concerns",
+          "source": "Associated Press (via WTOP)",
+          "url": "https://wtop.com/national/2026/11/staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns/",
+          "summary": "AP reports that officials at the Commerce Department's Center for Advancing Innovation and Standards for Super Intelligence were recently asked to report informally to a White House office, according to two former officials speaking anonymously. The center has no permanent director, has stopped publishing its research and has a $10 million annual budget. Critics fear findings could be muted; the White House did not answer specific questions about the center."
+        },
+        {
+          "title": "Judge Lets Claims Over Anthropic's Claude Max Usage Advertising Proceed",
+          "source": "The Next Web (citing Courthouse News)",
+          "url": "https://thenextweb.com/news/anthropic-claude-max-lawsuit-ruling-usage-claims",
+          "summary": "Magistrate Judge Alex Tse ruled Friday that Anthropic must face negligent misrepresentation and breach of contract claims in Kahn v. Anthropic, a proposed class action over its \"5x or 20x more usage\" Claude Max marketing. Plaintiffs say weekly limits fall well short of those multiples. Tse dismissed several other claims and rejected Anthropic's argument that a help-page disclosure settled the question. TNW has not read the ruling itself."
+        },
+        {
+          "title": "SemiAnalysis Details 800MW Wind-Powered AI Campus in Inner Mongolia",
+          "source": "SemiAnalysis",
+          "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+          "summary": "SemiAnalysis toured Galaxy, an Envision Group campus in Ulanqab planned for up to 800MW of IT capacity, and says its first 120MW phase was delivered within a year at a fifth of US costs. The report describes a 5MW 800V DC pilot using solid-state transformers and cooling with no central chiller plant. The visit took place in September, and the figures are the firm's own observations."
+        }
+      ],
+      "tweets": [
+        "2118836687925354862",
+        "2119296267545419987",
+        "2119142144749293863",
+        "2118863369365045730",
+        "2118851088111865983",
+        "2119083711522316490",
+        "2119140502746308674",
+        "2119201339020648849",
+        "2119244385867251955",
+        "2118923825232621998"
+      ],
+      "elapsed": 225,
+      "status": "review_required",
+      "elapsed_note": "Worker-reported elapsed_seconds.",
       "hm": 1,
       "sm": 4,
       "tm": 7,
       "score": 76,
       "rank": 2
+    },
+    {
+      "name": "Haiku",
+      "slug": "haiku-5-5",
+      "keys": [
+        "openai_11b",
+        "ai_safety_wh",
+        "muse_voice",
+        "gpt_image",
+        "arena"
+      ],
+      "head": "openai_11b",
+      "headline": "OpenAI Reports $11 Billion Raised at $1.25 Trillion Valuation as Round Stays Open",
+      "stories": [
+        {
+          "title": "OpenAI Reports $11 Billion Raised at $1.25 Trillion Valuation as Round Stays Open",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "summary": "OpenAI has raised $11 billion so far in a funding round valuing the company at $1.25 trillion, Bloomberg reported on Friday, November 6, as relayed by TechCrunch. The round has not closed and is expected to close in the coming weeks, with a source saying it could total about $20 billion. That falls well short of the $30 billion target Bloomberg reported in late September."
+        },
+        {
+          "title": "CAISSI Staff Reportedly Asked to Report to White House Office",
+          "source": "AP via U.S. News",
+          "url": "https://www.usnews.com/news/us/articles/2026-11-08/staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns",
+          "summary": "CAISSI, the Commerce Department division that assesses new AI offerings, lacks a permanent leader and has stopped publishing its research, AP reported. Two former officials told AP that its staff were recently asked to informally report to a White House office, an arrangement critics say could politicize or mute its findings. The account relies on anonymous former officials."
+        },
+        {
+          "title": "Meta Opens Muse Voice to Everyone in the US With Real-Time Spoken Conversation",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+          "summary": "Meta announced Thursday, November 5, that Muse Voice is available to all US users. The feature lets users call and video-chat with Muse, Meta's consumer AI agent, using new Muse Realtime Voice and Muse Realtime Avatar models. The animated avatar, nicknamed Jolly, can be customized, and Meta first introduced the feature at its September Connect conference."
+        },
+        {
+          "title": "Artificial Analysis Ranks OpenAI's GPT Image 2.6 First on Text-to-Image and Editing Leaderboards",
+          "source": "Artificial Analysis",
+          "url": "https://x.com/ArtificialAnlys/status/2118851088111865983",
+          "summary": "New developments: Artificial Analysis says GPT Image 2.6 takes #1 and #2 on its AA-Image-T2I v2.1 and AA-Image-Editing v2.1 leaderboards. GPT Image 2.6 Flare generates almost twice as fast as GPT Image 2.5 Flare with slightly better quality, while Sunburst takes the top spot at about 2 minutes 15 seconds per image. Both models cost $30 per 1M image output tokens, unchanged from GPT Image 2.5."
+        },
+        {
+          "title": "Arena Ranks Kimi K3.1 Pro Top Open Model and Tencent Hy4 Top Chinese Model in Agent Arena",
+          "source": "Arena",
+          "url": "https://x.com/arena/status/2118836687925354862",
+          "summary": "New developments: Arena's weekly update says Moonshot's Kimi K3.1 Pro ranks #1 among open models in Agent Arena at +5.3% net improvement. Tencent's Hy4 debuted as the #1 Chinese model in Agent Arena at +5.4% net improvement and a $0.57 median cost per task, with open weights coming soon. These are Arena's own evaluation results, not independent replication."
+        }
+      ],
+      "tweets": [
+        "2119296267545419987",
+        "2119162511203131591",
+        "2118905429535379691",
+        "2119244385867251955",
+        "2119083711522316490",
+        "2119047005905236161",
+        "2119142144749293863",
+        "2119093107547365439",
+        "2119140502746308674",
+        "2119103146974957675"
+      ],
+      "elapsed": 313,
+      "status": "review_required",
+      "elapsed_note": "Worker-reported elapsed_seconds.",
+      "hm": 1,
+      "sm": 2,
+      "tm": 5,
+      "score": 48,
+      "rank": 14
+    },
+    {
+      "name": "Argon",
+      "slug": "gemini-4-argon",
+      "keys": [
+        "openai_11b",
+        "arete",
+        "secrets",
+        "claude_research",
+        "ai_safety_wh"
+      ],
+      "head": "openai_11b",
+      "headline": "OpenAI Completes $11 Billion First Close at $1.25 Trillion Valuation",
+      "stories": [
+        {
+          "title": "OpenAI Completes $11 Billion First Close at $1.25 Trillion Valuation",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "summary": "OpenAI has raised $11 billion at a $1.25 trillion valuation in the first close of an ongoing funding round that could reach about $20 billion in the coming weeks, according to Bloomberg reporting cited by TechCrunch. The total sits below the $30 billion at a $1.4 trillion valuation OpenAI sought in late September, though the valuation is up 46.7 percent from the $852 billion level reached in March."
+        },
+        {
+          "title": "Nous Research Releases Open-Weight Arete-27B and 803-Prompt Values Benchmark",
+          "source": "Nous Research",
+          "url": "https://huggingface.co/NousResearch/Arete-27B",
+          "summary": "Nous Research released Arete-27B, an open-weight model post-trained from Alibaba's Qwen3.8-27B on 52.8 million tokens using Thinking Machines' Inkling as a teacher, alongside its open 803-prompt Propaganda_Eval dataset and training pairs. Across seven value categories, Arete-27B raised factual recall from 2.32 to 2.98 out of 5 and reduced Chinese state-aligned propaganda responses from 22 percent to 0.9 percent without hurting its 65.60 percent Hermes Bench score."
+        },
+        {
+          "title": "Claude Code Permission Files Expose 1,379 Secrets Across 1,122 Public GitHub Repos",
+          "source": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+          "summary": "New developments: Separate from Friday's User-Agent email leak, Apiiro researchers scanned 104,185 public GitHub copies of Claude Code's .claude/settings.local.json file and found 1,122 files exposing 1,379 plaintext secrets saved when users selected 'Yes, and don't ask again.' Exposed credentials across 63 organizations included 379 database passwords, 43 SSH logins and 23 AWS keys because Claude Code adds the file only to local global Git excludes rather than project .gitignore files."
+        },
+        {
+          "title": "Anthropic Study of 207,000 Claude Sessions Estimates AI Could Handle 38% of Research Time",
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "summary": "Anthropic analyzed 207,000 privacy-preserved Claude and Claude Code sessions alongside a researcher survey to measure how scientists use AI across disciplines. Data analysis and writing account for most usage, with data analysis representing nearly half of Claude Code sessions, and Anthropic's model estimates that widespread adoption of current AI capabilities could take on 27 to 52 percent of researcher time per study, with a 38 percent median."
+        },
+        {
+          "title": "US AI Safety Center Staff Asked to Report to White House Amid Leadership Vacuum",
+          "source": "Associated Press (via WTOP)",
+          "url": "https://wtop.com/national/2026/11/staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns/",
+          "summary": "Officials at the Commerce Department's Center for Advancing Innovation and Standards for Super Intelligence, formerly the U.S. Center for AI Standards and Innovation, were recently asked to informally report to a White House office, two former officials told the Associated Press. Allocated $10 million annually, about one-eighth of its UK counterpart's budget, the division lacks a permanent director after two departures since April and stopped publishing safety reports by August."
+        }
+      ],
+      "tweets": [
+        "2119296267545419987",
+        "2119142144749293863",
+        "2119083711522316490",
+        "2119093107547365439",
+        "2119081454969798718",
+        "2118851088111865983",
+        "2118836687925354862",
+        "2119162511203131591",
+        "2119244385867251955",
+        "2119190885871312911"
+      ],
+      "elapsed": 992,
+      "status": "review_required",
+      "elapsed_note": "Worker-reported elapsed_seconds.",
+      "hm": 1,
+      "sm": 3,
+      "tm": 7,
+      "score": 67,
+      "rank": 7
     }
   ],
   "labels": {
@@ -804,6 +1064,9 @@
     "asahi": "Asahi Linux GPLv2-or-later move and AI-contribution rejection",
     "anthropic_ipo": "Anthropic IPO price pressure after AI rout",
     "moonshot": "Moonshot AI Blackwell capacity from European neoclouds",
+    "oracle": "Microsoft winding down Oracle AI capacity deal",
+    "arena": "Arena Kimi K3.1 Pro and Tencent Hy4 agent rankings",
+    "secrets": "Claude Code permission-file secret exposure",
     "bioweapon": "White House AI bioweapon policy finalization"
   },
   "headlines": {
@@ -857,6 +1120,18 @@
       [
         "DeepSeek Pro",
         1
+      ],
+      [
+        "Sonnet",
+        1
+      ],
+      [
+        "Haiku",
+        1
+      ],
+      [
+        "Argon",
+        1
       ]
     ],
     "stargate": [
@@ -868,6 +1143,10 @@
     "anthropic_ipo": [
       [
         "MiniMax",
+        1
+      ],
+      [
+        "Fable",
         1
       ]
     ]
@@ -925,6 +1204,10 @@
       [
         "Grok",
         2
+      ],
+      [
+        "Sonnet",
+        5
       ]
     ],
     "ai_safety_wh": [
@@ -967,6 +1250,22 @@
       [
         "Grok",
         3
+      ],
+      [
+        "Fable",
+        5
+      ],
+      [
+        "Sonnet",
+        3
+      ],
+      [
+        "Haiku",
+        2
+      ],
+      [
+        "Argon",
+        5
       ]
     ],
     "ai_fraud": [
@@ -987,6 +1286,10 @@
       [
         "DeepSeek Pro",
         2
+      ],
+      [
+        "Haiku",
+        4
       ]
     ],
     "claude_max": [
@@ -1017,6 +1320,10 @@
       [
         "Grok",
         4
+      ],
+      [
+        "Sonnet",
+        4
       ]
     ],
     "arete": [
@@ -1039,6 +1346,14 @@
       [
         "Grok",
         1
+      ],
+      [
+        "Fable",
+        2
+      ],
+      [
+        "Argon",
+        2
       ]
     ],
     "rsa": [
@@ -1058,6 +1373,10 @@
       ],
       [
         "GLM",
+        4
+      ],
+      [
+        "Argon",
         4
       ]
     ],
@@ -1097,6 +1416,18 @@
       [
         "MiniMax",
         2
+      ],
+      [
+        "Sonnet",
+        1
+      ],
+      [
+        "Haiku",
+        1
+      ],
+      [
+        "Argon",
+        1
       ]
     ],
     "muse_voice": [
@@ -1106,6 +1437,10 @@
       ],
       [
         "DeepSeek Pro",
+        3
+      ],
+      [
+        "Haiku",
         3
       ]
     ],
@@ -1131,6 +1466,10 @@
       [
         "Opus",
         3
+      ],
+      [
+        "Fable",
+        4
       ]
     ],
     "asahi": [
@@ -1149,11 +1488,37 @@
       [
         "MiniMax",
         1
+      ],
+      [
+        "Fable",
+        1
+      ],
+      [
+        "Sonnet",
+        2
       ]
     ],
     "moonshot": [
       [
         "MiniMax",
+        3
+      ]
+    ],
+    "oracle": [
+      [
+        "Fable",
+        3
+      ]
+    ],
+    "arena": [
+      [
+        "Haiku",
+        5
+      ]
+    ],
+    "secrets": [
+      [
+        "Argon",
         3
       ]
     ]
@@ -1191,6 +1556,22 @@
       [
         "MiniMax",
         6
+      ],
+      [
+        "Fable",
+        3
+      ],
+      [
+        "Sonnet",
+        2
+      ],
+      [
+        "Haiku",
+        1
+      ],
+      [
+        "Argon",
+        1
       ]
     ],
     "2118851088111865983": [
@@ -1233,6 +1614,18 @@
       [
         "Grok",
         3
+      ],
+      [
+        "Fable",
+        4
+      ],
+      [
+        "Sonnet",
+        5
+      ],
+      [
+        "Argon",
+        6
       ]
     ],
     "2119142144749293863": [
@@ -1271,6 +1664,22 @@
       [
         "Grok",
         5
+      ],
+      [
+        "Fable",
+        1
+      ],
+      [
+        "Sonnet",
+        3
+      ],
+      [
+        "Haiku",
+        7
+      ],
+      [
+        "Argon",
+        2
       ]
     ],
     "2119083711522316490": [
@@ -1305,6 +1714,22 @@
       [
         "Grok",
         4
+      ],
+      [
+        "Fable",
+        6
+      ],
+      [
+        "Sonnet",
+        6
+      ],
+      [
+        "Haiku",
+        5
+      ],
+      [
+        "Argon",
+        3
       ]
     ],
     "2119162511203131591": [
@@ -1347,6 +1772,18 @@
       [
         "Grok",
         1
+      ],
+      [
+        "Fable",
+        7
+      ],
+      [
+        "Haiku",
+        2
+      ],
+      [
+        "Argon",
+        8
       ]
     ],
     "2118871344633045072": [
@@ -1387,6 +1824,18 @@
       [
         "Sol",
         7
+      ],
+      [
+        "Sonnet",
+        9
+      ],
+      [
+        "Haiku",
+        4
+      ],
+      [
+        "Argon",
+        9
       ]
     ],
     "2119201339020648849": [
@@ -1421,6 +1870,14 @@
       [
         "Grok",
         9
+      ],
+      [
+        "Fable",
+        10
+      ],
+      [
+        "Sonnet",
+        8
       ]
     ],
     "2118829175662682300": [
@@ -1454,6 +1911,10 @@
       ],
       [
         "MiniMax",
+        5
+      ],
+      [
+        "Fable",
         5
       ]
     ],
@@ -1517,6 +1978,18 @@
       [
         "MiniMax",
         7
+      ],
+      [
+        "Fable",
+        8
+      ],
+      [
+        "Sonnet",
+        1
+      ],
+      [
+        "Argon",
+        7
       ]
     ],
     "2119081454969798718": [
@@ -1535,12 +2008,28 @@
       [
         "MiniMax",
         2
+      ],
+      [
+        "Fable",
+        2
+      ],
+      [
+        "Argon",
+        5
       ]
     ],
     "2119093107547365439": [
       [
         "Terra",
         7
+      ],
+      [
+        "Haiku",
+        8
+      ],
+      [
+        "Argon",
+        4
       ]
     ],
     "2118835158606610575": [
@@ -1591,6 +2080,14 @@
       [
         "Grok",
         10
+      ],
+      [
+        "Sonnet",
+        7
+      ],
+      [
+        "Haiku",
+        9
       ]
     ],
     "2118856544733532452": [
@@ -1667,12 +2164,20 @@
       [
         "GLM",
         10
+      ],
+      [
+        "Fable",
+        9
       ]
     ],
     "2118923825232621998": [
       [
         "DeepSeek Pro",
         2
+      ],
+      [
+        "Sonnet",
+        10
       ]
     ],
     "2118859591798980657": [
@@ -1691,6 +2196,10 @@
       [
         "DeepSeek Pro",
         7
+      ],
+      [
+        "Sonnet",
+        4
       ]
     ],
     "2119083280381383072": [
@@ -1710,10 +2219,33 @@
         "Grok",
         6
       ]
+    ],
+    "2118905429535379691": [
+      [
+        "Haiku",
+        3
+      ]
+    ],
+    "2119047005905236161": [
+      [
+        "Haiku",
+        6
+      ]
+    ],
+    "2119103146974957675": [
+      [
+        "Haiku",
+        10
+      ]
+    ],
+    "2119190885871312911": [
+      [
+        "Argon",
+        10
+      ]
     ]
   },
   "eligible_headlines": [
-    "arete",
     "openai_11b"
   ],
   "eligible_stories": [
@@ -1727,12 +2259,14 @@
     "2118836687925354862",
     "2118851088111865983",
     "2118871344633045072",
+    "2119081454969798718",
     "2119083711522316490",
     "2119114537442189652",
     "2119140502746308674",
     "2119142144749293863",
     "2119162511203131591",
     "2119201339020648849",
+    "2119267278789197995",
     "2119296267545419987"
   ],
   "input_sha256": {
@@ -1807,7 +2341,31 @@
     "2026-11-08/grok-4-7/run.json": "4e9043a6ff4e2086abc9e9115b5e03454b894bebf1390a76f83db37ae86bc5bc",
     "2026-11-08/grok-4-7/headline.json": "2841541bb5a9750e3a7129f894080653401ede3cd6984cf84299cd4c403b9a92",
     "2026-11-08/grok-4-7/2026-11-08.x-collection.json": "47a9639a528ddd4c654308704b0e7aa5937ae73607e47c5db6e53fe02f17acf5",
-    "2026-11-08/grok-4-7/2026-11-08.web-search.json": "130da2244e94e768dc740c2a2bc12e71289d2eafe891181eb8448498465713d9"
+    "2026-11-08/grok-4-7/2026-11-08.web-search.json": "130da2244e94e768dc740c2a2bc12e71289d2eafe891181eb8448498465713d9",
+    "2026-11-08/fable-5-1/2026-11-08.edition.md": "dbba7ab15dfbc259e8375bb93ba5575a2c6d5bf21de49a4e2825d91c5ba1372f",
+    "2026-11-08/fable-5-1/2026-11-08.html": "fdc7e617f01a25275cd2554385da6bbe36e6fe11e14a5184681071b0d0b3aab7",
+    "2026-11-08/fable-5-1/run.json": "350ed65e1ab567f23f6a04a0d889a862f0fb6c450b1758c5d105947b75af1f2a",
+    "2026-11-08/fable-5-1/headline.json": "5e420aa81681194867f180ebd691b481df87923cce7e9da667827548d7911fe9",
+    "2026-11-08/fable-5-1/2026-11-08.x-collection.json": "47a9639a528ddd4c654308704b0e7aa5937ae73607e47c5db6e53fe02f17acf5",
+    "2026-11-08/fable-5-1/2026-11-08.web-search.json": "130da2244e94e768dc740c2a2bc12e71289d2eafe891181eb8448498465713d9",
+    "2026-11-08/sonnet-5-5/2026-11-08.edition.md": "c81835fe9b948bd9ae2cec48a7b769a9e3560721c1c4c8e0e813882efe631533",
+    "2026-11-08/sonnet-5-5/2026-11-08.html": "8730993d55a384a515af1ea44cecf8e27352b5b621befbc470ca670a217082f3",
+    "2026-11-08/sonnet-5-5/run.json": "89dbf7309c2e7879cf68ad8c07ce8be8e852fe906ea5d7aa6b6624c70f187fea",
+    "2026-11-08/sonnet-5-5/headline.json": "e6ee74ebc78b2b9ee21c14ac5112983b8211f0cfb7a4f8cd0c8d5a5b97869c31",
+    "2026-11-08/sonnet-5-5/2026-11-08.x-collection.json": "47a9639a528ddd4c654308704b0e7aa5937ae73607e47c5db6e53fe02f17acf5",
+    "2026-11-08/sonnet-5-5/2026-11-08.web-search.json": "130da2244e94e768dc740c2a2bc12e71289d2eafe891181eb8448498465713d9",
+    "2026-11-08/haiku-5-5/2026-11-08.edition.md": "f7753f353a2cab1bbad7558017f49f0264d9929b941b9c91a593b797253be6a9",
+    "2026-11-08/haiku-5-5/2026-11-08.html": "7350ed61e3f064a7566428c2d0fbf3e4d093062f490d0a8c7d00de925b2ccf22",
+    "2026-11-08/haiku-5-5/run.json": "c8c6f84fb5cabec3271b04deba6eb63605c9e6c434466b25cd54e5ff344558d6",
+    "2026-11-08/haiku-5-5/headline.json": "f6ff697540bbb9b0f9b673aacb5b9ffbf605e2639b2da0b821227f1e5187e7dd",
+    "2026-11-08/haiku-5-5/2026-11-08.x-collection.json": "47a9639a528ddd4c654308704b0e7aa5937ae73607e47c5db6e53fe02f17acf5",
+    "2026-11-08/haiku-5-5/2026-11-08.web-search.json": "130da2244e94e768dc740c2a2bc12e71289d2eafe891181eb8448498465713d9",
+    "2026-11-08/gemini-4-argon/2026-11-08.edition.md": "363ae9279236966f965c6af9054c19dd7b09bfc9c3396d779619a073dbce9b9d",
+    "2026-11-08/gemini-4-argon/2026-11-08.html": "14b8ed8cf97c6b3061ff6beee179d20e29b6090397223d0dbf8ba5f31fa8b2a4",
+    "2026-11-08/gemini-4-argon/run.json": "4edd5c202f99d1b0c1db6c7ffdc670b89b0b60341e3ba395ef85f88e9102fe3e",
+    "2026-11-08/gemini-4-argon/headline.json": "fc64c7f88e787d92e52a3463c95ba99b7b68225565907e3827b8d124509281da",
+    "2026-11-08/gemini-4-argon/2026-11-08.x-collection.json": "47a9639a528ddd4c654308704b0e7aa5937ae73607e47c5db6e53fe02f17acf5",
+    "2026-11-08/gemini-4-argon/2026-11-08.web-search.json": "130da2244e94e768dc740c2a2bc12e71289d2eafe891181eb8448498465713d9"
   },
   "excluded_models": []
 }

@@ -1,6 +1,6 @@
 {
   "source": "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08/usage-audit-ken/usage-and-cost.json",
-  "source_sha256": "2987a72353012e3639c1f1ff3fe4b02b9275f3713bd385adfdc845c3fb5db511",
+  "source_sha256": "6a45a8087c12f8a3cfa7000299918ff715bc0ba772a64d48065d8fd135abd2d7",
   "selected": [
     {
       "display_name": "Opus",
@@ -58,6 +58,152 @@
           "claude-opus-5-5"
         ],
         "key": "claude-opus-5-5"
+      }
+    },
+    {
+      "display_name": "Sonnet",
+      "job": "Sonnet 5.5 subscription",
+      "job_id": "3d0f3e66-2d2f-4052-ae10-b32f9832fe45",
+      "slug": "sonnet-5-5",
+      "role": "comparison",
+      "run_at": "2026-11-08T16:14:54-05:00",
+      "duration_s": 248,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "0836a5fb-3b9d-437e-a82b-bd80e11484cd",
+      "provider": "anthropic",
+      "model": "claude-sonnet-5-5",
+      "route": "claude-code",
+      "billing": "subscription",
+      "source": null,
+      "api_calls": 0,
+      "usage": null,
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 2,
+        "output": 856,
+        "cache_read": 174235,
+        "cache_write": 1464
+      },
+      "cron_usage_check": null,
+      "model_ref": "anthropic/claude-sonnet-5-5",
+      "pricing_key": null,
+      "pricing_source_url": null,
+      "api_equivalent_usd": null,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {},
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [
+        "claude-cli session binding not found for this run"
+      ],
+      "model_ref_source": "run.json expected_model",
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+    },
+    {
+      "display_name": "Kimi",
+      "job": "Kimi K3.1 Pro",
+      "job_id": "4b0d8f13-0df6-4a0c-a2a5-f6aee96545aa",
+      "slug": "kimi-k3-1-pro",
+      "role": "comparison",
+      "run_at": "2026-11-08T08:13:40-05:00",
+      "duration_s": 323,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "e412fb86-7870-4011-984c-0e11e179ddb4",
+      "provider": "openrouter_kimi",
+      "model": "moonshotai/kimi-k3.1-pro",
+      "route": "openrouter",
+      "billing": "billed",
+      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
+      "api_calls": 33,
+      "usage": {
+        "input_uncached": 159932,
+        "output": 23225,
+        "cache_read": 3617216,
+        "cache_write": 0
+      },
+      "reasoning_tokens": 3638,
+      "cron_usage": {
+        "input_uncached": 159932,
+        "output": 23225,
+        "cache_read": 3617216,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "openrouter_kimi/moonshotai/kimi-k3.1-pro",
+      "pricing_key": "kimi-k3.1-pro",
+      "pricing_source_url": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
+      "api_equivalent_usd": 1.2756,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Standard flat": 33
+      },
+      "openrouter_billed_usd": 1.2756,
+      "openrouter_billed_calls": "33/33",
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "kimi-k3.1-pro",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "kimi-k3.1-pro"
+        ],
+        "key": "kimi-k3.1-pro"
+      }
+    },
+    {
+      "display_name": "MiniMax",
+      "job": "MiniMax M3.1 Flash",
+      "job_id": "2378a8db-f400-4b0a-a680-7c0acd2f32a1",
+      "slug": "minimax-m3-1-flash",
+      "role": "comparison",
+      "run_at": "2026-11-08T09:11:10-05:00",
+      "duration_s": 1342,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "ca8ce19a-954b-4cbb-b3ac-ba7559d3dbdb",
+      "provider": "openrouter_mini",
+      "model": "minimax/minimax-m3.1-flash",
+      "route": "openrouter",
+      "billing": "billed",
+      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
+      "api_calls": 125,
+      "usage": {
+        "input_uncached": 413443,
+        "output": 182511,
+        "cache_read": 29484800,
+        "cache_write": 0
+      },
+      "reasoning_tokens": 153977,
+      "cron_usage": {
+        "input_uncached": 413443,
+        "output": 182511,
+        "cache_read": 29484800,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "openrouter_mini/minimax/minimax-m3.1-flash@openrouter_mini:manual",
+      "pricing_key": "MiniMax-M3.1-Flash",
+      "pricing_source_url": "https://www.minimax.io/blog/minimax-m31f",
+      "api_equivalent_usd": 0.6138,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Direct flat": 125
+      },
+      "openrouter_billed_usd": 0.6138,
+      "openrouter_billed_calls": "124/125",
+      "gaps": [],
+      "model_ref_source": "cron job payload model",
+      "pricing_match": {
+        "identity": "minimax-m3.1-flash",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "MiniMax-M3.1-Flash"
+        ],
+        "key": "MiniMax-M3.1-Flash"
       }
     },
     {
@@ -174,268 +320,56 @@
       }
     },
     {
-      "display_name": "Kimi",
-      "job": "Kimi K3.1 Pro",
-      "job_id": "4b0d8f13-0df6-4a0c-a2a5-f6aee96545aa",
-      "slug": "kimi-k3-1-pro",
+      "display_name": "Argon",
+      "job": "Gemini 4 Argon",
+      "job_id": "d995e5f1-b70e-436d-9816-3a7d591f31c2",
+      "slug": "gemini-4-argon",
       "role": "comparison",
-      "run_at": "2026-11-08T08:13:40-05:00",
-      "duration_s": 323,
+      "run_at": "2026-11-08T16:48:14-05:00",
+      "duration_s": 1033,
       "status": "ok",
       "completion_status": "succeeded",
-      "session_id": "e412fb86-7870-4011-984c-0e11e179ddb4",
-      "provider": "openrouter_kimi",
-      "model": "moonshotai/kimi-k3.1-pro",
-      "route": "openrouter",
-      "billing": "billed",
+      "session_id": "15d3bf2d-f47d-4776-b9ab-e6071a9277d2",
+      "provider": "google",
+      "model": "gemini-4-argon",
+      "route": "google",
+      "billing": "unknown",
       "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
-      "api_calls": 33,
+      "api_calls": 45,
       "usage": {
-        "input_uncached": 159932,
-        "output": 23225,
-        "cache_read": 3617216,
+        "input_uncached": 307278,
+        "output": 47066,
+        "cache_read": 5930994,
         "cache_write": 0
       },
-      "reasoning_tokens": 3638,
+      "reasoning_tokens": null,
       "cron_usage": {
-        "input_uncached": 159932,
-        "output": 23225,
-        "cache_read": 3617216,
+        "input_uncached": 307278,
+        "output": 47066,
+        "cache_read": 5930994,
         "cache_write": 0
       },
       "cron_usage_check": "exact",
-      "model_ref": "openrouter_kimi/moonshotai/kimi-k3.1-pro",
-      "pricing_key": "kimi-k3.1-pro",
-      "pricing_source_url": "https://www.kimi.ai/resources/kimi-k3-1-pro-pricing",
-      "api_equivalent_usd": 1.2756,
+      "model_ref": "google/gemini-4-argon",
+      "pricing_key": "gemini-4-argon",
+      "pricing_source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "api_equivalent_usd": 1.6783,
       "api_equivalent_range_usd": null,
       "tiers_used": {
-        "Standard flat": 33
-      },
-      "openrouter_billed_usd": 1.2756,
-      "openrouter_billed_calls": "33/33",
-      "gaps": [],
-      "model_ref_source": "run.json expected_model",
-      "pricing_match": {
-        "identity": "kimi-k3.1-pro",
-        "method": "route-independent-model-id",
-        "status": "matched",
-        "candidates": [
-          "kimi-k3.1-pro"
-        ],
-        "key": "kimi-k3.1-pro"
-      }
-    },
-    {
-      "display_name": "GLM",
-      "job": "GLM-5.3",
-      "job_id": "f7bfaf98-68ff-4c37-924d-8ee4e6ff8d12",
-      "slug": "glm-5-3",
-      "role": "comparison",
-      "run_at": "2026-11-08T07:47:43-05:00",
-      "duration_s": 250,
-      "status": "ok",
-      "completion_status": "succeeded",
-      "session_id": "02a470cd-5d73-47fa-9031-628a9b8fb726",
-      "provider": "openrouter_eich",
-      "model": "z-ai/glm-5.3",
-      "route": "openrouter",
-      "billing": "billed",
-      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
-      "api_calls": 54,
-      "usage": {
-        "input_uncached": 246851,
-        "output": 24338,
-        "cache_read": 3407782,
-        "cache_write": 0
-      },
-      "reasoning_tokens": 9852,
-      "cron_usage": {
-        "input_uncached": 246851,
-        "output": 24338,
-        "cache_read": 3407782,
-        "cache_write": 0
-      },
-      "cron_usage_check": "exact",
-      "model_ref": "openrouter_eich/z-ai/glm-5.3",
-      "pricing_key": "glm-5.3",
-      "pricing_source_url": "https://docs.z.ai/guides/overview/pricing",
-      "api_equivalent_usd": 1.3387,
-      "api_equivalent_range_usd": null,
-      "tiers_used": {
-        "Z.AI direct": 54
-      },
-      "openrouter_billed_usd": 1.668,
-      "openrouter_billed_calls": "54/54",
-      "gaps": [],
-      "model_ref_source": "run.json expected_model",
-      "pricing_match": {
-        "identity": "glm-5.3",
-        "method": "route-independent-model-id",
-        "status": "matched",
-        "candidates": [
-          "glm-5.3"
-        ],
-        "key": "glm-5.3"
-      }
-    },
-    {
-      "display_name": "MiniMax",
-      "job": "MiniMax M3.1 Flash",
-      "job_id": "2378a8db-f400-4b0a-a680-7c0acd2f32a1",
-      "slug": "minimax-m3-1-flash",
-      "role": "comparison",
-      "run_at": "2026-11-08T09:11:10-05:00",
-      "duration_s": 1342,
-      "status": "ok",
-      "completion_status": "succeeded",
-      "session_id": "ca8ce19a-954b-4cbb-b3ac-ba7559d3dbdb",
-      "provider": "openrouter_mini",
-      "model": "minimax/minimax-m3.1-flash",
-      "route": "openrouter",
-      "billing": "billed",
-      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
-      "api_calls": 125,
-      "usage": {
-        "input_uncached": 413443,
-        "output": 182511,
-        "cache_read": 29484800,
-        "cache_write": 0
-      },
-      "reasoning_tokens": 153977,
-      "cron_usage": {
-        "input_uncached": 413443,
-        "output": 182511,
-        "cache_read": 29484800,
-        "cache_write": 0
-      },
-      "cron_usage_check": "exact",
-      "model_ref": "openrouter_mini/minimax/minimax-m3.1-flash@openrouter_mini:manual",
-      "pricing_key": "MiniMax-M3.1-Flash",
-      "pricing_source_url": "https://www.minimax.io/blog/minimax-m31f",
-      "api_equivalent_usd": 0.6138,
-      "api_equivalent_range_usd": null,
-      "tiers_used": {
-        "Direct flat": 125
-      },
-      "openrouter_billed_usd": 0.6138,
-      "openrouter_billed_calls": "124/125",
-      "gaps": [],
-      "model_ref_source": "cron job payload model",
-      "pricing_match": {
-        "identity": "minimax-m3.1-flash",
-        "method": "route-independent-model-id",
-        "status": "matched",
-        "candidates": [
-          "MiniMax-M3.1-Flash"
-        ],
-        "key": "MiniMax-M3.1-Flash"
-      }
-    },
-    {
-      "display_name": "Sol",
-      "job": "GPT-6.1 Sol",
-      "job_id": "955b293b-4a01-486f-8437-bf680e523c96",
-      "slug": "gpt-6-1-sol",
-      "role": "comparison",
-      "run_at": "2026-11-08T07:48:14-05:00",
-      "duration_s": 400,
-      "status": "ok",
-      "completion_status": "succeeded",
-      "session_id": "8921b8a6-248f-4044-a8e6-915f43ed0d3d",
-      "provider": "openai",
-      "model": "gpt-6.1-sol",
-      "route": "codex",
-      "billing": "subscription",
-      "source": "codex rollout rollout-2026-11-08T07-48-20-01a1bb33-dc66-70a2-8798-7618a0ee43cd.jsonl (last_token_usage per call; uncached = input - cached)",
-      "api_calls": 26,
-      "usage": {
-        "input_uncached": 147152,
-        "output": 13343,
-        "cache_read": 2642048,
-        "cache_write": 0
-      },
-      "reasoning_tokens": 1626,
-      "cron_usage": {
-        "input_uncached": 147152,
-        "output": 13343,
-        "cache_read": 2642048,
-        "cache_write": 0
-      },
-      "cron_usage_check": "exact",
-      "model_ref": "openai/gpt-6.1-sol",
-      "pricing_key": "gpt-6.1-sol",
-      "pricing_source_url": "https://developers.openai.com/api/docs/pricing",
-      "api_equivalent_usd": 0.6919,
-      "api_equivalent_range_usd": null,
-      "tiers_used": {
-        "Standard short": 26
+        "Introductory": 45
       },
       "openrouter_billed_usd": null,
       "openrouter_billed_calls": null,
       "gaps": [],
       "model_ref_source": "run.json expected_model",
       "pricing_match": {
-        "identity": "gpt-6.1-sol",
+        "identity": "gemini-4-argon",
         "method": "route-independent-model-id",
         "status": "matched",
         "candidates": [
-          "gpt-6.1-sol"
+          "gemini-4-argon"
         ],
-        "key": "gpt-6.1-sol"
-      }
-    },
-    {
-      "display_name": "Terra",
-      "job": "GPT-6.1 Terra",
-      "job_id": "de7dcddc-d032-496d-ac19-f59e8efb20bc",
-      "slug": "gpt-6-1-terra",
-      "role": "comparison",
-      "run_at": "2026-11-08T07:55:14-05:00",
-      "duration_s": 251,
-      "status": "ok",
-      "completion_status": "succeeded",
-      "session_id": "a565da5a-1d75-4998-8c10-6da9ffd90751",
-      "provider": "openai",
-      "model": "gpt-6.1-terra",
-      "route": "codex",
-      "billing": "subscription",
-      "source": "codex rollout rollout-2026-11-08T07-55-20-01a1bb3a-4577-7d83-bb9b-754922af4fae.jsonl (last_token_usage per call; uncached = input - cached)",
-      "api_calls": 29,
-      "usage": {
-        "input_uncached": 105928,
-        "output": 9794,
-        "cache_read": 2159488,
-        "cache_write": 0
-      },
-      "reasoning_tokens": 453,
-      "cron_usage": {
-        "input_uncached": 105928,
-        "output": 9794,
-        "cache_read": 2159488,
-        "cache_write": 0
-      },
-      "cron_usage_check": "exact",
-      "model_ref": "openai/gpt-6.1-terra",
-      "pricing_key": "gpt-6.1-terra",
-      "pricing_source_url": "https://developers.openai.com/api/docs/pricing",
-      "api_equivalent_usd": 0.2629,
-      "api_equivalent_range_usd": null,
-      "tiers_used": {
-        "Standard short": 29
-      },
-      "openrouter_billed_usd": null,
-      "openrouter_billed_calls": null,
-      "gaps": [],
-      "model_ref_source": "run.json expected_model",
-      "pricing_match": {
-        "identity": "gpt-6.1-terra",
-        "method": "route-independent-model-id",
-        "status": "matched",
-        "candidates": [
-          "gpt-6.1-terra"
-        ],
-        "key": "gpt-6.1-terra"
+        "key": "gemini-4-argon"
       }
     },
     {
@@ -492,6 +426,205 @@
       }
     },
     {
+      "display_name": "Sol",
+      "job": "GPT-6.1 Sol",
+      "job_id": "955b293b-4a01-486f-8437-bf680e523c96",
+      "slug": "gpt-6-1-sol",
+      "role": "comparison",
+      "run_at": "2026-11-08T07:48:14-05:00",
+      "duration_s": 400,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "8921b8a6-248f-4044-a8e6-915f43ed0d3d",
+      "provider": "openai",
+      "model": "gpt-6.1-sol",
+      "route": "codex",
+      "billing": "subscription",
+      "source": "codex rollout rollout-2026-11-08T07-48-20-01a1bb33-dc66-70a2-8798-7618a0ee43cd.jsonl (last_token_usage per call; uncached = input - cached)",
+      "api_calls": 26,
+      "usage": {
+        "input_uncached": 147152,
+        "output": 13343,
+        "cache_read": 2642048,
+        "cache_write": 0
+      },
+      "reasoning_tokens": 1626,
+      "cron_usage": {
+        "input_uncached": 147152,
+        "output": 13343,
+        "cache_read": 2642048,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "openai/gpt-6.1-sol",
+      "pricing_key": "gpt-6.1-sol",
+      "pricing_source_url": "https://developers.openai.com/api/docs/pricing",
+      "api_equivalent_usd": 0.6919,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Standard short": 26
+      },
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "gpt-6.1-sol",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "gpt-6.1-sol"
+        ],
+        "key": "gpt-6.1-sol"
+      }
+    },
+    {
+      "display_name": "Fable",
+      "job": "Fable 5.1 subscription",
+      "job_id": "289305de-c104-423f-b0ca-1285b3bc3fc4",
+      "slug": "fable-5-1",
+      "role": "comparison",
+      "run_at": "2026-11-08T16:00:11-05:00",
+      "duration_s": 875,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "4e6d6148-b2e4-4d36-8319-8029dd5ae1b5",
+      "provider": "anthropic",
+      "model": "claude-fable-5-1",
+      "route": "claude-code",
+      "billing": "subscription",
+      "source": null,
+      "api_calls": 0,
+      "usage": null,
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 32,
+        "output": 865,
+        "cache_read": 283633,
+        "cache_write": 859
+      },
+      "cron_usage_check": null,
+      "model_ref": "anthropic/claude-fable-5-1",
+      "pricing_key": null,
+      "pricing_source_url": null,
+      "api_equivalent_usd": null,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {},
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [
+        "claude-cli session binding not found for this run"
+      ],
+      "model_ref_source": "run.json expected_model",
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+    },
+    {
+      "display_name": "Terra",
+      "job": "GPT-6.1 Terra",
+      "job_id": "de7dcddc-d032-496d-ac19-f59e8efb20bc",
+      "slug": "gpt-6-1-terra",
+      "role": "comparison",
+      "run_at": "2026-11-08T07:55:14-05:00",
+      "duration_s": 251,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "a565da5a-1d75-4998-8c10-6da9ffd90751",
+      "provider": "openai",
+      "model": "gpt-6.1-terra",
+      "route": "codex",
+      "billing": "subscription",
+      "source": "codex rollout rollout-2026-11-08T07-55-20-01a1bb3a-4577-7d83-bb9b-754922af4fae.jsonl (last_token_usage per call; uncached = input - cached)",
+      "api_calls": 29,
+      "usage": {
+        "input_uncached": 105928,
+        "output": 9794,
+        "cache_read": 2159488,
+        "cache_write": 0
+      },
+      "reasoning_tokens": 453,
+      "cron_usage": {
+        "input_uncached": 105928,
+        "output": 9794,
+        "cache_read": 2159488,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "openai/gpt-6.1-terra",
+      "pricing_key": "gpt-6.1-terra",
+      "pricing_source_url": "https://developers.openai.com/api/docs/pricing",
+      "api_equivalent_usd": 0.2629,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Standard short": 29
+      },
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "gpt-6.1-terra",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "gpt-6.1-terra"
+        ],
+        "key": "gpt-6.1-terra"
+      }
+    },
+    {
+      "display_name": "GLM",
+      "job": "GLM-5.3",
+      "job_id": "f7bfaf98-68ff-4c37-924d-8ee4e6ff8d12",
+      "slug": "glm-5-3",
+      "role": "comparison",
+      "run_at": "2026-11-08T07:47:43-05:00",
+      "duration_s": 250,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "02a470cd-5d73-47fa-9031-628a9b8fb726",
+      "provider": "openrouter_eich",
+      "model": "z-ai/glm-5.3",
+      "route": "openrouter",
+      "billing": "billed",
+      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
+      "api_calls": 54,
+      "usage": {
+        "input_uncached": 246851,
+        "output": 24338,
+        "cache_read": 3407782,
+        "cache_write": 0
+      },
+      "reasoning_tokens": 9852,
+      "cron_usage": {
+        "input_uncached": 246851,
+        "output": 24338,
+        "cache_read": 3407782,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "openrouter_eich/z-ai/glm-5.3",
+      "pricing_key": "glm-5.3",
+      "pricing_source_url": "https://docs.z.ai/guides/overview/pricing",
+      "api_equivalent_usd": 1.3387,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Z.AI direct": 54
+      },
+      "openrouter_billed_usd": 1.668,
+      "openrouter_billed_calls": "54/54",
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "glm-5.3",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "glm-5.3"
+        ],
+        "key": "glm-5.3"
+      }
+    },
+    {
       "display_name": "Astra",
       "job": "GPT-6 Astra",
       "job_id": "25f6516c-644d-41b0-bde9-10a3b8875494",
@@ -542,59 +675,6 @@
           "gpt-6-astra"
         ],
         "key": "gpt-6-astra"
-      }
-    },
-    {
-      "display_name": "Luna",
-      "job": "GPT-6 Luna",
-      "job_id": "6c6c5ae2-d150-445a-b4e7-98ae164d68b2",
-      "slug": "gpt-6-luna",
-      "role": "comparison",
-      "run_at": "2026-11-08T07:59:50-05:00",
-      "duration_s": 1366,
-      "status": "ok",
-      "completion_status": "succeeded",
-      "session_id": "98886df2-2706-46cd-b4c5-ba0792a89a33",
-      "provider": "openai",
-      "model": "gpt-6-luna",
-      "route": "codex",
-      "billing": "subscription",
-      "source": "codex rollout rollout-2026-11-08T07-59-55-01a1bb3e-7878-7550-a780-07c10133ffa6.jsonl (last_token_usage per call; uncached = input - cached)",
-      "api_calls": 59,
-      "usage": {
-        "input_uncached": 205256,
-        "output": 68021,
-        "cache_read": 7252992,
-        "cache_write": 0
-      },
-      "reasoning_tokens": 42261,
-      "cron_usage": {
-        "input_uncached": 205256,
-        "output": 68021,
-        "cache_read": 7252992,
-        "cache_write": 0
-      },
-      "cron_usage_check": "exact",
-      "model_ref": "openai/gpt-6-luna",
-      "pricing_key": "gpt-6-luna",
-      "pricing_source_url": "https://developers.openai.com/api/docs/pricing",
-      "api_equivalent_usd": 0.1271,
-      "api_equivalent_range_usd": null,
-      "tiers_used": {
-        "Standard short": 59
-      },
-      "openrouter_billed_usd": null,
-      "openrouter_billed_calls": null,
-      "gaps": [],
-      "model_ref_source": "run.json expected_model",
-      "pricing_match": {
-        "identity": "gpt-6-luna",
-        "method": "route-independent-model-id",
-        "status": "matched",
-        "candidates": [
-          "gpt-6-luna"
-        ],
-        "key": "gpt-6-luna"
       }
     },
     {
@@ -649,9 +729,336 @@
         ],
         "key": "deepseek-v4-pro"
       }
+    },
+    {
+      "display_name": "Haiku",
+      "job": "Haiku 5.5 subscription",
+      "job_id": "6f6bfc80-fd47-42d8-b094-f2ed8ec61d8c",
+      "slug": "haiku-5-5",
+      "role": "comparison",
+      "run_at": "2026-11-08T16:19:30-05:00",
+      "duration_s": 340,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "4bc1f17a-a882-4af7-af00-44ca76c5d97b",
+      "provider": "anthropic",
+      "model": "claude-haiku-5-5",
+      "route": "claude-code",
+      "billing": "subscription",
+      "source": null,
+      "api_calls": 0,
+      "usage": null,
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 2,
+        "output": 5,
+        "cache_read": 175543,
+        "cache_write": 3734
+      },
+      "cron_usage_check": null,
+      "model_ref": "anthropic/claude-haiku-5-5",
+      "pricing_key": null,
+      "pricing_source_url": null,
+      "api_equivalent_usd": null,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {},
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [
+        "claude-cli session binding not found for this run"
+      ],
+      "model_ref_source": "run.json expected_model",
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+    },
+    {
+      "display_name": "Luna",
+      "job": "GPT-6 Luna",
+      "job_id": "6c6c5ae2-d150-445a-b4e7-98ae164d68b2",
+      "slug": "gpt-6-luna",
+      "role": "comparison",
+      "run_at": "2026-11-08T07:59:50-05:00",
+      "duration_s": 1366,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "98886df2-2706-46cd-b4c5-ba0792a89a33",
+      "provider": "openai",
+      "model": "gpt-6-luna",
+      "route": "codex",
+      "billing": "subscription",
+      "source": "codex rollout rollout-2026-11-08T07-59-55-01a1bb3e-7878-7550-a780-07c10133ffa6.jsonl (last_token_usage per call; uncached = input - cached)",
+      "api_calls": 59,
+      "usage": {
+        "input_uncached": 205256,
+        "output": 68021,
+        "cache_read": 7252992,
+        "cache_write": 0
+      },
+      "reasoning_tokens": 42261,
+      "cron_usage": {
+        "input_uncached": 205256,
+        "output": 68021,
+        "cache_read": 7252992,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "openai/gpt-6-luna",
+      "pricing_key": "gpt-6-luna",
+      "pricing_source_url": "https://developers.openai.com/api/docs/pricing",
+      "api_equivalent_usd": 0.1271,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Standard short": 59
+      },
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "gpt-6-luna",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "gpt-6-luna"
+        ],
+        "key": "gpt-6-luna"
+      }
     }
   ],
   "extra": [
+    {
+      "job": "Fable 5.1 subscription",
+      "job_id": "289305de-c104-423f-b0ca-1285b3bc3fc4",
+      "slug": null,
+      "role": "extra (not the run.json run)",
+      "run_at": "2026-11-08T15:57:19-05:00",
+      "duration_s": 15,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "94db080d-342d-46ae-958d-3acbd2c1f898",
+      "provider": "anthropic",
+      "model": "claude-fable-5-1",
+      "route": "claude-code",
+      "billing": "subscription",
+      "source": null,
+      "api_calls": 0,
+      "usage": null,
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 2,
+        "output": 4,
+        "cache_read": 0,
+        "cache_write": 36700
+      },
+      "cron_usage_check": null,
+      "model_ref": "anthropic/claude-fable-5-1",
+      "pricing_key": null,
+      "pricing_source_url": null,
+      "api_equivalent_usd": null,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {},
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [
+        "claude-cli session binding not found for this run"
+      ],
+      "model_ref_source": "cron job payload model",
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+    },
+    {
+      "job": "Gemini 4 Argon",
+      "job_id": "d995e5f1-b70e-436d-9816-3a7d591f31c2",
+      "slug": null,
+      "role": "extra (not the run.json run)",
+      "run_at": "2026-11-08T15:57:29-05:00",
+      "duration_s": 17,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "33d6cc94-e5de-4d1c-918e-9d12d0725f2c",
+      "provider": "google",
+      "model": "gemini-4-argon",
+      "route": "google",
+      "billing": "unknown",
+      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
+      "api_calls": 1,
+      "usage": {
+        "input_uncached": 14945,
+        "output": 5,
+        "cache_read": 0,
+        "cache_write": 0
+      },
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 14945,
+        "output": 5,
+        "cache_read": 0,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "google/gemini-4-argon",
+      "pricing_key": "gemini-4-argon",
+      "pricing_source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "api_equivalent_usd": 0.0299,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Introductory": 1
+      },
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [],
+      "model_ref_source": "cron job payload model",
+      "pricing_match": {
+        "identity": "gemini-4-argon",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "gemini-4-argon"
+        ],
+        "key": "gemini-4-argon"
+      }
+    },
+    {
+      "job": "Gemini 4 Argon",
+      "job_id": "d995e5f1-b70e-436d-9816-3a7d591f31c2",
+      "slug": "gemini-4-argon",
+      "role": "comparison",
+      "run_at": "2026-11-08T16:00:15-05:00",
+      "duration_s": 738,
+      "status": "error",
+      "completion_status": "failed",
+      "session_id": "e4309185-9f4b-4d46-ae87-d02de115d182",
+      "provider": "google",
+      "model": "gemini-4-argon",
+      "route": "google",
+      "billing": "unknown",
+      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
+      "api_calls": 31,
+      "usage": {
+        "input_uncached": 218580,
+        "output": 16594,
+        "cache_read": 2108618,
+        "cache_write": 0
+      },
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 218580,
+        "output": 16594,
+        "cache_read": 2108618,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "google/gemini-4-argon",
+      "pricing_key": "gemini-4-argon",
+      "pricing_source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "api_equivalent_usd": 0.814,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Introductory": 31
+      },
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "gemini-4-argon",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "gemini-4-argon"
+        ],
+        "key": "gemini-4-argon"
+      }
+    },
+    {
+      "job": "Gemini 4 Argon",
+      "job_id": "d995e5f1-b70e-436d-9816-3a7d591f31c2",
+      "slug": "gemini-4-argon",
+      "role": "comparison",
+      "run_at": "2026-11-08T16:18:00-05:00",
+      "duration_s": 889,
+      "status": "error",
+      "completion_status": "failed",
+      "session_id": "fa0e75f9-c10d-4a1e-a7ff-0aa3a38017ad",
+      "provider": "google",
+      "model": "gemini-4-argon",
+      "route": "google",
+      "billing": "unknown",
+      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
+      "api_calls": 39,
+      "usage": {
+        "input_uncached": 239269,
+        "output": 33805,
+        "cache_read": 3127351,
+        "cache_write": 0
+      },
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 239269,
+        "output": 33805,
+        "cache_read": 3127351,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "google/gemini-4-argon",
+      "pricing_key": "gemini-4-argon",
+      "pricing_source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "api_equivalent_usd": 1.1293,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Introductory": 39
+      },
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "gemini-4-argon",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "gemini-4-argon"
+        ],
+        "key": "gemini-4-argon"
+      }
+    },
+    {
+      "job": "Haiku 5.5 subscription",
+      "job_id": "6f6bfc80-fd47-42d8-b094-f2ed8ec61d8c",
+      "slug": null,
+      "role": "extra (not the run.json run)",
+      "run_at": "2026-11-08T15:57:10-05:00",
+      "duration_s": 18,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "032dd0bf-c32d-4adc-a49f-65ed74c97cb8",
+      "provider": "anthropic",
+      "model": "claude-haiku-5-5",
+      "route": "claude-code",
+      "billing": "subscription",
+      "source": null,
+      "api_calls": 0,
+      "usage": null,
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 2,
+        "output": 1,
+        "cache_read": 0,
+        "cache_write": 35634
+      },
+      "cron_usage_check": null,
+      "model_ref": "anthropic/claude-haiku-5-5",
+      "pricing_key": null,
+      "pricing_source_url": null,
+      "api_equivalent_usd": null,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {},
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [
+        "claude-cli session binding not found for this run"
+      ],
+      "model_ref_source": "cron job payload model",
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+    },
     {
       "job": "MiniMax M3.1 Flash",
       "job_id": "2378a8db-f400-4b0a-a680-7c0acd2f32a1",
@@ -717,20 +1124,63 @@
         "route recorded zero usage for every call (openrouter); tokens unavailable"
       ],
       "model_ref_source": "cron job payload model"
+    },
+    {
+      "job": "Sonnet 5.5 subscription",
+      "job_id": "3d0f3e66-2d2f-4052-ae10-b32f9832fe45",
+      "slug": null,
+      "role": "extra (not the run.json run)",
+      "run_at": "2026-11-08T15:57:02-05:00",
+      "duration_s": 15,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "aa8e4c8e-31f1-47eb-a254-1981f1ae32fa",
+      "provider": "anthropic",
+      "model": "claude-sonnet-5-5",
+      "route": "claude-code",
+      "billing": "subscription",
+      "source": null,
+      "api_calls": 0,
+      "usage": null,
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 2,
+        "output": 4,
+        "cache_read": 0,
+        "cache_write": 34811
+      },
+      "cron_usage_check": null,
+      "model_ref": "anthropic/claude-sonnet-5-5",
+      "pricing_key": null,
+      "pricing_source_url": null,
+      "api_equivalent_usd": null,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {},
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [
+        "claude-cli session binding not found for this run"
+      ],
+      "model_ref_source": "cron job payload model",
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
     }
   ],
   "token_totals": {
-    "input_uncached": 3359088,
-    "output": 629253,
-    "cache_read": 84992393,
+    "input_uncached": 3666366,
+    "output": 676319,
+    "cache_read": 90923387,
     "cache_write": 203153
   },
-  "api_estimate_total": 22.4333,
+  "api_estimate_total": 24.1116,
   "qwen_selection": "higher regional estimate",
-  "pricing_file": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-10-29/api-pricing.json",
-  "pricing_age_days": 10,
+  "pricing_file": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-08T210140765623Z/api-pricing.json",
+  "pricing_age_days": 0,
   "recorded_openrouter_total": 7.3332,
-  "unpriced_models": [],
+  "unpriced_models": [
+    "Sonnet",
+    "Fable",
+    "Haiku"
+  ],
   "session_binding": {
     "gpt-6-astra": "12ee4037-a4e3-4ad9-929a-15dfc199e65b",
     "gpt-6-1-sol": "8921b8a6-248f-4044-a8e6-915f43ed0d3d",
@@ -743,6 +1193,10 @@
     "deepseek-v4-pro": "b401748c-ce27-4fd5-957c-44473903b34d",
     "kimi-k3-1-pro": "e412fb86-7870-4011-984c-0e11e179ddb4",
     "minimax-m3-1-flash": "ca8ce19a-954b-4cbb-b3ac-ba7559d3dbdb",
-    "grok-4-7": "f1fa823d-c63f-4d08-8125-4906149ac987"
+    "grok-4-7": "f1fa823d-c63f-4d08-8125-4906149ac987",
+    "fable-5-1": "4e6d6148-b2e4-4d36-8319-8029dd5ae1b5",
+    "sonnet-5-5": "0836a5fb-3b9d-437e-a82b-bd80e11484cd",
+    "haiku-5-5": "4bc1f17a-a882-4af7-af00-44ca76c5d97b",
+    "gemini-4-argon": "15d3bf2d-f47d-4776-b9ab-e6071a9277d2"
   }
 }

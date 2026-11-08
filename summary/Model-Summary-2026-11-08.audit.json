@@ -14,8 +14,8 @@
     "briefs/model-tests/2026-11-02-delivery/Usage-and-Cost-2026-11-02.audit.json": "a217e707e5ef3a5abb3089d49c7a6feeb78171f00c92b66d0f66363e24f61abd",
     "briefs/model-tests/2026-11-03-delivery/Usage-and-Cost-2026-11-03.audit.json": "9a78f06e6c7304e5028f52f2f14f6a93029df407bbe8dbb7fc151b40f185fbfb",
     "briefs/model-tests/2026-11-07-delivery/Usage-and-Cost-2026-11-07.audit.json": "9fe2e65c465e01933e14509998034fdb7d3f17ed69d4274f471847e00cd9210e",
-    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08-delivery/Model-Consensus-2026-11-08.audit.json": "d5e052706fa13304b80d479f819f7854c1ee1b793c1cbb970ff20089afb6071e",
-    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08-delivery/Usage-and-Cost-2026-11-08.audit.json": "75b8ef2b3394adfee3cfd6b09dd789fdc774a528c3fd6c8b1b88c900d5f24967"
+    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08-delivery/Model-Consensus-2026-11-08.audit.json": "43bed4524b43c0102ec7d9b5ae3030484cd0744efc4346335dc6341d4d7391d7",
+    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08-delivery/Usage-and-Cost-2026-11-08.audit.json": "229dec370e26b38cab04f1c2c2e02c1b08d12322e7ff9245db32e58e60eb71ec"
   },
   "scores": {
     "2026-10-28": {
@@ -132,17 +132,21 @@
     },
     "2026-11-08": {
       "Astra": "53",
-      "Sol": "62",
-      "Terra": "58",
+      "Sol": "67",
+      "Terra": "63",
       "Luna": "48",
-      "Qwen": "76",
-      "Flash": "57",
+      "Qwen": "71",
+      "Flash": "67",
       "Opus": "77",
       "GLM": "62",
-      "DeepSeek Pro": "43",
-      "Kimi": "67",
-      "MiniMax": "62",
-      "Grok": "76"
+      "DeepSeek Pro": "48",
+      "Kimi": "72",
+      "MiniMax": "72",
+      "Grok": "71",
+      "Fable": "63",
+      "Sonnet": "76",
+      "Haiku": "48",
+      "Argon": "67"
     }
   },
   "times": {
@@ -270,7 +274,11 @@
       "DeepSeek Pro": "1174",
       "Kimi": "302",
       "MiniMax": "1306",
-      "Grok": "1110"
+      "Grok": "1110",
+      "Fable": "813",
+      "Sonnet": "225",
+      "Haiku": "313",
+      "Argon": "992"
     }
   },
   "costs": {
@@ -360,17 +368,21 @@
     },
     "2026-11-08": {
       "Opus": "3.6761",
+      "Sonnet": null,
+      "Kimi": "1.2756",
+      "MiniMax": "0.6138",
       "Grok": "5.8569",
       "Qwen": "2.5917",
-      "Kimi": "1.2756",
-      "GLM": "1.3387",
-      "MiniMax": "0.6138",
-      "Sol": "0.6919",
-      "Terra": "0.2629",
+      "Argon": "1.6783",
       "Flash": "0.0996",
+      "Sol": "0.6919",
+      "Fable": null,
+      "Terra": "0.2629",
+      "GLM": "1.3387",
       "Astra": "4.9152",
-      "Luna": "0.1271",
-      "DeepSeek Pro": "0.9838"
+      "DeepSeek Pro": "0.9838",
+      "Haiku": null,
+      "Luna": "0.1271"
     }
   },
   "tokens": {
@@ -460,17 +472,21 @@
     },
     "2026-11-08": {
       "Opus": "6828846",
+      "Sonnet": null,
+      "Kimi": "3800373",
+      "MiniMax": "30080754",
       "Grok": "6363599",
       "Qwen": "7605216",
-      "Kimi": "3800373",
-      "GLM": "3678971",
-      "MiniMax": "30080754",
-      "Sol": "2802543",
-      "Terra": "2275210",
+      "Argon": "6285338",
       "Flash": "8753143",
+      "Sol": "2802543",
+      "Fable": null,
+      "Terra": "2275210",
+      "GLM": "3678971",
       "Astra": "2512737",
-      "Luna": "7526269",
-      "DeepSeek Pro": "6956226"
+      "DeepSeek Pro": "6956226",
+      "Haiku": null,
+      "Luna": "7526269"
     }
   },
   "cost_per_token": {
@@ -486,7 +502,11 @@
       "Kimi": "3.607013085897461890055033306E-7",
       "MiniMax": "2.372180201827919658913156263E-8",
       "Opus": "5.743109012835413076780884350E-7",
-      "Qwen": "3.683058909705932385910795630E-7"
+      "Qwen": "3.683058909705932385910795630E-7",
+      "Fable": null,
+      "Sonnet": null,
+      "Haiku": null,
+      "Argon": null
     },
     "2026-10-31": {
       "DeepSeek Pro": "9.745292519891594747511647975E-8",
@@ -500,7 +520,11 @@
       "Kimi": "3.537489801343930768314036101E-7",
       "MiniMax": "2.096149854441270977308015365E-8",
       "Opus": "5.842365359675602051960122009E-7",
-      "Qwen": "3.734751689036327416589474503E-7"
+      "Qwen": "3.734751689036327416589474503E-7",
+      "Fable": null,
+      "Sonnet": null,
+      "Haiku": null,
+      "Argon": null
     },
     "2026-11-01": {
       "DeepSeek Pro": "7.028506496418479866866151956E-8",
@@ -514,7 +538,11 @@
       "Kimi": "4.310382268299413544796638289E-7",
       "MiniMax": "2.647758278341861192716367593E-8",
       "Opus": "5.881497714046471156028945087E-7",
-      "Qwen": "4.214101423278106564593661869E-7"
+      "Qwen": "4.214101423278106564593661869E-7",
+      "Fable": null,
+      "Sonnet": null,
+      "Haiku": null,
+      "Argon": null
     },
     "2026-11-02": {
       "DeepSeek Pro": "8.223647350877825798262597089E-8",
@@ -528,7 +556,11 @@
       "Kimi": "3.266191248256371772745548577E-7",
       "MiniMax": "2.722934703194541722283571043E-8",
       "Opus": "9.058677220799850810152548866E-7",
-      "Qwen": "3.850544405813808510594809596E-7"
+      "Qwen": "3.850544405813808510594809596E-7",
+      "Fable": null,
+      "Sonnet": null,
+      "Haiku": null,
+      "Argon": null
     },
     "2026-11-03": {
       "DeepSeek Pro": "1.053483164594721018764023779E-7",
@@ -542,7 +574,11 @@
       "Kimi": "3.448926787658235483637468119E-7",
       "MiniMax": "2.145684706692960475020391238E-8",
       "Opus": "9.289104015467461917041695670E-7",
-      "Qwen": "3.867589233442891979477345331E-7"
+      "Qwen": "3.867589233442891979477345331E-7",
+      "Fable": null,
+      "Sonnet": null,
+      "Haiku": null,
+      "Argon": null
     },
     "2026-11-07": {
       "DeepSeek Pro": "8.620024984403435964170938769E-8",
@@ -556,7 +592,11 @@
       "Kimi": "2.908592108570262259061556008E-7",
       "MiniMax": "2.256213234789129274659240579E-8",
       "Opus": "6.299329544316847608890095078E-7",
-      "Qwen": "3.564095279626890394687041702E-7"
+      "Qwen": "3.564095279626890394687041702E-7",
+      "Fable": null,
+      "Sonnet": null,
+      "Haiku": null,
+      "Argon": null
     },
     "2026-11-08": {
       "DeepSeek Pro": "1.414272624264939063221925222E-7",
@@ -570,7 +610,11 @@
       "Kimi": "3.356512637049047554016408389E-7",
       "MiniMax": "2.040507362282208750485443284E-8",
       "Opus": "5.383193587906360752607395159E-7",
-      "Qwen": "3.407792756971005162772497191E-7"
+      "Qwen": "3.407792756971005162772497191E-7",
+      "Fable": null,
+      "Sonnet": null,
+      "Haiku": null,
+      "Argon": "2.670182574111368394189779452E-7"
     }
   },
   "average_method": "arithmetic mean of available daily values; cost per token uses total cost / total tokens over same days",
