@@ -1,6 +1,6 @@
 {
   "source": "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08/usage-audit-ken/usage-and-cost.json",
-  "source_sha256": "6a45a8087c12f8a3cfa7000299918ff715bc0ba772a64d48065d8fd135abd2d7",
+  "source_sha256": "86da9d490bdf9a53d305015caa7f4b87a1f796ea6e443ad8285e7eba142f551f",
   "selected": [
     {
       "display_name": "Opus",
@@ -75,9 +75,14 @@
       "model": "claude-sonnet-5-5",
       "route": "claude-code",
       "billing": "subscription",
-      "source": null,
-      "api_calls": 0,
-      "usage": null,
+      "source": "Claude Code log ~/.claude/projects/-home-openclaw--openclaw-workspace/f6bacf77-fe28-479e-bbd7-c34aa75fb660.jsonl (deduped by message id, run window)",
+      "api_calls": 34,
+      "usage": {
+        "input_uncached": 68,
+        "output": 29826,
+        "cache_read": 3800883,
+        "cache_write": 168564
+      },
       "reasoning_tokens": null,
       "cron_usage": {
         "input_uncached": 2,
@@ -87,18 +92,38 @@
       },
       "cron_usage_check": null,
       "model_ref": "anthropic/claude-sonnet-5-5",
-      "pricing_key": null,
-      "pricing_source_url": null,
-      "api_equivalent_usd": null,
+      "pricing_key": "claude-sonnet-5-5",
+      "pricing_source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "api_equivalent_usd": 1.3527,
       "api_equivalent_range_usd": null,
-      "tiers_used": {},
+      "tiers_used": {
+        "Standard": 34
+      },
       "openrouter_billed_usd": null,
       "openrouter_billed_calls": null,
-      "gaps": [
-        "claude-cli session binding not found for this run"
-      ],
+      "gaps": [],
       "model_ref_source": "run.json expected_model",
-      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+      "cli_binding_recovery": {
+        "method": "unique exact-model usage log within run window",
+        "candidates": [
+          "f6bacf77-fe28-479e-bbd7-c34aa75fb660"
+        ],
+        "cli_session_id": "f6bacf77-fe28-479e-bbd7-c34aa75fb660"
+      },
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn",
+      "cache_write_by_ttl": {
+        "5m": 0,
+        "1h": 168564
+      },
+      "pricing_match": {
+        "identity": "claude-sonnet-5-5",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "claude-sonnet-5-5"
+        ],
+        "key": "claude-sonnet-5-5"
+      }
     },
     {
       "display_name": "Kimi",
@@ -493,9 +518,14 @@
       "model": "claude-fable-5-1",
       "route": "claude-code",
       "billing": "subscription",
-      "source": null,
-      "api_calls": 0,
-      "usage": null,
+      "source": "Claude Code log ~/.claude/projects/-home-openclaw--openclaw-workspace/0deabcc2-a333-4197-b3f3-6f67b8d261bf.jsonl (deduped by message id, run window)",
+      "api_calls": 32,
+      "usage": {
+        "input_uncached": 994,
+        "output": 65540,
+        "cache_read": 6241424,
+        "cache_write": 277357
+      },
       "reasoning_tokens": null,
       "cron_usage": {
         "input_uncached": 32,
@@ -505,18 +535,38 @@
       },
       "cron_usage_check": null,
       "model_ref": "anthropic/claude-fable-5-1",
-      "pricing_key": null,
-      "pricing_source_url": null,
-      "api_equivalent_usd": null,
+      "pricing_key": "claude-fable-5-1",
+      "pricing_source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "api_equivalent_usd": 10.3944,
       "api_equivalent_range_usd": null,
-      "tiers_used": {},
+      "tiers_used": {
+        "Standard": 32
+      },
       "openrouter_billed_usd": null,
       "openrouter_billed_calls": null,
-      "gaps": [
-        "claude-cli session binding not found for this run"
-      ],
+      "gaps": [],
       "model_ref_source": "run.json expected_model",
-      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+      "cli_binding_recovery": {
+        "method": "unique exact-model usage log within run window",
+        "candidates": [
+          "0deabcc2-a333-4197-b3f3-6f67b8d261bf"
+        ],
+        "cli_session_id": "0deabcc2-a333-4197-b3f3-6f67b8d261bf"
+      },
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn",
+      "cache_write_by_ttl": {
+        "5m": 0,
+        "1h": 277357
+      },
+      "pricing_match": {
+        "identity": "claude-fable-5-1",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "claude-fable-5-1"
+        ],
+        "key": "claude-fable-5-1"
+      }
     },
     {
       "display_name": "Terra",
@@ -745,9 +795,14 @@
       "model": "claude-haiku-5-5",
       "route": "claude-code",
       "billing": "subscription",
-      "source": null,
-      "api_calls": 0,
-      "usage": null,
+      "source": "Claude Code log ~/.claude/projects/-home-openclaw--openclaw-workspace/1c4729e8-b106-4528-8175-ea0967673dc6.jsonl (deduped by message id, run window)",
+      "api_calls": 37,
+      "usage": {
+        "input_uncached": 74,
+        "output": 55973,
+        "cache_read": 4170461,
+        "cache_write": 172142
+      },
       "reasoning_tokens": null,
       "cron_usage": {
         "input_uncached": 2,
@@ -757,18 +812,39 @@
       },
       "cron_usage_check": null,
       "model_ref": "anthropic/claude-haiku-5-5",
-      "pricing_key": null,
-      "pricing_source_url": null,
-      "api_equivalent_usd": null,
+      "pricing_key": "claude-haiku-5-5",
+      "pricing_source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "api_equivalent_usd": 0.3742,
       "api_equivalent_range_usd": null,
-      "tiers_used": {},
+      "tiers_used": {
+        "Standard short": 16,
+        "Standard long": 21
+      },
       "openrouter_billed_usd": null,
       "openrouter_billed_calls": null,
-      "gaps": [
-        "claude-cli session binding not found for this run"
-      ],
+      "gaps": [],
       "model_ref_source": "run.json expected_model",
-      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+      "cli_binding_recovery": {
+        "method": "unique exact-model usage log within run window",
+        "candidates": [
+          "1c4729e8-b106-4528-8175-ea0967673dc6"
+        ],
+        "cli_session_id": "1c4729e8-b106-4528-8175-ea0967673dc6"
+      },
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn",
+      "cache_write_by_ttl": {
+        "5m": 0,
+        "1h": 172142
+      },
+      "pricing_match": {
+        "identity": "claude-haiku-5-5",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "claude-haiku-5-5"
+        ],
+        "key": "claude-haiku-5-5"
+      }
     },
     {
       "display_name": "Luna",
@@ -839,9 +915,14 @@
       "model": "claude-fable-5-1",
       "route": "claude-code",
       "billing": "subscription",
-      "source": null,
-      "api_calls": 0,
-      "usage": null,
+      "source": "Claude Code log ~/.claude/projects/-home-openclaw--openclaw-workspace/ebfce135-db85-4736-8d07-b4f8a49c703a.jsonl (deduped by message id, run window)",
+      "api_calls": 1,
+      "usage": {
+        "input_uncached": 2,
+        "output": 4,
+        "cache_read": 0,
+        "cache_write": 36700
+      },
       "reasoning_tokens": null,
       "cron_usage": {
         "input_uncached": 2,
@@ -851,18 +932,38 @@
       },
       "cron_usage_check": null,
       "model_ref": "anthropic/claude-fable-5-1",
-      "pricing_key": null,
-      "pricing_source_url": null,
-      "api_equivalent_usd": null,
+      "pricing_key": "claude-fable-5-1",
+      "pricing_source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "api_equivalent_usd": 0.7342,
       "api_equivalent_range_usd": null,
-      "tiers_used": {},
+      "tiers_used": {
+        "Standard": 1
+      },
       "openrouter_billed_usd": null,
       "openrouter_billed_calls": null,
-      "gaps": [
-        "claude-cli session binding not found for this run"
-      ],
+      "gaps": [],
       "model_ref_source": "cron job payload model",
-      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+      "cli_binding_recovery": {
+        "method": "unique exact-model usage log within run window",
+        "candidates": [
+          "ebfce135-db85-4736-8d07-b4f8a49c703a"
+        ],
+        "cli_session_id": "ebfce135-db85-4736-8d07-b4f8a49c703a"
+      },
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn",
+      "cache_write_by_ttl": {
+        "5m": 0,
+        "1h": 36700
+      },
+      "pricing_match": {
+        "identity": "claude-fable-5-1",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "claude-fable-5-1"
+        ],
+        "key": "claude-fable-5-1"
+      }
     },
     {
       "job": "Gemini 4 Argon",
@@ -1034,9 +1135,14 @@
       "model": "claude-haiku-5-5",
       "route": "claude-code",
       "billing": "subscription",
-      "source": null,
-      "api_calls": 0,
-      "usage": null,
+      "source": "Claude Code log ~/.claude/projects/-home-openclaw--openclaw-workspace/07d53d05-1a73-43bb-8cb4-b84b7f9b8157.jsonl (deduped by message id, run window)",
+      "api_calls": 1,
+      "usage": {
+        "input_uncached": 2,
+        "output": 4,
+        "cache_read": 0,
+        "cache_write": 35634
+      },
       "reasoning_tokens": null,
       "cron_usage": {
         "input_uncached": 2,
@@ -1046,18 +1152,38 @@
       },
       "cron_usage_check": null,
       "model_ref": "anthropic/claude-haiku-5-5",
-      "pricing_key": null,
-      "pricing_source_url": null,
-      "api_equivalent_usd": null,
+      "pricing_key": "claude-haiku-5-5",
+      "pricing_source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "api_equivalent_usd": 0.0071,
       "api_equivalent_range_usd": null,
-      "tiers_used": {},
+      "tiers_used": {
+        "Standard short": 1
+      },
       "openrouter_billed_usd": null,
       "openrouter_billed_calls": null,
-      "gaps": [
-        "claude-cli session binding not found for this run"
-      ],
+      "gaps": [],
       "model_ref_source": "cron job payload model",
-      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+      "cli_binding_recovery": {
+        "method": "unique exact-model usage log within run window",
+        "candidates": [
+          "07d53d05-1a73-43bb-8cb4-b84b7f9b8157"
+        ],
+        "cli_session_id": "07d53d05-1a73-43bb-8cb4-b84b7f9b8157"
+      },
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn",
+      "cache_write_by_ttl": {
+        "5m": 0,
+        "1h": 35634
+      },
+      "pricing_match": {
+        "identity": "claude-haiku-5-5",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "claude-haiku-5-5"
+        ],
+        "key": "claude-haiku-5-5"
+      }
     },
     {
       "job": "MiniMax M3.1 Flash",
@@ -1139,9 +1265,14 @@
       "model": "claude-sonnet-5-5",
       "route": "claude-code",
       "billing": "subscription",
-      "source": null,
-      "api_calls": 0,
-      "usage": null,
+      "source": "Claude Code log ~/.claude/projects/-home-openclaw--openclaw-workspace/7239c837-9aea-43f7-b012-1b1e54245006.jsonl (deduped by message id, run window)",
+      "api_calls": 1,
+      "usage": {
+        "input_uncached": 2,
+        "output": 4,
+        "cache_read": 0,
+        "cache_write": 34811
+      },
       "reasoning_tokens": null,
       "cron_usage": {
         "input_uncached": 2,
@@ -1151,36 +1282,52 @@
       },
       "cron_usage_check": null,
       "model_ref": "anthropic/claude-sonnet-5-5",
-      "pricing_key": null,
-      "pricing_source_url": null,
-      "api_equivalent_usd": null,
+      "pricing_key": "claude-sonnet-5-5",
+      "pricing_source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "api_equivalent_usd": 0.1393,
       "api_equivalent_range_usd": null,
-      "tiers_used": {},
+      "tiers_used": {
+        "Standard": 1
+      },
       "openrouter_billed_usd": null,
       "openrouter_billed_calls": null,
-      "gaps": [
-        "claude-cli session binding not found for this run"
-      ],
+      "gaps": [],
       "model_ref_source": "cron job payload model",
-      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn"
+      "cli_binding_recovery": {
+        "method": "unique exact-model usage log within run window",
+        "candidates": [
+          "7239c837-9aea-43f7-b012-1b1e54245006"
+        ],
+        "cli_session_id": "7239c837-9aea-43f7-b012-1b1e54245006"
+      },
+      "cron_usage_note": "cron/OpenClaw record carries only the last API call per claude-cli turn",
+      "cache_write_by_ttl": {
+        "5m": 0,
+        "1h": 34811
+      },
+      "pricing_match": {
+        "identity": "claude-sonnet-5-5",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "claude-sonnet-5-5"
+        ],
+        "key": "claude-sonnet-5-5"
+      }
     }
   ],
   "token_totals": {
-    "input_uncached": 3666366,
-    "output": 676319,
-    "cache_read": 90923387,
-    "cache_write": 203153
+    "input_uncached": 3667502,
+    "output": 827658,
+    "cache_read": 105136155,
+    "cache_write": 821216
   },
-  "api_estimate_total": 24.1116,
+  "api_estimate_total": 36.2329,
   "qwen_selection": "higher regional estimate",
   "pricing_file": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-08T210140765623Z/api-pricing.json",
   "pricing_age_days": 0,
   "recorded_openrouter_total": 7.3332,
-  "unpriced_models": [
-    "Sonnet",
-    "Fable",
-    "Haiku"
-  ],
+  "unpriced_models": [],
   "session_binding": {
     "gpt-6-astra": "12ee4037-a4e3-4ad9-929a-15dfc199e65b",
     "gpt-6-1-sol": "8921b8a6-248f-4044-a8e6-915f43ed0d3d",

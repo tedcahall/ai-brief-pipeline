@@ -15,7 +15,7 @@
     "briefs/model-tests/2026-11-03-delivery/Usage-and-Cost-2026-11-03.audit.json": "9a78f06e6c7304e5028f52f2f14f6a93029df407bbe8dbb7fc151b40f185fbfb",
     "briefs/model-tests/2026-11-07-delivery/Usage-and-Cost-2026-11-07.audit.json": "9fe2e65c465e01933e14509998034fdb7d3f17ed69d4274f471847e00cd9210e",
     "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08-delivery/Model-Consensus-2026-11-08.audit.json": "43bed4524b43c0102ec7d9b5ae3030484cd0744efc4346335dc6341d4d7391d7",
-    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08-delivery/Usage-and-Cost-2026-11-08.audit.json": "229dec370e26b38cab04f1c2c2e02c1b08d12322e7ff9245db32e58e60eb71ec"
+    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-08-delivery/Usage-and-Cost-2026-11-08.audit.json": "d6fd773b2fce3b9ba028f793a31959b9b1c3262e3e1c645710fba3fd005baaf1"
   },
   "scores": {
     "2026-10-28": {
@@ -368,7 +368,7 @@
     },
     "2026-11-08": {
       "Opus": "3.6761",
-      "Sonnet": null,
+      "Sonnet": "1.3527",
       "Kimi": "1.2756",
       "MiniMax": "0.6138",
       "Grok": "5.8569",
@@ -376,12 +376,12 @@
       "Argon": "1.6783",
       "Flash": "0.0996",
       "Sol": "0.6919",
-      "Fable": null,
+      "Fable": "10.3944",
       "Terra": "0.2629",
       "GLM": "1.3387",
       "Astra": "4.9152",
       "DeepSeek Pro": "0.9838",
-      "Haiku": null,
+      "Haiku": "0.3742",
       "Luna": "0.1271"
     }
   },
@@ -472,7 +472,7 @@
     },
     "2026-11-08": {
       "Opus": "6828846",
-      "Sonnet": null,
+      "Sonnet": "3999341",
       "Kimi": "3800373",
       "MiniMax": "30080754",
       "Grok": "6363599",
@@ -480,12 +480,12 @@
       "Argon": "6285338",
       "Flash": "8753143",
       "Sol": "2802543",
-      "Fable": null,
+      "Fable": "6585315",
       "Terra": "2275210",
       "GLM": "3678971",
       "Astra": "2512737",
       "DeepSeek Pro": "6956226",
-      "Haiku": null,
+      "Haiku": "4398650",
       "Luna": "7526269"
     }
   },
@@ -611,9 +611,9 @@
       "MiniMax": "2.040507362282208750485443284E-8",
       "Opus": "5.383193587906360752607395159E-7",
       "Qwen": "3.407792756971005162772497191E-7",
-      "Fable": null,
-      "Sonnet": null,
-      "Haiku": null,
+      "Fable": "0.000001578421077807211955692324513",
+      "Sonnet": "3.382307235116985523364974380E-7",
+      "Haiku": "8.507155604560490150387050572E-8",
       "Argon": "2.670182574111368394189779452E-7"
     }
   },
