@@ -2,43 +2,43 @@
 
 ## Final-edition token usage
 
-| Model | Start ET | Calls | Uncached input | Output | Cache read | Cache write | Total tokens | API estimate* |
-|---|---|---|---|---|---|---|---|---|
-| Terra | 07:55:14 | 29 | 105,928 | 9,794 | 2,159,488 | 0 | 2,275,210 | USD 0.26 |
-| Astra | 07:40:34 | 24 | 191,251 | 13,902 | 2,307,584 | 0 | 2,512,737 | USD 4.92 |
-| Sol | 07:48:14 | 26 | 147,152 | 13,343 | 2,642,048 | 0 | 2,802,543 | USD 0.69 |
-| GLM | 07:47:43 | 54 | 246,851 | 24,338 | 3,407,782 | 0 | 3,678,971 | USD 1.34 |
-| Kimi | 08:13:40 | 33 | 159,932 | 23,225 | 3,617,216 | 0 | 3,800,373 | USD 1.28 |
-| Sonnet | 16:14:54 | 34 | 68 | 29,826 | 3,800,883 | 168,564 | 3,999,341 | USD 1.35 |
-| Haiku | 16:19:30 | 37 | 74 | 55,973 | 4,170,461 | 172,142 | 4,398,650 | USD 0.37 |
-| Argon | 16:48:14 | 45 | 307,278 | 47,066 | 5,930,994 | 0 | 6,285,338 | USD 1.68 |
-| Grok | 08:19:25 | 46 | 339,876 | 75,563 | 5,948,160 | 0 | 6,363,599 | USD 5.86 |
-| Fable | 16:00:11 | 32 | 994 | 65,540 | 6,241,424 | 277,357 | 6,585,315 | USD 10.39 |
-| Opus | 07:40:34 | 48 | 96 | 36,634 | 6,588,963 | 203,153 | 6,828,846 | USD 3.68 |
-| DeepSeek Pro | 07:52:28 | 68 | 1,147,290 | 50,472 | 5,758,464 | 0 | 6,956,226 | USD 0.98 |
-| Luna | 07:59:50 | 59 | 205,256 | 68,021 | 7,252,992 | 0 | 7,526,269 | USD 0.13 |
-| Qwen | 08:23:09 | 65 | 214,857 | 54,679 | 7,335,680 | 0 | 7,605,216 | USD 2.59 |
-| Flash | 08:51:40 | 72 | 187,156 | 76,771 | 8,489,216 | 0 | 8,753,143 | USD 0.10 |
-| MiniMax | 09:11:10 | 125 | 413,443 | 182,511 | 29,484,800 | 0 | 30,080,754 | USD 0.61 |
+| Model | Total tokens | Uncached input | Output | Cache read | Cache write | Start ET | Calls |
+|---|---|---|---|---|---|---|---|
+| Terra | 2,275,210 | 105,928 | 9,794 | 2,159,488 | 0 | 07:55:14 | 29 |
+| Astra | 2,512,737 | 191,251 | 13,902 | 2,307,584 | 0 | 07:40:34 | 24 |
+| Sol | 2,802,543 | 147,152 | 13,343 | 2,642,048 | 0 | 07:48:14 | 26 |
+| GLM | 3,678,971 | 246,851 | 24,338 | 3,407,782 | 0 | 07:47:43 | 54 |
+| Kimi | 3,800,373 | 159,932 | 23,225 | 3,617,216 | 0 | 08:13:40 | 33 |
+| Sonnet | 3,999,341 | 68 | 29,826 | 3,800,883 | 168,564 | 16:14:54 | 34 |
+| Haiku | 4,398,650 | 74 | 55,973 | 4,170,461 | 172,142 | 16:19:30 | 37 |
+| Argon | 6,285,338 | 307,278 | 47,066 | 5,930,994 | 0 | 16:48:14 | 45 |
+| Grok | 6,363,599 | 339,876 | 75,563 | 5,948,160 | 0 | 08:19:25 | 46 |
+| Fable | 6,585,315 | 994 | 65,540 | 6,241,424 | 277,357 | 16:00:11 | 32 |
+| Opus | 6,828,846 | 96 | 36,634 | 6,588,963 | 203,153 | 07:40:34 | 48 |
+| DeepSeek Pro | 6,956,226 | 1,147,290 | 50,472 | 5,758,464 | 0 | 07:52:28 | 68 |
+| Luna | 7,526,269 | 205,256 | 68,021 | 7,252,992 | 0 | 07:59:50 | 59 |
+| Qwen | 7,605,216 | 214,857 | 54,679 | 7,335,680 | 0 | 08:23:09 | 65 |
+| Flash | 8,753,143 | 187,156 | 76,771 | 8,489,216 | 0 | 08:51:40 | 72 |
+| MiniMax | 30,080,754 | 413,443 | 182,511 | 29,484,800 | 0 | 09:11:10 | 125 |
 
 ## Final-edition recorded charges
 
-| Model | Recorded charge USD | Calls with recorded charge |
+| Model | Recorded charge | Calls with recorded charge |
 |---|---|---|
 | Opus | No per-token charge | Not applicable |
 | Sonnet | No per-token charge | Not applicable |
-| Kimi | USD 1.28 | 33/33 |
-| MiniMax | USD 0.61 | 124/125 |
+| Kimi | $1.28 | 33/33 |
+| MiniMax | $0.61 | 124/125 |
 | Grok | Not recorded | Not applicable |
-| Qwen | USD 2.59 | 65/65 |
+| Qwen | $2.59 | 65/65 |
 | Argon | Not recorded | Not applicable |
-| Flash | USD 0.07 | 72/72 |
+| Flash | $0.07 | 72/72 |
 | Sol | No per-token charge | Not applicable |
 | Fable | No per-token charge | Not applicable |
 | Terra | No per-token charge | Not applicable |
-| GLM | USD 1.67 | 54/54 |
+| GLM | $1.67 | 54/54 |
 | Astra | No per-token charge | Not applicable |
-| DeepSeek Pro | USD 1.12 | 68/68 |
+| DeepSeek Pro | $1.12 | 68/68 |
 | Haiku | No per-token charge | Not applicable |
 | Luna | No per-token charge | Not applicable |
 
@@ -51,22 +51,22 @@
 | Cache Read | 105,136,155 |
 | Cache Write | 821,216 |
 | Calls with available telemetry | 797 |
-| API estimate subtotal (available telemetry) | USD 36.23 |
-| Recorded OpenRouter charges | USD 7.33 |
+| API estimate subtotal (available telemetry) | $36.23 |
+| Recorded OpenRouter charges | $7.33 |
 | Models with unavailable telemetry/estimates | None |
 
 ## Earlier / diagnostic attempts
 
-| Model | Start ET | Calls | Uncached input | Output | Cache read | Cache write | Total tokens | API estimate* |
-|---|---|---|---|---|---|---|---|---|
-| Fable 5.1 subscription | 15:57:19 | 1 | 2 | 4 | 0 | 36,700 | 36,706 | USD 0.73 |
-| Gemini 4 Argon | 15:57:29 | 1 | 14,945 | 5 | 0 | 0 | 14,950 | USD 0.03 |
-| Gemini 4 Argon | 16:00:15 | 31 | 218,580 | 16,594 | 2,108,618 | 0 | 2,343,792 | USD 0.81 |
-| Gemini 4 Argon | 16:18:00 | 39 | 239,269 | 33,805 | 3,127,351 | 0 | 3,400,425 | USD 1.13 |
-| Haiku 5.5 subscription | 15:57:10 | 1 | 2 | 4 | 0 | 35,634 | 35,640 | USD 0.01 |
-| MiniMax M3.1 Flash | 08:19:20 | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable |
-| MiniMax M3.1 Flash | 08:53:36 | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable |
-| Sonnet 5.5 subscription | 15:57:02 | 1 | 2 | 4 | 0 | 34,811 | 34,817 | USD 0.14 |
+| Model | Total tokens | Uncached input | Output | Cache read | Cache write | Start ET | Calls |
+|---|---|---|---|---|---|---|---|
+| Fable 5.1 subscription | 36,706 | 2 | 4 | 0 | 36,700 | 15:57:19 | 1 |
+| Gemini 4 Argon | 14,950 | 14,945 | 5 | 0 | 0 | 15:57:29 | 1 |
+| Gemini 4 Argon | 2,343,792 | 218,580 | 16,594 | 2,108,618 | 0 | 16:00:15 | 31 |
+| Gemini 4 Argon | 3,400,425 | 239,269 | 33,805 | 3,127,351 | 0 | 16:18:00 | 39 |
+| Haiku 5.5 subscription | 35,640 | 2 | 4 | 0 | 35,634 | 15:57:10 | 1 |
+| MiniMax M3.1 Flash | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | 08:19:20 | Unavailable |
+| MiniMax M3.1 Flash | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | 08:53:36 | Unavailable |
+| Sonnet 5.5 subscription | 34,817 | 2 | 4 | 0 | 34,811 | 15:57:02 | 1 |
 
 ## Definitions and limits
 
@@ -81,7 +81,7 @@ Qwen uses the higher regional estimate for its displayed cost and totals, as req
 Primary tables contain the exact coordinator-attempted run for each of the sixteen final HTML editions, bound by terminal-record session ID, not latest-by-name. Earlier attempts appear separately and are excluded from primary totals. The final-edition token usage table is sorted by total tokens, fewest to most, with alphabetical ties and unavailable totals last.
 Two earlier MiniMax dispatch attempts for the same job (08:19 and 08:53 ET) failed before producing usage; the 09:11 ET run (session ca8ce19a-954b-4cbb-b3ac-ba7559d3dbdb) is the coordinator-selected attempt and matches the edition run.json. Pricing matches the unique model identity independently of routing prefixes and authentication profiles. Execution transport determines billing separately. The four added models use the additive verified pricing snapshot; prior model rates are unchanged. Argon uses introductory rates; Haiku tiers are resolved per request including cache tokens. The two failed Argon attempts remain in the diagnostic table.
 Collector generated: 2026-11-08T17:20:41-05:00. Pricing source: pricing/2026-11-08T210140765623Z/api-pricing.json, as of 2026-11-08; earlier-date fallback: False. Pricing verification: {'status': 'passed', 'files_checked': 11, 'mismatched': [], 'verification_checks': 'passed'}. These are historical saved rates, not independently refreshed current rates.
-Available-telemetry API-equivalent total (16/16 models): USD 36.23. Recorded OpenRouter charges for the final editions: USD 7.33. Pricing snapshot age at report date: 0 days. Last successful daily source verification for this snapshot: not yet recorded. Hash verification checks saved-file integrity; the separate daily check verifies source rates.
+Available-telemetry API-equivalent total (16/16 models): $36.23. Recorded OpenRouter charges for the final editions: $7.33. Pricing snapshot age at report date: 0 days. Last successful daily source verification for this snapshot: not yet recorded. Hash verification checks saved-file integrity; the separate daily check verifies source rates.
 
 ## Collector diagnostics
 
