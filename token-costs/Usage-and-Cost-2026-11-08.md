@@ -2,24 +2,24 @@
 
 ## Final-edition token usage
 
-| Model | Total tokens | Uncached input | Output | Cache read | Cache write | Start ET | Calls |
-|---|---|---|---|---|---|---|---|
-| Terra | 2,275,210 | 105,928 | 9,794 | 2,159,488 | 0 | 07:55:14 | 29 |
-| Astra | 2,512,737 | 191,251 | 13,902 | 2,307,584 | 0 | 07:40:34 | 24 |
-| Sol | 2,802,543 | 147,152 | 13,343 | 2,642,048 | 0 | 07:48:14 | 26 |
-| GLM | 3,678,971 | 246,851 | 24,338 | 3,407,782 | 0 | 07:47:43 | 54 |
-| Kimi | 3,800,373 | 159,932 | 23,225 | 3,617,216 | 0 | 08:13:40 | 33 |
-| Sonnet | 3,999,341 | 68 | 29,826 | 3,800,883 | 168,564 | 16:14:54 | 34 |
-| Haiku | 4,398,650 | 74 | 55,973 | 4,170,461 | 172,142 | 16:19:30 | 37 |
-| Argon | 6,285,338 | 307,278 | 47,066 | 5,930,994 | 0 | 16:48:14 | 45 |
-| Grok | 6,363,599 | 339,876 | 75,563 | 5,948,160 | 0 | 08:19:25 | 46 |
-| Fable | 6,585,315 | 994 | 65,540 | 6,241,424 | 277,357 | 16:00:11 | 32 |
-| Opus | 6,828,846 | 96 | 36,634 | 6,588,963 | 203,153 | 07:40:34 | 48 |
-| DeepSeek Pro | 6,956,226 | 1,147,290 | 50,472 | 5,758,464 | 0 | 07:52:28 | 68 |
-| Luna | 7,526,269 | 205,256 | 68,021 | 7,252,992 | 0 | 07:59:50 | 59 |
-| Qwen | 7,605,216 | 214,857 | 54,679 | 7,335,680 | 0 | 08:23:09 | 65 |
-| Flash | 8,753,143 | 187,156 | 76,771 | 8,489,216 | 0 | 08:51:40 | 72 |
-| MiniMax | 30,080,754 | 413,443 | 182,511 | 29,484,800 | 0 | 09:11:10 | 125 |
+| Model | Total tokens | Uncached input | Output | Cache read | Cache write | Start ET | Calls | API Cost* |
+|---|---|---|---|---|---|---|---|---|
+| Terra | 2,275,210 | 105,928 | 9,794 | 2,159,488 | 0 | 07:55:14 | 29 | $0.26 |
+| Astra | 2,512,737 | 191,251 | 13,902 | 2,307,584 | 0 | 07:40:34 | 24 | $4.92 |
+| Sol | 2,802,543 | 147,152 | 13,343 | 2,642,048 | 0 | 07:48:14 | 26 | $0.69 |
+| GLM | 3,678,971 | 246,851 | 24,338 | 3,407,782 | 0 | 07:47:43 | 54 | $1.34 |
+| Kimi | 3,800,373 | 159,932 | 23,225 | 3,617,216 | 0 | 08:13:40 | 33 | $1.28 |
+| Sonnet | 3,999,341 | 68 | 29,826 | 3,800,883 | 168,564 | 16:14:54 | 34 | $1.35 |
+| Haiku | 4,398,650 | 74 | 55,973 | 4,170,461 | 172,142 | 16:19:30 | 37 | $0.37 |
+| Argon | 6,285,338 | 307,278 | 47,066 | 5,930,994 | 0 | 16:48:14 | 45 | $1.68 |
+| Grok | 6,363,599 | 339,876 | 75,563 | 5,948,160 | 0 | 08:19:25 | 46 | $5.86 |
+| Fable | 6,585,315 | 994 | 65,540 | 6,241,424 | 277,357 | 16:00:11 | 32 | $10.39 |
+| Opus | 6,828,846 | 96 | 36,634 | 6,588,963 | 203,153 | 07:40:34 | 48 | $3.68 |
+| DeepSeek Pro | 6,956,226 | 1,147,290 | 50,472 | 5,758,464 | 0 | 07:52:28 | 68 | $0.98 |
+| Luna | 7,526,269 | 205,256 | 68,021 | 7,252,992 | 0 | 07:59:50 | 59 | $0.13 |
+| Qwen | 7,605,216 | 214,857 | 54,679 | 7,335,680 | 0 | 08:23:09 | 65 | $2.59 |
+| Flash | 8,753,143 | 187,156 | 76,771 | 8,489,216 | 0 | 08:51:40 | 72 | $0.10 |
+| MiniMax | 30,080,754 | 413,443 | 182,511 | 29,484,800 | 0 | 09:11:10 | 125 | $0.61 |
 
 ## Final-edition recorded charges
 
@@ -57,20 +57,20 @@
 
 ## Earlier / diagnostic attempts
 
-| Model | Total tokens | Uncached input | Output | Cache read | Cache write | Start ET | Calls |
-|---|---|---|---|---|---|---|---|
-| Fable 5.1 subscription | 36,706 | 2 | 4 | 0 | 36,700 | 15:57:19 | 1 |
-| Gemini 4 Argon | 14,950 | 14,945 | 5 | 0 | 0 | 15:57:29 | 1 |
-| Gemini 4 Argon | 2,343,792 | 218,580 | 16,594 | 2,108,618 | 0 | 16:00:15 | 31 |
-| Gemini 4 Argon | 3,400,425 | 239,269 | 33,805 | 3,127,351 | 0 | 16:18:00 | 39 |
-| Haiku 5.5 subscription | 35,640 | 2 | 4 | 0 | 35,634 | 15:57:10 | 1 |
-| MiniMax M3.1 Flash | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | 08:19:20 | Unavailable |
-| MiniMax M3.1 Flash | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | 08:53:36 | Unavailable |
-| Sonnet 5.5 subscription | 34,817 | 2 | 4 | 0 | 34,811 | 15:57:02 | 1 |
+| Model | Total tokens | Uncached input | Output | Cache read | Cache write | Start ET | Calls | API Cost* |
+|---|---|---|---|---|---|---|---|---|
+| Fable 5.1 subscription | 36,706 | 2 | 4 | 0 | 36,700 | 15:57:19 | 1 | $0.73 |
+| Gemini 4 Argon | 14,950 | 14,945 | 5 | 0 | 0 | 15:57:29 | 1 | $0.03 |
+| Gemini 4 Argon | 2,343,792 | 218,580 | 16,594 | 2,108,618 | 0 | 16:00:15 | 31 | $0.81 |
+| Gemini 4 Argon | 3,400,425 | 239,269 | 33,805 | 3,127,351 | 0 | 16:18:00 | 39 | $1.13 |
+| Haiku 5.5 subscription | 35,640 | 2 | 4 | 0 | 35,634 | 15:57:10 | 1 | $0.01 |
+| MiniMax M3.1 Flash | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | 08:19:20 | Unavailable | Unavailable |
+| MiniMax M3.1 Flash | Unavailable | Unavailable | Unavailable | Unavailable | Unavailable | 08:53:36 | Unavailable | Unavailable |
+| Sonnet 5.5 subscription | 34,817 | 2 | 4 | 0 | 34,811 | 15:57:02 | 1 | $0.14 |
 
 ## Definitions and limits
 
-*API estimate means tokens priced at published API list rates, not a bill. Estimates include subscription-backed models. Recorded OpenRouter charges are separate actual provider-billed amounts. Do not add estimates to recorded charges. Subscription runs have no per-token charge.
+*API Cost is an estimate calculated from token usage at published API list rates, not a bill. Estimates include subscription-backed models. Recorded OpenRouter charges are separate actual provider-billed amounts. Do not add estimates to recorded charges. Subscription runs have no per-token charge.
 Fable, Sonnet and Haiku usage was recovered from Claude Code native logs using unique exact-model matches within each coordinator-selected run window after the stored CLI bindings were absent. Calls are deduplicated by message ID, using the same native-log accounting as Opus. Totals cover all 16 final editions.
 
 Total tokens = uncached input + output + cache read + cache write, summed across calls (including repeated cached context). Input means uncached input only. Cache-read/write tokens are separate. Output is the collector output counter, not a fabricated visible-text word count. Zero is retained only where the collector records it; unavailable counters are not replaced with estimates.
