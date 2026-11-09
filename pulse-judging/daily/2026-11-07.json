@@ -1,0 +1,132 @@
+{
+ "date": "2026-11-07",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902"
+ ],
+ "scores": {
+  "opus": {
+   "gpt-6-1-sol": 3.0,
+   "gpt-6-astra": 3.0,
+   "gpt-6-luna": 2.5,
+   "minimax-m3-1-flash": 2.5,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "kimi-k3-1-pro": 3.0,
+   "grok-4-7": 2.5,
+   "opus-5-5": 3.5,
+   "deepseek-v4-pro": 3.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gpt-6-1-terra": 2.0,
+   "glm-5-3": 3.5
+  },
+  "glm": {
+   "gpt-6-1-terra": 2.5,
+   "gpt-6-1-sol": 3.0,
+   "deepseek-v4-pro": 3.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gpt-6-luna": 2.5,
+   "gpt-6-astra": 3.0,
+   "minimax-m3-1-flash": 3.0,
+   "grok-4-7": 3.5,
+   "kimi-k3-1-pro": 4.0,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "opus-5-5": 3.5,
+   "glm-5-3": 4.0
+  },
+  "astra": {
+   "gpt-6-1-sol": 3.5,
+   "minimax-m3-1-flash": 2.5,
+   "opus-5-5": 3.0,
+   "kimi-k3-1-pro": 2.5,
+   "qwen-3-8-max-0902": 2.0,
+   "gpt-6-astra": 3.0,
+   "gpt-6-luna": 2.5,
+   "gpt-6-1-terra": 2.5,
+   "glm-5-3": 3.0,
+   "deepseek-v4-pro": 2.0,
+   "deepseek-v4-1-flash-1017": 2.0,
+   "grok-4-7": 2.5
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 3.0,
+  "deepseek-v4-pro": 2.67,
+  "glm-5-3": 3.5,
+  "gpt-6-1-sol": 3.17,
+  "gpt-6-1-terra": 2.33,
+  "gpt-6-astra": 3.0,
+  "gpt-6-luna": 2.5,
+  "grok-4-7": 2.83,
+  "kimi-k3-1-pro": 3.17,
+  "minimax-m3-1-flash": 2.67,
+  "opus-5-5": 3.33,
+  "qwen-3-8-max-0902": 3.0
+ },
+ "ranking": [
+  "glm-5-3",
+  "opus-5-5",
+  "gpt-6-1-sol",
+  "kimi-k3-1-pro",
+  "deepseek-v4-1-flash-1017",
+  "gpt-6-astra",
+  "qwen-3-8-max-0902",
+  "grok-4-7",
+  "deepseek-v4-pro",
+  "minimax-m3-1-flash",
+  "gpt-6-luna",
+  "gpt-6-1-terra"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "opus-5-5"
+   ],
+   "own": 3.5,
+   "others": 3.25,
+   "bump": 0.25
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 4.0,
+   "others": 3.25,
+   "bump": 0.75
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 2.88,
+   "others": 2.69,
+   "bump": 0.19
+  }
+ },
+ "judge_notes": {
+  "opus": "L wins narrowly because it is the only summary that gives the reader stakes: \"a release that would make it the top open-weights model developed outside China\" and \"chip stocks slid sharply as investors weighed possible restrictions on the AI buildout\" tell an executive why to care, though its run-on opening and stacked stats keep it from a 4. K finishes last: at 65 words it still manages vagueness (\"specialized Muse Wonder-based models to its assistants\"), an empty hedge (\"while emphasizing uncertainty in its assessment\") and a trivial item framed as news (\"disclosure of an email address in web request headers\").",
+  "glm": "J won with clean, complete sentences and details that carry their own significance \u2014 \"a signature-forgery technique it estimates is about 1,600 times more efficient\" tells an executive more than a hedge ever could, and its single 2048-bit caveat is integrated rather than paraded. I and L follow: I is tidier but its last sentence glues unrelated items (\"released a 100-task benchmark ... and joined Frontier Model Forum members\"), while L earns depth with \"a release that would make it the top open-weights model developed outside China\" but stumbles on the redundant \"After Democrats' midterm sweep, top Democrats called\" and a stat pile-up in the Meta paragraph. E lost: \"a Qwen3.8-derived model post-trained to alter model behavior\" is too vague to act on, and its items are strung together with \"while\" and a closing disclaimer. A also lost \u2014 65 words of disconnected clauses (\"while Meta is bringing specialized Muse Wonder-based models\") with no line explaining why any of it matters.",
+  "astra": "A wins narrowly, not at publication-ready quality: \"physical infrastructure remains part of the deployment story\" at least attempts to connect news to deployment, and its sentences are more navigable than the specification-heavy alternatives. Its repeated caveats and loose connections keep it at 3.5. K loses because the opening runs from \"a 594-billion-parameter mixture-of-experts model\" through \"is promised as Apache 2.0 weights next week after external safety testing\" in one overloaded sentence, followed by another crowded technical comparison. The problem is processing burden and absent hierarchy, not a clear-cut grammar failure."
+ }
+}
