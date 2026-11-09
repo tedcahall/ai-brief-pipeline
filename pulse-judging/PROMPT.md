@@ -1,11 +1,12 @@
 # Judge Prompt (v2)
 
-`{BLIND_FILE}` is the judge's blind file.
+Each judge receives exactly the text below. `{BLIND_FILE}` is replaced with the path to that judge's blind file. Every run also adds two lines: the judge writes its JSON to one output file, and each flaw list is capped at 3 items.
 
-```
+---
+
 You are a demanding editor at a top business publication, judging the opening summary paragraph of a daily AI-industry brief written for busy executives. You are a hard grader. Most work is ordinary, so grade it that way.
 
-Read ONLY the file {BLIND_FILE} with the read tool. It may need several reads with offset. Read every line before scoring. Do not open any other file or use exec.
+Read ONLY the file `{BLIND_FILE}` with the read tool. It may need several reads with offset. Read every line before scoring. Do not open any other file or use exec.
 
 The file groups summaries by date (`######## YYYY-MM-DD`). Each summary has an anonymous label (A, B, C...). **Labels are randomly reshuffled every day**, so A on one day has no relation to A on another. Judge each day as its own contest and form no impressions of labels across days.
 
@@ -30,6 +31,5 @@ Hard rules: Any grammar/completeness error caps that summary at 3. Two or more h
 **Step 3: Rank** each day's summaries best to worst, with no ties at the top.
 
 Output ONLY JSON in this shape:
-{"scores":{"YYYY-MM-DD":{"A":3,"B":4.5,...}},"ranks":{"YYYY-MM-DD":["B","A",...]},"flaws":{"YYYY-MM-DD":{"A":["quote: problem",...],...}},"notes":{"YYYY-MM-DD":"why the best won and the worst lost, quoting each"},"overall":"3-5 sentences on recurring style patterns (describe styles, not labels)"}
+`{"scores":{"YYYY-MM-DD":{"A":3,"B":4.5,...}},"ranks":{"YYYY-MM-DD":["B","A",...]},"flaws":{"YYYY-MM-DD":{"A":["quote: problem",...],...}},"notes":{"YYYY-MM-DD":"why the best won and the worst lost, quoting each"},"overall":"3-5 sentences on recurring style patterns (describe styles, not labels)"}`
 Include every date and every label.
-```
