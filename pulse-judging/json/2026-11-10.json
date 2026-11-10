@@ -1,0 +1,166 @@
+{
+ "date": "2026-11-10",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "fable-5-1",
+  "fable-5-2",
+  "gemini-4-argon",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "haiku-5-5",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902",
+  "sonnet-5-5"
+ ],
+ "scores": {
+  "opus": {
+   "deepseek-v4-pro": 3.0,
+   "sonnet-5-5": 3.0,
+   "haiku-5-5": 3.5,
+   "opus-5-5": 3.5,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "grok-4-7": 3.5,
+   "gpt-6-astra": 4.0,
+   "fable-5-2": 2.5,
+   "minimax-m3-1-flash": 3.0,
+   "glm-5-3": 2.0,
+   "fable-5-1": 3.5,
+   "gpt-6-1-sol": 3.0,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-luna": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gemini-4-argon": 2.5
+  },
+  "glm": {
+   "opus-5-5": 4.0,
+   "gpt-6-luna": 4.0,
+   "glm-5-3": 3.0,
+   "gpt-6-astra": 3.5,
+   "gpt-6-1-sol": 3.5,
+   "qwen-3-8-max-0902": 4.0,
+   "fable-5-2": 3.0,
+   "deepseek-v4-pro": 3.0,
+   "gpt-6-1-terra": 2.5,
+   "fable-5-1": 4.5,
+   "haiku-5-5": 3.0,
+   "minimax-m3-1-flash": 2.5,
+   "kimi-k3-1-pro": 3.0,
+   "gemini-4-argon": 2.5,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "sonnet-5-5": 3.5,
+   "grok-4-7": 4.0
+  },
+  "astra": {
+   "grok-4-7": 2.5,
+   "fable-5-1": 2.0,
+   "qwen-3-8-max-0902": 2.0,
+   "opus-5-5": 2.5,
+   "minimax-m3-1-flash": 3.0,
+   "kimi-k3-1-pro": 2.5,
+   "gpt-6-1-terra": 2.5,
+   "haiku-5-5": 3.0,
+   "deepseek-v4-pro": 2.5,
+   "glm-5-3": 1.5,
+   "sonnet-5-5": 2.5,
+   "gemini-4-argon": 2.0,
+   "fable-5-2": 2.0,
+   "gpt-6-1-sol": 3.5,
+   "gpt-6-astra": 4.0,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "gpt-6-luna": 3.0
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 3.83,
+  "deepseek-v4-pro": 2.83,
+  "fable-5-1": 3.33,
+  "fable-5-2": 2.5,
+  "gemini-4-argon": 2.33,
+  "glm-5-3": 2.17,
+  "gpt-6-1-sol": 3.33,
+  "gpt-6-1-terra": 2.33,
+  "gpt-6-astra": 3.83,
+  "gpt-6-luna": 3.33,
+  "grok-4-7": 3.33,
+  "haiku-5-5": 3.17,
+  "kimi-k3-1-pro": 2.83,
+  "minimax-m3-1-flash": 2.83,
+  "opus-5-5": 3.33,
+  "qwen-3-8-max-0902": 3.17,
+  "sonnet-5-5": 3.0
+ },
+ "ranking": [
+  "deepseek-v4-1-flash-1017",
+  "gpt-6-astra",
+  "fable-5-1",
+  "gpt-6-1-sol",
+  "gpt-6-luna",
+  "grok-4-7",
+  "opus-5-5",
+  "haiku-5-5",
+  "qwen-3-8-max-0902",
+  "sonnet-5-5",
+  "deepseek-v4-pro",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "fable-5-2",
+  "gemini-4-argon",
+  "gpt-6-1-terra",
+  "glm-5-3"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "fable-5-1",
+    "fable-5-2",
+    "haiku-5-5",
+    "opus-5-5",
+    "sonnet-5-5"
+   ],
+   "own": 3.2,
+   "others": 3.0,
+   "bump": 0.2
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 3.0,
+   "others": 1.75,
+   "bump": 1.25
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 3.25,
+   "others": 3.19,
+   "bump": 0.06
+  }
+ },
+ "judge_notes": {
+  "opus": "E won on clean hierarchy and a usable frame: 'Meta answered on the low end with Muse Ember' ties the second story to the lead, and 'an internal kill switch that stops model workloads within 35 seconds' translates jargon for executives; its only real flaw is the 'Separately' join. G ran close with the best why-it-matters line ('cheaper tokens do not necessarily mean cheaper completed tasks') but went vague on Baidu and Google. O finished last: 'OpenAI described a system for stopping research model workloads' tells the reader nothing, and 'The performance and cost claims remain attributable to their respective authors' is pure process leakage. J nearly tied it by describing Muse Ember twice in back-to-back sentences.",
+  "glm": "J won because it is the only entry that prices both ends of the market with comparative anchors ('five points ahead of Gemini 4 Carbon... at about a third of the cost per task') while closing on a genuine risk story; it reads like a brief with a point of view. I lost because it buries everything under process disclaimer and vagueness: 'The performance and cost claims remain attributable to their respective authors' is the writer's sourcing caveat, not news. C lost ground on an actual content error \u2014 Muse Ember described twice in nearly identical words \u2014 while N's run-on spec stacking ('AMD EPYC-hosted TPU 8tx... dual-chip TPU 8i Max with doubled compute and HBM bandwidth') made it hard work despite good raw material.",
+  "astra": "O wins with an executive-relevant distinction, \"cheaper tokens do not necessarily mean cheaper completed tasks,\" and a coherent close connecting operational controls to more capable agents. Its thin Baidu item keeps it below publication-ready perfection. J loses because \"Meta introduced Muse Ember, its smallest and most efficient model\" repeats information already delivered, while its opening and closing sentences overload the reader with unrelated announcements and specifications."
+ }
+}
