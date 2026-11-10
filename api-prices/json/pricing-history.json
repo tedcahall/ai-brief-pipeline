@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "status": "published",
+  "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
+  "last_daily_verification": {
+    "checked_at": "2026-11-10T08:05:27.169763+00:00",
+    "status": "unchanged",
+    "changed_models": [],
+    "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-09T093833725338Z",
+    "models_checked": 16,
+    "sources_checked": 10
+  },
+  "rows": [
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "tier": "Peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.3,
+        "output": 1.2,
+        "cache_read": 0.006,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "tier": "Off-peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.15,
+        "output": 0.6,
+        "cache_read": 0.003,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "tier": "Peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1.32,
+        "output": 3.96,
+        "cache_read": 0.044,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "tier": "Off-peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.66,
+        "output": 1.98,
+        "cache_read": 0.022,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "fable-5-1",
+      "tier": "Standard",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 10,
+        "output": 50,
+        "cache_read": 0.25,
+        "cache_write_by_ttl": {
+          "5m": 12.5,
+          "1h": 20
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "fable-5-2",
+      "tier": "Standard",
+      "first_recorded": "2026-11-10",
+      "last_price_change_observed": null,
+      "updated": "2026-11-10",
+      "rates": {
+        "input_uncached": 8,
+        "output": 40,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "5m": 10,
+          "1h": 16
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gemini-4-argon",
+      "tier": "Introductory",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "glm-5-3",
+      "tier": "Z.AI direct",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1.4,
+        "output": 4.4,
+        "cache_read": 0.26,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-1-sol",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "30m": 2.5,
+          "12h": 5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-1-sol",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 4,
+        "output": 15,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "30m": 5,
+          "12h": 10
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-1-terra",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1,
+        "output": 5,
+        "cache_read": 0.05,
+        "cache_write_by_ttl": {
+          "30m": 1.25,
+          "12h": 2.5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-1-terra",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 7.5,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "30m": 2.5,
+          "12h": 5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-astra",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 10,
+        "output": 50,
+        "cache_read": 1,
+        "cache_write_by_ttl": {
+          "30m": 12.5,
+          "12h": 25
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-astra",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 20,
+        "output": 75,
+        "cache_read": 2,
+        "cache_write_by_ttl": {
+          "30m": 25,
+          "12h": 50
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-luna",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.1,
+        "output": 0.5,
+        "cache_read": 0.01,
+        "cache_write_by_ttl": {
+          "30m": 0.125,
+          "12h": 0.25
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "gpt-6-luna",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.2,
+        "output": 0.75,
+        "cache_read": 0.02,
+        "cache_write_by_ttl": {
+          "30m": 0.25,
+          "12h": 0.5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "grok-4-7",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 6,
+        "cache_read": 0.5,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "grok-4-7",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 4,
+        "output": 12,
+        "cache_read": 1,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "haiku-5-5",
+      "tier": "Standard short",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 0.1,
+        "output": 0.5,
+        "cache_read": 0.01,
+        "cache_write_by_ttl": {
+          "5m": 0.125,
+          "1h": 0.2
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "haiku-5-5",
+      "tier": "Standard long",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 0.5,
+        "output": 2.5,
+        "cache_read": 0.05,
+        "cache_write_by_ttl": {
+          "5m": 0.625,
+          "1h": 1
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "tier": "Standard flat",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "5m": 2,
+          "1h": 4
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "minimax-m3-1-flash",
+      "tier": "Direct flat",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.15,
+        "output": 0.6,
+        "cache_read": 0.015,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "opus-5-5",
+      "tier": "Standard",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 4,
+        "output": 20,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "5m": 5,
+          "1h": 8
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "tier": "Singapore / International",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 6,
+        "cache_read": 0.25,
+        "cache_write_by_ttl": {
+          "explicit": 2.5
+        },
+        "cache_read_explicit": 0.17
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "tier": "Global",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1.65,
+        "output": 4.951,
+        "cache_read": 0.206,
+        "cache_write_by_ttl": {
+          "explicit": 2.063
+        },
+        "cache_read_explicit": 0.137
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    },
+    {
+      "model": "sonnet-5-5",
+      "tier": "Standard",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "5m": 2.5,
+          "1h": 4
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      }
+    }
+  ]
+}
