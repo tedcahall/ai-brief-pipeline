@@ -122,7 +122,7 @@
       "slug": "gpt-6-luna",
       "status": "complete_local",
       "score": 66,
-      "rank": 13,
+      "rank": 14,
       "headline_event": "fable",
       "story_events": [
         "fable",
@@ -209,7 +209,7 @@
       "slug": "deepseek-v4-pro",
       "status": "complete_local",
       "score": 57,
-      "rank": 16,
+      "rank": 17,
       "headline_event": "fable",
       "story_events": [
         "fable",
@@ -296,7 +296,7 @@
       "slug": "gpt-6-1-terra",
       "status": "review_required",
       "score": 71,
-      "rank": 12,
+      "rank": 13,
       "headline_event": "fable",
       "story_events": [
         "fable",
@@ -325,7 +325,7 @@
       "slug": "glm-5-3",
       "status": "complete_local",
       "score": 66,
-      "rank": 13,
+      "rank": 14,
       "headline_event": "fable",
       "story_events": [
         "fable",
@@ -383,7 +383,7 @@
       "slug": "haiku-5-5",
       "status": "complete_local_review_required",
       "score": 61,
-      "rank": 15,
+      "rank": 16,
       "headline_event": "fable",
       "story_events": [
         "fable",
@@ -464,6 +464,35 @@
       ],
       "elapsed_seconds": 882,
       "elapsed_note": "Worker-reported elapsed_seconds."
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 72,
+      "rank": 12,
+      "headline_event": "fable",
+      "story_events": [
+        "fable",
+        "muse",
+        "longcat",
+        "megaspeed",
+        "control"
+      ],
+      "tweet_ids": [
+        "2119867114450268322",
+        "2119853591703998787",
+        "2119913172039868579",
+        "2119878995386982508",
+        "2119837846735569180",
+        "2120088070443655190",
+        "2119798507867644076",
+        "2119883176726409645",
+        "2119977464529289304",
+        "2119813353363370134"
+      ],
+      "elapsed_seconds": 373,
+      "elapsed_note": "Worker-reported elapsed_seconds."
     }
   ],
   "excluded_models": [],
@@ -479,41 +508,43 @@
     "longcat": "Meituan LongCat-2.5 1.6T-parameter open weights under MIT license",
     "groot2": "NVIDIA GR00T 2 robot model few-shot task learning",
     "tsmc": "TSMC October revenue up 59.7% year over year",
+    "megaspeed": "US Commerce Department halted the Megaspeed probe after Nvidia contact, NYT reports (via The Next Web)",
     "anthropic_63b": "Bank consortium arranges $63B Anthropic compute financing"
   },
   "headline_votes": {
-    "fable": 16
+    "fable": 17
   },
   "story_votes": {
-    "fable": 16,
-    "muse": 16,
+    "fable": 17,
+    "muse": 17,
     "tpu": 16,
-    "control": 14,
+    "control": 15,
     "ernie": 6,
     "quantum": 2,
     "groot2": 1,
     "tsmc": 1,
     "seedream": 3,
     "snowball": 2,
-    "longcat": 2,
-    "anthropic_63b": 1
+    "longcat": 3,
+    "anthropic_63b": 1,
+    "megaspeed": 1
   },
   "tweet_votes": {
-    "2119867114450268322": 15,
-    "2119853591703998787": 15,
-    "2119913172039868579": 16,
-    "2119837846735569180": 9,
+    "2119867114450268322": 16,
+    "2119853591703998787": 16,
+    "2119913172039868579": 17,
+    "2119837846735569180": 10,
     "2119779028978848025": 1,
-    "2119813353363370134": 2,
-    "2119878995386982508": 15,
-    "2119883176726409645": 10,
+    "2119813353363370134": 3,
+    "2119878995386982508": 16,
+    "2119883176726409645": 11,
     "2119878431831978221": 3,
     "2119851439904510217": 6,
-    "2119798507867644076": 8,
+    "2119798507867644076": 9,
     "2119918516212318260": 1,
     "2119823574773141622": 1,
     "2119857335871164769": 5,
-    "2120088070443655190": 6,
+    "2120088070443655190": 7,
     "2119867129751056485": 3,
     "2119788858623902034": 4,
     "2119886501421167042": 2,
@@ -539,7 +570,7 @@
     "2119843249980662241": 1,
     "2120000888974766501": 1,
     "2119882230239543319": 1,
-    "2119977464529289304": 1
+    "2119977464529289304": 2
   },
   "cutoffs": {
     "story_cut_votes": 6,
@@ -565,7 +596,7 @@
       "2120088070443655190"
     ]
   },
-  "eligible_denominator": 16,
+  "eligible_denominator": 17,
   "source_hashes": {
     "2026-11-10/minimax-m3-1-flash/2026-11-10.edition.md": "c9b070be771e8867464d2f04471847e82a5fb1fac9d3300e3bec5499e8ff51b0",
     "2026-11-10/minimax-m3-1-flash/2026-11-10.html": "99e0a78e85b57c49cc496bfae9296d89097dd9a8a000dcb16f5186821f95b8b9",
@@ -662,7 +693,13 @@
     "2026-11-10/gemini-4-argon/run.json": "366a6318d629e4a8f7d98d9bc9e54ff772d19665504f53cfc4d3251b2fb84c5b",
     "2026-11-10/gemini-4-argon/headline.json": "c37a404242d83eeb8f9d8ecd0a576e26ad1ec7336e7d149d96a99a5aabbfab0e",
     "2026-11-10/gemini-4-argon/2026-11-10.x-collection.json": "10f88c0756563c8e3df6984733cc62f1cc13ee59259ff196dee3727c3dfd2386",
-    "2026-11-10/gemini-4-argon/2026-11-10.web-search.json": "b652dbb410627ef4504a35bf88999e46b3bf1c09bfe13ef8101e2d8a49d9a377"
+    "2026-11-10/gemini-4-argon/2026-11-10.web-search.json": "b652dbb410627ef4504a35bf88999e46b3bf1c09bfe13ef8101e2d8a49d9a377",
+    "2026-11-10/fable-5-2/2026-11-10.edition.md": "b9a942a8369d8c9a8f422ed1803fc3022484049ed0a4c9656113450830a95e4a",
+    "2026-11-10/fable-5-2/2026-11-10.html": "89e79335359f98ca83fd783d5f47562b1ba0a30949f56cd8e05481900a9595dd",
+    "2026-11-10/fable-5-2/run.json": "95fa0e88c612494cbc070e531ee044cce6f82b585974b1a1d3f6b256cd8e98c3",
+    "2026-11-10/fable-5-2/headline.json": "0a6f3ae7afd78c55808b0b4b073211f78f9fba4ef5c7a11611b321f33cbfb865",
+    "2026-11-10/fable-5-2/2026-11-10.x-collection.json": "10f88c0756563c8e3df6984733cc62f1cc13ee59259ff196dee3727c3dfd2386",
+    "2026-11-10/fable-5-2/2026-11-10.web-search.json": "b652dbb410627ef4504a35bf88999e46b3bf1c09bfe13ef8101e2d8a49d9a377"
   },
   "ambiguous_matches": [
     {
