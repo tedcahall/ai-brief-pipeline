@@ -103,6 +103,6 @@ Pricing JSON: `/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/202
 ## Audit files
 
 - Raw collection: `/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-09/usage-audit-ken/usage-and-cost.json`.
-- Companion selection/totals audit: `Usage-and-Cost-2026-11-09.audit.json`.
+- Companion selection/totals audit: `json/Usage-and-Cost-2026-11-09.audit.json`.
 - Collection reads usage/metadata only. No runs, retries, newsletter sends or production changes.
 
