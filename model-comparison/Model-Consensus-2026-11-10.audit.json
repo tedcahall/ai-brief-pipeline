@@ -2,7 +2,7 @@
   "date": "2026-11-10",
   "models": [
     {
-      "name": "MiniMax",
+      "name": "minimax-m3-1-flash",
       "slug": "minimax-m3-1-flash",
       "status": "complete_local",
       "score": 85,
@@ -31,7 +31,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Astra",
+      "name": "gpt-6-astra",
       "slug": "gpt-6-astra",
       "status": "review_required",
       "score": 85,
@@ -60,7 +60,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Kimi",
+      "name": "kimi-k3-1-pro",
       "slug": "kimi-k3-1-pro",
       "status": "review_required",
       "score": 76,
@@ -89,7 +89,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Flash",
+      "name": "deepseek-v4-1-flash-1017",
       "slug": "deepseek-v4-1-flash-1017",
       "status": "complete_local",
       "score": 76,
@@ -118,7 +118,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Luna",
+      "name": "gpt-6-luna",
       "slug": "gpt-6-luna",
       "status": "complete_local",
       "score": 66,
@@ -147,7 +147,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Grok",
+      "name": "grok-4-7",
       "slug": "grok-4-7",
       "status": "review_required",
       "score": 81,
@@ -176,7 +176,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Sol",
+      "name": "gpt-6-1-sol",
       "slug": "gpt-6-1-sol",
       "status": "complete_local",
       "score": 90,
@@ -205,7 +205,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "DeepSeek Pro",
+      "name": "deepseek-v4-pro",
       "slug": "deepseek-v4-pro",
       "status": "complete_local",
       "score": 57,
@@ -234,7 +234,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Opus",
+      "name": "opus-5-5",
       "slug": "opus-5-5",
       "status": "review_required",
       "score": 90,
@@ -263,7 +263,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Qwen",
+      "name": "qwen-3-8-max-0902",
       "slug": "qwen-3-8-max-0902",
       "status": "review_required",
       "score": 95,
@@ -292,7 +292,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Terra",
+      "name": "gpt-6-1-terra",
       "slug": "gpt-6-1-terra",
       "status": "review_required",
       "score": 71,
@@ -321,7 +321,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "GLM",
+      "name": "glm-5-3",
       "slug": "glm-5-3",
       "status": "complete_local",
       "score": 66,
@@ -350,7 +350,7 @@
       "elapsed_note": "Worker-reported elapsed from worker terminal summary (run.json uses free-text timing on this date)."
     },
     {
-      "name": "Sonnet",
+      "name": "sonnet-5-5",
       "slug": "sonnet-5-5",
       "status": "review_required",
       "score": 76,
@@ -379,7 +379,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Haiku",
+      "name": "haiku-5-5",
       "slug": "haiku-5-5",
       "status": "complete_local_review_required",
       "score": 61,
@@ -408,7 +408,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Fable",
+      "name": "fable-5-1",
       "slug": "fable-5-1",
       "status": "review_required",
       "score": 81,
@@ -437,7 +437,7 @@
       "elapsed_note": "Worker-reported elapsed_seconds."
     },
     {
-      "name": "Argon",
+      "name": "gemini-4-argon",
       "slug": "gemini-4-argon",
       "status": "review_required",
       "score": 86,
