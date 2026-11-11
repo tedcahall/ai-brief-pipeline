@@ -1,0 +1,166 @@
+{
+ "date": "2026-11-11",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "fable-5-1",
+  "fable-5-2",
+  "gemini-4-argon",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "haiku-5-5",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902",
+  "sonnet-5-5"
+ ],
+ "scores": {
+  "opus": {
+   "gpt-6-astra": 3.0,
+   "fable-5-1": 2.0,
+   "haiku-5-5": 3.0,
+   "minimax-m3-1-flash": 3.0,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "gemini-4-argon": 2.0,
+   "grok-4-7": 3.5,
+   "gpt-6-luna": 2.5,
+   "fable-5-2": 3.0,
+   "deepseek-v4-pro": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "gpt-6-1-terra": 2.5,
+   "opus-5-5": 3.0,
+   "sonnet-5-5": 3.5,
+   "kimi-k3-1-pro": 3.0,
+   "glm-5-3": 3.5,
+   "qwen-3-8-max-0902": 3.0
+  },
+  "glm": {
+   "qwen-3-8-max-0902": 3.0,
+   "gemini-4-argon": 2.5,
+   "grok-4-7": 3.5,
+   "opus-5-5": 3.5,
+   "sonnet-5-5": 4.0,
+   "deepseek-v4-1-flash-1017": 4.5,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-luna": 3.0,
+   "gpt-6-astra": 3.0,
+   "glm-5-3": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "fable-5-2": 3.5,
+   "haiku-5-5": 3.0,
+   "minimax-m3-1-flash": 3.5,
+   "fable-5-1": 2.5,
+   "gpt-6-1-sol": 3.0,
+   "deepseek-v4-pro": 3.5
+  },
+  "astra": {
+   "glm-5-3": 2.5,
+   "opus-5-5": 2.0,
+   "gpt-6-1-sol": 3.0,
+   "gpt-6-1-terra": 3.0,
+   "deepseek-v4-pro": 2.5,
+   "fable-5-2": 2.0,
+   "fable-5-1": 1.5,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "sonnet-5-5": 2.5,
+   "gpt-6-luna": 2.5,
+   "grok-4-7": 2.5,
+   "qwen-3-8-max-0902": 2.5,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-astra": 3.5,
+   "haiku-5-5": 3.0,
+   "gemini-4-argon": 1.5,
+   "minimax-m3-1-flash": 2.5
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 4.0,
+  "deepseek-v4-pro": 3.0,
+  "fable-5-1": 2.0,
+  "fable-5-2": 2.83,
+  "gemini-4-argon": 2.0,
+  "glm-5-3": 3.17,
+  "gpt-6-1-sol": 2.83,
+  "gpt-6-1-terra": 2.67,
+  "gpt-6-astra": 3.17,
+  "gpt-6-luna": 2.67,
+  "grok-4-7": 3.17,
+  "haiku-5-5": 3.0,
+  "kimi-k3-1-pro": 3.0,
+  "minimax-m3-1-flash": 3.0,
+  "opus-5-5": 2.83,
+  "qwen-3-8-max-0902": 2.83,
+  "sonnet-5-5": 3.33
+ },
+ "ranking": [
+  "deepseek-v4-1-flash-1017",
+  "sonnet-5-5",
+  "glm-5-3",
+  "gpt-6-astra",
+  "grok-4-7",
+  "deepseek-v4-pro",
+  "haiku-5-5",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "fable-5-2",
+  "gpt-6-1-sol",
+  "opus-5-5",
+  "qwen-3-8-max-0902",
+  "gpt-6-1-terra",
+  "gpt-6-luna",
+  "fable-5-1",
+  "gemini-4-argon"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "fable-5-1",
+    "fable-5-2",
+    "haiku-5-5",
+    "opus-5-5",
+    "sonnet-5-5"
+   ],
+   "own": 2.9,
+   "others": 2.75,
+   "bump": 0.15
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 3.5,
+   "others": 3.0,
+   "bump": 0.5
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 3.0,
+   "others": 2.75,
+   "bump": 0.25
+  }
+ },
+ "judge_notes": {
+  "opus": "E won because it gives each item a reason to care: Carbon priced 'matching its cheaper Argon model rather than a premium tier,' Alibaba 'answered within a day,' and a closing kicker, 'The week's clearest caution came from NEAR AI,' which supplies the significance most rivals lack. F lost on spec stacking and run-ons ('280B-total, 14B-active ERNIE 5.5 Flash Preview'; a 60+ word opener joined by 'while'), with B close behind for its ~75-word first sentence fusing Carbon benchmarks with the Anthropic IPO valuation.",
+  "glm": "F won because it is the only summary with a genuine throughline \u2014 competition and timing ('Alibaba answered within a day') plus a real punch in the NEAR AI enclave flaw, and its only caveat ('though it published no model card or benchmarks') is integrated rather than repeated. E is close behind: clean grammar and the $1.4 trillion valuation line gives the IPO real scale, hurt slightly by a benchmark stack and the abrupt license-exclusion ending. K lost because it is the thinnest and vaguest: 'a broader release of its data product' and 'although its license has geographic restrictions' inform the reader of almost nothing, and the IPO \u2014 the day's biggest money story \u2014 is absent. O and B sit just above K mostly on density: O's 60-word opening sentence ('a day after Anthropic's Fable 5.2 launch ... which TechCrunch says implies') buries three stories in one breath, and B's spec stacks ('280B-total, 14B-active') force rereading.",
+  "astra": "N wins narrowly because its readable opening culminates in an actual synthesis: \"show how labs are packaging AI into customer-facing and productivity workflows.\" Missing licensing and timing specifics keep it below publication-ready strength. H is the closest challenger, with useful price positioning and a concrete confidentiality failure, but its IPO and robotics detours undermine coherence. G finishes last because its opening runs from \"Google made Gemini 4 Carbon broadly available\" through \"a fully diluted valuation of up to $1.404 trillion\" in one heavily loaded sentence, followed by more dense inventories rather than orientation. No entry earns a 4 or 5."
+ }
+}
