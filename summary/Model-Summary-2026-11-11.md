@@ -11,6 +11,7 @@
 | gemini-4-argon | 76.5 | — | — | — | — | — | — | — | — | 67.0 | 72.0 | 86.0 | 81.0 |
 | sonnet-5-5 | 76.2 | — | — | — | — | — | — | — | — | 76.0 | 77.0 | 76.0 | 76.0 |
 | opus-5-5 | 75.9 | 81.0 | 76.0 | 76.0 | 48.0 | 91.0 | 76.0 | 53.0 | 81.0 | 77.0 | 72.0 | 90.0 | 90.0 |
+| gemini-4-carbon | 75.0 | — | — | — | — | — | — | — | — | — | — | — | 75.0 |
 | fable-5-1 | 72.0 | — | — | — | — | — | — | — | — | 63.0 | 58.0 | 81.0 | 86.0 |
 | deepseek-v4-pro | 71.7 | 85.0 | 86.0 | 62.0 | 71.0 | 52.0 | 90.0 | 67.0 | 75.0 | 48.0 | 81.0 | 57.0 | 86.0 |
 | deepseek-v4-1-flash-1017 | 71.2 | 80.0 | 67.0 | 91.0 | 58.0 | 71.0 | 67.0 | 67.0 | 71.0 | 67.0 | 63.0 | 76.0 | 77.0 |
@@ -38,6 +39,7 @@
 | gemini-4-argon | $1.64 | — | — | — | — | — | — | $1.68 | $1.68 | $1.70 | $1.52 |
 | gpt-6-1-terra | $1.89 | $4.12 | $3.16 | $2.07 | $4.05 | $4.23 | $0.35 | $0.26 | $0.25 | $0.18 | $0.26 |
 | qwen-3-8-max-0902 | $1.95 | $1.95 | $2.15 | $1.43 | $1.51 | $1.59 | $1.92 | $2.59 | $2.38 | $1.86 | $2.15 |
+| gemini-4-carbon | $2.74 | — | — | — | — | — | — | — | — | — | $2.74 |
 | opus-5-5 | $3.20 | $2.97 | $3.85 | $3.23 | $3.23 | $3.29 | $3.05 | $3.68 | $3.04 | $2.85 | $2.83 |
 | grok-4-7 | $4.84 | $3.37 | $6.11 | $5.81 | $5.28 | $5.95 | $5.84 | $5.86 | $3.65 | $2.98 | $3.51 |
 | gpt-6-astra | $5.38 | $6.12 | $5.47 | $6.36 | $6.17 | $7.09 | $4.95 | $4.92 | $4.05 | $4.48 | $4.15 |
@@ -63,6 +65,7 @@
 | gemini-4-argon | 16:07 | — | — | — | — | — | — | — | — | 16:32 | 17:06 | 14:42 | 16:09 |
 | grok-4-7 | 16:16 | 28:45 | 13:20 | 13:13 | 14:54 | 15:33 | 15:05 | 15:26 | 17:50 | 18:30 | 14:33 | 12:56 | 15:10 |
 | deepseek-v4-1-flash-1017 | 18:35 | 20:15 | 22:32 | 14:37 | 23:37 | 22:12 | 18:23 | 16:31 | 20:59 | 20:46 | 20:14 | 13:23 | 9:26 |
+| gemini-4-carbon | 19:41 | — | — | — | — | — | — | — | — | — | — | — | 19:41 |
 | deepseek-v4-pro | 19:56 | 17:12 | 19:13 | 14:59 | 28:28 | 33:03 | 13:21 | 25:47 | 10:37 | 19:34 | 20:48 | 16:43 | 19:31 |
 | qwen-3-8-max-0902 | 24:53 | 15:57 | 27:36 | 25:52 | 31:35 | 24:00 | 22:12 | 22:45 | 20:30 | 26:39 | 27:47 | 22:59 | 30:40 |
 
@@ -85,6 +88,7 @@
 | fable-5-2 | 5,866,761 | — | — | — | — | — | — | — | — | 6,168,928 | 5,564,594 |
 | grok-4-7 | 5,883,522 | 4,661,870 | 6,102,779 | 6,858,744 | 5,621,787 | 6,648,188 | 6,911,280 | 6,363,599 | 5,764,827 | 4,365,052 | 5,537,090 |
 | gpt-6-luna | 6,799,350 | 4,725,882 | 4,789,931 | 3,990,683 | 8,377,360 | 4,172,857 | 7,766,772 | 7,526,269 | 9,466,214 | 12,494,269 | 4,683,266 |
+| gemini-4-carbon | 8,716,588 | — | — | — | — | — | — | — | — | — | 8,716,588 |
 | deepseek-v4-1-flash-1017 | 8,920,367 | 6,847,810 | 10,933,524 | 7,657,281 | 7,221,090 | 6,264,887 | 9,935,233 | 8,753,143 | 17,787,312 | 7,505,147 | 6,298,242 |
 | minimax-m3-1-flash | 12,871,048 | 4,101,712 | 10,753,048 | 7,444,033 | 9,864,357 | 19,355,127 | 3,931,366 | 30,080,754 | 7,618,838 | 10,184,403 | 25,376,839 |
 
@@ -98,6 +102,7 @@
 | haiku-5-5 | 8.11 | — | — | — | — | — | — | 8.51 | 8.40 | 7.19 | 8.20 |
 | deepseek-v4-pro | 8.85 | 11.50 | 9.75 | 7.03 | 8.22 | 10.53 | 8.62 | 14.14 | 6.48 | 6.11 | 8.01 |
 | gpt-6-1-sol | 23.30 | 29.26 | 25.45 | 23.20 | 21.46 | 22.01 | 21.26 | 24.69 | 24.83 | 22.17 | 24.42 |
+| gemini-4-carbon | 31.48 | — | — | — | — | — | — | — | — | — | 31.48 |
 | gemini-4-argon | 31.82 | — | — | — | — | — | — | 26.70 | 34.77 | 30.68 | 37.88 |
 | glm-5-3 | 33.99 | 34.00 | 32.79 | 32.44 | 33.59 | 31.99 | 41.13 | 36.39 | 32.88 | 32.59 | 33.25 |
 | kimi-k3-1-pro | 34.32 | 36.07 | 35.37 | 43.10 | 32.66 | 34.49 | 29.09 | 33.57 | 38.30 | 33.05 | 35.70 |
@@ -116,6 +121,6 @@ Final selected runs; earlier failed attempts excluded. Model labels use canonica
 
 Scope: 12 available consensus/time days and 10 cost/token days. Earlier columns are preserved exactly from the 2026-11-10 summary audit; 2026-11-11 is appended. No runs are inferred for missing days (2026-11-04 through 2026-11-06 have no batch). Historical cost estimates are not repriced.
 
-Claude-code models (Opus, Fable, Sonnet, Haiku) usage comes from native Claude Code session logs, deduplicated by message ID. All 17 canonical models have token counts and API-equivalent cost estimates this date. Historical cells are preserved exactly; short-name keys from earlier audits are relabeled to canonical slugs only.
+Claude-code models (Opus, Fable, Sonnet, Haiku) usage comes from native Claude Code session logs, deduplicated by message ID. All 18 canonical models have token counts and API-equivalent cost estimates this date. Historical cells are preserved exactly; short-name keys from earlier audits are relabeled to canonical slugs only.
 
 Timing note: 2026-11-09 elapsed for GLM, Grok, MiniMax and Haiku uses worker terminal-summary seconds where run.json stored free-text timing. 2026-11-08 Luna remains a lower bound; see that day's consensus report. All 2026-11-11 run.json files record numeric elapsed_seconds.

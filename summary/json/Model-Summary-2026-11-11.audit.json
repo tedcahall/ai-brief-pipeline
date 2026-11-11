@@ -20,8 +20,8 @@
     "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-09-delivery/Usage-and-Cost-2026-11-09.audit.json": "4ec1ad7df925f9a0227cd24648db2428e0121d12a6a3838953d564de12096872",
     "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-10-delivery/Model-Consensus-2026-11-10.audit.json": "4a8ce894898f7846dd1f2ba0b22ad530492caaba206ddd3e2770ad6cdf5247f6",
     "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-10-delivery/Usage-and-Cost-2026-11-10.audit.json": "81af97f91b4ce4e7910d21862e86475166984109981c751b4bdda097526678a8",
-    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-11-delivery/Model-Consensus-2026-11-11.audit.json": "f4a293080869f0df7c19f4e50d27c2cd061d652742bd8b53870967a0954a2d9a",
-    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-11-delivery/Usage-and-Cost-2026-11-11.audit.json": "e7776e8cb3b82875bd271eed0baa0a552066a2ca700d9eafb6d77a45d6ed736c"
+    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-11-delivery/Model-Consensus-2026-11-11.audit.json": "46a3ce80b630d93296a15ac29cdb1b8ea8ed8ad665a1da4e2363d52040f21e2a",
+    "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-11-delivery/Usage-and-Cost-2026-11-11.audit.json": "763b5f075efd75b5d2d83c76b1949fe52d368e875327e48ab66804921d00db96"
   },
   "scores": {
     "2026-10-28": {
@@ -208,7 +208,8 @@
       "haiku-5-5": "66",
       "fable-5-1": "86",
       "gemini-4-argon": "81",
-      "fable-5-2": "91"
+      "fable-5-2": "91",
+      "gemini-4-carbon": "75"
     }
   },
   "times": {
@@ -396,7 +397,8 @@
       "haiku-5-5": "343",
       "fable-5-1": "535",
       "gemini-4-argon": "969",
-      "fable-5-2": "356"
+      "fable-5-2": "356",
+      "gemini-4-carbon": "1181"
     }
   },
   "costs": {
@@ -551,6 +553,7 @@
       "deepseek-v4-1-flash-1017": "0.077",
       "minimax-m3-1-flash": "0.5068",
       "sonnet-5-5": "1.1799",
+      "gemini-4-carbon": "2.744",
       "gpt-6-astra": "4.1513",
       "gpt-6-1-sol": "0.733",
       "gpt-6-1-terra": "0.2575",
@@ -711,6 +714,7 @@
       "deepseek-v4-1-flash-1017": "6298242",
       "minimax-m3-1-flash": "25376839",
       "sonnet-5-5": "2995627",
+      "gemini-4-carbon": "8716588",
       "gpt-6-astra": "2322735",
       "gpt-6-1-sol": "3001335",
       "gpt-6-1-terra": "2372865",
@@ -737,7 +741,8 @@
       "sonnet-5-5": null,
       "haiku-5-5": null,
       "gemini-4-argon": null,
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-10-31": {
       "deepseek-v4-pro": "9.745292519891594747511647975E-8",
@@ -756,7 +761,8 @@
       "sonnet-5-5": null,
       "haiku-5-5": null,
       "gemini-4-argon": null,
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-11-01": {
       "deepseek-v4-pro": "7.028506496418479866866151956E-8",
@@ -775,7 +781,8 @@
       "sonnet-5-5": null,
       "haiku-5-5": null,
       "gemini-4-argon": null,
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-11-02": {
       "deepseek-v4-pro": "8.223647350877825798262597089E-8",
@@ -794,7 +801,8 @@
       "sonnet-5-5": null,
       "haiku-5-5": null,
       "gemini-4-argon": null,
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-11-03": {
       "deepseek-v4-pro": "1.053483164594721018764023779E-7",
@@ -813,7 +821,8 @@
       "sonnet-5-5": null,
       "haiku-5-5": null,
       "gemini-4-argon": null,
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-11-07": {
       "deepseek-v4-pro": "8.620024984403435964170938769E-8",
@@ -832,7 +841,8 @@
       "sonnet-5-5": null,
       "haiku-5-5": null,
       "gemini-4-argon": null,
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-11-08": {
       "deepseek-v4-pro": "1.414272624264939063221925222E-7",
@@ -851,7 +861,8 @@
       "sonnet-5-5": "3.382307235116985523364974380E-7",
       "haiku-5-5": "8.507155604560490150387050572E-8",
       "gemini-4-argon": "2.670182574111368394189779452E-7",
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-11-09": {
       "deepseek-v4-pro": "6.480892743373195676816511654E-8",
@@ -870,7 +881,8 @@
       "sonnet-5-5": "3.683863149725187018624866366E-7",
       "haiku-5-5": "8.398358288263545712631694047E-8",
       "gemini-4-argon": "3.476512938781983506026644111E-7",
-      "fable-5-2": null
+      "fable-5-2": null,
+      "gemini-4-carbon": null
     },
     "2026-11-10": {
       "deepseek-v4-pro": "6.114164978277971684677753741E-8",
@@ -889,7 +901,8 @@
       "sonnet-5-5": "3.807597462511046222167660948E-7",
       "haiku-5-5": "7.187815590393025741204088674E-8",
       "gemini-4-argon": "3.068311006071896578157950308E-7",
-      "fable-5-2": "0.000001086428630711851394602109151"
+      "fable-5-2": "0.000001086428630711851394602109151",
+      "gemini-4-carbon": null
     },
     "2026-11-11": {
       "deepseek-v4-pro": "8.010492314486921709059991972E-8",
@@ -908,7 +921,8 @@
       "sonnet-5-5": "3.938741372006594946567112661E-7",
       "haiku-5-5": "8.201768112567700863345747563E-8",
       "gemini-4-argon": "3.787664311920953179380638937E-7",
-      "fable-5-2": "0.000001158970447799066742335559432"
+      "fable-5-2": "0.000001158970447799066742335559432",
+      "gemini-4-carbon": "3.148020762252385910633839755E-7"
     }
   },
   "average_method": "arithmetic mean of available daily values; cost per token uses total cost / total tokens over same days",

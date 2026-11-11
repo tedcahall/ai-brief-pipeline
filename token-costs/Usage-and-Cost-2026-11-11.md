@@ -20,6 +20,7 @@
 | qwen-3-8-max-0902 | 5,711,461 | $2.15 | 185,882 | 68,555 | 5,457,024 | 0 | 06:01:41 | 53 |
 | haiku-5-5 | 6,064,546 | $0.50 | 90 | 56,021 | 5,813,676 | 194,759 | 06:57:58 | 45 |
 | deepseek-v4-1-flash-1017 | 6,298,242 | $0.08 | 142,682 | 62,248 | 6,093,312 | 0 | 06:33:26 | 67 |
+| gemini-4-carbon | 8,716,588 | $2.74 | 618,246 | 70,476 | 8,027,866 | 0 | 07:34:27 | 42 |
 | minimax-m3-1-flash | 25,376,839 | $0.51 | 220,021 | 164,818 | 24,992,000 | 0 | 06:18:14 | 110 |
 
 ## Final-edition recorded charges
@@ -37,6 +38,7 @@
 | deepseek-v4-1-flash-1017 | $0.05 | 67/67 |
 | minimax-m3-1-flash | $0.51 | 110/110 |
 | sonnet-5-5 | No per-token charge | Not applicable |
+| gemini-4-carbon | Not recorded | Not applicable |
 | gpt-6-astra | No per-token charge | Not applicable |
 | gpt-6-1-sol | No per-token charge | Not applicable |
 | gpt-6-1-terra | No per-token charge | Not applicable |
@@ -48,12 +50,12 @@
 
 | Measure | Value |
 |---|---|
-| Input Uncached | 2,187,634 |
-| Output | 790,201 |
-| Cache Read | 91,051,077 |
+| Input Uncached | 2,805,880 |
+| Output | 860,677 |
+| Cache Read | 99,078,943 |
 | Cache Write | 1,067,813 |
-| Calls with available telemetry | 726 |
-| API estimate subtotal (available telemetry) | $35.74 |
+| Calls with available telemetry | 768 |
+| API estimate subtotal (available telemetry) | $38.49 |
 | Recorded OpenRouter charges | $6.09 |
 | Models with unavailable telemetry/estimates | None |
 
@@ -65,18 +67,18 @@
 ## Definitions and limits
 
 *API Cost is an estimate calculated from token usage at published API list rates, not a bill. Estimates include subscription-backed models. Recorded OpenRouter charges are separate actual provider-billed amounts. Do not add estimates to recorded charges. Subscription runs have no per-token charge.
-Claude-code models (Opus, Fable, Sonnet, Haiku) are collected from Claude Code native session logs, deduplicated by message ID. Totals cover all 17 final editions of the 2026-11-11 batch.
+Claude-code models (Opus, Fable, Sonnet, Haiku) are collected from Claude Code native session logs, deduplicated by message ID. Totals cover all 18 final editions of the 2026-11-11 batch.
 
 Total tokens = uncached input + output + cache read + cache write, summed across calls (including repeated cached context). Input means uncached input only. Cache-read/write tokens are separate. Output is the collector output counter, not a fabricated visible-text word count. Zero is retained only where the collector records it; unavailable counters are not replaced with estimates.
 Qwen uses the higher regional estimate for its displayed cost and totals, as requested (its deployment tier is not determinable from usage this date). This is a conservative estimate, not a claim about deployment region. xAI per-call billed charges are not recorded. Cache-write pricing/TTL gaps and unverifiable tier selections remain in the collector audit.
-*pricing uses the fresh collector snapshot for this date (pricing/2026-11-11T120252913396Z), verified against saved source snapshots with no earlier-date fallback; all seventeen model identities resolved, including anthropic/claude-fable-5-2.*
+*pricing uses the fresh collector snapshot for this date (pricing/2026-11-11T120252913396Z), verified against saved source snapshots with no earlier-date fallback; all eighteen model identities resolved, including anthropic/claude-fable-5-2 and google/gemini-4-carbon.*
 
 ## Selection and collection
 
-Primary tables contain the exact coordinator-attempted run for each of the seventeen final HTML editions, bound by terminal-record session ID, not latest-by-name. Earlier attempts appear separately and are excluded from primary totals. The final-edition token usage table is sorted by total tokens, fewest to most, with alphabetical ties and unavailable totals last.
-No earlier or diagnostic attempts exist for this date: all seventeen collected runs bind one-to-one to the coordinator-selected final editions. Pricing matches the unique model identity independently of routing prefixes and authentication profiles. Execution transport determines billing separately. Argon uses introductory rates; Haiku tiers are resolved per request including cache tokens.
-Collector generated: 2026-11-11T07:11:47-05:00. Pricing source: pricing/2026-11-11T120252913396Z/api-pricing.json, as of 2026-11-11; earlier-date fallback: False. Pricing verification: {'status': 'passed', 'files_checked': 13, 'mismatched': [], 'verification_checks': 'passed'}. These are historical saved rates, not independently refreshed current rates.
-Available-telemetry API-equivalent total (17/17 models): $35.74. Recorded OpenRouter charges for the final editions: $6.09. Pricing snapshot age at report date: 0 days. Last successful daily source verification for this snapshot: not yet recorded. Hash verification checks saved-file integrity; the separate daily check verifies source rates.
+Primary tables contain the exact coordinator-attempted run for each of the eighteen final HTML editions, bound by terminal-record session ID, not latest-by-name. Earlier attempts appear separately and are excluded from primary totals. The final-edition token usage table is sorted by total tokens, fewest to most, with alphabetical ties and unavailable totals last.
+No earlier or diagnostic attempts exist for this date: all eighteen collected runs bind one-to-one to the coordinator-selected final editions. Pricing matches the unique model identity independently of routing prefixes and authentication profiles. Execution transport determines billing separately. Argon and Carbon use introductory rates; Haiku tiers are resolved per request including cache tokens.
+Collector generated: 2026-11-11T07:57:22-05:00. Pricing source: pricing/2026-11-11T120252913396Z/api-pricing.json, as of 2026-11-11; earlier-date fallback: False. Pricing verification: {'status': 'passed', 'files_checked': 13, 'mismatched': [], 'verification_checks': 'passed'}. These are historical saved rates, not independently refreshed current rates.
+Available-telemetry API-equivalent total (18/18 models): $38.49. Recorded OpenRouter charges for the final editions: $6.09. Pricing snapshot age at report date: 0 days. Last successful daily source verification for this snapshot: not yet recorded. Hash verification checks saved-file integrity; the separate daily check verifies source rates.
 
 ## Collector diagnostics
 
@@ -96,6 +98,7 @@ Pricing JSON: `/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/202
 - deepseek-v4-1-flash-1017: [deepseek-v4-1-flash-1017](https://api-docs.deepseek.com/quick_start/pricing/)
 - minimax-m3-1-flash: [MiniMax-M3.1-Flash](https://www.minimax.io/blog/minimax-m31f)
 - sonnet-5-5: [claude-sonnet-5-5](https://platform.claude.com/docs/en/about-claude/pricing)
+- gemini-4-carbon: [gemini-4-carbon](https://aistudio.google.com/docs/pricing)
 - gpt-6-astra: [gpt-6-astra](https://developers.openai.com/api/docs/pricing)
 - gpt-6-1-sol: [gpt-6.1-sol](https://developers.openai.com/api/docs/pricing)
 - gpt-6-1-terra: [gpt-6.1-terra](https://developers.openai.com/api/docs/pricing)

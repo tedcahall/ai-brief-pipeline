@@ -1,6 +1,6 @@
 {
   "source": "/home/openclaw/.openclaw/workspace/briefs/model-tests/2026-11-11/usage-audit-ken/usage-and-cost.json",
-  "source_sha256": "602f3798cb0fab810f9990e06d21bae75e33d4f6c4af45496e6222f8fd6084d2",
+  "source_sha256": "8e8e29a95cd1b4d22e183756b6b3e37c31ebb99e79cf80639695783badc957c0",
   "selected": [
     {
       "display_name": "glm-5-3",
@@ -633,6 +633,59 @@
       }
     },
     {
+      "display_name": "gemini-4-carbon",
+      "job": "Gemini 4 Carbon",
+      "job_id": "cb24593a-c995-4e60-870d-9473306844cf",
+      "slug": "gemini-4-carbon",
+      "role": "comparison",
+      "run_at": "2026-11-11T07:34:27-05:00",
+      "duration_s": 1232,
+      "status": "ok",
+      "completion_status": "succeeded",
+      "session_id": "b9b7b9b5-27fc-4689-9842-6a6b5dba60ed",
+      "provider": "google",
+      "model": "gemini-4-carbon",
+      "route": "google",
+      "billing": "unknown",
+      "source": "openclaw-agent.sqlite transcript_events (per assistant message)",
+      "api_calls": 42,
+      "usage": {
+        "input_uncached": 618246,
+        "output": 70476,
+        "cache_read": 8027866,
+        "cache_write": 0
+      },
+      "reasoning_tokens": null,
+      "cron_usage": {
+        "input_uncached": 618246,
+        "output": 70476,
+        "cache_read": 8027866,
+        "cache_write": 0
+      },
+      "cron_usage_check": "exact",
+      "model_ref": "google/gemini-4-carbon",
+      "pricing_key": "gemini-4-carbon",
+      "pricing_source_url": "https://aistudio.google.com/docs/pricing",
+      "api_equivalent_usd": 2.744,
+      "api_equivalent_range_usd": null,
+      "tiers_used": {
+        "Introductory Standard": 42
+      },
+      "openrouter_billed_usd": null,
+      "openrouter_billed_calls": null,
+      "gaps": [],
+      "model_ref_source": "run.json expected_model",
+      "pricing_match": {
+        "identity": "gemini-4-carbon",
+        "method": "route-independent-model-id",
+        "status": "matched",
+        "candidates": [
+          "gemini-4-carbon"
+        ],
+        "key": "gemini-4-carbon"
+      }
+    },
+    {
       "display_name": "gpt-6-astra",
       "job": "GPT-6 Astra",
       "job_id": "25f6516c-644d-41b0-bde9-10a3b8875494",
@@ -966,12 +1019,12 @@
   ],
   "extra": [],
   "token_totals": {
-    "input_uncached": 2187634,
-    "output": 790201,
-    "cache_read": 91051077,
+    "input_uncached": 2805880,
+    "output": 860677,
+    "cache_read": 99078943,
     "cache_write": 1067813
   },
-  "api_estimate_total": 35.7413,
+  "api_estimate_total": 38.4853,
   "qwen_selection": "higher regional estimate (tier not determinable this date)",
   "pricing_file": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-11T120252913396Z/api-pricing.json",
   "pricing_age_days": 0,
@@ -994,6 +1047,7 @@
     "minimax-m3-1-flash": "c810081c-ba80-450d-9b4e-79844928d39e",
     "grok-4-7": "f2aeed8b-c3c1-4b65-99af-278bae6cb933",
     "sonnet-5-5": "34ec25fc-d9ca-46c4-ad1a-0b9fe581c3d7",
-    "haiku-5-5": "10d250f3-f732-4d15-8562-9ec82977ea21"
+    "haiku-5-5": "10d250f3-f732-4d15-8562-9ec82977ea21",
+    "gemini-4-carbon": "b9b7b9b5-27fc-4689-9842-6a6b5dba60ed"
   }
 }

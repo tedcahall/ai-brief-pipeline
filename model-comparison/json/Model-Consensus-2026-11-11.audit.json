@@ -35,7 +35,7 @@
       "slug": "gpt-6-astra",
       "status": "review_required",
       "score": 72,
-      "rank": 12,
+      "rank": 13,
       "headline_event": "carbon",
       "story_events": [
         "carbon",
@@ -64,7 +64,7 @@
       "slug": "kimi-k3-1-pro",
       "status": "review_required",
       "score": 62,
-      "rank": 16,
+      "rank": 17,
       "headline_event": "carbon",
       "story_events": [
         "carbon",
@@ -122,7 +122,7 @@
       "slug": "gpt-6-luna",
       "status": "review_required",
       "score": 48,
-      "rank": 17,
+      "rank": 18,
       "headline_event": "alphaproof",
       "story_events": [
         "alphaproof",
@@ -180,7 +180,7 @@
       "slug": "gpt-6-1-sol",
       "status": "review_required",
       "score": 67,
-      "rank": 13,
+      "rank": 14,
       "headline_event": "carbon",
       "story_events": [
         "carbon",
@@ -296,7 +296,7 @@
       "slug": "gpt-6-1-terra",
       "status": "review_required",
       "score": 67,
-      "rank": 13,
+      "rank": 14,
       "headline_event": "qwen4max",
       "story_events": [
         "qwen4max",
@@ -383,7 +383,7 @@
       "slug": "haiku-5-5",
       "status": "review_required",
       "score": 66,
-      "rank": 15,
+      "rank": 16,
       "headline_event": "carbon",
       "story_events": [
         "carbon",
@@ -493,6 +493,35 @@
       ],
       "elapsed_seconds": 356,
       "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "complete_local",
+      "score": 75,
+      "rank": 12,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "qwen4max",
+        "h3image",
+        "chatgpt_businesses"
+      ],
+      "tweet_ids": [
+        "2120206365759094857",
+        "2120169787896525104",
+        "2120207062655549933",
+        "2120277245713654201",
+        "2120186651741655428",
+        "2120200206272921716",
+        "2120425542688379314",
+        "2120220567038984212",
+        "2120351564720136389",
+        "2120192452287963540"
+      ],
+      "elapsed_seconds": 1181,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
     }
   ],
   "excluded_models": [],
@@ -512,17 +541,17 @@
     "claude_sheets": "Anthropic adds whiteboards, Sheets and data to Claude"
   },
   "headline_votes": {
-    "carbon": 15,
+    "carbon": 16,
     "alphaproof": 1,
     "qwen4max": 1
   },
   "story_votes": {
-    "carbon": 16,
-    "anthropic_ipo": 12,
-    "qwen4max": 15,
+    "carbon": 17,
+    "anthropic_ipo": 13,
+    "qwen4max": 16,
     "ernie55": 6,
-    "chatgpt_businesses": 10,
-    "h3image": 10,
+    "chatgpt_businesses": 11,
+    "h3image": 11,
     "longcat25": 2,
     "groot2": 5,
     "robotics25": 3,
@@ -533,18 +562,18 @@
   },
   "tweet_votes": {
     "2120219371473617099": 6,
-    "2120207062655549933": 11,
-    "2120169787896525104": 13,
+    "2120207062655549933": 12,
+    "2120169787896525104": 14,
     "2120117722230968385": 14,
     "2120335993643684315": 17,
-    "2120425542688379314": 11,
+    "2120425542688379314": 12,
     "2120216592395174382": 15,
-    "2120200206272921716": 5,
-    "2120186651741655428": 15,
-    "2120220567038984212": 5,
+    "2120200206272921716": 6,
+    "2120186651741655428": 16,
+    "2120220567038984212": 6,
     "2120185896469496180": 10,
     "2120179737695826420": 15,
-    "2120206365759094857": 13,
+    "2120206365759094857": 14,
     "2120210355615842428": 3,
     "2119953570430881946": 1,
     "2120307529674883177": 2,
@@ -553,14 +582,15 @@
     "2120204345602101457": 1,
     "2120186778384499073": 1,
     "2120227474223292477": 4,
-    "2120277245713654201": 1,
+    "2120277245713654201": 2,
     "2120196422360506385": 1,
-    "2120351564720136389": 2,
+    "2120351564720136389": 3,
     "2120233659793854926": 1,
-    "2120102767624880364": 1
+    "2120102767624880364": 1,
+    "2120192452287963540": 1
   },
   "cutoffs": {
-    "story_cut_votes": 10,
+    "story_cut_votes": 11,
     "tweet_cut_votes": 10,
     "eligible_stories": [
       "anthropic_ipo",
@@ -582,7 +612,7 @@
       "2120425542688379314"
     ]
   },
-  "eligible_denominator": 17,
+  "eligible_denominator": 18,
   "source_hashes": {
     "2026-11-11/minimax-m3-1-flash/2026-11-11.edition.md": "4af31d02c63fd6934709d1dd7b103172160bcfbe0cde5d39a468e5a98266a425",
     "2026-11-11/minimax-m3-1-flash/2026-11-11.html": "13fdd7d32cf07897ea770e886794a4770f542e41012e46a88989bb2384d02842",
@@ -685,7 +715,13 @@
     "2026-11-11/fable-5-2/run.json": "686a442504ac9882bc859d58ba21740d0659e7949332dcdf0ecde3eb69ff5f94",
     "2026-11-11/fable-5-2/headline.json": "5ecae75d5b016e5c03e236196a21088a4d2ac07f3e571299ac34f34a5820deef",
     "2026-11-11/fable-5-2/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
-    "2026-11-11/fable-5-2/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3"
+    "2026-11-11/fable-5-2/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/gemini-4-carbon/2026-11-11.edition.md": "db0a41f5a387695190af596bc50088b443a9e3adce500ff967270f22cf67e84f",
+    "2026-11-11/gemini-4-carbon/2026-11-11.html": "530da549b401c1649d1ea0c33932d2cb64c5ddfed20a0f8027b04e34d807cbd4",
+    "2026-11-11/gemini-4-carbon/run.json": "6c1596108fc4b1f0281a9c60e29873fd2f931f368da99e040f9b6aaadce2a699",
+    "2026-11-11/gemini-4-carbon/headline.json": "7e9891f09674e7fd3d1602adb4ff240ab1adfeabe8d5735ab6ac0668db93862b",
+    "2026-11-11/gemini-4-carbon/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/gemini-4-carbon/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3"
   },
   "event_url_bindings": {
     "minimax-m3-1-flash": {
@@ -805,6 +841,13 @@
       "anthropic_ipo": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
       "qwen4max": "https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/",
       "nvidia_huang": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/"
+    },
+    "gemini-4-carbon": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "qwen4max": "https://www.orcarouter.ai/blog/qwen-4-max-preview-vs-qwen-4-max",
+      "h3image": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
       "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/"
     }
   },
