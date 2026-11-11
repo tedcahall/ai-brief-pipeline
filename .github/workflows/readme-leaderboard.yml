@@ -1,0 +1,35 @@
+name: Refresh README leaderboard
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'summary/**'
+      - 'pulse-judging/json/**'
+      - 'model-comparison/**'
+      - 'token-costs/**'
+      - 'scripts/update_readme_leaderboard.py'
+      - '.github/workflows/readme-leaderboard.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: readme-leaderboard
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Recalculate after all reporting inputs are published
+        run: python3 scripts/update_readme_leaderboard.py --if-ready
+      - name: Publish only the managed README update
+        run: |
+          if git diff --quiet -- README.md; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'docs: refresh rolling model leaderboard'
+          git push origin HEAD:main
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "$(git rev-parse HEAD)"
