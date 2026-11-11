@@ -25,9 +25,9 @@ class LeaderboardTests(unittest.TestCase):
         p=self.root/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(value))
     def test_values_eligibility_and_ties(self):
         s=render(self.root)
-        self.assertIn('| Selection Agreement | b | **22.0/100** | 17.0/100 | 12.0/100 | 22.0/100 | 5 |',s)
+        self.assertIn('| Ed Selection | b | **22.0/100** | 17.0/100 | 12.0/100 | 22.0/100 | 5 |',s)
         self.assertIn('| Lowest Cost | a | **$12.0000**',s)
-        self.assertIn('| Editorial Consistency | a; b | **SD 0.000**',s)
+        self.assertIn('| Ed Consistency | a; b | **SD 0.000**',s)
         self.assertNotIn('| new |',s)
     def test_missing_panel_retains_readme(self):
         (self.root/f'pulse-judging/json/{self.days[-1]}.json').unlink()
