@@ -2,7 +2,8 @@
 
 Daily blind judging of each model's "AI Industry Pulse" summary from `daily-results/`. Maintained by Ogilvy.
 
-- [LEADERBOARD.md](LEADERBOARD.md): cumulative averages across all judged days.
+- [LEADERBOARD.md](LEADERBOARD.md): 7-run moving average per model.
+- [SCORE-GRADERS.md](SCORE-GRADERS.md): which judge grades hardest and easiest.
 - `daily/YYYY-MM-DD.md`: that day's ranking, per-judge scores, self-preference check and judge notes.
 - `json/YYYY-MM-DD.json`: the same data, machine-readable. The scripts use it to rebuild the leaderboard and to tell which days are already judged.
 - [PROMPT.md](PROMPT.md): the exact judge prompt (v2, strict).
