@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Tuesday, November 10, 2026 · 17 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Wednesday, November 11, 2026 · 17 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -57,9 +57,9 @@ The available saved rate cards show no numeric changes for existing entries acro
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON, not a new live price check performed while drafting this README. The daily verification record checked 16 models across 10 sources and reported no change; Fable 5.2 was added afterward with a separate recorded Anthropic verification. Older source-capture timestamps remain in the JSON and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification record for November 11, 2026 checked all 17 models across 10 freshly captured sources and reported no rate or condition changes. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
 
-- **Daily check:** `2026-11-10T08:05:27.169763+00:00`; status: `unchanged`.
+- **Daily check:** `2026-11-11T08:11:45.450983+00:00`; status: `unchanged`.
 - **Snapshot:** `2026-11-10T132547960000Z/api-pricing.json`.
 - **SHA-256:** `ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda`.
 
