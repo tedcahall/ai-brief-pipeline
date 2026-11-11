@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Wednesday, November 11, 2026 · 17 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Wednesday, November 11, 2026 · 18 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -17,6 +17,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 | [fable-5-1](https://platform.claude.com/docs/en/about-claude/pricing) | Standard | $10 | $50 | $0.25 | $12.5 (5m); $20 (1h) | 2026-11-08 |
 | [fable-5-2](https://platform.claude.com/docs/en/about-claude/pricing) | Standard | $8 | $40 | $0.2 | $10 (5m); $16 (1h) | 2026-11-10 |
 | [gemini-4-argon](https://aistudio.google.com/docs/pricing) | Introductory | $2 | $10 | $0.1 | — | 2026-11-08 |
+| [gemini-4-carbon](https://aistudio.google.com/docs/pricing) | Introductory Standard | $2 | $10 | $0.1 | — | 2026-11-11 |
 | [glm-5-3](https://docs.z.ai/guides/overview/pricing) | Z.AI direct | $1.4 | $4.4 | $0.26 | — | 2026-10-29 |
 | [gpt-6-1-sol](https://developers.openai.com/api/docs/pricing) | Standard short | $2 | $10 | $0.1 | $2.5 (30m); $5 (12h) | 2026-10-29 |
 | [gpt-6-1-sol](https://developers.openai.com/api/docs/pricing) | Standard long | $4 | $15 | $0.2 | $5 (30m); $10 (12h) | 2026-10-29 |
@@ -47,24 +48,26 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 - **DeepSeek:** Peak applies Monday–Friday, 01:00–04:00 and 06:00–10:00 UTC, excluding Chinese public holidays; all other times are off-peak. The card flags a model-version discrepancy between provider materials, so execution identity must be checked before attributing a direct-endpoint run.
 - **Qwen:** Both saved regional schedules and both cache-read modes are shown. Run-cost reports use the higher regional estimate conservatively; this does not establish the actual execution region. Do not mix implicit and explicit cache rates.
 - **Gemini Argon:** The saved rates are introductory Standard prices. Cache read refers to implicit caching; the source card states that explicit caching is not supported.
+- **Gemini Carbon:** The table shows Standard pricing through November 30, 2026. Starting December 1, 2026, Standard input/output/implicit-cache rates are **$4/$20/$0.20** per million tokens. Batch and Flex are **$1/$5/$0.05** currently, then **$2/$10/$0.10**; Priority is **$3.60/$18/$0.18** currently, then **$7.20/$36/$0.36**. Output includes thinking tokens. Implicit caching only; explicit caching is unsupported. No free tier. Scheduled prices are not current rates.
 - **Cache writes:** “—” means a separate rate was not verified in the saved card, not that writing or storage is free. Durations describe the cache lifetime. Select the applicable lifetime before calculating a cost.
 
 Request tiers are selected per call, not from the cumulative token count of a multi-call run. These rates exclude taxes, tool fees, infrastructure, subscription allocation, and negotiated discounts. Direct-provider list prices can differ from routed provider bills.
 
 ## Price history
 
-The available saved rate cards show no numeric changes for existing entries across this snapshot series. Updated therefore reflects the initial recorded date for these rows. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1.
+The available saved rate cards show no numeric changes for existing entries across this snapshot series. Updated therefore reflects the initial recorded date for these rows. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1. Gemini 4 Carbon is also a new model entry; its announced future schedule is not an observed price change.
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification record for November 11, 2026 checked all 17 models across 10 freshly captured sources and reported no rate or condition changes. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification record for November 11, 2026 checked all 17 models across 10 freshly captured sources and reported no rate or condition changes. Gemini 4 Carbon was added afterward from a separate live Google pricing verification; the earlier 17-model check does not include Carbon. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
 
 - **Daily check:** `2026-11-11T08:11:45.450983+00:00`; status: `unchanged`.
-- **Snapshot:** `2026-11-10T132547960000Z/api-pricing.json`.
-- **SHA-256:** `ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda`.
+- **Carbon check:** `2026-11-11T12:01:30.876582+00:00`; status: `verified` (Carbon only).
+- **Snapshot:** `2026-11-11T120252913396Z/api-pricing.json`.
+- **SHA-256:** `cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a`.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
 
 ## Daily maintenance
 
-On each successful daily pricing refresh, regenerate this table from the approved rate card and current model cohort. Preserve all applicable tiers, cache durations, source links, and verification metadata. If verification fails, retain the last verified table and disclose the stale status rather than advancing its date.
+On each successful daily pricing refresh, regenerate this table from the approved rate card and current model cohort, retaining explicitly approved pricing additions such as Gemini 4 Carbon even before their comparison jobs are configured. Preserve all applicable tiers, cache durations, source links, and verification metadata. If verification fails, retain the last verified table and disclose the stale status rather than advancing its date.

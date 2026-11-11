@@ -172,6 +172,28 @@
       }
     },
     {
+      "model": "gemini-4-carbon",
+      "tier": "Introductory Standard",
+      "first_recorded": "2026-11-11",
+      "last_price_change_observed": null,
+      "updated": "2026-11-11",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-11T120252913396Z/api-pricing.json",
+        "sha256": "cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-11T120252913396Z/api-pricing.json",
+        "sha256": "cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a"
+      }
+    },
+    {
       "model": "glm-5-3",
       "tier": "Z.AI direct",
       "first_recorded": "2026-10-29",
@@ -634,5 +656,22 @@
         "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
       }
     }
-  ]
+  ],
+  "last_model_addition": {
+    "model": "gemini-4-carbon",
+    "checked_at": "2026-11-11T12:01:30.876582+00:00",
+    "status": "verified",
+    "source": "https://aistudio.google.com/docs/pricing",
+    "snapshot_evidence": {
+      "snapshot": "2026-11-11T120252913396Z/api-pricing.json",
+      "sha256": "cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a"
+    },
+    "scope": "Carbon only; prior daily verification remains unchanged",
+    "scheduled_standard_rates": {
+      "effective_date": "2026-12-01",
+      "input_uncached": 4,
+      "output": 20,
+      "cache_read": 0.2
+    }
+  }
 }
