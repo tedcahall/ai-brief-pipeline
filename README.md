@@ -18,7 +18,7 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 | Ed Selection | Qwen 3.8 Max 0902 | **84.6/100** | 71.7/100 | 46.0/100 | 84.6/100 | 5 |
 | Editorial Score | DeepSeek V4.1 Flash 1017 | **3.60/5** | 2.95/5 | 2.24/5 | 3.60/5 | 5 |
 | Lowest Cost | DeepSeek V4.1 Flash 1017 | **$0.1068** | $1.9825 | $0.1068 | $9.2886 | 5 |
-| Completion Time | Sonnet 5.5 | **3m 22s** | 10m 48s | 3m 22s | 25m 43s | 4 |
+| Run Time | Sonnet 5.5 | **3m 22s** | 10m 48s | 3m 22s | 25m 43s | 4 |
 | Ed Consistency | Sonnet 5.5 | **SD 0.126** | SD 0.291 | SD 0.126 | SD 0.529 | 4 |
 | Token Usage | GPT-6.1 Terra | **2,336,571** | 5,805,194 | 2,336,571 | 15,438,440 | 5 |
 
@@ -29,7 +29,7 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 | Ed Selection | GPT-6 Luna | **46.0/100** | 71.7/100 | 46.0/100 | 84.6/100 | 5 |
 | Editorial Score | GPT-6.1 Terra | **2.24/5** | 2.95/5 | 2.24/5 | 3.60/5 | 5 |
 | Highest Cost | Fable 5.1 | **$9.2886** | $1.9825 | $0.1068 | $9.2886 | 4 |
-| Completion Time | Qwen 3.8 Max 0902 | **25m 43s** | 10m 48s | 3m 22s | 25m 43s | 5 |
+| Run Time | Qwen 3.8 Max 0902 | **25m 43s** | 10m 48s | 3m 22s | 25m 43s | 5 |
 | Ed Consistency | GLM-5.3 | **SD 0.529** | SD 0.291 | SD 0.126 | SD 0.529 | 5 |
 | Token Usage | MiniMax M3.1 Flash | **15,438,440** | 5,805,194 | 2,336,571 | 15,438,440 | 5 |
 <!-- MODEL-LEADERBOARD:END -->

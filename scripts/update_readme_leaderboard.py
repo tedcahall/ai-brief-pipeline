@@ -84,7 +84,7 @@ def render(root):
       ('Ed Selection',aggregate(a['scores'],days),True,lambda v:f'{v:.1f}/100'),
       ('Editorial Score',aggregate(pulse,days),True,lambda v:f'{v:.2f}/5'),
       ('Lowest Cost',aggregate(a['costs'],days),False,lambda v:f'${v:.4f}'),
-      ('Completion Time',aggregate(a['times'],days),False,duration),
+      ('Run Time',aggregate(a['times'],days),False,duration),
       ('Ed Consistency',sd,False,lambda v:f'SD {v:.3f}'),
       ('Token Usage',aggregate(a['tokens'],days),False,lambda v:f'{v:,.0f}'),
     ]
