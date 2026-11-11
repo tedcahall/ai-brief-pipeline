@@ -57,3 +57,9 @@ Readable reports sit at the top of each reporting directory. Supporting JSON aud
 - [Import manifest](docs/import-manifest.json) records the original imported source paths and SHA-256 hashes.
 
 This repository is a reporting and results archive, not a complete runnable distribution of the production newsletter pipeline.
+
+## License
+
+The reports, data, and documentation in this repository are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and adapt them for any purpose, including commercial use, provided you give appropriate credit, link to the license, and indicate whether changes were made. Suggested credit: “AI Brief Pipeline by Agentilis.ai, from Max’s AI Brief.” See [LICENSE](LICENSE) for the full legal text.
+
+The newsletter editions in `daily-results/` link to and briefly quote third-party news articles and social posts. That third-party material remains the property of its owners and is not covered by this license.
