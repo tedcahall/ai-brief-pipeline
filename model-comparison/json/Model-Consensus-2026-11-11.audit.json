@@ -1,0 +1,843 @@
+{
+  "date": "2026-11-11",
+  "models": [
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "complete_local",
+      "score": 76,
+      "rank": 10,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "qwen4max",
+        "ernie55",
+        "chatgpt_businesses"
+      ],
+      "tweet_ids": [
+        "2120219371473617099",
+        "2120207062655549933",
+        "2120169787896525104",
+        "2120117722230968385",
+        "2120335993643684315",
+        "2120425542688379314",
+        "2120216592395174382",
+        "2120200206272921716",
+        "2120186651741655428",
+        "2120220567038984212"
+      ],
+      "elapsed_seconds": 1106,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 72,
+      "rank": 12,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "qwen4max",
+        "ernie55",
+        "h3image",
+        "longcat25"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120335993643684315",
+        "2120425542688379314",
+        "2120179737695826420",
+        "2120216592395174382",
+        "2120169787896525104",
+        "2120186651741655428",
+        "2120206365759094857",
+        "2120220567038984212",
+        "2120210355615842428"
+      ],
+      "elapsed_seconds": 338,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 62,
+      "rank": 16,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "qwen4max",
+        "h3image",
+        "groot2",
+        "robotics25"
+      ],
+      "tweet_ids": [
+        "2120219371473617099",
+        "2120335993643684315",
+        "2120179737695826420",
+        "2120186651741655428",
+        "2120169787896525104",
+        "2120117722230968385",
+        "2120220567038984212",
+        "2120206365759094857",
+        "2120200206272921716",
+        "2119953570430881946"
+      ],
+      "elapsed_seconds": 189,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "complete_local",
+      "score": 77,
+      "rank": 9,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "qwen4max",
+        "anthropic_ipo",
+        "groot2",
+        "sglang"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120206365759094857",
+        "2120335993643684315",
+        "2120117722230968385",
+        "2120186651741655428",
+        "2120216592395174382",
+        "2120169787896525104",
+        "2120207062655549933",
+        "2120179737695826420",
+        "2120307529674883177"
+      ],
+      "elapsed_seconds": 566,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "review_required",
+      "score": 48,
+      "rank": 17,
+      "headline_event": "alphaproof",
+      "story_events": [
+        "alphaproof",
+        "qwen4max",
+        "ernie55",
+        "longcat25",
+        "chatgpt_businesses"
+      ],
+      "tweet_ids": [
+        "2120207062655549933",
+        "2120335993643684315",
+        "2120425542688379314",
+        "2119913172039868579",
+        "2120186651741655428",
+        "2120216596753121411",
+        "2120220567038984212",
+        "2120204345602101457",
+        "2120179737695826420",
+        "2120185896469496180"
+      ],
+      "elapsed_seconds": 669,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 86,
+      "rank": 4,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "qwen4max",
+        "alphaproof",
+        "h3image",
+        "anthropic_ipo"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120335993643684315",
+        "2120207062655549933",
+        "2120179737695826420",
+        "2120117722230968385",
+        "2120216592395174382",
+        "2120425542688379314",
+        "2120169787896525104",
+        "2120186778384499073",
+        "2120206365759094857"
+      ],
+      "elapsed_seconds": 910,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 67,
+      "rank": 13,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "qwen4max",
+        "ernie55",
+        "h3image",
+        "groot2"
+      ],
+      "tweet_ids": [
+        "2120219371473617099",
+        "2120335993643684315",
+        "2120425542688379314",
+        "2120179737695826420",
+        "2120186651741655428",
+        "2120169787896525104",
+        "2120216592395174382",
+        "2120220567038984212",
+        "2120117722230968385",
+        "2120227474223292477"
+      ],
+      "elapsed_seconds": 354,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 86,
+      "rank": 4,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "h3image",
+        "qwen4max",
+        "alphaproof"
+      ],
+      "tweet_ids": [
+        "2120207062655549933",
+        "2120335993643684315",
+        "2120117722230968385",
+        "2120179737695826420",
+        "2120169787896525104",
+        "2120186651741655428",
+        "2120425542688379314",
+        "2120200206272921716",
+        "2120206365759094857",
+        "2120216592395174382"
+      ],
+      "elapsed_seconds": 1171,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 90,
+      "rank": 3,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "qwen4max",
+        "h3image",
+        "chatgpt_businesses"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120117722230968385",
+        "2120335993643684315",
+        "2120216592395174382",
+        "2120207062655549933",
+        "2120186651741655428",
+        "2120179737695826420",
+        "2120206365759094857",
+        "2120200206272921716",
+        "2120210355615842428"
+      ],
+      "elapsed_seconds": 291,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "review_required",
+      "score": 81,
+      "rank": 7,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "qwen4max",
+        "anthropic_ipo",
+        "chatgpt_businesses",
+        "groot2"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120335993643684315",
+        "2120117722230968385",
+        "2120216592395174382",
+        "2120206365759094857",
+        "2120169787896525104",
+        "2120186651741655428",
+        "2120179737695826420",
+        "2120277245713654201",
+        "2120196422360506385"
+      ],
+      "elapsed_seconds": 1840,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 67,
+      "rank": 13,
+      "headline_event": "qwen4max",
+      "story_events": [
+        "qwen4max",
+        "carbon",
+        "h3image",
+        "robotics25",
+        "claude_sheets"
+      ],
+      "tweet_ids": [
+        "2120335993643684315",
+        "2120185896469496180",
+        "2120179737695826420",
+        "2120169787896525104",
+        "2120206365759094857",
+        "2120216592395174382",
+        "2120186651741655428",
+        "2120207062655549933",
+        "2120307529674883177",
+        "2120351564720136389"
+      ],
+      "elapsed_seconds": 227,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "review_required",
+      "score": 100,
+      "rank": 1,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "chatgpt_businesses",
+        "h3image",
+        "qwen4max"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120117722230968385",
+        "2120216592395174382",
+        "2120335993643684315",
+        "2120179737695826420",
+        "2120207062655549933",
+        "2120169787896525104",
+        "2120186651741655428",
+        "2120206365759094857",
+        "2120425542688379314"
+      ],
+      "elapsed_seconds": 395,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 76,
+      "rank": 10,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "chatgpt_businesses",
+        "h3image",
+        "robotics25"
+      ],
+      "tweet_ids": [
+        "2120206365759094857",
+        "2120117722230968385",
+        "2120216592395174382",
+        "2120219371473617099",
+        "2120169787896525104",
+        "2120335993643684315",
+        "2120179737695826420",
+        "2120186651741655428",
+        "2120200206272921716",
+        "2120227474223292477"
+      ],
+      "elapsed_seconds": 165,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 66,
+      "rank": 15,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "qwen4max",
+        "ernie55",
+        "anthropic_ipo",
+        "chatgpt_businesses"
+      ],
+      "tweet_ids": [
+        "2120117722230968385",
+        "2120219371473617099",
+        "2120233659793854926",
+        "2120335993643684315",
+        "2120425542688379314",
+        "2120351564720136389",
+        "2120210355615842428",
+        "2120216592395174382",
+        "2120227474223292477",
+        "2120169787896525104"
+      ],
+      "elapsed_seconds": 343,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 86,
+      "rank": 4,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "chatgpt_businesses",
+        "qwen4max",
+        "ernie55"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120117722230968385",
+        "2120216592395174382",
+        "2120335993643684315",
+        "2120425542688379314",
+        "2120206365759094857",
+        "2120207062655549933",
+        "2120186651741655428",
+        "2120179737695826420",
+        "2120102767624880364"
+      ],
+      "elapsed_seconds": 535,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "review_required",
+      "score": 81,
+      "rank": 7,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "h3image",
+        "groot2",
+        "chatgpt_businesses"
+      ],
+      "tweet_ids": [
+        "2120219371473617099",
+        "2120207062655549933",
+        "2120117722230968385",
+        "2120335993643684315",
+        "2120179737695826420",
+        "2120425542688379314",
+        "2120216592395174382",
+        "2120206365759094857",
+        "2120186651741655428",
+        "2120227474223292477"
+      ],
+      "elapsed_seconds": 969,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 91,
+      "rank": 2,
+      "headline_event": "carbon",
+      "story_events": [
+        "carbon",
+        "anthropic_ipo",
+        "qwen4max",
+        "nvidia_huang",
+        "chatgpt_businesses"
+      ],
+      "tweet_ids": [
+        "2120185896469496180",
+        "2120117722230968385",
+        "2120335993643684315",
+        "2120216592395174382",
+        "2120206365759094857",
+        "2120169787896525104",
+        "2120207062655549933",
+        "2120179737695826420",
+        "2120186651741655428",
+        "2120425542688379314"
+      ],
+      "elapsed_seconds": 356,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "carbon": "Google Gemini 4 Carbon broad availability at Argon introductory pricing",
+    "qwen4max": "Alibaba Qwen4-Max preview with one-million-token context window",
+    "anthropic_ipo": "Anthropic IPO roadshow at $70-$78 per share (up to $1.4T implied valuation)",
+    "chatgpt_businesses": "OpenAI Businesses in ChatGPT beta with business agents",
+    "h3image": "MiniMax H3-Image open-weight 4K image generation model",
+    "ernie55": "Baidu ERNIE 5.5 Flash preview with open weights promised",
+    "groot2": "NVIDIA GR00T 2 open world-action robotics model and dataset",
+    "alphaproof": "DeepMind AlphaProof Code formally verifies Signal Protocol code",
+    "robotics25": "Google DeepMind Gemini Robotics 2.5 with factory pilot",
+    "longcat25": "Meituan LongCat-2.5 open weights under MIT license",
+    "sglang": "SGLang vulnerability security incident at NEAR AI",
+    "nvidia_huang": "Nvidia shareholders sue Jensen Huang as FBI examines spy allegations",
+    "claude_sheets": "Anthropic adds whiteboards, Sheets and data to Claude"
+  },
+  "headline_votes": {
+    "carbon": 15,
+    "alphaproof": 1,
+    "qwen4max": 1
+  },
+  "story_votes": {
+    "carbon": 16,
+    "anthropic_ipo": 12,
+    "qwen4max": 15,
+    "ernie55": 6,
+    "chatgpt_businesses": 10,
+    "h3image": 10,
+    "longcat25": 2,
+    "groot2": 5,
+    "robotics25": 3,
+    "sglang": 1,
+    "alphaproof": 3,
+    "claude_sheets": 1,
+    "nvidia_huang": 1
+  },
+  "tweet_votes": {
+    "2120219371473617099": 6,
+    "2120207062655549933": 11,
+    "2120169787896525104": 13,
+    "2120117722230968385": 14,
+    "2120335993643684315": 17,
+    "2120425542688379314": 11,
+    "2120216592395174382": 15,
+    "2120200206272921716": 5,
+    "2120186651741655428": 15,
+    "2120220567038984212": 5,
+    "2120185896469496180": 10,
+    "2120179737695826420": 15,
+    "2120206365759094857": 13,
+    "2120210355615842428": 3,
+    "2119953570430881946": 1,
+    "2120307529674883177": 2,
+    "2119913172039868579": 1,
+    "2120216596753121411": 1,
+    "2120204345602101457": 1,
+    "2120186778384499073": 1,
+    "2120227474223292477": 4,
+    "2120277245713654201": 1,
+    "2120196422360506385": 1,
+    "2120351564720136389": 2,
+    "2120233659793854926": 1,
+    "2120102767624880364": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 10,
+    "tweet_cut_votes": 10,
+    "eligible_stories": [
+      "anthropic_ipo",
+      "carbon",
+      "chatgpt_businesses",
+      "h3image",
+      "qwen4max"
+    ],
+    "eligible_tweets": [
+      "2120117722230968385",
+      "2120169787896525104",
+      "2120179737695826420",
+      "2120185896469496180",
+      "2120186651741655428",
+      "2120206365759094857",
+      "2120207062655549933",
+      "2120216592395174382",
+      "2120335993643684315",
+      "2120425542688379314"
+    ]
+  },
+  "eligible_denominator": 17,
+  "source_hashes": {
+    "2026-11-11/minimax-m3-1-flash/2026-11-11.edition.md": "4af31d02c63fd6934709d1dd7b103172160bcfbe0cde5d39a468e5a98266a425",
+    "2026-11-11/minimax-m3-1-flash/2026-11-11.html": "13fdd7d32cf07897ea770e886794a4770f542e41012e46a88989bb2384d02842",
+    "2026-11-11/minimax-m3-1-flash/run.json": "eaef2f54c4aadf7b6c6cbca0c80a330440eb5f42e0893485fec9ab733f094134",
+    "2026-11-11/minimax-m3-1-flash/headline.json": "e2a6f99ad93794483768421c1e31ab4aa344f2cd323e88b14f2f5a1e520ac189",
+    "2026-11-11/minimax-m3-1-flash/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/minimax-m3-1-flash/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/gpt-6-astra/2026-11-11.edition.md": "2406bc4d8e88d914394b4b579d9b9c4bb7a80628b7a5b62f45aa4a723c1b1b3c",
+    "2026-11-11/gpt-6-astra/2026-11-11.html": "4c5b5b8fbd094c207814a22aa6620dac3add7460ba48fca0f32552ab835ad094",
+    "2026-11-11/gpt-6-astra/run.json": "d9d7d7500760efba60ff5e65635b9f6ebda5f3f43cf32c2cdaeb29e258392099",
+    "2026-11-11/gpt-6-astra/headline.json": "17bafa75cb9d846df9b4a2433028dccfc61299e69ef0a80e00be4dcef8c709a5",
+    "2026-11-11/gpt-6-astra/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/gpt-6-astra/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/kimi-k3-1-pro/2026-11-11.edition.md": "af02d4cb5ea70c7de16445bd843d4531b2c574d9bdfec7d298c2295706905e49",
+    "2026-11-11/kimi-k3-1-pro/2026-11-11.html": "636cb95e134761d2a32b6c2ed7e8aa039d57eab79d6e1977d14fa019496914b5",
+    "2026-11-11/kimi-k3-1-pro/run.json": "f5f6e958e576d47eca1db178182cade43372d4e929ff2a15398f01d193366cd2",
+    "2026-11-11/kimi-k3-1-pro/headline.json": "6e8af8ca54a2a3c6d11af1a500de4c4eb5ed474cc851e2ec3077b38df61d3d0f",
+    "2026-11-11/kimi-k3-1-pro/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/kimi-k3-1-pro/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/deepseek-v4-1-flash-1017/2026-11-11.edition.md": "ad7a84401d28aa8a2347600c80931c58beffdd4920b1cf8cadcbefedf523f242",
+    "2026-11-11/deepseek-v4-1-flash-1017/2026-11-11.html": "33b26fcfbe1c7a57e84c9ab93d74e77aa7239d0d295bb9bec49cb3bd90de779c",
+    "2026-11-11/deepseek-v4-1-flash-1017/run.json": "ade2db2e79ee1510c983ff9cd8b0c1719aab1fd9b0216fd138a05f267ec8778c",
+    "2026-11-11/deepseek-v4-1-flash-1017/headline.json": "05ee5d5c96efc2f0f0a3e3674d3d1030b54c86a96dcf0ea4c27575d0b055f1df",
+    "2026-11-11/deepseek-v4-1-flash-1017/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/deepseek-v4-1-flash-1017/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/gpt-6-luna/2026-11-11.edition.md": "c646665865cf1352cb75b721205f731a42696f2e3f1fab1ea5997270ff5efed9",
+    "2026-11-11/gpt-6-luna/2026-11-11.html": "2cb5956a77a1874f524b692a58506242e30a82316d3943e4f53808448ea7546f",
+    "2026-11-11/gpt-6-luna/run.json": "7fd282a72773646c7c07105178ef3cfd1c48e52c0593d4700ba3a2762fc6ac41",
+    "2026-11-11/gpt-6-luna/headline.json": "563f123b847d26cd93707d3397f9431babbc3e01dba8131f2bc3ca67113adbaa",
+    "2026-11-11/gpt-6-luna/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/gpt-6-luna/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/grok-4-7/2026-11-11.edition.md": "9c9858dcf666acae48cd6a1c15663ac974e2f285a077832996b62086bb1c65c5",
+    "2026-11-11/grok-4-7/2026-11-11.html": "0985480bdb407d8650aa14f6de02fcf6b16b685a8722521b9836290475146018",
+    "2026-11-11/grok-4-7/run.json": "50377ff8ad6de252e2eebd06e72aa3c94f445e9df0ffb5fcae85a643fa84410d",
+    "2026-11-11/grok-4-7/headline.json": "151fbbbd858d46e2d1b9a3adf86538b3cfd0863ace49abe08f5cd15aeb5a23b8",
+    "2026-11-11/grok-4-7/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/grok-4-7/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/gpt-6-1-sol/2026-11-11.edition.md": "2dcceb85ca4873fee2f375d6677db0f5d3c06952560b1195c362671b25240822",
+    "2026-11-11/gpt-6-1-sol/2026-11-11.html": "af0bf04d596a8831ef8625b0ab5cfa734f291cc1eff6f4cf2799209dc80d50af",
+    "2026-11-11/gpt-6-1-sol/run.json": "639828dcf6f4d960477e059eece7560056fe016e9e9a370fe887997c0f04c7aa",
+    "2026-11-11/gpt-6-1-sol/headline.json": "e67ca477b633b8781f84af0269c8deb7b048457ec1a3aa0f8b659bed579db87f",
+    "2026-11-11/gpt-6-1-sol/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/gpt-6-1-sol/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/deepseek-v4-pro/2026-11-11.edition.md": "cb98554947b25deb765afbc78162d2aea58cfbfc9a145d02d1ebda0ca492eda6",
+    "2026-11-11/deepseek-v4-pro/2026-11-11.html": "03df9b62288b73c4c640e669e5fc6dd3aea804869892839ea900b326332b55c1",
+    "2026-11-11/deepseek-v4-pro/run.json": "72f2a11550d3a91dc940c0fe2bdd762d23837a79e4218726298d6cc8435d6421",
+    "2026-11-11/deepseek-v4-pro/headline.json": "26f7e26b891c9fd88ac659f92c0efdd5cf0c4b5e7f4025c648bdb2c91a3f4917",
+    "2026-11-11/deepseek-v4-pro/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/deepseek-v4-pro/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/opus-5-5/2026-11-11.edition.md": "45aeaec7e8c1a7fb5117366202779a29770bd5220ef0a49267d5a746c69d28b4",
+    "2026-11-11/opus-5-5/2026-11-11.html": "0e4b07ed04892e5138e20e23ab95f2be690870e957286c7a6cc886c33741cb1b",
+    "2026-11-11/opus-5-5/run.json": "c001ebe1da8291c8c10a11aeafaaac2b9d680dcd2c70d0c66b503b8299d2f287",
+    "2026-11-11/opus-5-5/headline.json": "e96d7927f23dbf2b063370e13e303552b8afa3f77bea07e6805949676b68f61e",
+    "2026-11-11/opus-5-5/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/opus-5-5/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/qwen-3-8-max-0902/2026-11-11.edition.md": "323583fa9994b8db5da6d01e60b1111ddf5d8f149d58f2c6849aa91e82c7d96f",
+    "2026-11-11/qwen-3-8-max-0902/2026-11-11.html": "86fc88722f61863975b8703f3a1908671dda16fabe5b9c26913a489fc960fab5",
+    "2026-11-11/qwen-3-8-max-0902/run.json": "50b6db0f87878945ad25197769fb42201cb57489d65bb0ad6d0a4aebff99b0b3",
+    "2026-11-11/qwen-3-8-max-0902/headline.json": "fff8f14fd356e501a2248bd0d120276f715f84782995bea14afa06fcc8c70ae8",
+    "2026-11-11/qwen-3-8-max-0902/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/qwen-3-8-max-0902/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/gpt-6-1-terra/2026-11-11.edition.md": "aed8f4f489e5c5f0c428ec818832683ae085dd0c7110cf95d506008e3b48207a",
+    "2026-11-11/gpt-6-1-terra/2026-11-11.html": "485943ceb6ddfdb9e0d32b1afa004a781931ba72ccf3dfaec18537b3d862f86f",
+    "2026-11-11/gpt-6-1-terra/run.json": "b2de042b9e93342d03a8a04b86fc1022402e6f80b5950566bc9b2689b7ddb235",
+    "2026-11-11/gpt-6-1-terra/headline.json": "d9a97c600f1103741a7fea08ad2d555e9a45d853c9b9591d435f3dbb62e161f4",
+    "2026-11-11/gpt-6-1-terra/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/gpt-6-1-terra/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/glm-5-3/2026-11-11.edition.md": "0006e76414c2577ff376f059a6b7373468dde25aec2eba1dfbe4de21d81603e9",
+    "2026-11-11/glm-5-3/2026-11-11.html": "d79dbbdb4c8ee6ced8b69ee32b2c1fd5bd1e766209b725de05a78ea32823f970",
+    "2026-11-11/glm-5-3/run.json": "a2aea5bb9d1e72fd58520cc48e21d4c4a013530f24819281ec928a1527d6ca74",
+    "2026-11-11/glm-5-3/headline.json": "351d0f83e3476eff7a5ea4242d33f46b007c03277ae725c5194497a3fa060e24",
+    "2026-11-11/glm-5-3/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/glm-5-3/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/sonnet-5-5/2026-11-11.edition.md": "dfdb58d313b1bb7b659d8f40e8738a21b9b14b11def3c38d40fabe79cbd81abd",
+    "2026-11-11/sonnet-5-5/2026-11-11.html": "59503df3bb1e00c30a2aad7171b7afacd59433478b828dc7f279517288bd4581",
+    "2026-11-11/sonnet-5-5/run.json": "17a521d1432da0a31eaee2d38880acace22240ea01f96e365a811be30c018f28",
+    "2026-11-11/sonnet-5-5/headline.json": "2c932d065ff35c65a8bdfaf00fad0ab9ae47334929504dae0cfb4da10d50bbad",
+    "2026-11-11/sonnet-5-5/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/sonnet-5-5/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/haiku-5-5/2026-11-11.edition.md": "c6802e908779e5734ca13795eb1fd342e4bd29bf1e0215e6f8c3221fd3d4145f",
+    "2026-11-11/haiku-5-5/2026-11-11.html": "c2175ba514c27f73b474cc43715bdfbe94a5f433f1ceaf8660c10ac269005f8a",
+    "2026-11-11/haiku-5-5/run.json": "c7fb07cd035091ae4d8282bb0df80f81f274f668f3baff3654f38be2fd8a811a",
+    "2026-11-11/haiku-5-5/headline.json": "c97c4f75736a129b569ccc7887256b5bbc530c48fb77e13099020cf9345ed417",
+    "2026-11-11/haiku-5-5/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/haiku-5-5/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/fable-5-1/2026-11-11.edition.md": "65892cb0b619d7a9d3f274e6b1abd72c916829223a4a909208975764a84bbe4d",
+    "2026-11-11/fable-5-1/2026-11-11.html": "b0a54ccc43135a76a1a7502784410a7a2dc9fcf1af5e0033b3a9dc84dc4fdadc",
+    "2026-11-11/fable-5-1/run.json": "8ae4d3e6b61379296b3dea218da8e91c2467853e79f8f9f189f806703226417d",
+    "2026-11-11/fable-5-1/headline.json": "9398d7bf737b5bf2ea50caf4968e1c66d1d5055320d068bac7bad12f90825953",
+    "2026-11-11/fable-5-1/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/fable-5-1/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/gemini-4-argon/2026-11-11.edition.md": "4c79a565b007c987d8a635706e6222db80de5eeebcea351bec5b4df998c26e53",
+    "2026-11-11/gemini-4-argon/2026-11-11.html": "d3f5da9421413031c9e0e067d7b3d885196778a2ec8e142d89bc069a471a4c69",
+    "2026-11-11/gemini-4-argon/run.json": "7cd2f7d3eb47cd6b7836679258d2a5f032a5f05b10926c84e8112b7b77027bf9",
+    "2026-11-11/gemini-4-argon/headline.json": "0c63aa00bfab71810fd44289f1c01d9568701bc33fadb4f21caed76096e7dfb5",
+    "2026-11-11/gemini-4-argon/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/gemini-4-argon/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3",
+    "2026-11-11/fable-5-2/2026-11-11.edition.md": "fbef9d2724cf1fce169f6d0e4727944ce2f7b8a1e5c686f8ce96f921fad3b082",
+    "2026-11-11/fable-5-2/2026-11-11.html": "c8f0f7bab17185261eb12d9580e91c601eea013874f5e6821544215621dd7f58",
+    "2026-11-11/fable-5-2/run.json": "686a442504ac9882bc859d58ba21740d0659e7949332dcdf0ecde3eb69ff5f94",
+    "2026-11-11/fable-5-2/headline.json": "5ecae75d5b016e5c03e236196a21088a4d2ac07f3e571299ac34f34a5820deef",
+    "2026-11-11/fable-5-2/2026-11-11.x-collection.json": "d1db76ae3d28c79eb3f65bf6771e20888a7337e68f780cc9488793a905fb5417",
+    "2026-11-11/fable-5-2/2026-11-11.web-search.json": "3def4e848e95d7e78c8c8da7602dbeffd4afd64826d67923ef9c7110d397e2e3"
+  },
+  "event_url_bindings": {
+    "minimax-m3-1-flash": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/"
+    },
+    "gpt-6-astra": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "ernie55": "https://x.com/Baidu_ERNIE/status/2120425542688379314",
+      "h3image": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "longcat25": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license"
+    },
+    "kimi-k3-1-pro": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "groot2": "https://research.nvidia.com/labs/gear/gr00t-2/",
+      "robotics25": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    },
+    "deepseek-v4-1-flash-1017": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "qwen4max": "https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "groot2": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "sglang": "https://near.ai/blog/security-incident-report-sglang-vulnerability"
+    },
+    "gpt-6-luna": {
+      "alphaproof": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "longcat25": "https://x.com/Meituan_LongCat/status/2119793531393040462",
+      "chatgpt_businesses": "https://openai.com/business/businesses-in-chatgpt/"
+    },
+    "grok-4-7": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "alphaproof": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch"
+    },
+    "gpt-6-1-sol": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "ernie55": "https://x.com/Baidu_ERNIE/status/2120425542688379314",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "groot2": "https://research.nvidia.com/labs/gear/gr00t-2/"
+    },
+    "deepseek-v4-pro": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "qwen4max": "https://qwencloud.com/pricing/token-plan",
+      "alphaproof": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    },
+    "opus-5-5": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "qwen4max": "https://finance.biggo.com/news/05871ab8-a176-4f3e-9ba3-1cb423da921d",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/"
+    },
+    "qwen-3-8-max-0902": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "groot2": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+    },
+    "gpt-6-1-terra": {
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "h3image": "https://cryptobriefing.com/minimax-h3-image-open-weight-4k-model/",
+      "robotics25": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "claude_sheets": "https://claude.com/resources/articles/sheets-whiteboards-data"
+    },
+    "glm-5-3": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
+    },
+    "sonnet-5-5": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "robotics25": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    },
+    "haiku-5-5": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "ernie55": "https://x.com/Baidu_ERNIE/status/2120425542688379314",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/"
+    },
+    "fable-5-1": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "ernie55": "https://x.com/Baidu_ERNIE/status/2120425542688379314"
+    },
+    "gemini-4-argon": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "h3image": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "groot2": "https://research.nvidia.com/labs/gear/gr00t-2/",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/"
+    },
+    "fable-5-2": {
+      "carbon": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "anthropic_ipo": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "qwen4max": "https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/",
+      "nvidia_huang": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
+      "chatgpt_businesses": "https://openai.com/index/introducing-businesses-chatgpt/"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "glm-5-3",
+      "story": "carbon",
+      "reason": "newsletter headline composes its own framing (Gemini 4 Carbon plus Anthropic IPO roadshow) rather than repeating its lead story title; verified to reference the same Carbon event"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "qwen4max",
+      "reason": "cited via the Qwen Cloud pricing-page URL rather than the announcement tweet or press coverage; same Qwen4-Max preview event"
+    },
+    {
+      "model": "opus-5-5",
+      "story": "qwen4max",
+      "reason": "cited via a BigGo finance news article; same Qwen4-Max preview event"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "qwen4max",
+      "reason": "cited via the TechNode article rather than the announcement tweet; same Qwen4-Max preview event"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "carbon",
+      "reason": "newsletter headline composes its own framing (Gemini 4 Carbon plus Anthropic IPO roadshow) rather than repeating its lead story title; verified to reference the same Carbon event"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "anthropic_ipo",
+      "reason": "cited via the TechCrunch price-range article rather than the official roadshow page; same IPO roadshow event"
+    }
+  ]
+}
