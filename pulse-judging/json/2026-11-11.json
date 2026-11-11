@@ -4,7 +4,9 @@
  "judges": {
   "opus": "anthropic/claude-opus-5-5",
   "glm": "openrouter_eich/z-ai/glm-5.3",
-  "astra": "openai/gpt-6-astra"
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
  },
  "models": [
   "deepseek-v4-1-flash-1017",
@@ -86,47 +88,87 @@
    "fable-5-1": 1.5,
    "grok-4-7": 3.0,
    "opus-5-5": 2.5
+  },
+  "grok": {
+   "deepseek-v4-1-flash-1017": 4.5,
+   "gpt-6-luna": 2.0,
+   "fable-5-1": 2.0,
+   "kimi-k3-1-pro": 2.5,
+   "opus-5-5": 2.5,
+   "gpt-6-1-sol": 2.5,
+   "minimax-m3-1-flash": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "haiku-5-5": 2.5,
+   "glm-5-3": 2.5,
+   "grok-4-7": 3.5,
+   "gemini-4-carbon": 2.0,
+   "gemini-4-argon": 2.0,
+   "fable-5-2": 2.5,
+   "deepseek-v4-pro": 3.0,
+   "qwen-3-8-max-0902": 3.0,
+   "gpt-6-astra": 2.0,
+   "sonnet-5-5": 3.5
+  },
+  "dsflash": {
+   "minimax-m3-1-flash": 2.5,
+   "fable-5-2": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "kimi-k3-1-pro": 2.5,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "sonnet-5-5": 3.0,
+   "gpt-6-astra": 2.5,
+   "grok-4-7": 3.0,
+   "gemini-4-argon": 2.0,
+   "gpt-6-luna": 3.0,
+   "deepseek-v4-pro": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "haiku-5-5": 3.0,
+   "qwen-3-8-max-0902": 3.0,
+   "fable-5-1": 2.0,
+   "glm-5-3": 3.0,
+   "opus-5-5": 3.5,
+   "gemini-4-carbon": 2.5
   }
  },
  "average": {
-  "deepseek-v4-1-flash-1017": 4.17,
+  "deepseek-v4-1-flash-1017": 4.2,
   "deepseek-v4-pro": 3.0,
-  "fable-5-1": 2.33,
-  "fable-5-2": 2.83,
+  "fable-5-1": 2.2,
+  "fable-5-2": 2.8,
   "gemini-4-argon": 2.0,
-  "gemini-4-carbon": 2.0,
-  "glm-5-3": 3.5,
-  "gpt-6-1-sol": 2.83,
-  "gpt-6-1-terra": 2.67,
-  "gpt-6-astra": 3.5,
+  "gemini-4-carbon": 2.1,
+  "glm-5-3": 3.2,
+  "gpt-6-1-sol": 2.7,
+  "gpt-6-1-terra": 2.4,
+  "gpt-6-astra": 3.0,
   "gpt-6-luna": 2.5,
-  "grok-4-7": 3.33,
-  "haiku-5-5": 3.0,
-  "kimi-k3-1-pro": 3.0,
-  "minimax-m3-1-flash": 2.83,
-  "opus-5-5": 3.17,
-  "qwen-3-8-max-0902": 2.83,
-  "sonnet-5-5": 3.17
+  "grok-4-7": 3.3,
+  "haiku-5-5": 2.9,
+  "kimi-k3-1-pro": 2.8,
+  "minimax-m3-1-flash": 2.8,
+  "opus-5-5": 3.1,
+  "qwen-3-8-max-0902": 2.9,
+  "sonnet-5-5": 3.2
  },
  "ranking": [
   "deepseek-v4-1-flash-1017",
-  "glm-5-3",
-  "gpt-6-astra",
   "grok-4-7",
-  "opus-5-5",
+  "glm-5-3",
   "sonnet-5-5",
+  "opus-5-5",
   "deepseek-v4-pro",
+  "gpt-6-astra",
   "haiku-5-5",
-  "kimi-k3-1-pro",
-  "fable-5-2",
-  "gpt-6-1-sol",
-  "minimax-m3-1-flash",
   "qwen-3-8-max-0902",
-  "gpt-6-1-terra",
+  "fable-5-2",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "gpt-6-1-sol",
   "gpt-6-luna",
+  "gpt-6-1-terra",
   "fable-5-1",
-  "gemini-4-argon",
-  "gemini-4-carbon"
+  "gemini-4-carbon",
+  "gemini-4-argon"
  ],
  "self_preference": {
   "opus": {
@@ -139,8 +181,8 @@
     "sonnet-5-5"
    ],
    "own": 3.0,
-   "others": 2.85,
-   "bump": 0.15
+   "others": 2.8,
+   "bump": 0.2
   },
   "glm": {
    "family": "zai",
@@ -148,8 +190,8 @@
     "glm-5-3"
    ],
    "own": 4.0,
-   "others": 3.25,
-   "bump": 0.75
+   "others": 3.0,
+   "bump": 1.0
   },
   "astra": {
    "family": "openai",
@@ -160,13 +202,34 @@
     "gpt-6-luna"
    ],
    "own": 3.12,
-   "others": 2.75,
-   "bump": 0.38
+   "others": 2.53,
+   "bump": 0.59
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 3.5,
+   "others": 3.25,
+   "bump": 0.25
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.5,
+   "others": 3.62,
+   "bump": -0.12
   }
  },
  "judge_notes": {
   "opus": "K won because it interprets rather than lists: 'at introductory prices matching its cheaper Argon model rather than a premium tier,' 'Alibaba answered within a day,' and 'The week's clearest caution came from NEAR AI' give hierarchy and a reason to care; its only blemish is an ambiguous 'it.' O lost on spec density and run-ons ('its 280B-total, 14B-active ERNIE 5.5 Flash Preview', 'its 33.1-billion-parameter MiniMax-H3-Image native 4K generator'), with L close behind for the same reason.",
   "glm": "Q won because it is the only summary with a narrative and a payoff: 'Alibaba answered within a day' gives the day a throughline, and it closes on a concrete security story ('a remote code execution flaw in the SGLang inference engine') that tells the reader why the day mattered beyond product news. P and J and L followed with clean structure and concrete detail, each docked only for list-burden in the opener. I lost worst because nearly every sentence is a 50-word spec stack ('280B-total, 14B-active') with no hierarchy, and R lost nearly as badly for spending its closer on disclaimers about evidence and test conditions rather than the news itself.",
-  "astra": "M wins because its progression from model access to \"packaging AI into customer-facing and productivity workflows\" supplies an intelligible business takeaway in readable sentences; its vague availability and licensing distinctions keep it below exceptional. F is the closest challenger, with a concrete confidentiality failure explaining stakes, but its financing detour weakens cohesion. P loses because its opening expands through \"while Anthropic launched its IPO roadshow\" into a roughly 75-word accumulation of prices, benchmarks and financial mechanics; subsequent paragraphs never establish a controlling idea."
+  "astra": "M wins because its progression from model access to \"packaging AI into customer-facing and productivity workflows\" supplies an intelligible business takeaway in readable sentences; its vague availability and licensing distinctions keep it below exceptional. F is the closest challenger, with a concrete confidentiality failure explaining stakes, but its financing detour weakens cohesion. P loses because its opening expands through \"while Anthropic launched its IPO roadshow\" into a roughly 75-word accumulation of prices, benchmarks and financial mechanics; subsequent paragraphs never establish a controlling idea.",
+  "grok": "The best won because it has a throughline and a stake, not a catalog: \"Alibaba answered within a day,\" and the close says why a reader should care, \"let an attacker reach requests it had promised to keep confidential.\" The worst lost on the first sentence, which welds a price, three benchmarks, and an IPO into one wall: \"claiming first place on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench, while Anthropic launched its IPO roadshow.\"",
+  "dsflash": "E won because it is the only summary with a hierarchy and an argument: it leads with the Google release, gives it a price comparison a reader can use (\"matching its cheaper Argon model\"), supplies a competitive frame (\"Alibaba answered within a day\"), and closes on a genuinely different item with stakes (\"The week's clearest caution came from NEAR AI\"). Q is close behind on detail (\"about 1 percent of the codebase needing human review\") but its lead jams two stories into 55 words and garbles the price (\"the same $2 and $10 per million token introductory price\"). L lost because it withholds the facts that make a brief useful: an unnamed model (\"an image model with downloadable weights\"), an empty caveat (\"but their licenses differ\"), and no numbers anywhere. O and I lost on the same failure at the other extreme: O's lead runs 75 words and folds in an unexplained aside (\"a day after Anthropic's Fable 5.2 launch\"), while I stacks specifications until the sentence stops being a sentence (\"280B-total, 14B-active ERNIE 5.5 Flash Preview\")."
  }
 }

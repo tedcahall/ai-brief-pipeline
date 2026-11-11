@@ -4,7 +4,9 @@
  "judges": {
   "opus": "anthropic/claude-opus-5-5",
   "glm": "openrouter_eich/z-ai/glm-5.3",
-  "astra": "openai/gpt-6-astra"
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
  },
  "models": [
   "deepseek-v4-1-flash-1017",
@@ -78,41 +80,77 @@
    "fable-5-1": 2.0,
    "haiku-5-5": 3.0,
    "gemini-4-argon": 2.0
+  },
+  "grok": {
+   "deepseek-v4-pro": 4.5,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gpt-6-luna": 2.5,
+   "gpt-6-1-sol": 2.0,
+   "minimax-m3-1-flash": 4.0,
+   "opus-5-5": 3.5,
+   "sonnet-5-5": 3.5,
+   "grok-4-7": 3.5,
+   "kimi-k3-1-pro": 4.0,
+   "gpt-6-astra": 2.0,
+   "fable-5-1": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "glm-5-3": 3.0,
+   "gemini-4-argon": 3.5,
+   "haiku-5-5": 3.0
+  },
+  "dsflash": {
+   "deepseek-v4-pro": 2.5,
+   "gemini-4-argon": 3.0,
+   "opus-5-5": 2.5,
+   "sonnet-5-5": 3.0,
+   "fable-5-1": 2.5,
+   "kimi-k3-1-pro": 2.5,
+   "minimax-m3-1-flash": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "grok-4-7": 2.5,
+   "haiku-5-5": 2.5,
+   "gpt-6-1-terra": 2.0,
+   "glm-5-3": 2.5,
+   "gpt-6-astra": 2.0,
+   "qwen-3-8-max-0902": 3.0,
+   "gpt-6-luna": 2.5
   }
  },
  "average": {
-  "deepseek-v4-1-flash-1017": 3.17,
-  "deepseek-v4-pro": 3.0,
-  "fable-5-1": 2.83,
-  "gemini-4-argon": 2.5,
-  "glm-5-3": 2.67,
-  "gpt-6-1-sol": 2.83,
+  "deepseek-v4-1-flash-1017": 3.2,
+  "deepseek-v4-pro": 3.2,
+  "fable-5-1": 2.8,
+  "gemini-4-argon": 2.8,
+  "glm-5-3": 2.7,
+  "gpt-6-1-sol": 2.6,
   "gpt-6-1-terra": 2.0,
-  "gpt-6-astra": 2.33,
-  "gpt-6-luna": 2.83,
-  "grok-4-7": 3.17,
-  "haiku-5-5": 2.67,
-  "kimi-k3-1-pro": 3.0,
-  "minimax-m3-1-flash": 3.33,
-  "opus-5-5": 3.67,
-  "qwen-3-8-max-0902": 3.33,
-  "sonnet-5-5": 3.5
+  "gpt-6-astra": 2.2,
+  "gpt-6-luna": 2.7,
+  "grok-4-7": 3.1,
+  "haiku-5-5": 2.7,
+  "kimi-k3-1-pro": 3.1,
+  "minimax-m3-1-flash": 3.4,
+  "opus-5-5": 3.4,
+  "qwen-3-8-max-0902": 3.3,
+  "sonnet-5-5": 3.4
  },
  "ranking": [
+  "minimax-m3-1-flash",
   "opus-5-5",
   "sonnet-5-5",
-  "minimax-m3-1-flash",
   "qwen-3-8-max-0902",
   "deepseek-v4-1-flash-1017",
-  "grok-4-7",
   "deepseek-v4-pro",
+  "grok-4-7",
   "kimi-k3-1-pro",
   "fable-5-1",
-  "gpt-6-1-sol",
-  "gpt-6-luna",
-  "glm-5-3",
-  "haiku-5-5",
   "gemini-4-argon",
+  "glm-5-3",
+  "gpt-6-luna",
+  "haiku-5-5",
+  "gpt-6-1-sol",
   "gpt-6-astra",
   "gpt-6-1-terra"
  ],
@@ -126,8 +164,8 @@
     "sonnet-5-5"
    ],
    "own": 3.12,
-   "others": 3.19,
-   "bump": -0.06
+   "others": 3.06,
+   "bump": 0.06
   },
   "glm": {
    "family": "zai",
@@ -135,8 +173,8 @@
     "glm-5-3"
    ],
    "own": 3.0,
-   "others": 2.5,
-   "bump": 0.5
+   "others": 2.62,
+   "bump": 0.38
   },
   "astra": {
    "family": "openai",
@@ -147,13 +185,34 @@
     "gpt-6-luna"
    ],
    "own": 2.75,
-   "others": 2.38,
-   "bump": 0.38
+   "others": 2.28,
+   "bump": 0.47
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 3.5,
+   "others": 3.0,
+   "bump": 0.5
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.0,
+   "others": 3.25,
+   "bump": -0.25
   }
  },
  "judge_notes": {
   "opus": "",
   "glm": "",
-  "astra": ""
+  "astra": "",
+  "grok": "A won because it opens on a number with a stake \u2014 \"The figure fell short of earlier targets but still dwarfs any prior AI investment\" \u2014 then gives Muse and Arete each a why, with only a mild 'Meanwhile' on the science line. M lost: \"human-guided DeepMind agents have contributed to research on legacy RSA weaknesses\" says nothing usable, and \"without finding liability\" plus \"reflects Nous\u2019s own definition\" spend two of four sentences on disclaimers.",
+  "dsflash": "I wins on the only genuinely arresting lead in the file \u2014 \"used instances of a non-public Anthropic model to prove the Aaronson-Ambainis conjecture, a quantum complexity question open since 2008\" \u2014 which names the actor, the result, and why it matters in one clause, then honestly flags that \"the result cannot yet be reproduced.\" It still loses points for a hollow pivot, \"The week's money and model news pointed the same direction,\" and a while-list, so it is a 3.5, not a 4. G is next because it at least attempts hierarchy \u2014 \"Anthropic's IPO repriced itself this week\" \u2014 but then buries the news in a 60-word four-clause sentence and pads with filler like \"Washington's own AI safety machinery is also in play.\" L loses outright: it cannot even name its subject (\"a post-trained Qwen model\"), pads with process caveats (\"reflects Nous's own definition and test set\"), and its strongest item trails off into \"without finding liability\" \u2014 three sentences that leave a reader with nothing. N fails differently, substituting abstraction for reporting (\"distinguishes completed capacity from the much larger plan\") and then lecturing about \"two different challenges.\" Nobody earns a 4: there is no summary here with a clean hierarchy and one flaw only."
  }
 }

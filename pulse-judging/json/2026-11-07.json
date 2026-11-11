@@ -4,7 +4,9 @@
  "judges": {
   "opus": "anthropic/claude-opus-5-5",
   "glm": "openrouter_eich/z-ai/glm-5.3",
-  "astra": "openai/gpt-6-astra"
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
  },
  "models": [
   "deepseek-v4-1-flash-1017",
@@ -62,34 +64,62 @@
    "deepseek-v4-pro": 2.0,
    "deepseek-v4-1-flash-1017": 2.0,
    "grok-4-7": 2.5
+  },
+  "grok": {
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-astra": 2.0,
+   "qwen-3-8-max-0902": 4.0,
+   "gpt-6-1-sol": 2.5,
+   "gpt-6-luna": 2.5,
+   "glm-5-3": 4.0,
+   "minimax-m3-1-flash": 2.0,
+   "gpt-6-1-terra": 2.5,
+   "grok-4-7": 3.5,
+   "opus-5-5": 4.0,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "deepseek-v4-pro": 3.5
+  },
+  "dsflash": {
+   "minimax-m3-1-flash": 2.5,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "gpt-6-luna": 2.5,
+   "kimi-k3-1-pro": 3.5,
+   "opus-5-5": 3.5,
+   "gpt-6-astra": 2.5,
+   "grok-4-7": 3.0,
+   "glm-5-3": 4.0,
+   "deepseek-v4-pro": 3.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gpt-6-1-terra": 2.0
   }
  },
  "average": {
   "deepseek-v4-1-flash-1017": 3.0,
-  "deepseek-v4-pro": 2.67,
-  "glm-5-3": 3.5,
-  "gpt-6-1-sol": 3.17,
-  "gpt-6-1-terra": 2.33,
-  "gpt-6-astra": 3.0,
+  "deepseek-v4-pro": 2.9,
+  "glm-5-3": 3.7,
+  "gpt-6-1-sol": 2.9,
+  "gpt-6-1-terra": 2.3,
+  "gpt-6-astra": 2.7,
   "gpt-6-luna": 2.5,
-  "grok-4-7": 2.83,
-  "kimi-k3-1-pro": 3.17,
-  "minimax-m3-1-flash": 2.67,
-  "opus-5-5": 3.33,
-  "qwen-3-8-max-0902": 3.0
+  "grok-4-7": 3.0,
+  "kimi-k3-1-pro": 3.2,
+  "minimax-m3-1-flash": 2.5,
+  "opus-5-5": 3.5,
+  "qwen-3-8-max-0902": 3.3
  },
  "ranking": [
   "glm-5-3",
   "opus-5-5",
-  "gpt-6-1-sol",
+  "qwen-3-8-max-0902",
   "kimi-k3-1-pro",
   "deepseek-v4-1-flash-1017",
-  "gpt-6-astra",
-  "qwen-3-8-max-0902",
   "grok-4-7",
   "deepseek-v4-pro",
-  "minimax-m3-1-flash",
+  "gpt-6-1-sol",
+  "gpt-6-astra",
   "gpt-6-luna",
+  "minimax-m3-1-flash",
   "gpt-6-1-terra"
  ],
  "self_preference": {
@@ -99,8 +129,8 @@
     "opus-5-5"
    ],
    "own": 3.5,
-   "others": 3.25,
-   "bump": 0.25
+   "others": 3.5,
+   "bump": 0.0
   },
   "glm": {
    "family": "zai",
@@ -108,8 +138,8 @@
     "glm-5-3"
    ],
    "own": 4.0,
-   "others": 3.25,
-   "bump": 0.75
+   "others": 3.62,
+   "bump": 0.38
   },
   "astra": {
    "family": "openai",
@@ -120,13 +150,34 @@
     "gpt-6-luna"
    ],
    "own": 2.88,
-   "others": 2.69,
-   "bump": 0.19
+   "others": 2.53,
+   "bump": 0.34
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 3.5,
+   "others": 2.88,
+   "bump": 0.62
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.0,
+   "others": 2.94,
+   "bump": 0.06
   }
  },
  "judge_notes": {
   "opus": "L wins narrowly because it is the only summary that gives the reader stakes: \"a release that would make it the top open-weights model developed outside China\" and \"chip stocks slid sharply as investors weighed possible restrictions on the AI buildout\" tell an executive why to care, though its run-on opening and stacked stats keep it from a 4. K finishes last: at 65 words it still manages vagueness (\"specialized Muse Wonder-based models to its assistants\"), an empty hedge (\"while emphasizing uncertainty in its assessment\") and a trivial item framed as news (\"disclosure of an email address in web request headers\").",
   "glm": "J won with clean, complete sentences and details that carry their own significance \u2014 \"a signature-forgery technique it estimates is about 1,600 times more efficient\" tells an executive more than a hedge ever could, and its single 2048-bit caveat is integrated rather than paraded. I and L follow: I is tidier but its last sentence glues unrelated items (\"released a 100-task benchmark ... and joined Frontier Model Forum members\"), while L earns depth with \"a release that would make it the top open-weights model developed outside China\" but stumbles on the redundant \"After Democrats' midterm sweep, top Democrats called\" and a stat pile-up in the Meta paragraph. E lost: \"a Qwen3.8-derived model post-trained to alter model behavior\" is too vague to act on, and its items are strung together with \"while\" and a closing disclaimer. A also lost \u2014 65 words of disconnected clauses (\"while Meta is bringing specialized Muse Wonder-based models\") with no line explaining why any of it matters.",
-  "astra": "A wins narrowly, not at publication-ready quality: \"physical infrastructure remains part of the deployment story\" at least attempts to connect news to deployment, and its sentences are more navigable than the specification-heavy alternatives. Its repeated caveats and loose connections keep it at 3.5. K loses because the opening runs from \"a 594-billion-parameter mixture-of-experts model\" through \"is promised as Apache 2.0 weights next week after external safety testing\" in one overloaded sentence, followed by another crowded technical comparison. The problem is processing burden and absent hierarchy, not a clear-cut grammar failure."
+  "astra": "A wins narrowly, not at publication-ready quality: \"physical infrastructure remains part of the deployment story\" at least attempts to connect news to deployment, and its sentences are more navigable than the specification-heavy alternatives. Its repeated caveats and loose connections keep it at 3.5. K loses because the opening runs from \"a 594-billion-parameter mixture-of-experts model\" through \"is promised as Apache 2.0 weights next week after external safety testing\" in one overloaded sentence, followed by another crowded technical comparison. The problem is processing burden and absent hierarchy, not a clear-cut grammar failure.",
+  "grok": "F won because the lead states a consequence, not just a spec sheet \u2014 \"the top open-weights model developed outside China\" \u2014 and the close gives an executive a reason to care: \"top Democrats called for a national data center moratorium and chip stocks slid sharply.\" The opener runs long, but every later item has a magnitude. G lost because the organizing lines are empty \u2014 \"Safety and evaluation also moved into sharper focus,\" \"remained active beyond the lead release\" \u2014 and the one result only \"had improved materially,\" under an acronym pile.",
+  "dsflash": "Best was I: the lead carries an actual consequence clause \u2014 \"a release that would make it the top open-weights model developed outside China\" \u2014 and it closes on stakes rather than another item, \"chip stocks slid sharply as investors weighed possible restrictions on the AI buildout.\" Runner-up E and K are accurate but hierarchy-free; K wins on significance (\"would make it the highest-scoring open weights model\") but pays for it with a 50-word lead. Worst was L: 65 words of \"with open weights planned after safety testing, while Meta is bringing specialized Muse Wonder-based models to its assistants\" \u2014 hedged, vague, and joined by 'while' with nothing explained. A, C, D and G all landed at 2.5 for the same reason: each spends a sentence on what did not happen (\"rather than completed\", \"not enacted national restrictions\", \"redacted evidence\") instead of telling the reader anything."
  }
 }

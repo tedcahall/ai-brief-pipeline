@@ -4,7 +4,9 @@
  "judges": {
   "opus": "anthropic/claude-opus-5-5",
   "glm": "openrouter_eich/z-ai/glm-5.3",
-  "astra": "openai/gpt-6-astra"
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
  },
  "models": [
   "deepseek-v4-1-flash-1017",
@@ -78,40 +80,76 @@
    "gpt-6-astra": 3.0,
    "gpt-6-1-sol": 3.0,
    "kimi-k3-1-pro": 3.5
+  },
+  "grok": {
+   "deepseek-v4-1-flash-1017": 3.0,
+   "gemini-4-argon": 2.0,
+   "glm-5-3": 3.0,
+   "sonnet-5-5": 3.0,
+   "haiku-5-5": 2.5,
+   "gpt-6-1-sol": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "grok-4-7": 4.0,
+   "gpt-6-luna": 2.5,
+   "kimi-k3-1-pro": 3.5,
+   "minimax-m3-1-flash": 2.5,
+   "gpt-6-astra": 3.0,
+   "qwen-3-8-max-0902": 3.0,
+   "deepseek-v4-pro": 3.0,
+   "opus-5-5": 3.0,
+   "fable-5-1": 3.5
+  },
+  "dsflash": {
+   "glm-5-3": 2.5,
+   "gpt-6-luna": 2.0,
+   "grok-4-7": 2.5,
+   "gpt-6-1-terra": 1.5,
+   "gemini-4-argon": 2.5,
+   "qwen-3-8-max-0902": 3.0,
+   "fable-5-1": 3.0,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "minimax-m3-1-flash": 3.0,
+   "gpt-6-astra": 2.0,
+   "haiku-5-5": 3.0,
+   "sonnet-5-5": 3.0,
+   "opus-5-5": 3.0,
+   "deepseek-v4-pro": 3.5,
+   "gpt-6-1-sol": 2.5,
+   "kimi-k3-1-pro": 3.0
   }
  },
  "average": {
-  "deepseek-v4-1-flash-1017": 4.0,
-  "deepseek-v4-pro": 3.17,
-  "fable-5-1": 3.17,
-  "gemini-4-argon": 2.5,
-  "glm-5-3": 3.33,
-  "gpt-6-1-sol": 3.0,
-  "gpt-6-1-terra": 2.5,
-  "gpt-6-astra": 2.83,
-  "gpt-6-luna": 2.67,
-  "grok-4-7": 3.33,
-  "haiku-5-5": 2.83,
-  "kimi-k3-1-pro": 3.5,
-  "minimax-m3-1-flash": 2.83,
-  "opus-5-5": 3.5,
-  "qwen-3-8-max-0902": 2.83,
-  "sonnet-5-5": 3.33
+  "deepseek-v4-1-flash-1017": 3.7,
+  "deepseek-v4-pro": 3.2,
+  "fable-5-1": 3.2,
+  "gemini-4-argon": 2.4,
+  "glm-5-3": 3.1,
+  "gpt-6-1-sol": 2.9,
+  "gpt-6-1-terra": 2.2,
+  "gpt-6-astra": 2.7,
+  "gpt-6-luna": 2.5,
+  "grok-4-7": 3.3,
+  "haiku-5-5": 2.8,
+  "kimi-k3-1-pro": 3.4,
+  "minimax-m3-1-flash": 2.8,
+  "opus-5-5": 3.3,
+  "qwen-3-8-max-0902": 2.9,
+  "sonnet-5-5": 3.2
  },
  "ranking": [
   "deepseek-v4-1-flash-1017",
   "kimi-k3-1-pro",
-  "opus-5-5",
-  "glm-5-3",
   "grok-4-7",
-  "sonnet-5-5",
+  "opus-5-5",
   "deepseek-v4-pro",
   "fable-5-1",
+  "sonnet-5-5",
+  "glm-5-3",
   "gpt-6-1-sol",
-  "gpt-6-astra",
+  "qwen-3-8-max-0902",
   "haiku-5-5",
   "minimax-m3-1-flash",
-  "qwen-3-8-max-0902",
+  "gpt-6-astra",
   "gpt-6-luna",
   "gemini-4-argon",
   "gpt-6-1-terra"
@@ -126,8 +164,8 @@
     "sonnet-5-5"
    ],
    "own": 3.5,
-   "others": 3.06,
-   "bump": 0.44
+   "others": 3.03,
+   "bump": 0.47
   },
   "glm": {
    "family": "zai",
@@ -135,8 +173,8 @@
     "glm-5-3"
    ],
    "own": 3.5,
-   "others": 3.25,
-   "bump": 0.25
+   "others": 3.0,
+   "bump": 0.5
   },
   "astra": {
    "family": "openai",
@@ -147,13 +185,34 @@
     "gpt-6-luna"
    ],
    "own": 2.75,
-   "others": 2.75,
-   "bump": 0.0
+   "others": 2.53,
+   "bump": 0.22
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 4.0,
+   "others": 3.12,
+   "bump": 0.88
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.5,
+   "others": 3.44,
+   "bump": 0.06
   }
  },
  "judge_notes": {
   "opus": "E won because it pairs a clear lead with real stakes ('days before the company reports earnings and as Huang prepares to brief Congress') and the day's only true interpretive line: 'the clearest sign yet that power rather than chips is the binding constraint on AI buildouts.' P and G were close, P for the 'closed-door briefing on November 18, a day after Nvidia reports earnings' stakes and G for tying Trump's 'honorable guy' to the lead. A lost: no lead story, a 'Separately' list, and the vacuous 'reporting on an earlier agent incident illustrates risks from unplanned multi-agent coordination.' M also ranked low for burying the Nvidia investigation behind 'Separately,' after a run-on sentence crammed with acronyms.",
   "glm": "L wins because it is the only summary with a genuine interpretive line \u2014 'the clearest sign yet that power rather than chips is the binding constraint on AI buildouts' \u2014 that converts a $3.4 billion generator deal into an argument, and its lead adds real stakes ('days before the company reports earnings and as Huang prepares to brief Congress'). J is the runner-up: compact, clean hierarchy, every sentence complete, its only sins being one compressed spec clause ('a 64GB CPU-only machine') and a vague 'an open-source project claims.' N loses because it is thin and vague \u2014 'reporting on an earlier agent incident illustrates risks' tells the reader nothing, the exchange behind the cooling item is never named, and it omits the day's dominant story entirely. P nearly bottoms out too: its attribution dangles ('according to NVIDIA'), the hedging documentation-warning tail bloats the final item, and no story clearly leads.",
-  "astra": "K wins narrowly because it gives the investigation a useful calendar\u2014\"days before the company reports earnings\"\u2014and supplies a genuine executive interpretation: \"power rather than chips is the binding constraint on AI buildouts.\" Its overloaded lead and subsequent list prevent a 4. P is the cleaner runner-up but explains fewer stakes. L finishes last: \"Rebellions R200 neural processing units with Nvidia GPUs via NVLink Fusion\" exemplifies a jargon-packed opening, and \"In model evaluation and enterprise infrastructure\" merely labels another list. All three of its sentences exceed 40 words, with no relief or developed argument."
+  "astra": "K wins narrowly because it gives the investigation a useful calendar\u2014\"days before the company reports earnings\"\u2014and supplies a genuine executive interpretation: \"power rather than chips is the binding constraint on AI buildouts.\" Its overloaded lead and subsequent list prevent a 4. P is the cleaner runner-up but explains fewer stakes. L finishes last: \"Rebellions R200 neural processing units with Nvidia GPUs via NVLink Fusion\" exemplifies a jargon-packed opening, and \"In model evaluation and enterprise infrastructure\" merely labels another list. All three of its sentences exceed 40 words, with no relief or developed argument.",
+  "grok": "H won because a desk could run it with a light trim: two clean sentences on the investigation (\"after reports that CEO Jensen Huang was the target of a foreign intelligence effort\"), then the only line that explains a result instead of announcing a release (\"small decision models cluster near the top and larger language models score a few points higher at much greater cost\"). The close is a mild list, but the reader finishes oriented. B lost because the lead is a spec stack (\"Rebellions R200 neural processing units with Nvidia GPUs via NVLink Fusion\") and the governance story is demoted to \"Separately,\" then glued on with a fake category header. Every clause is work, and none of them says why it matters.",
+  "dsflash": "H won because it is the only summary with a real analytical payoff attached to a news event: the Anthropic generator deal is framed as \"the clearest sign yet that power rather than chips is the binding constraint on AI buildouts\" \u2014 a line an executive can act on \u2014 and the spying story carries consequence (\"days before the company reports earnings\") rather than just facts. N was the closest rival and the cleanest read of the day, with genuinely interesting specifics (\"roughly 92 trillion tokens a day\"), but it never says why anything matters and closes with a 50-word two-subject run-on. D lost because it never names anything: \"reporting on an earlier agent incident illustrates risks from unplanned multi-agent coordination\" conveys no incident, actor or consequence, and \"India's stock exchange is expanding GPU infrastructure\" is a restatement rather than a report \u2014 \"Separately\" is the only organizing principle. J and B lost for the same reason in different registers: B spends a third of its text on \"company-reported\" and \"extensive redactions,\" while J manufactures a connection (\"as Korean companies explore stronger controls for enterprise agents\") and ends on a disclaimer about a sandbox. C shows the day's most common failure, the garbled metric: \"Claude leads 26% of its internal AI research work\" is not a sentence that parses."
  }
 }
