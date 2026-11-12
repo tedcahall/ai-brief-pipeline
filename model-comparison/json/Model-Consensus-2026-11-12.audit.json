@@ -1,0 +1,928 @@
+{
+  "date": "2026-11-12",
+  "models": [
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "complete_local",
+      "score": 67,
+      "rank": 8,
+      "headline_event": "decisions",
+      "story_events": [
+        "decisions",
+        "anthropic_ipo",
+        "alphagenome",
+        "ernie55",
+        "qwen4max"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120565316619284734",
+        "2120425542688379314",
+        "2120335993643684315",
+        "2120584928983441826",
+        "2120582674549203004",
+        "2120617173286883692",
+        "2120351564720136389",
+        "2120489851615084876",
+        "2120729548719309223"
+      ],
+      "elapsed_seconds": 1678,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 95,
+      "rank": 1,
+      "headline_event": "decisions",
+      "story_events": [
+        "decisions",
+        "alphagenome",
+        "ernie55",
+        "space",
+        "grokbot"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120532824465805749",
+        "2120425542688379314",
+        "2120582674549203004",
+        "2120584928983441826",
+        "2120568144687460434",
+        "2120277245713654201",
+        "2120627069952340361",
+        "2120723320890925142",
+        "2120617173286883692"
+      ],
+      "elapsed_seconds": 1744,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 62,
+      "rank": 11,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "alphagenome",
+        "decisions",
+        "ernie55",
+        "praxis1"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120565316619284734",
+        "2120425542688379314",
+        "2120308727173493160",
+        "2120582674549203004",
+        "2120584928983441826",
+        "2120277245713654201",
+        "2120568144687460434",
+        "2120534316073840994",
+        "2120290418323779914"
+      ],
+      "elapsed_seconds": 536,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 67,
+      "rank": 8,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "decisions",
+        "alphagenome",
+        "qwen4max",
+        "grokbot"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120565316619284734",
+        "2120584928983441826",
+        "2120425542688379314",
+        "2120568144687460434",
+        "2120582674549203004",
+        "2120308727173493160",
+        "2120572352073433380",
+        "2120351564720136389",
+        "2120277245713654201"
+      ],
+      "elapsed_seconds": 367,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "complete_local",
+      "score": 80,
+      "rank": 3,
+      "headline_event": "decisions",
+      "story_events": [
+        "decisions",
+        "alphagenome",
+        "ernie55",
+        "grokbot",
+        "space"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120532832145576242",
+        "2120425542688379314",
+        "2120584928983441826",
+        "2120582674549203004",
+        "2120568144687460434",
+        "2120723320890925142",
+        "2120627069952340361",
+        "2120615674540442084",
+        "2120654098739679706"
+      ],
+      "elapsed_seconds": 878,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "review_required",
+      "score": 67,
+      "rank": 8,
+      "headline_event": "decisions",
+      "story_events": [
+        "decisions",
+        "ernie55",
+        "alphagenome",
+        "praxis1",
+        "nvidia_huang"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120425542688379314",
+        "2120532824465805749",
+        "2120534316073840994",
+        "2120582674549203004",
+        "2120584928983441826",
+        "2120627069952340361",
+        "2120723320890925142",
+        "2120568144687460434",
+        "2120636272763081151"
+      ],
+      "elapsed_seconds": 1342,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "review_required",
+      "score": 76,
+      "rank": 4,
+      "headline_event": "alphagenome",
+      "story_events": [
+        "alphagenome",
+        "decisions",
+        "qwen4max",
+        "ernie55",
+        "space"
+      ],
+      "tweet_ids": [
+        "2120565316619284734",
+        "2120581155078729728",
+        "2120584928983441826",
+        "2120685092909838405",
+        "2120582674549203004",
+        "2120627069952340361",
+        "2120277245713654201",
+        "2120617173286883692",
+        "2120568144687460434",
+        "2120536946774769860"
+      ],
+      "elapsed_seconds": 386,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 52,
+      "rank": 14,
+      "headline_event": "ernie55",
+      "story_events": [
+        "ernie55",
+        "praxis1",
+        "alphagenome",
+        "space",
+        "elevenlabs_nvidia"
+      ],
+      "tweet_ids": [
+        "2120425542688379314",
+        "2120534316073840994",
+        "2120532824465805749",
+        "2120581155078729728",
+        "2120582674549203004",
+        "2120698177016005029",
+        "2120723320890925142",
+        "2120627069952340361",
+        "2120636272763081151",
+        "2120536946774769860"
+      ],
+      "elapsed_seconds": 328,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 42,
+      "rank": 18,
+      "headline_event": "alphagenome",
+      "story_events": [
+        "alphagenome",
+        "ernie55",
+        "qwen4max",
+        "decisions",
+        "ai911"
+      ],
+      "tweet_ids": [
+        "2120565316619284734",
+        "2120425542688379314",
+        "2120581155078729728",
+        "2120723320890925142",
+        "2120579593979695541",
+        "2120609164116533606",
+        "2120578135594791297",
+        "2120566740560261237",
+        "2120523196072161401",
+        "2120337324898992298"
+      ],
+      "elapsed_seconds": 234,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 57,
+      "rank": 13,
+      "headline_event": "ernie55",
+      "story_events": [
+        "ernie55",
+        "alphagenome",
+        "praxis1",
+        "openai_voice",
+        "space"
+      ],
+      "tweet_ids": [
+        "2120425542688379314",
+        "2120532824465805749",
+        "2120581155078729728",
+        "2120534316073840994",
+        "2120277245713654201",
+        "2120582674549203004",
+        "2120659134655918327",
+        "2120698177016005029",
+        "2120654098739679706",
+        "2120584928983441826"
+      ],
+      "elapsed_seconds": 469,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "review_required",
+      "score": 43,
+      "rank": 16,
+      "headline_event": "alphagenome",
+      "story_events": [
+        "alphagenome",
+        "space",
+        "raise_ny",
+        "japan_ai",
+        "elevenlabs_nvidia"
+      ],
+      "tweet_ids": [
+        "2120532826336501822",
+        "2120582674549203004",
+        "2120627069952340361",
+        "2120646708577354113",
+        "2120425542688379314",
+        "2120536946774769860",
+        "2120617173286883692",
+        "2120682992461058328",
+        "2120330436308299947",
+        "2120351564720136389"
+      ],
+      "elapsed_seconds": 589,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 76,
+      "rank": 4,
+      "headline_event": "decisions",
+      "story_events": [
+        "decisions",
+        "alphagenome",
+        "grokbot",
+        "qwen4max",
+        "ernie55"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120532824465805749",
+        "2120584928983441826",
+        "2120335993643684315",
+        "2120425542688379314",
+        "2120582049522127205",
+        "2120582674549203004",
+        "2120729548719309223",
+        "2120277245713654201",
+        "2120627069952340361"
+      ],
+      "elapsed_seconds": 877,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 71,
+      "rank": 7,
+      "headline_event": "decisions",
+      "story_events": [
+        "decisions",
+        "ernie55",
+        "alphagenome",
+        "space",
+        "anthropic_ipo"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120425542688379314",
+        "2120565316619284734",
+        "2120582674549203004",
+        "2120277245713654201",
+        "2120578135594791297",
+        "2120584928983441826",
+        "2120592662353121405",
+        "2120646708577354113",
+        "2120615674540442084"
+      ],
+      "elapsed_seconds": 281,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 85,
+      "rank": 2,
+      "headline_event": "decisions",
+      "story_events": [
+        "decisions",
+        "alphagenome",
+        "ernie55",
+        "grokbot",
+        "space"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120532824465805749",
+        "2120584928983441826",
+        "2120425542688379314",
+        "2120582674549203004",
+        "2120627069952340361",
+        "2120617173286883692",
+        "2120540201994846253",
+        "2120646708577354113",
+        "2120523196072161401"
+      ],
+      "elapsed_seconds": 281,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "review_required",
+      "score": 52,
+      "rank": 14,
+      "headline_event": "qwen4max",
+      "story_events": [
+        "qwen4max",
+        "ernie55",
+        "decisions",
+        "grokbot",
+        "ai911"
+      ],
+      "tweet_ids": [
+        "2120335993643684315",
+        "2120425542688379314",
+        "2120581155078729728",
+        "2120584928983441826",
+        "2120582674549203004",
+        "2120659134655918327",
+        "2120646708577354113",
+        "2120534316073840994",
+        "2120489851615084876",
+        "2120617173286883692"
+      ],
+      "elapsed_seconds": 398,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 76,
+      "rank": 4,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "decisions",
+        "alphagenome",
+        "ernie55",
+        "grokbot"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120565316619284734",
+        "2120652316801917274",
+        "2120425542688379314",
+        "2120584928983441826",
+        "2120568144687460434",
+        "2120582674549203004",
+        "2120277245713654201",
+        "2120351564720136389",
+        "2120592662353121405"
+      ],
+      "elapsed_seconds": 309,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "complete_local",
+      "score": 62,
+      "rank": 11,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "decisions",
+        "grokbot",
+        "ernie55",
+        "fable_arena"
+      ],
+      "tweet_ids": [
+        "2120652316801917274",
+        "2120532824465805749",
+        "2120581155078729728",
+        "2120584928983441826",
+        "2120425542688379314",
+        "2120568144687460434",
+        "2120582674549203004",
+        "2120351564720136389",
+        "2120540201994846253",
+        "2120646708577354113"
+      ],
+      "elapsed_seconds": 2100,
+      "elapsed_note": "Derived from worker-reported start/end timestamps in run.json (elapsed_seconds not numeric)."
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 43,
+      "rank": 16,
+      "headline_event": "qwen4max",
+      "story_events": [
+        "qwen4max",
+        "decisions",
+        "grokbot",
+        "fractile",
+        "tsmc"
+      ],
+      "tweet_ids": [
+        "2120581155078729728",
+        "2120568144687460434",
+        "2120565316619284734",
+        "2120277245713654201",
+        "2120351564720136389",
+        "2120617704101155270",
+        "2120307529674883177",
+        "2120540201994846253",
+        "2120337324898992298",
+        "2120536946774769860"
+      ],
+      "elapsed_seconds": 201,
+      "elapsed_note": "Derived from worker-reported start/end timestamps in run.json (elapsed_seconds not numeric)."
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "decisions": "Google Gemini Decisions API with the Gemini Decision 1 model",
+    "alphagenome": "DeepMind AlphaGenome 2 for cell-type-specific DNA variant effect prediction",
+    "ernie55": "Baidu ERNIE 5.5 Flash preview with open weights promised",
+    "qwen4max": "Alibaba Qwen4-Max preview limited to Token Plan subscribers",
+    "grokbot": "xAI Grok Bot 1.0 shared multiplayer team agents for Slack, Teams and video calls",
+    "space": "Perplexity Escaping SPACE Part II red-team of its agent sandbox across 12 models",
+    "nvidia_huang": "Nvidia board weighs ousting CEO Jensen Huang after affair and spy allegations reports",
+    "praxis1": "Runway open-sources Praxis-1 27B world action model for robot control (Apache 2.0)",
+    "anthropic_ipo": "Anthropic IPO roadshow price range $70-$78 per share (up to $1.4T implied valuation)",
+    "openai_voice": "OpenAI retires Advanced and Standard Voice in ChatGPT on December 11",
+    "elevenlabs_nvidia": "ElevenLabs and NVIDIA expand Nemotron-powered voice-agent partnership",
+    "ai911": "AI-generated synthetic voices complicate emergency 911 response and swatting",
+    "raise_ny": "New York RAISE Act registration opens ahead of January 2027 requirements",
+    "japan_ai": "Japan weighs binding safety orders and penalties for AI businesses",
+    "fable_arena": "Claude Fable 5.2 takes the Agent Arena crown",
+    "fractile": "UK AI chip startup Fractile raises $720 million Series C",
+    "tsmc": "TSMC board approves up to $1 billion stakes in OpenAI and Anthropic"
+  },
+  "headline_votes": {
+    "decisions": 7,
+    "nvidia_huang": 4,
+    "alphagenome": 3,
+    "ernie55": 2,
+    "qwen4max": 2
+  },
+  "story_votes": {
+    "decisions": 15,
+    "anthropic_ipo": 2,
+    "alphagenome": 15,
+    "ernie55": 15,
+    "qwen4max": 7,
+    "space": 8,
+    "grokbot": 9,
+    "nvidia_huang": 5,
+    "praxis1": 4,
+    "elevenlabs_nvidia": 2,
+    "ai911": 2,
+    "openai_voice": 1,
+    "raise_ny": 1,
+    "japan_ai": 1,
+    "fable_arena": 1,
+    "fractile": 1,
+    "tsmc": 1
+  },
+  "tweet_votes": {
+    "2120581155078729728": 17,
+    "2120565316619284734": 8,
+    "2120425542688379314": 16,
+    "2120335993643684315": 3,
+    "2120584928983441826": 14,
+    "2120582674549203004": 16,
+    "2120617173286883692": 6,
+    "2120351564720136389": 6,
+    "2120489851615084876": 2,
+    "2120729548719309223": 2,
+    "2120532824465805749": 7,
+    "2120568144687460434": 9,
+    "2120277245713654201": 9,
+    "2120627069952340361": 8,
+    "2120723320890925142": 5,
+    "2120308727173493160": 2,
+    "2120534316073840994": 5,
+    "2120290418323779914": 1,
+    "2120572352073433380": 1,
+    "2120532832145576242": 1,
+    "2120615674540442084": 2,
+    "2120654098739679706": 2,
+    "2120636272763081151": 2,
+    "2120685092909838405": 1,
+    "2120536946774769860": 4,
+    "2120698177016005029": 2,
+    "2120579593979695541": 1,
+    "2120609164116533606": 1,
+    "2120578135594791297": 2,
+    "2120566740560261237": 1,
+    "2120523196072161401": 2,
+    "2120337324898992298": 2,
+    "2120659134655918327": 2,
+    "2120532826336501822": 1,
+    "2120646708577354113": 5,
+    "2120682992461058328": 1,
+    "2120330436308299947": 1,
+    "2120582049522127205": 1,
+    "2120592662353121405": 2,
+    "2120540201994846253": 3,
+    "2120652316801917274": 2,
+    "2120617704101155270": 1,
+    "2120307529674883177": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 8,
+    "tweet_cut_votes": 6,
+    "eligible_stories": [
+      "alphagenome",
+      "decisions",
+      "ernie55",
+      "grokbot",
+      "space"
+    ],
+    "eligible_tweets": [
+      "2120277245713654201",
+      "2120351564720136389",
+      "2120425542688379314",
+      "2120532824465805749",
+      "2120565316619284734",
+      "2120568144687460434",
+      "2120581155078729728",
+      "2120582674549203004",
+      "2120584928983441826",
+      "2120617173286883692",
+      "2120627069952340361"
+    ]
+  },
+  "eligible_denominator": 18,
+  "source_hashes": {
+    "2026-11-12/deepseek-v4-1-flash-1017/2026-11-12.edition.md": "d945425aafb7146818d0e620ffbd09d65ff8e31d10b0448f15033f2d7b866709",
+    "2026-11-12/deepseek-v4-1-flash-1017/2026-11-12.html": "37d0a5c8cbf7a82ade3e59509360ec04f5ef6f6140df05e82b1827ab5546f6f3",
+    "2026-11-12/deepseek-v4-1-flash-1017/run.json": "ec2cebef3f237b6f174ab7da7bcada62059076d2e672f494bd79633c159d5e49",
+    "2026-11-12/deepseek-v4-1-flash-1017/headline.json": "10d025931c08be05ee65e7a22df47935841f8aeef192cd630c77b17440320bab",
+    "2026-11-12/deepseek-v4-1-flash-1017/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/deepseek-v4-1-flash-1017/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/deepseek-v4-pro/2026-11-12.edition.md": "4a17795fdb96495f438e918c9f4fb01800ff30c7f3360173156631d9abdec4d2",
+    "2026-11-12/deepseek-v4-pro/2026-11-12.html": "47fdd2ee92e484555af6111d521d838453c9ee23e12fe5d4e4539dcc0e74a616",
+    "2026-11-12/deepseek-v4-pro/run.json": "22941d236924451c17ed3011ab8a3a0c8d10fcc96abc34e1b2d8880e300dcfca",
+    "2026-11-12/deepseek-v4-pro/headline.json": "b3e1a9a3e7f969668737b752729db4edbc9553093e6f9089826620f8fbfba9ff",
+    "2026-11-12/deepseek-v4-pro/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/deepseek-v4-pro/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/fable-5-1/2026-11-12.edition.md": "befc0796c428f9ab725f0be32a50948b7590ed0df61a9603c8582054caf7dc12",
+    "2026-11-12/fable-5-1/2026-11-12.html": "e52d42dd0f8909e20ee13b9ad4f2b6c99aaa1a66b71a859beec3e4fab1d061f6",
+    "2026-11-12/fable-5-1/run.json": "2777eeb6c9e6305a250adec0e987e53eca9f52e9d2db9695e2dc5b8e3e41602f",
+    "2026-11-12/fable-5-1/headline.json": "755ea54a14386fb2d9bc662c2e7b493998eac711aa5792de2b40407de052e70c",
+    "2026-11-12/fable-5-1/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/fable-5-1/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/fable-5-2/2026-11-12.edition.md": "c0698cde24378a1209165bac4ccb31a3ce35e8c7763bfeae5256bd8e861617f6",
+    "2026-11-12/fable-5-2/2026-11-12.html": "8d23a2739207228575e27d315fa021ae92859a98ab7f807115c1816111254f00",
+    "2026-11-12/fable-5-2/run.json": "42c853ed435bc6064864915b3d0af1bdccf066c61c8d132e015c4b26197f75b1",
+    "2026-11-12/fable-5-2/headline.json": "432963c6347f6d8f3a12cceaa5ffa1592623db2d746c6559a0b3c1200a3f6708",
+    "2026-11-12/fable-5-2/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/fable-5-2/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/gemini-4-argon/2026-11-12.edition.md": "4d8f62548698b33c302dc97c983ac11533c3df67e150cdba0279c07a9af313dd",
+    "2026-11-12/gemini-4-argon/2026-11-12.html": "111c98b2036d33c0d600f6f0c3e89f4e406b7753d9c4960544fe19a3017573b3",
+    "2026-11-12/gemini-4-argon/run.json": "1e42f3861aa843effe9b2d69de3a22b9ed64b8bebc2ad6e802e286ca6b14c948",
+    "2026-11-12/gemini-4-argon/headline.json": "eba3edb902d5630e0eff2f1a69ce68f2ee7535e9cd6e6e7b66857d13b0ec9f6a",
+    "2026-11-12/gemini-4-argon/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/gemini-4-argon/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/gemini-4-carbon/2026-11-12.edition.md": "f46d98a7712d2a66a19af19a5374e74dfe7aa25669eac5b2e9f04b560a5ee5a0",
+    "2026-11-12/gemini-4-carbon/2026-11-12.html": "8fde0265c6e085f21caa1625986bdc298c8781fb0080576b6a30a86b5aef22a7",
+    "2026-11-12/gemini-4-carbon/run.json": "46b0154af39a1db110a8435813c8fd1db274b8445f7650ba17a2f6d68ad9705b",
+    "2026-11-12/gemini-4-carbon/headline.json": "d480be2c729700ebb790a6f75163dfb28728c5450f3c0ec3c349e3900a35c76d",
+    "2026-11-12/gemini-4-carbon/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/gemini-4-carbon/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/glm-5-3/2026-11-12.edition.md": "d96865425deff3ae13e8247904e64e55b5c7fea9fad98eb25123b23283b1c2b5",
+    "2026-11-12/glm-5-3/2026-11-12.html": "b4a2fbc7b06f92ce92a7c8c70134b9f98cf41cfc6402ccfaddf2311bf071dddd",
+    "2026-11-12/glm-5-3/run.json": "bb2eb7661f0abdd2517f724d2e9096bf394ab9f4e38ea8216bee9eb253cac188",
+    "2026-11-12/glm-5-3/headline.json": "9bcbf91c72cf2aa710d737de422338c8ab21851a2beb8bbfd68b5973237515fe",
+    "2026-11-12/glm-5-3/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/glm-5-3/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/gpt-6-1-sol/2026-11-12.edition.md": "5af4e27e02f588d16721551442c33fbb7fd9d983cd55136c44b7ee7cbb6ee93a",
+    "2026-11-12/gpt-6-1-sol/2026-11-12.html": "18856f7fadd52122352e5e5e45830a384e9fcef9890be491d793229864bb00c8",
+    "2026-11-12/gpt-6-1-sol/run.json": "f436b9bb76b50a2b3599b6946b459fa2c13b50238e0cc4fe757905d6333db9bf",
+    "2026-11-12/gpt-6-1-sol/headline.json": "c3aa26c5bb1e9e500aeefb1b1ca2d6715e809b47df17f73cac685af7b048aa2f",
+    "2026-11-12/gpt-6-1-sol/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/gpt-6-1-sol/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/gpt-6-1-terra/2026-11-12.edition.md": "0fb1a90461c9c1c72ae3856c027f8426a6b3aaa5c0337a887c6682c95befcc30",
+    "2026-11-12/gpt-6-1-terra/2026-11-12.html": "122db350be24f3d6dbbd5bd625e9708f0a5d550235c2f2cc90199406f4e09783",
+    "2026-11-12/gpt-6-1-terra/run.json": "865355acc2a8bf83f303dbd527d799a583d86923463fb36dc1d5d535d5b68292",
+    "2026-11-12/gpt-6-1-terra/headline.json": "1df2a273d36b77d322dc4d66e420ee501ebc809bed84ff9e246c7c884815f901",
+    "2026-11-12/gpt-6-1-terra/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/gpt-6-1-terra/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/gpt-6-astra/2026-11-12.edition.md": "2177995f21e56c69dc0705a1f1e89ea0781d56a9e250f128180d899da87393e1",
+    "2026-11-12/gpt-6-astra/2026-11-12.html": "eda1871abfb5f51a1a3f670c7dcdfd05718226b0b69473675d2e9f29349fa967",
+    "2026-11-12/gpt-6-astra/run.json": "b07984741d121469c8ba76ecc989ee7982bffaa3a73b2abc198248b28c870c72",
+    "2026-11-12/gpt-6-astra/headline.json": "afa1dab30dd1884628db70324b8d29a8728637b19be631472c5484af3c94d109",
+    "2026-11-12/gpt-6-astra/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/gpt-6-astra/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/gpt-6-luna/2026-11-12.edition.md": "3159101f76bce768ddd63df0ae431662a93e3e87d47b641787b7801c97519206",
+    "2026-11-12/gpt-6-luna/2026-11-12.html": "19ab204e0e5604e5f89c250dd61e4ddc45eb3cc321c5b50ad92554e5375d1b4e",
+    "2026-11-12/gpt-6-luna/run.json": "c99384c74b0d089f89c7c87fbbea7a8653906a5bb21826dfddb81ed0f94903d4",
+    "2026-11-12/gpt-6-luna/headline.json": "67977178cc72d8f53f9218a7eb0ea434c5e9952c537ca5705c1d441abe805ba9",
+    "2026-11-12/gpt-6-luna/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/gpt-6-luna/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/grok-4-7/2026-11-12.edition.md": "1d7b804b0c667a173849e706c17f14ded6d250b17a47dab193e9b0097c5b91a9",
+    "2026-11-12/grok-4-7/2026-11-12.html": "7c98c0ae12a24d65feb29c0a005c9ff091770d171f3780193e3f2366d10eadc2",
+    "2026-11-12/grok-4-7/run.json": "a236203f3f7b179b78e6d7875f7b7ec7715006ab029607905c5b61df39e54605",
+    "2026-11-12/grok-4-7/headline.json": "4e32b123fed20629c1df84551d65cc79be43dfbf5d3a68f8dab73a6398eb8cd4",
+    "2026-11-12/grok-4-7/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/grok-4-7/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/haiku-5-5/2026-11-12.edition.md": "cc0de0c5343f032ce8ba7d56ab207a45a0ce69a9ce2ad4d6ec2301aea9b3c676",
+    "2026-11-12/haiku-5-5/2026-11-12.html": "37d817598d72d573b9b30c09dcb400a0fcaecf5eea61c114520d86128b6d2cd0",
+    "2026-11-12/haiku-5-5/run.json": "fd7cd32a52bdc75fee50d8a48e0503acf394a2acec4f7834c42e9bc2f7fb981b",
+    "2026-11-12/haiku-5-5/headline.json": "040f8a9805fa2fab824017af97fff0b9bd704e6623df046906f679418af8082d",
+    "2026-11-12/haiku-5-5/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/haiku-5-5/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/kimi-k3-1-pro/2026-11-12.edition.md": "7029070250afe654162dec5a852b021adb17181697ec7db5dd57bd5150b2c824",
+    "2026-11-12/kimi-k3-1-pro/2026-11-12.html": "a8e888590c5e1b9de423b37a7bec47add2aa6df45edc86fe629c70faa886085f",
+    "2026-11-12/kimi-k3-1-pro/run.json": "f937e8e75d9c54317e69d15237cc0947fd14daf81c3d3d253cacdbe4eb7d29f1",
+    "2026-11-12/kimi-k3-1-pro/headline.json": "c5b9ed02163b60a63d2c0bf598b8fa0bd2c9d37f34d66e0556163e2cbc9416ee",
+    "2026-11-12/kimi-k3-1-pro/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/kimi-k3-1-pro/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/minimax-m3-1-flash/2026-11-12.edition.md": "324f847d0c8a742dd6e6d3ec27b7858a6fbbc3845b5fd3f8f806ab2165e528c7",
+    "2026-11-12/minimax-m3-1-flash/2026-11-12.html": "fa659e3e6091fdcda4a0f8512c88b42c7cde3cad410ebe2f43c0f4fd1a535091",
+    "2026-11-12/minimax-m3-1-flash/run.json": "fd5df334e36715e20bc5f992035370bb34354b73fd36371877d2edd02ee7467f",
+    "2026-11-12/minimax-m3-1-flash/headline.json": "235f94451516a6a55230fc0e96b868c6beacd4e3d4de683f2e2856f64f67e773",
+    "2026-11-12/minimax-m3-1-flash/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/minimax-m3-1-flash/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/opus-5-5/2026-11-12.edition.md": "ed3509d200f9480acf1e28f47fecb0d1d6ced258ed1a13bc24aa6209d35d718b",
+    "2026-11-12/opus-5-5/2026-11-12.html": "50d8dd912c0ab25df2df9444ebe27a55c326d5a422a74ddf8c5d7952c88c6e40",
+    "2026-11-12/opus-5-5/run.json": "c590b5b82c89e054725975222e684bf42b6b4e3d20c2fd5046e7763dbe3f8ce9",
+    "2026-11-12/opus-5-5/headline.json": "1834935d9ebd8aa93029e166345d7c3c6071cad7cc279df52fbea2e0eae64c3a",
+    "2026-11-12/opus-5-5/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/opus-5-5/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/qwen-3-8-max-0902/2026-11-12.edition.md": "ff9876262b28a1618b2ce37a242c9914138414b6835ad2094a97984814ef1b07",
+    "2026-11-12/qwen-3-8-max-0902/2026-11-12.html": "45a2aa175dc84c3bfff41efb5cfd10e4fbf51474a2967ff4ac0cfca16689f724",
+    "2026-11-12/qwen-3-8-max-0902/run.json": "08f6bb6a8b5a60ead68ec15678942098209eb4173b969aaf8db5da7c55de4937",
+    "2026-11-12/qwen-3-8-max-0902/headline.json": "0bda5b4f3e17afa28a30460dbe72aa4354d6b79b3cfd871019c7069a6c8d6238",
+    "2026-11-12/qwen-3-8-max-0902/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/qwen-3-8-max-0902/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062",
+    "2026-11-12/sonnet-5-5/2026-11-12.edition.md": "eebb9464a76216162aa52ae1fda968db956ae38313f9c951cdac6166a668933e",
+    "2026-11-12/sonnet-5-5/2026-11-12.html": "270071cf281432714958f1b8d2ab5021b05ee84289e8ad22d81233e4801f3a61",
+    "2026-11-12/sonnet-5-5/run.json": "1d259569debdfe40ac7295d700ff7b0e5190ebe817415c578a0704d3d7af2d5b",
+    "2026-11-12/sonnet-5-5/headline.json": "602e216263a29cccd1fa09dbf09576ced06767636c379ed195ec627b3ada5cde",
+    "2026-11-12/sonnet-5-5/2026-11-12.x-collection.json": "d1fd9468cb603eff63f1440a710dcf51b530816e9bfa701db5a3f3f4b3ba336a",
+    "2026-11-12/sonnet-5-5/2026-11-12.web-search.json": "a72905762b5430ce7452f0ad9d3aeda7be52a4f866ed3cca862bc27f70c25062"
+  },
+  "event_url_bindings": {
+    "deepseek-v4-1-flash-1017": {
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "anthropic_ipo": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
+    },
+    "deepseek-v4-pro": {
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "space": "https://www.perplexity.ai/hub/blog/escaping-space-part-ii",
+      "grokbot": "https://x.com/bot/status/2120582957782200586"
+    },
+    "fable-5-1": {
+      "nvidia_huang": "https://www.cbsnews.com/news/nvidia-stock-dives-report-board-prepares-oust-jensen-huang/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "praxis1": "https://x.com/runwayml/status/2120533081182577116"
+    },
+    "fable-5-2": {
+      "nvidia_huang": "https://www.cbsnews.com/news/nvidia-stock-dives-report-board-prepares-oust-jensen-huang/",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "qwen4max": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "grokbot": "https://x.ai/news/grok-bot-1-0"
+    },
+    "gemini-4-argon": {
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "grokbot": "https://x.ai/news/grok-bot-1-0",
+      "space": "https://www.perplexity.ai/hub/blog/escaping-space-part-ii"
+    },
+    "gemini-4-carbon": {
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "praxis1": "https://huggingface.co/runwayml/praxis-1-droid",
+      "nvidia_huang": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+    },
+    "glm-5-3": {
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "qwen4max": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "space": "https://www.perplexity.ai/hub/blog/escaping-space-part-ii"
+    },
+    "gpt-6-1-sol": {
+      "ernie55": "https://x.com/Baidu_ERNIE/status/2120425542688379314",
+      "praxis1": "https://x.com/runwayml/status/2120533081182577116",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "space": "https://www.perplexity.ai/hub/blog/escaping-space-part-ii",
+      "elevenlabs_nvidia": "https://elevenlabs.io/blog/nvidia"
+    },
+    "gpt-6-1-terra": {
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "qwen4max": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "ai911": "https://www.npr.org/2026/11/11/nx-s1-6034449/ai-911-calls-swatting"
+    },
+    "gpt-6-astra": {
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "praxis1": "https://huggingface.co/runwayml/praxis-1-droid",
+      "openai_voice": "https://help.openai.com/en/articles/20001638-retiring-advanced-and-standard-voice-in-chatgpt",
+      "space": "https://www.perplexity.ai/hub/blog/escaping-space-part-ii"
+    },
+    "gpt-6-luna": {
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "space": "https://x.com/perplexity_ai/status/2120582674549203004",
+      "raise_ny": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "japan_ai": "https://english.kyodonews.net/articles/-/91104",
+      "elevenlabs_nvidia": "https://elevenlabs.io/blog/nvidia"
+    },
+    "grok-4-7": {
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "grokbot": "https://x.com/bot/status/2120582957782200586",
+      "qwen4max": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview"
+    },
+    "haiku-5-5": {
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "space": "https://x.com/perplexity_ai/status/2120582674549203004",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch"
+    },
+    "kimi-k3-1-pro": {
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "grokbot": "https://cryptobriefing.com/grok-bot-1-0-slack-video-calls/",
+      "space": "https://www.perplexity.ai/hub/blog/escaping-space-part-ii"
+    },
+    "minimax-m3-1-flash": {
+      "qwen4max": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "grokbot": "https://x.com/SpaceXSI/status/2120584928983441826",
+      "ai911": "https://www.npr.org/2026/11/11/nx-s1-6034449/ai-911-calls-swatting"
+    },
+    "opus-5-5": {
+      "nvidia_huang": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "alphagenome": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "grokbot": "https://x.ai/news/grok-bot-1-0"
+    },
+    "qwen-3-8-max-0902": {
+      "nvidia_huang": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "grokbot": "https://x.com/SpaceXSI/status/2120584928983441826",
+      "ernie55": "https://ernie.baidu.com/release/ernie-5-5-flash-preview",
+      "fable_arena": "https://x.com/arena/status/2120568144687460434"
+    },
+    "sonnet-5-5": {
+      "qwen4max": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "decisions": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "grokbot": "https://x.ai/news/grok-bot-1-0",
+      "fractile": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "tsmc": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "qwen4max",
+      "reason": "cited via the @Alibaba_Qwen announcement tweet rather than the Alibaba Cloud preview page; same Qwen4-Max preview event"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "qwen4max",
+      "reason": "cited via the @Alibaba_Qwen announcement tweet rather than the Alibaba Cloud preview page; same Qwen4-Max preview event"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "grokbot",
+      "reason": "cited via a CryptoBriefing article rather than x.ai news or the announcement tweets; same Grok Bot 1.0 launch event"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "grokbot",
+      "reason": "cited via the @bot announcement tweet rather than x.ai news; same Grok Bot 1.0 launch event"
+    },
+    {
+      "model": "grok-4-7",
+      "story": "grokbot",
+      "reason": "cited via the @bot announcement tweet rather than x.ai news; same Grok Bot 1.0 launch event"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "space",
+      "reason": "cited via the @perplexity_ai announcement tweet rather than the Perplexity blog post; same Escaping SPACE Part II release"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "space",
+      "reason": "cited via the @perplexity_ai announcement tweet rather than the Perplexity blog post; same Escaping SPACE Part II release"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "nvidia_huang",
+      "reason": "cited via DW English coverage rather than CBS/CNBC; same Nvidia board ouster deliberation event"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "grokbot",
+      "reason": "headline composes its own framing (Nvidia board ouster) rather than repeating its lead story title; verified to reference the Nvidia event, not Grok Bot"
+    }
+  ]
+}
