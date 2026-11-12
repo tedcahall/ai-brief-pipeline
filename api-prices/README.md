@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Wednesday, November 11, 2026 · 18 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Thursday, November 12, 2026 · 18 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -59,11 +59,10 @@ The available saved rate cards show no numeric changes for existing entries acro
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification record for November 11, 2026 checked all 17 models across 10 freshly captured sources and reported no rate or condition changes. Gemini 4 Carbon was added afterward from a separate live Google pricing verification; the earlier 17-model check does not include Carbon. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification record for November 12, 2026 checked all 18 models (including Gemini 4 Carbon) across 11 freshly captured sources and reported no rate or condition changes. Rates, source URLs, and capture evidence are unchanged from the November 11 rate card; the daily check record below is new. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
 
-- **Daily check:** `2026-11-11T08:11:45.450983+00:00`; status: `unchanged`.
-- **Carbon check:** `2026-11-11T12:01:30.876582+00:00`; status: `verified` (Carbon only).
-- **Snapshot:** `2026-11-11T120252913396Z/api-pricing.json`.
+- **Daily check:** `2026-11-12T08:06:48.459090+00:00`; status: `unchanged`; 18 models, 11 sources.
+- **Snapshot:** `2026-11-11T120252913396Z/api-pricing.json` (unchanged run; no new bundle published).
 - **SHA-256:** `cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a`.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
