@@ -1,0 +1,1014 @@
+{
+  "date": "2026-11-13",
+  "models": [
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "review_required",
+      "score": 71,
+      "rank": 10,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "anthropic_ipo",
+        "hydrogen",
+        "lawsuit",
+        "blackwell_forensics"
+      ],
+      "tweet_ids": [
+        "2120841731302154708",
+        "2120986129671631239",
+        "2120973994191094179",
+        "2120940236805169182",
+        "2120941511223185722",
+        "2121004237413142656",
+        "2120922398476451908",
+        "2120982625582195011",
+        "2120944999416377762",
+        "2121089985931592022"
+      ],
+      "elapsed_seconds": 1893,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 71,
+      "rank": 10,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "nvidia_huang",
+        "anthropic_ipo",
+        "daybreak",
+        "tencent_hy4"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2121004237413142656",
+        "2120841731302154708",
+        "2120878753652093153",
+        "2120986129671631239",
+        "2120973994191094179",
+        "2121137661180256653",
+        "2120982625582195011",
+        "2120953440595755305",
+        "2120687437366329577"
+      ],
+      "elapsed_seconds": 1454,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 76,
+      "rank": 6,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "nvidia_huang",
+        "anthropic_ipo",
+        "inkling2",
+        "lawsuit"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2120869291771777499",
+        "2120973994191094179",
+        "2121004237413142656",
+        "2120982625582195011",
+        "2120943395103215756",
+        "2120941511223185722",
+        "2121008091538092393",
+        "2120953440595755305",
+        "2121137661180256653"
+      ],
+      "elapsed_seconds": 768,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 90,
+      "rank": 1,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "nvidia_huang",
+        "daybreak",
+        "lawsuit",
+        "anthropic_ipo"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2120841731302154708",
+        "2120973994191094179",
+        "2121004237413142656",
+        "2120941511223185722",
+        "2120982625582195011",
+        "2120943395103215756",
+        "2120922398476451908",
+        "2120930586827391350",
+        "2121137661180256653"
+      ],
+      "elapsed_seconds": 357,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "review_required",
+      "score": 86,
+      "rank": 3,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "anthropic_ipo",
+        "nvidia_huang",
+        "daybreak",
+        "inkling2"
+      ],
+      "tweet_ids": [
+        "2120841731302154708",
+        "2120940236805169182",
+        "2120941511223185722",
+        "2120973994191094179",
+        "2121004237413142656",
+        "2120982625582195011",
+        "2121137661180256653",
+        "2120944999416377762",
+        "2121008091538092393",
+        "2120947649994228088"
+      ],
+      "elapsed_seconds": 1323,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "complete_local",
+      "score": 71,
+      "rank": 10,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "nvidia_huang",
+        "anthropic_ipo",
+        "inkling2",
+        "daybreak"
+      ],
+      "tweet_ids": [
+        "2120940338869055788",
+        "2120973994191094179",
+        "2121004237413142656",
+        "2120982625582195011",
+        "2121137661180256653",
+        "2121008091538092393",
+        "2120953440595755305",
+        "2120930586827391350",
+        "2120947649994228088",
+        "2120895037064020406"
+      ],
+      "elapsed_seconds": 1118,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-hydrogen",
+      "slug": "gemini-4-hydrogen",
+      "status": "complete_local",
+      "score": 72,
+      "rank": 8,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "nvidia_huang",
+        "inkling2",
+        "claude_meetings",
+        "lawsuit"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2120941511223185722",
+        "2120973994191094179",
+        "2120841731302154708",
+        "2120982625582195011",
+        "2120986129671631239",
+        "2121004237413142656",
+        "2120930586827391350",
+        "2121137661180256653",
+        "2120947649994228088"
+      ],
+      "elapsed_seconds": 236,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "review_required",
+      "score": 76,
+      "rank": 6,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "anthropic_ipo",
+        "hydrogen",
+        "lawsuit",
+        "hark_handoff2"
+      ],
+      "tweet_ids": [
+        "2120841731302154708",
+        "2120940338869055788",
+        "2120973994191094179",
+        "2120903527803564397",
+        "2120941511223185722",
+        "2120982625582195011",
+        "2120922398476451908",
+        "2120947649994228088",
+        "2121004237413142656",
+        "2121008091538092393"
+      ],
+      "elapsed_seconds": 327,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 67,
+      "rank": 16,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "inkling2",
+        "claude_meetings",
+        "daybreak",
+        "lawsuit"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2120982625582195011",
+        "2120973994191094179",
+        "2121137661180256653",
+        "2121004237413142656",
+        "2120947649994228088",
+        "2120922398476451908",
+        "2121002519841460273",
+        "2121001056637431873",
+        "2120664556972257506"
+      ],
+      "elapsed_seconds": 339,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 57,
+      "rank": 18,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "inkling2",
+        "daybreak",
+        "claude_meetings",
+        "lawsuit"
+      ],
+      "tweet_ids": [
+        "2120940338869055788",
+        "2120982625582195011",
+        "2121004237413142656",
+        "2120973994191094179",
+        "2120947649994228088",
+        "2120922398476451908",
+        "2121001056637431873",
+        "2120729548719309223",
+        "2120672485167497335",
+        "2120930586827391350"
+      ],
+      "elapsed_seconds": 337,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 71,
+      "rank": 10,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "inkling2",
+        "nvidia_huang",
+        "daybreak",
+        "lawsuit"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2120982625582195011",
+        "2121004237413142656",
+        "2120973994191094179",
+        "2121137661180256653",
+        "2121002519841460273",
+        "2120947649994228088",
+        "2120992949169446994",
+        "2121005637371146355",
+        "2121001056637431873"
+      ],
+      "elapsed_seconds": 382,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "review_required",
+      "score": 33,
+      "rank": 19,
+      "headline_event": "lawsuit",
+      "story_events": [
+        "lawsuit",
+        "hydrogen",
+        "claude_meetings",
+        "business_hub",
+        "inkling2"
+      ],
+      "tweet_ids": [
+        "2120982674638864797",
+        "2120982625582195011",
+        "2120973994191094179",
+        "2121001056637431873",
+        "2121002519841460273",
+        "2121005637371146355",
+        "2121071949841596620",
+        "2120993573562904818",
+        "2121004237413142656",
+        "2120698177016005029"
+      ],
+      "elapsed_seconds": 443,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 72,
+      "rank": 8,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "anthropic_ipo",
+        "claude_meetings",
+        "lawsuit",
+        "inkling2"
+      ],
+      "tweet_ids": [
+        "2120841731302154708",
+        "2120940236805169182",
+        "2120973994191094179",
+        "2120941511223185722",
+        "2120982625582195011",
+        "2120953440595755305",
+        "2120947649994228088",
+        "2120922398476451908",
+        "2120917242439409788",
+        "2121008091538092393"
+      ],
+      "elapsed_seconds": 1244,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 71,
+      "rank": 10,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "hydrogen",
+        "anthropic_ipo",
+        "claude_meetings",
+        "daybreak"
+      ],
+      "tweet_ids": [
+        "2120940338869055788",
+        "2120941511223185722",
+        "2120982625582195011",
+        "2121041107220037972",
+        "2121137661180256653",
+        "2120973994191094179",
+        "2121004237413142656",
+        "2120841731302154708",
+        "2121008091538092393",
+        "2120944999416377762"
+      ],
+      "elapsed_seconds": 289,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 58,
+      "rank": 17,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "inkling2",
+        "anthropic_ipo",
+        "claude_meetings",
+        "sov_transcribe"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2120841731302154708",
+        "2120982625582195011",
+        "2120973994191094179",
+        "2120941511223185722",
+        "2120922398476451908",
+        "2120947649994228088",
+        "2120917242439409788",
+        "2120953440595755305",
+        "2120898418801525191"
+      ],
+      "elapsed_seconds": 268,
+      "elapsed_note": "Worker-reported timing.elapsed_seconds from run.json (elapsed_seconds at top level absent)."
+    },
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "complete_local",
+      "score": 71,
+      "rank": 10,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "anthropic_ipo",
+        "daybreak",
+        "lawsuit",
+        "sglang"
+      ],
+      "tweet_ids": [
+        "2120940338869055788",
+        "2120841731302154708",
+        "2121004237413142656",
+        "2120687437366329577",
+        "2120953440595755305",
+        "2120973994191094179",
+        "2120926160704200950",
+        "2121137661180256653",
+        "2121008091538092393",
+        "2120947649994228088"
+      ],
+      "elapsed_seconds": 243,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 81,
+      "rank": 4,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "nvidia_huang",
+        "anthropic_ipo",
+        "daybreak",
+        "inkling2"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2120973994191094179",
+        "2120841731302154708",
+        "2121004237413142656",
+        "2120982625582195011",
+        "2120941511223185722",
+        "2121137661180256653",
+        "2120922398476451908",
+        "2120930586827391350",
+        "2120943395103215756"
+      ],
+      "elapsed_seconds": 294,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "review_required",
+      "score": 90,
+      "rank": 1,
+      "headline_event": "hydrogen",
+      "story_events": [
+        "hydrogen",
+        "nvidia_huang",
+        "anthropic_ipo",
+        "daybreak",
+        "lawsuit"
+      ],
+      "tweet_ids": [
+        "2120940338869055788",
+        "2120941511223185722",
+        "2120841731302154708",
+        "2121004237413142656",
+        "2120973994191094179",
+        "2120953440595755305",
+        "2121008091538092393",
+        "2120982625582195011",
+        "2121137661180256653",
+        "2120922398476451908"
+      ],
+      "elapsed_seconds": 1986,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 80,
+      "rank": 5,
+      "headline_event": "nvidia_huang",
+      "story_events": [
+        "nvidia_huang",
+        "anthropic_ipo",
+        "hydrogen",
+        "lawsuit",
+        "daybreak"
+      ],
+      "tweet_ids": [
+        "2120940236805169182",
+        "2121004237413142656",
+        "2120973994191094179",
+        "2120982625582195011",
+        "2121137661180256653",
+        "2121039423441981444",
+        "2121008091538092393",
+        "2120944999416377762",
+        "2120943395103215756",
+        "2120922398476451908"
+      ],
+      "elapsed_seconds": 208,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "hydrogen": "Google releases Gemini 4 Hydrogen speed-first model for coding and agentic workflows",
+    "anthropic_ipo": "Anthropic IPO roadshow and prospectus, $70-$78 price range, November 19 Nasdaq debut",
+    "nvidia_huang": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim CEO",
+    "daybreak": "OpenAI launches Daybreak Red Team and Defense Factory security agents",
+    "inkling2": "Thinking Machines releases Inkling 2 Small open weights (594B MoE, Apache 2.0)",
+    "claude_meetings": "Anthropic launches Claude Meetings beta inside Google Meet",
+    "lawsuit": "Nonprofit coalition sues five AI developers seeking a halt to frontier-model development",
+    "sglang": "SGLang launches a consortium backed by major AI infrastructure companies",
+    "sov_transcribe": "Salesforce releases open-weight SOV-Transcribe-1 speech model",
+    "blackwell_forensics": "Weight forensics tie six Chinese open models to export-controlled Blackwell GPUs",
+    "tencent_hy4": "Tencent's Hy4 tops CWE-Bench-AA and ranks #3 on the AA Cyber Index",
+    "hark_handoff2": "Hark introduces Handoff\u00b2, a next-generation computer use model",
+    "business_hub": "OpenAI opens Business Hub and customer-facing agents in ChatGPT beta"
+  },
+  "headline_votes": {
+    "nvidia_huang": 4,
+    "hydrogen": 14,
+    "lawsuit": 1
+  },
+  "story_votes": {
+    "nvidia_huang": 13,
+    "anthropic_ipo": 14,
+    "hydrogen": 19,
+    "lawsuit": 13,
+    "blackwell_forensics": 1,
+    "daybreak": 12,
+    "tencent_hy4": 1,
+    "inkling2": 11,
+    "claude_meetings": 7,
+    "hark_handoff2": 1,
+    "business_hub": 1,
+    "sov_transcribe": 1,
+    "sglang": 1
+  },
+  "tweet_votes": {
+    "2120841731302154708": 12,
+    "2120986129671631239": 3,
+    "2120973994191094179": 19,
+    "2120940236805169182": 12,
+    "2120941511223185722": 11,
+    "2121004237413142656": 17,
+    "2120922398476451908": 10,
+    "2120982625582195011": 18,
+    "2120944999416377762": 4,
+    "2121089985931592022": 1,
+    "2120878753652093153": 1,
+    "2121137661180256653": 13,
+    "2120953440595755305": 7,
+    "2120687437366329577": 2,
+    "2120869291771777499": 1,
+    "2120943395103215756": 4,
+    "2121008091538092393": 9,
+    "2120930586827391350": 5,
+    "2120947649994228088": 10,
+    "2120940338869055788": 6,
+    "2120895037064020406": 1,
+    "2120903527803564397": 1,
+    "2121002519841460273": 3,
+    "2121001056637431873": 4,
+    "2120664556972257506": 1,
+    "2120729548719309223": 1,
+    "2120672485167497335": 1,
+    "2120992949169446994": 1,
+    "2121005637371146355": 2,
+    "2120982674638864797": 1,
+    "2121071949841596620": 1,
+    "2120993573562904818": 1,
+    "2120698177016005029": 1,
+    "2120917242439409788": 2,
+    "2121041107220037972": 1,
+    "2120898418801525191": 1,
+    "2120926160704200950": 1,
+    "2121039423441981444": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 12,
+    "tweet_cut_votes": 9,
+    "eligible_stories": [
+      "anthropic_ipo",
+      "daybreak",
+      "hydrogen",
+      "lawsuit",
+      "nvidia_huang"
+    ],
+    "eligible_tweets": [
+      "2120841731302154708",
+      "2120922398476451908",
+      "2120940236805169182",
+      "2120941511223185722",
+      "2120947649994228088",
+      "2120973994191094179",
+      "2120982625582195011",
+      "2121004237413142656",
+      "2121008091538092393",
+      "2121137661180256653"
+    ]
+  },
+  "eligible_denominator": 19,
+  "source_hashes": {
+    "2026-11-13/deepseek-v4-1-flash-1017/2026-11-13.edition.md": "e8630a5d135be505300a5eaab77c17ec5821c7c15c8f32d549cb0383d21ba0a7",
+    "2026-11-13/deepseek-v4-1-flash-1017/2026-11-13.html": "a5d114e9393611a51b7ee8e8b774a202fab0f06a59616893d6c4ab5a7678fc84",
+    "2026-11-13/deepseek-v4-1-flash-1017/run.json": "5522c20a457c1b02f0b81e88a6d22dd208e3583082435499e382288f4845a8fd",
+    "2026-11-13/deepseek-v4-1-flash-1017/headline.json": "4b726c8a03e2b59a91dffab9ed1b83f0c9aff18074470eeacb5b27cac5ab1ea5",
+    "2026-11-13/deepseek-v4-1-flash-1017/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/deepseek-v4-1-flash-1017/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/deepseek-v4-pro/2026-11-13.edition.md": "eb9383202431aa0fa24e9c0a59a20623d58b42209e0c57d6bac22fd51e8212f1",
+    "2026-11-13/deepseek-v4-pro/2026-11-13.html": "4c28f944e6b9d4aefe7089f2b23e77335bd1e9942f08cd12db6d5b7d412eeb35",
+    "2026-11-13/deepseek-v4-pro/run.json": "aa70c2fdf4ab3d1dc3429da3e3890b03f29d726acdd530418b8e24cc5d310dd1",
+    "2026-11-13/deepseek-v4-pro/headline.json": "755b9f2c3ce457426c1647e527cd27f34a8a10592ff3731b47c47384941b1e03",
+    "2026-11-13/deepseek-v4-pro/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/deepseek-v4-pro/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/fable-5-1/2026-11-13.edition.md": "082d3d0fd458e74d9d8edf444ca45c02aaeebb5ae07554bfb112bd037cf5e340",
+    "2026-11-13/fable-5-1/2026-11-13.html": "5286525ab5cbb1fb27927aa95314d06ae2fdb4d3eacebc492d4e0c4c9fcbf343",
+    "2026-11-13/fable-5-1/run.json": "2c822ca31b8038d94d0ad87c1d9c0d65730d45d7c1dbab391106f5123a548ead",
+    "2026-11-13/fable-5-1/headline.json": "4d809219cf6a7446ff6434c9c40efbb2c21167e19c6f469f1e5d0638a7b8725f",
+    "2026-11-13/fable-5-1/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/fable-5-1/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/fable-5-2/2026-11-13.edition.md": "ea1c68db3ad5a78b2d2a1db99cc5b8bbe2d26467a5a57e359721f51c52179f6a",
+    "2026-11-13/fable-5-2/2026-11-13.html": "c3b83ebfebb46ff011ccaf5eb17e174794532d190e3cb9b4247d08d79955308b",
+    "2026-11-13/fable-5-2/run.json": "72d91dd000a62f19a0372458beb790243b4372c817f338dea92922f07f1a8246",
+    "2026-11-13/fable-5-2/headline.json": "db63848094a1da8cc2422248ea69cc03d3988cc22bef238170d7d062779a1aae",
+    "2026-11-13/fable-5-2/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/fable-5-2/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/gemini-4-argon/2026-11-13.edition.md": "d8a0dc0916bc0fcd7c2b9c9cc5d399db29dd8ce30483880f580760396749bd37",
+    "2026-11-13/gemini-4-argon/2026-11-13.html": "c560e19c6c640d1afacb80cf8df80d07cc54f8b8a8ae0f1e6a1de113a6ea515c",
+    "2026-11-13/gemini-4-argon/run.json": "93bbe7724799c307c2edf71013e9bbc7957a34a107ab43c154a6fd42237c1c83",
+    "2026-11-13/gemini-4-argon/headline.json": "71fb25d1fd46bcd1f8094a0f6231a328841c53016e306182a4f6dfdd66ac24b2",
+    "2026-11-13/gemini-4-argon/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/gemini-4-argon/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/gemini-4-carbon/2026-11-13.edition.md": "f87367ea51872bda5a5b41aa214cc38fdff0999214dbacbc98326660bea2741c",
+    "2026-11-13/gemini-4-carbon/2026-11-13.html": "9c4b3811d3082f767eabe63d7587c8996ac7854d00441f28f0e2d9f587989736",
+    "2026-11-13/gemini-4-carbon/run.json": "9c36f081e7715c6600d28dcaf19f3808abc36d22f9b9589e128c35de379257d3",
+    "2026-11-13/gemini-4-carbon/headline.json": "342633a691ac468072ba55a8011403c33dcf6a0b1c4257827ab89d9cf242024b",
+    "2026-11-13/gemini-4-carbon/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/gemini-4-carbon/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/gemini-4-hydrogen/2026-11-13.edition.md": "24a219aa4fc61e9fa8978a93505c9e128f7f0cf4b16f41290f4ef715c4bf4321",
+    "2026-11-13/gemini-4-hydrogen/2026-11-13.html": "68a63b310763c4de172291fb569378c0f1871ecb035d2d08f5461fc61065af7e",
+    "2026-11-13/gemini-4-hydrogen/run.json": "795040cdd83fa711a36ff93245c70bfdfe0dc2810cd9e7523bc0c7948f42e51b",
+    "2026-11-13/gemini-4-hydrogen/headline.json": "d16e3d5464fc61db73020e7107a5156ec406043fbb9c7c1618c89cedf9a3c992",
+    "2026-11-13/gemini-4-hydrogen/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/gemini-4-hydrogen/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/glm-5-3/2026-11-13.edition.md": "4836309ad563575e459fbb5ac1c9639b777fab1f22685b21628f3bb57bff329d",
+    "2026-11-13/glm-5-3/2026-11-13.html": "b004a92d3b0beb5c51b7b7294060072c5e972f5fc2881cc15d087d1253c40893",
+    "2026-11-13/glm-5-3/run.json": "0efcaf853e9a1f59bd3554d351ec7e75512c23747a74dbf993f70d144eaf94e1",
+    "2026-11-13/glm-5-3/headline.json": "133d82beb861561955d62f8460203bff3d2b769317006a26768a64d45ab45466",
+    "2026-11-13/glm-5-3/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/glm-5-3/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/gpt-6-1-sol/2026-11-13.edition.md": "df6bdd88061a0232df87bf8be176dd4d05b63caef9d74b72e24cb0a4e1212c93",
+    "2026-11-13/gpt-6-1-sol/2026-11-13.html": "b706ba70cc6a59802ff035502eaa35e91545633769e65f2009f5a65aa8662dff",
+    "2026-11-13/gpt-6-1-sol/run.json": "84a017d8d572b107aae0baee731c49a8cf64056a8a02efcadc3041807102f27b",
+    "2026-11-13/gpt-6-1-sol/headline.json": "0a71aa18718d016c2f4a6032be69248cd45415fa3676fa3e2f31ac607c1e4a6b",
+    "2026-11-13/gpt-6-1-sol/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/gpt-6-1-sol/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/gpt-6-1-terra/2026-11-13.edition.md": "2a6ed0584e068e5b913628a78c9b51bee5450c453c80baa46012572e805088c2",
+    "2026-11-13/gpt-6-1-terra/2026-11-13.html": "929e8a2b8f59df86ff53ce0d4163d49f388378e085ba9027386bc210b8e9c449",
+    "2026-11-13/gpt-6-1-terra/run.json": "9f4a1762d7c6634e70d3fef3947af43f6fbff30b8c97a2f4974b285415548985",
+    "2026-11-13/gpt-6-1-terra/headline.json": "352dba6f574d5824085359161e153712a3431ebe885818df6b51c5f66dccfbbf",
+    "2026-11-13/gpt-6-1-terra/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/gpt-6-1-terra/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/gpt-6-astra/2026-11-13.edition.md": "a36121ca1fe7bc1a297d1ed36ed1ef84a3a6e600424c73a442b78ae5da34bcd1",
+    "2026-11-13/gpt-6-astra/2026-11-13.html": "8893d2b48b1dc310b62e3c7c4bdfa08f4566fcf568e33361d2b260413e3cd236",
+    "2026-11-13/gpt-6-astra/run.json": "9aaa8ffd7f0e5f61abba2365da54e7affeb8ce9589d1f3af2688ae67cd09d80b",
+    "2026-11-13/gpt-6-astra/headline.json": "58d43f0040a5456c8f2f49410edd304affad1878e344479103514c0d34a62d4c",
+    "2026-11-13/gpt-6-astra/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/gpt-6-astra/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/gpt-6-luna/2026-11-13.edition.md": "b981f09ae4adbab3e31b3bf51adac84fbc4b2971b9a5df6bcebb852851d3c128",
+    "2026-11-13/gpt-6-luna/2026-11-13.html": "feba55a4b674601f309861b731e82c8f507bc2f660585684967382de775ffb82",
+    "2026-11-13/gpt-6-luna/run.json": "3c6522caba7af10ef73a7c43e760ffb7623c3819119814b60b2c9a97ab46803b",
+    "2026-11-13/gpt-6-luna/headline.json": "49d372d12a9a5cf00f33c2b3b866f35435ff175bfc5f44fd77ee2b145b57d395",
+    "2026-11-13/gpt-6-luna/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/gpt-6-luna/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/grok-4-7/2026-11-13.edition.md": "c44442a328c20c60658756ed24aa9c893212b96f95a7a752fde14f9e0ad27418",
+    "2026-11-13/grok-4-7/2026-11-13.html": "4967ecb1c1ab7abb8e2cb8eafd21f5aad354de903392329c94046b74600aedfc",
+    "2026-11-13/grok-4-7/run.json": "de874998123afad8253226eab18e2504ebb423e534e18c4a2e5f66e575686949",
+    "2026-11-13/grok-4-7/headline.json": "98bfdc13bead2894b463602b05fe5c4efdc562f3829be666613d8dcda9374c3d",
+    "2026-11-13/grok-4-7/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/grok-4-7/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/haiku-5-5/2026-11-13.edition.md": "7a18a86d5b2cb3525092de012e6cff40ba22aeba4757c10af5abeebd86bb4f23",
+    "2026-11-13/haiku-5-5/2026-11-13.html": "24549e2fb6634f194c6a1aee025d82f1a0114d1dc377a365acc465d574c6bdda",
+    "2026-11-13/haiku-5-5/run.json": "6fbf9fc906f070824534d9054c3b9544a74a50163a3a3cbe9648840ba583ac0e",
+    "2026-11-13/haiku-5-5/headline.json": "13ad30888506b50945f6b242034ae5b550cfa689391435f594270fc3d3118784",
+    "2026-11-13/haiku-5-5/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/haiku-5-5/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/kimi-k3-1-pro/2026-11-13.edition.md": "c69804405179879021ff2a983cfe4f3bbf7e8b14676de9bcfbc6f790f4cd7307",
+    "2026-11-13/kimi-k3-1-pro/2026-11-13.html": "03dda52493cfc54add44f57b1845c6f95ec8a922371a9b5e976421e3ce02e502",
+    "2026-11-13/kimi-k3-1-pro/run.json": "538cf22403a0522a2b330318703652260f159e69979e819a061a042731998b58",
+    "2026-11-13/kimi-k3-1-pro/headline.json": "a0dfe0116078b1f6464f251cf99e2fccc219decc70feba0a7c073bbdc41ddbfc",
+    "2026-11-13/kimi-k3-1-pro/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/kimi-k3-1-pro/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/minimax-m3-1-flash/2026-11-13.edition.md": "ec406fb448178fd308daf181c02110c4235ca5baaf16378a606dcbfb867214d1",
+    "2026-11-13/minimax-m3-1-flash/2026-11-13.html": "e4ad15a4443d42621cd28540dc8b2b2f304e319063a2be6fc137929ba7f8b15b",
+    "2026-11-13/minimax-m3-1-flash/run.json": "c5a719eea55b7c931082c1c5ee60bceca15a9e053598d01594d92d54423ec5da",
+    "2026-11-13/minimax-m3-1-flash/headline.json": "4ddb2a0998fbc6ee95dbe3afe954e9c635dd660c88110d5b0ac6824b1c039674",
+    "2026-11-13/minimax-m3-1-flash/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/minimax-m3-1-flash/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/opus-5-5/2026-11-13.edition.md": "1d4fd18fbcce7659936679304c72fcf8279ad1bd782f865be337b5fa4eabe020",
+    "2026-11-13/opus-5-5/2026-11-13.html": "5ecf19a241e128f25c3362d44c7a56c0fba9872b0afc4b5f1c5ba2e5ad6f2e3d",
+    "2026-11-13/opus-5-5/run.json": "65334d9d76a30aca0f022faad228904653fbed1d7d399994f92fec538b00183d",
+    "2026-11-13/opus-5-5/headline.json": "6d6165379fdb7994c6c1d2e7196992d96457e7c4cc6d4d07cb4bda6f04df04ec",
+    "2026-11-13/opus-5-5/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/opus-5-5/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/qwen-3-8-max-0902/2026-11-13.edition.md": "8d6f6c620c7e2b6ab06d2f1db95c3d6b3abd38de3d9b90c2bc09f1adc810793c",
+    "2026-11-13/qwen-3-8-max-0902/2026-11-13.html": "f3ddedfa16b54e825b3c95f6582d21e97892c817e9ce4980cfb5aa488ad26a0e",
+    "2026-11-13/qwen-3-8-max-0902/run.json": "09691251b269e8a73d4e4ac031fba2731ee258214843afcb1a1ded7810c3ad95",
+    "2026-11-13/qwen-3-8-max-0902/headline.json": "25b380dc2722f9d2dafbc5e6834ef4767fb671a33d75e7aa85f9a35943e8e64e",
+    "2026-11-13/qwen-3-8-max-0902/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/qwen-3-8-max-0902/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5",
+    "2026-11-13/sonnet-5-5/2026-11-13.edition.md": "0575d9f3b4557846ab3b3a9d857e95889ff08ed47d73da1595a5d14f03e0d9ae",
+    "2026-11-13/sonnet-5-5/2026-11-13.html": "d521e55ae30f662a0eed15e6aa5941dfc2917a2530aa6eb0d54599f8a738db42",
+    "2026-11-13/sonnet-5-5/run.json": "f87cd5f9b25ff8160100b894aebe523dbcca6dbdc3e05f3728834d475ed811f2",
+    "2026-11-13/sonnet-5-5/headline.json": "d57e5ac81ef8f251b0d82fdc67ff35d2437cbf0f3e179ffe941d6a06928b4be0",
+    "2026-11-13/sonnet-5-5/2026-11-13.x-collection.json": "785f369941ba652d15ce7532b51d1b2b8bfdc7ff9da5b51f54795cb38ca53f1a",
+    "2026-11-13/sonnet-5-5/2026-11-13.web-search.json": "09aae004f67baf31082dbc9428271dd399f753d0db84757ab7a26234f2c903d5"
+  },
+  "event_url_bindings": {
+    "deepseek-v4-1-flash-1017": {
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://www.anthropic.com/news/roadshow-launch",
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "lawsuit": "https://www.cbsnews.com/news/advocacy-groups-sue-ai-companies/",
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics"
+    },
+    "deepseek-v4-pro": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+      "daybreak": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+      "tencent_hy4": "https://x.com/ArtificialAnlys/status/2121137661180256653"
+    },
+    "fable-5-1": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "lawsuit": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development"
+    },
+    "fable-5-2": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "daybreak": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+      "lawsuit": "https://abcnews.com/Technology/wireStory/advocacy-groups-sue-ai-giants-freeze-new-models-138081070",
+      "anthropic_ipo": "https://x.com/AnthropicAI/status/2120841731302154708"
+    },
+    "gemini-4-argon": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "anthropic_ipo": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "daybreak": "https://openai.com/cyber-at-the-frontier/",
+      "inkling2": "https://vllm.ai/blog/2026-11-12-inkling2-small"
+    },
+    "gemini-4-carbon": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "daybreak": "https://openai.com/cyber-at-the-frontier/"
+    },
+    "gemini-4-hydrogen": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "nvidia_huang": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+      "inkling2": "https://alphasignal.ai/news/thinking-machines-opens-inkling-2-small-s-594b-weights-to-developers",
+      "claude_meetings": "https://venturebeat.com/technology/anthropic-brings-claude-into-google-meet-to-draft-documents-and-whiteboards-during-your-meetings",
+      "lawsuit": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development"
+    },
+    "glm-5-3": {
+      "nvidia_huang": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+      "anthropic_ipo": "https://www.anthropic.com/news/s1-sec",
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "lawsuit": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
+      "hark_handoff2": "https://x.com/adcock_brett/status/2120922398476451908"
+    },
+    "gpt-6-1-sol": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "claude_meetings": "https://claude.com/resources/articles/claude-meetings",
+      "daybreak": "https://openai.com/daybreak/defense-factory/",
+      "lawsuit": "https://abcnews.com/Technology/wireStory/advocacy-groups-sue-ai-giants-freeze-new-models-138081070"
+    },
+    "gpt-6-1-terra": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "inkling2": "https://x.com/thinkymachines/status/2120982625582195011",
+      "daybreak": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+      "claude_meetings": "https://claude.com/resources/articles/claude-meetings",
+      "lawsuit": "https://abcnews.com/Technology/wireStory/advocacy-groups-sue-ai-giants-freeze-new-models-138081070"
+    },
+    "gpt-6-astra": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "daybreak": "https://openai.com/daybreak/defense-factory/",
+      "lawsuit": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/"
+    },
+    "gpt-6-luna": {
+      "lawsuit": "https://lufkindailynews.com/news_reuters/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development/article_7ac40250-c5a0-5fcb-8cdf-221a0517c686.html",
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "claude_meetings": "https://claude.com/resources/articles/claude-meetings",
+      "business_hub": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "inkling2": "https://x.com/thinkymachines/status/2120982625582195011"
+    },
+    "grok-4-7": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "anthropic_ipo": "https://ipo.anthropic.com/documents/us/prospectus.pdf",
+      "claude_meetings": "https://claude.com/resources/articles/claude-meetings",
+      "lawsuit": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+    },
+    "haiku-5-5": {
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "anthropic_ipo": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "claude_meetings": "https://claude.com/resources/articles/claude-meetings",
+      "daybreak": "https://openai.com/daybreak/defense-factory/"
+    },
+    "kimi-k3-1-pro": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "inkling2": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "anthropic_ipo": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "claude_meetings": "https://support.claude.com/en/articles/18325154-use-claude-meetings",
+      "sov_transcribe": "https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1"
+    },
+    "minimax-m3-1-flash": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "anthropic_ipo": "https://ipo.anthropic.com/documents/us/founders-letter.pdf",
+      "daybreak": "https://x.com/gdb/status/2121004237413142656",
+      "lawsuit": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development",
+      "sglang": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium"
+    },
+    "opus-5-5": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://www.cbc.ca/news/business/anthropic-ipo-9.7418028",
+      "daybreak": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+      "inkling2": "https://x.com/thinkymachines/status/2120982625582195011"
+    },
+    "qwen-3-8-max-0902": {
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+      "daybreak": "https://openai.com/daybreak/defense-factory/",
+      "lawsuit": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development"
+    },
+    "sonnet-5-5": {
+      "nvidia_huang": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://x.com/AnthropicAI/status/2120841731302154708",
+      "hydrogen": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "lawsuit": "https://abcnews.com/Technology/wireStory/advocacy-groups-sue-ai-giants-freeze-new-models-138081070",
+      "daybreak": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "minimax-m3-1-flash",
+      "story": "anthropic_ipo",
+      "reason": "cited the ipo.anthropic.com founders-letter PDF rather than the prospectus/roadshow page; same IPO filing event"
+    },
+    {
+      "model": "grok-4-7",
+      "story": "anthropic_ipo",
+      "reason": "cited the ipo.anthropic.com prospectus PDF rather than the roadshow announcement; same IPO filing event"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "anthropic_ipo",
+      "reason": "cited anthropic.com/news/s1-sec rather than the roadshow page; same IPO filing event"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "anthropic_ipo",
+      "reason": "cited CNBC price-range coverage rather than the primary filing; same IPO event"
+    },
+    {
+      "model": "opus-5-5",
+      "story": "anthropic_ipo",
+      "reason": "cited CBC price-range coverage rather than the primary filing; same IPO event"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "anthropic_ipo",
+      "reason": "cited CNBC price-range coverage rather than the primary filing; same IPO event"
+    },
+    {
+      "model": "minimax-m3-1-flash",
+      "story": "daybreak",
+      "reason": "cited the @gdb announcement tweet rather than openai.com; same Daybreak launch event"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "daybreak",
+      "reason": "cited SecurityWeek coverage rather than openai.com; same Daybreak launch event"
+    },
+    {
+      "model": "opus-5-5",
+      "story": "daybreak",
+      "reason": "cited SecurityWeek coverage rather than openai.com; same Daybreak launch event"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "daybreak",
+      "reason": "cited openai.com/cyber-at-the-frontier rather than the defense-factory page; same Daybreak launch event"
+    },
+    {
+      "model": "gemini-4-carbon",
+      "story": "daybreak",
+      "reason": "cited openai.com/cyber-at-the-frontier rather than the defense-factory page; same Daybreak launch event"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "inkling2",
+      "reason": "cited thinkingmachines.ai/news rather than the Hugging Face repo; same Inkling 2 Small release event"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "inkling2",
+      "reason": "cited the @thinkymachines announcement tweet rather than the Hugging Face repo; same Inkling 2 Small release event"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "inkling2",
+      "reason": "cited vllm.ai blog coverage rather than the Hugging Face repo; same Inkling 2 Small release event"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "inkling2",
+      "reason": "cited AlphaSignal coverage rather than the Hugging Face repo; same Inkling 2 Small release event"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "claude_meetings",
+      "reason": "cited VentureBeat coverage rather than claude.com; same Claude Meetings beta event"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "nvidia_huang",
+      "reason": "cited Al Jazeera coverage rather than the nvidianews announcement; same CEO transition event"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "nvidia_huang",
+      "reason": "cited Al Jazeera coverage rather than the nvidianews announcement; same CEO transition event"
+    },
+    {
+      "model": "gpt-6-astra",
+      "story": "lawsuit",
+      "reason": "cited Citizen.org (the filers) rather than press coverage; same nonprofit lawsuit event"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "lawsuit",
+      "reason": "cited CBS News coverage rather than Al Jazeera; same nonprofit lawsuit event"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "lawsuit",
+      "reason": "cited Lufkin Daily News/Reuters coverage rather than Al Jazeera; same nonprofit lawsuit event"
+    }
+  ]
+}
