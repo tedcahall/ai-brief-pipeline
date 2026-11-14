@@ -1,0 +1,1037 @@
+{
+  "date": "2026-11-14",
+  "models": [
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "complete_local",
+      "score": 57,
+      "rank": 13,
+      "headline_event": "nvidia_ceo",
+      "story_events": [
+        "nvidia_ceo",
+        "mirendil",
+        "deepseek_api",
+        "chatgpt_wallet",
+        "sglang"
+      ],
+      "tweet_ids": [
+        "2121247899699036516",
+        "2121295213025194172",
+        "2121317227618340990",
+        "2121255137914077300",
+        "2121393821955334328",
+        "2121008091538092393",
+        "2121353292878110868",
+        "2121338095664808238",
+        "2121294533879267683",
+        "2121279222912352574"
+      ],
+      "elapsed_seconds": 757,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 39,
+      "rank": 19,
+      "headline_event": "nvidia_ceo",
+      "story_events": [
+        "nvidia_ceo",
+        "anthropic_ipo",
+        "daybreak",
+        "h3image",
+        "deepseek_api"
+      ],
+      "tweet_ids": [
+        "2121345211959804234",
+        "2121338095664808238",
+        "2121247896918253875",
+        "2121317227618340990",
+        "2121319866712076769",
+        "2121382664720863533",
+        "2121393821955334328",
+        "2121352036239213021",
+        "2121353292878110868",
+        "2121004237413142656"
+      ],
+      "elapsed_seconds": 676,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 76,
+      "rank": 5,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "deepseek_api",
+        "llama_cpp",
+        "mirendil",
+        "inkling2"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121295213025194172",
+        "2121246103312212124",
+        "2121353292878110868",
+        "2121279222912352574",
+        "2121393821955334328",
+        "2121317227618340990",
+        "2121338095664808238",
+        "2121004237413142656",
+        "2121008091538092393"
+      ],
+      "elapsed_seconds": 490,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 80,
+      "rank": 4,
+      "headline_event": "inkling2",
+      "story_events": [
+        "inkling2",
+        "chatgpt_wallet",
+        "deepseek_api",
+        "mirendil",
+        "cyber_task_force"
+      ],
+      "tweet_ids": [
+        "2121353292878110868",
+        "2121269456479597049",
+        "2121004237413142656",
+        "2121247896918253875",
+        "2121246103312212124",
+        "2121393821955334328",
+        "2121319866712076769",
+        "2121317227618340990",
+        "2121279222912352574",
+        "2121320349837263230"
+      ],
+      "elapsed_seconds": 314,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "complete_local",
+      "score": 62,
+      "rank": 8,
+      "headline_event": "groot2",
+      "story_events": [
+        "groot2",
+        "deepseek_api",
+        "chatgpt_wallet",
+        "mirendil",
+        "safety_evals"
+      ],
+      "tweet_ids": [
+        "2121319866712076769",
+        "2121247896918253875",
+        "2121229774865527097",
+        "2121317227618340990",
+        "2121295213025194172",
+        "2121255137914077300",
+        "2121294533879267683",
+        "2121246103312212124",
+        "2121008091538092393",
+        "2121353292878110868"
+      ],
+      "elapsed_seconds": 1210,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "complete_local",
+      "score": 85,
+      "rank": 1,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "deepseek_api",
+        "inkling2",
+        "mirendil",
+        "cyber_task_force"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121319866712076769",
+        "2121036562058400200",
+        "2121317227618340990",
+        "2121353292878110868",
+        "2121246103312212124",
+        "2121279222912352574",
+        "2121393821955334328",
+        "2121008091538092393",
+        "2121401747734208740"
+      ],
+      "elapsed_seconds": 1801,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-hydrogen",
+      "slug": "gemini-4-hydrogen",
+      "status": "complete_local",
+      "score": 81,
+      "rank": 2,
+      "headline_event": "inkling2",
+      "story_events": [
+        "inkling2",
+        "deepseek_api",
+        "llama_cpp",
+        "cyber_task_force",
+        "mirendil"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121353292878110868",
+        "2121246103312212124",
+        "2121319866712076769",
+        "2121317227618340990",
+        "2121004237413142656",
+        "2121393821955334328",
+        "2121008091538092393",
+        "2121255137914077300",
+        "2121229774865527097"
+      ],
+      "elapsed_seconds": 206,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "complete_local",
+      "score": 57,
+      "rank": 13,
+      "headline_event": "deepseek_api",
+      "story_events": [
+        "deepseek_api",
+        "mirendil",
+        "cyber_task_force",
+        "cohere_japan",
+        "faa_smart"
+      ],
+      "tweet_ids": [
+        "2121338095664808238",
+        "2121247896918253875",
+        "2121393821955334328",
+        "2121401747734208740",
+        "2121333119173468261",
+        "2121279222912352574",
+        "2121255137914077300",
+        "2121247058451411047",
+        "2121229774865527097",
+        "2121317227618340990"
+      ],
+      "elapsed_seconds": 389,
+      "elapsed_note": "Worker-reported elapsed string \"6m 29s (389 s ...)\" from run.json (numeric elapsed_seconds absent)."
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 62,
+      "rank": 8,
+      "headline_event": "deepseek_api",
+      "story_events": [
+        "deepseek_api",
+        "inkling2",
+        "coding_index",
+        "llama_cpp",
+        "cyber_task_force"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121353292878110868",
+        "2121393821955334328",
+        "2121137661180256653",
+        "2121002519841460273",
+        "2121255137914077300",
+        "2121229774865527097",
+        "2121351856005984583",
+        "2121008091538092393",
+        "2121317227618340990"
+      ],
+      "elapsed_seconds": 359,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 62,
+      "rank": 8,
+      "headline_event": "deepseek_api",
+      "story_events": [
+        "deepseek_api",
+        "inkling2",
+        "weathernext",
+        "devin_apps",
+        "cyber_task_force"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121353292878110868",
+        "2121229774865527097",
+        "2121255137914077300",
+        "2121319866712076769",
+        "2121317227618340990",
+        "2121393821955334328",
+        "2121137661180256653",
+        "2121339732026445859",
+        "2121351856005984583"
+      ],
+      "elapsed_seconds": 227,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 48,
+      "rank": 18,
+      "headline_event": "deepseek_api",
+      "story_events": [
+        "deepseek_api",
+        "inkling2",
+        "daybreak",
+        "devin_apps",
+        "cohere_japan"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121353292878110868",
+        "2121393821955334328",
+        "2121255137914077300",
+        "2121137661180256653",
+        "2121294533879267683",
+        "2121229774865527097",
+        "2121002519841460273",
+        "2121356612011196739",
+        "2121317227618340990"
+      ],
+      "elapsed_seconds": 372,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "complete_local",
+      "score": 57,
+      "rank": 13,
+      "headline_event": "mirendil",
+      "story_events": [
+        "mirendil",
+        "weathernext",
+        "deepseek_api",
+        "cyber_task_force",
+        "deepstress"
+      ],
+      "tweet_ids": [
+        "2121393821955334328",
+        "2121319866712076769",
+        "2121247896918253875",
+        "2121229774865527097",
+        "2121319093580304584",
+        "2121290464066433448",
+        "2121137661180256653",
+        "2121317227618340990",
+        "2121027770629382531",
+        "2121008091538092393"
+      ],
+      "elapsed_seconds": 861,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 81,
+      "rank": 2,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "deepseek_api",
+        "inkling2",
+        "weathernext",
+        "mirendil"
+      ],
+      "tweet_ids": [
+        "2121295213025194172",
+        "2121247896918253875",
+        "2121353292878110868",
+        "2121229774865527097",
+        "2121319866712076769",
+        "2121317227618340990",
+        "2121255137914077300",
+        "2121279222912352574",
+        "2121393821955334328",
+        "2121294533879267683"
+      ],
+      "elapsed_seconds": 1018,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 72,
+      "rank": 6,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "cyber_task_force",
+        "coding_index",
+        "mirendil",
+        "daybreak"
+      ],
+      "tweet_ids": [
+        "2121393821955334328",
+        "2121343732582904233",
+        "2121279043689742567",
+        "2121004237413142656",
+        "2121317227618340990",
+        "2121247896918253875",
+        "2121229774865527097",
+        "2121008091538092393",
+        "2121353292878110868",
+        "2121279222912352574"
+      ],
+      "elapsed_seconds": 240,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 52,
+      "rank": 17,
+      "headline_event": "deepseek_api",
+      "story_events": [
+        "deepseek_api",
+        "chatgpt_wallet",
+        "mirendil",
+        "groot2",
+        "cohere_aisle"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121269456479597049",
+        "2121319866712076769",
+        "2121317227618340990",
+        "2121393821955334328",
+        "2121008091538092393",
+        "2121137661180256653",
+        "2121351856005984583",
+        "2121002519841460273",
+        "2121339732026445859"
+      ],
+      "elapsed_seconds": 172,
+      "elapsed_note": "Worker-reported fractional elapsed_seconds from run.json, rounded to the nearest second."
+    },
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "review_required",
+      "score": 58,
+      "rank": 12,
+      "headline_event": "inkling2",
+      "story_events": [
+        "inkling2",
+        "deepseek_api",
+        "vllm_flash",
+        "sglang",
+        "safety_evals"
+      ],
+      "tweet_ids": [
+        "2121247896918253875",
+        "2121319866712076769",
+        "2121353292878110868",
+        "2121317227618340990",
+        "2121393821955334328",
+        "2121008091538092393",
+        "2121036562058400200",
+        "2121161030751694873",
+        "2121279222912352574",
+        "2121255137914077300"
+      ],
+      "elapsed_seconds": 387,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 71,
+      "rank": 7,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "mirendil",
+        "deepseek_api",
+        "faa_smart",
+        "cyber_task_force"
+      ],
+      "tweet_ids": [
+        "2121295213025194172",
+        "2121353292878110868",
+        "2121393821955334328",
+        "2121333119173468261",
+        "2121246103312212124",
+        "2121008091538092393",
+        "2121401747734208740",
+        "2121004237413142656",
+        "2121317227618340990",
+        "2121279222912352574"
+      ],
+      "elapsed_seconds": 311,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "review_required",
+      "score": 61,
+      "rank": 11,
+      "headline_event": "nvidia_ceo",
+      "story_events": [
+        "nvidia_ceo",
+        "inkling2",
+        "deepseek_api",
+        "mirendil",
+        "cyber_task_force"
+      ],
+      "tweet_ids": [
+        "2121008091538092393",
+        "2121247058451411047",
+        "2121319866712076769",
+        "2121279222912352574",
+        "2121338095664808238",
+        "2121229774865527097",
+        "2121393821955334328",
+        "2121343732582904233",
+        "2121039423441981444",
+        "2121226979097690437"
+      ],
+      "elapsed_seconds": 2084,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 57,
+      "rank": 13,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "deepseek_api",
+        "mirendil",
+        "llama_cpp",
+        "safety_evals"
+      ],
+      "tweet_ids": [
+        "2121338095664808238",
+        "2121333119173468261",
+        "2121393821955334328",
+        "2121004237413142656",
+        "2121279222912352574",
+        "2121382664720863533",
+        "2121255137914077300",
+        "2121039423441981444",
+        "2121401747734208740",
+        "2121008091538092393"
+      ],
+      "elapsed_seconds": 315,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "chatgpt_wallet": "OpenAI launches ChatGPT Wallet with Amex, Mastercard and Visa for agent purchases",
+    "deepseek_api": "DeepSeek opens its full app capabilities (search, files, voice) to developers through the API",
+    "mirendil": "Mirendil raises $1 billion Series A for agent-driven frontier AI R&D",
+    "inkling2": "Thinking Machines details end-to-end 4-bit training and opens Inkling 2 Small weights",
+    "cyber_task_force": "White House AI task force urges 12-month liability relief for good-faith cyber incident reporting",
+    "sglang": "LMSYS launches the SGLang consortium with eight founding members",
+    "nvidia_ceo": "Jensen Huang resigns as Nvidia CEO; stock closes below $4 trillion as fallout widens",
+    "daybreak": "OpenAI launches Daybreak red-team and Defense Factory security agents",
+    "weathernext": "DeepMind opens the WeatherNext datasets (PARDIG, SatWeave) for researchers",
+    "devin_apps": "Cognition launches private Devin apps on its cloud computer",
+    "cohere_japan": "Cohere deepens Japan sovereign AI commitment with local entity and in-region inference",
+    "cohere_aisle": "Cohere acquires AISLE and adds the Cubic team to its sovereign AI platform",
+    "h3image": "MiniMax releases H3-Image as the #1 open-weight image model",
+    "faa_smart": "FAA rules out its SMART AI system as the cause of the nationwide ground stop",
+    "groot2": "NVIDIA releases the open GR00T 2 System One robotics model",
+    "safety_evals": "Anthropic publishes ten recommendations for building strong safety evaluations",
+    "coding_index": "Revised Artificial Analysis coding agent index: Fable 5.2 and Opus 5.5 tie at 58",
+    "llama_cpp": "llama.cpp and ggml reach v1.0.0 with a stable-API and breaking-change versioning commitment",
+    "deepstress": "DeepStress paper tests whether search agents trust degraded evidence",
+    "vllm_flash": "vLLM serves DeepSeek-V4.1-Flash at 58x GB300 throughput on Vera Rubin",
+    "anthropic_ipo": "Anthropic pitches a record IPO with a $1.4 trillion valuation (roadshow coverage)"
+  },
+  "headline_votes": {
+    "nvidia_ceo": 3,
+    "chatgpt_wallet": 6,
+    "inkling2": 3,
+    "groot2": 1,
+    "deepseek_api": 5,
+    "mirendil": 1
+  },
+  "story_votes": {
+    "nvidia_ceo": 3,
+    "mirendil": 14,
+    "deepseek_api": 18,
+    "chatgpt_wallet": 10,
+    "sglang": 2,
+    "anthropic_ipo": 1,
+    "daybreak": 3,
+    "h3image": 1,
+    "llama_cpp": 4,
+    "inkling2": 10,
+    "cyber_task_force": 10,
+    "groot2": 2,
+    "safety_evals": 3,
+    "cohere_japan": 2,
+    "faa_smart": 2,
+    "coding_index": 2,
+    "weathernext": 3,
+    "devin_apps": 2,
+    "deepstress": 1,
+    "cohere_aisle": 1,
+    "vllm_flash": 1
+  },
+  "tweet_votes": {
+    "2121247899699036516": 1,
+    "2121295213025194172": 5,
+    "2121317227618340990": 17,
+    "2121255137914077300": 10,
+    "2121393821955334328": 18,
+    "2121008091538092393": 13,
+    "2121353292878110868": 14,
+    "2121338095664808238": 6,
+    "2121294533879267683": 4,
+    "2121279222912352574": 11,
+    "2121345211959804234": 1,
+    "2121247896918253875": 15,
+    "2121319866712076769": 11,
+    "2121382664720863533": 2,
+    "2121352036239213021": 1,
+    "2121004237413142656": 7,
+    "2121246103312212124": 6,
+    "2121269456479597049": 2,
+    "2121320349837263230": 1,
+    "2121229774865527097": 10,
+    "2121036562058400200": 2,
+    "2121401747734208740": 4,
+    "2121333119173468261": 3,
+    "2121247058451411047": 2,
+    "2121137661180256653": 5,
+    "2121002519841460273": 3,
+    "2121351856005984583": 3,
+    "2121339732026445859": 2,
+    "2121356612011196739": 1,
+    "2121319093580304584": 1,
+    "2121290464066433448": 1,
+    "2121027770629382531": 1,
+    "2121343732582904233": 2,
+    "2121279043689742567": 1,
+    "2121161030751694873": 1,
+    "2121039423441981444": 2,
+    "2121226979097690437": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 10,
+    "tweet_cut_votes": 7,
+    "eligible_stories": [
+      "chatgpt_wallet",
+      "cyber_task_force",
+      "deepseek_api",
+      "inkling2",
+      "mirendil"
+    ],
+    "eligible_tweets": [
+      "2121004237413142656",
+      "2121008091538092393",
+      "2121229774865527097",
+      "2121247896918253875",
+      "2121255137914077300",
+      "2121279222912352574",
+      "2121317227618340990",
+      "2121319866712076769",
+      "2121353292878110868",
+      "2121393821955334328"
+    ]
+  },
+  "eligible_denominator": 19,
+  "source_hashes": {
+    "2026-11-14/deepseek-v4-1-flash-1017/2026-11-14.edition.md": "7a23d8f263d64d80a6b1ee555ff9ebe1dc796351f01fbae603c4d402f9a1fe5b",
+    "2026-11-14/deepseek-v4-1-flash-1017/2026-11-14.html": "385aca1eb35d723df9a78247fd8166970781a843a67215127b43b55cd8a2601f",
+    "2026-11-14/deepseek-v4-1-flash-1017/run.json": "75f4cdcd85a6f51e79cea33089755c0629c2cfd7ba307888812961852be17ba1",
+    "2026-11-14/deepseek-v4-1-flash-1017/headline.json": "c4e33aeb7a681b9ea755f4dc3058323f6cb1cbab6c9d360b3b411235213bcc34",
+    "2026-11-14/deepseek-v4-1-flash-1017/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/deepseek-v4-1-flash-1017/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/deepseek-v4-pro/2026-11-14.edition.md": "c5f5868400a13a3bd10310974a059b370ba4294becdb596c90de728e0c81df21",
+    "2026-11-14/deepseek-v4-pro/2026-11-14.html": "454b8d8da425dee7dd6ebf746a44ddf3fcd26f0fa5a6e1bd9fd3c3bf375a4cae",
+    "2026-11-14/deepseek-v4-pro/run.json": "101a4943e981b2f40ce7a79a6aa44ec671ddca713e9b1029bf36cbe8defec7a2",
+    "2026-11-14/deepseek-v4-pro/headline.json": "39481293b0cdf00c4b36087c3a554b9a2644c2ed399ff860e397dddf0076e1a9",
+    "2026-11-14/deepseek-v4-pro/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/deepseek-v4-pro/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/fable-5-1/2026-11-14.edition.md": "3c0766fb98b907029fe9298cbf3467afced69615b5fe47f837f10649e01010cd",
+    "2026-11-14/fable-5-1/2026-11-14.html": "647b7c511ca2702a76dfe60cdf44f076361755c278a4ec21a75152be68aca7b1",
+    "2026-11-14/fable-5-1/run.json": "208171cc8f6827f2da7b2dee439e28fff80bcb2ffaaace706c15f0b64a368877",
+    "2026-11-14/fable-5-1/headline.json": "45aaf77b39196bca24e61440d24c020a7991306ac61036a775f59235304f6a69",
+    "2026-11-14/fable-5-1/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/fable-5-1/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/fable-5-2/2026-11-14.edition.md": "df02784a35d9d590f2a79103cf0b95adaf89e628694819094c18245499314f77",
+    "2026-11-14/fable-5-2/2026-11-14.html": "4dfe9955779e0fa71da7429f491e98f9b9659473ed8246cd25c4060fb2cb065f",
+    "2026-11-14/fable-5-2/run.json": "b7c22807e727018e9d965c74ef20c564540d0b5527222340e4b743f0b3d8c6e8",
+    "2026-11-14/fable-5-2/headline.json": "49f660d767ae98730ef067dbd73ef0c2bedb2df3a47bbf67916c871812a9ed00",
+    "2026-11-14/fable-5-2/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/fable-5-2/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/gemini-4-argon/2026-11-14.edition.md": "41633c5ca484e9a150738925a74b9cdac94fddeeaa350fcf56ed33ade4e6c3e8",
+    "2026-11-14/gemini-4-argon/2026-11-14.html": "a9a0f8827dad32399536325c611e3320c82893b2c6351eaf21cf894fc066aeee",
+    "2026-11-14/gemini-4-argon/run.json": "500744cc5bf127d26cb85ccc3883017cf1f058bec8e831932c86eb689e3f3a7b",
+    "2026-11-14/gemini-4-argon/headline.json": "00941d7277d716e575297740b5afffd471562217ae4f7c1abab5ee73e83256a8",
+    "2026-11-14/gemini-4-argon/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/gemini-4-argon/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/gemini-4-carbon/2026-11-14.edition.md": "fbf934dbf0aab738bc86a7d4351a76290f6f267ce8f4ddf4c940b5497bcb3a64",
+    "2026-11-14/gemini-4-carbon/2026-11-14.html": "5d7d40d7a7e9782df36c0020761e87514ef94448bcf9e908500be72345900e07",
+    "2026-11-14/gemini-4-carbon/run.json": "d8a9d51305cad3a7a6abf84de3982da90e648935bf01236e0c1cefede54c843e",
+    "2026-11-14/gemini-4-carbon/headline.json": "481e7cc7358861873e5bf6c8638dd4a0077ffb3d1a8dcea3f72b55eb729eaa94",
+    "2026-11-14/gemini-4-carbon/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/gemini-4-carbon/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/gemini-4-hydrogen/2026-11-14.edition.md": "0f9bb497d5bb34bfadcc88c9fa9a797b34839b6a4f75122d40f7495f621d0963",
+    "2026-11-14/gemini-4-hydrogen/2026-11-14.html": "13fd0275506643f7dd758cbeb037f312d2637577fd8908848875f73f00cbe7cc",
+    "2026-11-14/gemini-4-hydrogen/run.json": "cf066fb11b99c376b684781706770e6e95c19bce7d9c494322dcf714487eceb3",
+    "2026-11-14/gemini-4-hydrogen/headline.json": "75b8d8d6766e08953dabbae8a482b12106bd23ac0c777a94e54ecdfb5ebcf888",
+    "2026-11-14/gemini-4-hydrogen/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/gemini-4-hydrogen/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/glm-5-3/2026-11-14.edition.md": "cbd6fba3cf4f8cb3b413afa3b7a254bcfb693be87840dfb15c9c8ee0760e6cba",
+    "2026-11-14/glm-5-3/2026-11-14.html": "eabb9aba59a784580319b85a835472f879202f5b021152556b0f83f7ab24968d",
+    "2026-11-14/glm-5-3/run.json": "35639ccd2f9a30ca7cdaaf77640b6ff4c63c8dce1ab14b5e14ae655123ae7952",
+    "2026-11-14/glm-5-3/headline.json": "673fa7f30985f7ec3b41d3d6ee567d17902d7f6e119e5a1dbd88e1927744aec2",
+    "2026-11-14/glm-5-3/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/glm-5-3/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/gpt-6-1-sol/2026-11-14.edition.md": "ae8ed43ecb77d5be23e83542e101429093ba233fe4fdf78f7b3fbaa79f3f1d79",
+    "2026-11-14/gpt-6-1-sol/2026-11-14.html": "51f50d14dd176b5003971ec2b2f24c24ca974a8af5d9adb8688051370f899db9",
+    "2026-11-14/gpt-6-1-sol/run.json": "fb6abd81b167cd9858a22f60ee0afc8f1fa1f08605435a03986d10b7bbd5e9e9",
+    "2026-11-14/gpt-6-1-sol/headline.json": "f39747c38be7be0a330cb31b3b624a429037714dc6cb92bca1d300738d502412",
+    "2026-11-14/gpt-6-1-sol/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/gpt-6-1-sol/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/gpt-6-1-terra/2026-11-14.edition.md": "2ce692c84a1365d669a562e27523c905a508ffe664dde14605478eaea4f60a6c",
+    "2026-11-14/gpt-6-1-terra/2026-11-14.html": "ff0d2f9b0bf440d39bfd1a4f0ff035d9aa3a598ff5ca61ca37ce85403590e517",
+    "2026-11-14/gpt-6-1-terra/run.json": "08e99d6daa03fc7ffec6b44e43809b45b9f1cfd2f7f09a098851724e68d69680",
+    "2026-11-14/gpt-6-1-terra/headline.json": "3853ccf0402c456b543e2768e2cfb864eb89f989f091f2a6e424ba24a10e9f5e",
+    "2026-11-14/gpt-6-1-terra/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/gpt-6-1-terra/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/gpt-6-astra/2026-11-14.edition.md": "a739c4e6e9e50bbee9c476fc4b809541f2b13861e62757745aa3b1c1ae5839c1",
+    "2026-11-14/gpt-6-astra/2026-11-14.html": "f40394e453692b506e7ace6f78568018bb554bca6de6ac64af70ddd25fc65daa",
+    "2026-11-14/gpt-6-astra/run.json": "dccf03355416e382c57edf41402a5917f3d607afbd7023ce08f33b3eb27e1d0b",
+    "2026-11-14/gpt-6-astra/headline.json": "af3780b09a505cf14648777f0847f39b13bae08a453a8f926ff75bd6fd24ec28",
+    "2026-11-14/gpt-6-astra/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/gpt-6-astra/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/gpt-6-luna/2026-11-14.edition.md": "ce006fd34402adeaccf55684d3c06489d366f2504dcc92502365e90b5621b5e6",
+    "2026-11-14/gpt-6-luna/2026-11-14.html": "dd6b0a099589a61143e54a126978eeec05c0e881b121b182d7fc488a82adbd78",
+    "2026-11-14/gpt-6-luna/run.json": "b09f9f5958812a5d7b377608bda43a073fdaf07d938fcbfad5546ad2fd3802b0",
+    "2026-11-14/gpt-6-luna/headline.json": "a0f7a86061000b88aff96120608b803bb8b42caa7a846b173fcae3c3782c73cd",
+    "2026-11-14/gpt-6-luna/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/gpt-6-luna/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/grok-4-7/2026-11-14.edition.md": "489d3f2bc4184bab68011a4cd522fcf4494d896b8fbdf6e67dc0263622ee19f6",
+    "2026-11-14/grok-4-7/2026-11-14.html": "8001fe010a1f808ed1beb1a4e53d6a1fb4e1667ccf9213e332484cf9a66102e0",
+    "2026-11-14/grok-4-7/run.json": "c9eff997fe8f936a3e9c25f5bc58f67c950e70fd859e6493f5fee8930adec814",
+    "2026-11-14/grok-4-7/headline.json": "4272ac9855b8bcfc0b764d627538c0084771d23398e9c59348d95e677db04b3b",
+    "2026-11-14/grok-4-7/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/grok-4-7/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/haiku-5-5/2026-11-14.edition.md": "294749efd9ebd4201468bdaf801fc4d223926c2f633833e72bd399042697af0c",
+    "2026-11-14/haiku-5-5/2026-11-14.html": "af9f3e87ce20a321ec374a5bde04550b066ab4996e08e107d90ad34408120a4e",
+    "2026-11-14/haiku-5-5/run.json": "18c008ec3b02b859c04c284ab7e31c9a19e92b0466f12da900d252c1e4f3931c",
+    "2026-11-14/haiku-5-5/headline.json": "034d6edb85a9b9db8a4426609686d90fc01e07364fc1fd5bb3d46a08c62ae3fd",
+    "2026-11-14/haiku-5-5/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/haiku-5-5/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/kimi-k3-1-pro/2026-11-14.edition.md": "692e8893e56a4a841b55daed9594ee7decda9136455baa854ccc071675cc3d27",
+    "2026-11-14/kimi-k3-1-pro/2026-11-14.html": "ad58927e61a2e794d89e1ee89c09798b20c9d444cbd678d2a9798d63b357b1a3",
+    "2026-11-14/kimi-k3-1-pro/run.json": "2d3f65fce99fabac3e5092c540b1c409762798c85ab26fe301f771d12f1ab717",
+    "2026-11-14/kimi-k3-1-pro/headline.json": "0d2fab880cc398045fc2c94f9ceb3682a503fdc62c341f8059f982bd236326bd",
+    "2026-11-14/kimi-k3-1-pro/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/kimi-k3-1-pro/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/minimax-m3-1-flash/2026-11-14.edition.md": "d8e94359dcc57c4b6484e947fbe0ca2fbf2d040d3fedb6a05ee321ebb62037f7",
+    "2026-11-14/minimax-m3-1-flash/2026-11-14.html": "e3e7fcd7cdf2fe4f142197ef88bfd0b70621cb80ef2544e15ffe184f5927188b",
+    "2026-11-14/minimax-m3-1-flash/run.json": "6430fbb8ac21ee373020c4fa2cd4487b82c3f20003e7f04606f59efc819a522f",
+    "2026-11-14/minimax-m3-1-flash/headline.json": "caf7ea0bfbe056ce708fc49bc444903c3d378adbebd8026869b008255b6dc553",
+    "2026-11-14/minimax-m3-1-flash/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/minimax-m3-1-flash/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/opus-5-5/2026-11-14.edition.md": "cff8dd9a7e0b213559c1d8a562b1ef48979af2099657300fc471d6b17a26c198",
+    "2026-11-14/opus-5-5/2026-11-14.html": "0a77a2ba9a9040b128b64de3554a68d3e810759b0612875d081580094bba3746",
+    "2026-11-14/opus-5-5/run.json": "3918001510e25bb5400d7cc229c606551ee9f6a9f5e8589e1e12ddb066a4fc19",
+    "2026-11-14/opus-5-5/headline.json": "634b333c27c1efb57091f216bc0909450c4ab059c7f0fb9221a44bbf67bd1758",
+    "2026-11-14/opus-5-5/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/opus-5-5/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/qwen-3-8-max-0902/2026-11-14.edition.md": "8ea89db4fa05dc39b8bd4fe7fc676e52c64da6c61d07bc0ed1034ee1c7691e72",
+    "2026-11-14/qwen-3-8-max-0902/2026-11-14.html": "037fa0a46df604f74bb26d9841760d0516af3fb791158c5e24d3f2c285445816",
+    "2026-11-14/qwen-3-8-max-0902/run.json": "24e45f98ddcccd19cdad87bef8b6f3307ff45740147d2966844eb272d109cec7",
+    "2026-11-14/qwen-3-8-max-0902/headline.json": "840572252340f17673cf3a8e504f0659769094893ca91065869975d2c7ade5c0",
+    "2026-11-14/qwen-3-8-max-0902/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/qwen-3-8-max-0902/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c",
+    "2026-11-14/sonnet-5-5/2026-11-14.edition.md": "6fdaa052878192f65058a54f723f838cc0d26e41ca2696b627fe0908f73bd465",
+    "2026-11-14/sonnet-5-5/2026-11-14.html": "571aad2186b809cbb45978a174543d08fce35453ce79005630fa44b130e71ce9",
+    "2026-11-14/sonnet-5-5/run.json": "3d663d1ae8fbc9ee4f95dcf42f25b9360848174695287ddd47ace06aedd25e26",
+    "2026-11-14/sonnet-5-5/headline.json": "9de1c06ce48474a445debc92dee1d7f59c60455ddef2e35af8632889ac9ac9f1",
+    "2026-11-14/sonnet-5-5/2026-11-14.x-collection.json": "87b018a959813645a33aa845c4d71dbd961dde61cf51d38d500cc6f927ad0309",
+    "2026-11-14/sonnet-5-5/2026-11-14.web-search.json": "c34b5e868602e1ffe79049c5979ea97893c41a49876907f5d3c3e2008697302c"
+  },
+  "event_url_bindings": {
+    "deepseek-v4-1-flash-1017": {
+      "nvidia_ceo": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+      "mirendil": "https://www.prnewswire.com/news-releases/mirendil-raises-1b-to-democratize-frontier-ai-rd-302937248.html",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "sglang": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium"
+    },
+    "deepseek-v4-pro": {
+      "nvidia_ceo": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "anthropic_ipo": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+      "daybreak": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+      "h3image": "https://www.minimax.io/blog/minimax-h3-image",
+      "deepseek_api": "https://x.com/deepseek_ai/status/2121247896918253875"
+    },
+    "fable-5-1": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "llama_cpp": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "mirendil": "https://mirendil.com/news/series-a/",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training"
+    },
+    "fable-5-2": {
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "deepseek_api": "https://x.com/deepseek_ai/status/2121247896918253875",
+      "mirendil": "https://www.prnewswire.com/news-releases/mirendil-raises-1b-to-democratize-frontier-ai-rd-302937248.html",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/"
+    },
+    "gemini-4-argon": {
+      "groot2": "https://x.com/nvidia/status/2121319866712076769",
+      "deepseek_api": "https://api-docs.deepseek.com/guides/build_a_chatbot/",
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "mirendil": "https://mirendil.com/news/series-a/",
+      "safety_evals": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+    },
+    "gemini-4-carbon": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "mirendil": "https://mirendil.com/news/series-a/",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/"
+    },
+    "gemini-4-hydrogen": {
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "llama_cpp": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/",
+      "mirendil": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/"
+    },
+    "glm-5-3": {
+      "deepseek_api": "https://x.com/deepseek_ai/status/2121247896918253875",
+      "mirendil": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/",
+      "cohere_japan": "https://www.prnewswire.com/apac/news-releases/cohere-deepens-commitment-to-japan-with-sovereign-ai-investments-and-growing-enterprise-adoption-302937158.html",
+      "faa_smart": "https://avweb.com/aviation-news/faa-nationwide-ground-stop-lifts-smart-ai/"
+    },
+    "gpt-6-1-sol": {
+      "deepseek_api": "https://api-docs.deepseek.com/guides/build_a_chatbot",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "llama_cpp": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/"
+    },
+    "gpt-6-1-terra": {
+      "deepseek_api": "https://cryptobriefing.com/deepseek-opens-app-features-developers-api/",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "weathernext": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "devin_apps": "https://devin.ai/blog/devin-apps",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/"
+    },
+    "gpt-6-astra": {
+      "deepseek_api": "https://x.com/deepseek_ai/status/2121247896918253875",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "daybreak": "https://openai.com/daybreak/defense-factory/",
+      "devin_apps": "https://devin.ai/blog/devin-apps",
+      "cohere_japan": "https://www.prnewswire.com/apac/news-releases/cohere-deepens-commitment-to-japan-with-sovereign-ai-investments-and-growing-enterprise-adoption-302937158.html"
+    },
+    "gpt-6-luna": {
+      "mirendil": "https://mirendil.com/news/series-a/",
+      "weathernext": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/",
+      "deepstress": "https://arxiv.org/abs/2607.13920"
+    },
+    "grok-4-7": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "weathernext": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "mirendil": "https://www.prnewswire.com/news-releases/mirendil-raises-1b-to-democratize-frontier-ai-rd-302937248.html"
+    },
+    "haiku-5-5": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "mirendil": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
+      "daybreak": "https://x.com/gdb/status/2121004237413142656"
+    },
+    "kimi-k3-1-pro": {
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "mirendil": "https://mirendil.com/news/series-a/",
+      "groot2": "https://x.com/nvidia/status/2121319866712076769",
+      "cohere_aisle": "https://cohere.com/blog/cohere-expands-its-sovereign-ai-platform-with-aisle-and-cubic"
+    },
+    "minimax-m3-1-flash": {
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "vllm_flash": "https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin",
+      "sglang": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium",
+      "safety_evals": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+    },
+    "opus-5-5": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "mirendil": "https://mirendil.com/news/series-a/",
+      "deepseek_api": "https://x.com/deepseek_ai/status/2121247896918253875",
+      "faa_smart": "https://avweb.com/aviation-news/faa-nationwide-ground-stop-lifts-smart-ai/",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/"
+    },
+    "qwen-3-8-max-0902": {
+      "nvidia_ceo": "https://www.bbc.com/news/articles/ckgel338xql3o",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training",
+      "deepseek_api": "https://x.com/deepseek_ai/status/2121247896918253875",
+      "mirendil": "https://www.prnewswire.com/news-releases/mirendil-raises-1b-to-democratize-frontier-ai-rd-302937248.html",
+      "cyber_task_force": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679/"
+    },
+    "sonnet-5-5": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "deepseek_api": "https://api-docs.deepseek.com/news/news261113/",
+      "mirendil": "https://mirendil.com/news/series-a/",
+      "llama_cpp": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "safety_evals": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "deepseek-v4-pro",
+      "story": "deepseek_api",
+      "reason": "cited the @deepseek_ai announcement tweet rather than api-docs.deepseek.com; same API capabilities release event"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "deepseek_api",
+      "reason": "cited the @deepseek_ai announcement tweet rather than api-docs.deepseek.com; same API capabilities release event"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "deepseek_api",
+      "reason": "cited the @deepseek_ai announcement tweet rather than api-docs.deepseek.com; same API capabilities release event"
+    },
+    {
+      "model": "gpt-6-astra",
+      "story": "deepseek_api",
+      "reason": "cited the @deepseek_ai announcement tweet rather than api-docs.deepseek.com; same API capabilities release event"
+    },
+    {
+      "model": "opus-5-5",
+      "story": "deepseek_api",
+      "reason": "cited the @deepseek_ai announcement tweet rather than api-docs.deepseek.com; same API capabilities release event"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "deepseek_api",
+      "reason": "cited the @deepseek_ai announcement tweet rather than api-docs.deepseek.com; same API capabilities release event"
+    },
+    {
+      "model": "gpt-6-1-terra",
+      "story": "deepseek_api",
+      "reason": "cited cryptobriefing coverage rather than api-docs.deepseek.com; same API capabilities release event"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "deepseek_api",
+      "reason": "cited api-docs.deepseek.com/guides/build_a_chatbot rather than the news261113 page; same API capabilities release event"
+    },
+    {
+      "model": "gpt-6-1-sol",
+      "story": "deepseek_api",
+      "reason": "cited api-docs.deepseek.com/guides/build_a_chatbot rather than the news261113 page; same API capabilities release event"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "mirendil",
+      "reason": "cited the PR Newswire release rather than mirendil.com; same $1B Series A event"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "mirendil",
+      "reason": "cited the PR Newswire release rather than mirendil.com; same $1B Series A event"
+    },
+    {
+      "model": "grok-4-7",
+      "story": "mirendil",
+      "reason": "cited the PR Newswire release rather than mirendil.com; same $1B Series A event"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "mirendil",
+      "reason": "cited the PR Newswire release rather than mirendil.com; same $1B Series A event"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "mirendil",
+      "reason": "cited the Crunchbase weekly-roundup page rather than the primary announcement; same $1B round event"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "mirendil",
+      "reason": "cited the Crunchbase weekly-roundup page (Mirendil/Mercor/Torus) rather than the primary announcement; same $1B round event"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "mirendil",
+      "reason": "cited the Crunchbase weekly-roundup page rather than the primary announcement; same $1B round event"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "nvidia_ceo",
+      "reason": "cited CNBC market-cap/close coverage rather than the nvidianews announcement; same CEO transition event"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "nvidia_ceo",
+      "reason": "cited BBC congressional-testimony coverage rather than the nvidianews announcement; same CEO transition/fallout event"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "daybreak",
+      "reason": "cited SecurityWeek coverage rather than openai.com; same Daybreak launch event"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "daybreak",
+      "reason": "cited the @gdb announcement tweet rather than openai.com; same Daybreak launch event"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "groot2",
+      "reason": "cited the @nvidia announcement tweet rather than a blog page; same GR00T 2 release event"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "groot2",
+      "reason": "cited the @nvidia announcement tweet rather than a blog page; same GR00T 2 release event"
+    }
+  ]
+}
