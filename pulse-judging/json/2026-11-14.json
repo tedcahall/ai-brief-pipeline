@@ -1,0 +1,243 @@
+{
+ "date": "2026-11-14",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "fable-5-1",
+  "fable-5-2",
+  "gemini-4-argon",
+  "gemini-4-carbon",
+  "gemini-4-hydrogen",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "haiku-5-5",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902",
+  "sonnet-5-5"
+ ],
+ "scores": {
+  "opus": {
+   "opus-5-5": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "gemini-4-hydrogen": 3.0,
+   "gpt-6-astra": 3.5,
+   "gpt-6-luna": 3.0,
+   "gpt-6-1-sol": 3.0,
+   "minimax-m3-1-flash": 3.0,
+   "grok-4-7": 3.5,
+   "deepseek-v4-pro": 4.5,
+   "fable-5-2": 3.5,
+   "sonnet-5-5": 3.5,
+   "haiku-5-5": 4.0,
+   "kimi-k3-1-pro": 3.5,
+   "glm-5-3": 2.5,
+   "gemini-4-argon": 2.5,
+   "fable-5-1": 3.0,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gemini-4-carbon": 2.5
+  },
+  "glm": {
+   "fable-5-2": 3.0,
+   "grok-4-7": 3.0,
+   "sonnet-5-5": 3.5,
+   "minimax-m3-1-flash": 3.5,
+   "gpt-6-luna": 2.5,
+   "gpt-6-1-terra": 2.5,
+   "fable-5-1": 3.5,
+   "gemini-4-hydrogen": 3.5,
+   "gpt-6-1-sol": 3.0,
+   "kimi-k3-1-pro": 4.0,
+   "qwen-3-8-max-0902": 3.0,
+   "gpt-6-astra": 3.0,
+   "deepseek-v4-pro": 3.5,
+   "glm-5-3": 3.5,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "haiku-5-5": 3.0,
+   "opus-5-5": 3.0,
+   "gemini-4-argon": 3.0,
+   "gemini-4-carbon": 3.5
+  },
+  "astra": {
+   "gpt-6-1-sol": 3.0,
+   "gemini-4-argon": 1.5,
+   "deepseek-v4-pro": 2.5,
+   "deepseek-v4-1-flash-1017": 2.5,
+   "fable-5-1": 2.0,
+   "kimi-k3-1-pro": 4.0,
+   "qwen-3-8-max-0902": 2.5,
+   "sonnet-5-5": 3.0,
+   "gemini-4-hydrogen": 2.5,
+   "gpt-6-luna": 2.5,
+   "haiku-5-5": 3.5,
+   "opus-5-5": 3.0,
+   "gemini-4-carbon": 2.0,
+   "grok-4-7": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "minimax-m3-1-flash": 2.5,
+   "gpt-6-astra": 3.5,
+   "fable-5-2": 3.0,
+   "glm-5-3": 2.5
+  },
+  "grok": {
+   "kimi-k3-1-pro": 3.5,
+   "gpt-6-astra": 3.0,
+   "minimax-m3-1-flash": 2.5,
+   "qwen-3-8-max-0902": 2.5,
+   "haiku-5-5": 3.0,
+   "gemini-4-hydrogen": 2.5,
+   "gemini-4-carbon": 2.0,
+   "fable-5-2": 3.0,
+   "glm-5-3": 3.0,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "gpt-6-luna": 2.5,
+   "gemini-4-argon": 2.0,
+   "gpt-6-1-terra": 2.0,
+   "deepseek-v4-pro": 4.0,
+   "sonnet-5-5": 3.0,
+   "fable-5-1": 2.5,
+   "grok-4-7": 3.0,
+   "opus-5-5": 3.5,
+   "gpt-6-1-sol": 2.5
+  },
+  "dsflash": {
+   "deepseek-v4-pro": 4.0,
+   "gemini-4-hydrogen": 2.5,
+   "gemini-4-argon": 2.5,
+   "sonnet-5-5": 3.0,
+   "fable-5-2": 3.0,
+   "gemini-4-carbon": 2.0,
+   "minimax-m3-1-flash": 3.0,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "gpt-6-1-sol": 3.0,
+   "gpt-6-luna": 2.5,
+   "fable-5-1": 3.5,
+   "qwen-3-8-max-0902": 2.5,
+   "grok-4-7": 2.5,
+   "haiku-5-5": 2.5,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "gpt-6-astra": 3.0,
+   "glm-5-3": 2.5,
+   "opus-5-5": 3.0
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 3.4,
+  "deepseek-v4-pro": 3.7,
+  "fable-5-1": 2.9,
+  "fable-5-2": 3.1,
+  "gemini-4-argon": 2.3,
+  "gemini-4-carbon": 2.4,
+  "gemini-4-hydrogen": 2.8,
+  "glm-5-3": 2.8,
+  "gpt-6-1-sol": 2.9,
+  "gpt-6-1-terra": 2.3,
+  "gpt-6-astra": 3.2,
+  "gpt-6-luna": 2.6,
+  "grok-4-7": 3.1,
+  "haiku-5-5": 3.2,
+  "kimi-k3-1-pro": 3.6,
+  "minimax-m3-1-flash": 2.9,
+  "opus-5-5": 3.2,
+  "qwen-3-8-max-0902": 2.8,
+  "sonnet-5-5": 3.2
+ },
+ "ranking": [
+  "deepseek-v4-pro",
+  "kimi-k3-1-pro",
+  "deepseek-v4-1-flash-1017",
+  "gpt-6-astra",
+  "haiku-5-5",
+  "opus-5-5",
+  "sonnet-5-5",
+  "fable-5-2",
+  "grok-4-7",
+  "fable-5-1",
+  "gpt-6-1-sol",
+  "minimax-m3-1-flash",
+  "gemini-4-hydrogen",
+  "glm-5-3",
+  "qwen-3-8-max-0902",
+  "gpt-6-luna",
+  "gemini-4-carbon",
+  "gemini-4-argon",
+  "gpt-6-1-terra"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "fable-5-1",
+    "fable-5-2",
+    "haiku-5-5",
+    "opus-5-5",
+    "sonnet-5-5"
+   ],
+   "own": 3.5,
+   "others": 3.02,
+   "bump": 0.48
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 3.5,
+   "others": 2.62,
+   "bump": 0.88
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 2.88,
+   "others": 2.72,
+   "bump": 0.16
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 3.0,
+   "others": 3.12,
+   "bump": -0.12
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.75,
+   "others": 3.5,
+   "bump": 0.25
+  }
+ },
+ "judge_notes": {
+  "opus": "I won because it has real hierarchy and a throughline: it leads with the biggest story, explains stakes ('whose GPUs power the entire AI industry'), and bridges cleanly ('As one chip giant grapples with leadership turmoil, another is racing toward what could be the largest IPO in history'); only its closing list and a clich\u00e9 ('sent shockwaves') keep it from a 5. B lost because it is a terse, vague list with nothing for the reader to hold onto ('DeepSeek opened consumer-app capabilities to API developers'), giving neither specifics nor significance.",
+  "glm": "J won because it is the only summary that supplies a genuine throughline: 'Both launches move agentic systems beyond generating answers toward completing multi-step digital tasks inside existing developer and payment infrastructure' tells the reader why the day's news matters, and its only real flaw is the filler closer 'Together, the announcements span research automation, robotics, cybersecurity and enterprise deployment.' C and D earned 3.5 for good concrete detail with only minor listiness. The bottom two lost to pure list-structure and hedging: F is five disconnected items ('Cognition introduced private hosted Devin Apps for internal tools.') with no why-it-matters, and E spends a full sentence on sourcing caveats ('The performance and compute figures in Mirendil's announcement are company-reported.') plus vague filler analysis.",
+  "astra": "F wins because 'beyond generating answers toward completing multi-step digital tasks' gives two concrete launches a clear shared consequence; its closing sector inventory keeps it below exceptional. B loses because 'Physical AI and agentic infrastructure lead today\u2019s developments' promises hierarchy but delivers three overloaded catalog sentences. The stack 'standalone OCR, ASR, and TTS endpoints' exemplifies its persistent demand that the reader decode details instead of grasping the news.",
+  "grok": "N won because it is the only opening with a hierarchy and a stake: \"whose GPUs power the entire AI industry,\" then a real bridge into the IPO. It is not a 5: \"another is racing\" falsely implies a second chip giant, and \"while MiniMax released\" bolts on an unrelated product. M lost because it is a list of topics, not news: \"explained a lower-precision training method\" and \"temporary regulatory relief\" never say what changed or why an executive should care.",
+  "dsflash": "The best entry wins on hierarchy: it opens with a genuine lead (\"NVIDIA CEO Jensen Huang resigned effective immediately on November 12\") and immediately supplies the stake (\"the man who built NVIDIA into the world's most valuable chip company \u2014 and whose GPUs power the entire AI industry\"), then hands off cleanly with \"As one chip giant grapples with leadership turmoil, another is racing toward what could be the largest IPO in history.\" It only slips in the final paragraph, where two product launches are bolted on with \"while MiniMax released H3-Image.\" The runner-up keeps the same discipline across three labelled buckets (\"Open infrastructure had a milestone day\") but pays for it with 60-word spec sentences. The worst entry fails structurally, not factually: four sentences, four unrelated items, no connective tissue \u2014 \"DeepSeek opened consumer-app capabilities to API developers, while Thinking Machines explained a lower-precision training method used for Inkling 2 Small. Google DeepMind released weather datasets used by WeatherNext 3.\" A close second-worst is the mega-sentence entry, where the entire brief is three sentences of 60-70 words each: \"OpenAI rolled out ChatGPT Wallet ... while separately introducing Daybreak Defense Factory and Daybreak Red Team.\""
+ }
+}
