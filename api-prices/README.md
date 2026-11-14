@@ -63,11 +63,10 @@ Gemini 4 Hydrogen is a new entry, not a price change to an existing model.
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification record for November 13, 2026 checked all 18 models (including Gemini 4 Carbon) across 11 freshly captured sources and reported no rate or condition changes. Hydrogen was added afterward from the Google pricing page captured by that morning check. Its Standard rates were separately verified; the original 18-model verification is preserved, not relabeled as a 19-model check. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification for Saturday, November 14, 2026 checked all 19 models across 12 freshly captured sources and reported no rate or condition changes. Rates for every model, including the November 13 Hydrogen addition, were verified against the official provider pages in that run. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
 
-- **Daily check:** `2026-11-13T08:06:23.557739+00:00`; status: `unchanged`; 18 models, 11 sources.
-- **Hydrogen addition:** `2026-11-13T08:02:01.462Z` source capture; separately reviewed under Ted’s explicit authorization.
-- **Snapshot:** `2026-11-13T113820742994Z/api-pricing.json`.
+- **Daily check:** `2026-11-14T08:04:09.706874+00:00`; status: `unchanged`; 19 models, 12 sources.
+- **Snapshot:** `2026-11-13T113820742994Z/api-pricing.json` (unchanged by the no-change check).
 - **SHA-256:** `c39ac237c11361b5065a3f42dd6e6790020cb859f1e6494104bc9989abff06ed`.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
