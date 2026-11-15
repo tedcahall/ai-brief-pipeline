@@ -1,0 +1,1024 @@
+{
+  "date": "2026-11-15",
+  "models": [
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "review_required",
+      "score": 53,
+      "rank": 16,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "anthropic_ipo",
+        "antigravity",
+        "inkling2",
+        "blackwell_forensics"
+      ],
+      "tweet_ids": [
+        "2121393821955334328",
+        "2121382664720863533",
+        "2121700858647978340",
+        "2121725048402681946",
+        "2121751565845360769",
+        "2121581040972255257",
+        "2121614134001467703",
+        "2121727861773987969",
+        "2121695097674981849",
+        "2121673185540378797"
+      ],
+      "elapsed_seconds": 1267,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 34,
+      "rank": 19,
+      "headline_event": "nvidia_huang_exit",
+      "story_events": [
+        "nvidia_huang_exit",
+        "nvidia_financing",
+        "inhouse_chips",
+        "langchain_300m",
+        "hinton_eu"
+      ],
+      "tweet_ids": [
+        "2121725048402681946",
+        "2121382664720863533",
+        "2121393821955334328",
+        "2121751565845360769",
+        "2121462524281282700",
+        "2121581040972255257",
+        "2121613812990095543",
+        "2121641417483169934",
+        "2121635683999883577",
+        "2121675300635631818"
+      ],
+      "elapsed_seconds": 637,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 63,
+      "rank": 9,
+      "headline_event": "robotics_disband",
+      "story_events": [
+        "robotics_disband",
+        "blackwell_forensics",
+        "anthropic_ipo",
+        "cloudflare_pentest",
+        "ai_debt_687b"
+      ],
+      "tweet_ids": [
+        "2121393821955334328",
+        "2121382664720863533",
+        "2121751565845360769",
+        "2121725048402681946",
+        "2121581040972255257",
+        "2121881702247387455",
+        "2121614134001467703",
+        "2121363868425306372",
+        "2121642720045261185",
+        "2121401747734208740"
+      ],
+      "elapsed_seconds": 711,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 72,
+      "rank": 5,
+      "headline_event": "robotics_disband",
+      "story_events": [
+        "robotics_disband",
+        "inkling2",
+        "blackwell_forensics",
+        "anthropic_ipo",
+        "nvidia_financing"
+      ],
+      "tweet_ids": [
+        "2121393821955334328",
+        "2121382664720863533",
+        "2121401747734208740",
+        "2121673185540378797",
+        "2121581040972255257",
+        "2121725048402681946",
+        "2121751565845360769",
+        "2121614134001467703",
+        "2121881702247387455",
+        "2121595922090230033"
+      ],
+      "elapsed_seconds": 361,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "review_required",
+      "score": 86,
+      "rank": 1,
+      "headline_event": "decider_v13",
+      "story_events": [
+        "decider_v13",
+        "blackwell_forensics",
+        "coding_index",
+        "cloudflare_pentest",
+        "ai_debt_687b"
+      ],
+      "tweet_ids": [
+        "2121595922090230033",
+        "2121393821955334328",
+        "2121382664720863533",
+        "2121396191024071088",
+        "2121727861773987969",
+        "2121751565845360769",
+        "2121614134001467703",
+        "2121725048402681946",
+        "2121401747734208740",
+        "2121642720045261185"
+      ],
+      "elapsed_seconds": 1066,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "review_required",
+      "score": 77,
+      "rank": 3,
+      "headline_event": "inkling2",
+      "story_events": [
+        "inkling2",
+        "robotics_disband",
+        "cloudflare_pentest",
+        "blackwell_forensics",
+        "godel"
+      ],
+      "tweet_ids": [
+        "2121382664720863533",
+        "2121595922090230033",
+        "2121393821955334328",
+        "2121727861773987969",
+        "2121881702247387455",
+        "2121401747734208740",
+        "2121725048402681946",
+        "2121751565845360769",
+        "2121614134001467703",
+        "2121581040972255257"
+      ],
+      "elapsed_seconds": 1030,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gemini-4-hydrogen",
+      "slug": "gemini-4-hydrogen",
+      "status": "complete_local",
+      "score": 53,
+      "rank": 16,
+      "headline_event": "ai_debt_687b",
+      "story_events": [
+        "ai_debt_687b",
+        "blackwell_forensics",
+        "fed_inflation",
+        "decider_v13",
+        "toner_safety"
+      ],
+      "tweet_ids": [
+        "2121845965997101118",
+        "2121725048402681946",
+        "2121393821955334328",
+        "2121382664720863533",
+        "2121727861773987969",
+        "2121751565845360769",
+        "2121881702247387455",
+        "2121613812990095543",
+        "2121700858647978340",
+        "2121614134001467703"
+      ],
+      "elapsed_seconds": 204,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "complete_local",
+      "score": 62,
+      "rank": 11,
+      "headline_event": "nvidia_financing",
+      "story_events": [
+        "nvidia_financing",
+        "blackwell_forensics",
+        "daybreak",
+        "decider_v13",
+        "ai_debt_687b"
+      ],
+      "tweet_ids": [
+        "2121845965997101118",
+        "2121725048402681946",
+        "2121751565845360769",
+        "2121881702247387455",
+        "2121393821955334328",
+        "2121375041640382737",
+        "2121382664720863533",
+        "2121673185540378797",
+        "2121581040972255257",
+        "2121401747734208740"
+      ],
+      "elapsed_seconds": 296,
+      "elapsed_note": "Worker-reported elapsed string \"4 minutes 56 seconds (296s ...)\" from run.json (numeric elapsed_seconds absent)."
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 71,
+      "rank": 7,
+      "headline_event": "decider_v13",
+      "story_events": [
+        "decider_v13",
+        "coding_index",
+        "blackwell_forensics",
+        "cloudflare_pentest",
+        "hubspot_pricing"
+      ],
+      "tweet_ids": [
+        "2121595922090230033",
+        "2121393821955334328",
+        "2121396191024071088",
+        "2121727861773987969",
+        "2121702308509806735",
+        "2121751565845360769",
+        "2121642720045261185",
+        "2121492351814361259",
+        "2121614134001467703",
+        "2121896633848017145"
+      ],
+      "elapsed_seconds": 469,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 76,
+      "rank": 4,
+      "headline_event": "decider_v13",
+      "story_events": [
+        "decider_v13",
+        "blackwell_forensics",
+        "coding_index",
+        "satbench",
+        "nvidia_financing"
+      ],
+      "tweet_ids": [
+        "2121595922090230033",
+        "2121393821955334328",
+        "2121751565845360769",
+        "2121644169462681818",
+        "2121401747734208740",
+        "2121679587633746243",
+        "2121881702247387455",
+        "2121896633848017145",
+        "2121727861773987969",
+        "2121382664720863533"
+      ],
+      "elapsed_seconds": 236,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 80,
+      "rank": 2,
+      "headline_event": "decider_v13",
+      "story_events": [
+        "decider_v13",
+        "inkling2",
+        "coding_index",
+        "cloudflare_pentest",
+        "blackwell_forensics"
+      ],
+      "tweet_ids": [
+        "2121382664720863533",
+        "2121595922090230033",
+        "2121393821955334328",
+        "2121727861773987969",
+        "2121396191024071088",
+        "2121751565845360769",
+        "2121896633848017145",
+        "2121492351814361259",
+        "2121695097674981849",
+        "2121401747734208740"
+      ],
+      "elapsed_seconds": 418,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "review_required",
+      "score": 39,
+      "rank": 18,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "drug_dev",
+        "blackwell_forensics",
+        "ai_debt_687b",
+        "nvidia_recycling"
+      ],
+      "tweet_ids": [
+        "2121751565845360769",
+        "2121393821955334328",
+        "2121614134001467703",
+        "2121725048402681946",
+        "2121896633848017145",
+        "2121647261155570145",
+        "2121506026054647854",
+        "2121881702247387455",
+        "2121822367575945454",
+        "2121595922090230033"
+      ],
+      "elapsed_seconds": 630,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 62,
+      "rank": 11,
+      "headline_event": "inkling2",
+      "story_events": [
+        "inkling2",
+        "robotics_disband",
+        "decider_v13",
+        "godel",
+        "cloudflare_pentest"
+      ],
+      "tweet_ids": [
+        "2121382664720863533",
+        "2121595922090230033",
+        "2121673185540378797",
+        "2121644169462681818",
+        "2121727861773987969",
+        "2121725048402681946",
+        "2121613812990095543",
+        "2121393821955334328",
+        "2121581040972255257",
+        "2121881702247387455"
+      ],
+      "elapsed_seconds": 1078,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 57,
+      "rank": 14,
+      "headline_event": "anthropic_ipo",
+      "story_events": [
+        "anthropic_ipo",
+        "nvidia_financing",
+        "blackwell_forensics",
+        "daybreak",
+        "inkling2"
+      ],
+      "tweet_ids": [
+        "2121382664720863533",
+        "2121613812990095543",
+        "2121393821955334328",
+        "2121751565845360769",
+        "2121845965997101118",
+        "2121881702247387455",
+        "2121673185540378797",
+        "2121581040972255257",
+        "2121700858647978340",
+        "2121642720045261185"
+      ],
+      "elapsed_seconds": 254,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 71,
+      "rank": 7,
+      "headline_event": "inkling2",
+      "story_events": [
+        "inkling2",
+        "decider_v13",
+        "coding_index",
+        "blackwell_forensics",
+        "ai_debt_687b"
+      ],
+      "tweet_ids": [
+        "2121382664720863533",
+        "2121393821955334328",
+        "2121595922090230033",
+        "2121396191024071088",
+        "2121751565845360769",
+        "2121881702247387455",
+        "2121614134001467703",
+        "2121695097674981849",
+        "2121642720045261185",
+        "2121644169462681818"
+      ],
+      "elapsed_seconds": 313,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "complete_local",
+      "score": 57,
+      "rank": 14,
+      "headline_event": "chatgpt_wallet",
+      "story_events": [
+        "chatgpt_wallet",
+        "nvidia_financing",
+        "blackwell_forensics",
+        "godel",
+        "coding_index"
+      ],
+      "tweet_ids": [
+        "2121845965997101118",
+        "2121382664720863533",
+        "2121700858647978340",
+        "2121393821955334328",
+        "2121725048402681946",
+        "2121581040972255257",
+        "2121673185540378797",
+        "2121644169462681818",
+        "2121751565845360769",
+        "2121642720045261185"
+      ],
+      "elapsed_seconds": 458,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 63,
+      "rank": 9,
+      "headline_event": "anthropic_ipo",
+      "story_events": [
+        "anthropic_ipo",
+        "inkling2",
+        "robotics_disband",
+        "godel",
+        "cloudflare_pentest"
+      ],
+      "tweet_ids": [
+        "2121382664720863533",
+        "2121393821955334328",
+        "2121727861773987969",
+        "2121595922090230033",
+        "2121401747734208740",
+        "2121751565845360769",
+        "2121673185540378797",
+        "2121725048402681946",
+        "2121581040972255257",
+        "2121642720045261185"
+      ],
+      "elapsed_seconds": 410,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "review_required",
+      "score": 72,
+      "rank": 5,
+      "headline_event": "decider_v13",
+      "story_events": [
+        "decider_v13",
+        "nvidia_financing",
+        "godel",
+        "inkling2",
+        "hubspot_ceo"
+      ],
+      "tweet_ids": [
+        "2121595922090230033",
+        "2121382664720863533",
+        "2121700858647978340",
+        "2121393821955334328",
+        "2121725048402681946",
+        "2121581040972255257",
+        "2121751565845360769",
+        "2121642720045261185",
+        "2121506026054647854",
+        "2121881702247387455"
+      ],
+      "elapsed_seconds": 1633,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 62,
+      "rank": 11,
+      "headline_event": "blackwell_forensics",
+      "story_events": [
+        "blackwell_forensics",
+        "godel",
+        "inkling2",
+        "coding_index",
+        "anthropic_rivals"
+      ],
+      "tweet_ids": [
+        "2121595922090230033",
+        "2121725048402681946",
+        "2121751565845360769",
+        "2121613812990095543",
+        "2121581040972255257",
+        "2121401747734208740",
+        "2121642720045261185",
+        "2121695097674981849",
+        "2121673185540378797",
+        "2121881702247387455"
+      ],
+      "elapsed_seconds": 202,
+      "elapsed_note": "Worker-reported elapsed_seconds from run.json."
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "chatgpt_wallet": "OpenAI launches ChatGPT Wallet so its agents can pay merchants",
+    "anthropic_ipo": "Anthropic IPO roadshow: up to $100B raise at up to $1.4T valuation, ~6x oversubscribed",
+    "antigravity": "Google opens Antigravity multi-agent teamwork tools after agents help prove open problems",
+    "inkling2": "Thinking Machines releases Inkling 2 Small open weights (594B, NVFP4 4-bit training)",
+    "blackwell_forensics": "Weight forensics ties six Chinese frontier models to export-banned Nvidia Blackwell GPUs",
+    "nvidia_huang_exit": "Jensen Huang resigns from Nvidia after spy scandal (NYT interactive)",
+    "nvidia_financing": "Nvidia's $500B AI financing role under scrutiny after Huang's exit",
+    "inhouse_chips": "Six of Nvidia's biggest customers are building their own chips (SemiAnalysis)",
+    "langchain_300m": "LangChain raises $300M Series C at a $3B valuation",
+    "hinton_eu": "Geoffrey Hinton warns EU leaders AI could outsmart humans in 18 months",
+    "robotics_disband": "OpenAI disbands its stand-alone robotics team as general models run robots",
+    "ai_debt_687b": "Goldman Sachs tallies $687B of AI-linked debt as hyperscaler commitments swell",
+    "cloudflare_pentest": "Cloudflare reports a ~30x surge of autonomous AI pentest-orchestrator traffic",
+    "decider_v13": "Perplexity releases open-weight Decider v1.3 and Decider Flash v1.3 decision models",
+    "coding_index": "Artificial Analysis upgrades its coding agent index (v2.1) with Claude models tied at 58",
+    "daybreak": "OpenAI expands Daybreak cyber platform with GPT-5.6-Cyber, red team and Defense Factory agents",
+    "godel": "Claude helps extract 663 theorems from Kurt Godel's shorthand notebooks",
+    "fed_inflation": "Fed vice chair warns the AI infrastructure boom adds to inflation pressures",
+    "toner_safety": "Former OpenAI board member Helen Toner says AI safety cannot rely on trusting CEOs",
+    "drug_dev": "Anthropic reports early progress accelerating drug development with Claude",
+    "nvidia_recycling": "NVIDIA spotlights AI and robotics applications in recycling",
+    "hubspot_pricing": "HubSpot plans simpler pricing and more agent-based access",
+    "hubspot_ceo": "HubSpot refounds around AI agents as Brian Halligan returns as CEO",
+    "satbench": "SatBench tracks how quickly AI benchmarks saturate",
+    "anthropic_rivals": "NYT reports Anthropic's rivals have turned on Amodei ahead of the IPO"
+  },
+  "headline_votes": {
+    "chatgpt_wallet": 3,
+    "nvidia_huang_exit": 1,
+    "robotics_disband": 2,
+    "decider_v13": 5,
+    "inkling2": 3,
+    "ai_debt_687b": 1,
+    "nvidia_financing": 1,
+    "anthropic_ipo": 2,
+    "blackwell_forensics": 1
+  },
+  "story_votes": {
+    "chatgpt_wallet": 3,
+    "anthropic_ipo": 5,
+    "antigravity": 1,
+    "inkling2": 10,
+    "blackwell_forensics": 15,
+    "nvidia_huang_exit": 1,
+    "nvidia_financing": 7,
+    "inhouse_chips": 1,
+    "langchain_300m": 1,
+    "hinton_eu": 1,
+    "robotics_disband": 5,
+    "cloudflare_pentest": 7,
+    "ai_debt_687b": 6,
+    "decider_v13": 9,
+    "coding_index": 7,
+    "godel": 6,
+    "fed_inflation": 1,
+    "toner_safety": 1,
+    "daybreak": 2,
+    "hubspot_pricing": 1,
+    "satbench": 1,
+    "drug_dev": 1,
+    "nvidia_recycling": 1,
+    "hubspot_ceo": 1,
+    "anthropic_rivals": 1
+  },
+  "tweet_votes": {
+    "2121393821955334328": 18,
+    "2121382664720863533": 16,
+    "2121700858647978340": 5,
+    "2121725048402681946": 14,
+    "2121751565845360769": 18,
+    "2121581040972255257": 12,
+    "2121614134001467703": 9,
+    "2121727861773987969": 9,
+    "2121695097674981849": 4,
+    "2121673185540378797": 8,
+    "2121462524281282700": 1,
+    "2121613812990095543": 5,
+    "2121641417483169934": 1,
+    "2121635683999883577": 1,
+    "2121675300635631818": 1,
+    "2121881702247387455": 12,
+    "2121363868425306372": 1,
+    "2121642720045261185": 9,
+    "2121401747734208740": 9,
+    "2121595922090230033": 12,
+    "2121396191024071088": 4,
+    "2121845965997101118": 4,
+    "2121375041640382737": 1,
+    "2121702308509806735": 1,
+    "2121492351814361259": 2,
+    "2121896633848017145": 4,
+    "2121644169462681818": 4,
+    "2121679587633746243": 1,
+    "2121647261155570145": 1,
+    "2121506026054647854": 2,
+    "2121822367575945454": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 7,
+    "tweet_cut_votes": 9,
+    "eligible_stories": [
+      "blackwell_forensics",
+      "cloudflare_pentest",
+      "coding_index",
+      "decider_v13",
+      "inkling2",
+      "nvidia_financing"
+    ],
+    "eligible_tweets": [
+      "2121382664720863533",
+      "2121393821955334328",
+      "2121401747734208740",
+      "2121581040972255257",
+      "2121595922090230033",
+      "2121614134001467703",
+      "2121642720045261185",
+      "2121725048402681946",
+      "2121727861773987969",
+      "2121751565845360769",
+      "2121881702247387455"
+    ]
+  },
+  "eligible_denominator": 19,
+  "source_hashes": {
+    "2026-11-15/deepseek-v4-1-flash-1017/2026-11-15.edition.md": "fb37297af24b0b531e805c7c6f0a6e03ba7826f03fae6fe2bc3f63dc14e129b7",
+    "2026-11-15/deepseek-v4-1-flash-1017/2026-11-15.html": "31da3ca50c55ffd8134aaf8278f8cf4320978baa1ea670f81b7e1d279e69ae45",
+    "2026-11-15/deepseek-v4-1-flash-1017/run.json": "1169501b47b51b18b25ab7ce1a0b0b535b770d8f6475c734b829bc480589ebe8",
+    "2026-11-15/deepseek-v4-1-flash-1017/headline.json": "cd184bdfc52323c9e87cc8d3d9161b9d564022c20906fa653f5109d656c8c46e",
+    "2026-11-15/deepseek-v4-1-flash-1017/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/deepseek-v4-1-flash-1017/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/deepseek-v4-pro/2026-11-15.edition.md": "7abf8081eaf894c52e631afa085bb23fc9eca62898571dd5d682bcd379f5f537",
+    "2026-11-15/deepseek-v4-pro/2026-11-15.html": "0cf5f5e8c5fa5cc36d299c247c5c91e57bd8b79e32ba7cd2568091a1139ba0eb",
+    "2026-11-15/deepseek-v4-pro/run.json": "1e864944ace7d5bc59c465b30bc8ade39d2eee638cb3dc938de9e76746f43bc4",
+    "2026-11-15/deepseek-v4-pro/headline.json": "9724e93638276d28d4d9a6a16efe8fba07ef55227a0bc17d893b50bd56b1c7a2",
+    "2026-11-15/deepseek-v4-pro/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/deepseek-v4-pro/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/fable-5-1/2026-11-15.edition.md": "f8bda77b1752e5d79af6d1f49127d7e165701866003441be45cc7c024f805a34",
+    "2026-11-15/fable-5-1/2026-11-15.html": "33fd2254b2a7aef7e4f16cfd5bb7a7090cab8a5d818e89fa3843f7d853edddaf",
+    "2026-11-15/fable-5-1/run.json": "7b80781603fe5bb81e32353ef8868daf3bd5976fd2cc00809bc84cc4d61b05ce",
+    "2026-11-15/fable-5-1/headline.json": "d973cc0331c58981438b6058ae10aafa4a44e7937b9b5d566c5321fcbf51b7c0",
+    "2026-11-15/fable-5-1/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/fable-5-1/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/fable-5-2/2026-11-15.edition.md": "32c59cfda86ec01e26efabd8de23a33e5472fc935bff2e2f32b69e09458ac630",
+    "2026-11-15/fable-5-2/2026-11-15.html": "4b1b71bdd75dc230c6be764ade6153cff770e0d2ad1aeb43292d1a146e0cdccf",
+    "2026-11-15/fable-5-2/run.json": "9ed630ec6b60c1f9b056e0c526313dd36cd26e56033dd92167c73f35bb4592a7",
+    "2026-11-15/fable-5-2/headline.json": "ec6b7e7b2abdd3c9059fe6329b2290edc2999b54adb0037e1099fff960f974b3",
+    "2026-11-15/fable-5-2/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/fable-5-2/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/gemini-4-argon/2026-11-15.edition.md": "0e1dfe7df3e6f0f2aed28546dd7dbaa332230c35ad31fa593d0604e87642278a",
+    "2026-11-15/gemini-4-argon/2026-11-15.html": "eeb511f261da10a319b230b92d425d6f930870af38a4ae87ba9941336b98150c",
+    "2026-11-15/gemini-4-argon/run.json": "5d654c4a057cad566bb6b344d6f8ea8e1db6272cd56d93ce78627d3d99c9b207",
+    "2026-11-15/gemini-4-argon/headline.json": "8d2af3c18aa1409ac0f8f4c7d4498c30514ce21a90dcdac3fb94a979f9f39e3e",
+    "2026-11-15/gemini-4-argon/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/gemini-4-argon/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/gemini-4-carbon/2026-11-15.edition.md": "0c7d36820006fc7343c07aeac58cd489acd6ed303113e581c055297b52eeaf99",
+    "2026-11-15/gemini-4-carbon/2026-11-15.html": "ab68a93250a7b2040c5135a899c22f78fb601cc9c2995ec67abe6ca3150f5eb8",
+    "2026-11-15/gemini-4-carbon/run.json": "92b37cebc700f2008f3d056809caedbb32c699bf4b0ca86d0afa7b4419caa0a4",
+    "2026-11-15/gemini-4-carbon/headline.json": "e3b8de95f7eef8fb060031580b53fa91b8cb758ab56be8329e440e003f227e30",
+    "2026-11-15/gemini-4-carbon/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/gemini-4-carbon/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/gemini-4-hydrogen/2026-11-15.edition.md": "d859ed5b0917dbeb9bb76c180f39aed80307a6aa8684cef3dc725bb717605cec",
+    "2026-11-15/gemini-4-hydrogen/2026-11-15.html": "4a12e5727c65c327eeb62308d70b8016c82a9bcd469a561a3454c42da4335ba9",
+    "2026-11-15/gemini-4-hydrogen/run.json": "c847aad00fdd6c1aa673f0b382a90794d71829baa1e6a801a2d6e113f6ab7781",
+    "2026-11-15/gemini-4-hydrogen/headline.json": "f2737e4815a2515e630f0cf63a36794e976660912c4b72f046a6ccf0ff314bc5",
+    "2026-11-15/gemini-4-hydrogen/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/gemini-4-hydrogen/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/glm-5-3/2026-11-15.edition.md": "d9f16b2c0341689cc2169d14cbf6910d2941011236465c894874cd4e8cd95203",
+    "2026-11-15/glm-5-3/2026-11-15.html": "6e1294f200de690cc888881c9fab7929f7685723dfa2c0dafab227303a1b1c39",
+    "2026-11-15/glm-5-3/run.json": "e89e9751a0c5e4a7a28a7ca1cc87047467cfd4b30e7c18798fc038722e2f9779",
+    "2026-11-15/glm-5-3/headline.json": "3461187d3764deb2b85e0891bebe673980a645dc38a218761d4bad3bc2c8e6e2",
+    "2026-11-15/glm-5-3/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/glm-5-3/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/gpt-6-1-sol/2026-11-15.edition.md": "2d8eca5f04494c432f0b1a84840e5206fc71a5bb85c823a98d6df5317e734c67",
+    "2026-11-15/gpt-6-1-sol/2026-11-15.html": "ac8c3d8e32d3e45913b417b18ad68bb7561371aad1f940803e7fe4f15ee331fb",
+    "2026-11-15/gpt-6-1-sol/run.json": "21fd86c17d61df447d832ae75931c4da5991b470a0730f71e8b1ce73b825abf3",
+    "2026-11-15/gpt-6-1-sol/headline.json": "f28a65d1243b85910692d10bca994702314fa346b7b1becc904a5413812364a6",
+    "2026-11-15/gpt-6-1-sol/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/gpt-6-1-sol/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/gpt-6-1-terra/2026-11-15.edition.md": "1cbf4b87e9954bb44d5dadc716663eead59bfb4db45433c613c838710693b2f2",
+    "2026-11-15/gpt-6-1-terra/2026-11-15.html": "ee33edebda939b47deaae98b4370a9469c0f2eb4bcc9ded2a625219c9740d0ab",
+    "2026-11-15/gpt-6-1-terra/run.json": "202abc5de0beb5751cf34e1b0fa5d7cb469486115eaedcfefa09b679b3d6fbd9",
+    "2026-11-15/gpt-6-1-terra/headline.json": "1f23e3dc9ff766ec6beae272c51296f759b1e74e904dccd9620c0170e7ad8bb5",
+    "2026-11-15/gpt-6-1-terra/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/gpt-6-1-terra/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/gpt-6-astra/2026-11-15.edition.md": "7f8295f4889ea49cbc513ede0d5a2963f20aef416f0b6f6cc2bd40363a450db3",
+    "2026-11-15/gpt-6-astra/2026-11-15.html": "b3f8e979eb14f58230b137f76312594942b502ec9f3d63d8dabd0e6f3b50f9d3",
+    "2026-11-15/gpt-6-astra/run.json": "c84fc7412dfb0b7839b58e35baedd3a1bb1a83e81ceb839ad3f77374ccdec555",
+    "2026-11-15/gpt-6-astra/headline.json": "01739b82596817df762b45e35a0e6eee670e011d8589e3e0e4afd2d188113f35",
+    "2026-11-15/gpt-6-astra/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/gpt-6-astra/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/gpt-6-luna/2026-11-15.edition.md": "9c7ac4fd31b3dac29f81b8524d0aed244ff747b3dc353b7d8afdb3a801f442d3",
+    "2026-11-15/gpt-6-luna/2026-11-15.html": "ed49ff034e496e37ded102d46204a6860acd7a5dbd16d30125ddbae70f4f1890",
+    "2026-11-15/gpt-6-luna/run.json": "8a13b567da4cbd214b422d871e553a390224d89710b806cd1064c939ff688751",
+    "2026-11-15/gpt-6-luna/headline.json": "b62b03b8147854e64853c10a22700c7dcc2cbead5e28d03334a0e8ae22aab06a",
+    "2026-11-15/gpt-6-luna/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/gpt-6-luna/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/grok-4-7/2026-11-15.edition.md": "3c4a849162f630d56d4a693f3d979a551c2b4a7305bf285f81d5093c0ed5dc0b",
+    "2026-11-15/grok-4-7/2026-11-15.html": "7a4f9142e1770e269917ae571f9b86069bafd2f9bfb875860b59d8fb5ea40b7d",
+    "2026-11-15/grok-4-7/run.json": "427928f9ff6dad454caa8bc810c99ed444518b4dcc623c003b7bee145a7c4471",
+    "2026-11-15/grok-4-7/headline.json": "2de43a1c92748e9d458c9c754f81aa60c56e4b26b0680102e4f537fc27b04a9e",
+    "2026-11-15/grok-4-7/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/grok-4-7/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/haiku-5-5/2026-11-15.edition.md": "a8563982b70b2a4c5deb1920f28df071ff8cde1634c662942321f0cd8f8107b6",
+    "2026-11-15/haiku-5-5/2026-11-15.html": "49e12053e1221c2d7a6d3e90be8df71ee13d9919c62194fb5b63428d6d35c958",
+    "2026-11-15/haiku-5-5/run.json": "a6c82d57da1dc3ed75ea230f41f14acfb0b32812f8dc0cda9f2ab55ffe5a3890",
+    "2026-11-15/haiku-5-5/headline.json": "3d8a479c103f71aa10e0be4677f2b7fe759597ff0490fa9e8932abc963bf9167",
+    "2026-11-15/haiku-5-5/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/haiku-5-5/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/kimi-k3-1-pro/2026-11-15.edition.md": "206074a2f2424b04cf20c11180943161e3387d5984e727ddd4a85125c2ada697",
+    "2026-11-15/kimi-k3-1-pro/2026-11-15.html": "033def3c09d3bc2e990d4dc7fd7dd7cfa7d4e77cd12e4a8b7465075a5b35b7ec",
+    "2026-11-15/kimi-k3-1-pro/run.json": "695f41a8cac60af14dff3890143b6c5e35ef66b7d5befb23053b9445dd069785",
+    "2026-11-15/kimi-k3-1-pro/headline.json": "c7b8e91aa5d4379ea8426af246408faa61091e4168256c4bc9a22e72c71aaf3d",
+    "2026-11-15/kimi-k3-1-pro/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/kimi-k3-1-pro/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/minimax-m3-1-flash/2026-11-15.edition.md": "09ffbec397d9875031cace146284f121351bdce87fc5fd0bb80a965f0833bf44",
+    "2026-11-15/minimax-m3-1-flash/2026-11-15.html": "f3c536200a0168f116ec7d415456a20557a0ac3e091193b9af3266ad1d84d206",
+    "2026-11-15/minimax-m3-1-flash/run.json": "eeb0f579ae3e4f137e4e8d06a9ce854217b8f16ca7999eefe1d552cde2a9a717",
+    "2026-11-15/minimax-m3-1-flash/headline.json": "eb55b32cdc8c012f7ef47b357fe58203a0dbcceb5decbb36183a9edaedfa95e3",
+    "2026-11-15/minimax-m3-1-flash/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/minimax-m3-1-flash/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/opus-5-5/2026-11-15.edition.md": "a85b65deaf2277b5b18afc94713ca4dbb2bb3fc78d186358a291713b1aa6c2ab",
+    "2026-11-15/opus-5-5/2026-11-15.html": "29bc32e32f54e5518b112a1fd7149c0859343a331d1213218b520befa73ff391",
+    "2026-11-15/opus-5-5/run.json": "ad427113fa1e3d54a2be380fc31d7234f31efaaab20278b131812212981b9688",
+    "2026-11-15/opus-5-5/headline.json": "ad1ec998f5cb4a7c1aa77e95956b35e04d2fdf78f48654cc9e14584e7ba65e87",
+    "2026-11-15/opus-5-5/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/opus-5-5/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/qwen-3-8-max-0902/2026-11-15.edition.md": "4e448729fbe5927df82d2a022eee45cf4005f0dbda2401129dd41f69b2e9657f",
+    "2026-11-15/qwen-3-8-max-0902/2026-11-15.html": "be8483782ca865d0024c68109df74a1577e29f92e19e109f29198a99a2f37772",
+    "2026-11-15/qwen-3-8-max-0902/run.json": "3e1a03cf9a8b0852b20ed05672120e7089a14ca9e9a7c6c28045c19a4de577cb",
+    "2026-11-15/qwen-3-8-max-0902/headline.json": "131cb8180c6e62a43facdd0a7779a2ffdd6f049f2c72db90d8404c2d44c1593b",
+    "2026-11-15/qwen-3-8-max-0902/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/qwen-3-8-max-0902/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0",
+    "2026-11-15/sonnet-5-5/2026-11-15.edition.md": "1c0c696396b2accdcb8dbbe0699c4a09f8304fe19b492187e3d16fad93c1b1d3",
+    "2026-11-15/sonnet-5-5/2026-11-15.html": "25d037a3658b26c2860fa8c8568b3f627985186213590a0c530996953d0aa773",
+    "2026-11-15/sonnet-5-5/run.json": "1f4e38f4303d1c320058d73785c0b39860782903c7100e7e7b1d9eca083b3a03",
+    "2026-11-15/sonnet-5-5/headline.json": "1478546aaa7d954c0613300fc4f303b31ca02d06231491c0ddf18b1120ceb72b",
+    "2026-11-15/sonnet-5-5/2026-11-15.x-collection.json": "0c4e198c7e11761316b4292d0c898ab6192a060e82b0af81166c712ad9d48afe",
+    "2026-11-15/sonnet-5-5/2026-11-15.web-search.json": "6040994d2e00467ab3237cd86a4de4d912260f3a74f7a84ba0ed03ee19b6cad0"
+  },
+  "event_url_bindings": {
+    "deepseek-v4-1-flash-1017": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "anthropic_ipo": "https://www.cnbctv18.com/market/anthropic-ipo-mega-issue-oversubscribed-6-times-20033062.htm",
+      "antigravity": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "inkling2": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics"
+    },
+    "deepseek-v4-pro": {
+      "nvidia_huang_exit": "https://www.nytimes.com/interactive/2026/11/13/technology/nvidia-jensen-huang.html",
+      "nvidia_financing": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "inhouse_chips": "https://x.com/SemiAnalysis_/status/2121725048402681946",
+      "langchain_300m": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "hinton_eu": "https://cryptobriefing.com/hinton-warns-eu-leaders-ai-18-months/"
+    },
+    "fable-5-1": {
+      "robotics_disband": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "anthropic_ipo": "https://techxplore.com/news/2026-11-anthropic-ceo-investors-safety-jerks.html",
+      "cloudflare_pentest": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "ai_debt_687b": "https://economictimes.indiatimes.com/ai/ai-insights/ai-debt-hits-687-billion-as-big-techs-funding-appetite-soars/articleshow/135824839.cms"
+    },
+    "fable-5-2": {
+      "robotics_disband": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "inkling2": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "anthropic_ipo": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+      "nvidia_financing": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html"
+    },
+    "gemini-4-argon": {
+      "decider_v13": "https://alphasignal.ai/news/perplexity-s-decider-v1-3-hits-top-10-with-open-weight-agent-decisions",
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "cloudflare_pentest": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "ai_debt_687b": "https://economictimes.indiatimes.com/ai/ai-insights/ai-debt-hits-687-billion-as-big-techs-funding-appetite-soars/articleshow/135824839.cms"
+    },
+    "gemini-4-carbon": {
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "robotics_disband": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "cloudflare_pentest": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "godel": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+    },
+    "gemini-4-hydrogen": {
+      "ai_debt_687b": "https://economictimes.indiatimes.com/ai/ai-insights/ai-debt-hits-687-billion-as-big-techs-funding-appetite-soars/articleshow/135824839.cms",
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics",
+      "fed_inflation": "https://newsable.asianetnews.com/markets/fed-vice-chair-says-ai-s-trillion-dollar-infrastructure-push-is-adding-to-inflation-pressures-articleshow-81apw7n",
+      "decider_v13": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "toner_safety": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+    },
+    "glm-5-3": {
+      "nvidia_financing": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "daybreak": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "decider_v13": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "ai_debt_687b": "https://economictimes.indiatimes.com/ai/ai-insights/ai-debt-hits-687-billion-as-big-techs-funding-appetite-soars/articleshow/135824839.cms"
+    },
+    "gpt-6-1-sol": {
+      "decider_v13": "https://x.com/ArtificialAnlys/status/2121595922090230033",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics",
+      "cloudflare_pentest": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "hubspot_pricing": "https://x.com/dharmesh/status/2121702308509806735"
+    },
+    "gpt-6-1-terra": {
+      "decider_v13": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "satbench": "https://x.com/emollick/status/2121751565845360769",
+      "nvidia_financing": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html"
+    },
+    "gpt-6-astra": {
+      "decider_v13": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "inkling2": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "cloudflare_pentest": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics"
+    },
+    "gpt-6-luna": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "drug_dev": "https://www.anthropic.com/research/early-progress-drug-development",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "ai_debt_687b": "https://www.tribuneindia.com/news/business/ai-related-debt-exposure-touches-usd-687-billion-as-financing-commitments-mount-goldman-sachs",
+      "nvidia_recycling": "https://x.com/nvidia/status/2121647261155570145"
+    },
+    "grok-4-7": {
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "robotics_disband": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "decider_v13": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "godel": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "cloudflare_pentest": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+    },
+    "haiku-5-5": {
+      "anthropic_ipo": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+      "nvidia_financing": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "daybreak": "https://aiweekly.co/alerts/openai-ships-daybreak-red-team-and-defense-factory-agents",
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+    },
+    "kimi-k3-1-pro": {
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "decider_v13": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "coding_index": "https://alphasignal.ai/news/artificial-analysis-frontiercode-2-0-drops-coding-agent-scores-by-16-points",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "ai_debt_687b": "https://economictimes.indiatimes.com/ai/ai-insights/ai-debt-hits-687-billion-as-big-techs-funding-appetite-soars/articleshow/135824839.cms"
+    },
+    "minimax-m3-1-flash": {
+      "chatgpt_wallet": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "nvidia_financing": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "blackwell_forensics": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "godel": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328"
+    },
+    "opus-5-5": {
+      "anthropic_ipo": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+      "inkling2": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "robotics_disband": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "godel": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "cloudflare_pentest": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+    },
+    "qwen-3-8-max-0902": {
+      "decider_v13": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "nvidia_financing": "https://en.sedaily.com/finance/2026/11/14/nvidias-500-billion-ai-financing-plan-falters-after-huang",
+      "godel": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "inkling2": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "hubspot_ceo": "https://ir.hubspot.com/news-releases/news-release-details/hubspot-announces-leadership-transition-co-founder-brian"
+    },
+    "sonnet-5-5": {
+      "blackwell_forensics": "https://unemploymentlabs.com/checkpoint-forensics",
+      "godel": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "inkling2": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "coding_index": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "anthropic_rivals": "https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "fable-5-1",
+      "story": "blackwell_forensics",
+      "reason": "cited TechCrunch coverage rather than the unemploymentlabs.com primary study; same forensics claim"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "blackwell_forensics",
+      "reason": "cited TechCrunch coverage rather than the unemploymentlabs.com primary study; same forensics claim"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "blackwell_forensics",
+      "reason": "cited TechCrunch coverage rather than the unemploymentlabs.com primary study; same forensics claim"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "blackwell_forensics",
+      "reason": "cited TechCrunch coverage rather than the unemploymentlabs.com primary study; same forensics claim"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "blackwell_forensics",
+      "reason": "cited TechCrunch coverage rather than the unemploymentlabs.com primary study; same forensics claim"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "blackwell_forensics",
+      "reason": "cited TechCrunch coverage rather than the unemploymentlabs.com primary study; same forensics claim"
+    },
+    {
+      "model": "minimax-m3-1-flash",
+      "story": "blackwell_forensics",
+      "reason": "cited TechCrunch coverage rather than the unemploymentlabs.com primary study; same forensics claim"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "inhouse_chips",
+      "reason": "cited the @SemiAnalysis tweet as the story source; same customers-building-chips analysis"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "decider_v13",
+      "reason": "cited AlphaSignal coverage rather than the Perplexity blog; same Decider v1.3 release"
+    },
+    {
+      "model": "gpt-6-1-sol",
+      "story": "decider_v13",
+      "reason": "cited the @ArtificialAnlys announcement tweet rather than the Perplexity blog; same Decider v1.3 release"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "coding_index",
+      "reason": "cited AlphaSignal coverage rather than the @ArtificialAnlys tweet; same coding agent index refresh"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "inkling2",
+      "reason": "cited the Hugging Face model page rather than thinkingmachines.ai; same Inkling 2 Small release"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "inkling2",
+      "reason": "cited the Hugging Face model page rather than thinkingmachines.ai; same Inkling 2 Small release"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "inkling2",
+      "reason": "cited the Hugging Face model page rather than thinkingmachines.ai; same Inkling 2 Small release"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "ai_debt_687b",
+      "reason": "cited Tribune India coverage rather than Economic Times; same Goldman Sachs $687B tally"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "nvidia_financing",
+      "reason": "cited Seeking Alpha (sedaily) coverage rather than CNBC; same post-Huang financing scrutiny"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "daybreak",
+      "reason": "cited AIWeekly coverage rather than openai.com; same Daybreak platform expansion"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "coding_index",
+      "reason": "cited the @ArtificialAnlys tweet; same coding agent index refresh as the alphasignal single-model row elsewhere is not a grouping artifact"
+    }
+  ]
+}
