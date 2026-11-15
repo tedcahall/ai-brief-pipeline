@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Max’s AI Brief · 2026-10-31 · Compare models</title>
+<style>
+:root{color-scheme:light;--ink:#182a3d;--muted:#55677b;--border:#d6e0e8;--accent:#155f75}
+*{box-sizing:border-box}body{margin:0;background:#edf2f5;color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+main{max-width:1400px;margin:auto;padding:24px}a{color:var(--accent)}nav a{text-decoration:none;font-weight:600}
+header{margin:24px 0}h1{font-size:clamp(25px,3vw,38px);margin:0}h2{margin:0;font-size:22px}.eyebrow{color:var(--accent);font-size:12px;font-weight:750;letter-spacing:.13em;text-transform:uppercase}p{color:var(--muted);margin:8px 0}
+.panel{background:#fff;border:1px solid var(--border);border-radius:16px;padding:20px;margin-bottom:24px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}.actions{display:flex;gap:8px;flex-wrap:wrap}
+button,select{font:inherit;border:1px solid #a9bac7;border-radius:8px;padding:9px 12px;background:#fff;color:var(--ink)}button{cursor:pointer}button:hover{background:#eaf3f6}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #1286ad;outline-offset:3px}
+.primary{background:var(--accent);color:white}.primary:hover{background:#10495b}.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin-top:16px}.pane{min-width:0;border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#f7fafc}.picker{padding:12px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}label{font-weight:650;font-size:13px}select{width:100%;min-width:0}.original{font-size:13px;margin-left:auto}iframe{display:block;border:0;border-top:1px solid var(--border);background:white;width:100%;height:70vh;min-height:450px}
+.archive{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px 24px;padding-left:22px}.archive a{overflow-wrap:anywhere}#status{font-size:13px;min-height:20px}body.wide main{max-width:none;padding:12px}body.wide header,body.wide nav,body.wide #archive{display:none}body.wide iframe{height:calc(100vh - 235px)}[hidden]{display:none!important}
+@media(max-width:760px){main{padding:14px}.panel{padding:14px}.grid{grid-template-columns:1fr}iframe,body.wide iframe{height:70vh;min-height:380px}.actions{width:100%}h1{font-size:26px}}
+</style>
+<link href="../assets/archive.css" rel="stylesheet"/></head>
+<body class="daily"><main>
+<nav><a href="../">← All dates</a><a data-day="../2026-10-30/" href="../2026-10-30/" style="margin-left:24px">Older day →</a><a data-day="../2026-11-01/" href="../2026-11-01/" style="margin-left:24px">← Newer day</a></nav>
+<header><div class="eyebrow">MAX’S AI BRIEF / MODEL COMPARISON</div><h1>October 31, 2026</h1><p>13 archived reports. Choose two models and explore their work side by side.</p></header>
+<button aria-controls="compare" aria-expanded="false" id="mobile-compare" type="button">Compare models (optional)</button><section aria-labelledby="compare-title" class="panel" hidden="" id="compare">
+<div class="toolbar"><div><h2 id="compare-title">Compare models</h2><p>Same day. Two perspectives. Scroll each report independently.</p></div>
+<div class="actions"><button id="swap" type="button">⇄ Swap sides</button><button aria-pressed="false" id="wide" type="button">Wide view</button><button class="primary" id="share" type="button">Copy comparison link</button></div></div>
+<div class="grid">
+<div class="pane"><div class="picker"><label for="left">Left model</label><a class="original" id="left-original" rel="noopener" target="_blank">Open original ↗</a><select id="left"><option value="deepseek-v4-1-flash-1017/2026-10-31.html">deepseek-v4-1-flash-1017</option><option value="deepseek-v4-pro/2026-10-31.html">deepseek-v4-pro</option><option value="glm-5-3/2026-10-31.html">glm-5-3</option><option value="gpt-6-1-sol/2026-10-31.html">gpt-6-1-sol</option><option value="gpt-6-1-terra/2026-10-31.html">gpt-6-1-terra</option><option value="gpt-6-astra/2026-10-31.html">gpt-6-astra</option><option value="gpt-6-astra-openrouter-fresh/2026-10-31.html">gpt-6-astra-openrouter-fresh</option><option value="gpt-6-luna/2026-10-31.html">gpt-6-luna</option><option value="grok-4-7/2026-10-31.html">grok-4-7</option><option value="kimi-k3-1-pro/2026-10-31.html">kimi-k3-1-pro</option><option value="minimax-m3-1-flash/2026-10-31.html">minimax-m3-1-flash</option><option value="opus-5-5/2026-10-31.html">opus-5-5</option><option value="qwen-3-8-max-0902/2026-10-31.html">qwen-3-8-max-0902</option></select></div><iframe id="left-frame" referrerpolicy="no-referrer" sandbox="allow-popups allow-popups-to-escape-sandbox" title="Left model brief"></iframe></div>
+<div class="pane"><div class="picker"><label for="right">Right model</label><a class="original" id="right-original" rel="noopener" target="_blank">Open original ↗</a><select id="right"><option value="deepseek-v4-1-flash-1017/2026-10-31.html">deepseek-v4-1-flash-1017</option><option value="deepseek-v4-pro/2026-10-31.html">deepseek-v4-pro</option><option value="glm-5-3/2026-10-31.html">glm-5-3</option><option value="gpt-6-1-sol/2026-10-31.html">gpt-6-1-sol</option><option value="gpt-6-1-terra/2026-10-31.html">gpt-6-1-terra</option><option value="gpt-6-astra/2026-10-31.html">gpt-6-astra</option><option value="gpt-6-astra-openrouter-fresh/2026-10-31.html">gpt-6-astra-openrouter-fresh</option><option value="gpt-6-luna/2026-10-31.html">gpt-6-luna</option><option value="grok-4-7/2026-10-31.html">grok-4-7</option><option value="kimi-k3-1-pro/2026-10-31.html">kimi-k3-1-pro</option><option value="minimax-m3-1-flash/2026-10-31.html">minimax-m3-1-flash</option><option value="opus-5-5/2026-10-31.html">opus-5-5</option><option value="qwen-3-8-max-0902/2026-10-31.html">qwen-3-8-max-0902</option></select></div><iframe id="right-frame" referrerpolicy="no-referrer" sandbox="allow-popups allow-popups-to-escape-sandbox" title="Right model brief"></iframe></div>
+</div><p aria-live="polite" id="status" role="status"></p>
+</section>
+<section class="panel" id="archive"><h2>All 13 reports</h2><p>Original HTML files, unchanged.</p><ul class="archive"><li><a href="deepseek-v4-1-flash-1017/2026-10-31.html">deepseek-v4-1-flash-1017</a></li><li><a href="deepseek-v4-pro/2026-10-31.html">deepseek-v4-pro</a></li><li><a href="glm-5-3/2026-10-31.html">glm-5-3</a></li><li><a href="gpt-6-1-sol/2026-10-31.html">gpt-6-1-sol</a></li><li><a href="gpt-6-1-terra/2026-10-31.html">gpt-6-1-terra</a></li><li><a href="gpt-6-astra/2026-10-31.html">gpt-6-astra</a></li><li><a href="gpt-6-astra-openrouter-fresh/2026-10-31.html">gpt-6-astra-openrouter-fresh</a></li><li><a href="gpt-6-luna/2026-10-31.html">gpt-6-luna</a></li><li><a href="grok-4-7/2026-10-31.html">grok-4-7</a></li><li><a href="kimi-k3-1-pro/2026-10-31.html">kimi-k3-1-pro</a></li><li><a href="minimax-m3-1-flash/2026-10-31.html">minimax-m3-1-flash</a></li><li><a href="opus-5-5/2026-10-31.html">opus-5-5</a></li><li><a href="qwen-3-8-max-0902/2026-10-31.html">qwen-3-8-max-0902</a></li></ul></section>
+</main>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const models = Array.from($('left').options, option => option.value);
+const requested = {};
+let missingNotice = '';
+const modelId = value => (value || '').split('/')[0];
+function readSelection() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  const missing = [];
+  for (const side of ['left', 'right']) {
+    const preferred = side === 'left' ? 'glm-5-3' : 'opus-5-5';
+    const raw = p.get(side);
+    // Accept both legacy full-path share links and stable model IDs.
+    const match = models.find(value => value === raw || modelId(value) === modelId(raw));
+    const fallback = models.find(value => modelId(value) === preferred) || models[side === 'left' ? 0 : 1] || models[0];
+    $(side).value = match || fallback;
+    requested[side] = raw ? modelId(raw) : modelId($(side).value);
+    if (raw && !match) missing.push(requested[side]+' is unavailable on this day; showing '+modelId($(side).value)+' on the '+side+'.');
+  }
+  missingNotice = missing.join(' ');
+  update(false);
+}
+function updateDayLinks() {
+  const hash = '#'+new URLSearchParams(requested);
+  document.querySelectorAll('nav a[data-day]').forEach(link => {
+    link.href = link.dataset.day + hash;
+  });
+}
+function update(save = true) {
+  for (const side of ['left', 'right']) {
+    const name = $(side).value;
+    if (!models.includes(name)) return;
+    if ($(side+'-frame').getAttribute('src') !== name) $(side+'-frame').src = name;
+    $(side+'-frame').title = side+' model brief: '+modelId(name);
+    $(side+'-original').href = name;
+  }
+  if (save) {
+    for (const side of ['left','right']) requested[side] = modelId($(side).value);
+    missingNotice = '';
+    history.replaceState(null, '', '#'+new URLSearchParams(requested));
+  }
+  updateDayLinks();
+  $('status').textContent = missingNotice || ($('left').value === $('right').value ? 'Both panes show the same model. Select another to compare.' : 'Each pane scrolls independently. Use Open original for a full-width report.');
+}
+for (const side of ['left','right']) $(side).addEventListener('change', () => update());
+$('swap').addEventListener('click', () => {const old = $('left').value; $('left').value=$('right').value; $('right').value=old; update();});
+$('wide').addEventListener('click', () => {const wide=document.body.classList.toggle('wide'); $('wide').setAttribute('aria-pressed',String(wide)); $('wide').textContent=wide?'Exit wide view':'Wide view';});
+document.addEventListener('keydown', event => {if(event.key==='Escape' && document.body.classList.contains('wide')) $('wide').click();});
+$('share').addEventListener('click', async () => {
+  update();
+  try {
+    if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(location.href);
+    else {
+      const field=document.createElement('textarea');field.value=location.href;field.style.position='fixed';field.style.opacity='0';document.body.append(field);field.select();
+      const copied=document.execCommand('copy');field.remove();$('share').focus();if(!copied) throw new Error('Copy unavailable');
+    }
+    $('status').textContent='Comparison link copied.';
+  } catch (_) { $('status').textContent='Copy the address from your browser to share this comparison.'; }
+});
+window.addEventListener('hashchange', readSelection);
+if(models.length){$('compare').hidden=false;readSelection();}
+</script>
+<script>document.getElementById('mobile-compare').addEventListener('click',function(){const open=document.body.classList.toggle('mobile-comparing');this.setAttribute('aria-expanded',String(open));this.textContent=open?'Hide comparison':'Compare models (optional)';});</script></body></html>
