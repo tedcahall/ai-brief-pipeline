@@ -1,0 +1,3863 @@
+{
+  "title": "Who Max Follows",
+  "profile_snapshot_at": "2026-11-15T17:06:57.819570+00:00",
+  "accounts": [
+    {
+      "id": "61559439",
+      "handle": "nvidia",
+      "name": "NVIDIA",
+      "name_unverified": false,
+      "companies": [
+        "NVIDIA"
+      ],
+      "bio": "The official handle for NVIDIA. \n\nSupport: https://t.co/6ln5FVn2cQ",
+      "location": "Santa Clara, CA",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "nvda.ws/2ei5pio",
+              "end": 66,
+              "expanded_url": "http://nvda.ws/2ei5pio",
+              "start": 43,
+              "url": "https://t.co/6ln5FVn2cQ"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "nvidia.com",
+              "end": 23,
+              "expanded_url": "https://www.nvidia.com",
+              "start": 0,
+              "url": "https://t.co/d1gaHqteU5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "740238495952736256",
+      "handle": "NVIDIAAI",
+      "name": "NVIDIA AI",
+      "name_unverified": false,
+      "companies": [
+        "NVIDIA"
+      ],
+      "bio": "Teaching your AI new tricks.",
+      "location": "Santa Clara, CA",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "developer.nvidia.com",
+              "end": 23,
+              "expanded_url": "https://developer.nvidia.com/",
+              "start": 0,
+              "url": "https://t.co/Cv3zwlWufE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1853898859455348736",
+      "handle": "NVIDIARTXSpark",
+      "name": "NVIDIA RTX Spark",
+      "name_unverified": false,
+      "companies": [
+        "NVIDIA"
+      ],
+      "bio": "A new beginning.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "nvidia.com/en-us/products…",
+              "end": 23,
+              "expanded_url": "https://www.nvidia.com/en-us/products/rtx-spark",
+              "start": 0,
+              "url": "https://t.co/q6U3EyVmN9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1353836358901501952",
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
+      "name_unverified": false,
+      "companies": [
+        "Anthropic"
+      ],
+      "bio": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 137,
+              "start": 128,
+              "username": "claudeai"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "claude.ai",
+              "end": 164,
+              "expanded_url": "https://claude.ai",
+              "start": 141,
+              "url": "https://t.co/FhDI3KQh0n"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "anthropic.com",
+              "end": 23,
+              "expanded_url": "https://anthropic.com",
+              "start": 0,
+              "url": "https://t.co/w94SABjAXZ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1943306828697550848",
+      "handle": "claudeai",
+      "name": "Claude",
+      "name_unverified": false,
+      "companies": [
+        "Anthropic"
+      ],
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 47,
+              "start": 35,
+              "username": "anthropicai"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "claude.ai",
+              "end": 123,
+              "expanded_url": "http://claude.ai",
+              "start": 100,
+              "url": "https://t.co/ZhTwG8d1e5"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "claude.ai",
+              "end": 23,
+              "expanded_url": "http://claude.ai",
+              "start": 0,
+              "url": "https://t.co/ZhTwG8d1e5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4398626122",
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "name_unverified": false,
+      "companies": [
+        "OpenAI"
+      ],
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "openai.com/jobs",
+              "end": 130,
+              "expanded_url": "http://openai.com/jobs",
+              "start": 107,
+              "url": "https://t.co/dJGr6LgzPA"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "openai.com",
+              "end": 23,
+              "expanded_url": "https://openai.com",
+              "start": 0,
+              "url": "https://t.co/3bPlZZkvdL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1633874951508721686",
+      "handle": "OpenAIDevs",
+      "name": "OpenAI Developers",
+      "name_unverified": false,
+      "companies": [
+        "OpenAI"
+      ],
+      "bio": "Official updates for developers building with Codex & the OpenAI Platform • Service status: https://t.co/kZwnwdYYEq",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "status.openai.com",
+              "end": 115,
+              "expanded_url": "https://status.openai.com",
+              "start": 92,
+              "url": "https://t.co/kZwnwdYYEq"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "developers.openai.com",
+              "end": 23,
+              "expanded_url": "https://developers.openai.com",
+              "start": 0,
+              "url": "https://t.co/0AWELwpzJK"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1803847768781524992",
+      "handle": "OpenAINewsroom",
+      "name": "OpenAI Newsroom",
+      "name_unverified": false,
+      "companies": [
+        "OpenAI"
+      ],
+      "bio": "The official newsroom for @OpenAI.",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 33,
+              "start": 26,
+              "username": "OpenAI"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "openai.com/news",
+              "end": 23,
+              "expanded_url": "http://openai.com/news",
+              "start": 0,
+              "url": "https://t.co/nEYf8IqBry"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "885220904761933824",
+      "handle": "MicrosoftAI",
+      "name": "Microsoft AI",
+      "name_unverified": false,
+      "companies": [
+        "Microsoft"
+      ],
+      "bio": "Building a new class of safer, more capable AI systems we call Humanist Superintelligence: AI that is always aligned, controllable, and in service of humanity.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "microsoft.ai",
+              "end": 23,
+              "expanded_url": "https://microsoft.ai/",
+              "start": 0,
+              "url": "https://t.co/4ZrA1S7hzV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1806359170830172162",
+      "handle": "GeminiApp",
+      "name": "Google Gemini",
+      "name_unverified": false,
+      "companies": [
+        "Google"
+      ],
+      "bio": "The Gemini app turns research into reality, bringing frontier AI experiences like Omni, Nano Banana, and more to over a billion people.",
+      "location": "Mountain View, CA",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "gemini.google.com",
+              "end": 23,
+              "expanded_url": "http://gemini.google.com",
+              "start": 0,
+              "url": "https://t.co/lc7BAJq9fW"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4783690002",
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "name_unverified": false,
+      "companies": [
+        "Google DeepMind",
+        "Google"
+      ],
+      "bio": "The engine room of @Google. Building AI safely and responsibly to solve the world’s most complex problems. Join us: https://t.co/jUHQA27iBL",
+      "location": "London, UK",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 26,
+              "start": 19,
+              "username": "Google"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "deepmind.google/careers/",
+              "end": 139,
+              "expanded_url": "https://deepmind.google/careers/",
+              "start": 116,
+              "url": "https://t.co/jUHQA27iBL"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "deepmind.google",
+              "end": 23,
+              "expanded_url": "http://deepmind.google",
+              "start": 0,
+              "url": "https://t.co/uR24kkWGVv"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1034844617261248512",
+      "handle": "AIatMeta",
+      "name": "AI at Meta",
+      "name_unverified": false,
+      "companies": [
+        "Meta"
+      ],
+      "bio": "We're building the future of personal superintelligence to help people create, connect, and achieve more in life.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "ai.meta.com",
+              "end": 23,
+              "expanded_url": "https://ai.meta.com",
+              "start": 0,
+              "url": "https://t.co/tB9HtThT7D"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1661523610111193088",
+      "handle": "SpaceXSI",
+      "name": "SpaceX Super Intelligence",
+      "name_unverified": false,
+      "companies": [
+        "SpaceX"
+      ],
+      "bio": "",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "x.ai",
+              "end": 23,
+              "expanded_url": "http://x.ai",
+              "start": 0,
+              "url": "https://t.co/pBuv1ZMyrR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1720665183188922368",
+      "handle": "grok",
+      "name": "Grok",
+      "name_unverified": false,
+      "companies": [
+        "SpaceX"
+      ],
+      "bio": "@grok it",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 5,
+              "start": 0,
+              "username": "grok"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "grok.com/download",
+              "end": 23,
+              "expanded_url": "http://grok.com/download",
+              "start": 0,
+              "url": "https://t.co/fqNKQSjjG9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2070631956824698880",
+      "handle": "JensenHuang",
+      "name": "Jensen Huang",
+      "name_unverified": false,
+      "companies": [
+        "NVIDIA"
+      ],
+      "bio": "Founder and CEO of NVIDIA.",
+      "location": "Santa Clara",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "nvidianews.nvidia.com/bios/jensen-hu…",
+              "end": 23,
+              "expanded_url": "https://nvidianews.nvidia.com/bios/jensen-huang",
+              "start": 0,
+              "url": "https://t.co/kWCNU4aFyt"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1605",
+      "handle": "sama",
+      "name": "Sam Altman",
+      "name_unverified": false,
+      "companies": [
+        "OpenAI"
+      ],
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "location": "SF",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "blog.samaltman.com",
+              "end": 23,
+              "expanded_url": "http://blog.samaltman.com",
+              "start": 0,
+              "url": "https://t.co/teHmy8EFSH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "874126509245476864",
+      "handle": "DarioAmodei",
+      "name": "Dario Amodei",
+      "name_unverified": false,
+      "companies": [
+        "Anthropic"
+      ],
+      "bio": "Anthropic CEO. https://t.co/qXHIf42jTl",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "darioamodei.com",
+              "end": 38,
+              "expanded_url": "http://darioamodei.com",
+              "start": 15,
+              "url": "https://t.co/qXHIf42jTl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1482581556",
+      "handle": "demishassabis",
+      "name": "Demis Hassabis",
+      "name_unverified": false,
+      "companies": [
+        "Google DeepMind",
+        "Alphabet",
+        "Isomorphic Labs"
+      ],
+      "bio": "Nobel Laureate. Co-Founder & Chair @GoogleDeepMind; Chief Scientist of Alphabet. Founder & CEO @IsomorphicLabs. Trying to understand the nature of reality...",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 50,
+              "start": 35,
+              "username": "GoogleDeepMind"
+            },
+            {
+              "end": 110,
+              "start": 95,
+              "username": "IsomorphicLabs"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "deepmind.com",
+              "end": 23,
+              "expanded_url": "http://www.deepmind.com",
+              "start": 0,
+              "url": "https://t.co/HBuykkIl9e"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2314443930",
+      "handle": "mustafasuleyman",
+      "name": "Mustafa Suleyman",
+      "name_unverified": false,
+      "companies": [
+        "Microsoft AI"
+      ],
+      "bio": "CEO, @MicrosoftAI | Author: The Coming Wave | Past: Co-founder, @InflectionAI & @GoogleDeepMind",
+      "location": "Palo Alto, CA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 17,
+              "start": 5,
+              "username": "MicrosoftAI"
+            },
+            {
+              "end": 77,
+              "start": 64,
+              "username": "InflectionAI"
+            },
+            {
+              "end": 95,
+              "start": 80,
+              "username": "GoogleDeepMind"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "microsoft.ai",
+              "end": 23,
+              "expanded_url": "http://microsoft.ai",
+              "start": 0,
+              "url": "https://t.co/h1oSjeU6Ww"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "162124540",
+      "handle": "gdb",
+      "name": "Greg Brockman",
+      "name_unverified": false,
+      "companies": [
+        "OpenAI"
+      ],
+      "bio": "President & Co-Founder @OpenAI",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 30,
+              "start": 23,
+              "username": "OpenAI"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "gregbrockman.com",
+              "end": 23,
+              "expanded_url": "http://gregbrockman.com",
+              "start": 0,
+              "url": "https://t.co/k4cALifwtx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "44196397",
+      "handle": "elonmusk",
+      "name": "Elon Musk",
+      "name_unverified": false,
+      "companies": [
+        "Terafab.AI"
+      ],
+      "bio": "https://t.co/ZdBx5WABYx",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "Terafab.AI",
+              "end": 23,
+              "expanded_url": "http://Terafab.AI",
+              "start": 0,
+              "url": "https://t.co/ZdBx5WABYx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "615818451",
+      "handle": "alexandr_wang",
+      "name": "Alexandr Wang",
+      "name_unverified": false,
+      "companies": [
+        "Meta",
+        "Meta Superintelligence Labs",
+        "Scale AI"
+      ],
+      "bio": "chief ai officer @meta, founder meta superintelligence labs, founder @scale_ai. give everyone the adulthood they dreamed of in childhood",
+      "location": "San Francisco, CA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 22,
+              "start": 17,
+              "username": "meta"
+            },
+            {
+              "end": 78,
+              "start": 69,
+              "username": "scale_ai"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "scale.com",
+              "end": 23,
+              "expanded_url": "https://scale.com",
+              "start": 0,
+              "url": "https://t.co/5m610IL18X"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "20571756",
+      "handle": "satyanadella",
+      "name": "Satya Nadella",
+      "name_unverified": false,
+      "companies": [
+        "Microsoft"
+      ],
+      "bio": "Chairman and CEO at Microsoft",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "snscratchpad.com",
+              "end": 23,
+              "expanded_url": "https://snscratchpad.com/",
+              "start": 0,
+              "url": "https://t.co/xe16J0ONIG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1376638214920753154",
+      "handle": "ThomasOrTK",
+      "name": "Thomas Kurian",
+      "name_unverified": false,
+      "companies": [
+        "Google Cloud"
+      ],
+      "bio": "CEO of @GoogleCloud",
+      "location": "Sunnyvale, CA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 19,
+              "start": 7,
+              "username": "GoogleCloud"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "cloud.google.com",
+              "end": 23,
+              "expanded_url": "http://cloud.google.com",
+              "start": 0,
+              "url": "https://t.co/iihNDkP28o"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "14130366",
+      "handle": "sundarpichai",
+      "name": "Sundar Pichai",
+      "name_unverified": false,
+      "companies": [
+        "Google",
+        "Alphabet"
+      ],
+      "bio": "CEO, Google and Alphabet",
+      "location": "",
+      "entities": {}
+    },
+    {
+      "id": "1667249535519805451",
+      "handle": "MistralAI",
+      "name": "Mistral AI",
+      "name_unverified": false,
+      "companies": [
+        "Mistral AI"
+      ],
+      "bio": "Frontier AI in your hands. Get work done with @MistralVibe at https://t.co/JsGnCVMUFq.",
+      "location": "Paris, France",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 58,
+              "start": 46,
+              "username": "MistralVibe"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "mistr.al/vibe",
+              "end": 85,
+              "expanded_url": "http://mistr.al/vibe",
+              "start": 62,
+              "url": "https://t.co/JsGnCVMUFq"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1995710751097659392",
+      "handle": "openclaw",
+      "name": "OpenClaw🦞",
+      "name_unverified": false,
+      "companies": [
+        "OpenClaw"
+      ],
+      "bio": "The frontier lab for agency.\n\nBuilding personal AI that lives on your machine, by your rules. We’re a 501(c)(3) nonprofit foundation, open and independent.",
+      "location": "Any OS, Any Messsaging App",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "openclaw.ai",
+              "end": 23,
+              "expanded_url": "https://openclaw.ai",
+              "start": 0,
+              "url": "https://t.co/PuzGLMmRf0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "778764142412984320",
+      "handle": "huggingface",
+      "name": "Hugging Face",
+      "name_unverified": false,
+      "companies": [
+        "Hugging Face"
+      ],
+      "bio": "The AI community building the future. https://t.co/TpiXQMQ9rZ",
+      "location": "NYC and Paris and 🌏",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "hf.co/careers",
+              "end": 61,
+              "expanded_url": "http://hf.co/careers",
+              "start": 38,
+              "url": "https://t.co/TpiXQMQ9rZ"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "huggingface.co",
+              "end": 23,
+              "expanded_url": "https://huggingface.co",
+              "start": 0,
+              "url": "https://t.co/A337WqHDnG"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1730159888402395136",
+      "handle": "UnslothAI",
+      "name": "Unsloth AI",
+      "name_unverified": false,
+      "companies": [
+        "Unsloth AI"
+      ],
+      "bio": "Run and train models locally with the Unsloth Desktop app. 🦥 https://t.co/2kXqhhvdCD",
+      "location": "San Francisco, CA",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "github.com/unslothai/unsl…",
+              "end": 84,
+              "expanded_url": "https://github.com/unslothai/unsloth",
+              "start": 61,
+              "url": "https://t.co/2kXqhhvdCD"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "unsloth.ai",
+              "end": 23,
+              "expanded_url": "http://unsloth.ai",
+              "start": 0,
+              "url": "https://t.co/xxBDOI92Ac"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1318419526132862976",
+      "handle": "NousResearch",
+      "name": "Nous Research",
+      "name_unverified": false,
+      "companies": [
+        "Nous Research"
+      ],
+      "bio": "A bunch of nerds making progress\n\nhttps://t.co/vrD0aDIGDQ",
+      "location": "USA",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "discord.gg/nousresearch",
+              "end": 57,
+              "expanded_url": "https://discord.gg/nousresearch",
+              "start": 34,
+              "url": "https://t.co/vrD0aDIGDQ"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "hermes-agent.nousresearch.com",
+              "end": 23,
+              "expanded_url": "http://hermes-agent.nousresearch.com",
+              "start": 0,
+              "url": "https://t.co/WhkKIXJZ3v"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2014504062797152256",
+      "handle": "typesafeai",
+      "name": "TypeSafe AI",
+      "name_unverified": false,
+      "companies": [
+        "TypeSafe AI"
+      ],
+      "bio": "An AI lab building intelligence beyond chat.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "typesafe.ai",
+              "end": 23,
+              "expanded_url": "https://typesafe.ai",
+              "start": 0,
+              "url": "https://t.co/OnTwgYjKeY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1599587232175849472",
+      "handle": "perplexity_ai",
+      "name": "Perplexity",
+      "name_unverified": false,
+      "companies": [
+        "Perplexity"
+      ],
+      "bio": "Curiosity changes everything. Download our free app on iOS, Mac, Windows, and Android.",
+      "location": "San Francisco, CA",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "pplx.ai/mobile",
+              "end": 23,
+              "expanded_url": "http://pplx.ai/mobile",
+              "start": 0,
+              "url": "https://t.co/vJifwA3Thy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1714580962569588736",
+      "handle": "deepseek_ai",
+      "name": "DeepSeek",
+      "name_unverified": false,
+      "companies": [
+        "DeepSeek"
+      ],
+      "bio": "Unravel the mystery of AGI with curiosity. Answer the essential question with long-termism.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "deepseek.com",
+              "end": 23,
+              "expanded_url": "https://www.deepseek.com/",
+              "start": 0,
+              "url": "https://t.co/Un4k2rqn4o"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1863959670169501696",
+      "handle": "Kimi_Moonshot",
+      "name": "Kimi.ai",
+      "name_unverified": false,
+      "companies": [
+        "Moonshot AI"
+      ],
+      "bio": "Built by Moonshot AI to empower everyone to be superhuman. \nPR: globalpr@moonshot.ai\nDC: https://t.co/wBsBTn6fmE",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "discord.gg/9SY8CenBNh",
+              "end": 112,
+              "expanded_url": "https://discord.gg/9SY8CenBNh",
+              "start": 89,
+              "url": "https://t.co/wBsBTn6fmE"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "kimi.ai",
+              "end": 23,
+              "expanded_url": "https://www.kimi.ai/",
+              "start": 0,
+              "url": "https://t.co/ZDNzlrMopi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1753339277386342400",
+      "handle": "Alibaba_Qwen",
+      "name": "Qwen",
+      "name_unverified": false,
+      "companies": [
+        "Alibaba / Qwen"
+      ],
+      "bio": "Open foundation models for AGI.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "qwen.ai",
+              "end": 23,
+              "expanded_url": "https://qwen.ai/",
+              "start": 0,
+              "url": "https://t.co/f8hrbNCQR4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1909081835776413696",
+      "handle": "AntLingAGI",
+      "name": "Ant Ling",
+      "name_unverified": false,
+      "companies": [
+        "Ant Group",
+        "InclusionAI"
+      ],
+      "bio": "MoE model series with foundation (Ling), reasoning (Ring) and any-to-any (Ming) from Ant Group’s AGI initiative, @TheInclusionAI.  https://t.co/6LEkFlo2cq",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 128,
+              "start": 113,
+              "username": "TheInclusionAI"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "discord.gg/jQtDsU5J6C",
+              "end": 154,
+              "expanded_url": "https://discord.gg/jQtDsU5J6C",
+              "start": 131,
+              "url": "https://t.co/6LEkFlo2cq"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "ant-ling.com/en/",
+              "end": 23,
+              "expanded_url": "https://www.ant-ling.com/en/",
+              "start": 0,
+              "url": "https://t.co/3p8bXMYANx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1875078099538423808",
+      "handle": "MiniMax_AI",
+      "name": "MiniMax (official)",
+      "name_unverified": false,
+      "companies": [
+        "MiniMax"
+      ],
+      "bio": "Code: @MiniMax_Code \nMiniMax Design: @Hailuo_AI\nAPI: https://t.co/fHRdSV73Hr\nM Plan: https://t.co/XfJWSyauda",
+      "location": "San Francisco",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 19,
+              "start": 6,
+              "username": "MiniMax_Code"
+            },
+            {
+              "end": 47,
+              "start": 37,
+              "username": "Hailuo_AI"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "platform.minimax.io",
+              "end": 76,
+              "expanded_url": "http://platform.minimax.io",
+              "start": 53,
+              "url": "https://t.co/fHRdSV73Hr"
+            },
+            {
+              "display_url": "minimax.io/m-plan",
+              "end": 108,
+              "expanded_url": "https://www.minimax.io/m-plan",
+              "start": 85,
+              "url": "https://t.co/XfJWSyauda"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "minimax.io",
+              "end": 23,
+              "expanded_url": "https://www.minimax.io/",
+              "start": 0,
+              "url": "https://t.co/qwiwSLZj7I"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1726486879456096256",
+      "handle": "Zai_org",
+      "name": "Z.ai",
+      "name_unverified": false,
+      "companies": [
+        "Z.ai"
+      ],
+      "bio": "The AI Lab behind GLM models, dedicated to inspiring the development of AGI to benefit humanity.\nhttps://t.co/gOw7WpwkJt\nhttps://t.co/ot9sGVXU8x",
+      "location": "user_feedback@z.ai",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "huggingface.co/zai-org",
+              "end": 120,
+              "expanded_url": "http://huggingface.co/zai-org",
+              "start": 97,
+              "url": "https://t.co/gOw7WpwkJt"
+            },
+            {
+              "display_url": "discord.com/invite/QR7SARH…",
+              "end": 144,
+              "expanded_url": "http://discord.com/invite/QR7SARHRxK",
+              "start": 121,
+              "url": "https://t.co/ot9sGVXU8x"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1939556424906100736",
+      "handle": "Baidu_ERNIE",
+      "name": "Baidu ERNIE",
+      "name_unverified": false,
+      "companies": [
+        "Baidu"
+      ],
+      "bio": "Foundation model family built by @Baidu_Inc.\n\n🤗 https://t.co/xdqfVxgtTh\n💬 https://t.co/kv5s6nWDsb",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 43,
+              "start": 33,
+              "username": "Baidu_Inc"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "huggingface.co/baidu",
+              "end": 71,
+              "expanded_url": "https://huggingface.co/baidu",
+              "start": 48,
+              "url": "https://t.co/xdqfVxgtTh"
+            },
+            {
+              "display_url": "discord.com/invite/JPmZXDs…",
+              "end": 97,
+              "expanded_url": "https://discord.com/invite/JPmZXDsEEK",
+              "start": 74,
+              "url": "https://t.co/kv5s6nWDsb"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "ernie.baidu.com",
+              "end": 23,
+              "expanded_url": "http://ernie.baidu.com",
+              "start": 0,
+              "url": "https://t.co/6bV2srTs6m"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2067518374469640193",
+      "handle": "DeepSeekHarness",
+      "name": "DeepSeek Harness",
+      "name_unverified": false,
+      "companies": [
+        "DeepSeek"
+      ],
+      "bio": "Everything is a plugin.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "deepseek.com/en/harness/?ut…",
+              "end": 23,
+              "expanded_url": "https://www.deepseek.com/en/harness/?utm_source=twitter&utm_medium=social",
+              "start": 0,
+              "url": "https://t.co/NYRdOv20il"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1810933558703493120",
+      "handle": "TencentHunyuan",
+      "name": "Tencent Hy",
+      "name_unverified": false,
+      "companies": [
+        "Tencent"
+      ],
+      "bio": "Tencent's foundation model for text, image, video, and 3D generation.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "discord.gg/dNBrdrGGMa",
+              "end": 23,
+              "expanded_url": "https://discord.gg/dNBrdrGGMa",
+              "start": 0,
+              "url": "https://t.co/v4sw55Bpvv"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1751810001751183361",
+      "handle": "cognition",
+      "name": "Cognition",
+      "name_unverified": false,
+      "companies": [
+        "Cognition"
+      ],
+      "bio": "Makers of Devin, the first AI software engineer. We are an applied AI lab building end-to-end software agents. Join us: https://t.co/4Ss9hvpjRG",
+      "location": "San Francisco Bay Area",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "cognition.com",
+              "end": 143,
+              "expanded_url": "http://cognition.com",
+              "start": 120,
+              "url": "https://t.co/4Ss9hvpjRG"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "devin.ai/?utm_source=x&…",
+              "end": 23,
+              "expanded_url": "https://devin.ai/?utm_source=x&utm_medium=organic_social&utm_campaign=link_in_bio",
+              "start": 0,
+              "url": "https://t.co/9eA4c5qAo0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1743487864934162432",
+      "handle": "ArtificialAnlys",
+      "name": "Artificial Analysis",
+      "name_unverified": false,
+      "companies": [
+        "Artificial Analysis"
+      ],
+      "bio": "Independent analysis of AI",
+      "location": "San Francisco",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "artificialanalysis.ai",
+              "end": 23,
+              "expanded_url": "http://artificialanalysis.ai/",
+              "start": 0,
+              "url": "https://t.co/hEm5Kv0ktE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1641378826537295874",
+      "handle": "arena",
+      "name": "Arena.ai",
+      "name_unverified": false,
+      "companies": [
+        "Arena.ai"
+      ],
+      "bio": "Where AI meets the real world. We measure and advance the frontier of AI through community-driven evaluation. We’re hiring → https://t.co/XBZCrseaWF",
+      "location": "US",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "arena.ai/jobs",
+              "end": 148,
+              "expanded_url": "http://arena.ai/jobs",
+              "start": 125,
+              "url": "https://t.co/XBZCrseaWF"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "arena.ai/leaderboard",
+              "end": 23,
+              "expanded_url": "http://arena.ai/leaderboard",
+              "start": 0,
+              "url": "https://t.co/zAJyt422YU"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1822588444046249984",
+      "handle": "lmsysorg",
+      "name": "Large Model Systems",
+      "name_unverified": false,
+      "companies": [
+        "Large Model Systems"
+      ],
+      "bio": "Large Model Systems Organization: We developed SGLang @sgl_project (https://t.co/OjwQadINKU), Chatbot Arena (now @arena), and Vicuna!",
+      "location": "US",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 66,
+              "start": 54,
+              "username": "sgl_project"
+            },
+            {
+              "end": 119,
+              "start": 113,
+              "username": "arena"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "sglang.io",
+              "end": 91,
+              "expanded_url": "https://sglang.io",
+              "start": 68,
+              "url": "https://t.co/OjwQadINKU"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "lmsys.org",
+              "end": 23,
+              "expanded_url": "https://lmsys.org/",
+              "start": 0,
+              "url": "https://t.co/icnD5fVXFw"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "889050642903293953",
+      "handle": "dair_ai",
+      "name": "DAIR.AI",
+      "name_unverified": false,
+      "companies": [
+        "DAIR.AI"
+      ],
+      "bio": "Democratizing AI research, education, and technologies. Learn about AI Agents for FREE at https://t.co/HHXg8rryu4",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "academy.dair.ai/courses/elemen…",
+              "end": 113,
+              "expanded_url": "https://academy.dair.ai/courses/elements-of-ai-agents",
+              "start": 90,
+              "url": "https://t.co/HHXg8rryu4"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "dair.ai",
+              "end": 23,
+              "expanded_url": "https://www.dair.ai/",
+              "start": 0,
+              "url": "https://t.co/lkqPZtMU5s"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1670869422733393966",
+      "handle": "latentspacepod",
+      "name": "Latent.Space",
+      "name_unverified": false,
+      "companies": [
+        "Latent Space"
+      ],
+      "bio": "AI Engineering podcast, newsletter & community. Technical news today you’ll use at work tomorrow. Business: business@latent.space · Tips: tips@latent.space",
+      "location": "youtube.com/@latentspacepod",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "l.sc",
+              "end": 23,
+              "expanded_url": "https://l.sc",
+              "start": 0,
+              "url": "https://t.co/GD2GuqvaLW"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "64844802",
+      "handle": "a16z",
+      "name": "a16z",
+      "name_unverified": false,
+      "companies": [
+        "Andreessen Horowitz"
+      ],
+      "bio": "https://t.co/A9eTFq6Xbx\n\nhttps://t.co/3RHK5vqQo7\n\nPosts are not investment advice or an advertisement for investment services. See https://t.co/nX2FtaLE06.",
+      "location": "It's time to build.",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "a16z.com/portfolio",
+              "end": 23,
+              "expanded_url": "http://a16z.com/portfolio",
+              "start": 0,
+              "url": "https://t.co/A9eTFq6Xbx"
+            },
+            {
+              "display_url": "cosign.co",
+              "end": 48,
+              "expanded_url": "http://cosign.co",
+              "start": 25,
+              "url": "https://t.co/3RHK5vqQo7"
+            },
+            {
+              "display_url": "a16z.com/disclosures",
+              "end": 154,
+              "expanded_url": "http://a16z.com/disclosures",
+              "start": 131,
+              "url": "https://t.co/nX2FtaLE06"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "a16z.com",
+              "end": 23,
+              "expanded_url": "http://www.a16z.com",
+              "start": 0,
+              "url": "https://t.co/lEZr1rWcrL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "37959591",
+      "handle": "PalantirTech",
+      "name": "Palantir",
+      "name_unverified": false,
+      "companies": [
+        "Palantir"
+      ],
+      "bio": "Stay Sovereign.",
+      "location": "Miami, FL",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "palantir.com",
+              "end": 23,
+              "expanded_url": "http://www.palantir.com",
+              "start": 0,
+              "url": "https://t.co/hBZrTb2GtB"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1882198073168080896",
+      "handle": "AskPerplexity",
+      "name": "Computer",
+      "name_unverified": false,
+      "companies": [
+        "Perplexity"
+      ],
+      "bio": "Everything is Computer.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "perplexity.ai/computer",
+              "end": 23,
+              "expanded_url": "https://www.perplexity.ai/computer",
+              "start": 0,
+              "url": "https://t.co/YGalqiRXqI"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "731917653506318336",
+      "handle": "TheRundownAI",
+      "name": "The Rundown AI",
+      "name_unverified": false,
+      "companies": [
+        "The Rundown AI"
+      ],
+      "bio": "The world’s largest AI newsletter keeping 3,000,000+ readers ahead of the curve. Get the latest AI news and how to apply it in 5 minutes. By @rowancheung",
+      "location": "Join for free →",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 153,
+              "start": 141,
+              "username": "rowancheung"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "rundown.ai",
+              "end": 23,
+              "expanded_url": "https://www.rundown.ai/",
+              "start": 0,
+              "url": "https://t.co/gSXfjJvWJc"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1745519412097224705",
+      "handle": "tavus",
+      "name": "Tavus",
+      "name_unverified": false,
+      "companies": [
+        "Tavus"
+      ],
+      "bio": "The human computing company.",
+      "location": "Meet Griffin 🗣️",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "tavus.io",
+              "end": 23,
+              "expanded_url": "https://www.tavus.io",
+              "start": 0,
+              "url": "https://t.co/2o5bh8KZZe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "32499999",
+      "handle": "Cloudflare",
+      "name": "Cloudflare",
+      "name_unverified": false,
+      "companies": [
+        "Cloudflare"
+      ],
+      "bio": "Cloudflare is the world’s leading #ConnectivityCloud, and we have our eyes set on an ambitious goal — to help build a #BetterInternet.",
+      "location": "300+ cities in 100+ countries",
+      "entities": {
+        "description": {
+          "hashtags": [
+            {
+              "end": 52,
+              "start": 34,
+              "tag": "ConnectivityCloud"
+            },
+            {
+              "end": 133,
+              "start": 118,
+              "tag": "BetterInternet"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "cloudflare.com",
+              "end": 23,
+              "expanded_url": "https://www.cloudflare.com/",
+              "start": 0,
+              "url": "https://t.co/6WEmQXq6G9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1923440305703092226",
+      "handle": "sgl_project",
+      "name": "SGLang",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Run LLMs fast at any scale 🔗 https://t.co/F3u6wYESL0\nJoin our community https://t.co/fmlOfTOEec\nFor AI tech blogs & deep-dives 👉 @lmsysorg",
+      "location": "Palo Alto",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 138,
+              "start": 129,
+              "username": "lmsysorg"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "github.com/sgl-project/sg…",
+              "end": 52,
+              "expanded_url": "https://github.com/sgl-project/sglang",
+              "start": 29,
+              "url": "https://t.co/F3u6wYESL0"
+            },
+            {
+              "display_url": "slack.sglang.io",
+              "end": 95,
+              "expanded_url": "https://slack.sglang.io",
+              "start": 72,
+              "url": "https://t.co/fmlOfTOEec"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "sglang.io",
+              "end": 23,
+              "expanded_url": "https://www.sglang.io/",
+              "start": 0,
+              "url": "https://t.co/TKZIbqzeZA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2056107995206164480",
+      "handle": "trillium_labs",
+      "name": "Trillium Labs",
+      "name_unverified": false,
+      "companies": [
+        "Trillium Labs"
+      ],
+      "bio": "Fostering the open science of frontier AI.",
+      "location": "Cambridge, MA",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "trilliumlabs.org",
+              "end": 23,
+              "expanded_url": "http://trilliumlabs.org",
+              "start": 0,
+              "url": "https://t.co/hT4vfIWHpn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1800594921704898560",
+      "handle": "reflection_ai",
+      "name": "Reflection",
+      "name_unverified": false,
+      "companies": [
+        "Reflection"
+      ],
+      "bio": "Make intelligence open and accessible to all",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "reflection.ai",
+              "end": 23,
+              "expanded_url": "https://reflection.ai",
+              "start": 0,
+              "url": "https://t.co/TB8MU5U6pN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1326237414025801729",
+      "handle": "cohere",
+      "name": "Cohere",
+      "name_unverified": false,
+      "companies": [
+        "Cohere"
+      ],
+      "bio": "AI for Empowerment. We build private systems for enterprise, and open-source models for builders, to help people lead better lives.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "cohere.com",
+              "end": 23,
+              "expanded_url": "http://cohere.com",
+              "start": 0,
+              "url": "https://t.co/9OS2Hs8ILn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1719792902556225536",
+      "handle": "odysseyml",
+      "name": "Odyssey",
+      "name_unverified": false,
+      "companies": [
+        "Odyssey"
+      ],
+      "bio": "We’re an AI lab pioneering world models—AI to simulate and interact with the world.",
+      "location": "Palo Alto, London, Zurich",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "odyssey.systems",
+              "end": 23,
+              "expanded_url": "https://odyssey.systems",
+              "start": 0,
+              "url": "https://t.co/78CO5KXYQ9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2104688400683114496",
+      "handle": "startvoyager",
+      "name": "Voyager",
+      "name_unverified": false,
+      "companies": [
+        "Moda"
+      ],
+      "bio": "The open harness for creative work 🪅 use any agent, connect to any creative tool - for videos, games, music and more. https://t.co/5lv24SlPUj\n\nby the @trymoda team",
+      "location": "San Francisco",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 158,
+              "start": 150,
+              "username": "trymoda"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "voyager.so",
+              "end": 141,
+              "expanded_url": "http://voyager.so",
+              "start": 118,
+              "url": "https://t.co/5lv24SlPUj"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "voyager.so",
+              "end": 23,
+              "expanded_url": "http://voyager.so",
+              "start": 0,
+              "url": "https://t.co/5lv24SlPUj"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1774187564276289536",
+      "handle": "vllm_project",
+      "name": "vLLM",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "A high-throughput and memory-efficient inference and serving engine for LLMs. Join https://t.co/lxJ0SfX5pJ to discuss together with the community!",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "slack.vllm.ai",
+              "end": 106,
+              "expanded_url": "http://slack.vllm.ai",
+              "start": 83,
+              "url": "https://t.co/lxJ0SfX5pJ"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "vllm.ai",
+              "end": 23,
+              "expanded_url": "https://vllm.ai",
+              "start": 0,
+              "url": "https://t.co/OSHR5C6pCV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1745106082790318080",
+      "handle": "SemiAnalysis_",
+      "name": "SemiAnalysis",
+      "name_unverified": false,
+      "companies": [
+        "SemiAnalysis"
+      ],
+      "bio": "",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "semianalysis.com",
+              "end": 23,
+              "expanded_url": "https://www.semianalysis.com",
+              "start": 0,
+              "url": "https://t.co/Baki8ZP5rL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1449098672252198921",
+      "handle": "blocks",
+      "name": "Block",
+      "name_unverified": false,
+      "companies": [
+        "Block"
+      ],
+      "bio": "@Square @CashApp @BitcoinatBlock @spiral_xyz @Tidal @Bitkey @protomining @buzzdotxyz",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 7,
+              "start": 0,
+              "username": "Square"
+            },
+            {
+              "end": 16,
+              "start": 8,
+              "username": "CashApp"
+            },
+            {
+              "end": 32,
+              "start": 17,
+              "username": "BitcoinatBlock"
+            },
+            {
+              "end": 44,
+              "start": 33,
+              "username": "spiral_xyz"
+            },
+            {
+              "end": 51,
+              "start": 45,
+              "username": "Tidal"
+            },
+            {
+              "end": 59,
+              "start": 52,
+              "username": "Bitkey"
+            },
+            {
+              "end": 72,
+              "start": 60,
+              "username": "protomining"
+            },
+            {
+              "end": 84,
+              "start": 73,
+              "username": "buzzdotxyz"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "block.xyz",
+              "end": 23,
+              "expanded_url": "https://block.xyz/",
+              "start": 0,
+              "url": "https://t.co/uWCSdh6Zjq"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "828640486751600645",
+      "handle": "tenstorrent",
+      "name": "Tenstorrent",
+      "name_unverified": false,
+      "companies": [
+        "Tenstorrent"
+      ],
+      "bio": "Run anything. Run anywhere.",
+      "location": "Worldwide ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "tenstorrent.com",
+              "end": 23,
+              "expanded_url": "http://www.tenstorrent.com",
+              "start": 0,
+              "url": "https://t.co/G5cyi8dCpJ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1635809139808141320",
+      "handle": "liquidai",
+      "name": "Liquid AI",
+      "name_unverified": false,
+      "companies": [
+        "Liquid AI"
+      ],
+      "bio": "Build efficient general-purpose AI at every scale.",
+      "location": "Cambridge, MA",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "liquid.ai",
+              "end": 23,
+              "expanded_url": "https://www.liquid.ai",
+              "start": 0,
+              "url": "https://t.co/KwQwvrNUYn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1982193144038146048",
+      "handle": "RicursiveAI",
+      "name": "Ricursive Intelligence",
+      "name_unverified": false,
+      "companies": [
+        "Ricursive Intelligence"
+      ],
+      "bio": "https://t.co/DWae4fwKnJ",
+      "location": "Palo Alto, CA",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "ricursive.com",
+              "end": 23,
+              "expanded_url": "https://www.ricursive.com/",
+              "start": 0,
+              "url": "https://t.co/DWae4fwKnJ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1019651993122623489",
+      "handle": "Llama_app",
+      "name": "Llama",
+      "name_unverified": false,
+      "companies": [
+        "Hugging Face"
+      ],
+      "bio": "AI that lives on your computer. Open-source, private & always local.\nFrom the team at Llama.cpp and Hugging Face.",
+      "location": "Local",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "llama.app",
+              "end": 23,
+              "expanded_url": "http://llama.app",
+              "start": 0,
+              "url": "https://t.co/UF9g985Oh0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1504221988814049289",
+      "handle": "krea_ai",
+      "name": "Krea",
+      "name_unverified": false,
+      "companies": [
+        "Krea"
+      ],
+      "bio": "delightful creative tools with AI inside – we're hiring! https://t.co/mWn3JiDT0n",
+      "location": "San Francisco, CA",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "krea.ai/careers",
+              "end": 80,
+              "expanded_url": "http://krea.ai/careers",
+              "start": 57,
+              "url": "https://t.co/mWn3JiDT0n"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "krea.ai",
+              "end": 23,
+              "expanded_url": "http://krea.ai",
+              "start": 0,
+              "url": "https://t.co/QRXqASFGhA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1891523745929732096",
+      "handle": "thinkymachines",
+      "name": "Thinking Machines",
+      "name_unverified": false,
+      "companies": [
+        "Thinking Machines"
+      ],
+      "bio": "Thinking, beeping, and booping.\n@tinkerapi",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 42,
+              "start": 32,
+              "username": "tinkerapi"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "thinkingmachines.ai",
+              "end": 23,
+              "expanded_url": "https://thinkingmachines.ai/",
+              "start": 0,
+              "url": "https://t.co/Pe0uB8MxVN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1798380911870042112",
+      "handle": "hedra_labs",
+      "name": "Hedra",
+      "name_unverified": false,
+      "companies": [
+        "Hedra"
+      ],
+      "bio": "We’re a research and infrastructure company bringing frontier inference to multimodal and physical AI.",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "hedra.com",
+              "end": 23,
+              "expanded_url": "https://www.hedra.com/",
+              "start": 0,
+              "url": "https://t.co/9WVKz3jIVe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1998160192903745536",
+      "handle": "inferact",
+      "name": "Inferact",
+      "name_unverified": false,
+      "companies": [
+        "Inferact"
+      ],
+      "bio": "Building the future of inference through @vllm_project",
+      "location": "San Francisco, California",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 54,
+              "start": 41,
+              "username": "vllm_project"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "inferact.ai",
+              "end": 23,
+              "expanded_url": "http://inferact.ai",
+              "start": 0,
+              "url": "https://t.co/pIOET5Zkvf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1589007443853340672",
+      "handle": "LangChain",
+      "name": "LangChain",
+      "name_unverified": false,
+      "companies": [
+        "LangChain"
+      ],
+      "bio": "Own your intelligence.\n\nMakers of LangSmith, @LangChain_OSS, and @LangChain_JS.",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 59,
+              "start": 45,
+              "username": "LangChain_OSS"
+            },
+            {
+              "end": 78,
+              "start": 65,
+              "username": "LangChain_JS"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "langchain.com",
+              "end": 23,
+              "expanded_url": "https://www.langchain.com/",
+              "start": 0,
+              "url": "https://t.co/Sh5ftHbph2"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1888791214864072705",
+      "handle": "StepFun_ai",
+      "name": "StepFun",
+      "name_unverified": false,
+      "companies": [
+        "StepFun"
+      ],
+      "bio": "Scale-up possibilities for everyone.\nAPI Platform: https://t.co/XlaiCy4DGm\nHuggingFace: https://t.co/isMgbv7XSm",
+      "location": "",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "platform.stepfun.ai",
+              "end": 74,
+              "expanded_url": "https://platform.stepfun.ai/",
+              "start": 51,
+              "url": "https://t.co/XlaiCy4DGm"
+            },
+            {
+              "display_url": "huggingface.co/stepfun-ai",
+              "end": 111,
+              "expanded_url": "http://huggingface.co/stepfun-ai",
+              "start": 88,
+              "url": "https://t.co/isMgbv7XSm"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "stepfun.ai",
+              "end": 23,
+              "expanded_url": "https://stepfun.ai",
+              "start": 0,
+              "url": "https://t.co/JmNt1O66oO"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1953337039510003712",
+      "handle": "thsottiaux",
+      "name": "Tibo Sottiaux",
+      "name_unverified": false,
+      "companies": [
+        "OpenAI"
+      ],
+      "bio": "Codex & ChatGPT @OpenAI",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 23,
+              "start": 16,
+              "username": "OpenAI"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "10809412",
+      "handle": "rakyll",
+      "name": "Jaana Dogan ヤナ ドガン",
+      "name_unverified": false,
+      "companies": [
+        "Google"
+      ],
+      "bio": "ML/AI Systems at Google. Simplicity and optimism. Personal opinions.",
+      "location": "San Francisco, CA",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "github.com/rakyll",
+              "end": 23,
+              "expanded_url": "https://github.com/rakyll",
+              "start": 0,
+              "url": "https://t.co/3BsQkje1u5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "25401953",
+      "handle": "steipete",
+      "name": "Peter Steinberger",
+      "name_unverified": false,
+      "companies": [
+        "OpenClaw",
+        "OpenAI"
+      ],
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "location": "San Francisco, CA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 119,
+              "start": 110,
+              "username": "OpenClaw"
+            },
+            {
+              "end": 130,
+              "start": 123,
+              "username": "OpenAI"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "steipete.me",
+              "end": 23,
+              "expanded_url": "https://steipete.me",
+              "start": 0,
+              "url": "https://t.co/VeCkD9C9P5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1365020011123773442",
+      "handle": "Teknium",
+      "name": "Teknium 🪽",
+      "name_unverified": true,
+      "companies": [
+        "Nous Research",
+        "Stability AI"
+      ],
+      "bio": "Cofounder and Lead Engineer - Hermes Agent @NousResearch, prev @StabilityAI\nGithub: https://t.co/LZwHTUFwPq\nHuggingFace: https://t.co/sN2FFU8PVE",
+      "location": "USA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 56,
+              "start": 43,
+              "username": "NousResearch"
+            },
+            {
+              "end": 75,
+              "start": 63,
+              "username": "StabilityAI"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "github.com/teknium1",
+              "end": 107,
+              "expanded_url": "http://github.com/teknium1",
+              "start": 84,
+              "url": "https://t.co/LZwHTUFwPq"
+            },
+            {
+              "display_url": "huggingface.co/teknium",
+              "end": 144,
+              "expanded_url": "http://huggingface.co/teknium",
+              "start": 121,
+              "url": "https://t.co/sN2FFU8PVE"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "github.com/sponsors/tekni…",
+              "end": 23,
+              "expanded_url": "http://github.com/sponsors/teknium1",
+              "start": 0,
+              "url": "https://t.co/7DnNfZEOPh"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "816775",
+      "handle": "mattsgarman",
+      "name": "Matt Garman",
+      "name_unverified": false,
+      "companies": [
+        "AWS"
+      ],
+      "bio": "CEO at AWS.",
+      "location": "",
+      "entities": {}
+    },
+    {
+      "id": "33836629",
+      "handle": "karpathy",
+      "name": "Andrej Karpathy",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "",
+      "location": "Earth",
+      "entities": {}
+    },
+    {
+      "id": "2867689615",
+      "handle": "CompleteSkeptic",
+      "name": "Diogo Almeida",
+      "name_unverified": false,
+      "companies": [
+        "TypeSafe AI",
+        "OpenAI"
+      ],
+      "bio": "Sane + 🌶️ takes in an insane AI world... AI capabilities researcher: co-created RLHF/ChatGPT @ @openai now trying to right the wrong 🤭 (ceo @typesafeai)",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 102,
+              "start": 95,
+              "username": "openai"
+            },
+            {
+              "end": 151,
+              "start": 140,
+              "username": "typesafeai"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1007413134",
+      "handle": "DrJimFan",
+      "name": "Jim Fan",
+      "name_unverified": false,
+      "companies": [
+        "NVIDIA",
+        "OpenAI"
+      ],
+      "bio": "NVIDIA Director of Robotics & Distinguished Scientist. Co-Lead of GEAR lab. Solving Physical AGI, one motor at a time. Stanford Ph.D. OpenAI's 1st intern.",
+      "location": "Views my own. Contact →",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "jimfan.me",
+              "end": 23,
+              "expanded_url": "https://jimfan.me",
+              "start": 0,
+              "url": "https://t.co/H4rXo4Ei8X"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "68746721",
+      "handle": "fchollet",
+      "name": "François Chollet",
+      "name_unverified": false,
+      "companies": [
+        "Ndea"
+      ],
+      "bio": "Co-founder @ndea. Co-founder @arcprize. Creator of Keras and ARC-AGI. Author of 'Deep Learning with Python'.",
+      "location": "United States",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 16,
+              "start": 11,
+              "username": "ndea"
+            },
+            {
+              "end": 38,
+              "start": 29,
+              "username": "arcprize"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "fchollet.com",
+              "end": 23,
+              "expanded_url": "https://fchollet.com/",
+              "start": 0,
+              "url": "https://t.co/6miFIZS7Li"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "12497",
+      "handle": "simonw",
+      "name": "Simon Willison",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Creator @datasetteproj, co-creator Django. PSF board. Hangs out with @natbat. He/Him. Mastodon: https://t.co/t0MrmnJW0K Bsky: https://t.co/OnWIyhX4CH",
+      "location": "San Francisco, CA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 22,
+              "start": 8,
+              "username": "datasetteproj"
+            },
+            {
+              "end": 76,
+              "start": 69,
+              "username": "natbat"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "fedi.simonwillison.net/@simon",
+              "end": 119,
+              "expanded_url": "https://fedi.simonwillison.net/@simon",
+              "start": 96,
+              "url": "https://t.co/t0MrmnJW0K"
+            },
+            {
+              "display_url": "simonwillison.net",
+              "end": 149,
+              "expanded_url": "http://simonwillison.net",
+              "start": 126,
+              "url": "https://t.co/OnWIyhX4CH"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "simonwillison.net",
+              "end": 23,
+              "expanded_url": "https://simonwillison.net/",
+              "start": 0,
+              "url": "https://t.co/p4R0XiEYEc"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2939913921",
+      "handle": "natolambert",
+      "name": "Nathan Lambert",
+      "name_unverified": false,
+      "companies": [
+        "Trillium Labs",
+        "Ai2"
+      ],
+      "bio": "Open model research, founder, director @trillium_labs. Prev. co-led Olmo at Ai2.\nWrites @interconnectsai, wrote https://t.co/alRXKINTwE",
+      "location": "Cambridge, MA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 53,
+              "start": 39,
+              "username": "trillium_labs"
+            },
+            {
+              "end": 104,
+              "start": 88,
+              "username": "interconnectsai"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "posttrainingbook.com",
+              "end": 135,
+              "expanded_url": "http://posttrainingbook.com",
+              "start": 112,
+              "url": "https://t.co/alRXKINTwE"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "natolambert.com",
+              "end": 23,
+              "expanded_url": "https://natolambert.com/",
+              "start": 0,
+              "url": "https://t.co/NLbPtr9mcm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "985281530070265862",
+      "handle": "dylan522p",
+      "name": "Dylan Patel",
+      "name_unverified": false,
+      "companies": [
+        "SemiAnalysis"
+      ],
+      "bio": "SemiAnalysis\nAI Infrastructure Research and Consulting\nDMs are open for consulting, quotes, or to talk shop,\nOpinions my own",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "semianalysis.com",
+              "end": 23,
+              "expanded_url": "http://www.semianalysis.com/",
+              "start": 0,
+              "url": "https://t.co/uzpH0h7rGg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "159337660",
+      "handle": "bcherny",
+      "name": "Boris Cherny",
+      "name_unverified": false,
+      "companies": [
+        "Anthropic"
+      ],
+      "bio": "Claude @anthropicai",
+      "location": "San Francisco",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 19,
+              "start": 7,
+              "username": "anthropicai"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "borischerny.com",
+              "end": 23,
+              "expanded_url": "https://borischerny.com",
+              "start": 0,
+              "url": "https://t.co/5khvjT84co"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "216939636",
+      "handle": "AndrewYNg",
+      "name": "Andrew Ng",
+      "name_unverified": false,
+      "companies": [
+        "Coursera",
+        "Baidu",
+        "Google"
+      ],
+      "bio": "Co-Founder of Coursera; Stanford CS adjunct faculty. Former head of Baidu AI Group/Google Brain. #ai #machinelearning, #deeplearning #MOOCs",
+      "location": "Palo Alto, CA",
+      "entities": {
+        "description": {
+          "hashtags": [
+            {
+              "end": 100,
+              "start": 97,
+              "tag": "ai"
+            },
+            {
+              "end": 117,
+              "start": 101,
+              "tag": "machinelearning"
+            },
+            {
+              "end": 132,
+              "start": 119,
+              "tag": "deeplearning"
+            },
+            {
+              "end": 139,
+              "start": 133,
+              "tag": "MOOCs"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "andrewng.org",
+              "end": 23,
+              "expanded_url": "http://www.andrewng.org",
+              "start": 0,
+              "url": "https://t.co/XidcMETENd"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2728439146",
+      "handle": "hwchase17",
+      "name": "Harrison Chase",
+      "name_unverified": false,
+      "companies": [
+        "LangChain"
+      ],
+      "bio": "@LangChain\n\nAlways hiring: https://t.co/D5Ut3loFO7",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 10,
+              "start": 0,
+              "username": "LangChain"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "langchain.com/careers",
+              "end": 50,
+              "expanded_url": "https://www.langchain.com/careers",
+              "start": 27,
+              "url": "https://t.co/D5Ut3loFO7"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "865622395",
+      "handle": "rasbt",
+      "name": "Sebastian Raschka",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "ML/AI research engineer. Ex stats professor.\nAuthor of \"Build a Large Language Model From Scratch\" (https://t.co/O8LAAMRzzW) & reasoning (https://t.co/5TueQKx2Fk)",
+      "location": "United States",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "amzn.to/4fqvn0D",
+              "end": 123,
+              "expanded_url": "https://amzn.to/4fqvn0D",
+              "start": 100,
+              "url": "https://t.co/O8LAAMRzzW"
+            },
+            {
+              "display_url": "mng.bz/lZ5B",
+              "end": 161,
+              "expanded_url": "https://mng.bz/lZ5B",
+              "start": 138,
+              "url": "https://t.co/5TueQKx2Fk"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "sebastianraschka.com",
+              "end": 23,
+              "expanded_url": "https://sebastianraschka.com",
+              "start": 0,
+              "url": "https://t.co/HrtQQ5tgJl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "39125788",
+      "handle": "emollick",
+      "name": "Ethan Mollick",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Professor @Wharton studying AI.\nNew book, Co-Existence, is out now: https://t.co/hsDYf1xU9K\nMy Substack: https://t.co/UIBhxu4bgq",
+      "location": "Philadelphia, PA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 18,
+              "start": 10,
+              "username": "Wharton"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "co-existence.ai",
+              "end": 91,
+              "expanded_url": "https://co-existence.ai/",
+              "start": 68,
+              "url": "https://t.co/hsDYf1xU9K"
+            },
+            {
+              "display_url": "oneusefulthing.org",
+              "end": 128,
+              "expanded_url": "https://www.oneusefulthing.org/",
+              "start": 105,
+              "url": "https://t.co/UIBhxu4bgq"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "mgmt.wharton.upenn.edu/profile/emolli…",
+              "end": 23,
+              "expanded_url": "https://mgmt.wharton.upenn.edu/profile/emollick/",
+              "start": 0,
+              "url": "https://t.co/uItckI9ujc"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1380719534970040322",
+      "handle": "alexalbert__",
+      "name": "Alex Albert",
+      "name_unverified": false,
+      "companies": [
+        "Anthropic"
+      ],
+      "bio": "Research @AnthropicAI",
+      "location": "San Francisco",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 21,
+              "start": 9,
+              "username": "AnthropicAI"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "alexalbert.me",
+              "end": 23,
+              "expanded_url": "https://alexalbert.me/",
+              "start": 0,
+              "url": "https://t.co/DJKa5PB8u1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2465283662",
+      "handle": "_akhaliq",
+      "name": "AK",
+      "name_unverified": true,
+      "companies": [
+        "Gradio",
+        "Hugging Face"
+      ],
+      "bio": "AI research paper tweets, ML @Gradio (acq. by @HuggingFace 🤗) dm for promo ,submit papers here: https://t.co/UzmYN5XOCi",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 36,
+              "start": 29,
+              "username": "Gradio"
+            },
+            {
+              "end": 58,
+              "start": 46,
+              "username": "HuggingFace"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "huggingface.co/papers/submit",
+              "end": 119,
+              "expanded_url": "https://huggingface.co/papers/submit",
+              "start": 96,
+              "url": "https://t.co/UzmYN5XOCi"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "huggingface.co/akhaliq",
+              "end": 23,
+              "expanded_url": "https://huggingface.co/akhaliq",
+              "start": 0,
+              "url": "https://t.co/q2Qoey80Gx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "33521530",
+      "handle": "swyx",
+      "name": "Shawn Wang",
+      "name_unverified": false,
+      "companies": [
+        "Smol AI",
+        "Cognition",
+        "Temporal"
+      ],
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
+      "location": "san francisco / singapore",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 96,
+              "start": 88,
+              "username": "smol_ai"
+            },
+            {
+              "end": 109,
+              "start": 99,
+              "username": "cognition"
+            },
+            {
+              "end": 123,
+              "start": 112,
+              "username": "temporalio"
+            },
+            {
+              "end": 140,
+              "start": 126,
+              "username": "aidotengineer"
+            },
+            {
+              "end": 158,
+              "start": 143,
+              "username": "latentspacepod"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "swyx.io",
+              "end": 23,
+              "expanded_url": "https://swyx.io",
+              "start": 0,
+              "url": "https://t.co/Q5067iwtXU"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "232294292",
+      "handle": "GaryMarcus",
+      "name": "Gary Marcus",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "OG GenAI Skeptic; spoke at US Senate. Warned about hallucinations in 2001. Advocating world models & neurosymbolic AI ever since. Author, Marcus on AI & 6 books",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "garymarcus.substack.com",
+              "end": 23,
+              "expanded_url": "http://garymarcus.substack.com",
+              "start": 0,
+              "url": "https://t.co/RrElrTVHSz"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "5943622",
+      "handle": "pmarca",
+      "name": "Marc Andreessen 🇺🇸",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "You’re not talking to someone who woke up a loser. That loser attitude, that loser premise makes no sense to me.",
+      "location": "Menlo Park, CA",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "pmarca.substack.com",
+              "end": 23,
+              "expanded_url": "https://pmarca.substack.com/",
+              "start": 0,
+              "url": "https://t.co/N9TC8pDy6u"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1137701",
+      "handle": "DavidSacks",
+      "name": "David Sacks",
+      "name_unverified": false,
+      "companies": [
+        "Craft Ventures"
+      ],
+      "bio": "Tech founder & investor @Craft_Ventures @theallinpod. Co-Chair, President’s Council of Advisors on Science & Technology.",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 39,
+              "start": 24,
+              "username": "Craft_Ventures"
+            },
+            {
+              "end": 52,
+              "start": 40,
+              "username": "theallinpod"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "sacks.substack.com",
+              "end": 23,
+              "expanded_url": "http://sacks.substack.com",
+              "start": 0,
+              "url": "https://t.co/VWe3GFt93C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1314686042",
+      "handle": "rowancheung",
+      "name": "Rowan Cheung",
+      "name_unverified": false,
+      "companies": [
+        "The Rundown AI"
+      ],
+      "bio": "Founder of the world’s most read daily AI newsletter @therundownai. Sharing the latest developments in the world of artificial intelligence.",
+      "location": "Join 3,000,000+ Readers →",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 66,
+              "start": 53,
+              "username": "therundownai"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "rundown.ai",
+              "end": 23,
+              "expanded_url": "https://www.rundown.ai/",
+              "start": 0,
+              "url": "https://t.co/61X8vgmOMn"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "427089628",
+      "handle": "lexfridman",
+      "name": "Lex Fridman",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Host of Lex Fridman Podcast.\nInterested in robots and humans.",
+      "location": "Austin and Boston",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "youtube.com/lexfridman",
+              "end": 23,
+              "expanded_url": "https://youtube.com/lexfridman",
+              "start": 0,
+              "url": "https://t.co/eBRkEqtwUb"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "39289455",
+      "handle": "alliekmiller",
+      "name": "Allie K. Miller",
+      "name_unverified": false,
+      "companies": [
+        "Amazon",
+        "IBM"
+      ],
+      "bio": "#1 Most Followed Voice in AI Business (2M followers). Former Amazon, IBM. Time100 AI. Fortune 500 and startup AI advisor, public speaker. AI-First courses in 🔗",
+      "location": "New York, NY",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "linktr.ee/alliekmiller",
+              "end": 23,
+              "expanded_url": "https://linktr.ee/alliekmiller",
+              "start": 0,
+              "url": "https://t.co/sFrDEMG9oF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "382490716",
+      "handle": "quxiaoyin",
+      "name": "Xiaoyin Qu",
+      "name_unverified": false,
+      "companies": [
+        "AgentSky",
+        "Run The World",
+        "Meta"
+      ],
+      "bio": "Founder of @agentsky_dev, angel investor. Previously, exited founder(Run The World, a16z backed), Stanford dropout, ex-Meta",
+      "location": "Redwood City, CA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 24,
+              "start": 11,
+              "username": "agentsky_dev"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "agentsky.dev",
+              "end": 23,
+              "expanded_url": "https://agentsky.dev/",
+              "start": 0,
+              "url": "https://t.co/8AQDsSLtK1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1268982340090355712",
+      "handle": "vasuman",
+      "name": "vas",
+      "name_unverified": true,
+      "companies": [
+        "Varick Agents",
+        "Meta"
+      ],
+      "bio": "CEO @varickagents, Transforming enterprise with AI. Prev AI @meta",
+      "location": "SF | NYC",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 17,
+              "start": 4,
+              "username": "varickagents"
+            },
+            {
+              "end": 65,
+              "start": 60,
+              "username": "meta"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "varickagents.com",
+              "end": 23,
+              "expanded_url": "http://varickagents.com",
+              "start": 0,
+              "url": "https://t.co/wNoXwYm56L"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "14642331",
+      "handle": "gregisenberg",
+      "name": "GREG ISENBERG",
+      "name_unverified": false,
+      "companies": [
+        "Late Checkout",
+        "IdeaBrowser",
+        "LCA",
+        "Boring Marketer"
+      ],
+      "bio": "I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @ideabrowser, @meetLCA, @boringmarketer etc",
+      "location": "more →",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 49,
+              "start": 33,
+              "username": "startupideaspod"
+            },
+            {
+              "end": 72,
+              "start": 56,
+              "username": "latecheckoutplz"
+            },
+            {
+              "end": 109,
+              "start": 97,
+              "username": "ideabrowser"
+            },
+            {
+              "end": 119,
+              "start": 111,
+              "username": "meetLCA"
+            },
+            {
+              "end": 136,
+              "start": 121,
+              "username": "boringmarketer"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "gregisenberg.com",
+              "end": 23,
+              "expanded_url": "http://gregisenberg.com/",
+              "start": 0,
+              "url": "https://t.co/hz3lcOfwEY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1601693298707628035",
+      "handle": "rileybrown",
+      "name": "Riley Brown",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Founder + YouTuber / TikToker\ninquiries: riley@rakugomedia.com",
+      "location": "Brooklyn",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "agentnative.inc",
+              "end": 23,
+              "expanded_url": "https://agentnative.inc",
+              "start": 0,
+              "url": "https://t.co/MTUwBdCsf9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "5797422",
+      "handle": "MengTo",
+      "name": "Meng To",
+      "name_unverified": false,
+      "companies": [
+        "DesignCode",
+        "Aura"
+      ],
+      "bio": "Founder at @designcodeio and https://t.co/Kpiogf225W. I teach designers code and developers design.\n\nMy three.js templates: https://t.co/25OYbxYycG",
+      "location": "Singapore",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 24,
+              "start": 11,
+              "username": "designcodeio"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "aura.build",
+              "end": 52,
+              "expanded_url": "http://aura.build",
+              "start": 29,
+              "url": "https://t.co/Kpiogf225W"
+            },
+            {
+              "display_url": "threeui.com",
+              "end": 147,
+              "expanded_url": "http://threeui.com",
+              "start": 124,
+              "url": "https://t.co/25OYbxYycG"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "designcode.io",
+              "end": 23,
+              "expanded_url": "http://designcode.io",
+              "start": 0,
+              "url": "https://t.co/sfSadC6RZN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1790083138959400961",
+      "handle": "egeberkina",
+      "name": "Ege",
+      "name_unverified": true,
+      "companies": [
+        "ElevenLabs",
+        "Adobe"
+      ],
+      "bio": "Art Director | Creative Ambassador @ElevenLabs & @Adobe | AI Creator",
+      "location": "✉️ Available for projects - DM",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 46,
+              "start": 35,
+              "username": "ElevenLabs"
+            },
+            {
+              "end": 55,
+              "start": 49,
+              "username": "Adobe"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "linktr.ee/egeberkina",
+              "end": 23,
+              "expanded_url": "https://linktr.ee/egeberkina",
+              "start": 0,
+              "url": "https://t.co/peSKMhw8Ua"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "249795230",
+      "handle": "AmirMushich",
+      "name": "AmirMušić",
+      "name_unverified": false,
+      "companies": [
+        "Warner Music",
+        "PepsiCo",
+        "Spotify"
+      ],
+      "bio": "Creative architect. Ex-Warner Music, PepsiCo, Spotify fr. designer. Fusing 10+ yr of brand & ad design with AI. Collabs: amir@amirmushich.com",
+      "location": "Mostar",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "amirmushich.link",
+              "end": 23,
+              "expanded_url": "https://amirmushich.link",
+              "start": 0,
+              "url": "https://t.co/Dw2yrZQNgM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1836078160653246464",
+      "handle": "Hesamation",
+      "name": "ℏεsam",
+      "name_unverified": true,
+      "companies": [],
+      "bio": "building ai agents or stuff with agents\n\nCrusaderBench: https://t.co/Ib0DkhWkEm",
+      "location": "the loss landscape",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "crusbench.com",
+              "end": 79,
+              "expanded_url": "http://crusbench.com",
+              "start": 56,
+              "url": "https://t.co/Ib0DkhWkEm"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "multyhead.substack.com",
+              "end": 23,
+              "expanded_url": "https://multyhead.substack.com/",
+              "start": 0,
+              "url": "https://t.co/izLukyWwaK"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1470503969789251589",
+      "handle": "kloss_xyz",
+      "name": "klöss",
+      "name_unverified": true,
+      "companies": [
+        "Psychanon",
+        "New Dawn"
+      ],
+      "bio": "AI systems architect. prompt shaman.\ncreative explorer. automation engineer.\nCEO @psychanon @newdawnxyz",
+      "location": "DM for Inquiries",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 91,
+              "start": 81,
+              "username": "psychanon"
+            },
+            {
+              "end": 103,
+              "start": 92,
+              "username": "newdawnxyz"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "kloss.fyi",
+              "end": 23,
+              "expanded_url": "https://www.kloss.fyi",
+              "start": 0,
+              "url": "https://t.co/1NXHAej4mM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3300401027",
+      "handle": "ggerganov",
+      "name": "Georgi Gerganov",
+      "name_unverified": false,
+      "companies": [
+        "Hugging Face"
+      ],
+      "bio": "24th at the Electrica puzzle challenge | building https://t.co/baTQS2bL7I | engineer @huggingface",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 97,
+              "start": 85,
+              "username": "huggingface"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "github.com/ggml-org",
+              "end": 73,
+              "expanded_url": "https://github.com/ggml-org",
+              "start": 50,
+              "url": "https://t.co/baTQS2bL7I"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "github.com/ggerganov",
+              "end": 23,
+              "expanded_url": "https://github.com/ggerganov",
+              "start": 0,
+              "url": "https://t.co/0H5L2tx8zQ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "748792879552704513",
+      "handle": "o_kwasniewski",
+      "name": "Oskar",
+      "name_unverified": true,
+      "companies": [
+        "e2e"
+      ],
+      "bio": "co-founder @e2e",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 15,
+              "start": 11,
+              "username": "e2e"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "e2e.com",
+              "end": 23,
+              "expanded_url": "https://e2e.com",
+              "start": 0,
+              "url": "https://t.co/s2YhJ8xVke"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1674028088",
+      "handle": "MishaLaskin",
+      "name": "Misha Laskin",
+      "name_unverified": false,
+      "companies": [
+        "Reflection"
+      ],
+      "bio": "co-founder, ceo @reflection_ai",
+      "location": "NYC",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 30,
+              "start": 16,
+              "username": "reflection_ai"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "reflection.ai",
+              "end": 23,
+              "expanded_url": "https://www.reflection.ai/",
+              "start": 0,
+              "url": "https://t.co/bSaWfI7sqr"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3222018178",
+      "handle": "adcock_brett",
+      "name": "Brett Adcock",
+      "name_unverified": false,
+      "companies": [
+        "Figure",
+        "Hark",
+        "Cover",
+        "Archer"
+      ],
+      "bio": "@figure_robot (AI robots) \n@hark_labs (AI lab) \n@cover_thz (weapon detection) \n@flyArcher (flying cars)",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 13,
+              "start": 0,
+              "username": "figure_robot"
+            },
+            {
+              "end": 37,
+              "start": 27,
+              "username": "hark_labs"
+            },
+            {
+              "end": 58,
+              "start": 48,
+              "username": "cover_thz"
+            },
+            {
+              "end": 89,
+              "start": 79,
+              "username": "flyArcher"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "hark.com",
+              "end": 23,
+              "expanded_url": "http://hark.com",
+              "start": 0,
+              "url": "https://t.co/MqTW7gR34f"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "402035716",
+      "handle": "anvisha",
+      "name": "Anvisha",
+      "name_unverified": true,
+      "companies": [
+        "Moda",
+        "Dropbox"
+      ],
+      "bio": "builder and aesthete. @trymoda @startvoyager. prev YC, @dropbox, @MIT. 📍nyc",
+      "location": "New York, USA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 30,
+              "start": 22,
+              "username": "trymoda"
+            },
+            {
+              "end": 44,
+              "start": 31,
+              "username": "startvoyager"
+            },
+            {
+              "end": 63,
+              "start": 55,
+              "username": "dropbox"
+            },
+            {
+              "end": 69,
+              "start": 65,
+              "username": "MIT"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "voyager.so",
+              "end": 23,
+              "expanded_url": "https://voyager.so",
+              "start": 0,
+              "url": "https://t.co/LXXiSGXKyA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1413775777",
+      "handle": "RagavanThurair",
+      "name": "Ragavan Thurairatnam",
+      "name_unverified": false,
+      "companies": [
+        "Dessa"
+      ],
+      "bio": "Running a new AI lab for @jack. prev founder, sold @dessa. Deep Learning since 2012",
+      "location": "",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 30,
+              "start": 25,
+              "username": "jack"
+            },
+            {
+              "end": 57,
+              "start": 51,
+              "username": "dessa"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "dessa.com",
+              "end": 23,
+              "expanded_url": "http://dessa.com",
+              "start": 0,
+              "url": "https://t.co/1lDPsbdSeM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1518984544421965824",
+      "handle": "mattyp",
+      "name": "matt palmer",
+      "name_unverified": false,
+      "companies": [
+        "SpaceX"
+      ],
+      "bio": "cursor & @bot at @spacexsi",
+      "location": "san francisco",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 13,
+              "start": 9,
+              "username": "bot"
+            },
+            {
+              "end": 26,
+              "start": 17,
+              "username": "spacexsi"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "palmer.gg",
+              "end": 23,
+              "expanded_url": "http://palmer.gg",
+              "start": 0,
+              "url": "https://t.co/p8kDqjEfHW"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "15126388",
+      "handle": "bhalligan",
+      "name": "Brian Halligan",
+      "name_unverified": false,
+      "companies": [
+        "HubSpot",
+        "Sequoia",
+        "Propeller"
+      ],
+      "bio": "Co-founder & CEO HubSpot | Sequoia | Propeller | MIT",
+      "location": "Cambridge",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "hubspot.com",
+              "end": 23,
+              "expanded_url": "http://www.hubspot.com",
+              "start": 0,
+              "url": "https://t.co/erHZSZIZcQ"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "14260608",
+      "handle": "dharmesh",
+      "name": "Dharmesh Shah",
+      "name_unverified": false,
+      "companies": [
+        "HubSpot"
+      ],
+      "bio": "Co-founder/CTO, HubSpot ($HUBS).\n\nMission: Help millions grow better.\n\nPublish https://t.co/sgeuiJi7wU newsletter (2M+ subscribers).\n\nBuilding:  https://t.co/L5T2SOqHJZ (Solo CRM)",
+      "location": "Boston, MA",
+      "entities": {
+        "description": {
+          "cashtags": [
+            {
+              "end": 30,
+              "start": 25,
+              "tag": "HUBS"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "simple.ai",
+              "end": 102,
+              "expanded_url": "http://simple.ai",
+              "start": 79,
+              "url": "https://t.co/sgeuiJi7wU"
+            },
+            {
+              "display_url": "YouSpot.com",
+              "end": 168,
+              "expanded_url": "http://YouSpot.com",
+              "start": 145,
+              "url": "https://t.co/L5T2SOqHJZ"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "dharme.sh/dharmeshtb",
+              "end": 23,
+              "expanded_url": "http://dharme.sh/dharmeshtb",
+              "start": 0,
+              "url": "https://t.co/CcZG7NUXZR"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

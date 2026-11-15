@@ -51,6 +51,8 @@ Read both alongside the actual editions, execution times, and costs. Shared star
 
 ## Follow the evidence
 
+- [Who Max Follows](https://tedcahall.github.io/ai-brief-pipeline/docs/who-max-follows/): the searchable source directory, with original, @name, and company sorting.
+
 Readable reports sit at the top of each reporting directory. Supporting JSON audits live in each reporting directory’s `json/` subdirectory, including `pulse-judging/json/`. Pulse Judging’s readable daily reports live in `pulse-judging/daily/`.
 
 - [Archive notes](docs/archive-notes.md) explain selection rules and exceptions.
