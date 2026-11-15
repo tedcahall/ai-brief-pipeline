@@ -1,0 +1,243 @@
+{
+ "date": "2026-11-15",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "fable-5-1",
+  "fable-5-2",
+  "gemini-4-argon",
+  "gemini-4-carbon",
+  "gemini-4-hydrogen",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "haiku-5-5",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902",
+  "sonnet-5-5"
+ ],
+ "scores": {
+  "opus": {
+   "fable-5-2": 3.0,
+   "gemini-4-hydrogen": 3.0,
+   "kimi-k3-1-pro": 4.0,
+   "sonnet-5-5": 3.5,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "deepseek-v4-pro": 3.5,
+   "qwen-3-8-max-0902": 3.0,
+   "minimax-m3-1-flash": 3.5,
+   "opus-5-5": 3.0,
+   "glm-5-3": 3.5,
+   "gpt-6-1-sol": 3.0,
+   "grok-4-7": 3.0,
+   "haiku-5-5": 3.5,
+   "gpt-6-1-terra": 2.0,
+   "gpt-6-luna": 2.0,
+   "gemini-4-carbon": 3.0,
+   "gpt-6-astra": 2.5,
+   "fable-5-1": 4.0,
+   "gemini-4-argon": 2.5
+  },
+  "glm": {
+   "gpt-6-1-sol": 3.5,
+   "gpt-6-astra": 4.0,
+   "gemini-4-hydrogen": 3.0,
+   "deepseek-v4-pro": 3.5,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "fable-5-1": 3.5,
+   "opus-5-5": 3.5,
+   "grok-4-7": 3.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "kimi-k3-1-pro": 4.0,
+   "gemini-4-argon": 3.0,
+   "glm-5-3": 3.0,
+   "minimax-m3-1-flash": 3.5,
+   "fable-5-2": 3.0,
+   "sonnet-5-5": 4.0,
+   "gemini-4-carbon": 3.0,
+   "haiku-5-5": 3.5,
+   "gpt-6-luna": 2.0
+  },
+  "astra": {
+   "glm-5-3": 3.0,
+   "haiku-5-5": 3.0,
+   "gpt-6-1-terra": 2.5,
+   "opus-5-5": 2.5,
+   "gpt-6-luna": 2.0,
+   "sonnet-5-5": 3.0,
+   "gpt-6-1-sol": 3.0,
+   "deepseek-v4-pro": 2.0,
+   "gpt-6-astra": 3.5,
+   "minimax-m3-1-flash": 3.0,
+   "fable-5-2": 2.5,
+   "gemini-4-hydrogen": 3.0,
+   "kimi-k3-1-pro": 4.0,
+   "gemini-4-carbon": 2.0,
+   "qwen-3-8-max-0902": 2.5,
+   "grok-4-7": 2.5,
+   "gemini-4-argon": 2.0,
+   "fable-5-1": 2.5,
+   "deepseek-v4-1-flash-1017": 3.0
+  },
+  "grok": {
+   "fable-5-1": 3.0,
+   "grok-4-7": 2.5,
+   "haiku-5-5": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "opus-5-5": 3.0,
+   "sonnet-5-5": 3.0,
+   "gpt-6-luna": 1.5,
+   "gemini-4-hydrogen": 3.5,
+   "gpt-6-astra": 2.0,
+   "glm-5-3": 2.5,
+   "qwen-3-8-max-0902": 3.0,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "kimi-k3-1-pro": 3.5,
+   "minimax-m3-1-flash": 3.0,
+   "fable-5-2": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "deepseek-v4-pro": 4.0,
+   "gemini-4-argon": 2.5,
+   "gemini-4-carbon": 3.0
+  },
+  "dsflash": {
+   "kimi-k3-1-pro": 4.0,
+   "gpt-6-1-sol": 3.0,
+   "haiku-5-5": 3.0,
+   "minimax-m3-1-flash": 3.0,
+   "gemini-4-argon": 2.5,
+   "fable-5-1": 2.5,
+   "glm-5-3": 3.5,
+   "gemini-4-carbon": 2.5,
+   "qwen-3-8-max-0902": 3.0,
+   "deepseek-v4-pro": 2.5,
+   "sonnet-5-5": 3.5,
+   "gpt-6-astra": 2.0,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "grok-4-7": 3.0,
+   "gemini-4-hydrogen": 3.0,
+   "opus-5-5": 3.5,
+   "gpt-6-luna": 1.5,
+   "fable-5-2": 3.5
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 3.1,
+  "deepseek-v4-pro": 3.1,
+  "fable-5-1": 3.1,
+  "fable-5-2": 3.0,
+  "gemini-4-argon": 2.5,
+  "gemini-4-carbon": 2.7,
+  "gemini-4-hydrogen": 3.1,
+  "glm-5-3": 3.1,
+  "gpt-6-1-sol": 3.0,
+  "gpt-6-1-terra": 2.2,
+  "gpt-6-astra": 2.8,
+  "gpt-6-luna": 1.8,
+  "grok-4-7": 2.8,
+  "haiku-5-5": 3.2,
+  "kimi-k3-1-pro": 3.9,
+  "minimax-m3-1-flash": 3.2,
+  "opus-5-5": 3.1,
+  "qwen-3-8-max-0902": 3.0,
+  "sonnet-5-5": 3.4
+ },
+ "ranking": [
+  "kimi-k3-1-pro",
+  "sonnet-5-5",
+  "haiku-5-5",
+  "minimax-m3-1-flash",
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "fable-5-1",
+  "gemini-4-hydrogen",
+  "glm-5-3",
+  "opus-5-5",
+  "fable-5-2",
+  "gpt-6-1-sol",
+  "qwen-3-8-max-0902",
+  "gpt-6-astra",
+  "grok-4-7",
+  "gemini-4-carbon",
+  "gemini-4-argon",
+  "gpt-6-1-terra",
+  "gpt-6-luna"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "fable-5-1",
+    "fable-5-2",
+    "haiku-5-5",
+    "opus-5-5",
+    "sonnet-5-5"
+   ],
+   "own": 3.4,
+   "others": 3.1,
+   "bump": 0.3
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 3.0,
+   "others": 3.12,
+   "bump": -0.12
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 2.75,
+   "others": 2.38,
+   "bump": 0.38
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 2.5,
+   "others": 2.88,
+   "bump": -0.38
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 2.75,
+   "others": 3.19,
+   "bump": -0.44
+  }
+ },
+ "judge_notes": {
+  "opus": "R won on concrete hierarchy and a stated consequence ('intensifying export-control scrutiny as Nvidia searches for a permanent CEO'), losing only for a 'while'-joined closing list; C was the runner-up for its explicit throughline ('Together, the results show why harness design, cost, and evaluation methodology remain central') despite a hedge. O finished last because it is nearly content-free and stacked with disclaimers ('does not establish where training occurred or prove a legal violation', 'a secondary estimate rather than total AI spending'), with N close behind for vague filler ('New benchmark analyses examine coding agents').",
+  "glm": "K won by giving each paragraph a mini-thesis ('Fresh evaluations supplied a counterweight to launch claims') and landing one integrated caveat cleanly ('without proving export violations') with almost no list connectors. B and P were close behind: compact, specific, single caveats ('while leaving chip location and export-law compliance unresolved'). S lost because nearly every sentence was non-specific process-talk ('a trust layer for agent-initiated payments,' 'Independent evaluation and real deployments underscore the need to measure model performance against changing benchmarks') with nothing a reader could act on. J was nearly as weak for the same reason ('New benchmark analyses examine coding agents'). The middle was dominated by accurate but connector-glued item lists ('Separately,' 'Meanwhile,' 'while') with occasional spec stacks.",
+  "astra": "M wins because \u201cFresh evaluations supplied a counterweight to launch claims\u201d establishes an editorial relationship and \u201cTogether, the results show why harness design, cost, and evaluation methodology remain central\u201d supplies a useful executive takeaway. Its technical opening prevents a publish-as-is score. H loses because \u201cNvidia's $500 billion financing consortium is showing cracks\u201d repeats an already-made point, while \u201cMeanwhile, the AI industry continues to accelerate\u201d leads into an overstuffed, unprioritized closing sentence. The problem is repetition and structure, not length or factual accuracy.",
+  "grok": "Q won because it keeps one spine: the resignation throws \"the company's $500 billion AI financing initiative\" into uncertainty, and the second paragraph says what that changes, ending on \"how the next wave of AI compute will be funded.\" The kicker is the only real miss. G lost because it never delivers a usable fact: \"new research applies AI to drug development and human genetics\" names no one and no result, and \"the figure is a secondary estimate rather than total AI spending\" disclaims a number it never states.",
+  "dsflash": "Best (A) wins because it is the only summary that builds a hierarchy and then says what it means: launches, then 'Fresh evaluations supplied a counterweight to launch claims', then a single synthesizing line. It still carries a 45-word 'while' sentence ('while Goldman Sachs put AI-related debt issuance at $687 billion'), but the throughline holds. K is next: it leads with the hardest news and integrates its caveat cleanly ('The authors say the findings do not show where the chips were located'), losing only on 'upgraded its Coding Agent Index with ... tied for the lead' and an unnamed 'Helsinki logician'. Worst (R) loses because it has no named subject anywhere and spends its sentences refusing to commit: 'A report on Chinese AI models raises questions', 'its evidence does not establish where training occurred', 'a secondary estimate rather than total AI spending'. N fails the same way at slightly higher resolution: 'analysts are assessing whether NVIDIA's leadership transition will affect future AI infrastructure financing' is a sentence that could have been written any day of the year. J is the loudest failure of craft among the substantial entries: a genuine scoop undercut by a ~60-word run-on ('LangChain closed a $300M Series C ... Hinton warned EU leaders') and a repeated $500 billion financing thread."
+ }
+}
