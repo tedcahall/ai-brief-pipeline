@@ -2,7 +2,7 @@
 
 ### One editorial task. Multiple models. Inspectable results.
 
-This pipeline tests and compares AI models for [Max’s AI Brief](https://maxsaibrief.com/), the production daily AI newsletter. This repository shares the testing results: how different models turn a shared pool of news evidence into a briefing, which stories and posts they select, how their short-form writing is judged, how long their workflows take, and what their recorded token usage would cost at published API rates.
+This pipeline tests and compares AI models for [Max’s AI Brief](https://maxsaibrief.com/), the production daily AI newsletter. This repository shares the testing results: how different models turn a shared pool of news evidence into a briefing, which stories and posts they select, how their short-form writing is judged, how long their workflows take, and what their recorded token usage would cost at published API rates. [Compare the model's HTML.](https://tedcahall.github.io/ai-brief-pipeline/daily-results/)
 
 The aim is to demonstrate the trade-offs of each of the non-deterministic steps in the workflow.
 
