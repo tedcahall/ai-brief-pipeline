@@ -63,9 +63,9 @@ Gemini 4 Hydrogen is a new entry, not a price change to an existing model.
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification for Saturday, November 14, 2026 checked all 19 models across 12 freshly captured sources and reported no rate or condition changes. Rates for every model, including the November 13 Hydrogen addition, were verified against the official provider pages in that run. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification for Sunday, November 15, 2026 checked all 19 models across 12 freshly captured sources and reported no rate or condition changes. Rates for every model, including the November 13 Hydrogen addition, were verified against the official provider pages in that run. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
 
-- **Daily check:** `2026-11-14T08:04:09.706874+00:00`; status: `unchanged`; 19 models, 12 sources.
+- **Daily check:** `2026-11-15T08:03:16.285169+00:00`; status: `unchanged`; 19 models, 12 sources.
 - **Snapshot:** `2026-11-13T113820742994Z/api-pricing.json` (unchanged by the no-change check).
 - **SHA-256:** `c39ac237c11361b5065a3f42dd6e6790020cb859f1e6494104bc9989abff06ed`.
 
