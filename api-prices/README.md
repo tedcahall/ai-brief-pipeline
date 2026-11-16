@@ -65,12 +65,13 @@ Gemini 4 Hydrogen and Qwen4 Max are new entries, not price changes to existing m
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. Qwen4 Max was separately added from a fresh exact-route OpenRouter source; the earlier 19-model daily check below is preserved and is not relabeled as a 20-model verification. The daily verification for Sunday, November 15, 2026 checked all 19 models across 12 freshly captured sources and reported no rate or condition changes. Rates for every model, including the November 13 Hydrogen addition, were verified against the official provider pages in that run. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification for Monday, November 16, 2026 checked all 20 models, including the Qwen4 Max addition, across 13 freshly captured official sources and reported no rate or condition changes. All current Standard/introductory rates were re-verified against the provider pages in that run; no bundle was republished because nothing changed. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
 
-- **Daily check:** `2026-11-15T08:03:16.285169+00:00`; status: `unchanged`; 19 models, 12 sources.
+- **Daily check:** `2026-11-16T10:59:11.739275+00:00`; status: `unchanged`; 20 models, 13 sources.
 - **Qwen4 addition:** `2026-11-16T10:55:48.994629+00:00`; exact OpenRouter / Alibaba endpoint separately verified.
 - **Snapshot:** `2026-11-16T105548994629Z/api-pricing.json`.
 - **SHA-256:** `fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846`.
+- **Scheduled, not current:** today's Google capture states Gemini 4 Argon introductory Standard pricing runs through November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026; the table keeps the current $2/$10/$0.10 introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
 
