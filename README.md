@@ -9,29 +9,29 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 <!-- MODEL-LEADERBOARD:START -->
 ## Model Performance Leaders
 
-**Five-batch moving averages | November 11-15, 2026 | Minimum 3 observed runs**
+**Five-batch moving averages | November 12-16, 2026 | Minimum 3 observed runs**
 
 ### 🏆 Leaders
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | Fable 5.2 | **80.0/100** | 68.3/100 | 44.0/100 | 80.0/100 | 5 |
-| Editorial Score | DeepSeek V4.1 Flash 1017 | **3.40/5** | 2.96/5 | 2.40/5 | 3.40/5 | 5 |
-| Lowest Cost | GPT-6 Luna | **$0.0802** | $2.1514 | $0.0802 | $9.6506 | 5 |
-| Run Time | gemini-4-hydrogen | **3m 35s** | 10m 57s | 3m 35s | 32m 09s | 3 |
-| Ed Consistency | GPT-6.1 Sol | **SD 0.114** | SD 0.291 | SD 0.114 | SD 0.510 | 5 |
-| Token Usage | gemini-4-hydrogen | **2,109,253** | 5,234,173 | 2,109,253 | 11,604,880 | 3 |
+| Ed Selection | Gemini 4 Argon | **79.8/100** | 68.1/100 | 49.8/100 | 79.8/100 | 5 |
+| Editorial Score | Kimi K3.1 Pro | **3.40/5** | 2.96/5 | 2.34/5 | 3.40/5 | 5 |
+| Lowest Cost | GPT-6 Luna | **$0.0891** | $2.1896 | $0.0891 | $9.9044 | 5 |
+| Run Time | gemini-4-hydrogen | **3m 34s** | 10m 54s | 3m 34s | 30m 01s | 4 |
+| Ed Consistency | gemini-4-hydrogen | **SD 0.171** | SD 0.303 | SD 0.171 | SD 0.510 | 4 |
+| Token Usage | gemini-4-hydrogen | **2,096,536** | 5,269,745 | 2,096,536 | 12,013,292 | 4 |
 
 ### ⚠️ Laggards
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | GPT-6 Luna | **44.0/100** | 68.3/100 | 44.0/100 | 80.0/100 | 5 |
-| Editorial Score | GPT-6.1 Terra | **2.40/5** | 2.96/5 | 2.40/5 | 3.40/5 | 5 |
-| Highest Cost | Fable 5.1 | **$9.6506** | $2.1514 | $0.0802 | $9.6506 | 5 |
-| Run Time | Qwen 3.8 Max 0902 | **32m 09s** | 10m 57s | 3m 35s | 32m 09s | 5 |
-| Ed Consistency | Qwen 3.8 Max 0902 | **SD 0.510** | SD 0.291 | SD 0.114 | SD 0.510 | 5 |
-| Token Usage | MiniMax M3.1 Flash | **11,604,880** | 5,234,173 | 2,109,253 | 11,604,880 | 5 |
+| Ed Selection | GPT-6 Luna | **49.8/100** | 68.1/100 | 49.8/100 | 79.8/100 | 5 |
+| Editorial Score | GPT-6.1 Terra | **2.34/5** | 2.96/5 | 2.34/5 | 3.40/5 | 5 |
+| Highest Cost | Fable 5.1 | **$9.9044** | $2.1896 | $0.0891 | $9.9044 | 5 |
+| Run Time | Qwen 3.8 Max 0902 | **30m 01s** | 10m 54s | 3m 34s | 30m 01s | 5 |
+| Ed Consistency | Qwen 3.8 Max 0902 | **SD 0.510** | SD 0.303 | SD 0.171 | SD 0.510 | 5 |
+| Token Usage | DeepSeek V4.1 Flash 1017 | **12,013,292** | 5,269,745 | 2,096,536 | 12,013,292 | 5 |
 <!-- MODEL-LEADERBOARD:END -->
 
 ## Explore the results
