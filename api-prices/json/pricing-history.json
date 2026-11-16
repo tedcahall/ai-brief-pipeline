@@ -654,6 +654,30 @@
       }
     },
     {
+      "model": "qwen-4-max",
+      "tier": "OpenRouter / Alibaba",
+      "first_recorded": "2026-11-16",
+      "last_price_change_observed": null,
+      "updated": "2026-11-16",
+      "rates": {
+        "input_uncached": 1.5,
+        "output": 4.5,
+        "cache_read": 0.075,
+        "cache_write_by_ttl": {
+          "unspecified": 1.875
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-16T105548994629Z/api-pricing.json",
+        "sha256": "fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-16T105548994629Z/api-pricing.json",
+        "sha256": "fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846"
+      }
+    },
+    {
       "model": "sonnet-5-5",
       "tier": "Standard",
       "first_recorded": "2026-11-08",
@@ -680,14 +704,14 @@
     }
   ],
   "last_model_addition": {
-    "model": "gemini-4-hydrogen",
-    "checked_at": "2026-11-13T08:02:01.462Z",
+    "model": "qwen-4-max",
+    "checked_at": "2026-11-16T10:55:48.994629+00:00",
     "status": "verified",
-    "source": "https://aistudio.google.com/docs/pricing",
+    "source": "https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints",
     "snapshot_evidence": {
-      "snapshot": "2026-11-13T113820742994Z/api-pricing.json",
-      "sha256": "c39ac237c11361b5065a3f42dd6e6790020cb859f1e6494104bc9989abff06ed"
+      "snapshot": "2026-11-16T105548994629Z/api-pricing.json",
+      "sha256": "fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846"
     },
-    "scope": "Hydrogen only; prior daily verification remains unchanged"
+    "scope": "Qwen4 only; prior daily verification unchanged"
   }
 }
