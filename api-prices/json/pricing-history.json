@@ -341,6 +341,106 @@
       }
     },
     {
+      "model": "gpt-6-2-astra",
+      "tier": "Standard short",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 8.0,
+        "output": 40.0,
+        "cache_read": 0.4,
+        "cache_write_by_ttl": {
+          "30m": 10.0,
+          "12h": 20.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "tier": "Standard long",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 16.0,
+        "output": 60.0,
+        "cache_read": 0.8,
+        "cache_write_by_ttl": {
+          "30m": 20.0,
+          "12h": 40.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-2-sol",
+      "tier": "Standard short",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 2.0,
+        "output": 10.0,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "30m": 2.5,
+          "12h": 5.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-2-sol",
+      "tier": "Standard long",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 4.0,
+        "output": 15.0,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "30m": 5.0,
+          "12h": 10.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
       "model": "gpt-6-astra",
       "tier": "Standard short",
       "first_recorded": "2026-10-29",
@@ -734,14 +834,17 @@
     }
   ],
   "last_model_addition": {
-    "model": "qwen-4-max",
-    "checked_at": "2026-11-16T10:55:48.994629+00:00",
+    "models": [
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+    ],
+    "checked_at": "2026-11-17T23:30:02.747281+00:00",
     "status": "verified",
-    "source": "https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints",
+    "source": "https://developers.openai.com/api/docs/pricing",
     "snapshot_evidence": {
-      "snapshot": "2026-11-16T105548994629Z/api-pricing.json",
-      "sha256": "fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846"
+      "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+      "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
     },
-    "scope": "Qwen4 only; prior daily verification unchanged"
+    "scope": "Two GPT-6.2 additions only; prior daily verification unchanged"
   }
 }

@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Tuesday, November 17, 2026 · 20 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Tuesday, November 17, 2026 · 22 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -24,6 +24,10 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 | [gpt-6-1-sol](https://developers.openai.com/api/docs/pricing) | Standard long | $4 | $15 | $0.2 | $5 (30m); $10 (12h) | 2026-10-29 |
 | [gpt-6-1-terra](https://developers.openai.com/api/docs/pricing) | Standard short | $1 | $5 | $0.05 | $1.25 (30m); $2.5 (12h) | 2026-10-29 |
 | [gpt-6-1-terra](https://developers.openai.com/api/docs/pricing) | Standard long | $2 | $7.5 | $0.1 | $2.5 (30m); $5 (12h) | 2026-10-29 |
+| [gpt-6-2-astra](https://developers.openai.com/api/docs/pricing) | Standard short | $8 | $40 | $0.4 | $10 (30m); $20 (12h) | 2026-11-17 |
+| [gpt-6-2-astra](https://developers.openai.com/api/docs/pricing) | Standard long | $16 | $60 | $0.8 | $20 (30m); $40 (12h) | 2026-11-17 |
+| [gpt-6-2-sol](https://developers.openai.com/api/docs/pricing) | Standard short | $2 | $10 | $0.1 | $2.5 (30m); $5 (12h) | 2026-11-17 |
+| [gpt-6-2-sol](https://developers.openai.com/api/docs/pricing) | Standard long | $4 | $15 | $0.2 | $5 (30m); $10 (12h) | 2026-11-17 |
 | [gpt-6-astra](https://developers.openai.com/api/docs/pricing) | Standard short | $10 | $50 | $1 | $12.5 (30m); $25 (12h) | 2026-10-29 |
 | [gpt-6-astra](https://developers.openai.com/api/docs/pricing) | Standard long | $20 | $75 | $2 | $25 (30m); $50 (12h) | 2026-10-29 |
 | [gpt-6-luna](https://developers.openai.com/api/docs/pricing) | Standard short | $0.1 | $0.5 | $0.01 | $0.125 (30m); $0.25 (12h) | 2026-10-29 |
@@ -44,7 +48,8 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 
 ## Selecting the right rate
 
-- **OpenAI:** Standard short applies to requests with up to 272,000 prompt tokens; Standard long applies above that threshold. The saved card lists Batch/Flex at 0.5×, Fast at 2×, and regional/FedRAMP uplift at 1.1×; these modifiers are not applied in the table.
+- **OpenAI (older models):** Standard short applies to requests with up to 272,000 prompt tokens; Standard long applies above that threshold. The saved card lists Batch/Flex at 0.5×, Fast at 2×, and regional/FedRAMP uplift at 1.1×; these modifiers are not applied in the table.
+- **GPT-6.2 Astra and Sol:** Standard short/long uses the same 272,000-input-token threshold. Batch is 0.5× and Fast 2× Standard. Flex is not listed for these exact models. Ultrafast is 3× through February 28, 2027, then 6× starting March 1, 2027 (Pacific time). Eligible background windows are 30% below Standard for 2 hours and 40% below for 8 hours. Regional and FedRAMP uplifts are each listed as 10%. These modifiers are not applied to the Standard table.
 - **Haiku:** Short applies to requests with up to 100,000 prompt tokens, including cached prompt tokens; long applies above that threshold.
 - **Grok:** Short applies below 200,000 prompt tokens; long applies at or above 200,000. The table uses the global Standard baseline; the saved card lists US regional at 1.1×, Priority at 2×, and Batch at 0.8×.
 - **DeepSeek:** Peak applies Monday–Friday, 01:00–04:00 and 06:00–10:00 UTC, excluding Chinese public holidays; all other times are off-peak. The card flags a model-version discrepancy between provider materials, so execution identity must be checked before attributing a direct-endpoint run.
@@ -59,9 +64,9 @@ Request tiers are selected per call, not from the cumulative token count of a mu
 
 ## Price history
 
-The available saved rate cards show no numeric changes for existing entries across this snapshot series. Updated therefore reflects the initial recorded date for these rows. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1. Gemini 4 Carbon is also a new model entry; its announced future schedule is not an observed price change.
+Qwen4 Max has an observed 5% rate reduction in this snapshot series. Other unchanged rows retain their initial recorded or most recent observed rate-change date. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1. Gemini 4 Carbon is also a new model entry; its announced future schedule is not an observed price change.
 
-Gemini 4 Hydrogen and Qwen4 Max are new entries, not price changes to existing models.
+GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 Sol remain unchanged for historical comparisons. Gemini 4 Hydrogen and Qwen4 Max were also added as new model entries.
 
 ## Freshness and provenance
 
@@ -69,12 +74,13 @@ This document reflects the saved pricing JSON. The daily verification for Tuesda
 
 - **Daily check:** `2026-11-17T08:04:02.783343+00:00`; status: `changed`; changed model: `qwen4-max`; 20 models, 13 sources.
 - **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, retrieved `2026-11-17T08:00:58.484Z`.
-- **Snapshot:** `2026-11-17T080402783388Z/api-pricing.json`.
-- **SHA-256:** `99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e`.
+- **GPT-6.2 additions:** `2026-11-17T23:30:02.747281+00:00`; both models separately verified against OpenAI. This addition did not repeat the earlier 20-model daily check.
+- **Snapshot:** `2026-11-17T233002747281Z/api-pricing.json`.
+- **SHA-256:** `d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8`.
 - **Scheduled, not current:** today's Google capture states Gemini 4 Argon introductory Standard pricing runs through November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026; the table keeps the current $2/$10/$0.10 introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
 
 ## Daily maintenance
 
-On each successful daily pricing refresh, regenerate this table from the approved rate card and current model cohort, retaining explicitly approved pricing additions such as Gemini 4 Carbon even before their comparison jobs are configured. Preserve all applicable tiers, cache durations, source links, and verification metadata. If verification fails, retain the last verified table and disclose the stale status rather than advancing its date.
+On each successful daily pricing refresh, regenerate this table from the approved rate card and current model cohort, retaining explicitly approved pricing additions such as Gemini 4 Carbon, GPT-6.2 Astra and GPT-6.2 Sol even before their comparison jobs are configured. Preserve all applicable tiers, cache durations, source links, and verification metadata. If verification fails, retain the last verified table and disclose the stale status rather than advancing its date.
