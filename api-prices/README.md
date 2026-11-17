@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Monday, November 16, 2026 · 20 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Tuesday, November 17, 2026 · 20 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -37,7 +37,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 | [opus-5-5](https://platform.claude.com/docs/en/models/opus-5-5/overview) | Standard | $4 | $20 | $0.2 | $5 (5m); $8 (1h) | 2026-10-29 |
 | [qwen-3-8-max-0902](https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max) | Singapore / International | $2 | $6 | $0.25 implicit; $0.17 explicit | $2.5 (explicit) | 2026-10-29 |
 | [qwen-3-8-max-0902](https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max) | Global | $1.65 | $4.951 | $0.206 implicit; $0.137 explicit | $2.063 (explicit) | 2026-10-29 |
-| [qwen-4-max](https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints) | OpenRouter / Alibaba | $1.50 | $4.50 | $0.075 (explicit) | $1.875 (TTL unspecified) | 2026-11-16 |
+| [qwen-4-max](https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints) | OpenRouter / Alibaba | $1.425 | $4.275 | $0.07125 (explicit) | $1.78125 (TTL unspecified) | 2026-11-17 |
 | [sonnet-5-5](https://platform.claude.com/docs/en/about-claude/pricing) | Standard | $2 | $10 | $0.1 | $2.5 (5m); $4 (1h) | 2026-11-08 |
 
 **Updated:** Date we first recorded these rates or last observed a price change. Unchanged daily checks do not advance this date. These are observation dates, not necessarily provider effective dates.
@@ -49,7 +49,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 - **Grok:** Short applies below 200,000 prompt tokens; long applies at or above 200,000. The table uses the global Standard baseline; the saved card lists US regional at 1.1×, Priority at 2×, and Batch at 0.8×.
 - **DeepSeek:** Peak applies Monday–Friday, 01:00–04:00 and 06:00–10:00 UTC, excluding Chinese public holidays; all other times are off-peak. The card flags a model-version discrepancy between provider materials, so execution identity must be checked before attributing a direct-endpoint run.
 - **Qwen 3.8:** Both saved regional schedules and both cache-read modes are shown. Run-cost reports use the higher regional estimate conservatively; this does not establish the actual execution region. Do not mix implicit and explicit cache rates.
-- **Qwen4 Max:** The exact comparison route is OpenRouter / Alibaba (`qwen/qwen4-max`, canonical endpoint `qwen/qwen4-max-20261115`), with **$1.50/$4.50/$0.075/$1.875** input/output/cache-read/cache-write rates per million tokens. These are OpenRouter API list rates, not provider-billed charges or subscription costs. The endpoint reports no implicit caching; cache-write TTL is unspecified, so no 5-minute or 1-hour price is inferred. [Alibaba direct documentation](https://www.alibabacloud.com/help/en/model-studio/qwen4-max) confirms thinking and non-thinking pricing through 1M input tokens and output includes chain of thought plus answer. Direct Global/Beijing input/output prices are $1.413/$4.24, which are not the prices for this OpenRouter route.
+- **Qwen4 Max:** The exact comparison route is OpenRouter / Alibaba (`qwen/qwen4-max`, canonical endpoint `qwen/qwen4-max-20261115`), with **$1.425/$4.275/$0.07125/$1.78125** input/output/cache-read/cache-write rates per million tokens (lowered 5% on November 17, 2026 from $1.50/$4.50/$0.075/$1.875). These are OpenRouter API list rates, not provider-billed charges or subscription costs. The endpoint reports no implicit caching; cache-write TTL is unspecified, so no 5-minute or 1-hour price is inferred. [Alibaba direct documentation](https://www.alibabacloud.com/help/en/model-studio/qwen4-max) confirms thinking and non-thinking pricing through 1M input tokens and output includes chain of thought plus answer. Direct Global/Beijing input/output prices are $1.413/$4.24, which are not the prices for this OpenRouter route.
 - **Gemini Argon:** The saved rates are introductory Standard prices. Cache read refers to implicit caching; the source card states that explicit caching is not supported.
 - **Gemini Carbon:** The table shows Standard pricing through November 30, 2026. Starting December 1, 2026, Standard input/output/implicit-cache rates are **$4/$20/$0.20** per million tokens. Batch and Flex are **$1/$5/$0.05** currently, then **$2/$10/$0.10**; Priority is **$3.60/$18/$0.18** currently, then **$7.20/$36/$0.36**. Output includes thinking tokens. Implicit caching only; explicit caching is unsupported. No free tier. Scheduled prices are not current rates.
 - **Gemini Hydrogen:** Standard input/output/implicit-cache rates are **$1.50/$7.50/$0.075** per million tokens. Batch and Flex: **$0.75/$3.75/$0.0375**; Priority: **$2.70/$13.50/$0.135**. Output includes thinking tokens; implicit caching only. Contributor private preview is invite-only, uses content to improve Google products, and has the same rates as Batch/Flex. Tool fees excluded.
@@ -65,12 +65,12 @@ Gemini 4 Hydrogen and Qwen4 Max are new entries, not price changes to existing m
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification for Monday, November 16, 2026 checked all 20 models, including the Qwen4 Max addition, across 13 freshly captured official sources and reported no rate or condition changes. All current Standard/introductory rates were re-verified against the provider pages in that run; no bundle was republished because nothing changed. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification for Tuesday, November 17, 2026 checked all 20 models across 13 freshly captured official sources and found one verified change: Qwen4 Max OpenRouter / Alibaba rates lowered 5%. A new immutable bundle was published; all other Standard/introductory rates were re-verified unchanged against the provider pages in that run. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
 
-- **Daily check:** `2026-11-16T10:59:11.739275+00:00`; status: `unchanged`; 20 models, 13 sources.
-- **Qwen4 addition:** `2026-11-16T10:55:48.994629+00:00`; exact OpenRouter / Alibaba endpoint separately verified.
-- **Snapshot:** `2026-11-16T105548994629Z/api-pricing.json`.
-- **SHA-256:** `fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846`.
+- **Daily check:** `2026-11-17T08:04:02.783343+00:00`; status: `changed`; changed model: `qwen4-max`; 20 models, 13 sources.
+- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, retrieved `2026-11-17T08:00:58.484Z`.
+- **Snapshot:** `2026-11-17T080402783388Z/api-pricing.json`.
+- **SHA-256:** `99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e`.
 - **Scheduled, not current:** today's Google capture states Gemini 4 Argon introductory Standard pricing runs through November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026; the table keeps the current $2/$10/$0.10 introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
