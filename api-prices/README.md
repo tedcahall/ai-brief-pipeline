@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Wednesday, November 18, 2026 · 22 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Wednesday, November 18, 2026 · 23 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -19,6 +19,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 | [gemini-4-argon](https://aistudio.google.com/docs/pricing) | Introductory | $2 | $10 | $0.1 | — | 2026-11-08 |
 | [gemini-4-carbon](https://aistudio.google.com/docs/pricing) | Introductory Standard | $2 | $10 | $0.1 | — | 2026-11-11 |
 | [gemini-4-hydrogen](https://aistudio.google.com/docs/pricing) | Standard | $1.50 | $7.50 | $0.075 | — | 2026-11-13 |
+| [gemini-4-neon](https://aistudio.google.com/docs/pricing) | Standard | $3 | $15 | $0.15 | Not separately listed | 2026-11-18 |
 | [glm-5-3](https://docs.z.ai/guides/overview/pricing) | Z.AI direct | $1.4 | $4.4 | $0.26 | — | 2026-10-29 |
 | [gpt-6-1-sol](https://developers.openai.com/api/docs/pricing) | Standard short | $2 | $10 | $0.1 | $2.5 (30m); $5 (12h) | 2026-10-29 |
 | [gpt-6-1-sol](https://developers.openai.com/api/docs/pricing) | Standard long | $4 | $15 | $0.2 | $5 (30m); $10 (12h) | 2026-10-29 |
@@ -58,6 +59,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 - **Gemini Argon:** The saved rates are introductory Standard prices. Cache read refers to implicit caching; the source card states that explicit caching is not supported.
 - **Gemini Carbon:** The table shows Standard pricing through November 30, 2026. Starting December 1, 2026, Standard input/output/implicit-cache rates are **$4/$20/$0.20** per million tokens. Batch and Flex are **$1/$5/$0.05** currently, then **$2/$10/$0.10**; Priority is **$3.60/$18/$0.18** currently, then **$7.20/$36/$0.36**. Output includes thinking tokens. Implicit caching only; explicit caching is unsupported. No free tier. Scheduled prices are not current rates.
 - **Gemini Hydrogen:** Standard input/output/implicit-cache rates are **$1.50/$7.50/$0.075** per million tokens. Batch and Flex: **$0.75/$3.75/$0.0375**; Priority: **$2.70/$13.50/$0.135**. Output includes thinking tokens; implicit caching only. Contributor private preview is invite-only, uses content to improve Google products, and has the same rates as Batch/Flex. Tool fees excluded.
+- **Gemini Neon:** Standard input/output/implicit-cache rates: **$3/$15/$0.15** per million tokens. Batch and Flex: **$1.50/$7.50/$0.075**; Priority: **$5.40/$27/$0.27**. Output includes thinking tokens; implicit caching only, explicit caching unsupported. No free tier. Tool fees excluded.
 - **Cache writes:** “—” means a separate rate was not verified in the saved card, not that writing or storage is free. Durations describe the cache lifetime. Select the applicable lifetime before calculating a cost.
 
 Request tiers are selected per call, not from the cumulative token count of a multi-call run. These rates exclude taxes, tool fees, infrastructure, subscription allocation, and negotiated discounts. Direct-provider list prices can differ from routed provider bills.
@@ -75,8 +77,9 @@ This document reflects the saved pricing JSON. The daily verification for Wednes
 - **Daily check:** `2026-11-18T08:04:16.583071+00:00`; status: `unchanged`; 22 models, 14 sources.
 - **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-18T08:02:46.399Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
 - **GPT-6.2 additions:** `2026-11-17T23:30:02.747281+00:00`; both models separately verified against OpenAI, re-verified unchanged in today's run.
-- **Snapshot:** `2026-11-17T233002747281Z/api-pricing.json` (unchanged by the 2026-11-18 no-change run).
-- **SHA-256:** `d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8`.
+- **Neon addition:** `2026-11-18T22:31:49.877955+00:00`; separately source-verified. Existing entries and daily-check provenance preserved.
+- **Snapshot:** `2026-11-18T223149877955Z/api-pricing.json`.
+- **SHA-256:** `3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5`.
 - **Scheduled, not current:** today's Google capture lists introductory Standard pricing for Gemini 4 Argon through November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026, matching the already-recorded Gemini 4 Carbon schedule. The tables keep the current $2/$10/$0.10 introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.

@@ -217,6 +217,28 @@
       }
     },
     {
+      "model": "gemini-4-neon",
+      "tier": "Standard",
+      "first_recorded": "2026-11-18",
+      "last_price_change_observed": null,
+      "updated": "2026-11-18",
+      "rates": {
+        "input_uncached": 3,
+        "output": 15,
+        "cache_read": 0.15,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
+        "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
+        "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
+      }
+    },
+    {
       "model": "glm-5-3",
       "tier": "Z.AI direct",
       "first_recorded": "2026-10-29",
@@ -832,17 +854,14 @@
     }
   ],
   "last_model_addition": {
-    "models": [
-      "gpt-6.2-astra",
-      "gpt-6.2-sol"
-    ],
-    "checked_at": "2026-11-17T23:30:02.747281+00:00",
+    "model": "gemini-4-neon",
+    "checked_at": "2026-11-18T22:31:49.877955+00:00",
     "status": "verified",
-    "source": "https://developers.openai.com/api/docs/pricing",
+    "source": "https://aistudio.google.com/docs/pricing",
     "snapshot_evidence": {
-      "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-      "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
+      "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
     },
-    "scope": "Two GPT-6.2 additions only; prior daily verification unchanged"
+    "scope": "Neon only; earlier daily verification unchanged"
   }
 }
