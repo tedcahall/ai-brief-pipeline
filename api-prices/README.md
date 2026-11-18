@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Tuesday, November 17, 2026 · 22 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Wednesday, November 18, 2026 · 22 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -70,14 +70,14 @@ GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification for Tuesday, November 17, 2026 checked all 20 models across 13 freshly captured official sources and found one verified change: Qwen4 Max OpenRouter / Alibaba rates lowered 5%. A new immutable bundle was published; all other Standard/introductory rates were re-verified unchanged against the provider pages in that run. Older source-capture timestamps remain in the JSON history and should not be mistaken for fresh captures of every source.
+This document reflects the saved pricing JSON. The daily verification for Wednesday, November 18, 2026 checked all 22 models across 14 freshly captured official sources and found no verified rate changes; all Standard/introductory rates were re-verified unchanged against the provider pages in that run, including the Qwen4 Max rates lowered 5% on November 17 and the GPT-6.2 Astra and Sol entries added later that day. No new bundle was published; the current snapshot remains the November 17 additions bundle.
 
-- **Daily check:** `2026-11-17T08:04:02.783343+00:00`; status: `changed`; changed model: `qwen4-max`; 20 models, 13 sources.
-- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, retrieved `2026-11-17T08:00:58.484Z`.
-- **GPT-6.2 additions:** `2026-11-17T23:30:02.747281+00:00`; both models separately verified against OpenAI. This addition did not repeat the earlier 20-model daily check.
-- **Snapshot:** `2026-11-17T233002747281Z/api-pricing.json`.
+- **Daily check:** `2026-11-18T08:04:16.583071+00:00`; status: `unchanged`; 22 models, 14 sources.
+- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-18T08:02:46.399Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
+- **GPT-6.2 additions:** `2026-11-17T23:30:02.747281+00:00`; both models separately verified against OpenAI, re-verified unchanged in today's run.
+- **Snapshot:** `2026-11-17T233002747281Z/api-pricing.json` (unchanged by the 2026-11-18 no-change run).
 - **SHA-256:** `d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8`.
-- **Scheduled, not current:** today's Google capture states Gemini 4 Argon introductory Standard pricing runs through November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026; the table keeps the current $2/$10/$0.10 introductory rates until an observed change.
+- **Scheduled, not current:** today's Google capture lists introductory Standard pricing for Gemini 4 Argon through November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026, matching the already-recorded Gemini 4 Carbon schedule. The tables keep the current $2/$10/$0.10 introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
 

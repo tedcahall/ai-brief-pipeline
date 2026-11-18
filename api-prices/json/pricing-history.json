@@ -3,15 +3,13 @@
   "status": "published",
   "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
   "last_daily_verification": {
-    "checked_at": "2026-11-17T08:04:02.783343+00:00",
-    "status": "changed",
-    "changed_models": [
-      "qwen4-max"
-    ],
-    "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-16T105548994629Z",
-    "models_checked": 20,
-    "sources_checked": 13,
-    "published": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-17T080402783388Z"
+    "checked_at": "2026-11-18T08:04:16.583071+00:00",
+    "status": "unchanged",
+    "changed_models": [],
+    "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-17T233002747281Z",
+    "models_checked": 22,
+    "sources_checked": 14,
+    "published": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-17T233002747281Z (unchanged; no new bundle published)"
   },
   "rows": [
     {
@@ -32,8 +30,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -54,8 +52,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -76,8 +74,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -98,8 +96,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -123,8 +121,8 @@
         "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -148,8 +146,8 @@
         "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -170,8 +168,8 @@
         "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -192,8 +190,8 @@
         "sha256": "cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -214,8 +212,8 @@
         "sha256": "c39ac237c11361b5065a3f42dd6e6790020cb859f1e6494104bc9989abff06ed"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -236,8 +234,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -261,8 +259,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -286,8 +284,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -311,8 +309,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -336,8 +334,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -461,8 +459,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -486,8 +484,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -511,8 +509,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -536,8 +534,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -558,8 +556,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -580,8 +578,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -605,8 +603,8 @@
         "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -630,8 +628,8 @@
         "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -655,8 +653,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -677,8 +675,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -702,8 +700,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -727,8 +725,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -752,8 +750,8 @@
         "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -803,8 +801,8 @@
         "sha256": "fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     },
     {
@@ -828,8 +826,8 @@
         "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
       },
       "latest_snapshot_evidence": {
-        "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-        "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e"
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
     }
   ],
