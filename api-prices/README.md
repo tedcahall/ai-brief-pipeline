@@ -72,10 +72,10 @@ GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification for Thursday, November 19, 2026 checked all 23 models across 15 freshly captured official sources and found no verified rate changes; all Standard/introductory rates were re-verified unchanged against the provider pages in that run, including the Qwen4 Max rates lowered 5% on November 17, the GPT-6.2 Astra and Sol entries added later that day, and Gemini 4 Neon added November 18. No new bundle was published; the current snapshot remains the November 18 Neon bundle.
+This document reflects the saved pricing JSON. The daily verification for Friday, November 20, 2026 checked all 23 models across 15 freshly captured official sources and found no verified rate changes; all Standard/introductory rates were re-verified unchanged against the provider pages in that run, including the Qwen4 Max rates lowered 5% on November 17, the GPT-6.2 Astra and Sol entries added later that day, and Gemini 4 Neon added November 18. No new bundle was published; the current snapshot remains the November 18 Neon bundle.
 
-- **Daily check:** `2026-11-19T08:04:35.839447+00:00`; status: `unchanged`; 23 models, 15 sources.
-- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-19T08:03:00.190Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
+- **Daily check:** `2026-11-20T08:03:21.610198+00:00`; status: `unchanged`; 23 models, 15 sources.
+- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-20T08:02:11.695Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
 - **GPT-6.2 additions:** `2026-11-17T23:30:02.747281+00:00`; both models separately verified against OpenAI, re-verified unchanged in today's run.
 - **Neon addition:** `2026-11-18T22:31:49.877955+00:00`; separately source-verified. Existing entries and daily-check provenance preserved.
 - **Snapshot:** `2026-11-18T223149877955Z/api-pricing.json`.
