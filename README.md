@@ -9,29 +9,29 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 <!-- MODEL-LEADERBOARD:START -->
 ## Model Performance Leaders
 
-**Five-batch moving averages | November 16-20, 2026 | Minimum 3 observed runs**
+**Five-batch moving averages | November 17-21, 2026 | Minimum 3 observed runs**
 
 ### 🏆 Leaders
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | Opus 5.5 | **82.8/100** | 70.2/100 | 45.6/100 | 82.8/100 | 5 |
-| Editorial Score | DeepSeek V4.1 Flash 1017 | **3.78/5** | 3.03/5 | 2.34/5 | 3.78/5 | 5 |
-| Lowest Cost | GPT-6 Luna | **$0.0827** | $2.0167 | $0.0827 | $9.8805 | 5 |
-| Run Time | gpt-6-2-astra | **2m 49s** | 10m 09s | 2m 49s | 29m 32s | 3 |
-| Ed Consistency | gemini-4-hydrogen | **SD 0.045** | SD 0.285 | SD 0.045 | SD 0.570 | 5 |
-| Token Usage | gpt-6-2-astra | **773,017** | 5,271,087 | 773,017 | 15,668,478 | 3 |
+| Ed Selection | gemini-4-neon | **88.7/100** | 69.0/100 | 37.8/100 | 88.7/100 | 3 |
+| Editorial Score | DeepSeek V4.1 Flash 1017 | **3.76/5** | 3.03/5 | 2.48/5 | 3.76/5 | 5 |
+| Lowest Cost | GPT-6 Luna | **$0.0756** | $1.9601 | $0.0756 | $10.0462 | 5 |
+| Run Time | gpt-6-2-astra | **2m 52s** | 10m 00s | 2m 52s | 30m 03s | 4 |
+| Ed Consistency | GPT-6 Luna | **SD 0.084** | SD 0.275 | SD 0.084 | SD 0.651 | 5 |
+| Token Usage | gpt-6-2-astra | **778,745** | 5,128,896 | 778,745 | 16,479,039 | 4 |
 
 ### ⚠️ Laggards
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | GPT-6 Luna | **45.6/100** | 70.2/100 | 45.6/100 | 82.8/100 | 5 |
-| Editorial Score | GPT-6.1 Terra | **2.34/5** | 3.03/5 | 2.34/5 | 3.78/5 | 5 |
-| Highest Cost | Fable 5.1 | **$9.8805** | $2.0167 | $0.0827 | $9.8805 | 5 |
-| Run Time | qwen-4-max | **29m 32s** | 10m 09s | 2m 49s | 29m 32s | 5 |
-| Ed Consistency | DeepSeek V4 Pro | **SD 0.570** | SD 0.285 | SD 0.045 | SD 0.570 | 5 |
-| Token Usage | qwen-4-max | **15,668,478** | 5,271,087 | 773,017 | 15,668,478 | 5 |
+| Ed Selection | GPT-6 Luna | **37.8/100** | 69.0/100 | 37.8/100 | 88.7/100 | 5 |
+| Editorial Score | GPT-6.1 Terra | **2.48/5** | 3.03/5 | 2.48/5 | 3.76/5 | 5 |
+| Highest Cost | Fable 5.1 | **$10.0462** | $1.9601 | $0.0756 | $10.0462 | 5 |
+| Run Time | qwen-4-max | **30m 03s** | 10m 00s | 2m 52s | 30m 03s | 5 |
+| Ed Consistency | gemini-4-neon | **SD 0.651** | SD 0.275 | SD 0.084 | SD 0.651 | 3 |
+| Token Usage | qwen-4-max | **16,479,039** | 5,128,896 | 778,745 | 16,479,039 | 5 |
 <!-- MODEL-LEADERBOARD:END -->
 
 ## Explore the results
