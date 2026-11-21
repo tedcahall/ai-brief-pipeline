@@ -129,6 +129,6 @@ def main():
         obj=enrich(a.repo,read_json(path)) if a.enrich else build(a.repo,day)
         objects.append(validate_daily(obj))
     for obj in objects:outputs+=write_daily(a.repo,obj)
-    atomic_write(a.manifest,dumps({'schema_version':1,'outputs':sorted(outputs),'dates':days,'mode':'enrich' if a.enrich else 'base'}))
+    atomic_write(a.manifest,dumps({'schema_version':1,'outputs':sorted(outputs),'dates':days,'mode':'enrich' if a.enrich else 'base','judging':{obj['date']:obj['judging']['status'] for obj in objects}}))
     print(f'{len(objects)} daily datasets; {len(outputs)} outputs')
 if __name__=='__main__':main()
