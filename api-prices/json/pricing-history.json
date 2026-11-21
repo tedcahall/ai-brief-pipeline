@@ -3,13 +3,15 @@
  "status": "published",
  "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
  "last_daily_verification": {
-  "checked_at": "2026-11-20T08:03:21.610198+00:00",
-  "status": "unchanged",
-  "changed_models": [],
+  "checked_at": "2026-11-21T08:06:21.351942+00:00",
+  "status": "changed",
+  "changed_models": [
+   "gemini-4-argon"
+  ],
   "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-18T223149877955Z",
   "models_checked": 23,
   "sources_checked": 15,
-  "published": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-18T223149877955Z (unchanged; no new bundle published)"
+  "published": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-21T080621351982Z"
  },
  "rows": [
   {
@@ -152,7 +154,7 @@
   },
   {
    "model": "gemini-4-argon",
-   "tier": "Introductory",
+   "tier": "Introductory Standard",
    "first_recorded": "2026-11-08",
    "last_price_change_observed": null,
    "updated": "2026-11-08",
@@ -162,14 +164,35 @@
     "cache_read": 0.1,
     "cache_write_by_ttl": {}
    },
-   "changes": [],
+   "changes": [
+    {
+     "observed": "2026-11-21",
+     "old": {
+      "tier": "Introductory",
+      "condition": "unspecified introductory period; schedule referenced but not recorded"
+     },
+     "new": {
+      "tier": "Introductory Standard",
+      "condition": {
+       "introductory_rates_through": "2026-11-30"
+      }
+     },
+     "note": "Applicability-condition change only; numeric rates unchanged. The official Google pricing table explicitly publishes the end of introductory pricing: Standard $2/$10/$0.10 per million tokens through November 30, 2026, then $4/$20/$0.20 starting December 1, 2026 (Batch/Flex $2/$10/$0.10, Priority $7.20/$36/$0.36), matching the already-recorded Gemini 4 Carbon schedule. Tier relabeled and introductory end date recorded in the rate card.",
+     "evidence": {
+      "snapshot": "2026-11-21T080621351982Z/api-pricing.json",
+      "sha256": "7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc",
+      "source": "https://aistudio.google.com/docs/pricing",
+      "source_retrieved_at": "2026-11-21T08:02:30.322Z"
+     }
+    }
+   ],
    "first_recorded_evidence": {
     "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
     "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-21T080621351982Z/api-pricing.json",
+    "sha256": "7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc"
    }
   },
   {

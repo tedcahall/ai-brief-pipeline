@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Wednesday, November 18, 2026 · 23 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Saturday, November 21, 2026 · 23 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -16,7 +16,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 | [deepseek-v4-pro](https://api-docs.deepseek.com/quick_start/pricing/) | Off-peak | $0.66 | $1.98 | $0.022 | — | 2026-10-29 |
 | [fable-5-1](https://platform.claude.com/docs/en/about-claude/pricing) | Standard | $10 | $50 | $0.25 | $12.5 (5m); $20 (1h) | 2026-11-08 |
 | [fable-5-2](https://platform.claude.com/docs/en/about-claude/pricing) | Standard | $8 | $40 | $0.2 | $10 (5m); $16 (1h) | 2026-11-10 |
-| [gemini-4-argon](https://aistudio.google.com/docs/pricing) | Introductory | $2 | $10 | $0.1 | — | 2026-11-08 |
+| [gemini-4-argon](https://aistudio.google.com/docs/pricing) | Introductory Standard | $2 | $10 | $0.1 | — | 2026-11-08 |
 | [gemini-4-carbon](https://aistudio.google.com/docs/pricing) | Introductory Standard | $2 | $10 | $0.1 | — | 2026-11-11 |
 | [gemini-4-hydrogen](https://aistudio.google.com/docs/pricing) | Standard | $1.50 | $7.50 | $0.075 | — | 2026-11-13 |
 | [gemini-4-neon](https://aistudio.google.com/docs/pricing) | Standard | $3 | $15 | $0.15 | Not separately listed | 2026-11-18 |
@@ -56,7 +56,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 - **DeepSeek:** Peak applies Monday–Friday, 01:00–04:00 and 06:00–10:00 UTC, excluding Chinese public holidays; all other times are off-peak. The card flags a model-version discrepancy between provider materials, so execution identity must be checked before attributing a direct-endpoint run.
 - **Qwen 3.8:** Both saved regional schedules and both cache-read modes are shown. Run-cost reports use the higher regional estimate conservatively; this does not establish the actual execution region. Do not mix implicit and explicit cache rates.
 - **Qwen4 Max:** The exact comparison route is OpenRouter / Alibaba (`qwen/qwen4-max`, canonical endpoint `qwen/qwen4-max-20261115`), with **$1.425/$4.275/$0.07125/$1.78125** input/output/cache-read/cache-write rates per million tokens (lowered 5% on November 17, 2026 from $1.50/$4.50/$0.075/$1.875). These are OpenRouter API list rates, not provider-billed charges or subscription costs. The endpoint reports no implicit caching; cache-write TTL is unspecified, so no 5-minute or 1-hour price is inferred. [Alibaba direct documentation](https://www.alibabacloud.com/help/en/model-studio/qwen4-max) confirms thinking and non-thinking pricing through 1M input tokens and output includes chain of thought plus answer. Direct Global/Beijing input/output prices are $1.413/$4.24, which are not the prices for this OpenRouter route.
-- **Gemini Argon:** The saved rates are introductory Standard prices. Cache read refers to implicit caching; the source card states that explicit caching is not supported.
+- **Gemini Argon:** The table shows Standard pricing through November 30, 2026. Starting December 1, 2026, Standard input/output/implicit-cache rates are **$4/$20/$0.20** per million tokens. Batch and Flex are **$1/$5/$0.05** currently, then **$2/$10/$0.10**; Priority is **$3.60/$18/$0.18** currently, then **$7.20/$36/$0.36**. Cache read refers to implicit caching; explicit caching is not supported. Scheduled prices are not current rates.
 - **Gemini Carbon:** The table shows Standard pricing through November 30, 2026. Starting December 1, 2026, Standard input/output/implicit-cache rates are **$4/$20/$0.20** per million tokens. Batch and Flex are **$1/$5/$0.05** currently, then **$2/$10/$0.10**; Priority is **$3.60/$18/$0.18** currently, then **$7.20/$36/$0.36**. Output includes thinking tokens. Implicit caching only; explicit caching is unsupported. No free tier. Scheduled prices are not current rates.
 - **Gemini Hydrogen:** Standard input/output/implicit-cache rates are **$1.50/$7.50/$0.075** per million tokens. Batch and Flex: **$0.75/$3.75/$0.0375**; Priority: **$2.70/$13.50/$0.135**. Output includes thinking tokens; implicit caching only. Contributor private preview is invite-only, uses content to improve Google products, and has the same rates as Batch/Flex. Tool fees excluded.
 - **Gemini Neon:** Standard input/output/implicit-cache rates: **$3/$15/$0.15** per million tokens. Batch and Flex: **$1.50/$7.50/$0.075**; Priority: **$5.40/$27/$0.27**. Output includes thinking tokens; implicit caching only, explicit caching unsupported. No free tier. Tool fees excluded.
@@ -66,21 +66,19 @@ Request tiers are selected per call, not from the cumulative token count of a mu
 
 ## Price history
 
-Qwen4 Max has an observed 5% rate reduction in this snapshot series. Other unchanged rows retain their initial recorded or most recent observed rate-change date. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1. Gemini 4 Carbon is also a new model entry; its announced future schedule is not an observed price change.
+Qwen4 Max has an observed 5% rate reduction in this snapshot series. Other unchanged rows retain their initial recorded or most recent observed rate-change date. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1. Gemini 4 Carbon is also a new model entry; its announced future schedule is not an observed price change. The November 21 Argon update is an applicability-condition recording, not a numeric price change; its row's Updated date is unchanged.
 
 GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 Sol remain unchanged for historical comparisons. Gemini 4 Hydrogen and Qwen4 Max were also added as new model entries.
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification for Friday, November 20, 2026 checked all 23 models across 15 freshly captured official sources and found no verified rate changes; all Standard/introductory rates were re-verified unchanged against the provider pages in that run, including the Qwen4 Max rates lowered 5% on November 17, the GPT-6.2 Astra and Sol entries added later that day, and Gemini 4 Neon added November 18. No new bundle was published; the current snapshot remains the November 18 Neon bundle.
+This document reflects the saved pricing JSON. The daily verification for Saturday, November 21, 2026 checked all 23 models across 15 freshly captured official sources and found one applicability-condition change: Gemini 4 Argon's introductory Standard period is now explicitly recorded as ending November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026, matching the already-recorded Gemini 4 Carbon schedule. All numeric rates for all 23 models were re-verified unchanged; the tables keep the current $2/$10/$0.10 introductory Argon rates. A new bundle was published for the condition change.
 
-- **Daily check:** `2026-11-20T08:03:21.610198+00:00`; status: `unchanged`; 23 models, 15 sources.
-- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-20T08:02:11.695Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
-- **GPT-6.2 additions:** `2026-11-17T23:30:02.747281+00:00`; both models separately verified against OpenAI, re-verified unchanged in today's run.
-- **Neon addition:** `2026-11-18T22:31:49.877955+00:00`; separately source-verified. Existing entries and daily-check provenance preserved.
-- **Snapshot:** `2026-11-18T223149877955Z/api-pricing.json`.
-- **SHA-256:** `3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5`.
-- **Scheduled, not current:** today's Google capture again lists introductory Standard pricing for Gemini 4 Argon through November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026, matching the already-recorded Gemini 4 Carbon schedule. The tables keep the current $2/$10/$0.10 introductory rates until an observed change.
+- **Daily check:** `2026-11-21T08:06:21.351942+00:00`; status: `changed`; 23 models, 15 sources; changed model: `gemini-4-argon` (condition only, no numeric change).
+- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-21T08:02:45.241Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
+- **Snapshot:** `2026-11-21T080621351982Z/api-pricing.json`.
+- **SHA-256:** `7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc`.
+- **Scheduled, not current:** the Google capture lists introductory Standard pricing for Gemini 4 Argon and Gemini 4 Carbon through November 30, 2026, with Standard $4/$20/$0.20 per million tokens starting December 1, 2026. The rate card now records the Argon introductory end date; the tables keep the current introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
 
