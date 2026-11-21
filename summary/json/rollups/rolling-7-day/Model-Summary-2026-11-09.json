@@ -16,8 +16,8 @@
   "inputs": {
     "2026-11-03": "1c2fe5faa61ceeff4eac7f62309f0c449db321f40d7468d53dc89e9ba6f01436",
     "2026-11-07": "46b1d995cdd367713c6cb1e4919832cf39069fc7739ab21a2b26cbed1f1ff695",
-    "2026-11-08": "067fbebf7dba3cde064967ee462a46f1b2a2a69d74c4fadf7a6cfcaf8ca06f64",
-    "2026-11-09": "b882c964912f8ae5368f4f03e0e1ffd602718d7c9edcbd7264b2fc3e7f1f2cba"
+    "2026-11-08": "3d937a2c24b1e9f606c064f01d141d112076add5c328f11d04ef38a62c684e86",
+    "2026-11-09": "8e2b0f3e5329df27455403e77f9c337bf750097d7d39b9b319b61b48fde4604c"
   },
   "judging_status": "partial",
   "metrics": {
@@ -1649,6 +1649,11 @@
     {
       "input_hash": "686d6f82bbce9c21d4de0304ab298b7a9bb05755645ad16abd6c071575ddc928",
       "previous_sha256": "7e2b9799a0169a5b71b107b694fa3ef14fab7376130d97b934b7fd62078b7af2",
+      "reason": "initial historical migration"
+    },
+    {
+      "input_hash": "0f6f0bf0f3fee60a77cfaed1a8e316ee826ddafaffe77f8c2c0eb1bdc6b65181",
+      "previous_sha256": "0d486df0d89a0b99ec6582603c1a64a69b65ef683dd4d6ec1291c20fdd91fd6a",
       "reason": "initial historical migration"
     }
   ],

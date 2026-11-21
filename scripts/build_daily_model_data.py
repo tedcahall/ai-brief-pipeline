@@ -70,6 +70,8 @@ def build(root, day, legacy_path=None):
         m={key:None for key in METRICS}; missing={}; provenance={}
         m['consensus_score']=numeric(row['score'])
         m['elapsed_seconds']=numeric(row.get('elapsed_seconds',row.get('elapsed')))
+        if row.get('elapsed_note') and '/home/' not in row['elapsed_note']:
+            provenance['elapsed_note']=row['elapsed_note']
         u=usages.get(model)
         if u:
             if row.get('session') and u.get('session_id') and row['session']!=u['session_id']:raise ValueError(f'Attempt mismatch {day}/{model}')
@@ -90,7 +92,7 @@ def build(root, day, legacy_path=None):
         if m['api_cost'] is not None and number(m['total_tokens']) not in (None,0):m['ecpts']=numeric(number(m['api_cost'])/number(m['total_tokens'])*10**8)
         hp=root/f'daily-results/{day}/{model}/{day}.html'
         if hp.exists():
-            expected=(c or {}).get('source_hashes',{}).get(f'{day}/{model}/{day}.html')
+            expected=(c or {}).get('source_hashes',(c or {}).get('input_sha256',{})).get(f'{day}/{model}/{day}.html')
             if expected and expected!=sha(hp):
                 missing['pulse_words']=missing['story_words']='HTML hash differs from accepted consensus source'
             else:

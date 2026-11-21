@@ -26,9 +26,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             66,
             60,
@@ -60,9 +61,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             68,
             56,
@@ -94,9 +96,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             74,
             69,
@@ -128,9 +131,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             68,
             66,
@@ -162,9 +166,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             59,
             56,
@@ -196,9 +201,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             58,
             62,
@@ -230,9 +236,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             56,
             53,
@@ -264,9 +271,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             54,
             59,
@@ -298,9 +306,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Elapsed is a lower bound measured from the post-template-read capture timestamp; exact first-action time unavailable.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             67,
             72,
@@ -332,9 +341,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             75,
             74,
@@ -366,9 +376,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             65,
             58,
@@ -400,9 +411,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             54,
             49,
@@ -434,9 +446,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             78,
             76,
@@ -468,9 +481,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             65,
             62,
@@ -502,9 +516,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             66,
             63,
@@ -536,9 +551,10 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
-          "binding": "published edition path; no original HTML hash in historical audit",
+          "binding": "consensus source hash",
           "per_story_words": [
             74,
             73,

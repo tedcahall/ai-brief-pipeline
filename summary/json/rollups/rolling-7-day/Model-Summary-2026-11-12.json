@@ -15,11 +15,11 @@
   "family": "rolling-7-day",
   "inputs": {
     "2026-11-07": "46b1d995cdd367713c6cb1e4919832cf39069fc7739ab21a2b26cbed1f1ff695",
-    "2026-11-08": "067fbebf7dba3cde064967ee462a46f1b2a2a69d74c4fadf7a6cfcaf8ca06f64",
-    "2026-11-09": "b882c964912f8ae5368f4f03e0e1ffd602718d7c9edcbd7264b2fc3e7f1f2cba",
-    "2026-11-10": "d0bf2b6d79be663a8262f9ce14dacbfc9893be991d86009e6a5129f5b67b876b",
-    "2026-11-11": "afba5aca6b0d25ba5885f1cbfeb7acbbc200f53c4ab52ac606e9cdc65355b0e7",
-    "2026-11-12": "8deb32ff173f152f4515b5b48e588a740933c8bc062f3295a2386074c051a786"
+    "2026-11-08": "3d937a2c24b1e9f606c064f01d141d112076add5c328f11d04ef38a62c684e86",
+    "2026-11-09": "8e2b0f3e5329df27455403e77f9c337bf750097d7d39b9b319b61b48fde4604c",
+    "2026-11-10": "fc0f3d174210d90e71fb82653f78297fac47aa8f16e4d4401e89ea3846641d2d",
+    "2026-11-11": "4f0fb7f3aeacb5b90d3bbc9d545c9ef43e4ed5cf78faaa3694cbbe0eede73ae3",
+    "2026-11-12": "90c5ad7352eb816ec11ce2f0ec8427e726f8e27e216bee0f3f89931cff656e06"
   },
   "judging_status": "complete",
   "metrics": {
@@ -2125,6 +2125,11 @@
     {
       "input_hash": "bcfba74f8908d1eaa7f22d4e3ec8d15f6b39bf8ad322049692a6fc077978963d",
       "previous_sha256": "e875a717cbfeba044fca7c7bfea1ac518cbdfcf6d80ee055cb06c314fcd96994",
+      "reason": "initial historical migration"
+    },
+    {
+      "input_hash": "215b011e497e25d420117f389ab7c0c7195dee2b505976d2cfbeeff3e5ae4aa8",
+      "previous_sha256": "aee4af44bb197669b0a9b673ab10644eb4328eae3206486956f5ddde6132595d",
       "reason": "initial historical migration"
     }
   ],

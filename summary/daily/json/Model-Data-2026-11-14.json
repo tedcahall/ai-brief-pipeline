@@ -26,6 +26,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -60,6 +61,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -94,6 +96,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -128,6 +131,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -162,6 +166,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -196,6 +201,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -230,6 +236,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -264,6 +271,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed string \"6m 29s (389 s ...)\" from run.json (numeric elapsed_seconds absent).",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -298,6 +306,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -332,6 +341,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -366,6 +376,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -400,6 +411,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -434,6 +446,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -468,6 +481,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -502,6 +516,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported fractional elapsed_seconds from run.json, rounded to the nearest second.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -536,6 +551,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -570,6 +586,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -604,6 +621,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
@@ -638,6 +656,7 @@
       "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed_seconds from run.json.",
         "verbosity": {
           "adapter": "archived-id-paragraphs-v1",
           "binding": "consensus source hash",
