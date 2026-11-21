@@ -2,15 +2,15 @@
 
 Which judge grades hardest and which grades easiest. Each number is the average score a judge gave across all models that day; lower means a harder grader.
 
-## Overall (16 judged days, 10-28 to 11-21)
+## Overall (17 judged days, 10-28 to 11-21)
 
 | Rank (hardest first) | Judge | Avg grade | Days hardest | Days easiest |
 |---|---|---|---|---|
 | 1 | astra | **2.71** | 11 | 0 |
-| 2 | dsflash | **2.82** | 4 | 0 |
+| 2 | dsflash | **2.82** | 5 | 0 |
 | 3 | grok | **2.94** | 0 | 0 |
-| 4 | opus | **3.02** | 1 | 1 |
-| 5 | glm | **3.39** | 0 | 15 |
+| 4 | opus | **3.01** | 1 | 1 |
+| 5 | glm | **3.40** | 0 | 16 |
 
 ## By day
 
@@ -31,6 +31,7 @@ Which judge grades hardest and which grades easiest. Each number is the average 
 | 11-9 | 3.19 | 3.34 | 2.72 | 2.91 | 2.72 | astra | glm | 0.62 |
 | 11-8 | 2.91 | 3.19 | 2.69 | 3.16 | 2.62 | dsflash | glm | 0.57 |
 | 11-7 | 2.92 | 3.29 | 2.58 | 3.04 | 2.96 | astra | glm | 0.71 |
+| 10-29 | 2.96 | 3.54 | 2.79 | 2.92 | 2.75 | dsflash | glm | 0.79 |
 | 10-28 | 3.04 | 3.58 | 2.58 | 2.83 | 2.83 | astra | glm | 1.00 |
 
 Judges: opus = anthropic/claude-opus-5-5, glm = openrouter_eich/z-ai/glm-5.3, astra = openai/gpt-6-astra, grok = openrouter_grok/x-ai/grok-4.7, dsflash = openrouter_flash/deepseek/deepseek-v4.1-flash-1017. Per-day detail is in each [daily](daily/) report under "Grader averages".

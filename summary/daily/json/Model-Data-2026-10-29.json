@@ -3,8 +3,12 @@
   "conflicts": [],
   "date": "2026-10-29",
   "judging": {
-    "reason": "historical panel was not collected; no new judging requested",
-    "status": "unavailable"
+    "method": "unrounded arithmetic panel mean from scores",
+    "source": {
+      "path": "pulse-judging/json/2026-10-29.json",
+      "sha256": "f97fcf0db016af82b37be1f33d2dc6d0d0dc0ff19ec877efbff9359b3c34768d"
+    },
+    "status": "complete"
   },
   "models": {
     "deepseek-v4-1-flash-1017": {
@@ -14,7 +18,7 @@
         "consensus_score": "67",
         "ecpts": null,
         "elapsed_seconds": "1352",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.1",
         "pulse_words": "109",
         "story_words": "372",
         "total_tokens": null
@@ -22,7 +26,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -53,7 +56,7 @@
         "consensus_score": "86",
         "ecpts": null,
         "elapsed_seconds": "1153",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.1",
         "pulse_words": "154",
         "story_words": "375",
         "total_tokens": null
@@ -61,7 +64,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -92,7 +94,7 @@
         "consensus_score": "67",
         "ecpts": null,
         "elapsed_seconds": "604",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "4.0",
         "pulse_words": "132",
         "story_words": "297",
         "total_tokens": null
@@ -100,7 +102,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -131,7 +132,7 @@
         "consensus_score": "67",
         "ecpts": null,
         "elapsed_seconds": "435",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.8",
         "pulse_words": "98",
         "story_words": "308",
         "total_tokens": null
@@ -139,7 +140,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -170,7 +170,7 @@
         "consensus_score": "52",
         "ecpts": null,
         "elapsed_seconds": "239",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.7",
         "pulse_words": "72",
         "story_words": "243",
         "total_tokens": null
@@ -178,7 +178,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -209,7 +208,7 @@
         "consensus_score": "62",
         "ecpts": null,
         "elapsed_seconds": "676",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.8",
         "pulse_words": "119",
         "story_words": "308",
         "total_tokens": null
@@ -217,7 +216,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -248,7 +246,7 @@
         "consensus_score": "48",
         "ecpts": null,
         "elapsed_seconds": "666",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.6",
         "pulse_words": "110",
         "story_words": "304",
         "total_tokens": null
@@ -256,7 +254,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -287,7 +284,7 @@
         "consensus_score": "76",
         "ecpts": null,
         "elapsed_seconds": "800",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.8",
         "pulse_words": "92",
         "story_words": "330",
         "total_tokens": null
@@ -295,7 +292,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -326,7 +322,7 @@
         "consensus_score": "86",
         "ecpts": null,
         "elapsed_seconds": "682",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.3",
         "pulse_words": "70",
         "story_words": "282",
         "total_tokens": null
@@ -334,7 +330,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -365,7 +360,7 @@
         "consensus_score": "33",
         "ecpts": null,
         "elapsed_seconds": "224",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.8",
         "pulse_words": "100",
         "story_words": "254",
         "total_tokens": null
@@ -373,7 +368,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -404,7 +398,7 @@
         "consensus_score": "76",
         "ecpts": null,
         "elapsed_seconds": "448",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.6",
         "pulse_words": "108",
         "story_words": "304",
         "total_tokens": null
@@ -412,7 +406,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
@@ -443,7 +436,7 @@
         "consensus_score": "76",
         "ecpts": null,
         "elapsed_seconds": "1656",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.3",
         "pulse_words": "116",
         "story_words": "366",
         "total_tokens": null
@@ -451,7 +444,6 @@
       "missing": {
         "api_cost": "measurement unavailable in accepted source",
         "ecpts": "measurement unavailable in accepted source",
-        "pulse_judge_score": "historical panel unavailable",
         "total_tokens": "measurement unavailable in accepted source"
       },
       "provenance": {
