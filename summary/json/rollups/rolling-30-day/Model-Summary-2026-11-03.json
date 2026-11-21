@@ -37,7 +37,7 @@
   "end": "2026-11-03",
   "family": "rolling-30-day",
   "inputs": {
-    "2026-10-28": "8e8be7074896c3df47b8e9df18c95577fb0b6e6eee06a816f774c7ee00e69802",
+    "2026-10-28": "63baea0a5c4e70116fa5e2cbb74c3e3c7c300ab6e9505bd5a73af3fe6fd38943",
     "2026-10-29": "614ac2be7bd4b96527b3f6df75ab6d80915335661dad483bef0aaa9c54c65df3",
     "2026-10-30": "97d6e3f46bdb29d130b0c2c04d1502d59c754d468683fb034a6ddacc530fe258",
     "2026-10-31": "795d90ea18d158fba7a7bc3ff41798ec604482596b6f834aa9b896f132ce52a7",
@@ -825,9 +825,9 @@
     },
     "pulse_judge_score": {
       "deepseek-v4-1-flash-1017": {
-        "avg": null,
+        "avg": "2.7",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.7",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -835,15 +835,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.7",
+        "low": "2.7",
+        "n": 1,
         "sd": null
       },
       "deepseek-v4-pro": {
-        "avg": null,
+        "avg": "2.9",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.9",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -851,15 +851,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.9",
+        "low": "2.9",
+        "n": 1,
         "sd": null
       },
       "glm-5-3": {
-        "avg": null,
+        "avg": "2.6",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.6",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -867,15 +867,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.6",
+        "low": "2.6",
+        "n": 1,
         "sd": null
       },
       "gpt-6-1-sol": {
-        "avg": null,
+        "avg": "2.8",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.8",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -883,15 +883,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.8",
+        "low": "2.8",
+        "n": 1,
         "sd": null
       },
       "gpt-6-1-terra": {
-        "avg": null,
+        "avg": "2.2",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.2",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -899,15 +899,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.2",
+        "low": "2.2",
+        "n": 1,
         "sd": null
       },
       "gpt-6-astra": {
-        "avg": null,
+        "avg": "2.8",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.8",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -915,15 +915,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.8",
+        "low": "2.8",
+        "n": 1,
         "sd": null
       },
       "gpt-6-luna": {
-        "avg": null,
+        "avg": "3.5",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.5",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -931,15 +931,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.5",
+        "low": "3.5",
+        "n": 1,
         "sd": null
       },
       "grok-4-7": {
-        "avg": null,
+        "avg": "2.7",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.7",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -947,15 +947,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.7",
+        "low": "2.7",
+        "n": 1,
         "sd": null
       },
       "kimi-k3-1-pro": {
-        "avg": null,
+        "avg": "3.2",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.2",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -963,15 +963,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.2",
+        "low": "3.2",
+        "n": 1,
         "sd": null
       },
       "minimax-m3-1-flash": {
-        "avg": null,
+        "avg": "3.9",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.9",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -979,15 +979,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.9",
+        "low": "3.9",
+        "n": 1,
         "sd": null
       },
       "opus-5-5": {
-        "avg": null,
+        "avg": "3.3",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.3",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -995,15 +995,15 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.3",
+        "low": "3.3",
+        "n": 1,
         "sd": null
       },
       "qwen-3-8-max-0902": {
-        "avg": null,
+        "avg": "3.1",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.1",
           "2026-10-29": null,
           "2026-10-30": null,
           "2026-10-31": null,
@@ -1011,9 +1011,9 @@
           "2026-11-02": null,
           "2026-11-03": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.1",
+        "low": "3.1",
+        "n": 1,
         "sd": null
       }
     },
@@ -1615,12 +1615,16 @@
       "input_hash": "b65b5f7cbd5eccf8b498156a7b851d70935ce772b0eaaaf62e3e015ca5d1e2b7",
       "previous_sha256": "b341e8af5f724abdf36907d126e341101d3a891be89a61a237320c1a0dc95a51",
       "reason": "initial historical migration"
+    },
+    {
+      "input_hash": "4c75ee091fb9b894c9c0ff355c557a9701ce4e7d14e8437b802ffb9fe76a687f",
+      "previous_sha256": "cdebcf808b8ec144dc9839896078889b0fe63b20958e934a3f0b793793c4b78b",
+      "reason": "source-completion"
     }
   ],
   "schema_version": 1,
   "start": "2026-10-05",
   "unavailable_judging_dates": [
-    "2026-10-28",
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",

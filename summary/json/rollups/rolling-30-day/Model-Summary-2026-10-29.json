@@ -37,7 +37,7 @@
   "end": "2026-10-29",
   "family": "rolling-30-day",
   "inputs": {
-    "2026-10-28": "8e8be7074896c3df47b8e9df18c95577fb0b6e6eee06a816f774c7ee00e69802",
+    "2026-10-28": "63baea0a5c4e70116fa5e2cbb74c3e3c7c300ab6e9505bd5a73af3fe6fd38943",
     "2026-10-29": "614ac2be7bd4b96527b3f6df75ab6d80915335661dad483bef0aaa9c54c65df3"
   },
   "judging_status": "partial",
@@ -580,135 +580,135 @@
     },
     "pulse_judge_score": {
       "deepseek-v4-1-flash-1017": {
-        "avg": null,
+        "avg": "2.7",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.7",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.7",
+        "low": "2.7",
+        "n": 1,
         "sd": null
       },
       "deepseek-v4-pro": {
-        "avg": null,
+        "avg": "2.9",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.9",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.9",
+        "low": "2.9",
+        "n": 1,
         "sd": null
       },
       "glm-5-3": {
-        "avg": null,
+        "avg": "2.6",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.6",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.6",
+        "low": "2.6",
+        "n": 1,
         "sd": null
       },
       "gpt-6-1-sol": {
-        "avg": null,
+        "avg": "2.8",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.8",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.8",
+        "low": "2.8",
+        "n": 1,
         "sd": null
       },
       "gpt-6-1-terra": {
-        "avg": null,
+        "avg": "2.2",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.2",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.2",
+        "low": "2.2",
+        "n": 1,
         "sd": null
       },
       "gpt-6-astra": {
-        "avg": null,
+        "avg": "2.8",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.8",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.8",
+        "low": "2.8",
+        "n": 1,
         "sd": null
       },
       "gpt-6-luna": {
-        "avg": null,
+        "avg": "3.5",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.5",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.5",
+        "low": "3.5",
+        "n": 1,
         "sd": null
       },
       "grok-4-7": {
-        "avg": null,
+        "avg": "2.7",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "2.7",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "2.7",
+        "low": "2.7",
+        "n": 1,
         "sd": null
       },
       "kimi-k3-1-pro": {
-        "avg": null,
+        "avg": "3.2",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.2",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.2",
+        "low": "3.2",
+        "n": 1,
         "sd": null
       },
       "minimax-m3-1-flash": {
-        "avg": null,
+        "avg": "3.9",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.9",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.9",
+        "low": "3.9",
+        "n": 1,
         "sd": null
       },
       "opus-5-5": {
-        "avg": null,
+        "avg": "3.3",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.3",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.3",
+        "low": "3.3",
+        "n": 1,
         "sd": null
       },
       "qwen-3-8-max-0902": {
-        "avg": null,
+        "avg": "3.1",
         "days": {
-          "2026-10-28": null,
+          "2026-10-28": "3.1",
           "2026-10-29": null
         },
-        "high": null,
-        "low": null,
-        "n": 0,
+        "high": "3.1",
+        "low": "3.1",
+        "n": 1,
         "sd": null
       }
     },
@@ -1125,12 +1125,16 @@
       "input_hash": "2976ba4be8751e79945c847dc500e62f22e44defe0c29203c5deef348083dc88",
       "previous_sha256": "ef022cc766c9fddb2f4fe05897b6149f38c247e31eb87d94c2e78c6185bc7bb1",
       "reason": "initial historical migration"
+    },
+    {
+      "input_hash": "17f02d999090902e9dd92cebb985546a9a39c968e856ee35db9bb90cc1dfa7ed",
+      "previous_sha256": "ae1f5ea2c35a9f7dfdafebbc27c3e4817a11abc6786fd848b2b7e3c637b4f99a",
+      "reason": "source-completion"
     }
   ],
   "schema_version": 1,
   "start": "2026-09-30",
   "unavailable_judging_dates": [
-    "2026-10-28",
     "2026-10-29"
   ]
 }

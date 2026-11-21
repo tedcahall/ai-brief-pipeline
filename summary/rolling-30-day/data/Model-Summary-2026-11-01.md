@@ -127,15 +127,15 @@ Avg uses available readings only; SD is sample SD (n-1), unavailable below two r
 
 | Model | Avg | SD | 11/1 | 10/31 | 10/30 | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 | 10/22 | 10/21 | 10/20 | 10/19 | 10/18 | 10/17 | 10/16 | 10/15 | 10/14 | 10/13 | 10/12 | 10/11 | 10/10 | 10/9 | 10/8 | 10/7 | 10/6 | 10/5 | 10/4 | 10/3 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| deepseek-v4-1-flash-1017 | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| deepseek-v4-pro | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| glm-5-3 | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| gpt-6-1-sol | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| gpt-6-1-terra | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| gpt-6-astra | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| gpt-6-luna | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| grok-4-7 | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| kimi-k3-1-pro | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| minimax-m3-1-flash | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| opus-5-5 | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| qwen-3-8-max-0902 | unavailable | unavailable |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| minimax-m3-1-flash | 3.900 | unavailable |  |  |  |  | 3.900 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| gpt-6-luna | 3.500 | unavailable |  |  |  |  | 3.500 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| opus-5-5 | 3.300 | unavailable |  |  |  |  | 3.300 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| kimi-k3-1-pro | 3.200 | unavailable |  |  |  |  | 3.200 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| qwen-3-8-max-0902 | 3.100 | unavailable |  |  |  |  | 3.100 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| deepseek-v4-pro | 2.900 | unavailable |  |  |  |  | 2.900 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| gpt-6-1-sol | 2.800 | unavailable |  |  |  |  | 2.800 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| gpt-6-astra | 2.800 | unavailable |  |  |  |  | 2.800 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| deepseek-v4-1-flash-1017 | 2.700 | unavailable |  |  |  |  | 2.700 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| grok-4-7 | 2.700 | unavailable |  |  |  |  | 2.700 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| glm-5-3 | 2.600 | unavailable |  |  |  |  | 2.600 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| gpt-6-1-terra | 2.200 | unavailable |  |  |  |  | 2.200 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
