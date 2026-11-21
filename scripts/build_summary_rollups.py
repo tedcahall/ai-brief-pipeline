@@ -87,7 +87,7 @@ def generate(root,days,revision=None,enrich_date=None):
         intro=f'# {family}\n\n[Latest data](data/{latest.stem}.md) | [Summary home](../README.md)\n\n'
         text=intro+render(obj)+'\n## Archive\n\n'+'\n'.join(f'- [{p.stem}](data/{p.stem}.md)' for p in reversed(files))+'\n'
         path=root/f'summary/{family}/README.md';atomic_write(path,text);outputs.append(str(path.relative_to(root)))
-    path=root/'summary/README.md';atomic_write(path,'# Model summaries\n\nDaily accepted measurements drive every view. No failed attempts or invented missing days.\n\n- [Daily measurements](daily/)\n'+'\n'.join(f'- [{f}]({f}/)' for f in FAMILIES)+'\n\n[Method](../docs/summary-procedure.md)\n');outputs.append(str(path.relative_to(root)))
+    path=root/'summary/README.md';atomic_write(path,'# Model summaries\n\nDaily accepted measurements drive every view. No failed attempts or invented missing days.\n\n- [Daily measurements](daily/)\n'+'\n'.join(f'- [{f}]({f}/)' for f in FAMILIES)+'\n\n## Historical source binding\n\nThe initial backfill includes 96 historical model/day editions bound by their published HTML path because the original consensus audit did not retain an HTML hash. These are labeled per row and are not hash-verified exact-attempt bindings. The other 273 backfilled editions have verified source hashes. No missing measurements were invented.\n\n[Method](../docs/summary-procedure.md)\n');outputs.append(str(path.relative_to(root)))
     return sorted(set(outputs))
 
 def main():
