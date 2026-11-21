@@ -8,6 +8,11 @@ on:
       - 'model-comparison/**'
       - 'token-costs/**'
       - 'scripts/update_readme_leaderboard.py'
+      - 'scripts/summary_metrics.py'
+      - 'scripts/build_daily_model_data.py'
+      - 'scripts/build_summary_rollups.py'
+      - 'scripts/migrate_summary_history.py'
+      - 'scripts/test_*.py'
       - '.github/workflows/readme-leaderboard.yml'
   workflow_dispatch:
 permissions:
@@ -22,14 +27,32 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Recalculate after all reporting inputs are published
-        run: python3 scripts/update_readme_leaderboard.py --if-ready
-      - name: Publish only the managed README update
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test, recalculate and publish only README with bounded retry
+        shell: bash
         run: |
-          if git diff --quiet -- README.md; then exit 0; fi
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m 'docs: refresh rolling model leaderboard'
-          git push origin HEAD:main
-          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "$(git rev-parse HEAD)"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            # Disposable Actions checkout only. Never reset a user's working clone.
+            git checkout -B readme-refresh origin/main
+            python3 -m unittest discover -s scripts -p 'test_*.py'
+            python3 scripts/update_readme_leaderboard.py --if-ready
+            if git diff --quiet -- README.md; then exit 0; fi
+            git add -- README.md
+            git commit -m 'docs: refresh rolling model leaderboard'
+            published=$(git rev-parse HEAD)
+            if git push origin HEAD:main; then
+              git fetch origin main
+              git merge-base --is-ancestor "$published" origin/main
+              exit 0
+            fi
+            # Next iteration starts at current main and recalculates, not rebases stale rankings.
+          done
+          echo 'README publication failed after three recomputations' >&2
+          exit 1

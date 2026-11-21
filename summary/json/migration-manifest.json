@@ -1,0 +1,341 @@
+{
+  "available_by_metric": {
+    "api_cost": 345,
+    "consensus_score": 369,
+    "ecpts": 345,
+    "elapsed_seconds": 368,
+    "pulse_judge_score": 285,
+    "pulse_words": 369,
+    "story_words": 369,
+    "total_tokens": 345
+  },
+  "baseline": {
+    "path": "summary/daily/z-original-data/json/Model-Summary-2026-11-21.audit.json",
+    "sha256": "bc8857581c0e71e3e5d7877a0f5f9e63a57080d20dbc18c1c0156e07bdf9284e"
+  },
+  "cumulative_revision_history": [],
+  "daily_rows": 369,
+  "daily_vs_cumulative_conflicts": [],
+  "days": [
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+  ],
+  "missing_calendar_dates": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06"
+  ],
+  "originals": [
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-03.md",
+      "original": "summary/Model-Summary-2026-11-03.md",
+      "sha256": "390667be0dce0f2b5a72a48fd1e64d04f0bb158fa481500c9cdc8c5368c24c1b"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-07.md",
+      "original": "summary/Model-Summary-2026-11-07.md",
+      "sha256": "117e187aa08477ba9a25f4cd4329f7ebc4503a872d408dc1c152dec8c695797e"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-08.md",
+      "original": "summary/Model-Summary-2026-11-08.md",
+      "sha256": "6abd47ef8f508fe53107ebebb5e22f9aa06fbed2ccbfaffeb9e4536a27deeea0"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-09.md",
+      "original": "summary/Model-Summary-2026-11-09.md",
+      "sha256": "1819849013581ac4a8a48bd78449f960aafd6c574afc25661d2406b63d687ac2"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-10.md",
+      "original": "summary/Model-Summary-2026-11-10.md",
+      "sha256": "8b5f0d28539f167bb4819daa0048b00db66d2b4f91edd5ba37234876f88b05ad"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-11.md",
+      "original": "summary/Model-Summary-2026-11-11.md",
+      "sha256": "98f3f4480f8b268f54d0de9d2148d3421500a9a9d94fa944dc52331cdcb4ba54"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-12.md",
+      "original": "summary/Model-Summary-2026-11-12.md",
+      "sha256": "3d5e8876017ba8518d43f971d80e181ee31f4589b1d0573bb5cea91079109fe2"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-13.md",
+      "original": "summary/Model-Summary-2026-11-13.md",
+      "sha256": "ba160c8a81ca807279becb5476d91da11a1eaab2f81fae6c4aef088c9a77a9b7"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-14.md",
+      "original": "summary/Model-Summary-2026-11-14.md",
+      "sha256": "7cf7316c92d2dbf2801cb8328e301dc8ebcb82fc469ebddfcdb796fe015549eb"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-15.md",
+      "original": "summary/Model-Summary-2026-11-15.md",
+      "sha256": "941def5bb92a74c5d49062078e73a3a928f8430913f8d5b57035490291729abf"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-16.md",
+      "original": "summary/Model-Summary-2026-11-16.md",
+      "sha256": "fe345dee379a0e772bfff97ce54d6e5c774cabc069077d4a8912d0c0c7b56d27"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-17.md",
+      "original": "summary/Model-Summary-2026-11-17.md",
+      "sha256": "44dc1ea48f0b658cb0c2561b9a115ebe50d24c39b5700043786c0babc3db46b5"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-18.md",
+      "original": "summary/Model-Summary-2026-11-18.md",
+      "sha256": "1cd5d32716633b8f17888689914b615e3e2c8351fa9a717b97343ff5b2fb60fb"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-19.md",
+      "original": "summary/Model-Summary-2026-11-19.md",
+      "sha256": "2f0f350c6418a045a9a1cc0e6205df1c9052c1ad7965101414b8c997cbc29bdc"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-20.md",
+      "original": "summary/Model-Summary-2026-11-20.md",
+      "sha256": "55bf11a13f150282eecfc40e04eddbd1bedf1c95e583f78ef912690daebdc3a5"
+    },
+    {
+      "destination": "summary/daily/z-original-data/Model-Summary-2026-11-21.md",
+      "original": "summary/Model-Summary-2026-11-21.md",
+      "sha256": "f807dfa3c46cf134198af67d725ae7b5aa64d23654689d90b3e2fc1f24aa6306"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-08.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-08.audit.json",
+      "sha256": "e882ca971bb41960a75db768cf915a47ac2a9ee0e0509284351da3e078b9d0ac"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-09.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-09.audit.json",
+      "sha256": "3571ac580a7fbbabf66c3aa1fa5428f5e28c37b0f2f2009a2768ba6c9e9034f9"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-10.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-10.audit.json",
+      "sha256": "392a19e71f25f63a8e1f75485b3455899408e1867eaf3715999785b3bfe713cb"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-11.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-11.audit.json",
+      "sha256": "63a1234f30216bfc67cf670126588d98eed4a9549946d4ced73642aedd1d9fbc"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-12.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-12.audit.json",
+      "sha256": "2b922d46975823324a9eaa0880b1c8315c8fbd92079c2e837df2a1aefd0ad4b7"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-13.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-13.audit.json",
+      "sha256": "ec51898d2727712f76a95e55ef91d81a92a56ef691772a64d5a2dc5b42c0558a"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-14.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-14.audit.json",
+      "sha256": "eda52f46f46c6c373cb09f2cd7dff72b20279a0d746adf758076dd321c3ad5ba"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-15.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-15.audit.json",
+      "sha256": "eb5ecb7942c6c1ad8c4f34f2edafb1ef95f1bda52904605dfd3a5e46cc9bf03e"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-16.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-16.audit.json",
+      "sha256": "7a7d6e56668a130906f27f71b75276a02698bed835cb49266962765d488f6ab4"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-17.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-17.audit.json",
+      "sha256": "778ea965cfc57c6ba59564c31392e97ad7e0c60dac036b7fe1f272ebaf9302f4"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-18.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-18.audit.json",
+      "sha256": "b3bb25eeb46b5eb3afb4c441153331eafb2f9113b448a8855607fe14fd4f8956"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-19.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-19.audit.json",
+      "sha256": "80014796dbc134c46f8e28860d7d0ad50c11e11953b432274fcf75f50a09ca76"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-20.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-20.audit.json",
+      "sha256": "b47b9b35fd76cdf6fb9f22a25ec54de74a151c44c95c273553e68d3c4f8342a6"
+    },
+    {
+      "destination": "summary/daily/z-original-data/json/Model-Summary-2026-11-21.audit.json",
+      "original": "summary/json/Model-Summary-2026-11-21.audit.json",
+      "sha256": "bc8857581c0e71e3e5d7877a0f5f9e63a57080d20dbc18c1c0156e07bdf9284e"
+    },
+    {
+      "destination": "model-comparison/comparisons/Astra-Route-Cache-Comparison-2026-10-31.md",
+      "original": "model-comparison/Astra-Route-Cache-Comparison-2026-10-31.md",
+      "sha256": "f55f1963ca8d0ce0b7848e4ee33a98bb81fdb9ea664cd4a0b4da9fcaaed52453"
+    },
+    {
+      "destination": "model-comparison/comparisons/Astra-Route-Cache-Comparison-Fresh-2026-10-31.md",
+      "original": "model-comparison/Astra-Route-Cache-Comparison-Fresh-2026-10-31.md",
+      "sha256": "96e3728ae265fab8345c7fc445f6638decb79414b3cda926740df466ee3e53e8"
+    },
+    {
+      "destination": "model-comparison/comparisons/GLM-Production-vs-Test-2026-10-28-and-2026-10-29.md",
+      "original": "model-comparison/GLM-Production-vs-Test-2026-10-28-and-2026-10-29.md",
+      "sha256": "05cf401b4358194a32ad68e3fe15815ece9ff060611c17819eb9ee270be0e80d"
+    },
+    {
+      "destination": "model-comparison/comparisons/GLM-Production-vs-Test-2026-10-30.md",
+      "original": "model-comparison/GLM-Production-vs-Test-2026-10-30.md",
+      "sha256": "3a639af96438d343d3a7e27ec3171a6151172415db3a3e662dedee83be6a9bdd"
+    },
+    {
+      "destination": "model-comparison/comparisons/GLM-Production-vs-Test-2026-10-31.md",
+      "original": "model-comparison/GLM-Production-vs-Test-2026-10-31.md",
+      "sha256": "03062e9bf4df60c8744a57acef6105758f6d982f1975e75f32857c64822ee20a"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-10-28.md",
+      "original": "model-comparison/Model-Consensus-2026-10-28.md",
+      "sha256": "540b4a9e99b4a71929ef2a216107759850895f42856251aa9ba6780cb216ee04"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-10-29.md",
+      "original": "model-comparison/Model-Consensus-2026-10-29.md",
+      "sha256": "5291a5bef93d1029e96e6eb41d27ef5f059f8228b3f2f45419717430f542c29f"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-10-30.md",
+      "original": "model-comparison/Model-Consensus-2026-10-30.md",
+      "sha256": "24dea976ecda680860ad9cb7731bcc0291fbe1a95c3edadda79afe6f14856c62"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-10-31.md",
+      "original": "model-comparison/Model-Consensus-2026-10-31.md",
+      "sha256": "9409f4fe27f29df0ffa859916083e5198b7dc73918c5b992baf0f16ad3e8757a"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-01.md",
+      "original": "model-comparison/Model-Consensus-2026-11-01.md",
+      "sha256": "9afa3a478b3be41c4fa8ff38662e4da49cda44261bccc467c430812c983bd71d"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-02.md",
+      "original": "model-comparison/Model-Consensus-2026-11-02.md",
+      "sha256": "8b4204ace9ef11807feae236d3119a451b10485d59c2df60b1f9ae9c9a71c5a3"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-03.md",
+      "original": "model-comparison/Model-Consensus-2026-11-03.md",
+      "sha256": "b5679378b1304c795feea1dd0994bd76afa322a207734607b86b99671f17eb09"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-07.md",
+      "original": "model-comparison/Model-Consensus-2026-11-07.md",
+      "sha256": "dae1a3e05c42235ad7fcbac4c1cda8207ed51a313946347a8f81afece3c3b38a"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-08.md",
+      "original": "model-comparison/Model-Consensus-2026-11-08.md",
+      "sha256": "3728ebda28faebb2c6fad5f39a6caae7da9bf0c14740bf1a91d1c6b7e6509b04"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-09.md",
+      "original": "model-comparison/Model-Consensus-2026-11-09.md",
+      "sha256": "10d4522214a297c211b558850d8ef976f674030c1e6b41c2ead6885a9ff333d7"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-10.md",
+      "original": "model-comparison/Model-Consensus-2026-11-10.md",
+      "sha256": "e470a38d989e8b1a1ec6799d4f14303c8e6d095553b14f2db5df4564ae83d253"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-11.md",
+      "original": "model-comparison/Model-Consensus-2026-11-11.md",
+      "sha256": "51d6bc24a953a8d3ba8b4a08ab84490b06d115095059ade20fb23c8b0acbed05"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-12.md",
+      "original": "model-comparison/Model-Consensus-2026-11-12.md",
+      "sha256": "d031d8f5f0773e253a1e4688d257d310e96d33ebfea10aa2f6c095ff1ae198d4"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-13.md",
+      "original": "model-comparison/Model-Consensus-2026-11-13.md",
+      "sha256": "07b0162260d7b82b5f4c93a607e2543bc5b480c92db1cf803900ea62e52b5650"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-14.md",
+      "original": "model-comparison/Model-Consensus-2026-11-14.md",
+      "sha256": "601a95e7c2e57783ac373b0446afab10a43d4cc109d6534793726a5fcd1743a4"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-15.md",
+      "original": "model-comparison/Model-Consensus-2026-11-15.md",
+      "sha256": "cf67a1da233ee0355717d99853600b207586add19f86c1a186beba80dc78eada"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-16.md",
+      "original": "model-comparison/Model-Consensus-2026-11-16.md",
+      "sha256": "b041a33c8a637a6e46703cc57f41704303a8fb8c6a4dd80fd894301d1738d22a"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-17.md",
+      "original": "model-comparison/Model-Consensus-2026-11-17.md",
+      "sha256": "8b463018343efeedea9297e9d7c0203ea7d9056bdbbc60c820b914b83476d4ed"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-18.md",
+      "original": "model-comparison/Model-Consensus-2026-11-18.md",
+      "sha256": "7ffef1849745a3d3b229fad34d9f033a2714e5f16eb25f282aef5320b807df9d"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-19.md",
+      "original": "model-comparison/Model-Consensus-2026-11-19.md",
+      "sha256": "7cccd09b63b03813a1826a8656fa68eca345c89ad257e2b6e1a6afece2d2a35e"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-20.md",
+      "original": "model-comparison/Model-Consensus-2026-11-20.md",
+      "sha256": "cc507af140fe0a7155e62251f901da68632783cad06f4d3b4cc5a4fed24942ed"
+    },
+    {
+      "destination": "model-comparison/daily/Model-Consensus-2026-11-21.md",
+      "original": "model-comparison/Model-Consensus-2026-11-21.md",
+      "sha256": "dd60d365a8e0679fb4c5a4862cf86cd736766cb8d4d830a7dd6ddfd852d60b56"
+    },
+    {
+      "destination": "model-comparison/comparisons/Model-Word-Comparison-2026-10-29.md",
+      "original": "model-comparison/Model-Word-Comparison-2026-10-29.md",
+      "sha256": "0cea1379f52ee0b2fcb5b19f61a7c73902d0cef4692985d738ef776db65a61f2"
+    }
+  ],
+  "schema_version": 1
+}

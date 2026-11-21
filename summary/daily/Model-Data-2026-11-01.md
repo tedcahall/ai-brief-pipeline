@@ -1,0 +1,20 @@
+# Model Data: 2026-11-01
+
+USD API-equivalent estimates; elapsed seconds; tokens include cache. ECPTS = cost / tokens × 100,000,000. Successful accepted runs only.
+
+Judging: unavailable.
+
+| Model | Consensus Score | API Cost | Elapsed Time | Total Tokens | ECPTS | Pulse Words | Story Words | Pulse Judge Score |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | 71.000 | $0.1191 | 1332.0 | 7,657,281 | 1.555 | 99 | 451 | unavailable |
+| deepseek-v4-pro | 52.000 | $0.6567 | 1983.0 | 9,343,379 | 7.029 | 115 | 284 | unavailable |
+| glm-5-3 | 76.000 | $1.3888 | 308.0 | 4,280,572 | 32.444 | 144 | 304 | unavailable |
+| gpt-6-1-sol | 66.000 | $0.7328 | 424.0 | 3,158,881 | 23.198 | 97 | 289 | unavailable |
+| gpt-6-1-terra | 81.000 | $2.0734 | 241.0 | 1,928,115 | 107.535 | 81 | 233 | unavailable |
+| gpt-6-astra | 62.000 | $6.3579 | 540.0 | 4,118,897 | 154.359 | 97 | 312 | unavailable |
+| gpt-6-luna | 39.000 | $0.0658 | 390.0 | 3,990,683 | 1.649 | 81 | 313 | unavailable |
+| grok-4-7 | 72.000 | $5.8091 | 933.0 | 6,858,744 | 84.696 | 148 | 372 | unavailable |
+| kimi-k3-1-pro | 81.000 | $1.2902 | 699.0 | 2,993,238 | 43.104 | 111 | 271 | unavailable |
+| minimax-m3-1-flash | 76.000 | $0.1971 | 550.0 | 7,444,033 | 2.648 | 183 | 326 | unavailable |
+| opus-5-5 | 91.000 | $3.2282 | 468.0 | 5,488,738 | 58.815 | 132 | 314 | unavailable |
+| qwen-3-8-max-0902 | 76.000 | $1.4321 | 1440.0 | 3,398,352 | 42.141 | 140 | 321 | unavailable |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the approved five-batch README leaderboard from published audits."""
+"""Render the rolling-seven-day README leaderboard from committed rollups."""
 import argparse
 from datetime import date
 import json
@@ -21,94 +21,65 @@ NAMES = {
  'gemini-4-argon':'Gemini 4 Argon', 'gemini-4-carbon':'Gemini 4 Carbon',
  'gpt-6-1-sol':'GPT-6.1 Sol', 'kimi-k3-1-pro':'Kimi K3.1 Pro',
  'haiku-5-5':'Haiku 5.5',
+ 'gemini-4-hydrogen':'Gemini 4 Hydrogen', 'gemini-4-neon':'Gemini 4 Neon',
+ 'gpt-6-2-astra':'GPT-6.2 Astra', 'gpt-6-2-sol':'GPT-6.2 Sol', 'qwen-4-max':'Qwen4 Max',
 }
 class Waiting(Exception):
     pass
 
-def number(v):
-    n=float(v)
-    if not math.isfinite(n) or n < 0:
-        raise ValueError(f'Invalid measurement: {v!r}')
-    return n
-
-def aggregate(data, days):
-    series={}
-    for d in days:
-        for m,v in data.get(d,{}).items():
-            if v is not None:
-                series.setdefault(m,[]).append(number(v))
-    return {m:(st.mean(v),len(v)) for m,v in series.items() if len(v)>=3}
-
 def render(root):
-    files=sorted((root/'summary/json').glob('Model-Summary-????-??-??.audit.json'))
-    if not files:
-        raise Waiting('No summary audit yet')
-    source=files[-1]
-    batch=source.name.removeprefix('Model-Summary-').removesuffix('.audit.json')
-    date.fromisoformat(batch)
-    a=json.loads(source.read_text())
-    days=sorted(d for d in a['scores'] if d<=batch)[-5:]
-    if len(days)!=5 or days[-1]!=batch:
-        raise Waiting('Five batches including the latest summary are required')
-    pulse={}
-    for d in days:
-        for group,template in [('model-comparison','Model-Consensus'),('token-costs','Usage-and-Cost'),('summary','Model-Summary')]:
-            if not (root/group/f'{template}-{d}.md').is_file():
-                raise Waiting(f'Missing {group} report for {d}')
-        for key in ('scores','times','costs','tokens'):
-            if d not in a[key]:
-                raise Waiting(f'Missing {key} batch {d}')
-        path=root/f'pulse-judging/json/{d}.json'
-        if not path.is_file():
-            raise Waiting(f'Pulse judging not yet published for {d}')
-        j=json.loads(path.read_text())
-        models=set(j['models'])
-        expected={m for m,v in a['scores'][d].items() if v is not None}
-        if j['date']!=d or models!=expected:
-            raise Waiting(f'Pulse/summary cohort mismatch for {d}')
-        if not j['judges'] or set(j['judges'])!=set(j['scores']):
-            raise Waiting(f'Incomplete judge panel for {d}')
-        for scores in j['scores'].values():
-            if set(scores)!=models:
-                raise Waiting(f'Incomplete judge coverage for {d}')
-            if any(not 1<=number(v)<=5 for v in scores.values()):
-                raise ValueError(f'Invalid Pulse score for {d}')
-        pulse[d]={m:st.mean(number(s[m]) for s in j['scores'].values()) for m in models}
-    pv={}
-    for scores in pulse.values():
-        for m,v in scores.items():
-            pv.setdefault(m,[]).append(v)
-    sd={m:(st.stdev(v),len(v)) for m,v in pv.items() if len(v)>=3}
-    duration=lambda v:f'{round(v)//60}m {round(v)%60:02d}s'
+    from summary_metrics import read_json, number, METRICS
+    from decimal import Decimal
+    files=sorted((root/'summary/json/rollups/rolling-7-day').glob('Model-Summary-*.json'))
+    if not files: raise Waiting('No rolling-seven-day dataset yet')
+    current=read_json(files[-1])
+    judging=current
+    pending=current['judging_status']=='pending'
+    if pending:
+        complete=[read_json(p) for p in files if p<files[-1] and read_json(p)['judging_status']=='complete']
+        judging=complete[-1] if complete else None
     metrics=[
-      ('Ed Selection',aggregate(a['scores'],days),True,lambda v:f'{v:.1f}/100'),
-      ('Editorial Score',aggregate(pulse,days),True,lambda v:f'{v:.2f}/5'),
-      ('Lowest Cost',aggregate(a['costs'],days),False,lambda v:f'${v:.4f}'),
-      ('Run Time',aggregate(a['times'],days),False,duration),
-      ('Ed Consistency',sd,False,lambda v:f'SD {v:.3f}'),
-      ('Token Usage',aggregate(a['tokens'],days),False,lambda v:f'{v:,.0f}'),
+      ('Ed Selection','consensus_score','avg',True),
+      ('Selection SD','consensus_score','sd',False),
+      ('Editorial Score','pulse_judge_score','avg',True),
+      ('Lowest Cost','api_cost','avg',False),
+      ('Run Time','elapsed_seconds','avg',False),
+      ('Ed Consistency','pulse_judge_score','sd',False),
+      ('Token Usage','total_tokens','avg',False),
+      ('Pulse Verbosity','pulse_words','avg',True),
+      ('Pulse Verbosity SD','pulse_words','sd',False),
+      ('Story Summary Verbosity','story_words','avg',True),
+      ('Story Summary Verbosity SD','story_words','sd',False),
     ]
-    first,last=map(date.fromisoformat,(days[0],days[-1]))
-    if (first.year,first.month)==(last.year,last.month):
-        window=f'{first:%B} {first.day}-{last.day}, {last.year}'
-    else:
-        window=f'{first:%B} {first.day}, {first.year} - {last:%B} {last.day}, {last.year}'
-    out=f'# Model Performance Leaders\n\n**Five-batch moving averages | {window} | Minimum 3 observed runs**\n\n'
+    def fmt(metric,stat,value):
+        if stat=='sd':return f'SD {value:.3f}'
+        if metric=='api_cost':return f'${value:.4f}'
+        if metric=='consensus_score':return f'{value:.1f}/100'
+        if metric=='pulse_judge_score':return f'{value:.2f}/5'
+        if metric=='elapsed_seconds':return f'{round(value)//60}m {round(value)%60:02d}s'
+        return f'{value:,.1f}'
+    out=f"# Model Performance Leaders\n\n**Seven-calendar-day statistics | {current['start']} through {current['end']} | Minimum 4 observed days per metric**\n\n"
+    if pending:
+        out+=f"Judging update pending. Judging rows retain {judging['as_of'] if judging else 'no prior completed snapshot (unavailable)'}. Other rows are current.\n\n"
+    else:out+=f"Judging as of {judging['as_of']}; status: {judging['judging_status']}. Historical unavailable panels are not pending.\n\n"
     for leader in (True,False):
         out+='## '+('🏆 Leaders' if leader else '⚠️ Laggards')+'\n\n'
         out+='| Category | Model | Mv Avg | All Avg | All Low | All High | Runs |\n|---|---|---:|---:|---:|---:|---:|\n'
-        for label,values,higher,fmt in metrics:
+        for label,metric,stat,higher in metrics:
+            obj=judging if metric=='pulse_judge_score' else current
+            values={m:(number(v[stat]),v['n']) for m,v in (obj['metrics'][metric] if obj else {}).items() if v['n']>=4 and v[stat] is not None}
+            if not leader and label=='Lowest Cost':label='Highest Cost'
             if not values:
-                raise Waiting(f'No eligible models for {label}')
-            vals=[v[0] for v in values.values()]
-            extreme=(max if higher==leader else min)(vals)
+                out+=f'| {label} | unavailable | unavailable | unavailable | unavailable | unavailable | 0 |\n';continue
+            vals=[v[0] for v in values.values()];extreme=(max if higher==leader else min)(vals)
             winners=sorted(m for m,(v,n) in values.items() if v==extreme)
             names='; '.join(NAMES.get(m,m).replace(' ','\u00a0') for m in winners)
             counts={values[m][1] for m in winners}
             runs=str(next(iter(counts))) if len(counts)==1 else '; '.join(f'{NAMES.get(m,m)}: {values[m][1]}' for m in winners)
-            if not leader and label=='Lowest Cost': label='Highest Cost'
-            out+=f'| {label} | {names} | **{fmt(extreme)}** | {fmt(st.mean(vals))} | {fmt(min(vals))} | {fmt(max(vals))} | {runs} |\n'
+            f=lambda v:fmt(metric,stat,v)
+            out+=f'| {label} | {names} | **{f(extreme)}** | {f(sum(vals)/len(vals))} | {f(min(vals))} | {f(max(vals))} | {runs} |\n'
         out+='\n'
+    out+='Mv Avg is the window mean for ordinary rows and sample SD for SD rows. All columns use only eligible models. Verbosity ranks length, not quality.\n'
     return out
 
 def update(readme, sample):

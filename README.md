@@ -9,29 +9,43 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 <!-- MODEL-LEADERBOARD:START -->
 ## Model Performance Leaders
 
-**Five-batch moving averages | November 17-21, 2026 | Minimum 3 observed runs**
+**Seven-calendar-day statistics | 2026-11-15 through 2026-11-21 | Minimum 4 observed days per metric**
+
+Judging as of 2026-11-21; status: complete. Historical unavailable panels are not pending.
 
 ### 🏆 Leaders
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | gemini-4-neon | **88.7/100** | 69.0/100 | 37.8/100 | 88.7/100 | 3 |
-| Editorial Score | DeepSeek V4.1 Flash 1017 | **3.76/5** | 3.03/5 | 2.48/5 | 3.76/5 | 5 |
-| Lowest Cost | GPT-6 Luna | **$0.0756** | $1.9601 | $0.0756 | $10.0462 | 5 |
-| Run Time | gpt-6-2-astra | **2m 52s** | 10m 00s | 2m 52s | 30m 03s | 4 |
-| Ed Consistency | GPT-6 Luna | **SD 0.084** | SD 0.275 | SD 0.084 | SD 0.651 | 5 |
-| Token Usage | gpt-6-2-astra | **778,745** | 5,128,896 | 778,745 | 16,479,039 | 4 |
+| Ed Selection | Gemini 4 Argon | **82.7/100** | 68.2/100 | 43.6/100 | 82.7/100 | 7 |
+| Selection SD | Kimi K3.1 Pro | **SD 5.640** | SD 11.575 | SD 5.640 | SD 22.435 | 7 |
+| Editorial Score | DeepSeek V4.1 Flash 1017 | **3.66/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
+| Lowest Cost | GPT-6 Luna | **$0.0825** | $2.0326 | $0.0825 | $10.1400 | 7 |
+| Run Time | GPT-6.2 Astra | **2m 52s** | 10m 10s | 2m 52s | 27m 38s | 4 |
+| Ed Consistency | Fable 5.1 | **SD 0.141** | SD 0.302 | SD 0.141 | SD 0.480 | 7 |
+| Token Usage | GPT-6.2 Astra | **778,745.0** | 5,323,699.1 | 778,745.0 | 14,446,641.0 | 4 |
+| Pulse Verbosity | DeepSeek V4 Pro | **171.1** | 114.4 | 67.0 | 171.1 | 7 |
+| Pulse Verbosity SD | DeepSeek V4.1 Flash 1017 | **SD 7.625** | SD 20.873 | SD 7.625 | SD 73.791 | 7 |
+| Story Summary Verbosity | Fable 5.1 | **350.7** | 308.1 | 253.5 | 350.7 | 7 |
+| Story Summary Verbosity SD | GPT-6.2 Sol | **SD 4.082** | SD 20.285 | SD 4.082 | SD 51.275 | 4 |
 
 ### ⚠️ Laggards
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | GPT-6 Luna | **37.8/100** | 69.0/100 | 37.8/100 | 88.7/100 | 5 |
-| Editorial Score | GPT-6.1 Terra | **2.48/5** | 3.03/5 | 2.48/5 | 3.76/5 | 5 |
-| Highest Cost | Fable 5.1 | **$10.0462** | $1.9601 | $0.0756 | $10.0462 | 5 |
-| Run Time | qwen-4-max | **30m 03s** | 10m 00s | 2m 52s | 30m 03s | 5 |
-| Ed Consistency | gemini-4-neon | **SD 0.651** | SD 0.275 | SD 0.084 | SD 0.651 | 3 |
-| Token Usage | qwen-4-max | **16,479,039** | 5,128,896 | 778,745 | 16,479,039 | 5 |
+| Ed Selection | GPT-6 Luna | **43.6/100** | 68.2/100 | 43.6/100 | 82.7/100 | 7 |
+| Selection SD | GPT-6.2 Astra | **SD 22.435** | SD 11.575 | SD 5.640 | SD 22.435 | 4 |
+| Editorial Score | GPT-6.1 Terra | **2.39/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
+| Highest Cost | Fable 5.1 | **$10.1400** | $2.0326 | $0.0825 | $10.1400 | 7 |
+| Run Time | Qwen4 Max | **27m 38s** | 10m 10s | 2m 52s | 27m 38s | 6 |
+| Ed Consistency | DeepSeek V4 Pro | **SD 0.480** | SD 0.302 | SD 0.141 | SD 0.480 | 7 |
+| Token Usage | Qwen4 Max | **14,446,641.0** | 5,323,699.1 | 778,745.0 | 14,446,641.0 | 6 |
+| Pulse Verbosity | GPT-6.1 Terra | **67.0** | 114.4 | 67.0 | 171.1 | 7 |
+| Pulse Verbosity SD | DeepSeek V4 Pro | **SD 73.791** | SD 20.873 | SD 7.625 | SD 73.791 | 7 |
+| Story Summary Verbosity | GPT-6.2 Astra | **253.5** | 308.1 | 253.5 | 350.7 | 4 |
+| Story Summary Verbosity SD | DeepSeek V4 Pro | **SD 51.275** | SD 20.285 | SD 4.082 | SD 51.275 | 7 |
+
+Mv Avg is the window mean for ordinary rows and sample SD for SD rows. All columns use only eligible models. Verbosity ranks length, not quality.
 <!-- MODEL-LEADERBOARD:END -->
 
 ## Explore the results

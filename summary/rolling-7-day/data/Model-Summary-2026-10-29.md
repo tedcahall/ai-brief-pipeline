@@ -1,0 +1,141 @@
+# Model Summary: rolling-7-day
+
+Window: 2026-10-23 through 2026-10-29. As of 2026-10-29. Judging: partial.
+
+Avg uses available readings only; SD is sample SD (n-1), unavailable below two readings. Elapsed Time is seconds. Cost is USD API-equivalent. Tokens include cache. ECPTS Avg pools costs/tokens on paired days and scales by 100,000,000. Missing days are not zeros. Historical backfill uses the preserved available evidence, not a claim of what was known then.
+
+## Selection Score
+
+| Model | Avg | SD | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-pro | 85.500 | 0.707 | 86.000 | 85.000 |  |  |  |  |  |
+| grok-4-7 | 83.000 | 9.899 | 76.000 | 90.000 |  |  |  |  |  |
+| kimi-k3-1-pro | 80.500 | 7.778 | 86.000 | 75.000 |  |  |  |  |  |
+| qwen-3-8-max-0902 | 80.500 | 6.364 | 76.000 | 85.000 |  |  |  |  |  |
+| opus-5-5 | 78.500 | 3.536 | 76.000 | 81.000 |  |  |  |  |  |
+| gpt-6-1-sol | 76.000 | 12.728 | 67.000 | 85.000 |  |  |  |  |  |
+| deepseek-v4-1-flash-1017 | 73.500 | 9.192 | 67.000 | 80.000 |  |  |  |  |  |
+| glm-5-3 | 71.500 | 6.364 | 67.000 | 76.000 |  |  |  |  |  |
+| gpt-6-astra | 69.000 | 9.899 | 62.000 | 76.000 |  |  |  |  |  |
+| gpt-6-luna | 54.000 | 8.485 | 48.000 | 60.000 |  |  |  |  |  |
+| gpt-6-1-terra | 49.500 | 3.536 | 52.000 | 47.000 |  |  |  |  |  |
+| minimax-m3-1-flash | 47.500 | 20.506 | 33.000 | 62.000 |  |  |  |  |  |
+
+## API Cost
+
+| Model | Avg | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | unavailable |  |  |  |  |  |  |  |
+| deepseek-v4-pro | unavailable |  |  |  |  |  |  |  |
+| glm-5-3 | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-sol | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-terra | unavailable |  |  |  |  |  |  |  |
+| gpt-6-astra | unavailable |  |  |  |  |  |  |  |
+| gpt-6-luna | unavailable |  |  |  |  |  |  |  |
+| grok-4-7 | unavailable |  |  |  |  |  |  |  |
+| kimi-k3-1-pro | unavailable |  |  |  |  |  |  |  |
+| minimax-m3-1-flash | unavailable |  |  |  |  |  |  |  |
+| opus-5-5 | unavailable |  |  |  |  |  |  |  |
+| qwen-3-8-max-0902 | unavailable |  |  |  |  |  |  |  |
+
+## Elapsed Time
+
+| Model | Avg | SD | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| gpt-6-1-terra | 238.5 | 0.7 | 239.0 | 238.0 |  |  |  |  |  |
+| minimax-m3-1-flash | 371.0 | 207.9 | 224.0 | 518.0 |  |  |  |  |  |
+| glm-5-3 | 411.0 | 272.9 | 604.0 | 218.0 |  |  |  |  |  |
+| opus-5-5 | 448.5 | 0.7 | 448.0 | 449.0 |  |  |  |  |  |
+| gpt-6-luna | 566.0 | 141.4 | 666.0 | 466.0 |  |  |  |  |  |
+| gpt-6-astra | 696.0 | 28.3 | 676.0 | 716.0 |  |  |  |  |  |
+| kimi-k3-1-pro | 705.0 | 32.5 | 682.0 | 728.0 |  |  |  |  |  |
+| gpt-6-1-sol | 759.5 | 458.9 | 435.0 | 1084.0 |  |  |  |  |  |
+| deepseek-v4-pro | 1092.5 | 85.6 | 1153.0 | 1032.0 |  |  |  |  |  |
+| grok-4-7 | 1262.5 | 654.1 | 800.0 | 1725.0 |  |  |  |  |  |
+| deepseek-v4-1-flash-1017 | 1283.5 | 96.9 | 1352.0 | 1215.0 |  |  |  |  |  |
+| qwen-3-8-max-0902 | 1306.5 | 494.3 | 1656.0 | 957.0 |  |  |  |  |  |
+
+## Total Tokens
+
+| Model | Avg | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | unavailable |  |  |  |  |  |  |  |
+| deepseek-v4-pro | unavailable |  |  |  |  |  |  |  |
+| glm-5-3 | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-sol | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-terra | unavailable |  |  |  |  |  |  |  |
+| gpt-6-astra | unavailable |  |  |  |  |  |  |  |
+| gpt-6-luna | unavailable |  |  |  |  |  |  |  |
+| grok-4-7 | unavailable |  |  |  |  |  |  |  |
+| kimi-k3-1-pro | unavailable |  |  |  |  |  |  |  |
+| minimax-m3-1-flash | unavailable |  |  |  |  |  |  |  |
+| opus-5-5 | unavailable |  |  |  |  |  |  |  |
+| qwen-3-8-max-0902 | unavailable |  |  |  |  |  |  |  |
+
+## ECPTS
+
+| Model | Avg | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | unavailable |  |  |  |  |  |  |  |
+| deepseek-v4-pro | unavailable |  |  |  |  |  |  |  |
+| glm-5-3 | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-sol | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-terra | unavailable |  |  |  |  |  |  |  |
+| gpt-6-astra | unavailable |  |  |  |  |  |  |  |
+| gpt-6-luna | unavailable |  |  |  |  |  |  |  |
+| grok-4-7 | unavailable |  |  |  |  |  |  |  |
+| kimi-k3-1-pro | unavailable |  |  |  |  |  |  |  |
+| minimax-m3-1-flash | unavailable |  |  |  |  |  |  |  |
+| opus-5-5 | unavailable |  |  |  |  |  |  |  |
+| qwen-3-8-max-0902 | unavailable |  |  |  |  |  |  |  |
+
+## Pulse Words
+
+| Model | Avg | SD | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | 153 | 62.2 | 109 | 197 |  |  |  |  |  |
+| deepseek-v4-pro | 146.5 | 10.6 | 154 | 139 |  |  |  |  |  |
+| glm-5-3 | 136 | 5.7 | 132 | 140 |  |  |  |  |  |
+| grok-4-7 | 128.5 | 51.6 | 92 | 165 |  |  |  |  |  |
+| gpt-6-astra | 127 | 11.3 | 119 | 135 |  |  |  |  |  |
+| opus-5-5 | 117 | 12.7 | 108 | 126 |  |  |  |  |  |
+| qwen-3-8-max-0902 | 105.5 | 14.8 | 116 | 95 |  |  |  |  |  |
+| gpt-6-luna | 105 | 7.1 | 110 | 100 |  |  |  |  |  |
+| gpt-6-1-sol | 102 | 5.7 | 98 | 106 |  |  |  |  |  |
+| minimax-m3-1-flash | 91.5 | 12.0 | 100 | 83 |  |  |  |  |  |
+| kimi-k3-1-pro | 77.5 | 10.6 | 70 | 85 |  |  |  |  |  |
+| gpt-6-1-terra | 71.5 | 0.7 | 72 | 71 |  |  |  |  |  |
+
+## Story Words
+
+| Model | Avg | SD | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | 363 | 12.7 | 372 | 354 |  |  |  |  |  |
+| qwen-3-8-max-0902 | 340.5 | 36.1 | 366 | 315 |  |  |  |  |  |
+| grok-4-7 | 336.5 | 9.2 | 330 | 343 |  |  |  |  |  |
+| deepseek-v4-pro | 320 | 77.8 | 375 | 265 |  |  |  |  |  |
+| gpt-6-1-sol | 316.5 | 12.0 | 308 | 325 |  |  |  |  |  |
+| opus-5-5 | 314.5 | 14.8 | 304 | 325 |  |  |  |  |  |
+| glm-5-3 | 297 | 0 | 297 | 297 |  |  |  |  |  |
+| gpt-6-astra | 294 | 19.8 | 308 | 280 |  |  |  |  |  |
+| gpt-6-luna | 290.5 | 19.1 | 304 | 277 |  |  |  |  |  |
+| kimi-k3-1-pro | 290 | 11.3 | 282 | 298 |  |  |  |  |  |
+| minimax-m3-1-flash | 286 | 45.3 | 254 | 318 |  |  |  |  |  |
+| gpt-6-1-terra | 248.5 | 7.8 | 243 | 254 |  |  |  |  |  |
+
+## Pulse Judge Score
+
+| Model | Avg | SD | 10/29 | 10/28 | 10/27 | 10/26 | 10/25 | 10/24 | 10/23 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | unavailable | unavailable |  |  |  |  |  |  |  |
+| deepseek-v4-pro | unavailable | unavailable |  |  |  |  |  |  |  |
+| glm-5-3 | unavailable | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-sol | unavailable | unavailable |  |  |  |  |  |  |  |
+| gpt-6-1-terra | unavailable | unavailable |  |  |  |  |  |  |  |
+| gpt-6-astra | unavailable | unavailable |  |  |  |  |  |  |  |
+| gpt-6-luna | unavailable | unavailable |  |  |  |  |  |  |  |
+| grok-4-7 | unavailable | unavailable |  |  |  |  |  |  |  |
+| kimi-k3-1-pro | unavailable | unavailable |  |  |  |  |  |  |  |
+| minimax-m3-1-flash | unavailable | unavailable |  |  |  |  |  |  |  |
+| opus-5-5 | unavailable | unavailable |  |  |  |  |  |  |  |
+| qwen-3-8-max-0902 | unavailable | unavailable |  |  |  |  |  |  |  |

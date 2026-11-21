@@ -1,0 +1,571 @@
+{
+  "calculation_version": 1,
+  "conflicts": [],
+  "date": "2026-11-09",
+  "judging": {
+    "method": "unrounded arithmetic panel mean from scores",
+    "source": {
+      "path": "pulse-judging/json/2026-11-09.json",
+      "sha256": "070d4a92b30fc7e137a002dd8285c8e0f8edf80ceee88269efb6c9ff4ae3bb17"
+    },
+    "status": "complete"
+  },
+  "models": {
+    "deepseek-v4-1-flash-1017": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "0.1674",
+        "consensus_score": "63",
+        "ecpts": "0.9411202771953401390834095674",
+        "elapsed_seconds": "1214",
+        "pulse_judge_score": "3.7",
+        "pulse_words": "139",
+        "story_words": "319",
+        "total_tokens": "17787312"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            75,
+            66,
+            57,
+            56,
+            65
+          ],
+          "pulse_words": 139,
+          "source": {
+            "path": "daily-results/2026-11-09/deepseek-v4-1-flash-1017/2026-11-09.html",
+            "sha256": "3ecc62dbbba46295a9071ca2f35e009dba91a1d5a81f73a3abb8fd6fe530b3b5"
+          },
+          "story_words": 319
+        }
+      }
+    },
+    "deepseek-v4-pro": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "0.4073",
+        "consensus_score": "81",
+        "ecpts": "6.480892743373195676816511654",
+        "elapsed_seconds": "1248",
+        "pulse_judge_score": "3.2",
+        "pulse_words": "106",
+        "story_words": "272",
+        "total_tokens": "6284628"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            61,
+            55,
+            51,
+            54,
+            51
+          ],
+          "pulse_words": 106,
+          "source": {
+            "path": "daily-results/2026-11-09/deepseek-v4-pro/2026-11-09.html",
+            "sha256": "2e74b17e2856015746508780fdf439a53933dd80dd5503ad8feb90d45b9c35af"
+          },
+          "story_words": 272
+        }
+      }
+    },
+    "fable-5-1": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "8.9547",
+        "consensus_score": "58",
+        "ecpts": "149.0036141450849623609752201",
+        "elapsed_seconds": "417",
+        "pulse_judge_score": "3.2",
+        "pulse_words": "169",
+        "story_words": "341",
+        "total_tokens": "6009720"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            71,
+            67,
+            70,
+            64,
+            69
+          ],
+          "pulse_words": 169,
+          "source": {
+            "path": "daily-results/2026-11-09/fable-5-1/2026-11-09.html",
+            "sha256": "772104dbfe0dabbd8c8f8b36475cd217a77a50c68b85902f71ddb9c18f4f4c84"
+          },
+          "story_words": 341
+        }
+      }
+    },
+    "gemini-4-argon": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "1.6835",
+        "consensus_score": "72",
+        "ecpts": "34.76512938781983506026644111",
+        "elapsed_seconds": "1026",
+        "pulse_judge_score": "2.4",
+        "pulse_words": "137",
+        "story_words": "338",
+        "total_tokens": "4842496"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            69,
+            68,
+            70,
+            63,
+            68
+          ],
+          "pulse_words": 137,
+          "source": {
+            "path": "daily-results/2026-11-09/gemini-4-argon/2026-11-09.html",
+            "sha256": "b01436f3a497e014ca38597ef6ddbb0668dc9727e6811d653d7523273105fafc"
+          },
+          "story_words": 338
+        }
+      }
+    },
+    "glm-5-3": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "2.2664",
+        "consensus_score": "24",
+        "ecpts": "32.88369742529528802906603132",
+        "elapsed_seconds": "635",
+        "pulse_judge_score": "3.1",
+        "pulse_words": "153",
+        "story_words": "375",
+        "total_tokens": "6892169"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            82,
+            74,
+            60,
+            84,
+            75
+          ],
+          "pulse_words": 153,
+          "source": {
+            "path": "daily-results/2026-11-09/glm-5-3/2026-11-09.html",
+            "sha256": "805b1271c74aee35afb87ebc2de2919ba2e30d2f4ca685e2e135097746b63c3c"
+          },
+          "story_words": 375
+        }
+      }
+    },
+    "gpt-6-1-sol": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "0.6126",
+        "consensus_score": "71",
+        "ecpts": "24.82727092931644354815177463",
+        "elapsed_seconds": "344",
+        "pulse_judge_score": "2.9",
+        "pulse_words": "94",
+        "story_words": "289",
+        "total_tokens": "2467448"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            55,
+            56,
+            59,
+            61,
+            58
+          ],
+          "pulse_words": 94,
+          "source": {
+            "path": "daily-results/2026-11-09/gpt-6-1-sol/2026-11-09.html",
+            "sha256": "9f3235cc93816a06ded379aa8de72c9d3a1edf049e80648fd9e6aaa13346ebe6"
+          },
+          "story_words": 289
+        }
+      }
+    },
+    "gpt-6-1-terra": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "0.2467",
+        "consensus_score": "85",
+        "ecpts": "10.94358839686854563392077676",
+        "elapsed_seconds": "214",
+        "pulse_judge_score": "2.2",
+        "pulse_words": "59",
+        "story_words": "263",
+        "total_tokens": "2254288"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            53,
+            51,
+            55,
+            53,
+            51
+          ],
+          "pulse_words": 59,
+          "source": {
+            "path": "daily-results/2026-11-09/gpt-6-1-terra/2026-11-09.html",
+            "sha256": "4148483a0c9cba5273baa5e4e373d0fbee282047475098ef9d44923e5e0a94f0"
+          },
+          "story_words": 263
+        }
+      }
+    },
+    "gpt-6-astra": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "4.0521",
+        "consensus_score": "62",
+        "ecpts": "180.3231852868456325663111913",
+        "elapsed_seconds": "361",
+        "pulse_judge_score": "2.7",
+        "pulse_words": "91",
+        "story_words": "295",
+        "total_tokens": "2247132"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            57,
+            61,
+            58,
+            59,
+            60
+          ],
+          "pulse_words": 91,
+          "source": {
+            "path": "daily-results/2026-11-09/gpt-6-astra/2026-11-09.html",
+            "sha256": "532acedae812ee2095924e78a35d6b927cf80b8a8828535390a4b69dc10c1f93"
+          },
+          "story_words": 295
+        }
+      }
+    },
+    "gpt-6-luna": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "0.1426",
+        "consensus_score": "39",
+        "ecpts": "1.506410060030335253354720271",
+        "elapsed_seconds": "1232",
+        "pulse_judge_score": "2.5",
+        "pulse_words": "78",
+        "story_words": "281",
+        "total_tokens": "9466214"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            49,
+            60,
+            53,
+            57,
+            62
+          ],
+          "pulse_words": 78,
+          "source": {
+            "path": "daily-results/2026-11-09/gpt-6-luna/2026-11-09.html",
+            "sha256": "4c1e8da016a4166b4a5b480928d519472a01c592565a961233f0ce75651b4e5f"
+          },
+          "story_words": 281
+        }
+      }
+    },
+    "grok-4-7": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "3.654",
+        "consensus_score": "86",
+        "ecpts": "63.38438256690096684601289857",
+        "elapsed_seconds": "873",
+        "pulse_judge_score": "3.3",
+        "pulse_words": "127",
+        "story_words": "357",
+        "total_tokens": "5764827"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            68,
+            75,
+            71,
+            73,
+            70
+          ],
+          "pulse_words": 127,
+          "source": {
+            "path": "daily-results/2026-11-09/grok-4-7/2026-11-09.html",
+            "sha256": "036f32770f421187f59b59ac30413e304f4bf19a2acc42a801c5b89aebde5ddf"
+          },
+          "story_words": 357
+        }
+      }
+    },
+    "haiku-5-5": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "0.4593",
+        "consensus_score": "62",
+        "ecpts": "8.398358288263545712631694047",
+        "elapsed_seconds": "336",
+        "pulse_judge_score": "2.8",
+        "pulse_words": "118",
+        "story_words": "275",
+        "total_tokens": "5468926"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            64,
+            56,
+            54,
+            51,
+            50
+          ],
+          "pulse_words": 118,
+          "source": {
+            "path": "daily-results/2026-11-09/haiku-5-5/2026-11-09.html",
+            "sha256": "f3c290a4f8025ee3176a52fea5e4b08cbdb0667f912e20db2b3cf869dd359374"
+          },
+          "story_words": 275
+        }
+      }
+    },
+    "kimi-k3-1-pro": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "1.4294",
+        "consensus_score": "81",
+        "ecpts": "38.29607900555579816942920517",
+        "elapsed_seconds": "175",
+        "pulse_judge_score": "3.4",
+        "pulse_words": "120",
+        "story_words": "255",
+        "total_tokens": "3732497"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            60,
+            49,
+            52,
+            45,
+            49
+          ],
+          "pulse_words": 120,
+          "source": {
+            "path": "daily-results/2026-11-09/kimi-k3-1-pro/2026-11-09.html",
+            "sha256": "694ac4c81c241557337d0c8e8ea5b25f4e195db016eeb4fc26ace40ccbc7f469"
+          },
+          "story_words": 255
+        }
+      }
+    },
+    "minimax-m3-1-flash": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "0.1817",
+        "consensus_score": "90",
+        "ecpts": "2.384878113959110300022129359",
+        "elapsed_seconds": "401",
+        "pulse_judge_score": "2.8",
+        "pulse_words": "161",
+        "story_words": "290",
+        "total_tokens": "7618838"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            58,
+            60,
+            57,
+            57,
+            58
+          ],
+          "pulse_words": 161,
+          "source": {
+            "path": "daily-results/2026-11-09/minimax-m3-1-flash/2026-11-09.html",
+            "sha256": "c9885cdad5000359035fed2358b481a1d3f6cfbeaf859606a9462a0d12f32d83"
+          },
+          "story_words": 290
+        }
+      }
+    },
+    "opus-5-5": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "3.0433",
+        "consensus_score": "72",
+        "ecpts": "59.64780103000402186073386023",
+        "elapsed_seconds": "289",
+        "pulse_judge_score": "3.3",
+        "pulse_words": "137",
+        "story_words": "330",
+        "total_tokens": "5102116"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            69,
+            65,
+            68,
+            63,
+            65
+          ],
+          "pulse_words": 137,
+          "source": {
+            "path": "daily-results/2026-11-09/opus-5-5/2026-11-09.html",
+            "sha256": "9a4f45c3c0e982c7d359f0a19b873a85b2a9bff6c76a5297de4b0f78d3518a97"
+          },
+          "story_words": 330
+        }
+      }
+    },
+    "qwen-3-8-max-0902": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "2.378",
+        "consensus_score": "90",
+        "ecpts": "35.99774143691236866046924222",
+        "elapsed_seconds": "1667",
+        "pulse_judge_score": "2.9",
+        "pulse_words": "148",
+        "story_words": "343",
+        "total_tokens": "6605970"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            76,
+            72,
+            69,
+            68,
+            58
+          ],
+          "pulse_words": 148,
+          "source": {
+            "path": "daily-results/2026-11-09/qwen-3-8-max-0902/2026-11-09.html",
+            "sha256": "5b14e9917f15a23c9a65b919656e80319d6a46fd3865b33ad11346fc7d01306e"
+          },
+          "story_words": 343
+        }
+      }
+    },
+    "sonnet-5-5": {
+      "attempt": {},
+      "metrics": {
+        "api_cost": "1.0789",
+        "consensus_score": "77",
+        "ecpts": "36.83863149725187018624866366",
+        "elapsed_seconds": "233",
+        "pulse_judge_score": "3.2",
+        "pulse_words": "89",
+        "story_words": "331",
+        "total_tokens": "2928719"
+      },
+      "missing": {},
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            70,
+            70,
+            62,
+            68,
+            61
+          ],
+          "pulse_words": 89,
+          "source": {
+            "path": "daily-results/2026-11-09/sonnet-5-5/2026-11-09.html",
+            "sha256": "66cae9d02de933781e0d5a4b3ffe4931b6787878191a4b45390091045fb33830"
+          },
+          "story_words": 331
+        }
+      }
+    }
+  },
+  "schema_version": 1,
+  "sources": [
+    {
+      "path": "model-comparison/json/Model-Consensus-2026-11-09.audit.json",
+      "sha256": "5857217c4b6dff78e45d1b9768116bc3af515e1202bf9831a903b7d657b4b282"
+    },
+    {
+      "path": "token-costs/json/Usage-and-Cost-2026-11-09.audit.json",
+      "sha256": "4ec1ad7df925f9a0227cd24648db2428e0121d12a6a3838953d564de12096872"
+    }
+  ],
+  "status": "accepted"
+}

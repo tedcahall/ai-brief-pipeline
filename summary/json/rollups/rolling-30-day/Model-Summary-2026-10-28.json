@@ -1,0 +1,1037 @@
+{
+  "as_of": "2026-10-28",
+  "base_measurement_hash": "905320472d6b9b12322c25a9e4302a439637824569e8ac13e4b9892abb6c692b",
+  "calculation_version": 1,
+  "dates": [
+    "2026-10-28",
+    "2026-10-27",
+    "2026-10-26",
+    "2026-10-25",
+    "2026-10-24",
+    "2026-10-23",
+    "2026-10-22",
+    "2026-10-21",
+    "2026-10-20",
+    "2026-10-19",
+    "2026-10-18",
+    "2026-10-17",
+    "2026-10-16",
+    "2026-10-15",
+    "2026-10-14",
+    "2026-10-13",
+    "2026-10-12",
+    "2026-10-11",
+    "2026-10-10",
+    "2026-10-09",
+    "2026-10-08",
+    "2026-10-07",
+    "2026-10-06",
+    "2026-10-05",
+    "2026-10-04",
+    "2026-10-03",
+    "2026-10-02",
+    "2026-10-01",
+    "2026-09-30",
+    "2026-09-29"
+  ],
+  "end": "2026-10-28",
+  "family": "rolling-30-day",
+  "inputs": {
+    "2026-10-28": "8e8be7074896c3df47b8e9df18c95577fb0b6e6eee06a816f774c7ee00e69802"
+  },
+  "judging_status": "partial",
+  "metrics": {
+    "api_cost": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      }
+    },
+    "consensus_score": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": "80",
+        "days": {
+          "2026-10-28": "80"
+        },
+        "high": "80",
+        "low": "80",
+        "n": 1,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": "85",
+        "days": {
+          "2026-10-28": "85"
+        },
+        "high": "85",
+        "low": "85",
+        "n": 1,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": "76",
+        "days": {
+          "2026-10-28": "76"
+        },
+        "high": "76",
+        "low": "76",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": "85",
+        "days": {
+          "2026-10-28": "85"
+        },
+        "high": "85",
+        "low": "85",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": "47",
+        "days": {
+          "2026-10-28": "47"
+        },
+        "high": "47",
+        "low": "47",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": "76",
+        "days": {
+          "2026-10-28": "76"
+        },
+        "high": "76",
+        "low": "76",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": "60",
+        "days": {
+          "2026-10-28": "60"
+        },
+        "high": "60",
+        "low": "60",
+        "n": 1,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": "90",
+        "days": {
+          "2026-10-28": "90"
+        },
+        "high": "90",
+        "low": "90",
+        "n": 1,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": "75",
+        "days": {
+          "2026-10-28": "75"
+        },
+        "high": "75",
+        "low": "75",
+        "n": 1,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": "62",
+        "days": {
+          "2026-10-28": "62"
+        },
+        "high": "62",
+        "low": "62",
+        "n": 1,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": "81",
+        "days": {
+          "2026-10-28": "81"
+        },
+        "high": "81",
+        "low": "81",
+        "n": 1,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": "85",
+        "days": {
+          "2026-10-28": "85"
+        },
+        "high": "85",
+        "low": "85",
+        "n": 1,
+        "sd": null
+      }
+    },
+    "ecpts": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      }
+    },
+    "elapsed_seconds": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": "1215",
+        "days": {
+          "2026-10-28": "1215"
+        },
+        "high": "1215",
+        "low": "1215",
+        "n": 1,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": "1032",
+        "days": {
+          "2026-10-28": "1032"
+        },
+        "high": "1032",
+        "low": "1032",
+        "n": 1,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": "218",
+        "days": {
+          "2026-10-28": "218"
+        },
+        "high": "218",
+        "low": "218",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": "1084",
+        "days": {
+          "2026-10-28": "1084"
+        },
+        "high": "1084",
+        "low": "1084",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": "238",
+        "days": {
+          "2026-10-28": "238"
+        },
+        "high": "238",
+        "low": "238",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": "716",
+        "days": {
+          "2026-10-28": "716"
+        },
+        "high": "716",
+        "low": "716",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": "466",
+        "days": {
+          "2026-10-28": "466"
+        },
+        "high": "466",
+        "low": "466",
+        "n": 1,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": "1725",
+        "days": {
+          "2026-10-28": "1725"
+        },
+        "high": "1725",
+        "low": "1725",
+        "n": 1,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": "728",
+        "days": {
+          "2026-10-28": "728"
+        },
+        "high": "728",
+        "low": "728",
+        "n": 1,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": "518",
+        "days": {
+          "2026-10-28": "518"
+        },
+        "high": "518",
+        "low": "518",
+        "n": 1,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": "449",
+        "days": {
+          "2026-10-28": "449"
+        },
+        "high": "449",
+        "low": "449",
+        "n": 1,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": "957",
+        "days": {
+          "2026-10-28": "957"
+        },
+        "high": "957",
+        "low": "957",
+        "n": 1,
+        "sd": null
+      }
+    },
+    "pulse_judge_score": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      }
+    },
+    "pulse_words": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": "197",
+        "days": {
+          "2026-10-28": "197"
+        },
+        "high": "197",
+        "low": "197",
+        "n": 1,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": "139",
+        "days": {
+          "2026-10-28": "139"
+        },
+        "high": "139",
+        "low": "139",
+        "n": 1,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": "140",
+        "days": {
+          "2026-10-28": "140"
+        },
+        "high": "140",
+        "low": "140",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": "106",
+        "days": {
+          "2026-10-28": "106"
+        },
+        "high": "106",
+        "low": "106",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": "71",
+        "days": {
+          "2026-10-28": "71"
+        },
+        "high": "71",
+        "low": "71",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": "135",
+        "days": {
+          "2026-10-28": "135"
+        },
+        "high": "135",
+        "low": "135",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": "100",
+        "days": {
+          "2026-10-28": "100"
+        },
+        "high": "100",
+        "low": "100",
+        "n": 1,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": "165",
+        "days": {
+          "2026-10-28": "165"
+        },
+        "high": "165",
+        "low": "165",
+        "n": 1,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": "85",
+        "days": {
+          "2026-10-28": "85"
+        },
+        "high": "85",
+        "low": "85",
+        "n": 1,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": "83",
+        "days": {
+          "2026-10-28": "83"
+        },
+        "high": "83",
+        "low": "83",
+        "n": 1,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": "126",
+        "days": {
+          "2026-10-28": "126"
+        },
+        "high": "126",
+        "low": "126",
+        "n": 1,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": "95",
+        "days": {
+          "2026-10-28": "95"
+        },
+        "high": "95",
+        "low": "95",
+        "n": 1,
+        "sd": null
+      }
+    },
+    "story_words": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": "354",
+        "days": {
+          "2026-10-28": "354"
+        },
+        "high": "354",
+        "low": "354",
+        "n": 1,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": "265",
+        "days": {
+          "2026-10-28": "265"
+        },
+        "high": "265",
+        "low": "265",
+        "n": 1,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": "297",
+        "days": {
+          "2026-10-28": "297"
+        },
+        "high": "297",
+        "low": "297",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": "325",
+        "days": {
+          "2026-10-28": "325"
+        },
+        "high": "325",
+        "low": "325",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": "254",
+        "days": {
+          "2026-10-28": "254"
+        },
+        "high": "254",
+        "low": "254",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": "280",
+        "days": {
+          "2026-10-28": "280"
+        },
+        "high": "280",
+        "low": "280",
+        "n": 1,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": "277",
+        "days": {
+          "2026-10-28": "277"
+        },
+        "high": "277",
+        "low": "277",
+        "n": 1,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": "343",
+        "days": {
+          "2026-10-28": "343"
+        },
+        "high": "343",
+        "low": "343",
+        "n": 1,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": "298",
+        "days": {
+          "2026-10-28": "298"
+        },
+        "high": "298",
+        "low": "298",
+        "n": 1,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": "318",
+        "days": {
+          "2026-10-28": "318"
+        },
+        "high": "318",
+        "low": "318",
+        "n": 1,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": "325",
+        "days": {
+          "2026-10-28": "325"
+        },
+        "high": "325",
+        "low": "325",
+        "n": 1,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": "315",
+        "days": {
+          "2026-10-28": "315"
+        },
+        "high": "315",
+        "low": "315",
+        "n": 1,
+        "sd": null
+      }
+    },
+    "total_tokens": {
+      "deepseek-v4-1-flash-1017": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "deepseek-v4-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "glm-5-3": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-sol": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-1-terra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-astra": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "gpt-6-luna": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "grok-4-7": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "kimi-k3-1-pro": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "minimax-m3-1-flash": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "opus-5-5": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      },
+      "qwen-3-8-max-0902": {
+        "avg": null,
+        "days": {
+          "2026-10-28": null
+        },
+        "high": null,
+        "low": null,
+        "n": 0,
+        "sd": null
+      }
+    }
+  },
+  "observed_dates": [
+    "2026-10-28"
+  ],
+  "pending_judging_dates": [],
+  "revisions": [
+    {
+      "input_hash": "d5c335b33cf779d10ae17019e0b8bac89f5067bf325aa9c69c3ffbec675b333e",
+      "previous_sha256": "08bc12ed87e64e692300ebf725b8f7e27a51beca0894b92b2f5862b847dcc382",
+      "reason": "initial historical migration"
+    }
+  ],
+  "schema_version": 1,
+  "start": "2026-09-29",
+  "unavailable_judging_dates": [
+    "2026-10-28"
+  ]
+}
