@@ -1,0 +1,183 @@
+{
+ "date": "2026-10-31",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902"
+ ],
+ "scores": {
+  "opus": {
+   "deepseek-v4-1-flash-1017": 4.0,
+   "kimi-k3-1-pro": 3.0,
+   "qwen-3-8-max-0902": 3.0,
+   "opus-5-5": 3.5,
+   "minimax-m3-1-flash": 3.0,
+   "grok-4-7": 2.5,
+   "deepseek-v4-pro": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "gpt-6-astra": 2.5,
+   "glm-5-3": 3.5,
+   "gpt-6-luna": 2.0,
+   "gpt-6-1-terra": 1.5
+  },
+  "glm": {
+   "deepseek-v4-pro": 3.0,
+   "minimax-m3-1-flash": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "gpt-6-1-sol": 3.5,
+   "glm-5-3": 3.5,
+   "grok-4-7": 3.0,
+   "gpt-6-astra": 3.0,
+   "qwen-3-8-max-0902": 3.5,
+   "gpt-6-luna": 2.5,
+   "deepseek-v4-1-flash-1017": 4.5,
+   "opus-5-5": 4.0,
+   "kimi-k3-1-pro": 4.0
+  },
+  "astra": {
+   "gpt-6-1-sol": 3.0,
+   "grok-4-7": 3.0,
+   "kimi-k3-1-pro": 2.5,
+   "gpt-6-1-terra": 2.5,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "qwen-3-8-max-0902": 2.0,
+   "glm-5-3": 3.0,
+   "deepseek-v4-pro": 3.0,
+   "gpt-6-astra": 3.0,
+   "opus-5-5": 3.5,
+   "minimax-m3-1-flash": 3.5,
+   "gpt-6-luna": 2.0
+  },
+  "grok": {
+   "opus-5-5": 3.0,
+   "qwen-3-8-max-0902": 2.5,
+   "gpt-6-1-sol": 2.5,
+   "deepseek-v4-pro": 3.0,
+   "minimax-m3-1-flash": 3.0,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "grok-4-7": 3.0,
+   "glm-5-3": 3.5,
+   "gpt-6-1-terra": 2.0,
+   "kimi-k3-1-pro": 3.5,
+   "gpt-6-luna": 2.5,
+   "gpt-6-astra": 3.0
+  },
+  "dsflash": {
+   "minimax-m3-1-flash": 2.5,
+   "kimi-k3-1-pro": 2.5,
+   "grok-4-7": 3.0,
+   "gpt-6-1-sol": 3.0,
+   "qwen-3-8-max-0902": 2.5,
+   "gpt-6-luna": 2.5,
+   "glm-5-3": 3.5,
+   "gpt-6-astra": 3.0,
+   "opus-5-5": 3.5,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "deepseek-v4-pro": 3.0,
+   "gpt-6-1-terra": 2.0
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 4.0,
+  "deepseek-v4-pro": 3.0,
+  "glm-5-3": 3.4,
+  "gpt-6-1-sol": 2.9,
+  "gpt-6-1-terra": 2.1,
+  "gpt-6-astra": 2.9,
+  "gpt-6-luna": 2.3,
+  "grok-4-7": 2.9,
+  "kimi-k3-1-pro": 3.1,
+  "minimax-m3-1-flash": 3.1,
+  "opus-5-5": 3.5,
+  "qwen-3-8-max-0902": 2.7
+ },
+ "ranking": [
+  "deepseek-v4-1-flash-1017",
+  "opus-5-5",
+  "glm-5-3",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "deepseek-v4-pro",
+  "gpt-6-1-sol",
+  "gpt-6-astra",
+  "grok-4-7",
+  "qwen-3-8-max-0902",
+  "gpt-6-luna",
+  "gpt-6-1-terra"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "opus-5-5"
+   ],
+   "own": 3.5,
+   "others": 3.5,
+   "bump": 0.0
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 3.5,
+   "others": 3.38,
+   "bump": 0.12
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 2.62,
+   "others": 2.53,
+   "bump": 0.09
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 3.0,
+   "others": 2.88,
+   "bump": 0.12
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.5,
+   "others": 3.5,
+   "bump": 0.0
+  }
+ },
+ "judge_notes": {
+  "opus": "A won by opening on a concrete, consequential deal ('Apple will integrate Alibaba's Qwen model into Apple Intelligence for users in China') and then giving the money story stakes ('its worst session since 2004, after quarterly results revived questions about returns on AI spending'); its only real weakness is the tacked-on 'Anthropic also renamed its top Claude tiers.' D came close with a useful contrast ('Amazon offered a contrasting demand signal') but ended with a 40-plus-word list sentence. L lost: it says almost nothing concrete ('further violence-prevention safeguards for ChatGPT, with rollout still ahead') and ends on a sourcing disclaimer ('should not be treated as independently established across all workloads').",
+  "glm": "GLM's flaws were malformed. Scores and ranks are intact.",
+  "astra": "E wins narrowly: \u201cQwen will handle text and image understanding inside Siri, Writing Tools and Visual Intelligence\u201d makes the lead tangible, and \u201cquestions about returns on AI spending\u201d supplies useful business stakes. Its crowded financial passage and subscription tail still keep it below a clean 4. L loses because \u201cThese developments span safety methods, model releases, infrastructure and behavioral policy\u201d explicitly substitutes a category inventory for a story, compounded by repeated status caveats.",
+  "grok": "F won because it leads with a finished story, 'Apple will integrate Alibaba's Qwen model into Apple Intelligence for users in China, starting with an iOS developer beta on November 4,' and the market graf says why the figure matters: 'its worst session since 2004, after quarterly results revived questions about returns on AI spending.' The only miss is the bolted-on rename. J and H are the nearest: J's beekeeping-and-wrestling opening is the best paragraph in the set, then 'separately' and 'while' turn the rest into a list; H's scale-beyond-human-researchers lead is a real point, undone by casting a consumer rename as 'enterprise trust.' I lost. 'higher DeepSeek serving throughput' and 'further violence-prevention safeguards' never become news, and the closer, 'should not be treated as independently established across all workloads,' tells the reader not to trust the brief.",
+  "dsflash": "J wins because it is the only entry with a real spine: a capital-and-demand story (\"some investors trimmed commitments\" against \"AWS growth of 39.3%, its fastest in nearly five years\"), each paragraph self-contained, and the context that gives scale meaning (\"its worst session since 2004\"). Its only weak spot is the afterthought ending, \"Anthropic also renamed its top Claude tiers to Max and Ultra.\" G is the closest rival and the most analytical opener of the day (\"automated red-teaming can scale beyond human researchers\"), but it spends its connective tissue on puffery (\"both pushed enterprise trust forward\") and then dumps a 45-word leaderboard sentence. I is solid on the funding story but ends in a 44-word run-on that fuses research with a subscription rename. L loses outright: it opens with a \"while\" join, offers no number anywhere, and closes by disclaiming its own contents (\"should not be treated as independently established across all workloads\") \u2014 that is the writer's footnote, not the reader's takeaway. The mid-pack (C, D, H, K) is all competent inventory: each has one clean lead item and then descends into \"and also\" pairings, with K worst of that group because it returns to Anthropic twice in three paragraphs."
+ }
+}

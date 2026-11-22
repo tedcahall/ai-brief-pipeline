@@ -3,8 +3,12 @@
   "conflicts": [],
   "date": "2026-10-31",
   "judging": {
-    "reason": "historical panel was not collected; no new judging requested",
-    "status": "unavailable"
+    "method": "unrounded arithmetic panel mean from scores",
+    "source": {
+      "path": "pulse-judging/json/2026-10-31.json",
+      "sha256": "372fcfa49b27dfb5e8f34145b229fc347ae2cc4af135a71c04c0288430647643"
+    },
+    "status": "complete"
   },
   "models": {
     "deepseek-v4-1-flash-1017": {
@@ -14,14 +18,12 @@
         "consensus_score": "58",
         "ecpts": "1.264916965472431395403714301",
         "elapsed_seconds": "1417",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "4.0",
         "pulse_words": "161",
         "story_words": "325",
         "total_tokens": "10933524"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -52,14 +54,12 @@
         "consensus_score": "71",
         "ecpts": "9.745292519891594747511647975",
         "elapsed_seconds": "1708",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.0",
         "pulse_words": "150",
         "story_words": "240",
         "total_tokens": "5617071"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -90,14 +90,12 @@
         "consensus_score": "85",
         "ecpts": "32.79060522555048914224709257",
         "elapsed_seconds": "371",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.4",
         "pulse_words": "130",
         "story_words": "262",
         "total_tokens": "3551932"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -128,14 +126,12 @@
         "consensus_score": "43",
         "ecpts": "25.45168489053758432704314867",
         "elapsed_seconds": "335",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.9",
         "pulse_words": "92",
         "story_words": "296",
         "total_tokens": "2726735"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -166,14 +162,12 @@
         "consensus_score": "62",
         "ecpts": "110.1498456854776767634449146",
         "elapsed_seconds": "225",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.1",
         "pulse_words": "79",
         "story_words": "260",
         "total_tokens": "2864280"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -204,14 +198,12 @@
         "consensus_score": "62",
         "ecpts": "167.0985610711306881531079911",
         "elapsed_seconds": "462",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.9",
         "pulse_words": "99",
         "story_words": "314",
         "total_tokens": "3275492"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -242,14 +234,12 @@
         "consensus_score": "57",
         "ecpts": "1.643029930911322104639920700",
         "elapsed_seconds": "387",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.3",
         "pulse_words": "109",
         "story_words": "319",
         "total_tokens": "4789931"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -280,14 +270,12 @@
         "consensus_score": "66",
         "ecpts": "100.0478634405735485423935555",
         "elapsed_seconds": "894",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.9",
         "pulse_words": "119",
         "story_words": "321",
         "total_tokens": "6102779"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -318,14 +306,12 @@
         "consensus_score": "81",
         "ecpts": "35.37489801343930768314036101",
         "elapsed_seconds": "588",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.1",
         "pulse_words": "119",
         "story_words": "272",
         "total_tokens": "2727075"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -356,14 +342,12 @@
         "consensus_score": "58",
         "ecpts": "2.096149854441270977308015365",
         "elapsed_seconds": "396",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.1",
         "pulse_words": "92",
         "story_words": "360",
         "total_tokens": "10753048"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -394,14 +378,12 @@
         "consensus_score": "48",
         "ecpts": "58.42365359675602051960122009",
         "elapsed_seconds": "544",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.5",
         "pulse_words": "124",
         "story_words": "311",
         "total_tokens": "6582779"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
@@ -432,14 +414,12 @@
         "consensus_score": "85",
         "ecpts": "37.34751689036327416589474503",
         "elapsed_seconds": "1895",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.7",
         "pulse_words": "172",
         "story_words": "357",
         "total_tokens": "5757277"
       },
-      "missing": {
-        "pulse_judge_score": "historical panel unavailable"
-      },
+      "missing": {},
       "provenance": {
         "api_cost": "published cumulative historical fallback",
         "elapsed_seconds": "published cumulative historical fallback",
