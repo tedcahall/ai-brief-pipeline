@@ -11,7 +11,7 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 
 **Seven-calendar-day statistics | 2026-11-16 through 2026-11-22 | Minimum 4 observed days per metric**
 
-Judging as of 2026-11-22; status: complete. Historical unavailable panels are not pending.
+Judging as of 2026-11-22; status: complete.
 
 ### 🏆 Leaders
 

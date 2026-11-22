@@ -62,7 +62,7 @@ def render(root):
     out=f"# Model Performance Leaders\n\n**Seven-calendar-day statistics | {current['start']} through {current['end']} | Minimum 4 observed days per metric**\n\n"
     if pending:
         out+=f"Judging update pending. Judging rows retain {judging['as_of'] if judging else 'no prior completed snapshot (unavailable)'}. Other rows are current.\n\n"
-    else:out+=f"Judging as of {judging['as_of']}; status: {judging['judging_status']}. Historical unavailable panels are not pending.\n\n"
+    else:out+=f"Judging as of {judging['as_of']}; status: {judging['judging_status']}.\n\n"
     for leader in (True,False):
         out+='## '+('🏆 Leaders' if leader else '⚠️ Laggards')+'\n\n'
         out+='| Category | Model | Mv Avg | All Avg | All Low | All High | Runs |\n|---|---|---:|---:|---:|---:|---:|\n'
