@@ -1,0 +1,183 @@
+{
+ "date": "2026-10-30",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902"
+ ],
+ "scores": {
+  "opus": {
+   "gpt-6-astra": 2.0,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "deepseek-v4-pro": 3.5,
+   "gpt-6-luna": 3.0,
+   "glm-5-3": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "qwen-3-8-max-0902": 4.0,
+   "gpt-6-1-terra": 2.0,
+   "minimax-m3-1-flash": 2.5,
+   "kimi-k3-1-pro": 2.5,
+   "grok-4-7": 2.5,
+   "opus-5-5": 4.0
+  },
+  "glm": {
+   "minimax-m3-1-flash": 4.0,
+   "kimi-k3-1-pro": 2.5,
+   "glm-5-3": 4.0,
+   "gpt-6-1-sol": 3.5,
+   "gpt-6-astra": 2.5,
+   "deepseek-v4-pro": 3.5,
+   "gpt-6-luna": 3.5,
+   "opus-5-5": 4.0,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "grok-4-7": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "qwen-3-8-max-0902": 4.0
+  },
+  "astra": {
+   "gpt-6-astra": 2.5,
+   "kimi-k3-1-pro": 3.0,
+   "deepseek-v4-1-flash-1017": 2.5,
+   "gpt-6-1-terra": 3.0,
+   "glm-5-3": 2.0,
+   "minimax-m3-1-flash": 2.0,
+   "grok-4-7": 2.0,
+   "gpt-6-luna": 2.5,
+   "qwen-3-8-max-0902": 3.0,
+   "opus-5-5": 3.5,
+   "deepseek-v4-pro": 2.5,
+   "gpt-6-1-sol": 3.5
+  },
+  "grok": {
+   "minimax-m3-1-flash": 3.5,
+   "glm-5-3": 3.0,
+   "gpt-6-1-terra": 2.0,
+   "gpt-6-luna": 3.5,
+   "qwen-3-8-max-0902": 4.0,
+   "opus-5-5": 4.5,
+   "deepseek-v4-pro": 2.5,
+   "kimi-k3-1-pro": 2.0,
+   "gpt-6-astra": 2.5,
+   "gpt-6-1-sol": 2.5,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "grok-4-7": 2.5
+  },
+  "dsflash": {
+   "deepseek-v4-1-flash-1017": 3.0,
+   "kimi-k3-1-pro": 2.5,
+   "glm-5-3": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "grok-4-7": 2.5,
+   "minimax-m3-1-flash": 2.5,
+   "gpt-6-astra": 2.0,
+   "gpt-6-1-sol": 2.0,
+   "qwen-3-8-max-0902": 3.0,
+   "deepseek-v4-pro": 3.0,
+   "opus-5-5": 4.0,
+   "gpt-6-luna": 3.5
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 3.3,
+  "deepseek-v4-pro": 3.0,
+  "glm-5-3": 3.1,
+  "gpt-6-1-sol": 2.8,
+  "gpt-6-1-terra": 2.4,
+  "gpt-6-astra": 2.3,
+  "gpt-6-luna": 3.2,
+  "grok-4-7": 2.6,
+  "kimi-k3-1-pro": 2.5,
+  "minimax-m3-1-flash": 2.9,
+  "opus-5-5": 4.0,
+  "qwen-3-8-max-0902": 3.6
+ },
+ "ranking": [
+  "opus-5-5",
+  "qwen-3-8-max-0902",
+  "deepseek-v4-1-flash-1017",
+  "gpt-6-luna",
+  "glm-5-3",
+  "deepseek-v4-pro",
+  "minimax-m3-1-flash",
+  "gpt-6-1-sol",
+  "grok-4-7",
+  "kimi-k3-1-pro",
+  "gpt-6-1-terra",
+  "gpt-6-astra"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "opus-5-5"
+   ],
+   "own": 4.0,
+   "others": 4.0,
+   "bump": 0.0
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 4.0,
+   "others": 2.88,
+   "bump": 1.12
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 2.88,
+   "others": 2.62,
+   "bump": 0.25
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 2.5,
+   "others": 2.62,
+   "bump": -0.12
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.0,
+   "others": 3.19,
+   "bump": -0.19
+  }
+ },
+ "judge_notes": {
+  "opus": "L won on structure: a clear lead on Mistral with honest context ('narrowly first among open-weight models built outside China'), then an actual throughline, 'Safety disclosures led the rest of the day,' and a tidy business close. G was close but ended with a three-item list. H lost because it is a string of minor items joined by 'while' and 'also' ('Moonshot also announced a Kimi workflow that connects to 3D creation tools') with no hierarchy, and it buries the OpenAI incident entirely. A was almost as weak because of its garbled 'separately from its replay of an earlier incident.'",
+  "glm": "H wins because it has the clearest editorial spine ('Safety disclosures led the rest of the day') and gives each story a reason to sit where it sits; its worst moment is benchmark-name density ('DeepSeek V4.1 Flash and GLM-5.3 by six points'). C is close behind with concrete, well-paced detail but leans on one overloaded run-on ('more than 30 hours before the earlier Hugging Face breach'). B loses because it is a bare wire-feed list \u2014 'Kimi and Gemini added new creation workflows' is pure filler with no why-it-matters, and E and K share the same failure at slightly greater length.",
+  "astra": "L wins narrowly because \"self-hosting options for organizations that want control over deployment\" translates the release into an executive reason to care, with comparatively clean prose. It remains a collection of news items, not publication-ready synthesis. E loses because \"a 1 trillion-parameter multimodal MoE with a 1M-token context\" starts an accumulation of jargon and figures, followed by long, overloaded safety and finance sentences.",
+  "grok": "F won because it is the only brief with a throughline ('Safety disclosures led the rest of the day') and a lead that makes the ranking mean something ('trails DeepSeek V4.1 Flash and GLM-5.3 by six points'), then a consequence on the business beat ('fastest in nearly five years'). The stapled safety sentence and the 'On the business side' closer keep it short of running untouched. E is the clean runner-up: every sentence parses, and the only real miss is the three-item closer. C lost: unrelated items joined by 'while' and 'also' ('while Phonic introduced a speech-to-speech system'), and the line that sounds most like policy still informs no one ('procurement specialists urged clearer standards').",
+  "dsflash": "K wins because it is the only summary with an organizing idea: it sets the Mistral release in a real pecking order (\"though it still trails DeepSeek V4.1 Flash and GLM-5.3 by six points\") and then says where the day's weight sat (\"Safety disclosures led the rest of the day\"), so a reader gets hierarchy, not inventory. L is nearly as good \u2014 \"its monitors alerted within 15 minutes and human review began three minutes later\" is the cleanest incident line of the day \u2014 but it spends two sentences telling readers what things are not (\"not a public model deployment,\" \"target and valuation are not amounts raised\"), which reads as an editor arguing with the copy. G loses because it is pure placement reporting with no story: \"Fish Audio Drama 3 led open-weight entries in two Artificial Analysis speech arenas, while remaining below some proprietary models overall\" tells a reader nothing they can act on, and every paragraph is stitched with \"while\" or \"separately from.\" H loses for the same hedging habit in weaker form (\"remains a fundraising target rather than a confirmed amount raised\") plus a vague lead (\"with reported coding gains\")."
+ }
+}
