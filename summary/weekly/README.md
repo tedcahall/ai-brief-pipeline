@@ -4,7 +4,7 @@
 
 # Model Summary: weekly
 
-Window: 2026-11-22 through 2026-11-22. As of 2026-11-22. Judging: pending.
+Window: 2026-11-22 through 2026-11-22. As of 2026-11-22. Judging: complete.
 
 Avg uses available readings only; SD is sample SD (n-1), unavailable below two readings. Elapsed Time is seconds. Cost is USD API-equivalent. Tokens include cache. ECPTS Avg pools costs/tokens on paired days and scales by 100,000,000. Missing days are not zeros. Historical backfill uses the preserved available evidence, not a claim of what was known then.
 
@@ -208,29 +208,29 @@ Avg uses available readings only; SD is sample SD (n-1), unavailable below two r
 
 | Model | Avg | SD | 11/22 |
 |---|---:|---:|---:|
-| deepseek-v4-1-flash-1017 | unavailable | unavailable |  |
-| deepseek-v4-pro | unavailable | unavailable |  |
-| fable-5-1 | unavailable | unavailable |  |
-| fable-5-2 | unavailable | unavailable |  |
-| gemini-4-argon | unavailable | unavailable |  |
-| gemini-4-carbon | unavailable | unavailable |  |
-| gemini-4-hydrogen | unavailable | unavailable |  |
-| gemini-4-neon | unavailable | unavailable |  |
-| glm-5-3 | unavailable | unavailable |  |
-| gpt-6-1-sol | unavailable | unavailable |  |
-| gpt-6-1-terra | unavailable | unavailable |  |
-| gpt-6-2-astra | unavailable | unavailable |  |
-| gpt-6-2-sol | unavailable | unavailable |  |
-| gpt-6-astra | unavailable | unavailable |  |
-| gpt-6-luna | unavailable | unavailable |  |
-| grok-4-7 | unavailable | unavailable |  |
-| haiku-5-5 | unavailable | unavailable |  |
-| kimi-k3-1-pro | unavailable | unavailable |  |
-| minimax-m3-1-flash | unavailable | unavailable |  |
-| opus-5-5 | unavailable | unavailable |  |
-| qwen-3-8-max-0902 | unavailable | unavailable |  |
-| qwen-4-max | unavailable | unavailable |  |
-| sonnet-5-5 | unavailable | unavailable |  |
+| gpt-6-2-sol | 4.100 | unavailable | 4.100 |
+| fable-5-2 | 3.400 | unavailable | 3.400 |
+| gpt-6-2-astra | 3.400 | unavailable | 3.400 |
+| gemini-4-hydrogen | 3.300 | unavailable | 3.300 |
+| gemini-4-neon | 3.300 | unavailable | 3.300 |
+| gpt-6-1-sol | 3.300 | unavailable | 3.300 |
+| fable-5-1 | 3.200 | unavailable | 3.200 |
+| qwen-4-max | 3.200 | unavailable | 3.200 |
+| deepseek-v4-1-flash-1017 | 3.100 | unavailable | 3.100 |
+| sonnet-5-5 | 3.100 | unavailable | 3.100 |
+| haiku-5-5 | 3.000 | unavailable | 3.000 |
+| kimi-k3-1-pro | 3.000 | unavailable | 3.000 |
+| minimax-m3-1-flash | 3.000 | unavailable | 3.000 |
+| qwen-3-8-max-0902 | 3.000 | unavailable | 3.000 |
+| gemini-4-carbon | 2.800 | unavailable | 2.800 |
+| gpt-6-luna | 2.800 | unavailable | 2.800 |
+| grok-4-7 | 2.800 | unavailable | 2.800 |
+| deepseek-v4-pro | 2.700 | unavailable | 2.700 |
+| gemini-4-argon | 2.600 | unavailable | 2.600 |
+| opus-5-5 | 2.600 | unavailable | 2.600 |
+| glm-5-3 | 2.500 | unavailable | 2.500 |
+| gpt-6-1-terra | 2.200 | unavailable | 2.200 |
+| gpt-6-astra | 2.100 | unavailable | 2.100 |
 
 ## Archive
 
