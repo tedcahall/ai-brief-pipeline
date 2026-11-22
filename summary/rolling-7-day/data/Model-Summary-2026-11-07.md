@@ -127,15 +127,15 @@ Avg uses available readings only; SD is sample SD (n-1), unavailable below two r
 
 | Model | Avg | SD | 11/7 | 11/6 | 11/5 | 11/4 | 11/3 | 11/2 | 11/1 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| glm-5-3 | 3.700 | unavailable | 3.700 |  |  |  |  |  |  |
-| opus-5-5 | 3.500 | unavailable | 3.500 |  |  |  |  |  |  |
-| qwen-3-8-max-0902 | 3.300 | unavailable | 3.300 |  |  |  |  |  |  |
-| kimi-k3-1-pro | 3.200 | unavailable | 3.200 |  |  |  |  |  |  |
-| deepseek-v4-1-flash-1017 | 3.000 | unavailable | 3.000 |  |  |  |  |  |  |
-| grok-4-7 | 3.000 | unavailable | 3.000 |  |  |  |  |  |  |
-| deepseek-v4-pro | 2.900 | unavailable | 2.900 |  |  |  |  |  |  |
-| gpt-6-1-sol | 2.900 | unavailable | 2.900 |  |  |  |  |  |  |
-| gpt-6-astra | 2.700 | unavailable | 2.700 |  |  |  |  |  |  |
-| gpt-6-luna | 2.500 | unavailable | 2.500 |  |  |  |  |  |  |
-| minimax-m3-1-flash | 2.500 | unavailable | 2.500 |  |  |  |  |  |  |
-| gpt-6-1-terra | 2.300 | unavailable | 2.300 |  |  |  |  |  |  |
+| qwen-3-8-max-0902 | 3.400 | 0.141 | 3.300 |  |  |  |  |  | 3.500 |
+| deepseek-v4-1-flash-1017 | 3.250 | 0.354 | 3.000 |  |  |  |  |  | 3.500 |
+| opus-5-5 | 3.250 | 0.354 | 3.500 |  |  |  |  |  | 3.000 |
+| glm-5-3 | 3.100 | 0.849 | 3.700 |  |  |  |  |  | 2.500 |
+| kimi-k3-1-pro | 3.100 | 0.141 | 3.200 |  |  |  |  |  | 3.000 |
+| grok-4-7 | 2.950 | 0.071 | 3.000 |  |  |  |  |  | 2.900 |
+| deepseek-v4-pro | 2.850 | 0.071 | 2.900 |  |  |  |  |  | 2.800 |
+| gpt-6-1-sol | 2.850 | 0.071 | 2.900 |  |  |  |  |  | 2.800 |
+| gpt-6-astra | 2.750 | 0.071 | 2.700 |  |  |  |  |  | 2.800 |
+| gpt-6-1-terra | 2.650 | 0.495 | 2.300 |  |  |  |  |  | 3.000 |
+| minimax-m3-1-flash | 2.650 | 0.212 | 2.500 |  |  |  |  |  | 2.800 |
+| gpt-6-luna | 2.100 | 0.566 | 2.500 |  |  |  |  |  | 1.700 |

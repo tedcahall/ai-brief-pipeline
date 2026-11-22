@@ -1,0 +1,183 @@
+{
+ "date": "2026-11-01",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902"
+ ],
+ "scores": {
+  "opus": {
+   "gpt-6-astra": 2.5,
+   "qwen-3-8-max-0902": 3.5,
+   "glm-5-3": 3.0,
+   "deepseek-v4-pro": 2.5,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-1-terra": 3.5,
+   "opus-5-5": 3.0,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "gpt-6-1-sol": 2.5,
+   "gpt-6-luna": 1.5,
+   "minimax-m3-1-flash": 3.5,
+   "grok-4-7": 3.0
+  },
+  "glm": {
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-astra": 3.0,
+   "deepseek-v4-pro": 2.5,
+   "grok-4-7": 3.0,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "gpt-6-1-terra": 2.5,
+   "qwen-3-8-max-0902": 4.0,
+   "glm-5-3": 2.5,
+   "minimax-m3-1-flash": 2.5,
+   "opus-5-5": 3.5,
+   "gpt-6-luna": 1.5,
+   "gpt-6-1-sol": 3.0
+  },
+  "astra": {
+   "grok-4-7": 2.5,
+   "gpt-6-1-terra": 3.5,
+   "gpt-6-1-sol": 3.0,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "opus-5-5": 2.5,
+   "minimax-m3-1-flash": 2.5,
+   "deepseek-v4-pro": 2.5,
+   "gpt-6-astra": 3.0,
+   "gpt-6-luna": 2.0,
+   "kimi-k3-1-pro": 3.0,
+   "glm-5-3": 2.0,
+   "qwen-3-8-max-0902": 2.5
+  },
+  "grok": {
+   "opus-5-5": 3.5,
+   "gpt-6-astra": 2.5,
+   "gpt-6-1-terra": 3.0,
+   "grok-4-7": 3.5,
+   "minimax-m3-1-flash": 3.0,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "deepseek-v4-pro": 3.5,
+   "glm-5-3": 2.5,
+   "gpt-6-luna": 2.0,
+   "qwen-3-8-max-0902": 4.0
+  },
+  "dsflash": {
+   "grok-4-7": 2.5,
+   "deepseek-v4-1-flash-1017": 2.5,
+   "minimax-m3-1-flash": 2.5,
+   "kimi-k3-1-pro": 3.0,
+   "opus-5-5": 2.5,
+   "gpt-6-astra": 3.0,
+   "gpt-6-1-sol": 3.0,
+   "gpt-6-luna": 1.5,
+   "gpt-6-1-terra": 2.5,
+   "qwen-3-8-max-0902": 3.5,
+   "glm-5-3": 2.5,
+   "deepseek-v4-pro": 3.0
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 3.5,
+  "deepseek-v4-pro": 2.8,
+  "glm-5-3": 2.5,
+  "gpt-6-1-sol": 2.8,
+  "gpt-6-1-terra": 3.0,
+  "gpt-6-astra": 2.8,
+  "gpt-6-luna": 1.7,
+  "grok-4-7": 2.9,
+  "kimi-k3-1-pro": 3.0,
+  "minimax-m3-1-flash": 2.8,
+  "opus-5-5": 3.0,
+  "qwen-3-8-max-0902": 3.5
+ },
+ "ranking": [
+  "deepseek-v4-1-flash-1017",
+  "qwen-3-8-max-0902",
+  "gpt-6-1-terra",
+  "kimi-k3-1-pro",
+  "opus-5-5",
+  "grok-4-7",
+  "deepseek-v4-pro",
+  "gpt-6-1-sol",
+  "gpt-6-astra",
+  "minimax-m3-1-flash",
+  "glm-5-3",
+  "gpt-6-luna"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "opus-5-5"
+   ],
+   "own": 3.0,
+   "others": 3.0,
+   "bump": 0.0
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 2.5,
+   "others": 2.5,
+   "bump": 0.0
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 2.88,
+   "others": 2.5,
+   "bump": 0.38
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 3.5,
+   "others": 2.75,
+   "bump": 0.75
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 2.75,
+   "others": 3.25,
+   "bump": -0.5
+  }
+ },
+ "judge_notes": {
+  "opus": "H won on hierarchy and a real throughline: 'Meanwhile the bill arrived: five hyperscalers are on track to spend up to $828 billion' turns a list into a story about cost, despite the awkward 'works authorized GitHub requests into pull requests.' J lost badly: it opens with throat-clearing ('AI activity this cycle spans orbital compute, enterprise agents and applied research'), stays vague, and ends in process leakage ('claimed results are attributed and announced plans are distinguished from deployed capabilities').",
+  "glm": "G wins because it is the only summary with a real throughline and story shape: 'Apple's AI plans for China landed their biggest piece yet' gives the Qwen item stakes, and the Suncatcher haiku is told with a concrete image ('downlinked over Svalbard'). It has real sentences, not stitched items, and only minor looseness ('Inference economics kept moving'). E and J follow: E earns points for a money frame ('Meanwhile the bill arrived: five hyperscalers... up to $828 billion') but is hurt by the garbled 'works authorized GitHub requests into pull requests'; J is clean and workmanlike but flat, closing with a dangling 'which stay in the lab.' K loses worst: two of its five sentences are about the writer's own rules ('These are company-reported milestones and programs; claimed results are attributed and announced plans are distinguished from deployed capabilities') and its opener ('AI activity this cycle spans orbital compute, enterprise agents and applied research') is empty meta. H and I also fall to the bottom half on density and run-ons \u2014 I's 40-word capital-spending sentence with the garbled 'spending that helped wipe about $1 trillion' relative clause is hard going, and H stacks three-outlet attributions and a three-item agent-infrastructure clause.",
+  "astra": "B wins narrowly because 'model deployment is being shaped by local markets and controlled access' supplies a readable interpretation of its lead items, though its second paragraph loses that focus. I finishes last because 'AI activity this cycle spans' offers only a generic inventory and 'claimed results are attributed' spends scarce space describing the writer's process. No entry sustains a publication-ready throughline throughout.",
+  "grok": "L won because it leads with a complete, specific sentence (\"Alibaba announced Saturday that its Qwen model will power Apple Intelligence features including Siri, Writing Tools and Visual Intelligence\") and keeps a readable hierarchy through the haiku and the SemiAnalysis number; the Karpathy close is the only loose join. H is close, with a clean three-sentence hierarchy and the one line that explains stakes (\"Meanwhile the bill arrived\"). K lost: \"AI activity this cycle spans orbital compute, enterprise agents and applied research\" informs nobody, and it spends its last sentence on sourcing process (\"claimed results are attributed and announced plans are distinguished from deployed capabilities\") instead of news.",
+  "dsflash": "The winner (J) is the only entry that reads like it was written rather than assembled: \"Apple's AI plans for China landed their biggest piece yet\" sets a hierarchy, the Suncatcher haiku and the Rosalind weights sit beneath it, and \"Inference economics kept moving\" at least names a theme \u2014 it loses full marks for a 50-word opening sentence and for grafting \"Andrej Karpathy shipped HackerTube\" onto an inference-economics sentence that does not contain it. The worst (H) is not a brief but a disclaimer: \"AI activity this cycle spans orbital compute, enterprise agents and applied research\" promises nothing, \"a broader workflow partnership\" and \"new community safeguards\" deliver nothing, and it spends its last sentence on \"These are company-reported milestones and programs\" \u2014 the writer explaining the sourcing instead of the news. Just above it, I fails differently: it has a why-line, but \"model deployment is being shaped by local markets and controlled access\" is a truism and \"TBC released a video model informed by neuron research\" is unreadable to anyone outside the beat. The cluster of 2.5s shares one habit: five or six stories joined by \"while,\" \"separately,\" \"also\" and \"Elsewhere,\" where the only hierarchy is the order the writer happened to read them in."
+ }
+}
