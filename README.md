@@ -19,13 +19,13 @@ Judging as of 2026-11-21; status: complete. Historical unavailable panels are no
 |---|---|---:|---:|---:|---:|---:|
 | Ed Selection | Gemini 4 Argon | **82.7/100** | 68.2/100 | 43.6/100 | 82.7/100 | 7 |
 | Selection SD | Kimi K3.1 Pro | **5.6** | 11.6 | 5.6 | 22.4 | 7 |
-| Editorial Score | DeepSeek V4.1 Flash 1017 | **3.66/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
+| Editorial Score | DeepSeek V4.1 Flash | **3.66/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
 | Ed Score SD | Fable 5.1 | **0.1** | 0.3 | 0.1 | 0.5 | 7 |
 | Lowest Cost | GPT-6 Luna | **$0.08** | $2.03 | $0.08 | $10.14 | 7 |
 | Run Time | GPT-6.2 Astra | **2m 52s** | 10m 10s | 2m 52s | 27m 38s | 4 |
 | Token Usage | GPT-6.2 Astra | **778,745** | 5,323,699 | 778,745 | 14,446,641 | 4 |
 | Pulse Words | DeepSeek V4 Pro | **171** | 114 | 67 | 171 | 7 |
-| Pulse SD | DeepSeek V4.1 Flash 1017 | **7.6** | 20.9 | 7.6 | 73.8 | 7 |
+| Pulse SD | DeepSeek V4.1 Flash | **7.6** | 20.9 | 7.6 | 73.8 | 7 |
 | Story Words | Fable 5.1 | **351** | 308 | 254 | 351 | 7 |
 | Story SD | GPT-6.2 Sol | **4.1** | 20.3 | 4.1 | 51.3 | 4 |
 

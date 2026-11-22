@@ -11,7 +11,8 @@ import statistics as st
 START = '<!-- MODEL-LEADERBOARD:START -->'
 END = '<!-- MODEL-LEADERBOARD:END -->'
 NAMES = {
- 'deepseek-v4-1-flash-1017':'DeepSeek V4.1 Flash 1017',
+ # Display-only rule: omit the 1017 build suffix; preserve the source model ID.
+ 'deepseek-v4-1-flash-1017':'DeepSeek V4.1 Flash',
  'deepseek-v4-pro':'DeepSeek V4 Pro', 'sonnet-5-5':'Sonnet 5.5',
  'gpt-6-1-terra':'GPT-6.1 Terra', 'gpt-6-luna':'GPT-6 Luna',
  'qwen-3-8-max-0902':'Qwen 3.8 Max 0902', 'fable-5-1':'Fable 5.1',
