@@ -3,15 +3,12 @@
  "status": "published",
  "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
  "last_daily_verification": {
-  "checked_at": "2026-11-21T08:06:21.351942+00:00",
-  "status": "changed",
-  "changed_models": [
-   "gemini-4-argon"
-  ],
-  "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-18T223149877955Z",
+  "checked_at": "2026-11-22T08:03:13.636664+00:00",
+  "status": "unchanged",
+  "changed_models": [],
+  "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-21T080621351982Z",
   "models_checked": 23,
-  "sources_checked": 15,
-  "published": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-21T080621351982Z"
+  "sources_checked": 15
  },
  "rows": [
   {

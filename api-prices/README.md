@@ -72,10 +72,10 @@ GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 
 
 ## Freshness and provenance
 
-This document reflects the saved pricing JSON. The daily verification for Saturday, November 21, 2026 checked all 23 models across 15 freshly captured official sources and found one applicability-condition change: Gemini 4 Argon's introductory Standard period is now explicitly recorded as ending November 30, 2026, with $4/$20/$0.20 per million tokens (input/output/implicit-cache) starting December 1, 2026, matching the already-recorded Gemini 4 Carbon schedule. All numeric rates for all 23 models were re-verified unchanged; the tables keep the current $2/$10/$0.10 introductory Argon rates. A new bundle was published for the condition change.
+This document reflects the saved pricing JSON. The daily verification for Sunday, November 22, 2026 checked all 23 models across 15 freshly captured official sources and found all numeric rates and applicability conditions unchanged; no new bundle was published, so the rate card remains the November 21 bundle. The tables keep the current $2/$10/$0.10 introductory Argon rates through November 30, 2026.
 
-- **Daily check:** `2026-11-21T08:06:21.351942+00:00`; status: `changed`; 23 models, 15 sources; changed model: `gemini-4-argon` (condition only, no numeric change).
-- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-21T08:02:45.241Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
+- **Daily check:** `2026-11-22T08:03:13.636664+00:00`; status: `unchanged`; 23 models, 15 sources; no numeric or condition changes. Prior check `2026-11-21T08:06:21.351942+00:00` (status: `changed`) recorded the Gemini 4 Argon introductory end date; that condition change remains in effect.
+- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-22T08:01:35.506Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
 - **Snapshot:** `2026-11-21T080621351982Z/api-pricing.json`.
 - **SHA-256:** `7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc`.
 - **Scheduled, not current:** the Google capture lists introductory Standard pricing for Gemini 4 Argon and Gemini 4 Carbon through November 30, 2026, with Standard $4/$20/$0.20 per million tokens starting December 1, 2026. The rate card now records the Argon introductory end date; the tables keep the current introductory rates until an observed change.
