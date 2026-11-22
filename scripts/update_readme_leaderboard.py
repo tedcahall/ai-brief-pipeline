@@ -42,22 +42,22 @@ def render(root):
       ('Ed Selection','consensus_score','avg',True),
       ('Selection SD','consensus_score','sd',False),
       ('Editorial Score','pulse_judge_score','avg',True),
+      ('Ed Score SD','pulse_judge_score','sd',False),
       ('Lowest Cost','api_cost','avg',False),
       ('Run Time','elapsed_seconds','avg',False),
-      ('Ed Consistency','pulse_judge_score','sd',False),
       ('Token Usage','total_tokens','avg',False),
-      ('Pulse Verbosity','pulse_words','avg',True),
-      ('Pulse Verbosity SD','pulse_words','sd',False),
-      ('Story Summary Verbosity','story_words','avg',True),
-      ('Story Summary Verbosity SD','story_words','sd',False),
+      ('Pulse Words','pulse_words','avg',True),
+      ('Pulse SD','pulse_words','sd',False),
+      ('Story Words','story_words','avg',True),
+      ('Story SD','story_words','sd',False),
     ]
     def fmt(metric,stat,value):
-        if stat=='sd':return f'SD {value:.3f}'
-        if metric=='api_cost':return f'${value:.4f}'
+        if stat=='sd':return f'{value:.1f}'
+        if metric=='api_cost':return f'${value:.2f}'
         if metric=='consensus_score':return f'{value:.1f}/100'
         if metric=='pulse_judge_score':return f'{value:.2f}/5'
         if metric=='elapsed_seconds':return f'{round(value)//60}m {round(value)%60:02d}s'
-        return f'{value:,.1f}'
+        return f'{value:,.0f}'
     out=f"# Model Performance Leaders\n\n**Seven-calendar-day statistics | {current['start']} through {current['end']} | Minimum 4 observed days per metric**\n\n"
     if pending:
         out+=f"Judging update pending. Judging rows retain {judging['as_of'] if judging else 'no prior completed snapshot (unavailable)'}. Other rows are current.\n\n"
@@ -79,7 +79,7 @@ def render(root):
             f=lambda v:fmt(metric,stat,v)
             out+=f'| {label} | {names} | **{f(extreme)}** | {f(sum(vals)/len(vals))} | {f(min(vals))} | {f(max(vals))} | {runs} |\n'
         out+='\n'
-    out+='Mv Avg is the window mean for ordinary rows and sample SD for SD rows. All columns use only eligible models. Verbosity ranks length, not quality.\n'
+    out+='Mv Avg is the window mean for ordinary rows and sample SD for SD rows. All columns use only eligible models. Word counts rank length, not quality.\n'
     return out
 
 def update(readme, sample):

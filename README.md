@@ -18,34 +18,34 @@ Judging as of 2026-11-21; status: complete. Historical unavailable panels are no
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
 | Ed Selection | Gemini 4 Argon | **82.7/100** | 68.2/100 | 43.6/100 | 82.7/100 | 7 |
-| Selection SD | Kimi K3.1 Pro | **SD 5.640** | SD 11.575 | SD 5.640 | SD 22.435 | 7 |
+| Selection SD | Kimi K3.1 Pro | **5.6** | 11.6 | 5.6 | 22.4 | 7 |
 | Editorial Score | DeepSeek V4.1 Flash 1017 | **3.66/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
-| Lowest Cost | GPT-6 Luna | **$0.0825** | $2.0326 | $0.0825 | $10.1400 | 7 |
+| Ed Score SD | Fable 5.1 | **0.1** | 0.3 | 0.1 | 0.5 | 7 |
+| Lowest Cost | GPT-6 Luna | **$0.08** | $2.03 | $0.08 | $10.14 | 7 |
 | Run Time | GPT-6.2 Astra | **2m 52s** | 10m 10s | 2m 52s | 27m 38s | 4 |
-| Ed Consistency | Fable 5.1 | **SD 0.141** | SD 0.302 | SD 0.141 | SD 0.480 | 7 |
-| Token Usage | GPT-6.2 Astra | **778,745.0** | 5,323,699.1 | 778,745.0 | 14,446,641.0 | 4 |
-| Pulse Verbosity | DeepSeek V4 Pro | **171.1** | 114.4 | 67.0 | 171.1 | 7 |
-| Pulse Verbosity SD | DeepSeek V4.1 Flash 1017 | **SD 7.625** | SD 20.873 | SD 7.625 | SD 73.791 | 7 |
-| Story Summary Verbosity | Fable 5.1 | **350.7** | 308.1 | 253.5 | 350.7 | 7 |
-| Story Summary Verbosity SD | GPT-6.2 Sol | **SD 4.082** | SD 20.285 | SD 4.082 | SD 51.275 | 4 |
+| Token Usage | GPT-6.2 Astra | **778,745** | 5,323,699 | 778,745 | 14,446,641 | 4 |
+| Pulse Words | DeepSeek V4 Pro | **171** | 114 | 67 | 171 | 7 |
+| Pulse SD | DeepSeek V4.1 Flash 1017 | **7.6** | 20.9 | 7.6 | 73.8 | 7 |
+| Story Words | Fable 5.1 | **351** | 308 | 254 | 351 | 7 |
+| Story SD | GPT-6.2 Sol | **4.1** | 20.3 | 4.1 | 51.3 | 4 |
 
 ### ⚠️ Laggards
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
 | Ed Selection | GPT-6 Luna | **43.6/100** | 68.2/100 | 43.6/100 | 82.7/100 | 7 |
-| Selection SD | GPT-6.2 Astra | **SD 22.435** | SD 11.575 | SD 5.640 | SD 22.435 | 4 |
+| Selection SD | GPT-6.2 Astra | **22.4** | 11.6 | 5.6 | 22.4 | 4 |
 | Editorial Score | GPT-6.1 Terra | **2.39/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
-| Highest Cost | Fable 5.1 | **$10.1400** | $2.0326 | $0.0825 | $10.1400 | 7 |
+| Ed Score SD | DeepSeek V4 Pro | **0.5** | 0.3 | 0.1 | 0.5 | 7 |
+| Highest Cost | Fable 5.1 | **$10.14** | $2.03 | $0.08 | $10.14 | 7 |
 | Run Time | Qwen4 Max | **27m 38s** | 10m 10s | 2m 52s | 27m 38s | 6 |
-| Ed Consistency | DeepSeek V4 Pro | **SD 0.480** | SD 0.302 | SD 0.141 | SD 0.480 | 7 |
-| Token Usage | Qwen4 Max | **14,446,641.0** | 5,323,699.1 | 778,745.0 | 14,446,641.0 | 6 |
-| Pulse Verbosity | GPT-6.1 Terra | **67.0** | 114.4 | 67.0 | 171.1 | 7 |
-| Pulse Verbosity SD | DeepSeek V4 Pro | **SD 73.791** | SD 20.873 | SD 7.625 | SD 73.791 | 7 |
-| Story Summary Verbosity | GPT-6.2 Astra | **253.5** | 308.1 | 253.5 | 350.7 | 4 |
-| Story Summary Verbosity SD | DeepSeek V4 Pro | **SD 51.275** | SD 20.285 | SD 4.082 | SD 51.275 | 7 |
+| Token Usage | Qwen4 Max | **14,446,641** | 5,323,699 | 778,745 | 14,446,641 | 6 |
+| Pulse Words | GPT-6.1 Terra | **67** | 114 | 67 | 171 | 7 |
+| Pulse SD | DeepSeek V4 Pro | **73.8** | 20.9 | 7.6 | 73.8 | 7 |
+| Story Words | GPT-6.2 Astra | **254** | 308 | 254 | 351 | 4 |
+| Story SD | DeepSeek V4 Pro | **51.3** | 20.3 | 4.1 | 51.3 | 7 |
 
-Mv Avg is the window mean for ordinary rows and sample SD for SD rows. All columns use only eligible models. Verbosity ranks length, not quality.
+Mv Avg is the window mean for ordinary rows and sample SD for SD rows. All columns use only eligible models. Word counts rank length, not quality.
 <!-- MODEL-LEADERBOARD:END -->
 
 ## Explore the results

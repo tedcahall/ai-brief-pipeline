@@ -15,7 +15,7 @@ class ReadmeTests(unittest.TestCase):
                 atomic_write(root/f'summary/daily/json/Model-Data-{day}.json',dumps(obj))
             generate(root,['2026-11-21']);text=render(root)
             self.assertIn('| Ed Selection | a | **80.0/100**',text)
-            self.assertIn('| Pulse Verbosity | unavailable |',text)
+            self.assertIn('| Pulse Words | unavailable |',text)
             self.assertIn('Judging update pending',text)
     def test_exact_ties_and_markers(self):
         with tempfile.TemporaryDirectory() as tmp:
