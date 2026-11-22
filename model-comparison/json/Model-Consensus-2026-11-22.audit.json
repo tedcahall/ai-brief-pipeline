@@ -1,0 +1,1291 @@
+{
+  "date": "2026-11-22",
+  "models": [
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "complete_local",
+      "score": 44,
+      "rank": 18,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "telekom_mistral",
+        "genie4_api",
+        "house_china_report",
+        "signal_screenshots"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124006824525299715",
+        "2124246742644461569",
+        "2124142247285235990",
+        "2124118443368575026",
+        "2124206766883831923",
+        "2124289221808808335",
+        "2124191294360588725",
+        "2124217876777464269",
+        "2124010579836768572"
+      ],
+      "elapsed_seconds": 635,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.b4c49b98-7a06-49a4-b1a8-797025ad099a",
+      "session": "a00bc860-28b0-45c6-bbaa-03be670650ff"
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 29,
+      "rank": 22,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "gemini_neon_release",
+        "gpt62_release",
+        "inkling_2_mini",
+        "chip_export_controls"
+      ],
+      "tweet_ids": [
+        "2124246742644461569",
+        "2124142247285235990",
+        "2124181216719151585",
+        "2124271725927903388",
+        "2124010579836768572",
+        "2124289221808808335",
+        "2124006824525299715",
+        "2124180033845522888",
+        "2124118443368575026",
+        "2123953589882413337"
+      ],
+      "elapsed_seconds": 747,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.0999a9c7-efd2-4d07-935b-a68ada60334e",
+      "session": "25477db0-25e7-4e27-b79c-e73ade793d7e"
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 67,
+      "rank": 9,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "metr_capability",
+        "ai_supply_chain_leak",
+        "us_chips_chinese_models",
+        "ai_selloff"
+      ],
+      "tweet_ids": [
+        "2123899406550528422",
+        "2124174335212753208",
+        "2124191294360588725",
+        "2124289221808808335",
+        "2124006824525299715",
+        "2123930521931817210",
+        "2123918068393144639",
+        "2124246742644461569",
+        "2124271725927903388",
+        "2124217876777464269"
+      ],
+      "elapsed_seconds": 804,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.817a58a1-5565-4f1e-8614-bf40e035d309",
+      "session": "a636f3a6-828b-4bce-8229-7e607e4c8202"
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 53,
+      "rank": 13,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "metr_capability",
+        "ai_supply_chain_leak",
+        "cursor_chinese_models",
+        "trump_datacenter_tax"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124289221808808335",
+        "2123899406550528422",
+        "2124191294360588725",
+        "2124246742644461569",
+        "2124271725927903388",
+        "2124147427313861009",
+        "2124006824525299715",
+        "2124246507125903841",
+        "2124217876777464269"
+      ],
+      "elapsed_seconds": 305,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.f1f2fddc-b450-4d7b-9c9a-9c5f51948300",
+      "session": "9e50e309-7b79-46bc-9d23-1df969dc90d0"
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "complete_local",
+      "score": 77,
+      "rank": 4,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "gemma_drafters",
+        "alphaproof_nexus",
+        "pro2_agent",
+        "us_chips_chinese_models"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124246507125903841",
+        "2124187341141283117",
+        "2124191294360588725",
+        "2123899406550528422",
+        "2124289221808808335",
+        "2123930521931817210",
+        "2124246742644461569",
+        "2124152733145923892",
+        "2124142247285235990"
+      ],
+      "elapsed_seconds": 666,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.75dcb0a8-099d-4d3a-9fb4-60547053f4d7",
+      "session": "7b79b0fc-f5d3-4d15-81a0-ef901a3d5c8e"
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "review_required",
+      "score": 72,
+      "rank": 6,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "baseten_bison_groundhog",
+        "alphaproof_nexus",
+        "ubs_ai_spending",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124191294360588725",
+        "2124246507125903841",
+        "2123899406550528422",
+        "2124289221808808335",
+        "2124271725927903388",
+        "2124246742644461569",
+        "2123930521931817210",
+        "2124152733145923892",
+        "2124217876777464269"
+      ],
+      "elapsed_seconds": 1076,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.c4c675b7-c028-4fa8-8061-7bf86f37cc41",
+      "session": "44f67261-2d2e-4956-a627-533215bfe0f2"
+    },
+    {
+      "name": "gemini-4-hydrogen",
+      "slug": "gemini-4-hydrogen",
+      "status": "review_required",
+      "score": 77,
+      "rank": 4,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "us_chips_chinese_models",
+        "musk_cash_shortage",
+        "chip_rules_push",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124271725927903388",
+        "2124246742644461569",
+        "2124174335212753208",
+        "2124191294360588725",
+        "2124217876777464269",
+        "2124289221808808335",
+        "2124142247285235990",
+        "2124152733145923892",
+        "2123930521931817210",
+        "2123899406550528422"
+      ],
+      "elapsed_seconds": 285,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.bcdb937d-7057-4402-bea2-fcc5959696d6",
+      "session": "75807293-17af-4c1e-aef8-adf7da8cbecf"
+    },
+    {
+      "name": "gemini-4-neon",
+      "slug": "gemini-4-neon",
+      "status": "review_required",
+      "score": 86,
+      "rank": 1,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "alphaproof_nexus",
+        "us_chips_chinese_models",
+        "ubs_ai_spending",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124271725927903388",
+        "2124289221808808335",
+        "2124246742644461569",
+        "2123899406550528422",
+        "2124187341141283117",
+        "2124142247285235990",
+        "2124191294360588725",
+        "2124152733145923892",
+        "2123930521931817210"
+      ],
+      "elapsed_seconds": 354,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.b04c85fb-6452-4682-9468-395095661d47",
+      "session": "4da9fcfd-8add-4009-a5e9-fee16f447f05"
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "review_required",
+      "score": 29,
+      "rank": 22,
+      "headline_event": "musk_cash_shortage",
+      "story_events": [
+        "musk_cash_shortage",
+        "us_chips_chinese_models",
+        "gpt_rosalind",
+        "sensenova_loop9b",
+        "nyt_tech_outages"
+      ],
+      "tweet_ids": [
+        "2124271725927903388",
+        "2124246742644461569",
+        "2124006824525299715",
+        "2124122010972475903",
+        "2124348445649768955",
+        "2124270426402836626",
+        "2124289221808808335",
+        "2124142247285235990",
+        "2123953589882413337",
+        "2124187341141283117"
+      ],
+      "elapsed_seconds": 313,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.9b54dc6b-a6f5-46f8-a85e-7bf141ec9fea",
+      "session": "32ad555e-72c2-4c08-9e82-d4d1b017a81a"
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 52,
+      "rank": 16,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "gemma_drafters",
+        "alphaproof_nexus",
+        "pro2_agent",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124246507125903841",
+        "2124187341141283117",
+        "2123918068393144639",
+        "2124191294360588725",
+        "2123937391421665610",
+        "2123902251983110204",
+        "2124289221808808335",
+        "2124217876777464269",
+        "2124197819414462913",
+        "2124212823563845839"
+      ],
+      "elapsed_seconds": 346,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.64d2120e-68bf-4013-9c36-8cbe3a420d62",
+      "session": "cb81c12f-dbf1-4d99-80b9-7e146c9e9994"
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 57,
+      "rank": 12,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "alphaproof_nexus",
+        "pro2_agent",
+        "gao_mental_health",
+        "chip_rules_push"
+      ],
+      "tweet_ids": [
+        "2124191294360588725",
+        "2124187341141283117",
+        "2123918068393144639",
+        "2124246507125903841",
+        "2124217876777464269",
+        "2124152733145923892",
+        "2124212823563845839",
+        "2124142247285235990",
+        "2123902251983110204",
+        "2124010579836768572"
+      ],
+      "elapsed_seconds": 289,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.aa861ca8-ec87-41b1-aba6-089edf920cd9",
+      "session": "00c93a45-3d4f-47a1-a755-5e6a43c230c8"
+    },
+    {
+      "name": "gpt-6-2-astra",
+      "slug": "gpt-6-2-astra",
+      "status": "complete_local",
+      "score": 38,
+      "rank": 20,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "alphaproof_nexus",
+        "arena_astra",
+        "ndif_inkling",
+        "gemini_drawing_cost"
+      ],
+      "tweet_ids": [
+        "2124191294360588725",
+        "2124187341141283117",
+        "2123931570436518245",
+        "2124217876777464269",
+        "2124246507125903841",
+        "2123937391421665610",
+        "2123902251983110204",
+        "2124195703962681788",
+        "2124172376078238060",
+        "2124181216719151585"
+      ],
+      "elapsed_seconds": 149,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.31687b1c-a810-42be-8cc0-fde302bd0bd8",
+      "session": "60f07ec1-87f8-4a4b-ab60-67bf6978df88"
+    },
+    {
+      "name": "gpt-6-2-sol",
+      "slug": "gpt-6-2-sol",
+      "status": "complete_local",
+      "score": 85,
+      "rank": 2,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "alphaproof_nexus",
+        "metr_capability",
+        "us_chips_chinese_models",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124191294360588725",
+        "2124289221808808335",
+        "2123930521931817210",
+        "2123918068393144639",
+        "2124181216719151585",
+        "2124217876777464269",
+        "2124152733145923892",
+        "2124142247285235990",
+        "2124431846859813234"
+      ],
+      "elapsed_seconds": 455,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.6217b9e1-1dae-4442-98ee-41fb3282fbb3",
+      "session": "488ba773-c1df-4c50-b280-51d975d6c501"
+    },
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 38,
+      "rank": 20,
+      "headline_event": "stepfun_step5",
+      "story_events": [
+        "stepfun_step5",
+        "alphaproof_nexus",
+        "gemma_drafters",
+        "arena_astra",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2123902251983110204",
+        "2124191294360588725",
+        "2124187341141283117",
+        "2124246507125903841",
+        "2123937391421665610",
+        "2124152733145923892",
+        "2124217876777464269",
+        "2124195703962681788",
+        "2124431846859813234",
+        "2124212823563845839"
+      ],
+      "elapsed_seconds": 253,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.43a04c62-4da9-4380-b12d-3ca6bc9f9924",
+      "session": "d152c7c9-3348-4d8a-933a-cd13a863d297"
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "review_required",
+      "score": 53,
+      "rank": 13,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "pro2_agent",
+        "ai_supply_chain_leak",
+        "ai_selloff",
+        "us_chips_chinese_models"
+      ],
+      "tweet_ids": [
+        "2124180033845522888",
+        "2124187341141283117",
+        "2123918068393144639",
+        "2124246507125903841",
+        "2124217876777464269",
+        "2124289221808808335",
+        "2124283509418422305",
+        "2123899406550528422",
+        "2124191294360588725",
+        "2123930521931817210"
+      ],
+      "elapsed_seconds": 983,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.6e926485-52e1-4b95-a6c6-f6728f68bee6",
+      "session": "c4948ff1-1673-4ee3-b5ef-e99fcdb1a545"
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 58,
+      "rank": 11,
+      "headline_event": "metr_capability",
+      "story_events": [
+        "metr_capability",
+        "house_china_report",
+        "alphaproof_nexus",
+        "gemma_drafters",
+        "tesla_ai4_video"
+      ],
+      "tweet_ids": [
+        "2124289221808808335",
+        "2124191294360588725",
+        "2124187341141283117",
+        "2124246507125903841",
+        "2124246742644461569",
+        "2124152733145923892",
+        "2124142247285235990",
+        "2124217876777464269",
+        "2123930521931817210",
+        "2123972584400204199"
+      ],
+      "elapsed_seconds": 923,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.49485d3a-4602-47bf-bfb0-fb5e3e560bc8",
+      "session": "f7b3634a-e243-40f7-a4a8-eb43ee8ad7f5"
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 44,
+      "rank": 18,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "pro2_agent",
+        "uk_aisi_jailbreak",
+        "cognition_75b",
+        "pragmatik_5b"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124348445649768955",
+        "2123918068393144639",
+        "2123899406550528422",
+        "2123953589882413337",
+        "2124191294360588725",
+        "2124142247285235990",
+        "2124289221808808335",
+        "2124181216719151585",
+        "2123930521931817210"
+      ],
+      "elapsed_seconds": 391,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.d3620a7a-db54-4603-904c-e735fab84d01",
+      "session": "3ef030cb-6a82-468c-aef4-48a8d2fe69a4"
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 53,
+      "rank": 13,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "gemma_drafters",
+        "pro2_agent",
+        "arena_astra",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124187341141283117",
+        "2124246507125903841",
+        "2123918068393144639",
+        "2124191294360588725",
+        "2123972584400204199",
+        "2124152733145923892",
+        "2124142247285235990",
+        "2124289221808808335",
+        "2124271725927903388"
+      ],
+      "elapsed_seconds": 205,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.caf0d3e5-7581-45ff-886a-864c59f40fe2",
+      "session": "b74dde0e-ba44-49d1-a7da-61860d98c5ee"
+    },
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "review_required",
+      "score": 81,
+      "rank": 3,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "us_chips_chinese_models",
+        "alphaproof_nexus",
+        "arena_astra",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124187341141283117",
+        "2124191294360588725",
+        "2124006828610666889",
+        "2124246742644461569",
+        "2124217876777464269",
+        "2124152733145923892",
+        "2124181216719151585",
+        "2123899406550528422",
+        "2124289221808808335"
+      ],
+      "elapsed_seconds": 326,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.72f52b7d-2dbd-40da-b0c9-5c46cf407f0a",
+      "session": "d5c87562-4318-4e69-ab1d-a26406bcc66c"
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 72,
+      "rank": 6,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "ai_supply_chain_leak",
+        "metr_capability",
+        "alphaproof_nexus",
+        "musk_cash_shortage"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124289221808808335",
+        "2124006824525299715",
+        "2124191294360588725",
+        "2124187341141283117",
+        "2124246742644461569",
+        "2123918068393144639",
+        "2124217876777464269",
+        "2123899406550528422",
+        "2124142247285235990"
+      ],
+      "elapsed_seconds": 501,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.6ed9b8e2-b9f4-47b0-b5a0-dffcb3e4044a",
+      "session": "6a5acbc4-ad3b-44fd-86bb-5c0b47f793e7"
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "complete_local",
+      "score": 48,
+      "rank": 17,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "tesla_fsd_v15",
+        "chatgpt_desktop_merge",
+        "ai_supply_chain_leak",
+        "metr_capability"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124271725927903388",
+        "2124246742644461569",
+        "2124289221808808335",
+        "2124348445649768955",
+        "2124142247285235990",
+        "2124181216719151585",
+        "2124152733145923892",
+        "2124223349769609407",
+        "2124431846859813234"
+      ],
+      "elapsed_seconds": 1988,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.a7cd5a7a-a5b7-438c-af6d-24662341c8de",
+      "session": "84e62918-3afd-4520-be3f-58628bf3bad5"
+    },
+    {
+      "name": "qwen-4-max",
+      "slug": "qwen-4-max",
+      "status": "complete_local",
+      "score": 67,
+      "rank": 9,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "ai_supply_chain_leak",
+        "metr_capability",
+        "orca_so101_robotics",
+        "gao_mental_health"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124147427313861009",
+        "2124289221808808335",
+        "2123953589882413337",
+        "2124271725927903388",
+        "2124191294360588725",
+        "2124152733145923892",
+        "2124217876777464269",
+        "2123930521931817210",
+        "2124187341141283117"
+      ],
+      "elapsed_seconds": 1478,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.302d116f-e6e2-44a6-9e6d-d6b67b363b47",
+      "session": "e2a05908-6448-494e-a2ef-689f97fb799b"
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 72,
+      "rank": 6,
+      "headline_event": "riemann_certified",
+      "story_events": [
+        "riemann_certified",
+        "metr_capability",
+        "tesla_fsd_v15",
+        "us_chips_chinese_models",
+        "musk_cash_shortage"
+      ],
+      "tweet_ids": [
+        "2124174335212753208",
+        "2124191294360588725",
+        "2124187341141283117",
+        "2124289221808808335",
+        "2124246742644461569",
+        "2124142247285235990",
+        "2123930521931817210",
+        "2123899406550528422",
+        "2124173181065806006",
+        "2124181216719151585"
+      ],
+      "elapsed_seconds": 246,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured-timestamp, timing or free-text elapsed field).",
+      "run_id": "cron-request.024d34f3-d110-4bfc-8159-fa6a0cf5862f",
+      "session": "74d1a3c4-847b-4c73-a413-48067337c599"
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "riemann_certified": "Lean and Mathlib communities certify Alpoge's Claude-assisted Riemann hypothesis proof",
+    "metr_capability": "METR Q4 2026 capability update: AI time horizons doubling roughly every 3.6 months",
+    "gao_mental_health": "GAO warns no AI mental-health chatbot has FDA authorization",
+    "alphaproof_nexus": "AlphaProof Nexus settles a quantum-optics no-go theorem in Lean",
+    "pro2_agent": "Google's Pro2 agent reaches 76% medal rate on complete MLE-Bench",
+    "gemma_drafters": "Multi-token-prediction speculative decoding drafters speed up Gemma 4 inference (arXiv)",
+    "us_chips_chinese_models": "Fortune: US-chip data centers are serving Chinese open-weight AI models",
+    "ai_supply_chain_leak": "Dragos canary tokens expose prompt leaks across the AI inference supply chain",
+    "musk_cash_shortage": "Elon Musk warns of a 'nuts' AI cash shortage next year",
+    "arena_astra": "GPT-6.2 Astra gains coding places but slips in chat on the Agent Arena index",
+    "tesla_fsd_v15": "Tesla begins rolling out FSD v15 with Reality View",
+    "telekom_mistral": "Deutsche Telekom invests EUR 100 million in Mistral AI Series D",
+    "genie4_api": "Google opens Genie 4 world generation to Gemini API developers",
+    "gemini_neon_release": "Google releases Gemini 4 Neon",
+    "gpt62_release": "OpenAI rolls out GPT-6.2 Astra and GPT-6.2 Sol",
+    "inkling_2_mini": "Thinking Machines releases the open-weights Inkling 2 Mini",
+    "signal_screenshots": "Signal blocks screenshots on Android and iOS to keep AI agents out of chats",
+    "house_china_report": "House committees' joint report says China is trying to get US companies addicted to Chinese AI models",
+    "chip_rules_push": "US lawmakers push for tougher AI chip export rules after the Commerce loophole crackdown",
+    "chip_export_controls": "US tightens AI chip export controls to deter Chinese remote compute access",
+    "stepfun_step5": "StepFun introduces Step 5 preview at its agent event",
+    "sensenova_loop9b": "SenseTime ships open-weights SenseNova Loop-9B",
+    "nyt_tech_outages": "NYT: AI will bring more tech disruptions beyond current outages",
+    "gpt_rosalind": "OpenAI pushes GPT-Rosalind agents for neurodegenerative disease research",
+    "tesla_ai4_video": "Musk says Tesla AI4 generates real-time video on half an accelerator",
+    "baseten_bison_groundhog": "Baseten releases open-weights Bison-1 and Groundhog-1 decision models on Gemma 4",
+    "cursor_chinese_models": "Cursor may phase out Chinese open-weight models after the House report",
+    "trump_datacenter_tax": "Trump threatens a tax on US companies building data centers abroad",
+    "uk_aisi_jailbreak": "UK AISI found pre-release GPT-6.2 Astra easier to jailbreak than its predecessor",
+    "cognition_75b": "Cognition AI reportedly in talks at a $75 billion valuation",
+    "pragmatik_5b": "Ex-Alibaba AI chief's Pragmatik Labs reaches a $5 billion valuation",
+    "ai_selloff": "AI stock selloff: Anthropic shares fall on debut and Nasdaq posts its worst week since 2020",
+    "chatgpt_desktop_merge": "OpenAI merges the Codex desktop app into a unified ChatGPT app",
+    "orca_so101_robotics": "GPT-6.2 Astra takes the top spot on RoboColosseum's SO-101 robot board",
+    "gemini_drawing_cost": "One Gemini drawing costs six times more at its highest effort",
+    "ndif_inkling": "NDIF opens Inkling's repeated computation to inspection",
+    "ubs_ai_spending": "UBS projects global AI investment will reach $1.4 trillion in 2027"
+  },
+  "headline_votes": {
+    "riemann_certified": 20,
+    "musk_cash_shortage": 1,
+    "stepfun_step5": 1,
+    "metr_capability": 1
+  },
+  "story_votes": {
+    "riemann_certified": 20,
+    "telekom_mistral": 1,
+    "genie4_api": 1,
+    "house_china_report": 2,
+    "signal_screenshots": 1,
+    "gemini_neon_release": 1,
+    "gpt62_release": 1,
+    "inkling_2_mini": 1,
+    "chip_export_controls": 1,
+    "metr_capability": 8,
+    "ai_supply_chain_leak": 6,
+    "us_chips_chinese_models": 9,
+    "ai_selloff": 2,
+    "cursor_chinese_models": 1,
+    "trump_datacenter_tax": 1,
+    "gemma_drafters": 5,
+    "alphaproof_nexus": 11,
+    "pro2_agent": 6,
+    "baseten_bison_groundhog": 1,
+    "ubs_ai_spending": 2,
+    "gao_mental_health": 10,
+    "musk_cash_shortage": 4,
+    "chip_rules_push": 2,
+    "gpt_rosalind": 1,
+    "sensenova_loop9b": 1,
+    "nyt_tech_outages": 1,
+    "arena_astra": 4,
+    "ndif_inkling": 1,
+    "gemini_drawing_cost": 1,
+    "stepfun_step5": 1,
+    "tesla_ai4_video": 1,
+    "uk_aisi_jailbreak": 1,
+    "cognition_75b": 1,
+    "pragmatik_5b": 1,
+    "tesla_fsd_v15": 2,
+    "chatgpt_desktop_merge": 1,
+    "orca_so101_robotics": 1
+  },
+  "tweet_votes": {
+    "2124174335212753208": 15,
+    "2124006824525299715": 6,
+    "2124246742644461569": 14,
+    "2124142247285235990": 14,
+    "2124118443368575026": 2,
+    "2124206766883831923": 1,
+    "2124289221808808335": 20,
+    "2124191294360588725": 20,
+    "2124217876777464269": 15,
+    "2124010579836768572": 3,
+    "2124181216719151585": 7,
+    "2124271725927903388": 10,
+    "2124180033845522888": 2,
+    "2123953589882413337": 4,
+    "2123899406550528422": 11,
+    "2123930521931817210": 11,
+    "2123918068393144639": 8,
+    "2124147427313861009": 2,
+    "2124246507125903841": 10,
+    "2124187341141283117": 14,
+    "2124152733145923892": 12,
+    "2124122010972475903": 1,
+    "2124348445649768955": 3,
+    "2124270426402836626": 1,
+    "2123937391421665610": 3,
+    "2123902251983110204": 4,
+    "2124197819414462913": 1,
+    "2124212823563845839": 3,
+    "2123931570436518245": 1,
+    "2124195703962681788": 2,
+    "2124172376078238060": 1,
+    "2124431846859813234": 3,
+    "2124283509418422305": 1,
+    "2123972584400204199": 2,
+    "2124006828610666889": 1,
+    "2124223349769609407": 1,
+    "2124173181065806006": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 8,
+    "tweet_cut_votes": 11,
+    "eligible_stories": [
+      "alphaproof_nexus",
+      "gao_mental_health",
+      "metr_capability",
+      "riemann_certified",
+      "us_chips_chinese_models"
+    ],
+    "eligible_tweets": [
+      "2123899406550528422",
+      "2123930521931817210",
+      "2124142247285235990",
+      "2124152733145923892",
+      "2124174335212753208",
+      "2124187341141283117",
+      "2124191294360588725",
+      "2124217876777464269",
+      "2124246742644461569",
+      "2124289221808808335"
+    ]
+  },
+  "eligible_denominator": 23,
+  "source_hashes": {
+    "2026-11-22/deepseek-v4-1-flash-1017/2026-11-22.edition.md": "b03ee48ec4ca6315f51efcc96f8dc86e48962c8b0e30a34a91580ba286cfad73",
+    "2026-11-22/deepseek-v4-1-flash-1017/2026-11-22.html": "5ffccd81fad73d12bf2cfb8eea51c0923bc2ecc128c25db285282a534a70f3da",
+    "2026-11-22/deepseek-v4-1-flash-1017/run.json": "0e56e2fc9526cc1ad9ab0611f26e68d173176217df302b521f4b76f980747486",
+    "2026-11-22/deepseek-v4-1-flash-1017/headline.json": "dffe765f52d797ab866ff86fc588bf5fc0902bfd751a2ac260a85468406a61dc",
+    "2026-11-22/deepseek-v4-1-flash-1017/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/deepseek-v4-1-flash-1017/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/deepseek-v4-pro/2026-11-22.edition.md": "abb634e78a516910a26eb227e1865e80082056bf3ab93cdec5daef2d682e2386",
+    "2026-11-22/deepseek-v4-pro/2026-11-22.html": "749463c3f0bdfbe538f20e29c14f4d2b93e0f68f1675cebb7609d816cff16bc5",
+    "2026-11-22/deepseek-v4-pro/run.json": "ab3ff94529bad13482b2d52117edf685af6dfbecbf423f02c339da3d13418021",
+    "2026-11-22/deepseek-v4-pro/headline.json": "f919bac66d9d554f40db1fa9d568a8e2f5ad76707e6f75ee0c7235df3db55d51",
+    "2026-11-22/deepseek-v4-pro/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/deepseek-v4-pro/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/fable-5-1/2026-11-22.edition.md": "fce14b56cc0498f64a53231ec3a7207978b720e87a7232ab82867b792d7793d9",
+    "2026-11-22/fable-5-1/2026-11-22.html": "9f91cf3f45096e7957299a89958bb9f7b512741ffec35884e0daecb3a6fcd997",
+    "2026-11-22/fable-5-1/run.json": "a0b02ddecd0eb04d6354d0a9c2693a5a231fd2563808a56642a0eee908a58289",
+    "2026-11-22/fable-5-1/headline.json": "8cfe95ce940f66e6e82d84af384c4d33f4c30782a4558505de18dd0ff9f731a6",
+    "2026-11-22/fable-5-1/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/fable-5-1/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/fable-5-2/2026-11-22.edition.md": "fd6a319e395dbe8cd90aa28d4fa3a00c35b48987776930a3edc57a0af11aacc4",
+    "2026-11-22/fable-5-2/2026-11-22.html": "5faf747ac29892037f4a405ade99cc8f98204bdb24861994cd38d61dc9d227dd",
+    "2026-11-22/fable-5-2/run.json": "c995784c65841c5ccd20914439ce18d7accbb9cf978114a0e250bf6bea76ed43",
+    "2026-11-22/fable-5-2/headline.json": "626dfefd2e96aef673a85f992426379432eb7f174acb899189907bdf9f41dcc8",
+    "2026-11-22/fable-5-2/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/fable-5-2/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gemini-4-argon/2026-11-22.edition.md": "f52b5b48a3666324827e945c233924391fe1901aeb9fa273f092e9bab3d6c35d",
+    "2026-11-22/gemini-4-argon/2026-11-22.html": "4e8fa35e980a7cb2a5b5b86be3d99c64559aa00a420e1dff334fd6d8be8bc980",
+    "2026-11-22/gemini-4-argon/run.json": "7f6d8ea39e0ba30b150bee3297370a6cbda5c35547f426645d007b29c59ff58d",
+    "2026-11-22/gemini-4-argon/headline.json": "91ef08339ce0cf9ec159794550eb745f3fcb43e5d43a460086919c3fd185d9f1",
+    "2026-11-22/gemini-4-argon/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gemini-4-argon/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gemini-4-carbon/2026-11-22.edition.md": "7f20ddac8ab8000f4f990aa998aa51b7d4f141e1eb8c5e622b08e7ddac21170e",
+    "2026-11-22/gemini-4-carbon/2026-11-22.html": "ed6772f58d988df74ab9bda9393c2945ab6539c1fa945282df638ff47dc69789",
+    "2026-11-22/gemini-4-carbon/run.json": "41f0018e71925e60bd629fdfb293c70c7267da96fa1aa201eb5db0242369616f",
+    "2026-11-22/gemini-4-carbon/headline.json": "a0f64b33654b7ec8ac19be1d8deff0e15d6b31015a8bf4733182fad540e97191",
+    "2026-11-22/gemini-4-carbon/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gemini-4-carbon/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gemini-4-hydrogen/2026-11-22.edition.md": "59e60549c742476b794680cd77c8836a06f39e8af97c1b7714c86df428e3be52",
+    "2026-11-22/gemini-4-hydrogen/2026-11-22.html": "ba1c2daef93532588d978c37988b12027d0b56f15fdc9e5d18071af6e3679026",
+    "2026-11-22/gemini-4-hydrogen/run.json": "a51764a3c6dabb076cbb61d3aaa3fd8ec93c79544e232d57b3818fb5e197cf6a",
+    "2026-11-22/gemini-4-hydrogen/headline.json": "78fc731904517b9b248c837e22c7398452e4cd0c2d934a8258c9e1c0631e911e",
+    "2026-11-22/gemini-4-hydrogen/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gemini-4-hydrogen/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gemini-4-neon/2026-11-22.edition.md": "3482f49010687563a9bf81752fbc3bc2cf115ab3e04e82e399d91d261b698b59",
+    "2026-11-22/gemini-4-neon/2026-11-22.html": "9c4f7acb8b25f35c204634252bc70e279337fe70412245e9df8b990fd827ba0e",
+    "2026-11-22/gemini-4-neon/run.json": "f13b753a506ced948afde0bdaf7de1ec611cb4737e702e7336c537b5e51d34b6",
+    "2026-11-22/gemini-4-neon/headline.json": "62083d251fca06a809c77e0ffca98d6b96ce1a259cd1a40a5fe916cb48e5073e",
+    "2026-11-22/gemini-4-neon/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gemini-4-neon/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/glm-5-3/2026-11-22.edition.md": "b606d3813b90cdcbf987d2c3e34bf524a278db502a0eb24bf17c3592ea4c8cbe",
+    "2026-11-22/glm-5-3/2026-11-22.html": "83883917c7f341a5c2fa61deba029f5874530b344497f2c2c28c863198701db2",
+    "2026-11-22/glm-5-3/run.json": "ad979dcfcfa48bf6cf300d39fbbb1a3bbad11e9554cca3d070ce21d13751be6c",
+    "2026-11-22/glm-5-3/headline.json": "daaf23e00d8f40ac1e7827f1909b9852a85173de93f11e6632a73797187726fa",
+    "2026-11-22/glm-5-3/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/glm-5-3/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gpt-6-1-sol/2026-11-22.edition.md": "5ac06fb32aa3cbf88c4d8a9e620d8e8b891fcf592b0b12895e4a39bf6706f2f7",
+    "2026-11-22/gpt-6-1-sol/2026-11-22.html": "3f5e8f8af413f339911c275f41f03d938585d2929689136600a15aafa93556b1",
+    "2026-11-22/gpt-6-1-sol/run.json": "dd3d8af8b91603f773c2f3fdbb4d27d8413473aafa15b0d77afa9bd474d26a04",
+    "2026-11-22/gpt-6-1-sol/headline.json": "6ecdbcba6c5aada743b9b93ad7d6d7b8871c4da831c3a1f253b6d1c913430caf",
+    "2026-11-22/gpt-6-1-sol/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gpt-6-1-sol/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gpt-6-1-terra/2026-11-22.edition.md": "0c823682d1dd378ec1e4bbaf0c0c86f42f912b3f304c50611cfa4f110ace40b4",
+    "2026-11-22/gpt-6-1-terra/2026-11-22.html": "aa4ca7cd17e56fe9c32b9d8f825966060a5ab6e1d5ef6012b29b1d4e48081634",
+    "2026-11-22/gpt-6-1-terra/run.json": "0f5ddacb9defcc2339b978da6faf121dbe93b759f2f36a140ff86b4867ebb9ab",
+    "2026-11-22/gpt-6-1-terra/headline.json": "9258b8d08539b7b2432f2b10f892dc25bb7b9758ff65c6a5af81e8a29727a37c",
+    "2026-11-22/gpt-6-1-terra/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gpt-6-1-terra/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gpt-6-2-astra/2026-11-22.edition.md": "81359bcf71fe54f7137ddfa394b9077c040f7cbd6f77bc3cf03373620903df6b",
+    "2026-11-22/gpt-6-2-astra/2026-11-22.html": "ae0f6b7941502f45fdae072d52dfc53a742876c317b56cdc032e0179b6df0265",
+    "2026-11-22/gpt-6-2-astra/run.json": "056ae03187e4df09fd6a2f0195ba3f78f4809c0cb9c6f4a234632dcee08f2e5e",
+    "2026-11-22/gpt-6-2-astra/headline.json": "610679da1db7a3a8a48b677e149bb512f1a7f0187dc21820df594c4ed45a19f9",
+    "2026-11-22/gpt-6-2-astra/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gpt-6-2-astra/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gpt-6-2-sol/2026-11-22.edition.md": "fd61649767665e9ce11269149d92f4127638ce045267e4b57aaefa286e4ccc7a",
+    "2026-11-22/gpt-6-2-sol/2026-11-22.html": "f6401c9806da84dfb45b5cee956b1e489694be86ef7d51e55b615a3aac93d6d8",
+    "2026-11-22/gpt-6-2-sol/run.json": "47ecb1ac9e74336c7eede479cfee0d84a0f04937b5fbb3304ebda3baf7252068",
+    "2026-11-22/gpt-6-2-sol/headline.json": "d5264213f58ee83a0682d826b6d6bbed6c3d2c289c5673896d64cb18dab8ceec",
+    "2026-11-22/gpt-6-2-sol/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gpt-6-2-sol/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gpt-6-astra/2026-11-22.edition.md": "8cf3027e4e295ef661b17c5874e82bb5783e0c62039fe9c1e8651a84d00ed981",
+    "2026-11-22/gpt-6-astra/2026-11-22.html": "22ca1b706977835653135074ad55990ddc4801c77aaf73b335c7db10fa443da6",
+    "2026-11-22/gpt-6-astra/run.json": "012b68ed10fb9bdc51cccc778a43814713cdd1d0d717baf7df5094a12f760b06",
+    "2026-11-22/gpt-6-astra/headline.json": "568d23b59a3139d7f12342bb84b3cb46a4f9e7cb3a02f332d5d5ca1f8e6f16f7",
+    "2026-11-22/gpt-6-astra/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gpt-6-astra/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/gpt-6-luna/2026-11-22.edition.md": "2f5660a4667a8797ad715e0843d79c23607671370fd1953f30553fb468e35800",
+    "2026-11-22/gpt-6-luna/2026-11-22.html": "187e55e8a88090b8eacac88b336a2cbe9ece352f760de0168a703e4ef769e904",
+    "2026-11-22/gpt-6-luna/run.json": "63f783fd5d564d91dc364e6b95388be9ce53bda2b1323ac464cdb24b650300d7",
+    "2026-11-22/gpt-6-luna/headline.json": "93f7c9f4f554193888264d81976ab821ab53c611855e1866d1e7777c91590f02",
+    "2026-11-22/gpt-6-luna/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/gpt-6-luna/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/grok-4-7/2026-11-22.edition.md": "81f02ef62d074690caf646b9d733ebbe9ce270cb3256c7c8b2de64465c67a67f",
+    "2026-11-22/grok-4-7/2026-11-22.html": "0b786589c53e99c92564896a6536f2adaa7e81e4c2efe5c3022cf947a7807de3",
+    "2026-11-22/grok-4-7/run.json": "fdaecb3950b9120870fb6e26ea44b4dc51e79896bec9d59b4d0c0e43c5d0fb29",
+    "2026-11-22/grok-4-7/headline.json": "e920869b0c89433bddba1be6fe4d5b2fb0e4015401f72ea19e495f4478823e85",
+    "2026-11-22/grok-4-7/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/grok-4-7/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/haiku-5-5/2026-11-22.edition.md": "ff1864499f5e786e4cb29e8393f5bcf506b449a44f2038f917f4308e44062eb4",
+    "2026-11-22/haiku-5-5/2026-11-22.html": "8e696c054dcaac1cbccc557727ccf43f6262f06d73d8deb334c2364957b9fb32",
+    "2026-11-22/haiku-5-5/run.json": "c3434c3ae051123c1b389396576ebc2432c86d7c325c19babb894ebfb925115e",
+    "2026-11-22/haiku-5-5/headline.json": "54f6183b9a30b6e87bdd56927319477964c21597895906277f6ea7bb779833c0",
+    "2026-11-22/haiku-5-5/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/haiku-5-5/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/kimi-k3-1-pro/2026-11-22.edition.md": "a8ccf3bd776580bea6b652cd73dbb2c758d943fbb33bcc42fa95ac31a75a150a",
+    "2026-11-22/kimi-k3-1-pro/2026-11-22.html": "e45467ee8021d2e95de695240e4fae9fff8ab70ceadf7a27917e2586caa761ae",
+    "2026-11-22/kimi-k3-1-pro/run.json": "40dca157f62a23919120190e370055ecae9add39739f5a0318991cce87cf483d",
+    "2026-11-22/kimi-k3-1-pro/headline.json": "e9ad71bccb610fa9c7e239c06a1fe84c087a6d29ac5e87cdbba133020509be44",
+    "2026-11-22/kimi-k3-1-pro/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/kimi-k3-1-pro/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/minimax-m3-1-flash/2026-11-22.edition.md": "eee8cb4bf66a352db07927bdbada5978e2239e52cf6343421e68af89a481a6fa",
+    "2026-11-22/minimax-m3-1-flash/2026-11-22.html": "8a1f2f0984c9ee4b14eb5833514c481511391253c9eb707469df83466dff06f9",
+    "2026-11-22/minimax-m3-1-flash/run.json": "431a21a746ae6f4448d65562ef2cebe4051b55f3d8e1c54d85ad0ef74a6943a1",
+    "2026-11-22/minimax-m3-1-flash/headline.json": "94b5e43bb681f5b748586fad2421649bd90672dfd73cbae766842d8a5cf79c56",
+    "2026-11-22/minimax-m3-1-flash/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/minimax-m3-1-flash/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/opus-5-5/2026-11-22.edition.md": "8ae55771f345542af0adb2ad9c4b8771bfc683d22932220a3d404d531b810642",
+    "2026-11-22/opus-5-5/2026-11-22.html": "5541e41129918d523999c883b0f07b321b9cd139e4581d61a71cc57724144143",
+    "2026-11-22/opus-5-5/run.json": "2d3905cb749f2029138921d99fc00213591520fef6035f6f373a7b52083bea72",
+    "2026-11-22/opus-5-5/headline.json": "9b25a13c43a5a1b58333fcaaedb21e855ed9557a80f94737d260ab17f1d2a50e",
+    "2026-11-22/opus-5-5/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/opus-5-5/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/qwen-3-8-max-0902/2026-11-22.edition.md": "344cc1fdac8a41e74fcaa8ad43dcfc062ad7b61ecdfd022d9952d187bf77ee6a",
+    "2026-11-22/qwen-3-8-max-0902/2026-11-22.html": "bd0086c55c932f6ec33ace90558a79353047cbf1d356bd87a7b2528f6ec1cee6",
+    "2026-11-22/qwen-3-8-max-0902/run.json": "16d11b10fc9fd2df5683b186c06db86d6568c9b6754218d91beef24bd44f7632",
+    "2026-11-22/qwen-3-8-max-0902/headline.json": "9fb6a2ca038070167e494214e18411e1b3039ee8284dbe2c2e50d8c5cba6347e",
+    "2026-11-22/qwen-3-8-max-0902/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/qwen-3-8-max-0902/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/qwen-4-max/2026-11-22.edition.md": "043856f3df1bf5e15d9e001231b786769f17e83fd99760f1d1a34cf9bc69cdcf",
+    "2026-11-22/qwen-4-max/2026-11-22.html": "185e3e58b822ebad3c02542cd604f5fb2b01951f80cf8d9ddfa1774e95ad43ab",
+    "2026-11-22/qwen-4-max/run.json": "b9f3a494b7fb86bd7ced84652da6eb3e4dbfea9f9e132de5cb5ea33d2a15880d",
+    "2026-11-22/qwen-4-max/headline.json": "80dec4367172f917892b8f662d2e80b7da2517978d0a1053add93a2a11f2e679",
+    "2026-11-22/qwen-4-max/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/qwen-4-max/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff",
+    "2026-11-22/sonnet-5-5/2026-11-22.edition.md": "9271f39558c04b112a9275602c18653c1103232e70e6bbcb804ad9a6a1566233",
+    "2026-11-22/sonnet-5-5/2026-11-22.html": "4e0530c100a21243b1b371b407adbe88840f7b779566b4e0fcd2ab974ec7f484",
+    "2026-11-22/sonnet-5-5/run.json": "e3be425e2e84dd2343667e23a6ff1c9983c308bb2d24d12d5fc825c78787c0eb",
+    "2026-11-22/sonnet-5-5/headline.json": "b2004fc6c1683a7d0e7bc97c7bf1c4cf33d5aa8b6dca68f00e01cd6b4e91266e",
+    "2026-11-22/sonnet-5-5/2026-11-22.x-collection.json": "1b4ce0e0e2d40f2ac49e0a8aee1b7f070244da0bbad30160a456dae072cba7a1",
+    "2026-11-22/sonnet-5-5/2026-11-22.web-search.json": "054c307a7c11fafe263d7ed4885af665aba00e60e81b2e99a17f67baa66a43ff"
+  },
+  "event_url_bindings": {
+    "deepseek-v4-1-flash-1017": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "telekom_mistral": "https://mlq.ai/news/deutsche-telekom-invests-100-million-euros-in-mistral-ai-as-a-first-step-toward-a-german-ai-partnership/",
+      "genie4_api": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "house_china_report": "https://chinaselectcommittee.house.gov/media/press-releases/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+      "signal_screenshots": "https://signal.org/blog/protecting-your-privacy/"
+    },
+    "deepseek-v4-pro": {
+      "riemann_certified": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/",
+      "gemini_neon_release": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "gpt62_release": "https://siliconangle.com/2026/11/17/openai-rolls-out-gpt-6-2-astra-for-professional-work-and-gpt-6-2-sol-for-everyday-work/",
+      "inkling_2_mini": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "chip_export_controls": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+    },
+    "fable-5-1": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "ai_supply_chain_leak": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "ai_selloff": "https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia"
+    },
+    "fable-5-2": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "ai_supply_chain_leak": "https://www.privacyaffairs.com/openrouter-minimax-prompts/",
+      "cursor_chinese_models": "https://thenextweb.com/news/cursor-chinese-ai-models-house-report-sarvam-deepseek",
+      "trump_datacenter_tax": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+    },
+    "gemini-4-argon": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "gemma_drafters": "https://arxiv.org/abs/2611.25813",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "pro2_agent": "https://arxiv.org/abs/2611.25357",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/"
+    },
+    "gemini-4-carbon": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "baseten_bison_groundhog": "https://www.baseten.co/blog/meet-bison-1-and-groundhog-1/",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "ubs_ai_spending": "https://www.moneycontrol.com/news/business/ai-investment-to-rise-to-usd-1-4-trillion-in-2027-but-returns-remain-key-test-ubs-14086387.html",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "gemini-4-hydrogen": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "musk_cash_shortage": "https://www.newsbytesapp.com/news/business/why-ai-boom-may-lead-to-billions-in-cash-crunch/story",
+      "chip_rules_push": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "gemini-4-neon": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "ubs_ai_spending": "https://aninews.in/news/business/ai-investment-to-rise-to-usd-14-trillion-in-2027-but-returns-remain-key-test-ubs20261122092454/",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "glm-5-3": {
+      "musk_cash_shortage": "https://aistockwire.com/blog/musk-ai-cash-shortage-nuts-next-year-working-capital-compute-november-2026",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "gpt_rosalind": "https://cryptobriefing.com/openai-gpt-rosalind-neurodegenerative-disease-research/",
+      "sensenova_loop9b": "https://www.sensetime.com/en/news/sensenova-loop-9b-release-20261118-1435",
+      "nyt_tech_outages": "https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html"
+    },
+    "gpt-6-1-sol": {
+      "riemann_certified": "https://math.mit.edu/~drew/grh/",
+      "gemma_drafters": "https://arxiv.org/abs/2611.25813",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "pro2_agent": "https://arxiv.org/abs/2611.25357",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "gpt-6-1-terra": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "pro2_agent": "https://arxiv.org/abs/2611.25357",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184",
+      "chip_rules_push": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown"
+    },
+    "gpt-6-2-astra": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "alphaproof_nexus": "https://arxiv.org/html/2611.26300",
+      "arena_astra": "https://x.com/arena/status/2124191294360588725",
+      "ndif_inkling": "https://x.com/thinkymachines/status/2123931570436518245",
+      "gemini_drawing_cost": "https://static.simonwillison.net/static/2026/gemini-4-carbon-neon-hydrogen-with-xhigh.html"
+    },
+    "gpt-6-2-sol": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "gpt-6-astra": {
+      "stepfun_step5": "https://x.com/StepFun_ai/status/2123902251983110204",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "gemma_drafters": "https://arxiv.org/abs/2611.25813",
+      "arena_astra": "https://x.com/arena/status/2124191294360588725",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "gpt-6-luna": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "pro2_agent": "https://arxiv.org/html/2611.25357",
+      "ai_supply_chain_leak": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "ai_selloff": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/"
+    },
+    "grok-4-7": {
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "house_china_report": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "gemma_drafters": "https://arxiv.org/abs/2611.25813",
+      "tesla_ai4_video": "https://x.com/elonmusk/status/2124270426402836626"
+    },
+    "haiku-5-5": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "pro2_agent": "https://arxiv.org/abs/2611.25357",
+      "uk_aisi_jailbreak": "https://venturebeat.com/security/openais-pre-release-gpt-6-2-astra-was-easier-to-jailbreak-than-its-predecessor-uk-government-testers-found",
+      "cognition_75b": "https://finance.yahoo.com/technology/ai/articles/cognition-talks-75-billion-value-204755865.html",
+      "pragmatik_5b": "https://www.pymnts.com/news/investment-tracker/2026/ex-alibaba-ai-chief-junyang-lin-drives-startup-pragmatik-labs-to-5-billion-valuation/"
+    },
+    "kimi-k3-1-pro": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "gemma_drafters": "https://arxiv.org/abs/2611.25813",
+      "pro2_agent": "https://arxiv.org/abs/2611.25357",
+      "arena_astra": "https://x.com/arena/status/2124191294360588725",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "minimax-m3-1-flash": {
+      "riemann_certified": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "arena_astra": "https://cryptobriefing.com/openai-gpt-6-2-astra-agent-arena-index/",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "opus-5-5": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "ai_supply_chain_leak": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "alphaproof_nexus": "https://arxiv.org/abs/2611.26300",
+      "musk_cash_shortage": "https://x.com/elonmusk/status/2124271725927903388"
+    },
+    "qwen-3-8-max-0902": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "tesla_fsd_v15": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+      "chatgpt_desktop_merge": "https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app",
+      "ai_supply_chain_leak": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+    },
+    "qwen-4-max": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "ai_supply_chain_leak": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "orca_so101_robotics": "https://www.orcarouter.ai/blog/gpt-6-2-astra-so101-robotics-leaderboard",
+      "gao_mental_health": "https://www.gao.gov/products/gao-27-109184"
+    },
+    "sonnet-5-5": {
+      "riemann_certified": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "metr_capability": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "tesla_fsd_v15": "https://www.teslarati.com/tesla-full-self-driving-v15-rollout-begins-full-release-notes-improvements/",
+      "us_chips_chinese_models": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+      "musk_cash_shortage": "https://officechai.com/ai/elon-musk-predicts-cash-shortage-for-ai-buildout-next-year/"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "deepseek-v4-pro",
+      "story": "riemann_certified",
+      "reason": "Scientific American claim-announcement coverage grouped with the Lean/Mathlib certification announcement; same proof event"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "riemann_certified",
+      "reason": "Lean community blog is the certification source; grouped as the same proof event"
+    },
+    {
+      "model": "gpt-6-1-sol",
+      "story": "riemann_certified",
+      "reason": "MIT independent-kernels acceptance page grouped with the Lean/Mathlib certification; same proof event"
+    },
+    {
+      "model": "minimax-m3-1-flash",
+      "story": "riemann_certified",
+      "reason": "Guardian coverage of the same Claude-assisted proof grouped with the certification"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "alphaproof_nexus",
+      "reason": "arXiv abs URL; the html variant used by gpt-6-2-astra is the same paper"
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "story": "alphaproof_nexus",
+      "reason": "arXiv html URL; the abs variant used by other models is the same paper"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "pro2_agent",
+      "reason": "arXiv abs URL; the html variant used by gpt-6-luna is the same paper"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "pro2_agent",
+      "reason": "arXiv html URL; the abs variant used by other models is the same paper"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "musk_cash_shortage",
+      "reason": "NewsBytes coverage of Musk's cash-crunch warning grouped with his X post"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "musk_cash_shortage",
+      "reason": "AIStockWire coverage of Musk's 'nuts' cash shortage warning grouped with his X post"
+    },
+    {
+      "model": "opus-5-5",
+      "story": "musk_cash_shortage",
+      "reason": "Musk's X post grouped with his warning coverage"
+    },
+    {
+      "model": "sonnet-5-5",
+      "story": "musk_cash_shortage",
+      "reason": "OfficeChai coverage of Musk's warning grouped with his X post"
+    },
+    {
+      "model": "minimax-m3-1-flash",
+      "story": "arena_astra",
+      "reason": "CryptoBriefing Agent Arena index coverage grouped with the @arena status"
+    },
+    {
+      "model": "fable-5-1",
+      "story": "ai_selloff",
+      "reason": "NPR Nasdaq worst-week coverage grouped with CNBC Anthropic first-day drop; same post-IPO AI selloff"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "ai_selloff",
+      "reason": "CNBC Anthropic share drop grouped with the broader post-IPO AI selloff"
+    },
+    {
+      "model": "grok-4-7",
+      "story": "house_china_report",
+      "reason": "House committee reports URL grouped with the press-release variant of the same joint report"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "chip_rules_push",
+      "reason": "Al Jazeera lawmakers-push coverage kept distinct from the TechCrunch Commerce export-controls tightening (deepseek-v4-pro, chip_export_controls); related but different events"
+    },
+    {
+      "model": "gemini-4-carbon",
+      "story": "ubs_ai_spending",
+      "reason": "MoneyControl UBS projection grouped with the ANI News report of the same UBS forecast"
+    },
+    {
+      "model": "gemini-4-neon",
+      "story": "ubs_ai_spending",
+      "reason": "ANI News UBS projection grouped with the MoneyControl report of the same forecast"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "ai_supply_chain_leak",
+      "reason": "PrivacyAffairs OpenRouter/MiniMax warning grouped with the Dragos canary-token findings"
+    },
+    {
+      "model": "opus-5-5",
+      "story": "ai_supply_chain_leak",
+      "reason": "OpenRouter off-boarding response grouped with the Dragos canary-token findings"
+    },
+    {
+      "model": "fable-5-1",
+      "story": "ai_supply_chain_leak",
+      "reason": "Ars Technica supply-chain leak coverage grouped with the Dragos canary-token findings"
+    },
+    {
+      "model": "sonnet-5-5",
+      "story": "tesla_fsd_v15",
+      "reason": "Teslarati rollout coverage grouped with Electrek's FSD v15 rollout report"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "tesla_fsd_v15",
+      "reason": "Electrek rollout coverage grouped with Teslarati's FSD v15 report"
+    }
+  ]
+}
