@@ -1,6 +1,6 @@
 {
   "title": "Who Max Follows",
-  "profile_snapshot_at": "2026-11-15T17:06:57.819570+00:00",
+  "profile_snapshot_at": "2026-11-22T14:32:23.424612+00:00",
   "accounts": [
     {
       "id": "61559439",
@@ -452,21 +452,9 @@
       "companies": [
         "NVIDIA"
       ],
-      "bio": "Founder and CEO of NVIDIA.",
+      "bio": "Founder of NVIDIA",
       "location": "Santa Clara",
-      "entities": {
-        "url": {
-          "urls": [
-            {
-              "display_url": "nvidianews.nvidia.com/bios/jensen-hu…",
-              "end": 23,
-              "expanded_url": "https://nvidianews.nvidia.com/bios/jensen-huang",
-              "start": 0,
-              "url": "https://t.co/kWCNU4aFyt"
-            }
-          ]
-        }
-      }
+      "entities": {}
     },
     {
       "id": "1605",
@@ -805,7 +793,7 @@
       "companies": [
         "OpenClaw"
       ],
-      "bio": "The frontier lab for agency.\n\nBuilding personal AI that lives on your machine, by your rules. We’re a 501(c)(3) nonprofit foundation, open and independent.",
+      "bio": "Your personal AI Assistant that actually gets things done.\n\nWe’re a 501(c)(3) nonprofit foundation, open and independent.",
       "location": "Any OS, Any Messsaging App",
       "entities": {
         "url": {
@@ -2244,6 +2232,28 @@
       }
     },
     {
+      "id": "2058240803617792000",
+      "handle": "noeri_ai",
+      "name": "Noeri",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Create the future of many intelligences",
+      "location": "",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "noeri.ai",
+              "end": 23,
+              "expanded_url": "https://www.noeri.ai/",
+              "start": 0,
+              "url": "https://t.co/vHUmjM18MD"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "1888791214864072705",
       "handle": "StepFun_ai",
       "name": "StepFun",
@@ -2315,7 +2325,7 @@
       "companies": [
         "Google"
       ],
-      "bio": "ML/AI Systems at Google. Simplicity and optimism. Personal opinions.",
+      "bio": "Kubernetes at Google. Simplicity and optimism. Personal opinions. 🇺🇸🇪🇺",
       "location": "San Francisco, CA",
       "entities": {
         "url": {
@@ -2325,7 +2335,7 @@
               "end": 23,
               "expanded_url": "https://github.com/rakyll",
               "start": 0,
-              "url": "https://t.co/3BsQkje1u5"
+              "url": "https://t.co/3BsQkjezjD"
             }
           ]
         }
@@ -2484,7 +2494,7 @@
         "NVIDIA",
         "OpenAI"
       ],
-      "bio": "NVIDIA Director of Robotics & Distinguished Scientist. Co-Lead of GEAR lab. Solving Physical AGI, one motor at a time. Stanford Ph.D. OpenAI's 1st intern.",
+      "bio": "NVIDIA Director of Robotics & Distinguished Scientist 💚💚💚. Co-Lead of GEAR lab. Solving Physical AGI, one motor at a time. Stanford Ph.D.",
       "location": "Views my own. Contact →",
       "entities": {
         "url": {
@@ -3297,17 +3307,17 @@
       "name": "Riley Brown",
       "name_unverified": false,
       "companies": [],
-      "bio": "Founder + YouTuber / TikToker\ninquiries: riley@rakugomedia.com",
+      "bio": "Founder, YouTuber, Investor\nReach out: riley@rakugomedia.com\nMy Newsletter ⬇️",
       "location": "Brooklyn",
       "entities": {
         "url": {
           "urls": [
             {
-              "display_url": "agentnative.inc",
+              "display_url": "substack.com/home/post/p-22…",
               "end": 23,
-              "expanded_url": "https://agentnative.inc",
+              "expanded_url": "https://substack.com/home/post/p-225240530",
               "start": 0,
-              "url": "https://t.co/MTUwBdCsf9"
+              "url": "https://t.co/2oJzBzQm8E"
             }
           ]
         }
@@ -3412,7 +3422,7 @@
         "PepsiCo",
         "Spotify"
       ],
-      "bio": "Creative architect. Ex-Warner Music, PepsiCo, Spotify fr. designer. Fusing 10+ yr of brand & ad design with AI. Collabs: amir@amirmushich.com",
+      "bio": "Creative tech & design. Ex-Warner Music, PepsiCo, Spotify fr. designer. Fusing 10+ yr of brand & ad design with AI. Collabs: amir@amirmushich.com",
       "location": "Mostar",
       "entities": {
         "url": {
@@ -3470,7 +3480,7 @@
         "Psychanon",
         "New Dawn"
       ],
-      "bio": "AI systems architect. prompt shaman.\ncreative explorer. automation engineer.\nCEO @psychanon @newdawnxyz",
+      "bio": "AI systems architect. prompt shaman.\ncreative explorer. automation engineer.\nCEO @psychanon @ezu_xyz @newdawnxyz",
       "location": "DM for Inquiries",
       "entities": {
         "description": {
@@ -3481,8 +3491,13 @@
               "username": "psychanon"
             },
             {
-              "end": 103,
+              "end": 100,
               "start": 92,
+              "username": "ezu_xyz"
+            },
+            {
+              "end": 112,
+              "start": 101,
               "username": "newdawnxyz"
             }
           ]
@@ -3774,11 +3789,11 @@
         "url": {
           "urls": [
             {
-              "display_url": "palmer.gg",
+              "display_url": "palmer.gg/links",
               "end": 23,
-              "expanded_url": "http://palmer.gg",
+              "expanded_url": "http://palmer.gg/links",
               "start": 0,
-              "url": "https://t.co/p8kDqjEfHW"
+              "url": "https://t.co/05Ww1L68QF"
             }
           ]
         }
@@ -3854,6 +3869,131 @@
               "expanded_url": "http://dharme.sh/dharmeshtb",
               "start": 0,
               "url": "https://t.co/CcZG7NUXZR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "361044311",
+      "handle": "deedydas",
+      "name": "Deedy",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Partner at @MenloVentures. Investor: Anthropic, OpenRouter, Modal, Wispr, Pangram, Greptile, Inception, Goodfire.\n\nprior: Glean, Google Search. Cornell CS.",
+      "location": "San Francisco",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 25,
+              "start": 11,
+              "username": "MenloVentures"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "debarghyadas.com",
+              "end": 23,
+              "expanded_url": "https://debarghyadas.com/",
+              "start": 0,
+              "url": "https://t.co/acAjPMpLqI"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2004705309139374080",
+      "handle": "PatrickToulme",
+      "name": "Patrick C Toulme",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "gemini, RSI & TPUs @GoogleDeepmind. Formerly worked on Meta MTIA and AWS Trainium. Opinions are my own. All blogs shared are personal work.",
+      "location": "Miami, FL",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 34,
+              "start": 19,
+              "username": "GoogleDeepmind"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "patricktoulme.com",
+              "end": 23,
+              "expanded_url": "https://patricktoulme.com",
+              "start": 0,
+              "url": "https://t.co/4gS1NQVGYL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3022639964",
+      "handle": "anshuman_ssh",
+      "name": "Anshuman Singh",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "Co-Founder, @arcfront, prev founder @scaler_official @interview_bit",
+      "location": "San Francisco, USA",
+      "entities": {
+        "description": {
+          "mentions": [
+            {
+              "end": 21,
+              "start": 12,
+              "username": "arcfront"
+            },
+            {
+              "end": 52,
+              "start": 36,
+              "username": "scaler_official"
+            },
+            {
+              "end": 67,
+              "start": 53,
+              "username": "interview_bit"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "arcfront.ai",
+              "end": 23,
+              "expanded_url": "https://arcfront.ai",
+              "start": 0,
+              "url": "https://t.co/LkSn5OH0bd"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2123039033370824704",
+      "handle": "arcfront",
+      "name": "Arcfront",
+      "name_unverified": false,
+      "companies": [],
+      "bio": "A research lab for real-world data.",
+      "location": "San Francisco",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "display_url": "arcfront.ai",
+              "end": 23,
+              "expanded_url": "http://arcfront.ai",
+              "start": 0,
+              "url": "https://t.co/oRROyefXHB"
             }
           ]
         }
