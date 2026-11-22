@@ -1,0 +1,183 @@
+{
+ "date": "2026-11-03",
+ "prompt": "v2",
+ "judges": {
+  "opus": "anthropic/claude-opus-5-5",
+  "glm": "openrouter_eich/z-ai/glm-5.3",
+  "astra": "openai/gpt-6-astra",
+  "grok": "openrouter_grok/x-ai/grok-4.7",
+  "dsflash": "openrouter_flash/deepseek/deepseek-v4.1-flash-1017"
+ },
+ "models": [
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "glm-5-3",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra",
+  "gpt-6-astra",
+  "gpt-6-luna",
+  "grok-4-7",
+  "kimi-k3-1-pro",
+  "minimax-m3-1-flash",
+  "opus-5-5",
+  "qwen-3-8-max-0902"
+ ],
+ "scores": {
+  "opus": {
+   "gpt-6-astra": 2.5,
+   "gpt-6-1-sol": 2.0,
+   "gpt-6-1-terra": 2.5,
+   "grok-4-7": 2.5,
+   "minimax-m3-1-flash": 3.0,
+   "opus-5-5": 3.0,
+   "gpt-6-luna": 2.5,
+   "deepseek-v4-pro": 3.0,
+   "kimi-k3-1-pro": 3.0,
+   "deepseek-v4-1-flash-1017": 4.0,
+   "qwen-3-8-max-0902": 4.0,
+   "glm-5-3": 3.5
+  },
+  "glm": {
+   "deepseek-v4-1-flash-1017": 4.5,
+   "glm-5-3": 4.0,
+   "opus-5-5": 3.0,
+   "gpt-6-astra": 2.5,
+   "deepseek-v4-pro": 4.0,
+   "kimi-k3-1-pro": 4.0,
+   "minimax-m3-1-flash": 4.5,
+   "gpt-6-1-terra": 2.5,
+   "qwen-3-8-max-0902": 4.5,
+   "gpt-6-luna": 3.5,
+   "gpt-6-1-sol": 3.5,
+   "grok-4-7": 3.0
+  },
+  "astra": {
+   "gpt-6-1-terra": 3.0,
+   "gpt-6-astra": 3.0,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-1-sol": 2.5,
+   "glm-5-3": 3.5,
+   "grok-4-7": 2.5,
+   "minimax-m3-1-flash": 3.0,
+   "gpt-6-luna": 3.0,
+   "deepseek-v4-pro": 4.0,
+   "qwen-3-8-max-0902": 3.5,
+   "opus-5-5": 2.0,
+   "deepseek-v4-1-flash-1017": 3.5
+  },
+  "grok": {
+   "gpt-6-astra": 2.5,
+   "kimi-k3-1-pro": 3.0,
+   "gpt-6-luna": 2.5,
+   "gpt-6-1-sol": 2.0,
+   "gpt-6-1-terra": 2.0,
+   "glm-5-3": 3.5,
+   "deepseek-v4-pro": 3.5,
+   "minimax-m3-1-flash": 4.0,
+   "qwen-3-8-max-0902": 3.5,
+   "deepseek-v4-1-flash-1017": 3.0,
+   "grok-4-7": 2.5,
+   "opus-5-5": 2.5
+  },
+  "dsflash": {
+   "gpt-6-1-sol": 3.0,
+   "opus-5-5": 3.0,
+   "deepseek-v4-1-flash-1017": 3.5,
+   "minimax-m3-1-flash": 3.5,
+   "deepseek-v4-pro": 4.0,
+   "gpt-6-astra": 3.0,
+   "gpt-6-1-terra": 2.5,
+   "grok-4-7": 3.5,
+   "kimi-k3-1-pro": 4.0,
+   "gpt-6-luna": 3.0,
+   "qwen-3-8-max-0902": 3.5,
+   "glm-5-3": 3.5
+  }
+ },
+ "average": {
+  "deepseek-v4-1-flash-1017": 3.7,
+  "deepseek-v4-pro": 3.7,
+  "glm-5-3": 3.6,
+  "gpt-6-1-sol": 2.6,
+  "gpt-6-1-terra": 2.5,
+  "gpt-6-astra": 2.7,
+  "gpt-6-luna": 2.9,
+  "grok-4-7": 2.8,
+  "kimi-k3-1-pro": 3.4,
+  "minimax-m3-1-flash": 3.6,
+  "opus-5-5": 2.7,
+  "qwen-3-8-max-0902": 3.8
+ },
+ "ranking": [
+  "qwen-3-8-max-0902",
+  "deepseek-v4-1-flash-1017",
+  "deepseek-v4-pro",
+  "glm-5-3",
+  "minimax-m3-1-flash",
+  "kimi-k3-1-pro",
+  "gpt-6-luna",
+  "grok-4-7",
+  "gpt-6-astra",
+  "opus-5-5",
+  "gpt-6-1-sol",
+  "gpt-6-1-terra"
+ ],
+ "self_preference": {
+  "opus": {
+   "family": "anthropic",
+   "models": [
+    "opus-5-5"
+   ],
+   "own": 3.0,
+   "others": 2.62,
+   "bump": 0.38
+  },
+  "glm": {
+   "family": "zai",
+   "models": [
+    "glm-5-3"
+   ],
+   "own": 4.0,
+   "others": 3.5,
+   "bump": 0.5
+  },
+  "astra": {
+   "family": "openai",
+   "models": [
+    "gpt-6-1-sol",
+    "gpt-6-1-terra",
+    "gpt-6-astra",
+    "gpt-6-luna"
+   ],
+   "own": 2.88,
+   "others": 2.62,
+   "bump": 0.25
+  },
+  "grok": {
+   "family": "grok",
+   "models": [
+    "grok-4-7"
+   ],
+   "own": 2.5,
+   "others": 2.88,
+   "bump": -0.38
+  },
+  "dsflash": {
+   "family": "deepseek",
+   "models": [
+    "deepseek-v4-1-flash-1017",
+    "deepseek-v4-pro"
+   ],
+   "own": 3.75,
+   "others": 3.69,
+   "bump": 0.06
+  }
+ },
+ "judge_notes": {
+  "opus": "J won by leading with one story and saying why it matters: Oracle's raise landed as 'investors are repricing how much AI infrastructure debt they will absorb,' backed by concrete credit signals. It barely edged K ('a reminder that AI capital spending is still outrunning investor comfort'), which has the same instinct but less depth and misfiles AWS numbers under 'In policy news.' B finished last because it is mostly disclaimers: 'explicitly not a production-ready product,' 'the incidents themselves are not dated,' 'rather than another model release.' Its lead is buried under caveats.",
+  "glm": "I won with the clearest news judgment: Oracle's raise led with precise SEC filing detail and the $20 billion cap, then Pando and Abu Dhabi with concrete scale figures, all in clean prose. G followed closely, pairing the most distinctive story (FlashProve with tokens/sec and MB figures) with tightly written regulation and financing items. D and H lost for opposite failures: D buried concrete news under hedging caveats and vague abstractions, while H was so thin it read as a placeholder, capping its two stories with a 'should be read within their stated test conditions' disclaimer. L was undercut by process leakage ('verified before the cutoff') and C by an outright incomplete sentence ('deleted about 30,000 by mistake').",
+  "astra": "I wins through active prose, specific outcomes and relatively disciplined selection, though its technical lead still needs trimming. L has the strongest financial interpretation but loses ground on its overloaded final sentence. K finishes last because the missing object after '30,000' makes an important claim incomplete, on top of persistent unrelated-story stacking.",
+  "grok": "H is the only strong piece: named actors, hard numbers, no broken sentence. I, G, and F are the next tier \u2014 real stakes, then a list joint, an unnamed sector claim, or a soft middle. J has the best financing and policy paragraphs and is capped at 3 by a comma splice. B is clean ordinary wire. From L down, a unitless '30,000,' a cutoff note, or theme-speak without figures. E and D need a rewrite: empty caution, and copy that narrates the desk.",
+  "dsflash": "E wins because it leads with the mechanism and the number in the same breath (0.016% of parameters, 7.9% to 48.1%) and keeps every paragraph to one idea; its only damage is framing words like \"moved on security and infrastructure in parallel.\" I is nearly as good, with the cleanest causal chain in the file, but spends its second sentence on a scope caveat instead of another fact. C, L and K carry the most reporting but each ends in a three-item pile-up that makes the reader triage. G loses outright: no figures anywhere, an unnamed benchmark, and a sentence whose entire content is that the reader should be careful \u2014 73 words that could be deleted without losing a fact."
+ }
+}

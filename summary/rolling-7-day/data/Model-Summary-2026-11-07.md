@@ -1,6 +1,6 @@
 # Model Summary: rolling-7-day
 
-Window: 2026-11-01 through 2026-11-07. As of 2026-11-07. Judging: partial.
+Window: 2026-11-01 through 2026-11-07. As of 2026-11-07. Judging: complete.
 
 Avg uses available readings only; SD is sample SD (n-1), unavailable below two readings. Elapsed Time is seconds. Cost is USD API-equivalent. Tokens include cache. ECPTS Avg pools costs/tokens on paired days and scales by 100,000,000. Missing days are not zeros. Historical backfill uses the preserved available evidence, not a claim of what was known then.
 
@@ -127,15 +127,15 @@ Avg uses available readings only; SD is sample SD (n-1), unavailable below two r
 
 | Model | Avg | SD | 11/7 | 11/6 | 11/5 | 11/4 | 11/3 | 11/2 | 11/1 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| qwen-3-8-max-0902 | 3.333 | 0.153 | 3.300 |  |  |  |  | 3.200 | 3.500 |
-| deepseek-v4-1-flash-1017 | 3.300 | 0.265 | 3.000 |  |  |  |  | 3.400 | 3.500 |
-| kimi-k3-1-pro | 3.300 | 0.361 | 3.200 |  |  |  |  | 3.700 | 3.000 |
-| opus-5-5 | 3.133 | 0.321 | 3.500 |  |  |  |  | 2.900 | 3.000 |
-| deepseek-v4-pro | 2.967 | 0.208 | 2.900 |  |  |  |  | 3.200 | 2.800 |
-| grok-4-7 | 2.933 | 0.058 | 3.000 |  |  |  |  | 2.900 | 2.900 |
-| glm-5-3 | 2.900 | 0.693 | 3.700 |  |  |  |  | 2.500 | 2.500 |
-| minimax-m3-1-flash | 2.833 | 0.351 | 2.500 |  |  |  |  | 3.200 | 2.800 |
-| gpt-6-1-sol | 2.733 | 0.208 | 2.900 |  |  |  |  | 2.500 | 2.800 |
-| gpt-6-astra | 2.700 | 0.100 | 2.700 |  |  |  |  | 2.600 | 2.800 |
-| gpt-6-1-terra | 2.533 | 0.404 | 2.300 |  |  |  |  | 2.300 | 3.000 |
-| gpt-6-luna | 2.400 | 0.656 | 2.500 |  |  |  |  | 3.000 | 1.700 |
+| qwen-3-8-max-0902 | 3.450 | 0.265 | 3.300 |  |  |  | 3.800 | 3.200 | 3.500 |
+| deepseek-v4-1-flash-1017 | 3.400 | 0.294 | 3.000 |  |  |  | 3.700 | 3.400 | 3.500 |
+| kimi-k3-1-pro | 3.325 | 0.299 | 3.200 |  |  |  | 3.400 | 3.700 | 3.000 |
+| deepseek-v4-pro | 3.150 | 0.404 | 2.900 |  |  |  | 3.700 | 3.200 | 2.800 |
+| glm-5-3 | 3.075 | 0.665 | 3.700 |  |  |  | 3.600 | 2.500 | 2.500 |
+| minimax-m3-1-flash | 3.025 | 0.479 | 2.500 |  |  |  | 3.600 | 3.200 | 2.800 |
+| opus-5-5 | 3.025 | 0.340 | 3.500 |  |  |  | 2.700 | 2.900 | 3.000 |
+| grok-4-7 | 2.900 | 0.082 | 3.000 |  |  |  | 2.800 | 2.900 | 2.900 |
+| gpt-6-1-sol | 2.700 | 0.183 | 2.900 |  |  |  | 2.600 | 2.500 | 2.800 |
+| gpt-6-astra | 2.700 | 0.082 | 2.700 |  |  |  | 2.700 | 2.600 | 2.800 |
+| gpt-6-1-terra | 2.525 | 0.330 | 2.300 |  |  |  | 2.500 | 2.300 | 3.000 |
+| gpt-6-luna | 2.525 | 0.591 | 2.500 |  |  |  | 2.900 | 3.000 | 1.700 |

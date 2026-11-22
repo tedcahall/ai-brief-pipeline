@@ -1,6 +1,6 @@
 # Model Summary: rolling-7-day
 
-Window: 2026-11-02 through 2026-11-08. As of 2026-11-08. Judging: partial.
+Window: 2026-11-02 through 2026-11-08. As of 2026-11-08. Judging: complete.
 
 Avg uses available readings only; SD is sample SD (n-1), unavailable below two readings. Elapsed Time is seconds. Cost is USD API-equivalent. Tokens include cache. ECPTS Avg pools costs/tokens on paired days and scales by 100,000,000. Missing days are not zeros. Historical backfill uses the preserved available evidence, not a claim of what was known then.
 
@@ -155,19 +155,19 @@ Avg uses available readings only; SD is sample SD (n-1), unavailable below two r
 
 | Model | Avg | SD | 11/8 | 11/7 | 11/6 | 11/5 | 11/4 | 11/3 | 11/2 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| qwen-3-8-max-0902 | 3.400 | 0.271 | 3.300 | 3.300 |  |  |  | 3.800 | 3.200 |
 | sonnet-5-5 | 3.400 | unavailable | 3.400 |  |  |  |  |  |  |
-| kimi-k3-1-pro | 3.333 | 0.321 | 3.100 | 3.200 |  |  |  |  | 3.700 |
-| opus-5-5 | 3.267 | 0.321 | 3.400 | 3.500 |  |  |  |  | 2.900 |
-| qwen-3-8-max-0902 | 3.267 | 0.058 | 3.300 | 3.300 |  |  |  |  | 3.200 |
-| deepseek-v4-1-flash-1017 | 3.200 | 0.200 | 3.200 | 3.000 |  |  |  |  | 3.400 |
-| deepseek-v4-pro | 3.100 | 0.173 | 3.200 | 2.900 |  |  |  |  | 3.200 |
-| minimax-m3-1-flash | 3.033 | 0.473 | 3.400 | 2.500 |  |  |  |  | 3.200 |
-| grok-4-7 | 3.000 | 0.100 | 3.100 | 3.000 |  |  |  |  | 2.900 |
-| glm-5-3 | 2.967 | 0.643 | 2.700 | 3.700 |  |  |  |  | 2.500 |
+| kimi-k3-1-pro | 3.350 | 0.265 | 3.100 | 3.200 |  |  |  | 3.400 | 3.700 |
+| deepseek-v4-1-flash-1017 | 3.325 | 0.299 | 3.200 | 3.000 |  |  |  | 3.700 | 3.400 |
+| deepseek-v4-pro | 3.250 | 0.332 | 3.200 | 2.900 |  |  |  | 3.700 | 3.200 |
+| minimax-m3-1-flash | 3.175 | 0.479 | 3.400 | 2.500 |  |  |  | 3.600 | 3.200 |
+| glm-5-3 | 3.125 | 0.613 | 2.700 | 3.700 |  |  |  | 3.600 | 2.500 |
+| opus-5-5 | 3.125 | 0.386 | 3.400 | 3.500 |  |  |  | 2.700 | 2.900 |
+| grok-4-7 | 2.950 | 0.129 | 3.100 | 3.000 |  |  |  | 2.800 | 2.900 |
 | fable-5-1 | 2.800 | unavailable | 2.800 |  |  |  |  |  |  |
 | gemini-4-argon | 2.800 | unavailable | 2.800 |  |  |  |  |  |  |
-| gpt-6-luna | 2.733 | 0.252 | 2.700 | 2.500 |  |  |  |  | 3.000 |
+| gpt-6-luna | 2.775 | 0.222 | 2.700 | 2.500 |  |  |  | 2.900 | 3.000 |
 | haiku-5-5 | 2.700 | unavailable | 2.700 |  |  |  |  |  |  |
-| gpt-6-1-sol | 2.667 | 0.208 | 2.600 | 2.900 |  |  |  |  | 2.500 |
-| gpt-6-astra | 2.500 | 0.265 | 2.200 | 2.700 |  |  |  |  | 2.600 |
-| gpt-6-1-terra | 2.200 | 0.173 | 2.000 | 2.300 |  |  |  |  | 2.300 |
+| gpt-6-1-sol | 2.650 | 0.173 | 2.600 | 2.900 |  |  |  | 2.600 | 2.500 |
+| gpt-6-astra | 2.550 | 0.238 | 2.200 | 2.700 |  |  |  | 2.700 | 2.600 |
+| gpt-6-1-terra | 2.275 | 0.206 | 2.000 | 2.300 |  |  |  | 2.500 | 2.300 |
