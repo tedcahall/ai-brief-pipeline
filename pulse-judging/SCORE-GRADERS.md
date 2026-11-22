@@ -2,15 +2,15 @@
 
 Which judge grades hardest and which grades easiest. Each number is the average score a judge gave across all models that day; lower means a harder grader.
 
-## Overall (20 judged days, 10-28 to 11-21)
+## Overall (21 judged days, 10-28 to 11-21)
 
 | Rank (hardest first) | Judge | Avg grade | Days hardest | Days easiest |
 |---|---|---|---|---|
-| 1 | astra | **2.72** | 12 | 0 |
-| 2 | dsflash | **2.82** | 6 | 0 |
+| 1 | astra | **2.71** | 13 | 0 |
+| 2 | dsflash | **2.81** | 6 | 0 |
 | 3 | grok | **2.95** | 0 | 1 |
 | 4 | opus | **3.00** | 2 | 1 |
-| 5 | glm | **3.38** | 0 | 18 |
+| 5 | glm | **3.38** | 0 | 19 |
 
 ## By day
 
@@ -31,6 +31,7 @@ Which judge grades hardest and which grades easiest. Each number is the average 
 | 11-9 | 3.19 | 3.34 | 2.72 | 2.91 | 2.72 | astra | glm | 0.62 |
 | 11-8 | 2.91 | 3.19 | 2.69 | 3.16 | 2.62 | dsflash | glm | 0.57 |
 | 11-7 | 2.92 | 3.29 | 2.58 | 3.04 | 2.96 | astra | glm | 0.71 |
+| 11-2 | 3.12 | 3.46 | 2.54 | 2.96 | 2.67 | astra | glm | 0.92 |
 | 11-1 | 2.96 | 2.88 | 2.71 | 3.08 | 2.67 | dsflash | grok | 0.41 |
 | 10-31 | 2.83 | 3.38 | 2.88 | 2.96 | 2.92 | opus | glm | 0.55 |
 | 10-30 | 2.92 | 3.46 | 2.67 | 3.00 | 2.83 | astra | glm | 0.79 |
