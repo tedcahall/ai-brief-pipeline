@@ -11,7 +11,7 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 
 **Seven-calendar-day statistics | 2026-11-17 through 2026-11-23 | Minimum 4 observed days per metric**
 
-Judging update pending. Judging rows retain 2026-11-22. Other rows are current.
+Judging as of 2026-11-23; status: complete.
 
 ### 🏆 Leaders
 
@@ -19,8 +19,8 @@ Judging update pending. Judging rows retain 2026-11-22. Other rows are current.
 |---|---|---:|---:|---:|---:|---:|
 | Ed Selection | Gemini 4 Neon | **86.4/100** | 67.8/100 | 45.4/100 | 86.4/100 | 5 |
 | Selection SD | Sonnet 5.5 | **4.7** | 11.7 | 4.7 | 21.4 | 7 |
-| Editorial Score | DeepSeek V4.1 Flash | **3.66/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
-| Ed Score SD | GPT-6 Luna | **0.1** | 0.3 | 0.1 | 0.6 | 7 |
+| Editorial Score | DeepSeek V4.1 Flash | **3.67/5** | 3.02/5 | 2.41/5 | 3.67/5 | 7 |
+| Ed Score SD | Fable 5.1 | **0.1** | 0.3 | 0.1 | 0.5 | 7 |
 | Lowest Cost | GPT-6 Luna | **$0.09** | $1.95 | $0.09 | $9.93 | 7 |
 | Run Time | GPT-6.2 Astra | **2m 47s** | 10m 03s | 2m 47s | 26m 25s | 6 |
 | Token Usage | GPT-6.2 Astra | **775,262** | 5,172,087 | 775,262 | 14,778,430 | 6 |
@@ -35,8 +35,8 @@ Judging update pending. Judging rows retain 2026-11-22. Other rows are current.
 |---|---|---:|---:|---:|---:|---:|
 | Ed Selection | GPT-6 Luna | **45.4/100** | 67.8/100 | 45.4/100 | 86.4/100 | 7 |
 | Selection SD | GPT-6.2 Astra | **21.4** | 11.7 | 4.7 | 21.4 | 6 |
-| Editorial Score | GPT-6.1 Terra | **2.39/5** | 3.01/5 | 2.39/5 | 3.66/5 | 7 |
-| Ed Score SD | Gemini 4 Neon | **0.6** | 0.3 | 0.1 | 0.6 | 4 |
+| Editorial Score | GPT-6.1 Terra | **2.41/5** | 3.02/5 | 2.41/5 | 3.67/5 | 7 |
+| Ed Score SD | Gemini 4 Neon | **0.5** | 0.3 | 0.1 | 0.5 | 5 |
 | Highest Cost | Fable 5.1 | **$9.93** | $1.95 | $0.09 | $9.93 | 7 |
 | Run Time | Qwen4 Max | **26m 25s** | 10m 03s | 2m 47s | 26m 25s | 7 |
 | Token Usage | Qwen4 Max | **14,778,430** | 5,172,087 | 775,262 | 14,778,430 | 7 |
