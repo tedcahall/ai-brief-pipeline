@@ -1,0 +1,1308 @@
+{
+  "date": "2026-11-23",
+  "models": [
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "complete_local",
+      "score": 71,
+      "rank": 14,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "lingsante_release",
+        "apple_computer_use_agent",
+        "aws_cairn_zero_day",
+        "nasdaq_correction"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124719968499777546",
+        "2124684387761430549",
+        "2124270426402836626",
+        "2124311350558281766",
+        "2124562528738988251",
+        "2124536771702874472",
+        "2124431846859813234"
+      ],
+      "elapsed_seconds": 1156,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.23a8bbf1-234f-4302-9f53-dd9f659e4854",
+      "session": "25a000cf-ae97-404b-a778-5f57cb3cce13"
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 72,
+      "rank": 11,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "aws_cairn_zero_day",
+        "deepseek_funding",
+        "kimi_k31_pro_weights",
+        "apple_computer_use_agent"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124582684840399311",
+        "2124536771702874472",
+        "2124663594449318173",
+        "2124719968499777546",
+        "2124637709176016998",
+        "2124523916819648945",
+        "2124783794112938241",
+        "2124654748104302930",
+        "2124392641496588465"
+      ],
+      "elapsed_seconds": 1526,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.ec2e9f37-9c12-4686-89eb-fdf1f2668182",
+      "session": "797e74fe-eb60-4a94-ba67-62106fbf4021"
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 72,
+      "rank": 11,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "wang_superintelligence",
+        "lingsante_release",
+        "zhipu_glm54",
+        "msft_brad_smith_outages"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124719968499777546",
+        "2124523916819648945",
+        "2124536771702874472",
+        "2124583459356373052",
+        "2124664301504131184",
+        "2124637709176016998",
+        "2124783794112938241",
+        "2124695652341035179"
+      ],
+      "elapsed_seconds": 547,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.7ce7e720-7914-4032-8681-7a77d10883fd",
+      "session": "be3f3b26-aa4c-4c9b-9788-ca825a618021"
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 81,
+      "rank": 2,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "wang_superintelligence",
+        "lingsante_release",
+        "aws_cairn_zero_day",
+        "together_ai_prompt_leak"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124664301504131184",
+        "2124719968499777546",
+        "2124660436905926981",
+        "2124721500821623181",
+        "2124523916819648945",
+        "2124536771702874472",
+        "2124637709176016998",
+        "2124783794112938241"
+      ],
+      "elapsed_seconds": 316,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.144fdfc4-e779-4dea-bb93-f799457fce70",
+      "session": "ff3f66c6-443d-4fbd-8501-35145ed55704"
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "complete_local",
+      "score": 81,
+      "rank": 2,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "lingsante_release",
+        "vllm_nvme_cache",
+        "wang_superintelligence",
+        "nga_governors_ai_rules"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124555085640610194",
+        "2124719968499777546",
+        "2124536771702874472",
+        "2124783794112938241",
+        "2124637709176016998",
+        "2124588982117781808",
+        "2124311350558281766"
+      ],
+      "elapsed_seconds": 798,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.29c3e6cc-c8e5-4926-b330-ae0a09255b97",
+      "session": "5262078a-ead6-4644-888c-e564bfa1abed"
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "complete_local",
+      "score": 67,
+      "rank": 15,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "lingsante_release",
+        "aws_cairn_zero_day",
+        "msft_brad_smith_outages",
+        "nga_governors_ai_rules"
+      ],
+      "tweet_ids": [
+        "2124663594449318173",
+        "2124551594691932405",
+        "2124719968499777546",
+        "2124523916819648945",
+        "2124783794112938241",
+        "2124637709176016998",
+        "2124664301504131184",
+        "2124588982117781808",
+        "2124311350558281766",
+        "2124695652341035179"
+      ],
+      "elapsed_seconds": 1592,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.b79603e1-0165-450e-af47-5936fefcedc8",
+      "session": "a407fb68-61c6-45c7-a8e0-14fd247791f3"
+    },
+    {
+      "name": "gemini-4-hydrogen",
+      "slug": "gemini-4-hydrogen",
+      "status": "complete_local",
+      "score": 66,
+      "rank": 18,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "zhipu_glm54",
+        "lingsante_release",
+        "wang_superintelligence",
+        "apple_computer_use_agent"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124719968499777546",
+        "2124523916819648945",
+        "2124637709176016998",
+        "2124458557525397780",
+        "2124311350558281766",
+        "2124431846859813234",
+        "2124510697354883525",
+        "2124721500821623181"
+      ],
+      "elapsed_seconds": 246,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.0424977f-c704-497d-913f-f2dd3b70000f",
+      "session": "8818fa19-6da6-4fb8-8a86-cdac8af00e82"
+    },
+    {
+      "name": "gemini-4-neon",
+      "slug": "gemini-4-neon",
+      "status": "review_required",
+      "score": 80,
+      "rank": 5,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "lingsante_release",
+        "aws_cairn_zero_day",
+        "wang_superintelligence",
+        "apple_computer_use_agent"
+      ],
+      "tweet_ids": [
+        "2124663594449318173",
+        "2124582684840399311",
+        "2124719968499777546",
+        "2124523916819648945",
+        "2124536771702874472",
+        "2124637709176016998",
+        "2124458557525397780",
+        "2124654748104302930",
+        "2124311350558281766",
+        "2124721500821623181"
+      ],
+      "elapsed_seconds": 473,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.190d896c-c364-412b-b34a-6d282f05bb10",
+      "session": "c5f20429-3614-4cc3-97ce-9fbb679e08ca"
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "review_required",
+      "score": 57,
+      "rank": 21,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "lingsante_release",
+        "databricks_225b",
+        "ot_cyberattack_tests",
+        "apple_computer_use_agent"
+      ],
+      "tweet_ids": [
+        "2124583459356373052",
+        "2124582684840399311",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124637709176016998",
+        "2124458557525397780",
+        "2124536771702874472",
+        "2124783254683132414",
+        "2124695652341035179",
+        "2124557714080641400"
+      ],
+      "elapsed_seconds": 408,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.62aaae1b-49fd-4f83-96d3-dff3554d40dc",
+      "session": "96e8c178-5fc0-4b65-a2df-55984b9f92bc"
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 62,
+      "rank": 19,
+      "headline_event": "lingsante_release",
+      "story_events": [
+        "lingsante_release",
+        "perplexity_limits",
+        "vllm_nvme_cache",
+        "musk_tesla_world_model",
+        "nga_governors_ai_rules"
+      ],
+      "tweet_ids": [
+        "2124523916819648945",
+        "2124555085640610194",
+        "2124582684840399311",
+        "2124663594449318173",
+        "2124719968499777546",
+        "2124783794112938241",
+        "2124637709176016998",
+        "2124654748104302930",
+        "2124562528738988251",
+        "2124494355901640961"
+      ],
+      "elapsed_seconds": 339,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.0cabeca2-9915-4e91-a851-263df52f12f8",
+      "session": "44d4dcbd-a5c8-473e-8b88-1e1fcddfc89f"
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 57,
+      "rank": 21,
+      "headline_event": "lingsante_release",
+      "story_events": [
+        "lingsante_release",
+        "perplexity_limits",
+        "ot_cyberattack_tests",
+        "apple_computer_use_agent",
+        "india_ai_funding"
+      ],
+      "tweet_ids": [
+        "2124523916819648945",
+        "2124555085640610194",
+        "2124583459356373052",
+        "2124663594449318173",
+        "2124637709176016998",
+        "2124684387761430549",
+        "2124536771702874472",
+        "2124695652341035179",
+        "2124654748104302930",
+        "2124797213272690972"
+      ],
+      "elapsed_seconds": 235,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.16625c3e-f7aa-4389-afbf-ff31011640c2",
+      "session": "3a37a764-adc4-408d-9455-012c7c59efc4"
+    },
+    {
+      "name": "gpt-6-2-astra",
+      "slug": "gpt-6-2-astra",
+      "status": "complete_local",
+      "score": 76,
+      "rank": 8,
+      "headline_event": "lingsante_release",
+      "story_events": [
+        "lingsante_release",
+        "perplexity_limits",
+        "apple_computer_use_agent",
+        "vllm_nvme_cache",
+        "nope_world_video"
+      ],
+      "tweet_ids": [
+        "2124523916819648945",
+        "2124555085640610194",
+        "2124663594449318173",
+        "2124551594691932405",
+        "2124783794112938241",
+        "2124772275593654290",
+        "2124637709176016998",
+        "2124684387761430549",
+        "2124719968499777546",
+        "2124793451241971994"
+      ],
+      "elapsed_seconds": 168,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.d19b0070-f92d-46a8-9516-60c633ed29db",
+      "session": "74a4b4c0-18da-4efd-a799-2851de407eff"
+    },
+    {
+      "name": "gpt-6-2-sol",
+      "slug": "gpt-6-2-sol",
+      "status": "complete_local",
+      "score": 47,
+      "rank": 23,
+      "headline_event": "lingsante_release",
+      "story_events": [
+        "lingsante_release",
+        "perplexity_limits",
+        "vllm_nvme_cache",
+        "openrouter_provider_offboarding",
+        "nga_governors_ai_rules"
+      ],
+      "tweet_ids": [
+        "2124523916819648945",
+        "2124663594449318173",
+        "2124783794112938241",
+        "2124637709176016998",
+        "2124772275593654290",
+        "2124695652341035179",
+        "2124654748104302930",
+        "2124431846859813234",
+        "2124322968499282388",
+        "2124797213272690972"
+      ],
+      "elapsed_seconds": 414,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.878e5667-de24-4b9a-bb1d-4077aae5db7b",
+      "session": "f7a44148-2878-4ef7-bbe3-30f8447dca78"
+    },
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 62,
+      "rank": 19,
+      "headline_event": "lingsante_release",
+      "story_events": [
+        "lingsante_release",
+        "mai2_perplexity",
+        "vllm_nvme_cache",
+        "apple_computer_use_agent",
+        "nga_governors_ai_rules"
+      ],
+      "tweet_ids": [
+        "2124523916819648945",
+        "2124555085640610194",
+        "2124663594449318173",
+        "2124582684840399311",
+        "2124783794112938241",
+        "2124719968499777546",
+        "2124684387761430549",
+        "2124654748104302930",
+        "2124562528738988251",
+        "2124431846859813234"
+      ],
+      "elapsed_seconds": 212,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.00eb549d-79d6-4599-91c2-5230f5ec6eb7",
+      "session": "29c3ff89-b0c9-4eb2-bb2a-c3d8f0951379"
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "review_required",
+      "score": 76,
+      "rank": 8,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "aws_cairn_zero_day",
+        "lingsante_release",
+        "india_ai_funding",
+        "vllm_nvme_cache"
+      ],
+      "tweet_ids": [
+        "2124551883130114403",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124783794112938241",
+        "2124684387761430549",
+        "2124637709176016998",
+        "2124536771702874472",
+        "2124664301504131184",
+        "2124431846859813234",
+        "2124562528738988251"
+      ],
+      "elapsed_seconds": 1240,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.1844197b-afb0-49d9-9394-653983e13069",
+      "session": "63496044-5076-4508-ad1d-484794370a67"
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 86,
+      "rank": 1,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "mai2_perplexity",
+        "lingsante_release",
+        "aws_cairn_zero_day",
+        "wang_superintelligence"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124582684840399311",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124719968499777546",
+        "2124536771702874472",
+        "2124555085640610194",
+        "2124783794112938241",
+        "2124637709176016998",
+        "2124660436905926981"
+      ],
+      "elapsed_seconds": 886,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.ed5dfae0-3239-478a-825a-8313fde63052",
+      "session": "87bb73d0-fd6f-4f34-bc8f-f4cc6bafbca5"
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 67,
+      "rank": 15,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "aws_cairn_zero_day",
+        "lingsante_release",
+        "palo_alto_applied_compute",
+        "databricks_225b"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124536771702874472",
+        "2124523916819648945",
+        "2124557714080641400",
+        "2124637709176016998",
+        "2124684387761430549",
+        "2124783794112938241",
+        "2124348911553061167",
+        "2124664301504131184",
+        "2124274838554497271"
+      ],
+      "elapsed_seconds": 265,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.a33029fc-785f-4442-a4c3-680cb22faef7",
+      "session": "adc96fb4-2b79-4d27-8521-a3015d07283d"
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 77,
+      "rank": 6,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "lingsante_release",
+        "mai2_perplexity",
+        "vllm_nvme_cache",
+        "databricks_225b"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124555085640610194",
+        "2124783794112938241",
+        "2124637709176016998",
+        "2124684387761430549",
+        "2124719968499777546",
+        "2124458557525397780",
+        "2124536771702874472"
+      ],
+      "elapsed_seconds": 249,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.b96bcc7d-fbf7-4bb5-8b8f-8b4745ac7f80",
+      "session": "dbb9977b-c38a-477f-965f-02b241226419"
+    },
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "review_required",
+      "score": 72,
+      "rank": 11,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "amazon_decart",
+        "aws_cairn_zero_day",
+        "lingsante_release",
+        "ot_cyberattack_tests"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124582684840399311",
+        "2124664301504131184",
+        "2124536771702874472",
+        "2124523916819648945",
+        "2124637709176016998",
+        "2124783794112938241",
+        "2124558713646428663",
+        "2124392641496588465"
+      ],
+      "elapsed_seconds": 454,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.9cfed917-a611-4da6-a1a8-82e13d1c5186",
+      "session": "bee93f18-6684-4f58-ba76-46c11abc2be5"
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 77,
+      "rank": 6,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "wang_superintelligence",
+        "lingsante_release",
+        "sarvam_105b",
+        "openrouter_provider_offboarding"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124582684840399311",
+        "2124719968499777546",
+        "2124523916819648945",
+        "2124536771702874472",
+        "2124637709176016998",
+        "2124783794112938241",
+        "2124695652341035179",
+        "2124664301504131184"
+      ],
+      "elapsed_seconds": 330,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.d88db599-9596-4447-9f42-6d6c8e1e91a2",
+      "session": "53d8db36-d995-4b79-8308-1f73689bc62d"
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "review_required",
+      "score": 67,
+      "rank": 15,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "aws_cairn_zero_day",
+        "lingsante_release",
+        "sglang_rubin_nvl72",
+        "citi_fraser_ai_reset"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124637709176016998",
+        "2124536771702874472",
+        "2124719968499777546",
+        "2124270426402836626",
+        "2124311350558281766",
+        "2124783794112938241",
+        "2124322968499282388"
+      ],
+      "elapsed_seconds": 1822,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.6ef26f21-758a-4a22-b1ad-62928839aaba",
+      "session": "b8b88a79-4631-4749-8412-1c7a05904e65"
+    },
+    {
+      "name": "qwen-4-max",
+      "slug": "qwen-4-max",
+      "status": "review_required",
+      "score": 81,
+      "rank": 2,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "lingsante_release",
+        "aws_cairn_zero_day",
+        "vllm_nvme_cache",
+        "databricks_225b"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124523916819648945",
+        "2124536771702874472",
+        "2124637709176016998",
+        "2124783794112938241",
+        "2124719968499777546",
+        "2124664301504131184",
+        "2124721500821623181",
+        "2124697739053117589"
+      ],
+      "elapsed_seconds": 599,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.6713717e-8529-4d5e-ae0e-974265404c37",
+      "session": "439bbca2-9ee4-4dbd-9988-3382636c8c1c"
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 76,
+      "rank": 8,
+      "headline_event": "perplexity_limits",
+      "story_events": [
+        "perplexity_limits",
+        "wang_superintelligence",
+        "lingsante_release",
+        "tesla_fsd_v15",
+        "apple_computer_use_agent"
+      ],
+      "tweet_ids": [
+        "2124551594691932405",
+        "2124663594449318173",
+        "2124719968499777546",
+        "2124523916819648945",
+        "2124637709176016998",
+        "2124536771702874472",
+        "2124783254683132414",
+        "2124582684840399311",
+        "2124721500821623181",
+        "2124392641496588465"
+      ],
+      "elapsed_seconds": 226,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.d6405071-3e70-4714-b604-6f6fa299c1a2",
+      "session": "4a47d08f-ddad-47a0-b9d0-45256b9acb53"
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "perplexity_limits": "OpenAI's chief scientist publishes pretraining perplexity data and proposes shared perplexity-based development/safety limits",
+    "lingsante_release": "Ant Group's Ant Ling releases open-weight LingSante-3.1 medical model family",
+    "vllm_nvme_cache": "vLLM/AMD show direct NVMe KV-cache offloading matches DRAM throughput for agentic workloads",
+    "apple_computer_use_agent": "Apple is recruiting/building an autonomous computer-use AI agent (device control, apps, browsing, coding)",
+    "nga_governors_ai_rules": "National Governors Association issues bipartisan principles preserving state AI oversight authority",
+    "aws_cairn_zero_day": "Amazon reports autonomous Cairn AI agents found and exploited a MONAI medical-imaging zero-day",
+    "mai2_perplexity": "Microsoft shares MAI-2 base log-perplexity on OpenAI's evaluation set",
+    "musk_tesla_world_model": "Musk/Tesla describe the neural world model behind the in-car visualizer",
+    "ot_cyberattack_tests": "FT: AI speeds planning of industrial/OT cyberattacks in Forescout/Booz Allen lab tests",
+    "india_ai_funding": "India's AI funding nearly doubles to $1.6 billion, driven by a handful of deals",
+    "wang_superintelligence": "Meta AI chief Alexandr Wang warns superintelligence is arriving, discusses control and the Muse delay",
+    "databricks_225b": "Databricks in talks to raise at a $225 billion valuation",
+    "nope_world_video": "NoPeWorld helps video models stop at walls (arXiv)",
+    "openrouter_provider_offboarding": "OpenRouter drops three inference providers after data-handling findings",
+    "zhipu_glm54": "Zhipu/Z.ai ships GLM-5.4 with vision and million-token context",
+    "msft_brad_smith_outages": "Microsoft's Brad Smith says an AI-driven patching race risks months of tech outages",
+    "together_ai_prompt_leak": "Together AI says a coding agent leaked a credential exposing customer prompts",
+    "sarvam_105b": "Sarvam releases open-weight Sarvam-105B-1711",
+    "deepseek_funding": "DeepSeek closes about a $15 billion funding round ahead of its Shanghai IPO",
+    "kimi_k31_pro_weights": "Moonshot AI publishes open weights for Kimi K3.1 Pro",
+    "amazon_decart": "Amazon nears a $7.5 billion purchase of AI startup Decart",
+    "tesla_fsd_v15": "Tesla begins rolling out FSD v15 with generative Reality View",
+    "palo_alto_applied_compute": "Palo Alto Networks agrees to buy Applied Compute for $4.5 billion",
+    "sglang_rubin_nvl72": "SGLang Rubin NVL72 submission shows 6.5x performance per dollar over GB300",
+    "nasdaq_correction": "Nasdaq posts its worst week since March 2020 as AI stocks close in correction",
+    "citi_fraser_ai_reset": "Citi CEO Jane Fraser says the AI market reset brings healthy selectivity"
+  },
+  "headline_votes": {
+    "perplexity_limits": 18,
+    "lingsante_release": 5
+  },
+  "story_votes": {
+    "perplexity_limits": 22,
+    "lingsante_release": 22,
+    "apple_computer_use_agent": 9,
+    "aws_cairn_zero_day": 11,
+    "nasdaq_correction": 1,
+    "deepseek_funding": 1,
+    "kimi_k31_pro_weights": 1,
+    "wang_superintelligence": 8,
+    "zhipu_glm54": 2,
+    "msft_brad_smith_outages": 2,
+    "together_ai_prompt_leak": 1,
+    "vllm_nvme_cache": 8,
+    "nga_governors_ai_rules": 5,
+    "databricks_225b": 4,
+    "ot_cyberattack_tests": 3,
+    "musk_tesla_world_model": 1,
+    "india_ai_funding": 2,
+    "nope_world_video": 1,
+    "openrouter_provider_offboarding": 2,
+    "mai2_perplexity": 3,
+    "palo_alto_applied_compute": 1,
+    "amazon_decart": 1,
+    "sarvam_105b": 1,
+    "sglang_rubin_nvl72": 1,
+    "citi_fraser_ai_reset": 1,
+    "tesla_fsd_v15": 1
+  },
+  "tweet_votes": {
+    "2124551594691932405": 16,
+    "2124663594449318173": 22,
+    "2124523916819648945": 23,
+    "2124719968499777546": 17,
+    "2124684387761430549": 7,
+    "2124270426402836626": 2,
+    "2124311350558281766": 6,
+    "2124562528738988251": 4,
+    "2124536771702874472": 17,
+    "2124431846859813234": 5,
+    "2124582684840399311": 9,
+    "2124637709176016998": 21,
+    "2124783794112938241": 17,
+    "2124654748104302930": 6,
+    "2124392641496588465": 3,
+    "2124583459356373052": 3,
+    "2124664301504131184": 8,
+    "2124695652341035179": 6,
+    "2124660436905926981": 2,
+    "2124721500821623181": 5,
+    "2124555085640610194": 7,
+    "2124588982117781808": 2,
+    "2124458557525397780": 4,
+    "2124510697354883525": 1,
+    "2124783254683132414": 2,
+    "2124557714080641400": 2,
+    "2124494355901640961": 1,
+    "2124797213272690972": 2,
+    "2124772275593654290": 2,
+    "2124793451241971994": 1,
+    "2124322968499282388": 2,
+    "2124551883130114403": 1,
+    "2124348911553061167": 1,
+    "2124274838554497271": 1,
+    "2124558713646428663": 1,
+    "2124697739053117589": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 8,
+    "tweet_cut_votes": 7,
+    "eligible_stories": [
+      "apple_computer_use_agent",
+      "aws_cairn_zero_day",
+      "lingsante_release",
+      "perplexity_limits",
+      "vllm_nvme_cache",
+      "wang_superintelligence"
+    ],
+    "eligible_tweets": [
+      "2124523916819648945",
+      "2124536771702874472",
+      "2124551594691932405",
+      "2124555085640610194",
+      "2124582684840399311",
+      "2124637709176016998",
+      "2124663594449318173",
+      "2124664301504131184",
+      "2124684387761430549",
+      "2124719968499777546",
+      "2124783794112938241"
+    ]
+  },
+  "eligible_denominator": 23,
+  "source_hashes": {
+    "2026-11-23/deepseek-v4-1-flash-1017/2026-11-23.edition.md": "64c3766c7908624c8a091c523cf133eddd581802d355cd85b55b5c7c8a0fbaed",
+    "2026-11-23/deepseek-v4-1-flash-1017/2026-11-23.html": "78d61cebbe12bb12630f98f5865cb2eee2e3b6be8ad1d0a4c1eff045f1208797",
+    "2026-11-23/deepseek-v4-1-flash-1017/run.json": "08dbf1bfdab9cbe19d04d41da776adca4463bd3f8af9cc060672186e95d9e764",
+    "2026-11-23/deepseek-v4-1-flash-1017/headline.json": "eccbc02b1702ab099ef0f1aed9f17116c5701473a057dc846dee60387ff27048",
+    "2026-11-23/deepseek-v4-1-flash-1017/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/deepseek-v4-1-flash-1017/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/deepseek-v4-pro/2026-11-23.edition.md": "4eda880822949d629d5339bac769c96bcf229bdc9d1f410bcf37c2ce0d188fd4",
+    "2026-11-23/deepseek-v4-pro/2026-11-23.html": "2696f0801c44b17d02d39962d8b1bb27882e3530bf492d27e08f4d8e323e7910",
+    "2026-11-23/deepseek-v4-pro/run.json": "2ca8abc585dc930a5a2da8ec093ed2b3c6871e0df216db476f87b71be51aa95d",
+    "2026-11-23/deepseek-v4-pro/headline.json": "d71b8090792ad0e3062fcdb60d05c49724e9fcf8a1563045fab7f98128fee74c",
+    "2026-11-23/deepseek-v4-pro/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/deepseek-v4-pro/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/fable-5-1/2026-11-23.edition.md": "00831fb5a2bd348bf5cd1c55aa63eedabafd0e0e250b9c7ae3a061e370238a77",
+    "2026-11-23/fable-5-1/2026-11-23.html": "c4f0604f95420e43b5042f38d45684c8697328a9d6a680d0ce20e1b64c678cb9",
+    "2026-11-23/fable-5-1/run.json": "8c618aead0d844af099d326d019500e5f2a19514eed085d4e9928978a5e675bc",
+    "2026-11-23/fable-5-1/headline.json": "ed2c291db66d001551464c9974df5c720f7b34bbc92037f8bb2fe99272605eb3",
+    "2026-11-23/fable-5-1/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/fable-5-1/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/fable-5-2/2026-11-23.edition.md": "daeb121e11472fa56afebf2afc3a4f6f48a3a4f049b4cbf8c633c8c4073242df",
+    "2026-11-23/fable-5-2/2026-11-23.html": "433552d6e4101f2f5757e2e2a735fd78b07974e5022b2dc6e5123148f882660d",
+    "2026-11-23/fable-5-2/run.json": "f90056e644e0df8be8a635881e0f90a794cc3d7031e46faaeaed712a39a9ee25",
+    "2026-11-23/fable-5-2/headline.json": "c15b31cf39c5ad48ed8f7a9c7799f4b0568a4d6e33df2e6378996ba186869e80",
+    "2026-11-23/fable-5-2/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/fable-5-2/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gemini-4-argon/2026-11-23.edition.md": "231c5ecee7da38950a8b9390e5426a2f6eecd13a6ce9aa6bc2cb927621f2c422",
+    "2026-11-23/gemini-4-argon/2026-11-23.html": "9f98c47ffcaaf77f2b7494450e8da7871c0f14d67ebbb2f4d63a062fa6c35334",
+    "2026-11-23/gemini-4-argon/run.json": "40074467926bfc274f9c88ddd3d51319f0debeba3a4413d07ac287fb087451c7",
+    "2026-11-23/gemini-4-argon/headline.json": "24a49307acc23133ea46f89963af81657b73231c2786bf7e633d946f11f33a5b",
+    "2026-11-23/gemini-4-argon/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gemini-4-argon/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gemini-4-carbon/2026-11-23.edition.md": "d6b11dc7884f9b523e00e0ab8b91d9b53d98baff44f33d294452f944ea508d79",
+    "2026-11-23/gemini-4-carbon/2026-11-23.html": "910b32dfa100e3c5700e799283e83fbf67983bcede2d04985a2437376629e46b",
+    "2026-11-23/gemini-4-carbon/run.json": "651a3e5e5f5cfae271c5887799b92bca038b862b8f62e0e4de09fb636bd9fbbd",
+    "2026-11-23/gemini-4-carbon/headline.json": "2c5c49166db951a4a0b7db7f826a9f289bee7181390f764c20bb81296929f226",
+    "2026-11-23/gemini-4-carbon/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gemini-4-carbon/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gemini-4-hydrogen/2026-11-23.edition.md": "0c8c469b58eec948a5d17d4854c8f7770cfc20c5ef715b76e3639d515c1d2e18",
+    "2026-11-23/gemini-4-hydrogen/2026-11-23.html": "cb42d6cbd366a832ef094d1e8f3bb85df974afa3cbc180f61f71c868d812a2da",
+    "2026-11-23/gemini-4-hydrogen/run.json": "7ee54f8a45117d1d90522d7c62db27e9ef08ef2bb3b43d5dd5ab762041e33d7b",
+    "2026-11-23/gemini-4-hydrogen/headline.json": "2558dca09032df1c19d47f2a0cfe673de3725ecc13fef71474562aeb8f71da08",
+    "2026-11-23/gemini-4-hydrogen/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gemini-4-hydrogen/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gemini-4-neon/2026-11-23.edition.md": "2a8a84bd8fc90a790afad3fb5e904ad6a417c46ac20c90cdbf914d600cc4cd9a",
+    "2026-11-23/gemini-4-neon/2026-11-23.html": "ab62e5faceb2841a4b135bf6b2aa30cb884622d9dbf18c358e7958443212d9f9",
+    "2026-11-23/gemini-4-neon/run.json": "dd34dc74159daabf45fe60067a61f6ec72b2461b58c015d9172209de8de6d556",
+    "2026-11-23/gemini-4-neon/headline.json": "3c9e9573fb64a8ead73972a147fcf59d8e69981c158a6336d04ac1dc535748a0",
+    "2026-11-23/gemini-4-neon/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gemini-4-neon/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/glm-5-3/2026-11-23.edition.md": "35ec50854a956833b2c03fe30461f63199af68b9af2366c4f4a5344e838433e2",
+    "2026-11-23/glm-5-3/2026-11-23.html": "c42f6a5ade9efe313c206760b6f8b91f34148d40a1c5f3c1f4f3e1dac61a578d",
+    "2026-11-23/glm-5-3/run.json": "3871ae72c5f4f01cd9cf65895a42dbd4b5c38e500e9bf50f2a807e9fa885936a",
+    "2026-11-23/glm-5-3/headline.json": "479b297bc1f6594d05d92d6f601d366a54558781fdd49ad1822e67f67ad7f715",
+    "2026-11-23/glm-5-3/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/glm-5-3/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gpt-6-1-sol/2026-11-23.edition.md": "eadf4d45076f58b5090262eeab895c131675c4e2aebbe12fd125a28c40c65cb2",
+    "2026-11-23/gpt-6-1-sol/2026-11-23.html": "68a2b0e5886bd3fa5ee2b64dc0b45ff13d3c511ab06e5b41dd42f34e980acce2",
+    "2026-11-23/gpt-6-1-sol/run.json": "bde849de5bf5c1973300150a56e453fa1ae08cda8fb5cb2a2b1d7b46d8da3043",
+    "2026-11-23/gpt-6-1-sol/headline.json": "0a0a2f10fc83200a1d54fe5c11797910acb3f2e0aeece19840f289e6c8ccbd0e",
+    "2026-11-23/gpt-6-1-sol/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gpt-6-1-sol/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gpt-6-1-terra/2026-11-23.edition.md": "ca9db581824e17c755a856dc8d8502da2fc7be290c49e496a06a6f616f01aac7",
+    "2026-11-23/gpt-6-1-terra/2026-11-23.html": "9098a378c09de689f3c356f0b940cab58561056df39ec87c0c816c71cd74c388",
+    "2026-11-23/gpt-6-1-terra/run.json": "929984c607ba7aa6f75cec8fb6735a6de7d3b41607cef5c7b46638eb7935de2c",
+    "2026-11-23/gpt-6-1-terra/headline.json": "ea6ea33deab33eb956033ae9d9ee22b9b034a2354d963246f6c90728f6446b29",
+    "2026-11-23/gpt-6-1-terra/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gpt-6-1-terra/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gpt-6-2-astra/2026-11-23.edition.md": "02426a6494e0a59834b26033628e0db10b2755bb3ff213769e8925b560b31837",
+    "2026-11-23/gpt-6-2-astra/2026-11-23.html": "0325d5f726a1ee3d169fb1ba38d6b4834da496c20c3ad3e2067274151d6317e8",
+    "2026-11-23/gpt-6-2-astra/run.json": "066c55456d4769c4ad5a12cba5796f95942e26598fb4faf9744f43d3e1b740cc",
+    "2026-11-23/gpt-6-2-astra/headline.json": "84f7aaa1cb3c17ee452e536a6c73d5ef9bf1ac9741b593e9228018e951a11ead",
+    "2026-11-23/gpt-6-2-astra/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gpt-6-2-astra/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gpt-6-2-sol/2026-11-23.edition.md": "307ef2fa92a3fc495f6f7db72008b917194d0899befef867dafeaf65737f6eca",
+    "2026-11-23/gpt-6-2-sol/2026-11-23.html": "00b3d56f11be49321eda23b13b3551a902ebf890a8a5fb58bdc8af9c1e414030",
+    "2026-11-23/gpt-6-2-sol/run.json": "480fe3148aa6edb455f41e7ac5b8448e267f70733657219dde5748cb15ac7d2e",
+    "2026-11-23/gpt-6-2-sol/headline.json": "0c3fa0502e7859f080f402a8cbb0d6ea6ccf1a61457d42445cccf387a9bab376",
+    "2026-11-23/gpt-6-2-sol/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gpt-6-2-sol/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gpt-6-astra/2026-11-23.edition.md": "f2ee2c3d8eca9eb9e2676dc357080fb38d123a14860c19a0f190eb6b7e4e4eb0",
+    "2026-11-23/gpt-6-astra/2026-11-23.html": "0cdc90cd1f3550881badd2c97d71f7d569cd50162deca0679f80445aa7726ea9",
+    "2026-11-23/gpt-6-astra/run.json": "22400f354771501bb3644b1a1cdcd7590033cdd4b08026994215fd543d3957fd",
+    "2026-11-23/gpt-6-astra/headline.json": "85289b7fe4b1890bffe7aff284ff762dcbf5fe49a5ccb7d7cdd29b7bb1a35b46",
+    "2026-11-23/gpt-6-astra/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gpt-6-astra/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/gpt-6-luna/2026-11-23.edition.md": "0aec068e33da9a36493a0000374254d26262402075b7ca08c2878d8d7ddecde9",
+    "2026-11-23/gpt-6-luna/2026-11-23.html": "61ebe8b6c8e592db1ddfa060d202a4976ed5f12cfd5f1ae8368efb7277745ede",
+    "2026-11-23/gpt-6-luna/run.json": "d05f490c22f4b8710e34042cd5f3aae7ea05a0b01c4e62d45f8a3394ca30e6d8",
+    "2026-11-23/gpt-6-luna/headline.json": "49813dbc4fd312d020b26399badf9f64a7071f9c9ecf8389019991c649fb97c0",
+    "2026-11-23/gpt-6-luna/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/gpt-6-luna/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/grok-4-7/2026-11-23.edition.md": "8095e4371ed40ee9ad60a0e88b497263d3c733e810e98ac7e400fe2bacdc6fa4",
+    "2026-11-23/grok-4-7/2026-11-23.html": "f39e221579c8b7c126320ad7d34f44a5c595813c5f51e0c41893f62f25f436ee",
+    "2026-11-23/grok-4-7/run.json": "1c35bf54209a101e6e938087cd7ecf22906965415a449cd9332e8bdbd9bfa96d",
+    "2026-11-23/grok-4-7/headline.json": "aeb15ac3afef3dfc13dfbff387fed048b685620f7530afea2a66b8a57fc26de6",
+    "2026-11-23/grok-4-7/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/grok-4-7/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/haiku-5-5/2026-11-23.edition.md": "c608edd8694f4b701481004fb9278e4f33379ca22c3a0b17c22e490eafe10f69",
+    "2026-11-23/haiku-5-5/2026-11-23.html": "f9570af8334819fd6e1aeeb37ac4f6941810855cf4e7be7168ac4cf5e0fdf02e",
+    "2026-11-23/haiku-5-5/run.json": "67d1ee8f6a9b24c8168c5c1473d39847d873fbf62dc3d3e52eb739a7abc1345e",
+    "2026-11-23/haiku-5-5/headline.json": "f5d45420ab79472e43e60e75bd46df7eda83acc08d8f2944c57759661c5b8c05",
+    "2026-11-23/haiku-5-5/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/haiku-5-5/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/kimi-k3-1-pro/2026-11-23.edition.md": "485a8009cc453fb89c7eeda606eba448769d5be4289bc75b0a720a40115c4274",
+    "2026-11-23/kimi-k3-1-pro/2026-11-23.html": "ff350e43984e8ef34217e4acdf8b174a9c5a74ccf6553725bd2f5c27c7c5481d",
+    "2026-11-23/kimi-k3-1-pro/run.json": "a08046647c975a68482af3e2ecb3bc7ba4f5ecd9c544802e41ce766a67c2c381",
+    "2026-11-23/kimi-k3-1-pro/headline.json": "c9590dba34cd4bb2f0d354490d90d4677826cd3bec027fdd0bea9022d8dd28b3",
+    "2026-11-23/kimi-k3-1-pro/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/kimi-k3-1-pro/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/minimax-m3-1-flash/2026-11-23.edition.md": "0a35c4b89ed0412fd2aeab10163789bb7c6912e874c95e28086dd40be788c9e9",
+    "2026-11-23/minimax-m3-1-flash/2026-11-23.html": "b331df97e7f6f7b8a56fadf0d54c446d7aba33cdcfc31a3f91e3f4d53fb2bfb1",
+    "2026-11-23/minimax-m3-1-flash/run.json": "42c61ae851feff8fa48014732280709046759d2dcfb084dddbffc69449f78d0a",
+    "2026-11-23/minimax-m3-1-flash/headline.json": "911ce63a627bafd503a35dbaaa3874b5c49044a93d98c096311051b90747c066",
+    "2026-11-23/minimax-m3-1-flash/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/minimax-m3-1-flash/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/opus-5-5/2026-11-23.edition.md": "346cfd9cc9f4496f276a1879acf196b63c43e29404a6b74907bc53b1766f4054",
+    "2026-11-23/opus-5-5/2026-11-23.html": "54198490c2a618624a31c3513644e3de9166cd46c2bafac20c1122cbd652e2ee",
+    "2026-11-23/opus-5-5/run.json": "9fe175839fe4af0b1cd3edc1ce02d813f98f33ae09647bf9644731f08fb69599",
+    "2026-11-23/opus-5-5/headline.json": "d1faa94dc78a9d508f177e09a3a32d66b122e3d0996e04f342cbb652592385bd",
+    "2026-11-23/opus-5-5/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/opus-5-5/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/qwen-3-8-max-0902/2026-11-23.edition.md": "376b3fa5888b41f077eeec04a35ab201c07314a86aa1d01661ffe11d51f6e435",
+    "2026-11-23/qwen-3-8-max-0902/2026-11-23.html": "aef5f07a68ffcba11c5ed6fba9b62d162806355d9a9a6dc323a29b6889836097",
+    "2026-11-23/qwen-3-8-max-0902/run.json": "e7a443fbd8ee6ec14db8fd49e59b519f2388f2f75562c115c8e66a112d5703a2",
+    "2026-11-23/qwen-3-8-max-0902/headline.json": "e7cc64266ff51ab23b8ad5fbaedef89241f8301c7f80983f6dc5798663e89af2",
+    "2026-11-23/qwen-3-8-max-0902/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/qwen-3-8-max-0902/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/qwen-4-max/2026-11-23.edition.md": "5ed30e0da399d7225544ce5a03a1609a14d0d3ecfec2fb67e205dde119d15894",
+    "2026-11-23/qwen-4-max/2026-11-23.html": "f605da92098cc65ed6eb0254bd217de60bd8326cd00196f3bfb3baecb066ea1d",
+    "2026-11-23/qwen-4-max/run.json": "ee72c7b2230bd91fd155b9f9e5559d264be6d30bd0d7a5855bc4cc8a7d667ee8",
+    "2026-11-23/qwen-4-max/headline.json": "0f7013317874aef5f2e3ba0e9c24452aa1e667c88cf412caedbb63f89d08b66e",
+    "2026-11-23/qwen-4-max/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/qwen-4-max/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e",
+    "2026-11-23/sonnet-5-5/2026-11-23.edition.md": "34d764a2a13a0a964a372773cc58bc272edefbd4332dd626f9a4984769249ccc",
+    "2026-11-23/sonnet-5-5/2026-11-23.html": "0119e55636231a129862abba33d7c498a41c7b0a01442cf3a745b2c389d652d1",
+    "2026-11-23/sonnet-5-5/run.json": "00a2d6f8301fecb69198d82ce0d8e093e3d6fc02f5c167d9929e84692fec8425",
+    "2026-11-23/sonnet-5-5/headline.json": "1a79cd1df0233358d2ac4e4f2ac58fb5e283f22725d26aae563f0c1b3203d192",
+    "2026-11-23/sonnet-5-5/2026-11-23.x-collection.json": "e483de45e1ec4a1611f70c3cdb034b9ada95af3777ef92329ad6bbaf447d7dbb",
+    "2026-11-23/sonnet-5-5/2026-11-23.web-search.json": "64263bd4632df99f48d39f0d33b0e561d99617013f6055b85fd3af46ac48699e"
+  },
+  "event_url_bindings": {
+    "deepseek-v4-1-flash-1017": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "lingsante_release": "https://pandaily.com/ant-ling-lingsante-medical-models-open-weights",
+      "apple_computer_use_agent": "https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "nasdaq_correction": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
+    },
+    "deepseek-v4-pro": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "aws_cairn_zero_day": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "deepseek_funding": "https://www.caixinglobal.com/2026-11-20/deepseek-closes-100-billion-yuan-funding-round-102506825.html",
+      "kimi_k31_pro_weights": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "apple_computer_use_agent": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding"
+    },
+    "fable-5-1": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "wang_superintelligence": "https://x.com/alexandr_wang/status/2124636606959345776",
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "zhipu_glm54": "https://technode.com/2026/11/23/zhipu-rolls-out-glm-5-4-with-vision-and-million-token-context/",
+      "msft_brad_smith_outages": "https://www.cbsnews.com/news/transcript-brad-smith-microsoft-on-face-the-nation-with-margaret-brennan-nov-22-2026/"
+    },
+    "fable-5-2": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "wang_superintelligence": "https://www.calcalistech.com/ctechnews/article/hked2tbjqx",
+      "lingsante_release": "https://www.morningstar.com/news/business-wire/20261122564652/ant-groups-ai-app-afu-open-sources-medical-and-health-ai-model-family",
+      "aws_cairn_zero_day": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "together_ai_prompt_leak": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+    },
+    "gemini-4-argon": {
+      "perplexity_limits": "https://thenextweb.com/news/openai-chief-scientist-shared-ai-limits",
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "vllm_nvme_cache": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+      "wang_superintelligence": "https://www.calcalistech.com/ctechnews/article/hked2tbjqx",
+      "nga_governors_ai_rules": "https://www.pymnts.com/news/artificial-intelligence/2026/governors-want-states-to-have-a-voice-in-regulating-ai/"
+    },
+    "gemini-4-carbon": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence",
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "msft_brad_smith_outages": "https://www.cbsnews.com/news/transcript-brad-smith-microsoft-on-face-the-nation-with-margaret-brennan-nov-22-2026/",
+      "nga_governors_ai_rules": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/"
+    },
+    "gemini-4-hydrogen": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "zhipu_glm54": "https://aiweekly.co/alerts/zai-ships-glm-54-a-750b-loop-transformer-that-runs-28-of-78-layers-twice",
+      "lingsante_release": "https://cellcog.ai/blog/lingsante-3-1-flash/",
+      "wang_superintelligence": "https://x.com/alexandr_wang/status/2124636606959345776",
+      "apple_computer_use_agent": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
+    },
+    "gemini-4-neon": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "lingsante_release": "https://www.unite.ai/ant-group-begins-open-weight-release-of-lingsante-medical-ai-models/",
+      "aws_cairn_zero_day": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+      "wang_superintelligence": "https://x.com/alexandr_wang/status/2124636606959345776",
+      "apple_computer_use_agent": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
+    },
+    "glm-5-3": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "lingsante_release": "https://x.com/AntLingAGI/status/2124523916819648945",
+      "databricks_225b": "https://www.siliconrepublic.com/business/wsj-databricks-in-talks-to-raise-new-funding-at-225bn-valuation",
+      "ot_cyberattack_tests": "https://aiweekly.co/alerts/ft-ai-speeds-ot-attack-planning-in-forescout-booz-allen-tests",
+      "apple_computer_use_agent": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
+    },
+    "gpt-6-1-sol": {
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "vllm_nvme_cache": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+      "musk_tesla_world_model": "https://x.com/elonmusk/status/2124458557525397780",
+      "nga_governors_ai_rules": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/"
+    },
+    "gpt-6-1-terra": {
+      "lingsante_release": "https://cellcog.ai/blog/lingsante-3-1-flash/",
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "ot_cyberattack_tests": "https://aiweekly.co/alerts/ft-ai-speeds-ot-attack-planning-in-forescout-booz-allen-tests",
+      "apple_computer_use_agent": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/",
+      "india_ai_funding": "https://www.fortuneindia.com/startups-news/indias-ai-funding-nearly-doubles-to-16-billion-but-a-handful-of-deals-drive-the-surge-report/171774"
+    },
+    "gpt-6-2-astra": {
+      "lingsante_release": "https://x.com/AntLingAGI/status/2124523916819648945",
+      "perplexity_limits": "https://finance.biggo.com/news/47f69d23-960f-4816-b34e-4d48e3979fe2",
+      "apple_computer_use_agent": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/",
+      "vllm_nvme_cache": "https://x.com/vllm_project/status/2124783794112938241",
+      "nope_world_video": "https://arxiv.org/html/2611.27963"
+    },
+    "gpt-6-2-sol": {
+      "lingsante_release": "https://www.morningstar.com/news/business-wire/20261122564652/ant-groups-ai-app-afu-open-sources-medical-and-health-ai-model-family",
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "vllm_nvme_cache": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+      "openrouter_provider_offboarding": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "nga_governors_ai_rules": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/"
+    },
+    "gpt-6-astra": {
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "mai2_perplexity": "https://x.com/mustafasuleyman/status/2124663594449318173",
+      "vllm_nvme_cache": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+      "apple_computer_use_agent": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/",
+      "nga_governors_ai_rules": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/"
+    },
+    "gpt-6-luna": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "india_ai_funding": "https://www.fortuneindia.com/startups-news/indias-ai-funding-nearly-doubles-to-16-billion-but-a-handful-of-deals-drive-the-surge-report/171774",
+      "vllm_nvme_cache": "https://x.com/vllm_project/status/2124783794112938241"
+    },
+    "grok-4-7": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "mai2_perplexity": "https://x.com/mustafasuleyman/status/2124663594449318173",
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "wang_superintelligence": "https://x.com/alexandr_wang/status/2124719968499777546"
+    },
+    "haiku-5-5": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "lingsante_release": "https://x.com/AntLingAGI/status/2124523916819648945",
+      "palo_alto_applied_compute": "https://techreport.com/news/business/palo-alto-networks-applied-compute-acquisition/",
+      "databricks_225b": "https://techfundingnews.com/databricks-eyes-225b-valuation-in-new-funding-talks-18-above-its-august-round-report/"
+    },
+    "kimi-k3-1-pro": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "lingsante_release": "https://x.com/AntLingAGI/status/2124523916819648945",
+      "mai2_perplexity": "https://x.com/mustafasuleyman/status/2124663594449318173",
+      "vllm_nvme_cache": "https://x.com/vllm_project/status/2124783794112938241",
+      "databricks_225b": "https://thenextweb.com/news/databricks-valuation-225bn-funding-talks-ghodsi-ipo"
+    },
+    "minimax-m3-1-flash": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "amazon_decart": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "ot_cyberattack_tests": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b"
+    },
+    "opus-5-5": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "wang_superintelligence": "https://www.business-standard.com/technology/artificial-intelligence/superintelligence-is-arriving-meta-ai-chief-urges-rethink-of-ai-future-126112300311_1.html",
+      "lingsante_release": "https://www.unite.ai/ant-group-begins-open-weight-release-of-lingsante-medical-ai-models/",
+      "sarvam_105b": "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+      "openrouter_provider_offboarding": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    },
+    "qwen-3-8-max-0902": {
+      "perplexity_limits": "https://x.com/merettm/status/2124549218995949967",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "lingsante_release": "https://x.com/AntLingAGI/status/2124523916819648945",
+      "sglang_rubin_nvl72": "https://x.com/SemiAnalysis_/status/2124637709176016998",
+      "citi_fraser_ai_reset": "https://www.semafor.com/article/11/23/2026/citis-jane-fraser-on-the-reset-for-an-ai-market-priced-to-perfection"
+    },
+    "qwen-4-max": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "lingsante_release": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "aws_cairn_zero_day": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "vllm_nvme_cache": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+      "databricks_225b": "https://techfundingnews.com/databricks-eyes-225b-valuation-in-new-funding-talks-18-above-its-august-round-report/"
+    },
+    "sonnet-5-5": {
+      "perplexity_limits": "https://openai.com/index/perplexity-and-intelligence/",
+      "wang_superintelligence": "https://www.calcalistech.com/ctechnews/article/hked2tbjqx",
+      "lingsante_release": "https://www.unite.ai/ant-group-begins-open-weight-release-of-lingsante-medical-ai-models/",
+      "tesla_fsd_v15": "https://www.teslarati.com/tesla-full-self-driving-v15-first-hand-look-at-reality-view-new-features/",
+      "apple_computer_use_agent": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "gpt-6-1-terra",
+      "story": "perplexity_limits",
+      "reason": "openai.com URL without trailing slash grouped with the canonical /perplexity-and-intelligence/ page; same announcement"
+    },
+    {
+      "model": "gemini-4-carbon",
+      "story": "perplexity_limits",
+      "reason": "openai.com URL without trailing slash grouped with the canonical page; same announcement"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "perplexity_limits",
+      "reason": "TheNextWeb coverage of the OpenAI chief scientist's proposal grouped with the primary OpenAI post"
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "story": "perplexity_limits",
+      "reason": "BigGo News coverage of the proposal grouped with the primary OpenAI post"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "perplexity_limits",
+      "reason": "The @merettm tweet reports both the OpenAI proposal and Microsoft's MAI-2 disclosure; grouped with the proposal as the primary event, MAI-2 kept as a separate story event (mai2_perplexity)"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "lingsante_release",
+      "reason": "Hugging Face model card grouped with the Ant Ling release announcement"
+    },
+    {
+      "model": "gpt-6-1-terra",
+      "story": "lingsante_release",
+      "reason": "CellCog coverage of the LingSante-3.1-flash release grouped with the open-weights announcement"
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "story": "lingsante_release",
+      "reason": "Ant Ling's X announcement grouped with the Hugging Face open-weights release"
+    },
+    {
+      "model": "gpt-6-2-sol",
+      "story": "lingsante_release",
+      "reason": "Business Wire (Morningstar) press release of the same Ant Group open-sourcing grouped with the release"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "lingsante_release",
+      "reason": "Business Wire (Morningstar) press release grouped with the release announcement"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "lingsante_release",
+      "reason": "Pandaily coverage grouped with the open-weights release announcement"
+    },
+    {
+      "model": "gemini-4-neon",
+      "story": "lingsante_release",
+      "reason": "Unite.ai coverage grouped with the open-weights release announcement"
+    },
+    {
+      "model": "opus-5-5",
+      "story": "lingsante_release",
+      "reason": "Unite.ai coverage grouped with the open-weights release announcement"
+    },
+    {
+      "model": "sonnet-5-5",
+      "story": "lingsante_release",
+      "reason": "Unite.ai coverage grouped with the open-weights release announcement"
+    },
+    {
+      "model": "glm-5-3",
+      "story": "lingsante_release",
+      "reason": "Ant Ling's X announcement grouped with the Hugging Face model card"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "lingsante_release",
+      "reason": "Ant Ling's X announcement grouped with the Hugging Face model card"
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "story": "vllm_nvme_cache",
+      "reason": "vLLM's X post about the NVMe result grouped with the vLLM blog post"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "vllm_nvme_cache",
+      "reason": "vLLM's X post grouped with the blog post"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "vllm_nvme_cache",
+      "reason": "vLLM's X post grouped with the blog post"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "apple_computer_use_agent",
+      "reason": "Bloomberg's Apple agent report grouped with Dataconomy's recruitment coverage; same Apple computer-use agent story"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "apple_computer_use_agent",
+      "reason": "9to5Mac job-listings report grouped with Dataconomy's coverage; same Apple agent story"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "nga_governors_ai_rules",
+      "reason": "PYMNTS coverage of the governors' principles grouped with the NGA press release"
+    },
+    {
+      "model": "gemini-4-neon",
+      "story": "aws_cairn_zero_day",
+      "reason": "The Record coverage of the Cairn zero-day finding grouped with the AWS Security blog post"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "aws_cairn_zero_day",
+      "reason": "SecurityWeek coverage grouped with the AWS Security blog post"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "aws_cairn_zero_day",
+      "reason": "SecurityWeek coverage grouped with the AWS Security blog post"
+    },
+    {
+      "model": "minimax-m3-1-flash",
+      "story": "ot_cyberattack_tests",
+      "reason": "FT's own coverage of the AI-assisted OT attack planning tests grouped with AIWeekly's FT summary; same Forescout/Booz Allen tests"
+    },
+    {
+      "model": "grok-4-7",
+      "story": "wang_superintelligence",
+      "reason": "Wang's X post about the Muse safety delay grouped with his Calcalist interview remarks on superintelligence; same interview event cycle"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "wang_superintelligence",
+      "reason": "Calcalist interview covering the superintelligence warning and Muse delay grouped with Wang's X posts"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "zhipu_glm54",
+      "reason": "AIWeekly's Z.ai GLM-5.4 launch alert grouped with TechNode's coverage of the same GLM-5.4 rollout"
+    },
+    {
+      "model": "qwen-4-max",
+      "story": "databricks_225b",
+      "reason": "TechFundingNews coverage of the WSJ $225B valuation report grouped with SiliconRepublic's WSJ summary"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "databricks_225b",
+      "reason": "TechFundingNews coverage grouped with the WSJ $225B valuation talks"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "databricks_225b",
+      "reason": "TheNextWeb coverage of the $225B talks grouped with the WSJ report"
+    }
+  ]
+}

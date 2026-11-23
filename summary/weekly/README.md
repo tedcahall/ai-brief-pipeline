@@ -4,233 +4,233 @@
 
 # Model Summary: weekly
 
-Window: 2026-11-22 through 2026-11-22. As of 2026-11-22. Judging: complete.
+Window: 2026-11-22 through 2026-11-23. As of 2026-11-23. Judging: pending.
 
 Avg uses available readings only; SD is sample SD (n-1), unavailable below two readings. Elapsed Time is seconds. Cost is USD API-equivalent. Tokens include cache. ECPTS Avg pools costs/tokens on paired days and scales by 100,000,000. Missing days are not zeros. Historical backfill uses the preserved available evidence, not a claim of what was known then.
 
 ## Selection Score
 
-| Model | Avg | SD | 11/22 |
-|---|---:|---:|---:|
-| gemini-4-neon | 86.000 | unavailable | 86.000 |
-| gpt-6-2-sol | 85.000 | unavailable | 85.000 |
-| minimax-m3-1-flash | 81.000 | unavailable | 81.000 |
-| gemini-4-argon | 77.000 | unavailable | 77.000 |
-| gemini-4-hydrogen | 77.000 | unavailable | 77.000 |
-| gemini-4-carbon | 72.000 | unavailable | 72.000 |
-| opus-5-5 | 72.000 | unavailable | 72.000 |
-| sonnet-5-5 | 72.000 | unavailable | 72.000 |
-| fable-5-1 | 67.000 | unavailable | 67.000 |
-| qwen-4-max | 67.000 | unavailable | 67.000 |
-| grok-4-7 | 58.000 | unavailable | 58.000 |
-| gpt-6-1-terra | 57.000 | unavailable | 57.000 |
-| fable-5-2 | 53.000 | unavailable | 53.000 |
-| gpt-6-luna | 53.000 | unavailable | 53.000 |
-| kimi-k3-1-pro | 53.000 | unavailable | 53.000 |
-| gpt-6-1-sol | 52.000 | unavailable | 52.000 |
-| qwen-3-8-max-0902 | 48.000 | unavailable | 48.000 |
-| deepseek-v4-1-flash-1017 | 44.000 | unavailable | 44.000 |
-| haiku-5-5 | 44.000 | unavailable | 44.000 |
-| gpt-6-2-astra | 38.000 | unavailable | 38.000 |
-| gpt-6-astra | 38.000 | unavailable | 38.000 |
-| deepseek-v4-pro | 29.000 | unavailable | 29.000 |
-| glm-5-3 | 29.000 | unavailable | 29.000 |
+| Model | Avg | SD | 11/23 | 11/22 |
+|---|---:|---:|---:|---:|
+| gemini-4-neon | 83.000 | 4.243 | 80.000 | 86.000 |
+| gemini-4-argon | 79.000 | 2.828 | 81.000 | 77.000 |
+| minimax-m3-1-flash | 76.500 | 6.364 | 72.000 | 81.000 |
+| opus-5-5 | 74.500 | 3.536 | 77.000 | 72.000 |
+| qwen-4-max | 74.000 | 9.899 | 81.000 | 67.000 |
+| sonnet-5-5 | 74.000 | 2.828 | 76.000 | 72.000 |
+| grok-4-7 | 72.000 | 19.799 | 86.000 | 58.000 |
+| gemini-4-hydrogen | 71.500 | 7.778 | 66.000 | 77.000 |
+| fable-5-1 | 69.500 | 3.536 | 72.000 | 67.000 |
+| gemini-4-carbon | 69.500 | 3.536 | 67.000 | 72.000 |
+| fable-5-2 | 67.000 | 19.799 | 81.000 | 53.000 |
+| gpt-6-2-sol | 66.000 | 26.870 | 47.000 | 85.000 |
+| kimi-k3-1-pro | 65.000 | 16.971 | 77.000 | 53.000 |
+| gpt-6-luna | 64.500 | 16.263 | 76.000 | 53.000 |
+| deepseek-v4-1-flash-1017 | 57.500 | 19.092 | 71.000 | 44.000 |
+| qwen-3-8-max-0902 | 57.500 | 13.435 | 67.000 | 48.000 |
+| gpt-6-1-sol | 57.000 | 7.071 | 62.000 | 52.000 |
+| gpt-6-1-terra | 57.000 | 0.000 | 57.000 | 57.000 |
+| gpt-6-2-astra | 57.000 | 26.870 | 76.000 | 38.000 |
+| haiku-5-5 | 55.500 | 16.263 | 67.000 | 44.000 |
+| deepseek-v4-pro | 50.500 | 30.406 | 72.000 | 29.000 |
+| gpt-6-astra | 50.000 | 16.971 | 62.000 | 38.000 |
+| glm-5-3 | 43.000 | 19.799 | 57.000 | 29.000 |
 
 ## API Cost
 
-| Model | Avg | 11/22 |
-|---|---:|---:|
-| deepseek-v4-1-flash-1017 | $0.0992 | $0.0992 |
-| gpt-6-luna | $0.1048 | $0.1048 |
-| minimax-m3-1-flash | $0.2010 | $0.2010 |
-| deepseek-v4-pro | $0.2683 | $0.2683 |
-| gpt-6-1-terra | $0.2764 | $0.2764 |
-| gpt-6-1-sol | $0.6118 | $0.6118 |
-| gemini-4-hydrogen | $0.6653 | $0.6653 |
-| haiku-5-5 | $0.7204 | $0.7204 |
-| glm-5-3 | $0.8472 | $0.8472 |
-| gpt-6-2-sol | $1.1721 | $1.1721 |
-| gemini-4-neon | $1.3290 | $1.3290 |
-| kimi-k3-1-pro | $1.3359 | $1.3359 |
-| gemini-4-argon | $1.5145 | $1.5145 |
-| sonnet-5-5 | $1.5204 | $1.5204 |
-| gpt-6-2-astra | $1.6710 | $1.6710 |
-| qwen-4-max | $1.6849 | $1.6849 |
-| gemini-4-carbon | $2.0522 | $2.0522 |
-| qwen-3-8-max-0902 | $2.7569 | $2.7569 |
-| gpt-6-astra | $2.9961 | $2.9961 |
-| grok-4-7 | $3.0610 | $3.0610 |
-| opus-5-5 | $4.2317 | $4.2317 |
-| fable-5-2 | $5.7066 | $5.7066 |
-| fable-5-1 | $11.2929 | $11.2929 |
+| Model | Avg | 11/23 | 11/22 |
+|---|---:|---:|---:|
+| gpt-6-luna | $0.1134 | $0.1219 | $0.1048 |
+| deepseek-v4-1-flash-1017 | $0.1216 | $0.1439 | $0.0992 |
+| minimax-m3-1-flash | $0.1892 | $0.1773 | $0.2010 |
+| gpt-6-1-terra | $0.2639 | $0.2514 | $0.2764 |
+| deepseek-v4-pro | $0.3889 | $0.5095 | $0.2683 |
+| haiku-5-5 | $0.5740 | $0.4276 | $0.7204 |
+| gemini-4-hydrogen | $0.6496 | $0.6340 | $0.6653 |
+| gpt-6-1-sol | $0.6500 | $0.6882 | $0.6118 |
+| glm-5-3 | $0.9932 | $1.1391 | $0.8472 |
+| gpt-6-2-sol | $1.1392 | $1.1062 | $1.1721 |
+| kimi-k3-1-pro | $1.2882 | $1.2405 | $1.3359 |
+| qwen-4-max | $1.3348 | $0.9846 | $1.6849 |
+| sonnet-5-5 | $1.4556 | $1.3908 | $1.5204 |
+| gemini-4-neon | $1.4880 | $1.6471 | $1.3290 |
+| gemini-4-argon | $1.5072 | $1.4999 | $1.5145 |
+| gpt-6-2-astra | $1.5961 | $1.5212 | $1.6710 |
+| gemini-4-carbon | $2.4606 | $2.8690 | $2.0522 |
+| qwen-3-8-max-0902 | $2.4926 | $2.2283 | $2.7569 |
+| gpt-6-astra | $2.8332 | $2.6704 | $2.9961 |
+| grok-4-7 | $3.2864 | $3.5119 | $3.0610 |
+| opus-5-5 | $3.8664 | $3.5011 | $4.2317 |
+| fable-5-2 | $5.5650 | $5.4235 | $5.7066 |
+| fable-5-1 | $9.6292 | $7.9656 | $11.2929 |
 
 ## Elapsed Time
 
-| Model | Avg | SD | 11/22 |
-|---|---:|---:|---:|
-| gpt-6-2-astra | 149.0 | unavailable | 149.0 |
-| kimi-k3-1-pro | 205.0 | unavailable | 205.0 |
-| sonnet-5-5 | 246.0 | unavailable | 246.0 |
-| gpt-6-astra | 253.0 | unavailable | 253.0 |
-| gemini-4-hydrogen | 285.0 | unavailable | 285.0 |
-| gpt-6-1-terra | 289.0 | unavailable | 289.0 |
-| fable-5-2 | 305.0 | unavailable | 305.0 |
-| glm-5-3 | 313.0 | unavailable | 313.0 |
-| minimax-m3-1-flash | 326.0 | unavailable | 326.0 |
-| gpt-6-1-sol | 346.0 | unavailable | 346.0 |
-| gemini-4-neon | 354.0 | unavailable | 354.0 |
-| haiku-5-5 | 391.0 | unavailable | 391.0 |
-| gpt-6-2-sol | 455.0 | unavailable | 455.0 |
-| opus-5-5 | 501.0 | unavailable | 501.0 |
-| deepseek-v4-1-flash-1017 | 635.0 | unavailable | 635.0 |
-| gemini-4-argon | 666.0 | unavailable | 666.0 |
-| deepseek-v4-pro | 747.0 | unavailable | 747.0 |
-| fable-5-1 | 804.0 | unavailable | 804.0 |
-| grok-4-7 | 923.0 | unavailable | 923.0 |
-| gpt-6-luna | 983.0 | unavailable | 983.0 |
-| gemini-4-carbon | 1076.0 | unavailable | 1076.0 |
-| qwen-4-max | 1478.0 | unavailable | 1478.0 |
-| qwen-3-8-max-0902 | 1988.0 | unavailable | 1988.0 |
+| Model | Avg | SD | 11/23 | 11/22 |
+|---|---:|---:|---:|---:|
+| gpt-6-2-astra | 158.5 | 13.4 | 168.0 | 149.0 |
+| kimi-k3-1-pro | 227.0 | 31.1 | 249.0 | 205.0 |
+| gpt-6-astra | 232.5 | 29.0 | 212.0 | 253.0 |
+| sonnet-5-5 | 236.0 | 14.1 | 226.0 | 246.0 |
+| gpt-6-1-terra | 262.0 | 38.2 | 235.0 | 289.0 |
+| gemini-4-hydrogen | 265.5 | 27.6 | 246.0 | 285.0 |
+| fable-5-2 | 310.5 | 7.8 | 316.0 | 305.0 |
+| haiku-5-5 | 328.0 | 89.1 | 265.0 | 391.0 |
+| gpt-6-1-sol | 342.5 | 4.9 | 339.0 | 346.0 |
+| glm-5-3 | 360.5 | 67.2 | 408.0 | 313.0 |
+| minimax-m3-1-flash | 390.0 | 90.5 | 454.0 | 326.0 |
+| gemini-4-neon | 413.5 | 84.1 | 473.0 | 354.0 |
+| opus-5-5 | 415.5 | 120.9 | 330.0 | 501.0 |
+| gpt-6-2-sol | 434.5 | 29.0 | 414.0 | 455.0 |
+| fable-5-1 | 675.5 | 181.7 | 547.0 | 804.0 |
+| gemini-4-argon | 732.0 | 93.3 | 798.0 | 666.0 |
+| deepseek-v4-1-flash-1017 | 895.5 | 368.4 | 1156.0 | 635.0 |
+| grok-4-7 | 904.5 | 26.2 | 886.0 | 923.0 |
+| qwen-4-max | 1038.5 | 621.5 | 599.0 | 1478.0 |
+| gpt-6-luna | 1111.5 | 181.7 | 1240.0 | 983.0 |
+| deepseek-v4-pro | 1136.5 | 550.8 | 1526.0 | 747.0 |
+| gemini-4-carbon | 1334.0 | 364.9 | 1592.0 | 1076.0 |
+| qwen-3-8-max-0902 | 1905.0 | 117.4 | 1822.0 | 1988.0 |
 
 ## Total Tokens
 
-| Model | Avg | 11/22 |
-|---|---:|---:|
-| gpt-6-2-astra | 827,453 | 827,453 |
-| gemini-4-neon | 1,735,968 | 1,735,968 |
-| gpt-6-astra | 1,742,801 | 1,742,801 |
-| gemini-4-hydrogen | 2,152,078 | 2,152,078 |
-| gpt-6-1-sol | 2,374,363 | 2,374,363 |
-| glm-5-3 | 2,454,786 | 2,454,786 |
-| gpt-6-1-terra | 2,632,065 | 2,632,065 |
-| gpt-6-2-sol | 3,601,393 | 3,601,393 |
-| gemini-4-argon | 4,083,217 | 4,083,217 |
-| kimi-k3-1-pro | 4,308,328 | 4,308,328 |
-| fable-5-2 | 4,335,754 | 4,335,754 |
-| deepseek-v4-pro | 4,360,395 | 4,360,395 |
-| sonnet-5-5 | 4,397,486 | 4,397,486 |
-| grok-4-7 | 4,742,031 | 4,742,031 |
-| gpt-6-luna | 6,209,716 | 6,209,716 |
-| fable-5-1 | 6,526,847 | 6,526,847 |
-| gemini-4-carbon | 7,681,841 | 7,681,841 |
-| qwen-3-8-max-0902 | 7,725,421 | 7,725,421 |
-| haiku-5-5 | 8,756,462 | 8,756,462 |
-| opus-5-5 | 9,250,531 | 9,250,531 |
-| minimax-m3-1-flash | 9,785,179 | 9,785,179 |
-| deepseek-v4-1-flash-1017 | 10,499,470 | 10,499,470 |
-| qwen-4-max | 14,597,617 | 14,597,617 |
+| Model | Avg | 11/23 | 11/22 |
+|---|---:|---:|---:|
+| gpt-6-2-astra | 768,297 | 709,141 | 827,453 |
+| gpt-6-astra | 1,546,215.5 | 1,349,630 | 1,742,801 |
+| gemini-4-neon | 2,086,786 | 2,437,604 | 1,735,968 |
+| gemini-4-hydrogen | 2,180,234 | 2,208,390 | 2,152,078 |
+| gpt-6-1-terra | 2,457,942 | 2,283,819 | 2,632,065 |
+| gpt-6-1-sol | 2,534,216 | 2,694,069 | 2,374,363 |
+| glm-5-3 | 2,971,006.5 | 3,487,227 | 2,454,786 |
+| gpt-6-2-sol | 3,425,558 | 3,249,723 | 3,601,393 |
+| kimi-k3-1-pro | 4,095,126 | 3,881,924 | 4,308,328 |
+| sonnet-5-5 | 4,208,326 | 4,019,166 | 4,397,486 |
+| fable-5-2 | 4,347,714 | 4,359,674 | 4,335,754 |
+| gemini-4-argon | 4,497,658 | 4,912,099 | 4,083,217 |
+| grok-4-7 | 5,095,137 | 5,448,243 | 4,742,031 |
+| fable-5-1 | 5,178,128 | 3,829,409 | 6,526,847 |
+| deepseek-v4-pro | 6,420,567.5 | 8,480,740 | 4,360,395 |
+| gpt-6-luna | 6,651,009.5 | 7,092,303 | 6,209,716 |
+| haiku-5-5 | 6,942,642 | 5,128,822 | 8,756,462 |
+| qwen-3-8-max-0902 | 6,979,102 | 6,232,783 | 7,725,421 |
+| opus-5-5 | 7,881,875 | 6,513,219 | 9,250,531 |
+| minimax-m3-1-flash | 9,157,728 | 8,530,277 | 9,785,179 |
+| gemini-4-carbon | 9,650,538 | 11,619,235 | 7,681,841 |
+| qwen-4-max | 10,526,909.5 | 6,456,202 | 14,597,617 |
+| deepseek-v4-1-flash-1017 | 11,948,404.5 | 13,397,339 | 10,499,470 |
 
 ## ECPTS
 
-| Model | Avg | 11/22 |
-|---|---:|---:|
-| deepseek-v4-1-flash-1017 | 0.945 | 0.945 |
-| gpt-6-luna | 1.688 | 1.688 |
-| minimax-m3-1-flash | 2.054 | 2.054 |
-| deepseek-v4-pro | 6.153 | 6.153 |
-| haiku-5-5 | 8.227 | 8.227 |
-| gpt-6-1-terra | 10.501 | 10.501 |
-| qwen-4-max | 11.542 | 11.542 |
-| gpt-6-1-sol | 25.767 | 25.767 |
-| gemini-4-carbon | 26.715 | 26.715 |
-| gemini-4-hydrogen | 30.914 | 30.914 |
-| kimi-k3-1-pro | 31.007 | 31.007 |
-| gpt-6-2-sol | 32.546 | 32.546 |
-| glm-5-3 | 34.512 | 34.512 |
-| sonnet-5-5 | 34.574 | 34.574 |
-| qwen-3-8-max-0902 | 35.686 | 35.686 |
-| gemini-4-argon | 37.091 | 37.091 |
-| opus-5-5 | 45.745 | 45.745 |
-| grok-4-7 | 64.550 | 64.550 |
-| gemini-4-neon | 76.557 | 76.557 |
-| fable-5-2 | 131.617 | 131.617 |
-| gpt-6-astra | 171.913 | 171.913 |
-| fable-5-1 | 173.022 | 173.022 |
-| gpt-6-2-astra | 201.945 | 201.945 |
+| Model | Avg | 11/23 | 11/22 |
+|---|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | 1.017 | 1.074 | 0.945 |
+| gpt-6-luna | 1.704 | 1.719 | 1.688 |
+| minimax-m3-1-flash | 2.065 | 2.078 | 2.054 |
+| deepseek-v4-pro | 6.057 | 6.008 | 6.153 |
+| haiku-5-5 | 8.268 | 8.337 | 8.227 |
+| gpt-6-1-terra | 10.737 | 11.008 | 10.501 |
+| qwen-4-max | 12.679 | 15.250 | 11.542 |
+| gemini-4-carbon | 25.497 | 24.692 | 26.715 |
+| gpt-6-1-sol | 25.649 | 25.545 | 25.767 |
+| gemini-4-hydrogen | 29.797 | 28.709 | 30.914 |
+| kimi-k3-1-pro | 31.457 | 31.956 | 31.007 |
+| gpt-6-2-sol | 33.254 | 34.040 | 32.546 |
+| glm-5-3 | 33.428 | 32.665 | 34.512 |
+| gemini-4-argon | 33.511 | 30.535 | 37.091 |
+| sonnet-5-5 | 34.589 | 34.604 | 34.574 |
+| qwen-3-8-max-0902 | 35.715 | 35.751 | 35.686 |
+| opus-5-5 | 49.054 | 53.754 | 45.745 |
+| grok-4-7 | 64.502 | 64.459 | 64.550 |
+| gemini-4-neon | 71.308 | 67.570 | 76.557 |
+| fable-5-2 | 127.999 | 124.402 | 131.617 |
+| gpt-6-astra | 183.238 | 197.862 | 171.913 |
+| fable-5-1 | 185.960 | 208.011 | 173.022 |
+| gpt-6-2-astra | 207.745 | 214.513 | 201.945 |
 
 ## Pulse Words
 
-| Model | Avg | SD | 11/22 |
-|---|---:|---:|---:|
-| minimax-m3-1-flash | 155 | unavailable | 155 |
-| gemini-4-carbon | 146 | unavailable | 146 |
-| qwen-3-8-max-0902 | 146 | unavailable | 146 |
-| opus-5-5 | 142 | unavailable | 142 |
-| deepseek-v4-pro | 140 | unavailable | 140 |
-| deepseek-v4-1-flash-1017 | 133 | unavailable | 133 |
-| fable-5-2 | 130 | unavailable | 130 |
-| glm-5-3 | 130 | unavailable | 130 |
-| grok-4-7 | 129 | unavailable | 129 |
-| sonnet-5-5 | 127 | unavailable | 127 |
-| gemini-4-argon | 125 | unavailable | 125 |
-| fable-5-1 | 124 | unavailable | 124 |
-| gpt-6-2-sol | 123 | unavailable | 123 |
-| gemini-4-neon | 114 | unavailable | 114 |
-| gemini-4-hydrogen | 113 | unavailable | 113 |
-| gpt-6-1-sol | 103 | unavailable | 103 |
-| qwen-4-max | 98 | unavailable | 98 |
-| gpt-6-luna | 97 | unavailable | 97 |
-| haiku-5-5 | 95 | unavailable | 95 |
-| kimi-k3-1-pro | 92 | unavailable | 92 |
-| gpt-6-2-astra | 85 | unavailable | 85 |
-| gpt-6-astra | 74 | unavailable | 74 |
-| gpt-6-1-terra | 72 | unavailable | 72 |
+| Model | Avg | SD | 11/23 | 11/22 |
+|---|---:|---:|---:|---:|
+| minimax-m3-1-flash | 159.5 | 6.4 | 164 | 155 |
+| deepseek-v4-pro | 156 | 22.6 | 172 | 140 |
+| gemini-4-argon | 150.5 | 36.1 | 176 | 125 |
+| gemini-4-carbon | 147.5 | 2.1 | 149 | 146 |
+| qwen-3-8-max-0902 | 143.5 | 3.5 | 141 | 146 |
+| deepseek-v4-1-flash-1017 | 143 | 14.1 | 153 | 133 |
+| fable-5-2 | 143 | 18.4 | 156 | 130 |
+| gemini-4-neon | 139 | 35.4 | 164 | 114 |
+| fable-5-1 | 136.5 | 17.7 | 149 | 124 |
+| opus-5-5 | 129 | 18.4 | 116 | 142 |
+| gemini-4-hydrogen | 124 | 15.6 | 135 | 113 |
+| grok-4-7 | 123 | 8.5 | 117 | 129 |
+| gpt-6-2-sol | 117 | 8.5 | 111 | 123 |
+| sonnet-5-5 | 117 | 14.1 | 107 | 127 |
+| glm-5-3 | 114.5 | 21.9 | 99 | 130 |
+| gpt-6-luna | 113 | 22.6 | 129 | 97 |
+| haiku-5-5 | 104.5 | 13.4 | 114 | 95 |
+| gpt-6-1-sol | 102 | 1.4 | 101 | 103 |
+| qwen-4-max | 98.5 | 0.7 | 99 | 98 |
+| kimi-k3-1-pro | 83 | 12.7 | 74 | 92 |
+| gpt-6-2-astra | 80.5 | 6.4 | 76 | 85 |
+| gpt-6-astra | 72.5 | 2.1 | 71 | 74 |
+| gpt-6-1-terra | 71.5 | 0.7 | 71 | 72 |
 
 ## Story Words
 
-| Model | Avg | SD | 11/22 |
-|---|---:|---:|---:|
-| deepseek-v4-1-flash-1017 | 398 | unavailable | 398 |
-| fable-5-1 | 362 | unavailable | 362 |
-| minimax-m3-1-flash | 345 | unavailable | 345 |
-| gemini-4-argon | 344 | unavailable | 344 |
-| fable-5-2 | 341 | unavailable | 341 |
-| gemini-4-carbon | 336 | unavailable | 336 |
-| grok-4-7 | 335 | unavailable | 335 |
-| sonnet-5-5 | 333 | unavailable | 333 |
-| gemini-4-neon | 330 | unavailable | 330 |
-| deepseek-v4-pro | 319 | unavailable | 319 |
-| haiku-5-5 | 316 | unavailable | 316 |
-| opus-5-5 | 316 | unavailable | 316 |
-| qwen-4-max | 304 | unavailable | 304 |
-| gpt-6-2-sol | 301 | unavailable | 301 |
-| qwen-3-8-max-0902 | 299 | unavailable | 299 |
-| gpt-6-2-astra | 286 | unavailable | 286 |
-| gpt-6-astra | 285 | unavailable | 285 |
-| gemini-4-hydrogen | 281 | unavailable | 281 |
-| gpt-6-1-terra | 273 | unavailable | 273 |
-| glm-5-3 | 268 | unavailable | 268 |
-| gpt-6-luna | 267 | unavailable | 267 |
-| gpt-6-1-sol | 263 | unavailable | 263 |
-| kimi-k3-1-pro | 215 | unavailable | 215 |
+| Model | Avg | SD | 11/23 | 11/22 |
+|---|---:|---:|---:|---:|
+| minimax-m3-1-flash | 371.5 | 37.5 | 398 | 345 |
+| deepseek-v4-1-flash-1017 | 363.5 | 48.8 | 329 | 398 |
+| fable-5-1 | 355.5 | 9.2 | 349 | 362 |
+| grok-4-7 | 348 | 18.4 | 361 | 335 |
+| gemini-4-argon | 347.5 | 4.9 | 351 | 344 |
+| fable-5-2 | 343.5 | 3.5 | 346 | 341 |
+| gemini-4-neon | 337 | 9.9 | 344 | 330 |
+| gemini-4-carbon | 323.5 | 17.7 | 311 | 336 |
+| sonnet-5-5 | 319.5 | 19.1 | 306 | 333 |
+| qwen-3-8-max-0902 | 317 | 25.5 | 335 | 299 |
+| opus-5-5 | 313 | 4.2 | 310 | 316 |
+| gpt-6-2-sol | 300.5 | 0.7 | 300 | 301 |
+| haiku-5-5 | 296 | 28.3 | 276 | 316 |
+| deepseek-v4-pro | 295.5 | 33.2 | 272 | 319 |
+| qwen-4-max | 295.5 | 12.0 | 287 | 304 |
+| gemini-4-hydrogen | 292.5 | 16.3 | 304 | 281 |
+| gpt-6-astra | 282.5 | 3.5 | 280 | 285 |
+| glm-5-3 | 280 | 17.0 | 292 | 268 |
+| gpt-6-1-sol | 277.5 | 20.5 | 292 | 263 |
+| gpt-6-luna | 272 | 7.1 | 277 | 267 |
+| gpt-6-2-astra | 269 | 24.0 | 252 | 286 |
+| gpt-6-1-terra | 261.5 | 16.3 | 250 | 273 |
+| kimi-k3-1-pro | 246.5 | 44.5 | 278 | 215 |
 
 ## Pulse Judge Score
 
-| Model | Avg | SD | 11/22 |
-|---|---:|---:|---:|
-| gpt-6-2-sol | 4.100 | unavailable | 4.100 |
-| fable-5-2 | 3.400 | unavailable | 3.400 |
-| gpt-6-2-astra | 3.400 | unavailable | 3.400 |
-| gemini-4-hydrogen | 3.300 | unavailable | 3.300 |
-| gemini-4-neon | 3.300 | unavailable | 3.300 |
-| gpt-6-1-sol | 3.300 | unavailable | 3.300 |
-| fable-5-1 | 3.200 | unavailable | 3.200 |
-| qwen-4-max | 3.200 | unavailable | 3.200 |
-| deepseek-v4-1-flash-1017 | 3.100 | unavailable | 3.100 |
-| sonnet-5-5 | 3.100 | unavailable | 3.100 |
-| haiku-5-5 | 3.000 | unavailable | 3.000 |
-| kimi-k3-1-pro | 3.000 | unavailable | 3.000 |
-| minimax-m3-1-flash | 3.000 | unavailable | 3.000 |
-| qwen-3-8-max-0902 | 3.000 | unavailable | 3.000 |
-| gemini-4-carbon | 2.800 | unavailable | 2.800 |
-| gpt-6-luna | 2.800 | unavailable | 2.800 |
-| grok-4-7 | 2.800 | unavailable | 2.800 |
-| deepseek-v4-pro | 2.700 | unavailable | 2.700 |
-| gemini-4-argon | 2.600 | unavailable | 2.600 |
-| opus-5-5 | 2.600 | unavailable | 2.600 |
-| glm-5-3 | 2.500 | unavailable | 2.500 |
-| gpt-6-1-terra | 2.200 | unavailable | 2.200 |
-| gpt-6-astra | 2.100 | unavailable | 2.100 |
+| Model | Avg | SD | 11/23 | 11/22 |
+|---|---:|---:|---:|---:|
+| gpt-6-2-sol | 4.100 | unavailable |  | 4.100 |
+| fable-5-2 | 3.400 | unavailable |  | 3.400 |
+| gpt-6-2-astra | 3.400 | unavailable |  | 3.400 |
+| gemini-4-hydrogen | 3.300 | unavailable |  | 3.300 |
+| gemini-4-neon | 3.300 | unavailable |  | 3.300 |
+| gpt-6-1-sol | 3.300 | unavailable |  | 3.300 |
+| fable-5-1 | 3.200 | unavailable |  | 3.200 |
+| qwen-4-max | 3.200 | unavailable |  | 3.200 |
+| deepseek-v4-1-flash-1017 | 3.100 | unavailable |  | 3.100 |
+| sonnet-5-5 | 3.100 | unavailable |  | 3.100 |
+| haiku-5-5 | 3.000 | unavailable |  | 3.000 |
+| kimi-k3-1-pro | 3.000 | unavailable |  | 3.000 |
+| minimax-m3-1-flash | 3.000 | unavailable |  | 3.000 |
+| qwen-3-8-max-0902 | 3.000 | unavailable |  | 3.000 |
+| gemini-4-carbon | 2.800 | unavailable |  | 2.800 |
+| gpt-6-luna | 2.800 | unavailable |  | 2.800 |
+| grok-4-7 | 2.800 | unavailable |  | 2.800 |
+| deepseek-v4-pro | 2.700 | unavailable |  | 2.700 |
+| gemini-4-argon | 2.600 | unavailable |  | 2.600 |
+| opus-5-5 | 2.600 | unavailable |  | 2.600 |
+| glm-5-3 | 2.500 | unavailable |  | 2.500 |
+| gpt-6-1-terra | 2.200 | unavailable |  | 2.200 |
+| gpt-6-astra | 2.100 | unavailable |  | 2.100 |
 
 ## Archive
 

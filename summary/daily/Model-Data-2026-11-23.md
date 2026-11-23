@@ -1,0 +1,31 @@
+# Model Data: 2026-11-23
+
+USD API-equivalent estimates; elapsed seconds; tokens include cache. ECPTS = cost / tokens × 100,000,000. Successful accepted runs only.
+
+Judging: pending.
+
+| Model | Consensus Score | API Cost | Elapsed Time | Total Tokens | ECPTS | Pulse Words | Story Words | Pulse Judge Score |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| deepseek-v4-1-flash-1017 | 71.000 | $0.1439 | 1156.0 | 13,397,339 | 1.074 | 153 | 329 | unavailable |
+| deepseek-v4-pro | 72.000 | $0.5095 | 1526.0 | 8,480,740 | 6.008 | 172 | 272 | unavailable |
+| fable-5-1 | 72.000 | $7.9656 | 547.0 | 3,829,409 | 208.011 | 149 | 349 | unavailable |
+| fable-5-2 | 81.000 | $5.4235 | 316.0 | 4,359,674 | 124.402 | 156 | 346 | unavailable |
+| gemini-4-argon | 81.000 | $1.4999 | 798.0 | 4,912,099 | 30.535 | 176 | 351 | unavailable |
+| gemini-4-carbon | 67.000 | $2.8690 | 1592.0 | 11,619,235 | 24.692 | 149 | 311 | unavailable |
+| gemini-4-hydrogen | 66.000 | $0.6340 | 246.0 | 2,208,390 | 28.709 | 135 | 304 | unavailable |
+| gemini-4-neon | 80.000 | $1.6471 | 473.0 | 2,437,604 | 67.570 | 164 | 344 | unavailable |
+| glm-5-3 | 57.000 | $1.1391 | 408.0 | 3,487,227 | 32.665 | 99 | 292 | unavailable |
+| gpt-6-1-sol | 62.000 | $0.6882 | 339.0 | 2,694,069 | 25.545 | 101 | 292 | unavailable |
+| gpt-6-1-terra | 57.000 | $0.2514 | 235.0 | 2,283,819 | 11.008 | 71 | 250 | unavailable |
+| gpt-6-2-astra | 76.000 | $1.5212 | 168.0 | 709,141 | 214.513 | 76 | 252 | unavailable |
+| gpt-6-2-sol | 47.000 | $1.1062 | 414.0 | 3,249,723 | 34.040 | 111 | 300 | unavailable |
+| gpt-6-astra | 62.000 | $2.6704 | 212.0 | 1,349,630 | 197.862 | 71 | 280 | unavailable |
+| gpt-6-luna | 76.000 | $0.1219 | 1240.0 | 7,092,303 | 1.719 | 129 | 277 | unavailable |
+| grok-4-7 | 86.000 | $3.5119 | 886.0 | 5,448,243 | 64.459 | 117 | 361 | unavailable |
+| haiku-5-5 | 67.000 | $0.4276 | 265.0 | 5,128,822 | 8.337 | 114 | 276 | unavailable |
+| kimi-k3-1-pro | 77.000 | $1.2405 | 249.0 | 3,881,924 | 31.956 | 74 | 278 | unavailable |
+| minimax-m3-1-flash | 72.000 | $0.1773 | 454.0 | 8,530,277 | 2.078 | 164 | 398 | unavailable |
+| opus-5-5 | 77.000 | $3.5011 | 330.0 | 6,513,219 | 53.754 | 116 | 310 | unavailable |
+| qwen-3-8-max-0902 | 67.000 | $2.2283 | 1822.0 | 6,232,783 | 35.751 | 141 | 335 | unavailable |
+| qwen-4-max | 81.000 | $0.9846 | 599.0 | 6,456,202 | 15.250 | 99 | 287 | unavailable |
+| sonnet-5-5 | 76.000 | $1.3908 | 226.0 | 4,019,166 | 34.604 | 107 | 306 | unavailable |
