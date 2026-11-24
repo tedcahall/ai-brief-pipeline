@@ -1,0 +1,920 @@
+{
+  "calculation_version": 1,
+  "conflicts": [],
+  "date": "2026-11-24",
+  "judging": {
+    "reason": "judging not published",
+    "status": "pending"
+  },
+  "models": {
+    "deepseek-v4-1-flash-1017": {
+      "attempt": {
+        "run_id": "cron-request.27c69549-0a6f-4844-8a51-9ebde274a5ff"
+      },
+      "metrics": {
+        "api_cost": "0.0868",
+        "consensus_score": "90",
+        "ecpts": "1.184601760225412792088607120",
+        "elapsed_seconds": "795",
+        "pulse_judge_score": null,
+        "pulse_words": "145",
+        "story_words": "333",
+        "total_tokens": "7327357"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            70,
+            68,
+            63,
+            67,
+            65
+          ],
+          "pulse_words": 145,
+          "source": {
+            "path": "daily-results/2026-11-24/deepseek-v4-1-flash-1017/2026-11-24.html",
+            "sha256": "e3161c5a6dd04fa649fd5f252ee11da1605bd43e5068bdb3ed8629cdc6ab67b7"
+          },
+          "story_words": 333
+        }
+      }
+    },
+    "deepseek-v4-pro": {
+      "attempt": {
+        "run_id": "cron-request.520bc9d6-4638-4569-b4b3-8d1407faee42"
+      },
+      "metrics": {
+        "api_cost": "0.355",
+        "consensus_score": "85",
+        "ecpts": "6.508752713966536577173455876",
+        "elapsed_seconds": "896",
+        "pulse_judge_score": null,
+        "pulse_words": "112",
+        "story_words": "268",
+        "total_tokens": "5454194"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            49,
+            60,
+            57,
+            52,
+            50
+          ],
+          "pulse_words": 112,
+          "source": {
+            "path": "daily-results/2026-11-24/deepseek-v4-pro/2026-11-24.html",
+            "sha256": "fee06a1d2d7f7720698a08be66d9dcd422458bab97c89311ffbb864f81362229"
+          },
+          "story_words": 268
+        }
+      }
+    },
+    "fable-5-1": {
+      "attempt": {
+        "run_id": "cron-request.6d396521-3e61-4962-8d5d-a27908243916"
+      },
+      "metrics": {
+        "api_cost": "9.0009",
+        "consensus_score": "86",
+        "ecpts": "201.3122456730022987559699887",
+        "elapsed_seconds": "763",
+        "pulse_judge_score": null,
+        "pulse_words": "165",
+        "story_words": "364",
+        "total_tokens": "4471114"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            74,
+            74,
+            70,
+            74,
+            72
+          ],
+          "pulse_words": 165,
+          "source": {
+            "path": "daily-results/2026-11-24/fable-5-1/2026-11-24.html",
+            "sha256": "de8865a1df754a0e8b23c8d1a986d377531d07c5131c27bed09cfadd15141c55"
+          },
+          "story_words": 364
+        }
+      }
+    },
+    "fable-5-2": {
+      "attempt": {
+        "run_id": "cron-request.665751e3-6910-44c1-bd38-2f09d36f9507"
+      },
+      "metrics": {
+        "api_cost": "6.0847",
+        "consensus_score": "72",
+        "ecpts": "112.0086562937425952829237008",
+        "elapsed_seconds": "351",
+        "pulse_judge_score": null,
+        "pulse_words": "167",
+        "story_words": "325",
+        "total_tokens": "5432348"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            65,
+            64,
+            65,
+            67,
+            64
+          ],
+          "pulse_words": 167,
+          "source": {
+            "path": "daily-results/2026-11-24/fable-5-2/2026-11-24.html",
+            "sha256": "2693750b3e57c09d1f26bb8f83fb4b7c634b4fe376228f7873679fc031b35286"
+          },
+          "story_words": 325
+        }
+      }
+    },
+    "gemini-4-argon": {
+      "attempt": {
+        "run_id": "cron-request.435a0b2d-5bfc-479d-8c89-6cdb9c92ab6f"
+      },
+      "metrics": {
+        "api_cost": "1.3393",
+        "consensus_score": "76",
+        "ecpts": "35.99137797826435724902577658",
+        "elapsed_seconds": "904",
+        "pulse_judge_score": null,
+        "pulse_words": "141",
+        "story_words": "339",
+        "total_tokens": "3721169"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            72,
+            65,
+            58,
+            73,
+            71
+          ],
+          "pulse_words": 141,
+          "source": {
+            "path": "daily-results/2026-11-24/gemini-4-argon/2026-11-24.html",
+            "sha256": "aae291d4dd49093641e5aedbf7a32da5ab3c714ecb2b0b443935526dd6163f9d"
+          },
+          "story_words": 339
+        }
+      }
+    },
+    "gemini-4-carbon": {
+      "attempt": {
+        "run_id": "cron-request.2735db4b-323c-4f5f-b9d6-9e461c820a0f"
+      },
+      "metrics": {
+        "api_cost": "1.5784",
+        "consensus_score": "82",
+        "ecpts": "33.12322136338654299880572572",
+        "elapsed_seconds": "907",
+        "pulse_judge_score": null,
+        "pulse_words": "182",
+        "story_words": "347",
+        "total_tokens": "4765237"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            71,
+            69,
+            70,
+            68,
+            69
+          ],
+          "pulse_words": 182,
+          "source": {
+            "path": "daily-results/2026-11-24/gemini-4-carbon/2026-11-24.html",
+            "sha256": "7f1fef70a55750dad3664be4fc25199be23321fe445fc6e2b226501983ddfd7a"
+          },
+          "story_words": 347
+        }
+      }
+    },
+    "gemini-4-hydrogen": {
+      "attempt": {
+        "run_id": "cron-request.a853ccf5-4189-4306-80cd-6be192693daa"
+      },
+      "metrics": {
+        "api_cost": "0.4959",
+        "consensus_score": "86",
+        "ecpts": "34.34952704462460032915699237",
+        "elapsed_seconds": "177",
+        "pulse_judge_score": null,
+        "pulse_words": "127",
+        "story_words": "303",
+        "total_tokens": "1443688"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            64,
+            62,
+            63,
+            55,
+            59
+          ],
+          "pulse_words": 127,
+          "source": {
+            "path": "daily-results/2026-11-24/gemini-4-hydrogen/2026-11-24.html",
+            "sha256": "ea4a3ea38bc8b4aef42decd5c358ed2c012c9c96e0768317c6a6ea4a12cf7a56"
+          },
+          "story_words": 303
+        }
+      }
+    },
+    "gemini-4-neon": {
+      "attempt": {
+        "run_id": "cron-request.7dec2c1b-0232-486b-a7b3-0bdd036c7696"
+      },
+      "metrics": {
+        "api_cost": "1.4489",
+        "consensus_score": "62",
+        "ecpts": "64.15723282136844556974580647",
+        "elapsed_seconds": "395",
+        "pulse_judge_score": null,
+        "pulse_words": "133",
+        "story_words": "352",
+        "total_tokens": "2258358"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            70,
+            72,
+            71,
+            68,
+            71
+          ],
+          "pulse_words": 133,
+          "source": {
+            "path": "daily-results/2026-11-24/gemini-4-neon/2026-11-24.html",
+            "sha256": "bcfd69cdb0c8062d71597333cf9f4b90b4ddab5a5f3b0162d1d85aeb046504f1"
+          },
+          "story_words": 352
+        }
+      }
+    },
+    "glm-5-3": {
+      "attempt": {
+        "run_id": "cron-request.d6cfc7b3-cc0d-43a2-82c3-967ca27d8266"
+      },
+      "metrics": {
+        "api_cost": "0.9754",
+        "consensus_score": "80",
+        "ecpts": "33.17243647362784498534719679",
+        "elapsed_seconds": "307",
+        "pulse_judge_score": null,
+        "pulse_words": "140",
+        "story_words": "270",
+        "total_tokens": "2940393"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            57,
+            60,
+            51,
+            49,
+            53
+          ],
+          "pulse_words": 140,
+          "source": {
+            "path": "daily-results/2026-11-24/glm-5-3/2026-11-24.html",
+            "sha256": "7b4728e166e87cc069c887a06a36e4e6ff23fb5d75d8a2d65fd206b86bb6c367"
+          },
+          "story_words": 270
+        }
+      }
+    },
+    "gpt-6-1-sol": {
+      "attempt": {
+        "run_id": "cron-request.b17b3527-c38b-4cac-889e-60e80900891a"
+      },
+      "metrics": {
+        "api_cost": "0.7998",
+        "consensus_score": "81",
+        "ecpts": "21.36539799264632813276358939",
+        "elapsed_seconds": "453",
+        "pulse_judge_score": null,
+        "pulse_words": "82",
+        "story_words": "288",
+        "total_tokens": "3743436"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            56,
+            55,
+            59,
+            59,
+            59
+          ],
+          "pulse_words": 82,
+          "source": {
+            "path": "daily-results/2026-11-24/gpt-6-1-sol/2026-11-24.html",
+            "sha256": "a16f766d4091ed79781a5c9e4621d635d9fb45b1d0ffcfb8e96e621d88cf4755"
+          },
+          "story_words": 288
+        }
+      }
+    },
+    "gpt-6-1-terra": {
+      "attempt": {
+        "run_id": "cron-request.e6f31aa8-3cdf-4b00-9577-6c89be828f57"
+      },
+      "metrics": {
+        "api_cost": "0.238",
+        "consensus_score": "53",
+        "ecpts": "11.85888524485608395692135367",
+        "elapsed_seconds": "227",
+        "pulse_judge_score": null,
+        "pulse_words": "58",
+        "story_words": "245",
+        "total_tokens": "2006934"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            48,
+            51,
+            48,
+            49,
+            49
+          ],
+          "pulse_words": 58,
+          "source": {
+            "path": "daily-results/2026-11-24/gpt-6-1-terra/2026-11-24.html",
+            "sha256": "e8da5f7764b6406bc8b797255b28a3352415421b5a66efcd7c4970f5a5ee2718"
+          },
+          "story_words": 245
+        }
+      }
+    },
+    "gpt-6-2-astra": {
+      "attempt": {
+        "run_id": "cron-request.851a4f22-41ef-4576-b0d9-ff61b5461170"
+      },
+      "metrics": {
+        "api_cost": "1.8898",
+        "consensus_score": "57",
+        "ecpts": "191.1159114260980720532673155",
+        "elapsed_seconds": "168",
+        "pulse_judge_score": null,
+        "pulse_words": "81",
+        "story_words": "277",
+        "total_tokens": "988824"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            53,
+            59,
+            53,
+            55,
+            57
+          ],
+          "pulse_words": 81,
+          "source": {
+            "path": "daily-results/2026-11-24/gpt-6-2-astra/2026-11-24.html",
+            "sha256": "d7bb8761139aab9249b47cba1f9ece40892a11c8a09fa0edf8efd3c24728c50a"
+          },
+          "story_words": 277
+        }
+      }
+    },
+    "gpt-6-2-sol": {
+      "attempt": {
+        "run_id": "cron-request.c181c4d9-9b24-4210-8f52-877966e5bb51"
+      },
+      "metrics": {
+        "api_cost": "1.5979",
+        "consensus_score": "76",
+        "ecpts": "28.66510212626565781198032281",
+        "elapsed_seconds": "562",
+        "pulse_judge_score": null,
+        "pulse_words": "110",
+        "story_words": "304",
+        "total_tokens": "5574374"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            58,
+            58,
+            64,
+            69,
+            55
+          ],
+          "pulse_words": 110,
+          "source": {
+            "path": "daily-results/2026-11-24/gpt-6-2-sol/2026-11-24.html",
+            "sha256": "6f720c54862ab645b446a50d8b5adbc6230abee9f48ff22d02d1003071bbc85e"
+          },
+          "story_words": 304
+        }
+      }
+    },
+    "gpt-6-astra": {
+      "attempt": {
+        "run_id": "cron-request.5dd83c5c-7fce-40d7-bfb3-4f430f6825bb"
+      },
+      "metrics": {
+        "api_cost": "2.8837",
+        "consensus_score": "67",
+        "ecpts": "189.7450676941865116964605310",
+        "elapsed_seconds": "247",
+        "pulse_judge_score": null,
+        "pulse_words": "70",
+        "story_words": "281",
+        "total_tokens": "1519776"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            56,
+            54,
+            54,
+            57,
+            60
+          ],
+          "pulse_words": 70,
+          "source": {
+            "path": "daily-results/2026-11-24/gpt-6-astra/2026-11-24.html",
+            "sha256": "1c46a6276144c27caa23b0743918f51fe59649ed9b0bed62a360b08519b8cd37"
+          },
+          "story_words": 281
+        }
+      }
+    },
+    "gpt-6-luna": {
+      "attempt": {
+        "run_id": "cron-request.831efc5f-cb06-4fd9-874f-3950503b9cfd"
+      },
+      "metrics": {
+        "api_cost": "0.0598",
+        "consensus_score": "58",
+        "ecpts": "1.781684639435295351471558295",
+        "elapsed_seconds": "511",
+        "pulse_judge_score": null,
+        "pulse_words": "94",
+        "story_words": "308",
+        "total_tokens": "3356374"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            56,
+            71,
+            61,
+            56,
+            64
+          ],
+          "pulse_words": 94,
+          "source": {
+            "path": "daily-results/2026-11-24/gpt-6-luna/2026-11-24.html",
+            "sha256": "2adf1428b3f970de44b9e8516fc200d0ec6d9986bbf04743305ae6b1e086bc9d"
+          },
+          "story_words": 308
+        }
+      }
+    },
+    "grok-4-7": {
+      "attempt": {
+        "run_id": "cron-request.1dcbd405-73e8-47d9-b15a-0c89e6489d53"
+      },
+      "metrics": {
+        "api_cost": "2.5329",
+        "consensus_score": "85",
+        "ecpts": "66.23425730239943265883120816",
+        "elapsed_seconds": "754",
+        "pulse_judge_score": null,
+        "pulse_words": "134",
+        "story_words": "349",
+        "total_tokens": "3824154"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            70,
+            72,
+            66,
+            74,
+            67
+          ],
+          "pulse_words": 134,
+          "source": {
+            "path": "daily-results/2026-11-24/grok-4-7/2026-11-24.html",
+            "sha256": "7d5fcd5b27dd36d57a9aaf9809b42539c0c82d300dbd438b8202d1c5755f5b29"
+          },
+          "story_words": 349
+        }
+      }
+    },
+    "haiku-5-5": {
+      "attempt": {
+        "run_id": "cron-request.ea5947e4-754b-4708-96c0-cf10ea8cfc7e"
+      },
+      "metrics": {
+        "api_cost": "0.3514",
+        "consensus_score": "72",
+        "ecpts": "8.468851424678194491004918152",
+        "elapsed_seconds": "246",
+        "pulse_judge_score": null,
+        "pulse_words": "118",
+        "story_words": "302",
+        "total_tokens": "4149323"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            65,
+            52,
+            57,
+            55,
+            73
+          ],
+          "pulse_words": 118,
+          "source": {
+            "path": "daily-results/2026-11-24/haiku-5-5/2026-11-24.html",
+            "sha256": "ba82641f8a0d2c6a157524f5402600295a80dc86225e4446950624e225d20c30"
+          },
+          "story_words": 302
+        }
+      }
+    },
+    "kimi-k3-1-pro": {
+      "attempt": {
+        "run_id": "cron-request.e32c1c55-64cc-4123-99bf-cb1c3b5f267e"
+      },
+      "metrics": {
+        "api_cost": "1.2597",
+        "consensus_score": "86",
+        "ecpts": "34.81761726657519798252955504",
+        "elapsed_seconds": "562",
+        "pulse_judge_score": null,
+        "pulse_words": "101",
+        "story_words": "260",
+        "total_tokens": "3617996"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            53,
+            54,
+            52,
+            50,
+            51
+          ],
+          "pulse_words": 101,
+          "source": {
+            "path": "daily-results/2026-11-24/kimi-k3-1-pro/2026-11-24.html",
+            "sha256": "d192869d34fc52fef250475c959475b341683c2a3313f769cd1d0463f7337fd3"
+          },
+          "story_words": 260
+        }
+      }
+    },
+    "minimax-m3-1-flash": {
+      "attempt": {
+        "run_id": "cron-request.9d4333e4-a7db-4cd7-94e1-139bb9e554db"
+      },
+      "metrics": {
+        "api_cost": "0.1024",
+        "consensus_score": "68",
+        "ecpts": "2.185846006721903393718040807",
+        "elapsed_seconds": "169",
+        "pulse_judge_score": null,
+        "pulse_words": "146",
+        "story_words": "250",
+        "total_tokens": "4684685"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            55,
+            45,
+            51,
+            46,
+            53
+          ],
+          "pulse_words": 146,
+          "source": {
+            "path": "daily-results/2026-11-24/minimax-m3-1-flash/2026-11-24.html",
+            "sha256": "8a6cf13ee9a01a9dae8900c5a88fce4210174ac920515c3c41c7e4ee59d75f48"
+          },
+          "story_words": 250
+        }
+      }
+    },
+    "opus-5-5": {
+      "attempt": {
+        "run_id": "cron-request.1b235d7b-3051-498c-b330-e0efca9c9e3b"
+      },
+      "metrics": {
+        "api_cost": "2.9038",
+        "consensus_score": "72",
+        "ecpts": "53.92122910245980558423980407",
+        "elapsed_seconds": "287",
+        "pulse_judge_score": null,
+        "pulse_words": "125",
+        "story_words": "313",
+        "total_tokens": "5385263"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            62,
+            64,
+            62,
+            62,
+            63
+          ],
+          "pulse_words": 125,
+          "source": {
+            "path": "daily-results/2026-11-24/opus-5-5/2026-11-24.html",
+            "sha256": "558c592845e640deba1f07ed300857fa3d934f9620c150adcc5dc21c4af0678d"
+          },
+          "story_words": 313
+        }
+      }
+    },
+    "qwen-3-8-max-0902": {
+      "attempt": {
+        "run_id": "cron-request.d8ebdd16-7c9f-4915-9486-21635f00848e"
+      },
+      "metrics": {
+        "api_cost": "2.0988",
+        "consensus_score": "80",
+        "ecpts": "34.73773325863209003210112143",
+        "elapsed_seconds": "1638",
+        "pulse_judge_score": null,
+        "pulse_words": "109",
+        "story_words": "327",
+        "total_tokens": "6041845"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            64,
+            66,
+            66,
+            63,
+            68
+          ],
+          "pulse_words": 109,
+          "source": {
+            "path": "daily-results/2026-11-24/qwen-3-8-max-0902/2026-11-24.html",
+            "sha256": "d2e2bef6ce326e7a6e29affcf69ec8db41d683c708d2cb1849fcca26262fee3e"
+          },
+          "story_words": 327
+        }
+      }
+    },
+    "qwen-4-max": {
+      "attempt": {
+        "run_id": "cron-request.e6d83f03-61f3-466c-bc77-820ff0ef6bac"
+      },
+      "metrics": {
+        "api_cost": "1.0512",
+        "consensus_score": "76",
+        "ecpts": "12.99791331064468759752762675",
+        "elapsed_seconds": "712",
+        "pulse_judge_score": null,
+        "pulse_words": "96",
+        "story_words": "313",
+        "total_tokens": "8087452"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            62,
+            62,
+            68,
+            60,
+            61
+          ],
+          "pulse_words": 96,
+          "source": {
+            "path": "daily-results/2026-11-24/qwen-4-max/2026-11-24.html",
+            "sha256": "ae47383f0d868e921fa4c26f8de52be57989bfcacd1be897ccf192a76a919bc4"
+          },
+          "story_words": 313
+        }
+      }
+    },
+    "sonnet-5-5": {
+      "attempt": {
+        "run_id": "cron-request.0efecf12-2bb8-4da5-982d-965766817518"
+      },
+      "metrics": {
+        "api_cost": "1.05",
+        "consensus_score": "90",
+        "ecpts": "39.96115015040615751848108049",
+        "elapsed_seconds": "183",
+        "pulse_judge_score": null,
+        "pulse_words": "91",
+        "story_words": "337",
+        "total_tokens": "2627552"
+      },
+      "missing": {
+        "pulse_judge_score": "judging pending"
+      },
+      "provenance": {
+        "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
+        "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+        "verbosity": {
+          "adapter": "archived-id-paragraphs-v1",
+          "binding": "consensus source hash",
+          "per_story_words": [
+            72,
+            69,
+            67,
+            68,
+            61
+          ],
+          "pulse_words": 91,
+          "source": {
+            "path": "daily-results/2026-11-24/sonnet-5-5/2026-11-24.html",
+            "sha256": "4accb0d5943bd02ca1f42a9dddd8b686395e8bfe5dc202fd374c6668272bf570"
+          },
+          "story_words": 337
+        }
+      }
+    }
+  },
+  "schema_version": 1,
+  "sources": [
+    {
+      "path": "model-comparison/json/Model-Consensus-2026-11-24.audit.json",
+      "sha256": "3a41d44e27a071e572bfb38383f0ba769d8685f895ae4a159ff3a351c3c800a7"
+    },
+    {
+      "path": "token-costs/json/Usage-and-Cost-2026-11-24.audit.json",
+      "sha256": "65d2addc58fe3ddf8478d3b717e7a778dc9593b7f9e574e7ce5467992c939117"
+    }
+  ],
+  "status": "accepted"
+}

@@ -1,0 +1,1245 @@
+{
+  "date": "2026-11-24",
+  "models": [
+    {
+      "name": "gpt-6-astra",
+      "slug": "gpt-6-astra",
+      "status": "review_required",
+      "score": 67,
+      "rank": 19,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "ernie55_flash",
+        "ling32_air",
+        "anthropic_zdr",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2124891223597240338",
+        "2125069725977968935",
+        "2124980590717911527",
+        "2124970294523945328",
+        "2124929944530587712",
+        "2124922556922691892",
+        "2124926906109935925",
+        "2124905985433272539"
+      ],
+      "elapsed_seconds": 247,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.5dd83c5c-7fce-40d7-bfb3-4f430f6825bb",
+      "session": "80896c10-06cd-447c-b258-3fe3a6927b97"
+    },
+    {
+      "name": "gpt-6-1-sol",
+      "slug": "gpt-6-1-sol",
+      "status": "review_required",
+      "score": 81,
+      "rank": 9,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "ernie55_flash",
+        "huang_reinstated",
+        "shirudo",
+        "dm_quantum"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2125069725977968935",
+        "2124980590717911527",
+        "2125007927098699827",
+        "2124911073266413634",
+        "2124922556922691892",
+        "2124929944530587712",
+        "2124891223597240338",
+        "2124918494110298127"
+      ],
+      "elapsed_seconds": 453,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.b17b3527-c38b-4cac-889e-60e80900891a",
+      "session": "3b866ddb-2554-4d09-a430-f96fbca74401"
+    },
+    {
+      "name": "gpt-6-1-terra",
+      "slug": "gpt-6-1-terra",
+      "status": "review_required",
+      "score": 53,
+      "rank": 23,
+      "headline_event": "ernie55_flash",
+      "story_events": [
+        "ernie55_flash",
+        "ling32_air",
+        "msft_rocket",
+        "anthropic_zdr",
+        "sglang_miles_bitexact"
+      ],
+      "tweet_ids": [
+        "2125072735336546546",
+        "2124891223597240338",
+        "2124929944530587712",
+        "2124922556922691892",
+        "2125069725977968935",
+        "2124905985433272539",
+        "2124926906109935925",
+        "2124911073266413634",
+        "2124901393488048410",
+        "2124970294523945328"
+      ],
+      "elapsed_seconds": 227,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.e6f31aa8-3cdf-4b00-9577-6c89be828f57",
+      "session": "8fccc976-a1b4-4c4a-8af4-f16022e972db"
+    },
+    {
+      "name": "gpt-6-luna",
+      "slug": "gpt-6-luna",
+      "status": "review_required",
+      "score": 58,
+      "rank": 21,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "dm_quantum",
+        "msft_rocket",
+        "lingsante_family",
+        "openai_openworks"
+      ],
+      "tweet_ids": [
+        "2125072735336546546",
+        "2124811995912286352",
+        "2124911073266413634",
+        "2124922556922691892",
+        "2124922133545714160",
+        "2124905985433272539",
+        "2125007927098699827",
+        "2124929944530587712",
+        "2124970294523945328",
+        "2125069725977968935"
+      ],
+      "elapsed_seconds": 511,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.831efc5f-cb06-4fd9-874f-3950503b9cfd",
+      "session": "313caae9-7a7c-4578-a335-433add95989d"
+    },
+    {
+      "name": "gemini-4-argon",
+      "slug": "gemini-4-argon",
+      "status": "complete_local",
+      "score": 76,
+      "rank": 12,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "msft_rocket",
+        "huang_reinstated",
+        "sierra_30b",
+        "shirudo"
+      ],
+      "tweet_ids": [
+        "2125072735336546546",
+        "2124805514722771349",
+        "2125055415620866113",
+        "2124980590717911527",
+        "2125007927098699827",
+        "2124929944530587712",
+        "2124970294523945328",
+        "2124911073266413634",
+        "2124891223597240338",
+        "2125069725977968935"
+      ],
+      "elapsed_seconds": 904,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.435a0b2d-5bfc-479d-8c89-6cdb9c92ab6f",
+      "session": "e50d4932-49b2-4e82-968c-366bc5592ddc"
+    },
+    {
+      "name": "glm-5-3",
+      "slug": "glm-5-3",
+      "status": "review_required",
+      "score": 80,
+      "rank": 10,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "ernie55_flash",
+        "msft_rocket",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2124879500764942801",
+        "2125072735336546546",
+        "2125055415620866113",
+        "2125007927098699827",
+        "2124922556922691892",
+        "2124959312606818597",
+        "2124891223597240338",
+        "2125069725977968935",
+        "2124961434685898803"
+      ],
+      "elapsed_seconds": 307,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.d6cfc7b3-cc0d-43a2-82c3-967ca27d8266",
+      "session": "b5390ff4-aa22-4ea3-8d9b-54c64230a950"
+    },
+    {
+      "name": "gemini-4-carbon",
+      "slug": "gemini-4-carbon",
+      "status": "review_required",
+      "score": 82,
+      "rank": 8,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "ernie55_flash",
+        "spacex_gpu_rental",
+        "sierra_30b"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2124980590717911527",
+        "2125007927098699827",
+        "2124929944530587712",
+        "2124970294523945328",
+        "2124911073266413634",
+        "2124922556922691892",
+        "2124891223597240338",
+        "2125069725977968935"
+      ],
+      "elapsed_seconds": 907,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.2735db4b-323c-4f5f-b9d6-9e461c820a0f",
+      "session": "fc516720-d6ca-477b-909b-16eaac5d1054"
+    },
+    {
+      "name": "qwen-4-max",
+      "slug": "qwen-4-max",
+      "status": "review_required",
+      "score": 76,
+      "rank": 12,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "ernie55_flash",
+        "glm54_loop",
+        "shirudo",
+        "sierra_30b"
+      ],
+      "tweet_ids": [
+        "2125072735336546546",
+        "2124805514722771349",
+        "2124879500764942801",
+        "2125007927098699827",
+        "2124922556922691892",
+        "2125069725977968935",
+        "2124901393488048410",
+        "2124970294523945328",
+        "2124891223597240338",
+        "2124911073266413634"
+      ],
+      "elapsed_seconds": 712,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.e6d83f03-61f3-466c-bc77-820ff0ef6bac",
+      "session": "0d071d4a-b651-423b-97d0-7e59a7753af9"
+    },
+    {
+      "name": "gpt-6-2-astra",
+      "slug": "gpt-6-2-astra",
+      "status": "complete_local",
+      "score": 57,
+      "rank": 22,
+      "headline_event": "ernie55_flash",
+      "story_events": [
+        "ernie55_flash",
+        "glm54_loop",
+        "ling32_air",
+        "huang_reinstated",
+        "anthropic_zdr"
+      ],
+      "tweet_ids": [
+        "2125072735336546546",
+        "2124811995912286352",
+        "2124891223597240338",
+        "2125069725977968935",
+        "2124926906109935925",
+        "2124929944530587712",
+        "2124905985433272539",
+        "2124981167279546382",
+        "2124918494110298127",
+        "2124922556922691892"
+      ],
+      "elapsed_seconds": 168,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.851a4f22-41ef-4576-b0d9-ff61b5461170",
+      "session": "01e129ff-332f-4cf0-9c22-bd9457d10c29"
+    },
+    {
+      "name": "gpt-6-2-sol",
+      "slug": "gpt-6-2-sol",
+      "status": "complete_local",
+      "score": 76,
+      "rank": 12,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "ernie55_flash",
+        "huang_reinstated",
+        "dm_quantum",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2125069725977968935",
+        "2124911073266413634",
+        "2124891223597240338",
+        "2124922556922691892",
+        "2124929944530587712",
+        "2124905985433272539",
+        "2124918494110298127",
+        "2124970294523945328"
+      ],
+      "elapsed_seconds": 562,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.c181c4d9-9b24-4210-8f52-877966e5bb51",
+      "session": "dc9165d2-622f-4861-896e-ae682de50222"
+    },
+    {
+      "name": "gemini-4-neon",
+      "slug": "gemini-4-neon",
+      "status": "review_required",
+      "score": 62,
+      "rank": 20,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "ernie55_flash",
+        "gpt6_cyber_948",
+        "sierra_30b"
+      ],
+      "tweet_ids": [
+        "2124805514722771349",
+        "2125071729848615245",
+        "2125007927098699827",
+        "2124980590717911527",
+        "2124911073266413634",
+        "2125055415620866113",
+        "2124970294523945328",
+        "2124891223597240338",
+        "2125069725977968935",
+        "2124926906109935925"
+      ],
+      "elapsed_seconds": 395,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.7dec2c1b-0232-486b-a7b3-0bdd036c7696",
+      "session": "38c18498-bf19-4882-a61f-5752410cdcb5"
+    },
+    {
+      "name": "fable-5-1",
+      "slug": "fable-5-1",
+      "status": "review_required",
+      "score": 86,
+      "rank": 3,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "shirudo",
+        "ernie55_flash",
+        "dm_quantum"
+      ],
+      "tweet_ids": [
+        "2124870891536592986",
+        "2124811995912286352",
+        "2124980590717911527",
+        "2125072735336546546",
+        "2124911073266413634",
+        "2125007927098699827",
+        "2124922556922691892",
+        "2124970294523945328",
+        "2125069725977968935",
+        "2124891223597240338"
+      ],
+      "elapsed_seconds": 763,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.6d396521-3e61-4962-8d5d-a27908243916",
+      "session": "23e9f7db-18ce-4ce4-8301-3b44791f2f09"
+    },
+    {
+      "name": "fable-5-2",
+      "slug": "fable-5-2",
+      "status": "review_required",
+      "score": 72,
+      "rank": 15,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "shirudo",
+        "claude_ship",
+        "amazon_decart"
+      ],
+      "tweet_ids": [
+        "2124879500764942801",
+        "2124811995912286352",
+        "2124980590717911527",
+        "2125007927098699827",
+        "2124970294523945328",
+        "2125055415620866113",
+        "2125072735336546546",
+        "2124911073266413634",
+        "2124891223597240338",
+        "2125069725977968935"
+      ],
+      "elapsed_seconds": 351,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.665751e3-6910-44c1-bd38-2f09d36f9507",
+      "session": "9c53ce3a-2fce-4859-84ba-88b831df84b4"
+    },
+    {
+      "name": "opus-5-5",
+      "slug": "opus-5-5",
+      "status": "review_required",
+      "score": 72,
+      "rank": 15,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "gpt6_cyber_948",
+        "ernie55_flash",
+        "sierra_30b"
+      ],
+      "tweet_ids": [
+        "2124866316293013809",
+        "2124811995912286352",
+        "2125007927098699827",
+        "2125072735336546546",
+        "2124970294523945328",
+        "2124980590717911527",
+        "2124911073266413634",
+        "2125055415620866113",
+        "2124891223597240338",
+        "2125069725977968935"
+      ],
+      "elapsed_seconds": 287,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.1b235d7b-3051-498c-b330-e0efca9c9e3b",
+      "session": "d3e5acc6-1f46-4874-aaed-dfa3168b1c85"
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "slug": "deepseek-v4-pro",
+      "status": "complete_local",
+      "score": 85,
+      "rank": 6,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "shirudo",
+        "msft_rocket",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2124942828274925651",
+        "2124811995912286352",
+        "2124980590717911527",
+        "2125055415620866113",
+        "2125072735336546546",
+        "2124970294523945328",
+        "2124911073266413634",
+        "2124891223597240338",
+        "2125069725977968935",
+        "2124933527066325243"
+      ],
+      "elapsed_seconds": 896,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.520bc9d6-4638-4569-b4b3-8d1407faee42",
+      "session": "f5f96def-1137-45a8-9bf0-a0fb32d5f2b1"
+    },
+    {
+      "name": "kimi-k3-1-pro",
+      "slug": "kimi-k3-1-pro",
+      "status": "review_required",
+      "score": 86,
+      "rank": 3,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "huang_reinstated",
+        "shirudo",
+        "dm_quantum",
+        "ernie55_flash"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2124980590717911527",
+        "2124911073266413634",
+        "2124922556922691892",
+        "2125069725977968935",
+        "2124970294523945328",
+        "2124929944530587712",
+        "2125007927098699827",
+        "2124891223597240338"
+      ],
+      "elapsed_seconds": 562,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.e32c1c55-64cc-4123-99bf-cb1c3b5f267e",
+      "session": "e874bb24-169b-4966-a79d-da55b7c5a9dc"
+    },
+    {
+      "name": "minimax-m3-1-flash",
+      "slug": "minimax-m3-1-flash",
+      "status": "review_required",
+      "score": 68,
+      "rank": 18,
+      "headline_event": "gpt6_cyber_948",
+      "story_events": [
+        "gpt6_cyber_948",
+        "ernie55_flash",
+        "glm54_loop",
+        "ling32_air",
+        "anthropic_zdr"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2125007927098699827",
+        "2124929944530587712",
+        "2124922556922691892",
+        "2125069725977968935",
+        "2124970294523945328",
+        "2124980590717911527",
+        "2124891223597240338",
+        "2124911073266413634"
+      ],
+      "elapsed_seconds": 169,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.9d4333e4-a7db-4cd7-94e1-139bb9e554db",
+      "session": "d250bdef-84df-4642-b921-63c47439cd62"
+    },
+    {
+      "name": "grok-4-7",
+      "slug": "grok-4-7",
+      "status": "review_required",
+      "score": 85,
+      "rank": 6,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "ernie55_flash",
+        "shirudo",
+        "msft_rocket"
+      ],
+      "tweet_ids": [
+        "2124805514722771349",
+        "2125071729848615245",
+        "2124980590717911527",
+        "2125007927098699827",
+        "2124922556922691892",
+        "2124922133545714160",
+        "2124970294523945328",
+        "2124911073266413634",
+        "2124891223597240338",
+        "2125069725977968935"
+      ],
+      "elapsed_seconds": 754,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.1dcbd405-73e8-47d9-b15a-0c89e6489d53",
+      "session": "acf84761-a64f-439c-995f-7308c9b2dd53"
+    },
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "complete_local",
+      "score": 90,
+      "rank": 1,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "huang_reinstated",
+        "shirudo",
+        "ernie55_flash",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2124980590717911527",
+        "2125072735336546546",
+        "2124970294523945328",
+        "2124901393488048410",
+        "2125069725977968935",
+        "2124911073266413634",
+        "2124922556922691892",
+        "2125007927098699827",
+        "2124891223597240338"
+      ],
+      "elapsed_seconds": 795,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.27c69549-0a6f-4844-8a51-9ebde274a5ff",
+      "session": "acb80a51-3f4e-4acb-be0e-0e5ef47cbf25"
+    },
+    {
+      "name": "sonnet-5-5",
+      "slug": "sonnet-5-5",
+      "status": "review_required",
+      "score": 90,
+      "rank": 1,
+      "headline_event": "glm54_loop",
+      "story_events": [
+        "glm54_loop",
+        "huang_reinstated",
+        "ernie55_flash",
+        "msft_rocket",
+        "shirudo"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2124980590717911527",
+        "2125007927098699827",
+        "2124970294523945328",
+        "2124922556922691892",
+        "2125055415620866113",
+        "2124911073266413634",
+        "2125069725977968935",
+        "2124891223597240338"
+      ],
+      "elapsed_seconds": 183,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.0efecf12-2bb8-4da5-982d-965766817518",
+      "session": "4d1b1f9b-4652-4563-bc44-a6388f7c2db2"
+    },
+    {
+      "name": "haiku-5-5",
+      "slug": "haiku-5-5",
+      "status": "review_required",
+      "score": 72,
+      "rank": 15,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "amazon_decart",
+        "gpt6_cyber_948",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2125072735336546546",
+        "2124918494110298127",
+        "2124922556922691892",
+        "2124891223597240338",
+        "2124929944530587712",
+        "2125069725977968935",
+        "2124911073266413634",
+        "2125055415620866113",
+        "2124980590717911527",
+        "2124970294523945328"
+      ],
+      "elapsed_seconds": 246,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.ea5947e4-754b-4708-96c0-cf10ea8cfc7e",
+      "session": "e1413556-7fa5-45de-9971-a7e37bcafeef"
+    },
+    {
+      "name": "gemini-4-hydrogen",
+      "slug": "gemini-4-hydrogen",
+      "status": "complete_local",
+      "score": 86,
+      "rank": 3,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "crowdstrike_zscaler",
+        "shirudo",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2124811995912286352",
+        "2125072735336546546",
+        "2125007927098699827",
+        "2124980590717911527",
+        "2124911073266413634",
+        "2124922556922691892",
+        "2124970294523945328",
+        "2124929944530587712",
+        "2125069725977968935",
+        "2124870592684032283"
+      ],
+      "elapsed_seconds": 177,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.a853ccf5-4189-4306-80cd-6be192693daa",
+      "session": "033a6fb7-5762-4994-bd61-9f8fb3adc1ee"
+    },
+    {
+      "name": "qwen-3-8-max-0902",
+      "slug": "qwen-3-8-max-0902",
+      "status": "review_required",
+      "score": 80,
+      "rank": 10,
+      "headline_event": "huang_reinstated",
+      "story_events": [
+        "huang_reinstated",
+        "glm54_loop",
+        "ernie55_flash",
+        "msft_rocket",
+        "un_ai_risk"
+      ],
+      "tweet_ids": [
+        "2124805514722771349",
+        "2125071729848615245",
+        "2124942828274925651",
+        "2124922556922691892",
+        "2124911073266413634",
+        "2124970294523945328",
+        "2125007927098699827",
+        "2125069725977968935",
+        "2124891223597240338",
+        "2124966751544791340"
+      ],
+      "elapsed_seconds": 1638,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.d8ebdd16-7c9f-4915-9486-21635f00848e",
+      "session": "7e966636-2117-47eb-8cc8-b247630276aa"
+    }
+  ],
+  "excluded_models": [],
+  "event_labels": {
+    "glm54_loop": "Z.ai launches GLM-5.4, its first flagship loop-transformer coding model",
+    "ernie55_flash": "Baidu releases open-weight ERNIE 5.5 Flash Preview under Apache 2.0",
+    "huang_reinstated": "NVIDIA board reinstates Jensen Huang as President, CEO and board director",
+    "msft_rocket": "Microsoft AI details Rocket, its in-house reinforcement-learning infrastructure for post-training MAI Base 2",
+    "shirudo": "OpenAI and Cisco open-source Shirudo, an eBPF runtime for live, agent-driven Linux defense during patching",
+    "un_ai_risk": "UN Secretary-General calls for a multilateral AI risk/safety framework within a year",
+    "dm_quantum": "DeepMind's Gemini agent teams find Lean-verified, cheaper quantum circuits with formal verification",
+    "sierra_30b": "Sierra raises a $1.75 billion Series F at a $30 billion valuation",
+    "ling32_air": "Ant Group's InclusionAI releases open-weight multimodal Ling-3.2-air",
+    "anthropic_zdr": "Anthropic opens a zero-data-retention enterprise safeguards beta with cross-request monitoring",
+    "gpt6_cyber_948": "OpenAI's GPT-6 Cyber pipeline validates 948 Linux kernel privilege-escalation vulnerabilities and patches",
+    "amazon_decart": "Amazon confirms a reported $7.5 billion deal for Decart's AI optimization technology and team",
+    "claude_ship": "Anthropic launches Claude Ship, letting AI agents review, fix and approve code changes",
+    "spacex_gpu_rental": "SpaceX's AI unit reportedly earns $3.9 billion monthly renting GPUs to AI rivals",
+    "openai_openworks": "OpenAI launches OpenWorks for hands-on small-business AI support",
+    "crowdstrike_zscaler": "CrowdStrike agrees to acquire Zscaler in a $43.9 billion all-stock AI security deal",
+    "lingsante_family": "Ant Group's AI app Afu open-sources two LingSante medical models and announces a healthcare AI model family",
+    "sglang_miles_bitexact": "SGLang and Miles report bit-exact on-policy RL rollout and training"
+  },
+  "headline_votes": {
+    "glm54_loop": 8,
+    "ernie55_flash": 2,
+    "huang_reinstated": 12,
+    "gpt6_cyber_948": 1
+  },
+  "story_votes": {
+    "glm54_loop": 22,
+    "ernie55_flash": 17,
+    "ling32_air": 4,
+    "anthropic_zdr": 4,
+    "un_ai_risk": 8,
+    "huang_reinstated": 19,
+    "shirudo": 11,
+    "dm_quantum": 5,
+    "msft_rocket": 8,
+    "sglang_miles_bitexact": 1,
+    "lingsante_family": 1,
+    "openai_openworks": 1,
+    "sierra_30b": 5,
+    "spacex_gpu_rental": 1,
+    "gpt6_cyber_948": 4,
+    "claude_ship": 1,
+    "amazon_decart": 2,
+    "crowdstrike_zscaler": 1
+  },
+  "tweet_votes": {
+    "2124811995912286352": 16,
+    "2125072735336546546": 20,
+    "2124891223597240338": 21,
+    "2125069725977968935": 23,
+    "2124980590717911527": 16,
+    "2124970294523945328": 20,
+    "2124929944530587712": 12,
+    "2124922556922691892": 18,
+    "2124926906109935925": 4,
+    "2124905985433272539": 5,
+    "2125007927098699827": 17,
+    "2124911073266413634": 20,
+    "2124918494110298127": 4,
+    "2124901393488048410": 3,
+    "2124922133545714160": 2,
+    "2124805514722771349": 5,
+    "2125055415620866113": 8,
+    "2124879500764942801": 3,
+    "2124959312606818597": 1,
+    "2124961434685898803": 1,
+    "2124981167279546382": 1,
+    "2125071729848615245": 3,
+    "2124870891536592986": 1,
+    "2124866316293013809": 1,
+    "2124942828274925651": 2,
+    "2124933527066325243": 1,
+    "2124870592684032283": 1,
+    "2124966751544791340": 1
+  },
+  "cutoffs": {
+    "story_cut_votes": 8,
+    "tweet_cut_votes": 12,
+    "eligible_stories": [
+      "ernie55_flash",
+      "glm54_loop",
+      "huang_reinstated",
+      "msft_rocket",
+      "shirudo",
+      "un_ai_risk"
+    ],
+    "eligible_tweets": [
+      "2124811995912286352",
+      "2124891223597240338",
+      "2124911073266413634",
+      "2124922556922691892",
+      "2124929944530587712",
+      "2124970294523945328",
+      "2124980590717911527",
+      "2125007927098699827",
+      "2125069725977968935",
+      "2125072735336546546"
+    ]
+  },
+  "eligible_denominator": 23,
+  "source_hashes": {
+    "2026-11-24/gpt-6-astra/2026-11-24.edition.md": "33ab94f123f0186efd12a9490c1a6ae2d6eaa4bf6536b6a7108275bc3006e22a",
+    "2026-11-24/gpt-6-astra/2026-11-24.html": "1c46a6276144c27caa23b0743918f51fe59649ed9b0bed62a360b08519b8cd37",
+    "2026-11-24/gpt-6-astra/run.json": "253a5e75e98e8cc8dc9944c8d30a6f4be5a7c8fe4c1ecacdf2a4de5e62d55429",
+    "2026-11-24/gpt-6-astra/headline.json": "bc205aa9a34594cccea592e16f56feff0d59913451b24c4e46bb5bf4294fd5c6",
+    "2026-11-24/gpt-6-astra/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gpt-6-astra/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gpt-6-1-sol/2026-11-24.edition.md": "f891b0fc7e1aa577c249a256395557f30744098c7c913ef14c124c14b67d1e4e",
+    "2026-11-24/gpt-6-1-sol/2026-11-24.html": "a16f766d4091ed79781a5c9e4621d635d9fb45b1d0ffcfb8e96e621d88cf4755",
+    "2026-11-24/gpt-6-1-sol/run.json": "bf4d8d2edf17f9990686a39da7303acd32864222ca81f0121f7158dd85052bfa",
+    "2026-11-24/gpt-6-1-sol/headline.json": "6a88513cf3f12defc39cae22dff486a51c0a970802fe1a8c5308170bb2f5cf17",
+    "2026-11-24/gpt-6-1-sol/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gpt-6-1-sol/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gpt-6-1-terra/2026-11-24.edition.md": "920b26b710020aaa2e4988ee25b17b80d111c076b407069779e4f5b6b96ca5b8",
+    "2026-11-24/gpt-6-1-terra/2026-11-24.html": "e8da5f7764b6406bc8b797255b28a3352415421b5a66efcd7c4970f5a5ee2718",
+    "2026-11-24/gpt-6-1-terra/run.json": "61f969ccb35dd03295d2c08c3947337328857d0ff1e1e87c364c944f5ea7c479",
+    "2026-11-24/gpt-6-1-terra/headline.json": "1ed76703e029e58fd16f0bbfdeaa0eb356a6a2f85203a99bba3fb8778761c9b9",
+    "2026-11-24/gpt-6-1-terra/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gpt-6-1-terra/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gpt-6-luna/2026-11-24.edition.md": "2ade3c8aebc78e1d778e30ae902e1ae90e780327073220eeec950dc24e6c31cb",
+    "2026-11-24/gpt-6-luna/2026-11-24.html": "2adf1428b3f970de44b9e8516fc200d0ec6d9986bbf04743305ae6b1e086bc9d",
+    "2026-11-24/gpt-6-luna/run.json": "ebd4ebe4bbb8bcca4dae838ca3572f607acc508825f36ac4614aa009d1a86b84",
+    "2026-11-24/gpt-6-luna/headline.json": "afe9c8622ba9dc48003fc15e0f546cb8ba125be4370598274c27e65388355ef7",
+    "2026-11-24/gpt-6-luna/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gpt-6-luna/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gemini-4-argon/2026-11-24.edition.md": "c51f236a4528ff3100f90170cc8348f2bfbc2105e07eafa133b36474072e7b29",
+    "2026-11-24/gemini-4-argon/2026-11-24.html": "aae291d4dd49093641e5aedbf7a32da5ab3c714ecb2b0b443935526dd6163f9d",
+    "2026-11-24/gemini-4-argon/run.json": "e0e0a466f73ca442240847a71d3f09f0f99cafb5bf04cf348c8b0ca7bf171bc3",
+    "2026-11-24/gemini-4-argon/headline.json": "b61e4ad1eb2c4668e47d438e1f7a3f0bec5ccab2ec85dd9e9d5ef28e1d38988f",
+    "2026-11-24/gemini-4-argon/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gemini-4-argon/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/glm-5-3/2026-11-24.edition.md": "8a515d52c2a1c70cc22d9e80491b8fac42c86eb6b26a32a4f33ece6ee88a2ba8",
+    "2026-11-24/glm-5-3/2026-11-24.html": "7b4728e166e87cc069c887a06a36e4e6ff23fb5d75d8a2d65fd206b86bb6c367",
+    "2026-11-24/glm-5-3/run.json": "a689e9f503aa931916bf0cfc527a0069e7cfa8be23a4807491a4db5bdc539865",
+    "2026-11-24/glm-5-3/headline.json": "24473ce2c48f4b246132a37bc05757dbf841a6f4345ea56a4de6fc306a94183a",
+    "2026-11-24/glm-5-3/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/glm-5-3/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gemini-4-carbon/2026-11-24.edition.md": "0ee7d6dfe77028775be444f5f95cc0d67ca2d4de58771098c4aae38973dd9d63",
+    "2026-11-24/gemini-4-carbon/2026-11-24.html": "7f1fef70a55750dad3664be4fc25199be23321fe445fc6e2b226501983ddfd7a",
+    "2026-11-24/gemini-4-carbon/run.json": "3f18da02e98dbdf6d84bbafac8a358966ae27adf86d6222070ad00c915569bba",
+    "2026-11-24/gemini-4-carbon/headline.json": "b16868ce1ad2ee92b5f561377e67608216114c5b8c2a5f3b03718d7c32ef75ce",
+    "2026-11-24/gemini-4-carbon/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gemini-4-carbon/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/qwen-4-max/2026-11-24.edition.md": "d102cbef638eb876bc6019f88c9110787bfd4626cd43550dca169f5e5fe7286c",
+    "2026-11-24/qwen-4-max/2026-11-24.html": "ae47383f0d868e921fa4c26f8de52be57989bfcacd1be897ccf192a76a919bc4",
+    "2026-11-24/qwen-4-max/run.json": "c43c02b0287e2c7a1f0448aa52eef82aaa7e7ed5a64557734cf127f5606a50f8",
+    "2026-11-24/qwen-4-max/headline.json": "050d4f0c2f2214ad2d54ce5c2e624c2a60ba37b0fb77d2b8759b8ed56b2c282b",
+    "2026-11-24/qwen-4-max/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/qwen-4-max/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gpt-6-2-astra/2026-11-24.edition.md": "fc065490ec61609ba934fff38cab0262873b3da136ce5b45ce4971f8965ce983",
+    "2026-11-24/gpt-6-2-astra/2026-11-24.html": "d7bb8761139aab9249b47cba1f9ece40892a11c8a09fa0edf8efd3c24728c50a",
+    "2026-11-24/gpt-6-2-astra/run.json": "7083cdf380a8bd834a653ab9ff3e585b98de24c08e6395c67ed9c0239d50b704",
+    "2026-11-24/gpt-6-2-astra/headline.json": "c84d3575b76720e82181a047b96fa001875321c703c94c2a522477c00216fd19",
+    "2026-11-24/gpt-6-2-astra/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gpt-6-2-astra/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gpt-6-2-sol/2026-11-24.edition.md": "e0847be7da555add1b87893fe5047e2942220aba930c2733aef4783b9a84e1c4",
+    "2026-11-24/gpt-6-2-sol/2026-11-24.html": "6f720c54862ab645b446a50d8b5adbc6230abee9f48ff22d02d1003071bbc85e",
+    "2026-11-24/gpt-6-2-sol/run.json": "8a9c3079eda1af140e073e769e08ad7fed691f4686cf0ec7645300c73852a010",
+    "2026-11-24/gpt-6-2-sol/headline.json": "e6e8b8f14f7ce47edab68168947bc8fdee87b9c238b6459b415bd82c26d6fb83",
+    "2026-11-24/gpt-6-2-sol/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gpt-6-2-sol/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gemini-4-neon/2026-11-24.edition.md": "f40f967b82e606d06c818fad3e3edad260698b9dba38051185f894f482c74be4",
+    "2026-11-24/gemini-4-neon/2026-11-24.html": "bcfd69cdb0c8062d71597333cf9f4b90b4ddab5a5f3b0162d1d85aeb046504f1",
+    "2026-11-24/gemini-4-neon/run.json": "2aff31ee4e0c23fe2b26a2913629122375f48900169a480e083ddae65d13ffea",
+    "2026-11-24/gemini-4-neon/headline.json": "4e572df5cff89f18a2020a99d71c8f8855ff9e4f73f8b5520bdbcd0d7cdff567",
+    "2026-11-24/gemini-4-neon/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gemini-4-neon/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/fable-5-1/2026-11-24.edition.md": "4a312f197222dececfa0142ae374993aa2d9547e1c2a0dca66908a62eecb275e",
+    "2026-11-24/fable-5-1/2026-11-24.html": "de8865a1df754a0e8b23c8d1a986d377531d07c5131c27bed09cfadd15141c55",
+    "2026-11-24/fable-5-1/run.json": "0d88a5359e271e91f368618412520b83d8ede2aa2e01f2f5fb42075a2aaf9d85",
+    "2026-11-24/fable-5-1/headline.json": "4bb36c3321cbdfcada5c2dd348fa1a22bddecf292e0ccaeeb756ded1b38cdf2f",
+    "2026-11-24/fable-5-1/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/fable-5-1/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/fable-5-2/2026-11-24.edition.md": "3f25359d609a9fe176836c2a6a770298f9d8c4e0c6fb28ffac014ec796402411",
+    "2026-11-24/fable-5-2/2026-11-24.html": "2693750b3e57c09d1f26bb8f83fb4b7c634b4fe376228f7873679fc031b35286",
+    "2026-11-24/fable-5-2/run.json": "546c12e71af6ec438d88c3e0794ffbd0f90d0b79ab715359c14696ae86321833",
+    "2026-11-24/fable-5-2/headline.json": "22973d1aa54859d6672cd6a9a6f730ef2dbc6d11b0a2d7e5436522b38b2d745a",
+    "2026-11-24/fable-5-2/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/fable-5-2/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/opus-5-5/2026-11-24.edition.md": "63b77a4d0239b1d320cd595c445715b2999ba1aaf3eeee5b2046fc1206fb3953",
+    "2026-11-24/opus-5-5/2026-11-24.html": "558c592845e640deba1f07ed300857fa3d934f9620c150adcc5dc21c4af0678d",
+    "2026-11-24/opus-5-5/run.json": "b9ddaf370d7b2cb9ab2e960c9965135b813a7c21f16df899aae16266b79f94e5",
+    "2026-11-24/opus-5-5/headline.json": "d29a643fc43ae94572c8242dcd4a51a5f7bbec00834bd84299fab369a3dfc679",
+    "2026-11-24/opus-5-5/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/opus-5-5/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/deepseek-v4-pro/2026-11-24.edition.md": "47f2d57c74aa67bffcda489ed7a2b0e5e897124a386023f3fa8aa0160b3c707c",
+    "2026-11-24/deepseek-v4-pro/2026-11-24.html": "fee06a1d2d7f7720698a08be66d9dcd422458bab97c89311ffbb864f81362229",
+    "2026-11-24/deepseek-v4-pro/run.json": "fd7f6bf47df37b1d3d98cef26d507c374a10766b1add8125c2ff13085507b1b2",
+    "2026-11-24/deepseek-v4-pro/headline.json": "53858a6b5c57d322876dd40e45d0ba377120f894d34ec0fcfc9f4ef54527bc34",
+    "2026-11-24/deepseek-v4-pro/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/deepseek-v4-pro/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/kimi-k3-1-pro/2026-11-24.edition.md": "db2277c83f3629d808f17720be3d81ae167413f9125427bc7e5a7209b50eb02a",
+    "2026-11-24/kimi-k3-1-pro/2026-11-24.html": "d192869d34fc52fef250475c959475b341683c2a3313f769cd1d0463f7337fd3",
+    "2026-11-24/kimi-k3-1-pro/run.json": "252cfabd312adf36758e3cc02d669694f070b78cc9242e40ec9778a26e37240d",
+    "2026-11-24/kimi-k3-1-pro/headline.json": "8b070707cc60f42a5d573266d32f1932d995492346fb8995906592e3c24b813c",
+    "2026-11-24/kimi-k3-1-pro/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/kimi-k3-1-pro/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/minimax-m3-1-flash/2026-11-24.edition.md": "9696301eddd0dd293ff3531346334c5df3dfaa9474af3ca0ddfa5ad551b389e8",
+    "2026-11-24/minimax-m3-1-flash/2026-11-24.html": "8a6cf13ee9a01a9dae8900c5a88fce4210174ac920515c3c41c7e4ee59d75f48",
+    "2026-11-24/minimax-m3-1-flash/run.json": "5d18cc2fc465d9c5e783f064a5ffc90398ff0cba06d4c6ee7d1cb87ab159965b",
+    "2026-11-24/minimax-m3-1-flash/headline.json": "7eafd2ac82f3c3a78c9a289b688bd05ab3c6f05bff97200b34e5fab7ad0e1772",
+    "2026-11-24/minimax-m3-1-flash/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/minimax-m3-1-flash/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/grok-4-7/2026-11-24.edition.md": "428250f8efdea7c065da336df5792eed113632b9f2e919444273559e5538d17a",
+    "2026-11-24/grok-4-7/2026-11-24.html": "7d5fcd5b27dd36d57a9aaf9809b42539c0c82d300dbd438b8202d1c5755f5b29",
+    "2026-11-24/grok-4-7/run.json": "2b9cbe3f203f33593710ff6fd7546d800eedb1be163aadba083d1087ea05b381",
+    "2026-11-24/grok-4-7/headline.json": "4dd855788e693f9effddc34f83f3edc2865f1d88eaa9b09f1b5d04a85ba5d505",
+    "2026-11-24/grok-4-7/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/grok-4-7/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/deepseek-v4-1-flash-1017/2026-11-24.edition.md": "afd2dc4de2441bdce963593ad6f2138998d2e771fe7d5aaa8dfe939c72f96c58",
+    "2026-11-24/deepseek-v4-1-flash-1017/2026-11-24.html": "e3161c5a6dd04fa649fd5f252ee11da1605bd43e5068bdb3ed8629cdc6ab67b7",
+    "2026-11-24/deepseek-v4-1-flash-1017/run.json": "c8c95e07a4b1da3de51b2b132567e2fbb7855c786d165983e1b5c1321c81d87d",
+    "2026-11-24/deepseek-v4-1-flash-1017/headline.json": "35cb3505a84584bc67588ac112d4992a50182bb55fa3998f3466cceef9bbc9ba",
+    "2026-11-24/deepseek-v4-1-flash-1017/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/deepseek-v4-1-flash-1017/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/sonnet-5-5/2026-11-24.edition.md": "faed26daaae91f8f951a34063036f20a3eee24f33d4a7afa630d2850f991a0f2",
+    "2026-11-24/sonnet-5-5/2026-11-24.html": "4accb0d5943bd02ca1f42a9dddd8b686395e8bfe5dc202fd374c6668272bf570",
+    "2026-11-24/sonnet-5-5/run.json": "aebb661302a161d6ef996e0a90cc4d4ffe55973f341e805ce1c8009fd2c5eb44",
+    "2026-11-24/sonnet-5-5/headline.json": "d24c2093b6b48f153f1106f1db9737180674e5f6b2591357fc60bb7fedb0350e",
+    "2026-11-24/sonnet-5-5/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/sonnet-5-5/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/haiku-5-5/2026-11-24.edition.md": "883c3ed5fc424d656cf61ce42de4af71684b7e9ddd55c5f4ae4b80b8f2489fea",
+    "2026-11-24/haiku-5-5/2026-11-24.html": "ba82641f8a0d2c6a157524f5402600295a80dc86225e4446950624e225d20c30",
+    "2026-11-24/haiku-5-5/run.json": "06b3515d9747839d087f2ff21f08b338d98e88c88c9c05c46833feaafbd4a8b3",
+    "2026-11-24/haiku-5-5/headline.json": "82672d4ca2f937609a0dcc204e87a9c492bf08da9758ba6773d4947cd52fcdc4",
+    "2026-11-24/haiku-5-5/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/haiku-5-5/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/gemini-4-hydrogen/2026-11-24.edition.md": "325a364f2d7a91e10ada679679a937d2048a56b63323129ff21511dba5eac2c8",
+    "2026-11-24/gemini-4-hydrogen/2026-11-24.html": "ea4a3ea38bc8b4aef42decd5c358ed2c012c9c96e0768317c6a6ea4a12cf7a56",
+    "2026-11-24/gemini-4-hydrogen/run.json": "42dfc8a0e97950ec5da05257127663e780e64df3479c2764a4506eab80857389",
+    "2026-11-24/gemini-4-hydrogen/headline.json": "057a2071cf688943a57a781324f2e42e8fa140f26d86743434a6ad722428a43f",
+    "2026-11-24/gemini-4-hydrogen/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/gemini-4-hydrogen/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de",
+    "2026-11-24/qwen-3-8-max-0902/2026-11-24.edition.md": "4ba08b488457a4a006bcdc3f1297328c72e1137221da64c1842954c491e67afe",
+    "2026-11-24/qwen-3-8-max-0902/2026-11-24.html": "d2e2bef6ce326e7a6e29affcf69ec8db41d683c708d2cb1849fcca26262fee3e",
+    "2026-11-24/qwen-3-8-max-0902/run.json": "5453c8ded2d944554f2ade4026227a10b1cf352f48948c2c65f12818504dccb3",
+    "2026-11-24/qwen-3-8-max-0902/headline.json": "5702067c9ba524ea390af413c6c742cecd0b1860c6a3c9ccf44579b23bbc28c6",
+    "2026-11-24/qwen-3-8-max-0902/2026-11-24.x-collection.json": "c8bcbc9aa0a38456fd11005ca4f54df0c904e2608e8c29f61d8df129684e6727",
+    "2026-11-24/qwen-3-8-max-0902/2026-11-24.web-search.json": "c5b0d8e9a0341b2c04e20a2cecc1fe43f472f20cc10ec7ca7a8a4bf4724dd1de"
+  },
+  "event_url_bindings": {
+    "gpt-6-astra": {
+      "glm54_loop": "https://x.com/Zai_org/status/2124811995912286352",
+      "ernie55_flash": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "ling32_air": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "anthropic_zdr": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+      "un_ai_risk": "https://news.un.org/en/story/2026/11/1168861"
+    },
+    "gpt-6-1-sol": {
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "ernie55_flash": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "dm_quantum": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+    },
+    "gpt-6-1-terra": {
+      "ernie55_flash": "https://x.com/Baidu_ERNIE/status/2125072735336546546",
+      "ling32_air": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "anthropic_zdr": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+      "sglang_miles_bitexact": "https://miles.radixark.com/blogs/true-on-policy-rl-bit-exact-rollout-and-training-with-sglang-and-miles"
+    },
+    "gpt-6-luna": {
+      "glm54_loop": "https://x.com/Zai_org/status/2124811995912286352",
+      "dm_quantum": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "lingsante_family": "https://www.afp.com/en/external-communications/ant-groups-ai-app-afu-open-sources-medical-and-health-ai-model-family",
+      "openai_openworks": "https://x.com/OpenAI/status/2124922133545714160"
+    },
+    "gemini-4-argon": {
+      "glm54_loop": "https://mlq.ai/news/zai-launches-glm-54-a-750-billion-parameter-model-built-on-a-looped-transformer/",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "sierra_30b": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "shirudo": "https://openai.com/index/introducing-shirudo/"
+    },
+    "glm-5-3": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "ernie55_flash": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "un_ai_risk": "https://news.un.org/en/story/2026/11/1168861"
+    },
+    "gemini-4-carbon": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://venturebeat.com/technology/z-ais-glm-5-4-aims-to-match-models-up-to-four-times-its-size-by-running-28-layers-twice",
+      "ernie55_flash": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "spacex_gpu_rental": "https://mlq.ai/news/anthropic-and-google-pay-musks-spacex-billions-a-month-for-compute-as-he-tells-staff-it-is-falling-behind-in-ai/",
+      "sierra_30b": "https://sierra.ai/blog/series-f-30b"
+    },
+    "qwen-4-max": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "ernie55_flash": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "sierra_30b": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+    },
+    "gpt-6-2-astra": {
+      "ernie55_flash": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "glm54_loop": "https://x.com/Zai_org/status/2124811995912286352",
+      "ling32_air": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "huang_reinstated": "https://fortune.com/2026/11/23/nvidia-jensen-huang-return-ai-startups-neoclouds-funding/",
+      "anthropic_zdr": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+    },
+    "gpt-6-2-sol": {
+      "glm54_loop": "https://x.com/Zai_org/status/2124811995912286352",
+      "ernie55_flash": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "dm_quantum": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "un_ai_risk": "https://news.un.org/en/story/2026/11/1168861"
+    },
+    "gemini-4-neon": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://docs.z.ai/guides/llm/glm-5.4",
+      "ernie55_flash": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "gpt6_cyber_948": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "sierra_30b": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+    },
+    "fable-5-1": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "ernie55_flash": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "dm_quantum": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+    },
+    "fable-5-2": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "claude_ship": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "amazon_decart": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization"
+    },
+    "opus-5-5": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "gpt6_cyber_948": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "ernie55_flash": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "sierra_30b": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+    },
+    "deepseek-v4-pro": {
+      "huang_reinstated": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "un_ai_risk": "https://news.un.org/en/story/2026/11/1168861"
+    },
+    "kimi-k3-1-pro": {
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "dm_quantum": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "ernie55_flash": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview-FP8"
+    },
+    "minimax-m3-1-flash": {
+      "gpt6_cyber_948": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "ernie55_flash": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "ling32_air": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "anthropic_zdr": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+    },
+    "grok-4-7": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://docs.z.ai/guides/llm/glm-5.4",
+      "ernie55_flash": "https://x.com/Baidu_ERNIE/status/2125072735336546546",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/"
+    },
+    "deepseek-v4-1-flash-1017": {
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "ernie55_flash": "https://www.orcarouter.ai/blog/ernie-5-5-flash-preview-weights-released",
+      "un_ai_risk": "https://news.un.org/en/story/2026/11/1168861"
+    },
+    "sonnet-5-5": {
+      "glm54_loop": "https://docs.z.ai/guides/llm/glm-5.4",
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "ernie55_flash": "https://ernie.baidu.com/release/ernie-5-5-flash-preview/",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "shirudo": "https://openai.com/index/introducing-shirudo/"
+    },
+    "haiku-5-5": {
+      "huang_reinstated": "https://fortune.com/2026/11/23/nvidia-jensen-huang-return-ai-startups-neoclouds-funding/",
+      "glm54_loop": "https://x.com/Zai_org/status/2124805514722771349",
+      "amazon_decart": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "gpt6_cyber_948": "https://x.com/OpenAI/status/2125007927098699827",
+      "un_ai_risk": "https://www.euronews.com/2026/11/24/un-chief-urges-nations-to-establish-ai-safety-safeguards-within-a-year"
+    },
+    "gemini-4-hydrogen": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://docs.z.ai/guides/llm/glm-5.4",
+      "crowdstrike_zscaler": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html",
+      "shirudo": "https://openai.com/index/introducing-shirudo/",
+      "un_ai_risk": "https://news.un.org/en/story/2026/11/1168861"
+    },
+    "qwen-3-8-max-0902": {
+      "huang_reinstated": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "glm54_loop": "https://z.ai/blog/glm-5.4",
+      "ernie55_flash": "https://x.com/Baidu_ERNIE/status/2125071729848615245",
+      "msft_rocket": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "un_ai_risk": "https://news.un.org/en/story/2026-11-1168861"
+    }
+  },
+  "ambiguous_matches": [
+    {
+      "model": "gpt-6-astra",
+      "story": "glm54_loop",
+      "reason": "Z.ai's announcement tweet grouped with the GLM-5.4 launch"
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "story": "glm54_loop",
+      "reason": "Z.ai's announcement tweet (API access held for safety evaluation) grouped with the GLM-5.4 launch; same announcement"
+    },
+    {
+      "model": "gpt-6-2-sol",
+      "story": "glm54_loop",
+      "reason": "Z.ai's announcement tweet grouped with the launch"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "glm54_loop",
+      "reason": "Z.ai's second announcement tweet (status 2124805514722771349) grouped with the launch"
+    },
+    {
+      "model": "gemini-4-argon",
+      "story": "glm54_loop",
+      "reason": "MLQ.ai coverage of the GLM-5.4 launch grouped with the announcement"
+    },
+    {
+      "model": "gemini-4-carbon",
+      "story": "glm54_loop",
+      "reason": "VentureBeat coverage of the GLM-5.4 launch grouped with the announcement"
+    },
+    {
+      "model": "gemini-4-neon",
+      "story": "glm54_loop",
+      "reason": "Z.ai docs page grouped with the launch announcement"
+    },
+    {
+      "model": "grok-4-7",
+      "story": "glm54_loop",
+      "reason": "Z.ai docs page grouped with the launch announcement"
+    },
+    {
+      "model": "sonnet-5-5",
+      "story": "glm54_loop",
+      "reason": "Z.ai docs page grouped with the launch announcement"
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "story": "glm54_loop",
+      "reason": "Z.ai docs page grouped with the launch announcement"
+    },
+    {
+      "model": "gpt-6-1-terra",
+      "story": "ernie55_flash",
+      "reason": "Baidu ERNIE's tweet grouped with the open-weights release"
+    },
+    {
+      "model": "grok-4-7",
+      "story": "ernie55_flash",
+      "reason": "Baidu ERNIE's tweet grouped with the open-weights release"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "ernie55_flash",
+      "reason": "Baidu ERNIE's tweet grouped with the open-weights release"
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "story": "ernie55_flash",
+      "reason": "Hugging Face FP8 variant model card grouped with the ERNIE 5.5 Flash Preview release"
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "ernie55_flash",
+      "reason": "Orca Router coverage grouped with the open-weights release"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "story": "huang_reinstated",
+      "reason": "NVIDIA investor-relations copy of the reinstatement press release grouped with the nvidianews release"
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "story": "huang_reinstated",
+      "reason": "Fortune coverage of Huang's return grouped with the board press release"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "huang_reinstated",
+      "reason": "Fortune coverage of Huang's return grouped with the board press release"
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "story": "un_ai_risk",
+      "reason": "UN News URL with a malformed date segment (2026/11-1168861) grouped with the canonical UN News story"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "un_ai_risk",
+      "reason": "Euronews coverage of the UN chief's call grouped with the UN News story"
+    },
+    {
+      "model": "haiku-5-5",
+      "story": "gpt6_cyber_948",
+      "reason": "OpenAI's tweet about the 948 validated kernel bugs grouped with the OpenAI report"
+    },
+    {
+      "model": "gemini-4-carbon",
+      "story": "sierra_30b",
+      "reason": "Sierra's own Series F announcement grouped with TechCrunch coverage"
+    },
+    {
+      "model": "fable-5-2",
+      "story": "amazon_decart",
+      "reason": "Amazon's own announcement grouped with TechCrunch coverage of the Decart deal"
+    },
+    {
+      "model": "gpt-6-luna",
+      "story": "lingsante_family",
+      "reason": "AFP press-release distribution of the Ant Group LingSante open-sourcing; kept distinct from the Ling-3.2-air release event"
+    }
+  ]
+}
