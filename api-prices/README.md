@@ -75,12 +75,12 @@ GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 
 
 ## Freshness and provenance
 
-GLM-5.4 was added manually using approved proxy rates; the prior daily verification below does not verify that entry. No existing rates were changed. Current snapshot: `2026-11-23T020315256499Z/api-pricing.json`; SHA-256: `ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6`.
+GLM-5.4 remains a Ted-authorized manual addition using GLM-5.3 proxy rates; the November 24 daily verification covers it as a preserved override, not a verified provider price. No existing rates were changed. Current snapshot: `2026-11-23T020315256499Z/api-pricing.json`; SHA-256: `ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6`.
 
-This document reflects the saved pricing JSON. The daily verification for Sunday, November 22, 2026 checked all 23 models across 15 freshly captured official sources and found all numeric rates and applicability conditions unchanged; no new bundle was published, so the rate card remains the November 21 bundle. The tables keep the current $2/$10/$0.10 introductory Argon rates through November 30, 2026.
+This document reflects the saved pricing JSON. The daily verification for Tuesday, November 24, 2026 checked all 24 models (23 verified at their official sources plus the preserved GLM-5.4 override) across 15 freshly captured official sources and found all numeric rates and applicability conditions unchanged; no new bundle was published, so the rate card remains the November 23 bundle. The tables keep the current $2/$10/$0.10 introductory Argon and Carbon rates through November 30, 2026.
 
-- **Daily check:** `2026-11-22T08:03:13.636664+00:00`; status: `unchanged`; 23 models, 15 sources; no numeric or condition changes. Prior check `2026-11-21T08:06:21.351942+00:00` (status: `changed`) recorded the Gemini 4 Argon introductory end date; that condition change remains in effect.
-- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-22T08:01:35.506Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
+- **Daily check:** `2026-11-24T08:04:27.777727+00:00`; status: `unchanged`; 24 models (23 verified, 1 preserved GLM-5.4 override), 15 sources; no numeric or condition changes. Prior check `2026-11-22T08:03:13.636664+00:00` (status: `unchanged`, 23 models); the `2026-11-21` check (status: `changed`) recorded the Gemini 4 Argon introductory end date, and that condition change remains in effect.
+- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-24T08:02:26.792Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
 - **Prior verified snapshot:** `2026-11-21T080621351982Z/api-pricing.json`.
 - **Prior verified SHA-256:** `7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc`.
 - **Scheduled, not current:** the Google capture lists introductory Standard pricing for Gemini 4 Argon and Gemini 4 Carbon through November 30, 2026, with Standard $4/$20/$0.20 per million tokens starting December 1, 2026. The rate card now records the Argon introductory end date; the tables keep the current introductory rates until an observed change.
