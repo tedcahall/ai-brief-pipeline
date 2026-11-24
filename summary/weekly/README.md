@@ -4,7 +4,7 @@
 
 # Model Summary: weekly
 
-Window: 2026-11-22 through 2026-11-24. As of 2026-11-24. Judging: pending.
+Window: 2026-11-22 through 2026-11-24. As of 2026-11-24. Judging: complete.
 
 Avg uses available readings only; SD is sample SD (n-1), unavailable below two readings. Elapsed Time is seconds. Cost is USD API-equivalent. Tokens include cache. ECPTS Avg pools costs/tokens on paired days and scales by 100,000,000. Missing days are not zeros. Historical backfill uses the preserved available evidence, not a claim of what was known then.
 
@@ -208,29 +208,29 @@ Avg uses available readings only; SD is sample SD (n-1), unavailable below two r
 
 | Model | Avg | SD | 11/24 | 11/23 | 11/22 |
 |---|---:|---:|---:|---:|---:|
-| gpt-6-2-sol | 3.800 | 0.424 |  | 3.500 | 4.100 |
-| gpt-6-2-astra | 3.550 | 0.212 |  | 3.700 | 3.400 |
-| deepseek-v4-1-flash-1017 | 3.450 | 0.495 |  | 3.800 | 3.100 |
-| fable-5-2 | 3.400 | 0.000 |  | 3.400 | 3.400 |
-| kimi-k3-1-pro | 3.250 | 0.354 |  | 3.500 | 3.000 |
-| fable-5-1 | 3.200 | 0.000 |  | 3.200 | 3.200 |
-| gemini-4-neon | 3.200 | 0.141 |  | 3.100 | 3.300 |
-| sonnet-5-5 | 3.150 | 0.071 |  | 3.200 | 3.100 |
-| haiku-5-5 | 3.100 | 0.141 |  | 3.200 | 3.000 |
-| qwen-3-8-max-0902 | 3.050 | 0.071 |  | 3.100 | 3.000 |
-| deepseek-v4-pro | 3.000 | 0.424 |  | 3.300 | 2.700 |
-| gemini-4-hydrogen | 3.000 | 0.424 |  | 2.700 | 3.300 |
-| grok-4-7 | 3.000 | 0.283 |  | 3.200 | 2.800 |
-| gemini-4-carbon | 2.950 | 0.212 |  | 3.100 | 2.800 |
-| gpt-6-1-sol | 2.900 | 0.566 |  | 2.500 | 3.300 |
-| qwen-4-max | 2.900 | 0.424 |  | 2.600 | 3.200 |
-| glm-5-3 | 2.850 | 0.495 |  | 3.200 | 2.500 |
-| opus-5-5 | 2.850 | 0.354 |  | 3.100 | 2.600 |
-| minimax-m3-1-flash | 2.800 | 0.283 |  | 2.600 | 3.000 |
-| gpt-6-luna | 2.650 | 0.212 |  | 2.500 | 2.800 |
-| gemini-4-argon | 2.600 | 0.000 |  | 2.600 | 2.600 |
-| gpt-6-astra | 2.300 | 0.283 |  | 2.500 | 2.100 |
-| gpt-6-1-terra | 2.250 | 0.071 |  | 2.300 | 2.200 |
+| gpt-6-2-sol | 3.733 | 0.321 | 3.600 | 3.500 | 4.100 |
+| gpt-6-2-astra | 3.600 | 0.173 | 3.700 | 3.700 | 3.400 |
+| fable-5-2 | 3.333 | 0.115 | 3.200 | 3.400 | 3.400 |
+| deepseek-v4-1-flash-1017 | 3.300 | 0.436 | 3.000 | 3.800 | 3.100 |
+| qwen-3-8-max-0902 | 3.267 | 0.379 | 3.700 | 3.100 | 3.000 |
+| deepseek-v4-pro | 3.167 | 0.416 | 3.500 | 3.300 | 2.700 |
+| gemini-4-neon | 3.167 | 0.115 | 3.100 | 3.100 | 3.300 |
+| sonnet-5-5 | 3.133 | 0.058 | 3.100 | 3.200 | 3.100 |
+| fable-5-1 | 3.067 | 0.231 | 2.800 | 3.200 | 3.200 |
+| kimi-k3-1-pro | 3.067 | 0.404 | 2.700 | 3.500 | 3.000 |
+| glm-5-3 | 3.033 | 0.473 | 3.400 | 3.200 | 2.500 |
+| grok-4-7 | 3.033 | 0.208 | 3.100 | 3.200 | 2.800 |
+| qwen-4-max | 3.000 | 0.346 | 3.200 | 2.600 | 3.200 |
+| gemini-4-hydrogen | 2.967 | 0.306 | 2.900 | 2.700 | 3.300 |
+| gpt-6-1-sol | 2.967 | 0.416 | 3.100 | 2.500 | 3.300 |
+| opus-5-5 | 2.967 | 0.321 | 3.200 | 3.100 | 2.600 |
+| gemini-4-carbon | 2.900 | 0.173 | 2.800 | 3.100 | 2.800 |
+| haiku-5-5 | 2.800 | 0.529 | 2.200 | 3.200 | 3.000 |
+| minimax-m3-1-flash | 2.800 | 0.200 | 2.800 | 2.600 | 3.000 |
+| gpt-6-luna | 2.733 | 0.208 | 2.900 | 2.500 | 2.800 |
+| gemini-4-argon | 2.633 | 0.058 | 2.700 | 2.600 | 2.600 |
+| gpt-6-astra | 2.500 | 0.400 | 2.900 | 2.500 | 2.100 |
+| gpt-6-1-terra | 2.267 | 0.058 | 2.300 | 2.300 | 2.200 |
 
 ## Archive
 
