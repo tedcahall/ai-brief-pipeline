@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Saturday, November 21, 2026 · 23 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Monday, November 23, 2026 · 24 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -21,6 +21,7 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 | [gemini-4-hydrogen](https://aistudio.google.com/docs/pricing) | Standard | $1.50 | $7.50 | $0.075 | — | 2026-11-13 |
 | [gemini-4-neon](https://aistudio.google.com/docs/pricing) | Standard | $3 | $15 | $0.15 | Not separately listed | 2026-11-18 |
 | [glm-5-3](https://docs.z.ai/guides/overview/pricing) | Z.AI direct | $1.4 | $4.4 | $0.26 | — | 2026-10-29 |
+| glm-5-4 | GLM-5.3 proxy* | $1.4 | $4.4 | $0.26 | Not separately listed | 2026-11-23 |
 | [gpt-6-1-sol](https://developers.openai.com/api/docs/pricing) | Standard short | $2 | $10 | $0.1 | $2.5 (30m); $5 (12h) | 2026-10-29 |
 | [gpt-6-1-sol](https://developers.openai.com/api/docs/pricing) | Standard long | $4 | $15 | $0.2 | $5 (30m); $10 (12h) | 2026-10-29 |
 | [gpt-6-1-terra](https://developers.openai.com/api/docs/pricing) | Standard short | $1 | $5 | $0.05 | $1.25 (30m); $2.5 (12h) | 2026-10-29 |
@@ -44,6 +45,8 @@ Models are listed alphabetically by their full versioned report IDs. Each distin
 | [qwen-3-8-max-0902](https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max) | Global | $1.65 | $4.951 | $0.206 implicit; $0.137 explicit | $2.063 (explicit) | 2026-10-29 |
 | [qwen-4-max](https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints) | OpenRouter / Alibaba | $1.425 | $4.275 | $0.07125 (explicit) | $1.78125 (TTL unspecified) | 2026-11-17 |
 | [sonnet-5-5](https://platform.claude.com/docs/en/about-claude/pricing) | Standard | $2 | $10 | $0.1 | $2.5 (5m); $4 (1h) | 2026-11-08 |
+
+*GLM-5.4 uses Ted-authorized GLM-5.3 rates pending published GLM-5.4 API pricing. This is an estimation override, not a verified provider price.*
 
 **Updated:** Date we first recorded these rates or last observed a price change. Unchanged daily checks do not advance this date. These are observation dates, not necessarily provider effective dates.
 
@@ -72,12 +75,14 @@ GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 
 
 ## Freshness and provenance
 
+GLM-5.4 was added manually using approved proxy rates; the prior daily verification below does not verify that entry. No existing rates were changed. Current snapshot: `2026-11-23T020315256499Z/api-pricing.json`; SHA-256: `ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6`.
+
 This document reflects the saved pricing JSON. The daily verification for Sunday, November 22, 2026 checked all 23 models across 15 freshly captured official sources and found all numeric rates and applicability conditions unchanged; no new bundle was published, so the rate card remains the November 21 bundle. The tables keep the current $2/$10/$0.10 introductory Argon rates through November 30, 2026.
 
 - **Daily check:** `2026-11-22T08:03:13.636664+00:00`; status: `unchanged`; 23 models, 15 sources; no numeric or condition changes. Prior check `2026-11-21T08:06:21.351942+00:00` (status: `changed`) recorded the Gemini 4 Argon introductory end date; that condition change remains in effect.
 - **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-22T08:01:35.506Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
-- **Snapshot:** `2026-11-21T080621351982Z/api-pricing.json`.
-- **SHA-256:** `7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc`.
+- **Prior verified snapshot:** `2026-11-21T080621351982Z/api-pricing.json`.
+- **Prior verified SHA-256:** `7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc`.
 - **Scheduled, not current:** the Google capture lists introductory Standard pricing for Gemini 4 Argon and Gemini 4 Carbon through November 30, 2026, with Standard $4/$20/$0.20 per million tokens starting December 1, 2026. The rate card now records the Argon introductory end date; the tables keep the current introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
