@@ -3,8 +3,12 @@
   "conflicts": [],
   "date": "2026-11-25",
   "judging": {
-    "reason": "judging not published",
-    "status": "pending"
+    "method": "unrounded arithmetic panel mean from scores",
+    "source": {
+      "path": "pulse-judging/json/2026-11-25.json",
+      "sha256": "6ea05640ff7f3620b8f32cb3686b2c78a6f8f4b698aaf6fb581b218553c24e70"
+    },
+    "status": "complete"
   },
   "models": {
     "deepseek-v4-1-flash-1017": {
@@ -16,14 +20,12 @@
         "consensus_score": "81",
         "ecpts": "1.128350902462103982331153218",
         "elapsed_seconds": "709",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.2",
         "pulse_words": "114",
         "story_words": "322",
         "total_tokens": "7089993"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -55,14 +57,12 @@
         "consensus_score": "63",
         "ecpts": "6.586461346866693052919792458",
         "elapsed_seconds": "873",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.9",
         "pulse_words": "119",
         "story_words": "256",
         "total_tokens": "4949547"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -94,14 +94,12 @@
         "consensus_score": "76",
         "ecpts": "130.4234777268212214784627547",
         "elapsed_seconds": "676",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.6",
         "pulse_words": "161",
         "story_words": "351",
         "total_tokens": "7595795"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -133,14 +131,12 @@
         "consensus_score": "63",
         "ecpts": "125.2122336988292381934799014",
         "elapsed_seconds": "351",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.3",
         "pulse_words": "141",
         "story_words": "324",
         "total_tokens": "4868454"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -172,14 +168,12 @@
         "consensus_score": "95",
         "ecpts": "32.93841381805434001658143667",
         "elapsed_seconds": "1075",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.3",
         "pulse_words": "143",
         "story_words": "334",
         "total_tokens": "4900661"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -211,14 +205,12 @@
         "consensus_score": "86",
         "ecpts": "32.54039271301283901675348946",
         "elapsed_seconds": "1745",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.6",
         "pulse_words": "190",
         "story_words": "328",
         "total_tokens": "9433199"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -250,14 +242,12 @@
         "consensus_score": "76",
         "ecpts": "40.77367086734511033861683963",
         "elapsed_seconds": "243",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.3",
         "pulse_words": "121",
         "story_words": "321",
         "total_tokens": "1730038"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -289,14 +279,12 @@
         "consensus_score": "80",
         "ecpts": "62.70380133728527045800794317",
         "elapsed_seconds": "366",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.6",
         "pulse_words": "133",
         "story_words": "318",
         "total_tokens": "2324261"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -328,14 +316,12 @@
         "consensus_score": "81",
         "ecpts": "35.05786215088490247009490974",
         "elapsed_seconds": "331",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.5",
         "pulse_words": "190",
         "story_words": "295",
         "total_tokens": "2997901"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -367,14 +353,12 @@
         "consensus_score": "80",
         "ecpts": "29.80415294839600308783153844",
         "elapsed_seconds": "368",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.9",
         "pulse_words": "87",
         "story_words": "298",
         "total_tokens": "1945702"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -406,14 +390,12 @@
         "consensus_score": "85",
         "ecpts": "10.53734974451793369513159016",
         "elapsed_seconds": "271",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.4",
         "pulse_words": "62",
         "story_words": "238",
         "total_tokens": "2722696"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -445,14 +427,12 @@
         "consensus_score": "81",
         "ecpts": "198.4817039868924085199344620",
         "elapsed_seconds": "189",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.4",
         "pulse_words": "71",
         "story_words": "250",
         "total_tokens": "915500"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -484,14 +464,12 @@
         "consensus_score": "52",
         "ecpts": "30.93074205399902405887140557",
         "elapsed_seconds": "467",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.2",
         "pulse_words": "88",
         "story_words": "294",
         "total_tokens": "4369116"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -523,14 +501,12 @@
         "consensus_score": "71",
         "ecpts": "183.4456574493312773002893600",
         "elapsed_seconds": "253",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.5",
         "pulse_words": "74",
         "story_words": "293",
         "total_tokens": "1790503"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -562,14 +538,12 @@
         "consensus_score": "62",
         "ecpts": "1.656195809858539496621682963",
         "elapsed_seconds": "928",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.6",
         "pulse_words": "80",
         "story_words": "338",
         "total_tokens": "5893023"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -601,14 +575,12 @@
         "consensus_score": "90",
         "ecpts": "69.31659375233029015952031472",
         "elapsed_seconds": "871",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.8",
         "pulse_words": "104",
         "story_words": "336",
         "total_tokens": "5176394"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -640,14 +612,12 @@
         "consensus_score": "61",
         "ecpts": "8.241939587359410524055338158",
         "elapsed_seconds": "331",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.4",
         "pulse_words": "140",
         "story_words": "308",
         "total_tokens": "5923363"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -679,14 +649,12 @@
         "consensus_score": "62",
         "ecpts": "31.84668105089478360197994669",
         "elapsed_seconds": "687",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.6",
         "pulse_words": "98",
         "story_words": "276",
         "total_tokens": "5909250"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -718,14 +686,12 @@
         "consensus_score": "60",
         "ecpts": "2.711654100453154916941227581",
         "elapsed_seconds": "693",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.7",
         "pulse_words": "199",
         "story_words": "350",
         "total_tokens": "10528629"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -757,14 +723,12 @@
         "consensus_score": "67",
         "ecpts": "54.42995343524683096570110706",
         "elapsed_seconds": "277",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.1",
         "pulse_words": "108",
         "story_words": "315",
         "total_tokens": "5347607"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -796,14 +760,12 @@
         "consensus_score": "72",
         "ecpts": "35.33127435014724973872426514",
         "elapsed_seconds": "1472",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "2.6",
         "pulse_words": "139",
         "story_words": "346",
         "total_tokens": "7387789"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -835,14 +797,12 @@
         "consensus_score": "67",
         "ecpts": "12.19708127245200362320835914",
         "elapsed_seconds": "979",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.1",
         "pulse_words": "79",
         "story_words": "324",
         "total_tokens": "12529227"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
@@ -874,14 +834,12 @@
         "consensus_score": "62",
         "ecpts": "32.75075838831715860238608413",
         "elapsed_seconds": "231",
-        "pulse_judge_score": null,
+        "pulse_judge_score": "3.5",
         "pulse_words": "96",
         "story_words": "320",
         "total_tokens": "4028609"
       },
-      "missing": {
-        "pulse_judge_score": "judging pending"
-      },
+      "missing": {},
       "provenance": {
         "cost_method": "historical selected API-equivalent estimate, upper bound when ranged",
         "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
