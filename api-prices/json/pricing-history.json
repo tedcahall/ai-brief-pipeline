@@ -1,919 +1,919 @@
 {
- "schema_version": 1,
- "status": "published",
- "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
- "last_daily_verification": {
-  "checked_at": "2026-11-25T08:05:56.602162+00:00",
-  "status": "unchanged",
-  "changed_models": [],
-  "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-23T020315256499Z",
-  "models_checked": 24,
-  "sources_checked": 15
- },
- "rows": [
-  {
-   "model": "deepseek-v4-1-flash-1017",
-   "tier": "Peak",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 0.3,
-    "output": 1.2,
-    "cache_read": 0.006,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
+  "schema_version": 1,
+  "status": "published",
+  "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
+  "last_daily_verification": {
+    "checked_at": "2026-11-26T08:06:13.922859+00:00",
+    "status": "unchanged",
+    "changed_models": [],
+    "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-23T020315256499Z",
+    "models_checked": 24,
+    "sources_checked": 15
   },
-  {
-   "model": "deepseek-v4-1-flash-1017",
-   "tier": "Off-peak",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 0.15,
-    "output": 0.6,
-    "cache_read": 0.003,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "deepseek-v4-pro",
-   "tier": "Peak",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 1.32,
-    "output": 3.96,
-    "cache_read": 0.044,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "deepseek-v4-pro",
-   "tier": "Off-peak",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 0.66,
-    "output": 1.98,
-    "cache_read": 0.022,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "fable-5-1",
-   "tier": "Standard",
-   "first_recorded": "2026-11-08",
-   "last_price_change_observed": null,
-   "updated": "2026-11-08",
-   "rates": {
-    "input_uncached": 10,
-    "output": 50,
-    "cache_read": 0.25,
-    "cache_write_by_ttl": {
-     "5m": 12.5,
-     "1h": 20
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
-    "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "fable-5-2",
-   "tier": "Standard",
-   "first_recorded": "2026-11-10",
-   "last_price_change_observed": null,
-   "updated": "2026-11-10",
-   "rates": {
-    "input_uncached": 8,
-    "output": 40,
-    "cache_read": 0.2,
-    "cache_write_by_ttl": {
-     "5m": 10,
-     "1h": 16
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
-    "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gemini-4-argon",
-   "tier": "Introductory Standard",
-   "first_recorded": "2026-11-08",
-   "last_price_change_observed": null,
-   "updated": "2026-11-08",
-   "rates": {
-    "input_uncached": 2,
-    "output": 10,
-    "cache_read": 0.1,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [
+  "rows": [
     {
-     "observed": "2026-11-21",
-     "old": {
-      "tier": "Introductory",
-      "condition": "unspecified introductory period; schedule referenced but not recorded"
-     },
-     "new": {
+      "model": "deepseek-v4-1-flash-1017",
+      "tier": "Peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.3,
+        "output": 1.2,
+        "cache_read": 0.006,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "tier": "Off-peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.15,
+        "output": 0.6,
+        "cache_read": 0.003,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "tier": "Peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1.32,
+        "output": 3.96,
+        "cache_read": 0.044,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "tier": "Off-peak",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.66,
+        "output": 1.98,
+        "cache_read": 0.022,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "fable-5-1",
+      "tier": "Standard",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 10,
+        "output": 50,
+        "cache_read": 0.25,
+        "cache_write_by_ttl": {
+          "5m": 12.5,
+          "1h": 20
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "fable-5-2",
+      "tier": "Standard",
+      "first_recorded": "2026-11-10",
+      "last_price_change_observed": null,
+      "updated": "2026-11-10",
+      "rates": {
+        "input_uncached": 8,
+        "output": 40,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "5m": 10,
+          "1h": 16
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-10T132547960000Z/api-pricing.json",
+        "sha256": "ae378fb5abafbd842140157d7b3c6f176495b9c85f31012160c619d189c37dda"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gemini-4-argon",
       "tier": "Introductory Standard",
-      "condition": {
-       "introductory_rates_through": "2026-11-30"
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [
+        {
+          "observed": "2026-11-21",
+          "old": {
+            "tier": "Introductory",
+            "condition": "unspecified introductory period; schedule referenced but not recorded"
+          },
+          "new": {
+            "tier": "Introductory Standard",
+            "condition": {
+              "introductory_rates_through": "2026-11-30"
+            }
+          },
+          "note": "Applicability-condition change only; numeric rates unchanged. The official Google pricing table explicitly publishes the end of introductory pricing: Standard $2/$10/$0.10 per million tokens through November 30, 2026, then $4/$20/$0.20 starting December 1, 2026 (Batch/Flex $2/$10/$0.10, Priority $7.20/$36/$0.36), matching the already-recorded Gemini 4 Carbon schedule. Tier relabeled and introductory end date recorded in the rate card.",
+          "evidence": {
+            "snapshot": "2026-11-21T080621351982Z/api-pricing.json",
+            "sha256": "7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc",
+            "source": "https://aistudio.google.com/docs/pricing",
+            "source_retrieved_at": "2026-11-21T08:02:30.322Z"
+          }
+        }
+      ],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-21T080621351982Z/api-pricing.json",
+        "sha256": "7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc"
       }
-     },
-     "note": "Applicability-condition change only; numeric rates unchanged. The official Google pricing table explicitly publishes the end of introductory pricing: Standard $2/$10/$0.10 per million tokens through November 30, 2026, then $4/$20/$0.20 starting December 1, 2026 (Batch/Flex $2/$10/$0.10, Priority $7.20/$36/$0.36), matching the already-recorded Gemini 4 Carbon schedule. Tier relabeled and introductory end date recorded in the rate card.",
-     "evidence": {
-      "snapshot": "2026-11-21T080621351982Z/api-pricing.json",
-      "sha256": "7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc",
-      "source": "https://aistudio.google.com/docs/pricing",
-      "source_retrieved_at": "2026-11-21T08:02:30.322Z"
-     }
-    }
-   ],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
-    "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-21T080621351982Z/api-pricing.json",
-    "sha256": "7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc"
-   }
-  },
-  {
-   "model": "gemini-4-carbon",
-   "tier": "Introductory Standard",
-   "first_recorded": "2026-11-11",
-   "last_price_change_observed": null,
-   "updated": "2026-11-11",
-   "rates": {
-    "input_uncached": 2,
-    "output": 10,
-    "cache_read": 0.1,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-11T120252913396Z/api-pricing.json",
-    "sha256": "cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gemini-4-hydrogen",
-   "tier": "Standard",
-   "first_recorded": "2026-11-13",
-   "last_price_change_observed": null,
-   "updated": "2026-11-13",
-   "rates": {
-    "input_uncached": 1.5,
-    "output": 7.5,
-    "cache_read": 0.075,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-13T113820742994Z/api-pricing.json",
-    "sha256": "c39ac237c11361b5065a3f42dd6e6790020cb859f1e6494104bc9989abff06ed"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gemini-4-neon",
-   "tier": "Standard",
-   "first_recorded": "2026-11-18",
-   "last_price_change_observed": null,
-   "updated": "2026-11-18",
-   "rates": {
-    "input_uncached": 3,
-    "output": 15,
-    "cache_read": 0.15,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
-    "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
-    "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
-   }
-  },
-  {
-   "model": "glm-5-3",
-   "tier": "Z.AI direct",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 1.4,
-    "output": 4.4,
-    "cache_read": 0.26,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "glm-5-4",
-   "tier": "Z.AI direct",
-   "first_recorded": "2026-11-23",
-   "last_price_change_observed": null,
-   "updated": "2026-11-23",
-   "rates": {
-    "input_uncached": 1.4,
-    "output": 4.4,
-    "cache_read": 0.26,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-23T020315256499Z/api-pricing.json",
-    "sha256": "ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-23T020315256499Z/api-pricing.json",
-    "sha256": "ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6"
-   },
-   "pricing_basis": "Ted-authorized GLM-5.3 proxy, not verified GLM-5.4 pricing"
-  },
-  {
-   "model": "gpt-6-1-sol",
-   "tier": "Standard short",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 2,
-    "output": 10,
-    "cache_read": 0.1,
-    "cache_write_by_ttl": {
-     "30m": 2.5,
-     "12h": 5
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-1-sol",
-   "tier": "Standard long",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 4,
-    "output": 15,
-    "cache_read": 0.2,
-    "cache_write_by_ttl": {
-     "30m": 5,
-     "12h": 10
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-1-terra",
-   "tier": "Standard short",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 1,
-    "output": 5,
-    "cache_read": 0.05,
-    "cache_write_by_ttl": {
-     "30m": 1.25,
-     "12h": 2.5
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-1-terra",
-   "tier": "Standard long",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 2,
-    "output": 7.5,
-    "cache_read": 0.1,
-    "cache_write_by_ttl": {
-     "30m": 2.5,
-     "12h": 5
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-2-astra",
-   "tier": "Standard short",
-   "first_recorded": "2026-11-17",
-   "last_price_change_observed": null,
-   "updated": "2026-11-17",
-   "rates": {
-    "input_uncached": 8.0,
-    "output": 40.0,
-    "cache_read": 0.4,
-    "cache_write_by_ttl": {
-     "30m": 10.0,
-     "12h": 20.0
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-2-astra",
-   "tier": "Standard long",
-   "first_recorded": "2026-11-17",
-   "last_price_change_observed": null,
-   "updated": "2026-11-17",
-   "rates": {
-    "input_uncached": 16.0,
-    "output": 60.0,
-    "cache_read": 0.8,
-    "cache_write_by_ttl": {
-     "30m": 20.0,
-     "12h": 40.0
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-2-sol",
-   "tier": "Standard short",
-   "first_recorded": "2026-11-17",
-   "last_price_change_observed": null,
-   "updated": "2026-11-17",
-   "rates": {
-    "input_uncached": 2.0,
-    "output": 10.0,
-    "cache_read": 0.1,
-    "cache_write_by_ttl": {
-     "30m": 2.5,
-     "12h": 5.0
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-2-sol",
-   "tier": "Standard long",
-   "first_recorded": "2026-11-17",
-   "last_price_change_observed": null,
-   "updated": "2026-11-17",
-   "rates": {
-    "input_uncached": 4.0,
-    "output": 15.0,
-    "cache_read": 0.2,
-    "cache_write_by_ttl": {
-     "30m": 5.0,
-     "12h": 10.0
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-astra",
-   "tier": "Standard short",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 10,
-    "output": 50,
-    "cache_read": 1,
-    "cache_write_by_ttl": {
-     "30m": 12.5,
-     "12h": 25
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-astra",
-   "tier": "Standard long",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 20,
-    "output": 75,
-    "cache_read": 2,
-    "cache_write_by_ttl": {
-     "30m": 25,
-     "12h": 50
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-luna",
-   "tier": "Standard short",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 0.1,
-    "output": 0.5,
-    "cache_read": 0.01,
-    "cache_write_by_ttl": {
-     "30m": 0.125,
-     "12h": 0.25
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "gpt-6-luna",
-   "tier": "Standard long",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 0.2,
-    "output": 0.75,
-    "cache_read": 0.02,
-    "cache_write_by_ttl": {
-     "30m": 0.25,
-     "12h": 0.5
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "grok-4-7",
-   "tier": "Standard short",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 2,
-    "output": 6,
-    "cache_read": 0.5,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "grok-4-7",
-   "tier": "Standard long",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 4,
-    "output": 12,
-    "cache_read": 1,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "haiku-5-5",
-   "tier": "Standard short",
-   "first_recorded": "2026-11-08",
-   "last_price_change_observed": null,
-   "updated": "2026-11-08",
-   "rates": {
-    "input_uncached": 0.1,
-    "output": 0.5,
-    "cache_read": 0.01,
-    "cache_write_by_ttl": {
-     "5m": 0.125,
-     "1h": 0.2
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
-    "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "haiku-5-5",
-   "tier": "Standard long",
-   "first_recorded": "2026-11-08",
-   "last_price_change_observed": null,
-   "updated": "2026-11-08",
-   "rates": {
-    "input_uncached": 0.5,
-    "output": 2.5,
-    "cache_read": 0.05,
-    "cache_write_by_ttl": {
-     "5m": 0.625,
-     "1h": 1
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
-    "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "kimi-k3-1-pro",
-   "tier": "Standard flat",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 2,
-    "output": 10,
-    "cache_read": 0.2,
-    "cache_write_by_ttl": {
-     "5m": 2,
-     "1h": 4
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "minimax-m3-1-flash",
-   "tier": "Direct flat",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 0.15,
-    "output": 0.6,
-    "cache_read": 0.015,
-    "cache_write_by_ttl": {}
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "opus-5-5",
-   "tier": "Standard",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 4,
-    "output": 20,
-    "cache_read": 0.2,
-    "cache_write_by_ttl": {
-     "5m": 5,
-     "1h": 8
-    }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "qwen-3-8-max-0902",
-   "tier": "Singapore / International",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 2,
-    "output": 6,
-    "cache_read": 0.25,
-    "cache_write_by_ttl": {
-     "explicit": 2.5
     },
-    "cache_read_explicit": 0.17
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "qwen-3-8-max-0902",
-   "tier": "Global",
-   "first_recorded": "2026-10-29",
-   "last_price_change_observed": null,
-   "updated": "2026-10-29",
-   "rates": {
-    "input_uncached": 1.65,
-    "output": 4.951,
-    "cache_read": 0.206,
-    "cache_write_by_ttl": {
-     "explicit": 2.063
-    },
-    "cache_read_explicit": 0.137
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-10-29/api-pricing.json",
-    "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
-  },
-  {
-   "model": "qwen-4-max",
-   "tier": "OpenRouter / Alibaba",
-   "first_recorded": "2026-11-16",
-   "last_price_change_observed": "2026-11-17",
-   "updated": "2026-11-17",
-   "rates": {
-    "input_uncached": 1.425,
-    "output": 4.275,
-    "cache_read": 0.07125,
-    "cache_write_by_ttl": {
-     "unspecified": 1.78125
-    }
-   },
-   "changes": [
     {
-     "observed": "2026-11-17",
-     "old": {
-      "input_uncached": 1.5,
-      "output": 4.5,
-      "cache_read": 0.075,
-      "cache_write_by_ttl": {
-       "unspecified": 1.875
+      "model": "gemini-4-carbon",
+      "tier": "Introductory Standard",
+      "first_recorded": "2026-11-11",
+      "last_price_change_observed": null,
+      "updated": "2026-11-11",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-11T120252913396Z/api-pricing.json",
+        "sha256": "cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
-     },
-     "new": {
-      "input_uncached": 1.425,
-      "output": 4.275,
-      "cache_read": 0.07125,
-      "cache_write_by_ttl": {
-       "unspecified": 1.78125
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "tier": "Standard",
+      "first_recorded": "2026-11-13",
+      "last_price_change_observed": null,
+      "updated": "2026-11-13",
+      "rates": {
+        "input_uncached": 1.5,
+        "output": 7.5,
+        "cache_read": 0.075,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-13T113820742994Z/api-pricing.json",
+        "sha256": "c39ac237c11361b5065a3f42dd6e6790020cb859f1e6494104bc9989abff06ed"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
       }
-     },
-     "note": "OpenRouter / Alibaba endpoint qwen/qwen4-max-20261115 lowered all rates 5% (per-token API prices converted to USD per 1M tokens). No applicability-condition change: explicit caching only, 1M context, TTL unspecified.",
-     "evidence": {
-      "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
-      "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e",
-      "source": "https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints",
-      "source_retrieved_at": "2026-11-17T08:00:58.484Z"
-     }
+    },
+    {
+      "model": "gemini-4-neon",
+      "tier": "Standard",
+      "first_recorded": "2026-11-18",
+      "last_price_change_observed": null,
+      "updated": "2026-11-18",
+      "rates": {
+        "input_uncached": 3,
+        "output": 15,
+        "cache_read": 0.15,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
+        "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
+        "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
+      }
+    },
+    {
+      "model": "glm-5-3",
+      "tier": "Z.AI direct",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1.4,
+        "output": 4.4,
+        "cache_read": 0.26,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "glm-5-4",
+      "tier": "Z.AI direct",
+      "first_recorded": "2026-11-23",
+      "last_price_change_observed": null,
+      "updated": "2026-11-23",
+      "rates": {
+        "input_uncached": 1.4,
+        "output": 4.4,
+        "cache_read": 0.26,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-23T020315256499Z/api-pricing.json",
+        "sha256": "ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-23T020315256499Z/api-pricing.json",
+        "sha256": "ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6"
+      },
+      "pricing_basis": "Ted-authorized GLM-5.3 proxy, not verified GLM-5.4 pricing"
+    },
+    {
+      "model": "gpt-6-1-sol",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "30m": 2.5,
+          "12h": 5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-1-sol",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 4,
+        "output": 15,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "30m": 5,
+          "12h": 10
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-1-terra",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1,
+        "output": 5,
+        "cache_read": 0.05,
+        "cache_write_by_ttl": {
+          "30m": 1.25,
+          "12h": 2.5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-1-terra",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 7.5,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "30m": 2.5,
+          "12h": 5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "tier": "Standard short",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 8.0,
+        "output": 40.0,
+        "cache_read": 0.4,
+        "cache_write_by_ttl": {
+          "30m": 10.0,
+          "12h": 20.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-2-astra",
+      "tier": "Standard long",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 16.0,
+        "output": 60.0,
+        "cache_read": 0.8,
+        "cache_write_by_ttl": {
+          "30m": 20.0,
+          "12h": 40.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-2-sol",
+      "tier": "Standard short",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 2.0,
+        "output": 10.0,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "30m": 2.5,
+          "12h": 5.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-2-sol",
+      "tier": "Standard long",
+      "first_recorded": "2026-11-17",
+      "last_price_change_observed": null,
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 4.0,
+        "output": 15.0,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "30m": 5.0,
+          "12h": 10.0
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-astra",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 10,
+        "output": 50,
+        "cache_read": 1,
+        "cache_write_by_ttl": {
+          "30m": 12.5,
+          "12h": 25
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-astra",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 20,
+        "output": 75,
+        "cache_read": 2,
+        "cache_write_by_ttl": {
+          "30m": 25,
+          "12h": 50
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-luna",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.1,
+        "output": 0.5,
+        "cache_read": 0.01,
+        "cache_write_by_ttl": {
+          "30m": 0.125,
+          "12h": 0.25
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "gpt-6-luna",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.2,
+        "output": 0.75,
+        "cache_read": 0.02,
+        "cache_write_by_ttl": {
+          "30m": 0.25,
+          "12h": 0.5
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "grok-4-7",
+      "tier": "Standard short",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 6,
+        "cache_read": 0.5,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "grok-4-7",
+      "tier": "Standard long",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 4,
+        "output": 12,
+        "cache_read": 1,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "haiku-5-5",
+      "tier": "Standard short",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 0.1,
+        "output": 0.5,
+        "cache_read": 0.01,
+        "cache_write_by_ttl": {
+          "5m": 0.125,
+          "1h": 0.2
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "haiku-5-5",
+      "tier": "Standard long",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 0.5,
+        "output": 2.5,
+        "cache_read": 0.05,
+        "cache_write_by_ttl": {
+          "5m": 0.625,
+          "1h": 1
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "kimi-k3-1-pro",
+      "tier": "Standard flat",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "5m": 2,
+          "1h": 4
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "minimax-m3-1-flash",
+      "tier": "Direct flat",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 0.15,
+        "output": 0.6,
+        "cache_read": 0.015,
+        "cache_write_by_ttl": {}
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "opus-5-5",
+      "tier": "Standard",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 4,
+        "output": 20,
+        "cache_read": 0.2,
+        "cache_write_by_ttl": {
+          "5m": 5,
+          "1h": 8
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "tier": "Singapore / International",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 2,
+        "output": 6,
+        "cache_read": 0.25,
+        "cache_write_by_ttl": {
+          "explicit": 2.5
+        },
+        "cache_read_explicit": 0.17
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "qwen-3-8-max-0902",
+      "tier": "Global",
+      "first_recorded": "2026-10-29",
+      "last_price_change_observed": null,
+      "updated": "2026-10-29",
+      "rates": {
+        "input_uncached": 1.65,
+        "output": 4.951,
+        "cache_read": 0.206,
+        "cache_write_by_ttl": {
+          "explicit": 2.063
+        },
+        "cache_read_explicit": 0.137
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-10-29/api-pricing.json",
+        "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "qwen-4-max",
+      "tier": "OpenRouter / Alibaba",
+      "first_recorded": "2026-11-16",
+      "last_price_change_observed": "2026-11-17",
+      "updated": "2026-11-17",
+      "rates": {
+        "input_uncached": 1.425,
+        "output": 4.275,
+        "cache_read": 0.07125,
+        "cache_write_by_ttl": {
+          "unspecified": 1.78125
+        }
+      },
+      "changes": [
+        {
+          "observed": "2026-11-17",
+          "old": {
+            "input_uncached": 1.5,
+            "output": 4.5,
+            "cache_read": 0.075,
+            "cache_write_by_ttl": {
+              "unspecified": 1.875
+            }
+          },
+          "new": {
+            "input_uncached": 1.425,
+            "output": 4.275,
+            "cache_read": 0.07125,
+            "cache_write_by_ttl": {
+              "unspecified": 1.78125
+            }
+          },
+          "note": "OpenRouter / Alibaba endpoint qwen/qwen4-max-20261115 lowered all rates 5% (per-token API prices converted to USD per 1M tokens). No applicability-condition change: explicit caching only, 1M context, TTL unspecified.",
+          "evidence": {
+            "snapshot": "2026-11-17T080402783388Z/api-pricing.json",
+            "sha256": "99c4dd2812db71a8993e5722178b53c7e997b8ebd4ae649d6f5de96a1e219e2e",
+            "source": "https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints",
+            "source_retrieved_at": "2026-11-17T08:00:58.484Z"
+          }
+        }
+      ],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-16T105548994629Z/api-pricing.json",
+        "sha256": "fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
+    },
+    {
+      "model": "sonnet-5-5",
+      "tier": "Standard",
+      "first_recorded": "2026-11-08",
+      "last_price_change_observed": null,
+      "updated": "2026-11-08",
+      "rates": {
+        "input_uncached": 2,
+        "output": 10,
+        "cache_read": 0.1,
+        "cache_write_by_ttl": {
+          "5m": 2.5,
+          "1h": 4
+        }
+      },
+      "changes": [],
+      "first_recorded_evidence": {
+        "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
+        "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
+      },
+      "latest_snapshot_evidence": {
+        "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
+        "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+      }
     }
-   ],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-16T105548994629Z/api-pricing.json",
-    "sha256": "fff059c7c51033444372b8f8b87100ab0c10d32e2fe6d7ad58c35965f1d9b846"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
+  ],
+  "last_model_addition": {
+    "model": "gemini-4-neon",
+    "checked_at": "2026-11-18T22:31:49.877955+00:00",
+    "status": "verified",
+    "source": "https://aistudio.google.com/docs/pricing",
+    "snapshot_evidence": {
+      "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
+      "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
+    },
+    "scope": "Neon only; earlier daily verification unchanged"
   },
-  {
-   "model": "sonnet-5-5",
-   "tier": "Standard",
-   "first_recorded": "2026-11-08",
-   "last_price_change_observed": null,
-   "updated": "2026-11-08",
-   "rates": {
-    "input_uncached": 2,
-    "output": 10,
-    "cache_read": 0.1,
-    "cache_write_by_ttl": {
-     "5m": 2.5,
-     "1h": 4
+  "last_manual_addition": {
+    "model": "glm-5-4",
+    "message_id": "17114",
+    "basis": "Ted-authorized GLM-5.3 proxy, not verified GLM-5.4 pricing",
+    "evidence": {
+      "snapshot": "2026-11-23T020315256499Z/api-pricing.json",
+      "sha256": "ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6"
     }
-   },
-   "changes": [],
-   "first_recorded_evidence": {
-    "snapshot": "2026-11-08T210140765623Z/api-pricing.json",
-    "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
-   },
-   "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
-   }
   }
- ],
- "last_model_addition": {
-  "model": "gemini-4-neon",
-  "checked_at": "2026-11-18T22:31:49.877955+00:00",
-  "status": "verified",
-  "source": "https://aistudio.google.com/docs/pricing",
-  "snapshot_evidence": {
-   "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
-   "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
-  },
-  "scope": "Neon only; earlier daily verification unchanged"
- },
- "last_manual_addition": {
-  "model": "glm-5-4",
-  "message_id": "17114",
-  "basis": "Ted-authorized GLM-5.3 proxy, not verified GLM-5.4 pricing",
-  "evidence": {
-   "snapshot": "2026-11-23T020315256499Z/api-pricing.json",
-   "sha256": "ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6"
-  }
- }
 }
