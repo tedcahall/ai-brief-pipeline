@@ -7,8 +7,8 @@ Which judge grades hardest and which grades easiest. Each number is the average 
 | Rank (hardest first) | Judge | Avg grade | Days hardest | Days easiest |
 |---|---|---|---|---|
 | 1 | astra | **2.72** | 16 | 0 |
-| 2 | dsflash | **2.82** | 9 | 0 |
-| 3 | grok | **2.97** | 1 | 1 |
+| 2 | dsflash | **2.83** | 9 | 0 |
+| 3 | grok | **2.96** | 1 | 1 |
 | 4 | opus | **3.00** | 2 | 1 |
 | 5 | glm | **3.41** | 0 | 26 |
 
@@ -17,7 +17,7 @@ Which judge grades hardest and which grades easiest. Each number is the average 
 | Date | opus | glm | astra | grok | dsflash | Hardest | Easiest | Spread |
 |---|---|---|---|---|---|---|---|---|
 | 11-27 | 3.07 | 3.26 | 2.78 | 3.09 | 3.02 | astra | glm | 0.48 |
-| 11-26 | 3.11 | 3.43 | 2.57 | 3.32 | 2.66 | astra | glm | 0.86 |
+| 11-26 | 2.85 | 3.61 | 2.59 | 3.00 | 2.85 | astra | glm | 1.02 |
 | 11-25 | 2.89 | 3.50 | 2.72 | 2.83 | 2.65 | dsflash | glm | 0.85 |
 | 11-24 | 3.02 | 3.54 | 2.65 | 3.04 | 2.93 | astra | glm | 0.89 |
 | 11-23 | 2.87 | 3.74 | 2.83 | 2.96 | 2.80 | dsflash | glm | 0.94 |
