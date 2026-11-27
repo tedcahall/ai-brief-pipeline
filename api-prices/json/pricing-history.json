@@ -3,7 +3,7 @@
  "status": "published",
  "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
  "last_daily_verification": {
-  "checked_at": "2026-11-26T08:06:13.922859+00:00",
+  "checked_at": "2026-11-27T08:04:29.526687+00:00",
   "status": "unchanged",
   "changed_models": [],
   "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-23T020315256499Z",
