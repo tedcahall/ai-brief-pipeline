@@ -1,40 +1,40 @@
-# Model Consensus - 2026-11-26
+# Model Consensus - 2026-11-26 (23-model full-batch revision)
 
 ## Overall ranking
 
 | Rank | Model | Score | Headline | Stories | Tweets | Time |
 |---|---|---|---|---|---|---|
-| 1 | gemini-4-neon | 90 | 0 | 5/5 | 9/10 | 9m 54s |
+| 1 | gemini-4-neon | 95 | 5 | 5/5 | 9/10 | 9m 54s |
 | 2 | fable-5-1 | 86 | 5 | 4/5 | 9/10 | 11m 09s |
 | 2 | opus-5-5 | 86 | 5 | 4/5 | 9/10 | 4m 27s |
+| 4 | deepseek-v4-1-flash-1017 | 81 | 5 | 4/5 | 8/10 | 19m 22s |
 | 4 | qwen-3-8-max-0902 | 81 | 5 | 4/5 | 8/10 | 21m 08s |
-| 5 | gpt-6-1-sol | 76 | 0 | 4/5 | 8/10 | 5m 42s |
-| 5 | haiku-5-5 | 76 | 5 | 4/5 | 7/10 | 4m 41s |
-| 5 | kimi-k3-1-pro | 76 | 0 | 4/5 | 8/10 | 7m 06s |
-| 5 | qwen-4-max | 76 | 5 | 4/5 | 7/10 | 11m 57s |
-| 9 | fable-5-2 | 73 | 5 | 2/5 | 10/10 | 5m 46s |
-| 10 | gemini-4-hydrogen | 72 | 0 | 3/5 | 9/10 | 3m 51s |
-| 11 | gpt-6-1-terra | 71 | 0 | 4/5 | 7/10 | 4m 29s |
-| 12 | gemini-4-carbon | 68 | 5 | 2/5 | 9/10 | 20m 45s |
-| 13 | gemini-4-argon | 67 | 5 | 3/5 | 7/10 | 20m 49s |
-| 14 | gpt-6-2-sol | 62 | 0 | 3/5 | 7/10 | 6m 22s |
-| 14 | minimax-m3-1-flash | 62 | 5 | 3/5 | 6/10 | 6m 12s |
-| 14 | sonnet-5-5 | 62 | 0 | 3/5 | 7/10 | 5m 15s |
-| 17 | gpt-6-astra | 57 | 0 | 3/5 | 6/10 | 3m 52s |
-| 18 | deepseek-v4-pro | 53 | 5 | 2/5 | 6/10 | 14m 26s |
-| 18 | grok-4-7 | 53 | 0 | 2/5 | 7/10 | 14m 17s |
-| 20 | glm-5-3 | 52 | 0 | 3/5 | 5/10 | 5m 17s |
-| 21 | gpt-6-luna | 51 | 0 | 4/5 | 3/10 | 14m 37s |
-| 22 | gpt-6-2-astra | 48 | 0 | 2/5 | 6/10 | 3m 26s |
-| — | deepseek-v4-1-flash-1017 | — | — | — | — | — |
+| 6 | gemini-4-hydrogen | 77 | 5 | 3/5 | 9/10 | 3m 51s |
+| 7 | gpt-6-1-sol | 76 | 0 | 4/5 | 8/10 | 5m 42s |
+| 7 | haiku-5-5 | 76 | 5 | 4/5 | 7/10 | 4m 41s |
+| 7 | kimi-k3-1-pro | 76 | 0 | 4/5 | 8/10 | 7m 06s |
+| 7 | qwen-4-max | 76 | 5 | 4/5 | 7/10 | 11m 57s |
+| 11 | fable-5-2 | 73 | 5 | 2/5 | 10/10 | 5m 46s |
+| 12 | gpt-6-1-terra | 71 | 0 | 4/5 | 7/10 | 4m 29s |
+| 13 | gemini-4-carbon | 68 | 5 | 2/5 | 9/10 | 20m 45s |
+| 14 | gemini-4-argon | 67 | 5 | 3/5 | 7/10 | 20m 49s |
+| 14 | sonnet-5-5 | 67 | 5 | 3/5 | 7/10 | 5m 15s |
+| 16 | gpt-6-2-sol | 62 | 0 | 3/5 | 7/10 | 6m 22s |
+| 16 | minimax-m3-1-flash | 62 | 5 | 3/5 | 6/10 | 6m 12s |
+| 18 | gpt-6-astra | 57 | 0 | 3/5 | 6/10 | 3m 52s |
+| 19 | gpt-6-luna | 56 | 5 | 4/5 | 3/10 | 14m 37s |
+| 20 | deepseek-v4-pro | 53 | 5 | 2/5 | 6/10 | 14m 26s |
+| 20 | grok-4-7 | 53 | 0 | 2/5 | 7/10 | 14m 17s |
+| 22 | glm-5-3 | 52 | 0 | 3/5 | 5/10 | 5m 17s |
+| 23 | gpt-6-2-astra | 48 | 0 | 2/5 | 6/10 | 3m 26s |
 
 ## Headline consensus
 
 | Rank | Event | Votes | Selected by |
 |---|---|---|---|
+| 1 | Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers | 5 | deepseek-v4-1-flash-1017, gemini-4-hydrogen, gemini-4-neon, gpt-6-luna, sonnet-5-5 |
 | 1 | Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound | 5 | fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, opus-5-5 |
 | 1 | OpenAI begins testing Private Inference (confidential computing) with a small group of customers | 5 | deepseek-v4-pro, haiku-5-5, minimax-m3-1-flash, qwen-3-8-max-0902, qwen-4-max |
-| 3 | Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers | 4 | gemini-4-hydrogen, gemini-4-neon, gpt-6-luna, sonnet-5-5 |
 | 4 | Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support | 3 | gpt-6-1-terra, gpt-6-2-astra, gpt-6-astra |
 | 5 | Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio | 2 | gpt-6-1-sol, kimi-k3-1-pro |
 | 6 | Artificial Analysis: MAGI-2 debuts #1 in image-to-video, tied with Seedance 2.5 at about one-seventh the price | 1 | gpt-6-2-sol |
@@ -45,12 +45,12 @@
 
 | Rank | Eligible | Event | Votes | Selected by |
 |---|---|---|---|---|
-| 1 | * | OpenAI begins testing Private Inference (confidential computing) with a small group of customers | 21 | deepseek-v4-pro, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
-| 2 | * | Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers | 17 | fable-5-1, gemini-4-argon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
-| 3 | * | House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development | 13 | fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-2-sol, gpt-6-luna, haiku-5-5, kimi-k3-1-pro, opus-5-5, qwen-4-max, sonnet-5-5 |
+| 1 | * | OpenAI begins testing Private Inference (confidential computing) with a small group of customers | 22 | deepseek-v4-pro, deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
+| 2 | * | Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers | 18 | deepseek-v4-1-flash-1017, fable-5-1, gemini-4-argon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
+| 3 | * | House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development | 14 | deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-2-sol, gpt-6-luna, haiku-5-5, kimi-k3-1-pro, opus-5-5, qwen-4-max, sonnet-5-5 |
 | 4 | * | Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support | 11 | deepseek-v4-pro, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-astra, gpt-6-luna, grok-4-7, kimi-k3-1-pro, minimax-m3-1-flash, qwen-3-8-max-0902 |
-| 5 | * | SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300 | 10 | fable-5-1, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, haiku-5-5, opus-5-5, qwen-3-8-max-0902, qwen-4-max |
-| 6 |  | Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio | 6 | deepseek-v4-pro, gemini-4-argon, glm-5-3, gpt-6-1-sol, grok-4-7, kimi-k3-1-pro |
+| 4 | * | SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300 | 11 | deepseek-v4-1-flash-1017, fable-5-1, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, haiku-5-5, opus-5-5, qwen-3-8-max-0902, qwen-4-max |
+| 6 |  | Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio | 7 | deepseek-v4-pro, deepseek-v4-1-flash-1017, gemini-4-argon, glm-5-3, gpt-6-1-sol, grok-4-7, kimi-k3-1-pro |
 | 7 |  | Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound | 5 | fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, opus-5-5 |
 | 8 |  | Artificial Analysis: MAGI-2 debuts #1 in image-to-video, tied with Seedance 2.5 at about one-seventh the price | 4 | gpt-6-2-astra, gpt-6-2-sol, gpt-6-astra, qwen-4-max |
 | 8 |  | SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs | 4 | deepseek-v4-pro, gemini-4-hydrogen, minimax-m3-1-flash, sonnet-5-5 |
@@ -70,16 +70,16 @@
 
 | Rank | Author | Saved excerpt | Votes | Selected by |
 |---|---|---|---|---|
-| 1* | [@Alibaba_Qwen](https://x.com/i/status/2125798914490249411) | 🎙️ New multilingual capabilities are here for Qwen-Audio-3.1! Especially for Chinese dialects. We previously released the Qwen-Audio-3.1 series of speech found… | 21 | deepseek-v4-pro, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
-| 2* | [@sama](https://x.com/i/status/2125638790593274259) | We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers. Stronger privacy protections … | 20 | deepseek-v4-pro, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max |
-| 3* | [@AnthropicAI](https://x.com/i/status/2125627317263466739) | We recently migrated our Messages API from Python to Rust. On our engineering blog, we share how we used the existing service to verify the new one, with teams… | 18 | fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max |
-| 3* | [@thsottiaux](https://x.com/i/status/2125784147889393806) | We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work … | 18 | deepseek-v4-pro, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-2-sol, gpt-6-astra, grok-4-7, kimi-k3-1-pro, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
-| 5* | [@ArtificialAnlys](https://x.com/i/status/2125759745655210113) | Sand AI's 480B-parameter MAGI-2 debuts at #1 in Image to Video, statistically tied with Dreamina Seedance 2.5 This sets a new Quality vs Price frontier on AA-V… | 16 | deepseek-v4-pro, fable-5-2, gemini-4-argon, gemini-4-carbon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-2-sol, gpt-6-astra, grok-4-7, kimi-k3-1-pro, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
-| 5* | [@ArtificialAnlys](https://x.com/i/status/2125691597602058284) | Launching our leaderboard for FrontierPhysics, including 54 physics research tasks written by physicists. Claude Fable 5.2 leads at 32%, 6 points ahead of GPT-6… | 16 | deepseek-v4-pro, fable-5-1, fable-5-2, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-astra, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, sonnet-5-5 |
-| 7* | [@DarioAmodei](https://x.com/i/status/2125656399392690605) | No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do. I have written hundreds of pages of essays … | 14 | fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, grok-4-7, haiku-5-5, kimi-k3-1-pro, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
-| 7* | [@arena](https://x.com/i/status/2125638411654508641) | Exciting news: MAI-Code-2.1 by @MicrosoftAI has just debuted in Code Arena: WebDev at #13 overall with a score of 1717 pts, placing Microsoft AI #6 among fronti… | 14 | fable-5-1, fable-5-2, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-2-astra, gpt-6-2-sol, grok-4-7, haiku-5-5, minimax-m3-1-flash, opus-5-5, sonnet-5-5 |
-| 9* | [@SemiAnalysis_](https://x.com/i/status/2125658708357128703) | BREAKING NEWS: Amazon has submitted its FIRST Trainium3 UltraServer results to our Agentic Inference Benchmark and has demonstrated 2.28x better perf per dollar… | 12 | fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, haiku-5-5, qwen-3-8-max-0902, qwen-4-max |
-| 10* | [@karpathy](https://x.com/i/status/2125779541952246039) | I asked Claude to populate a Civilization-style game map with real data from the US. Opus 5.5 downloaded and parse a ton of public data and 7 hours and 45K line… | 11 | deepseek-v4-pro, fable-5-1, fable-5-2, gemini-4-hydrogen, gemini-4-neon, gpt-6-2-sol, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, sonnet-5-5 |
+| 1* | [@Alibaba_Qwen](https://x.com/i/status/2125798914490249411) | 🎙️ New multilingual capabilities are here for Qwen-Audio-3.1! Especially for Chinese dialects. We previously released the Qwen-Audio-3.1 series of speech found… | 22 | deepseek-v4-pro, deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
+| 2* | [@sama](https://x.com/i/status/2125638790593274259) | We’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers. Stronger privacy protections … | 21 | deepseek-v4-pro, deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max |
+| 3* | [@AnthropicAI](https://x.com/i/status/2125627317263466739) | We recently migrated our Messages API from Python to Rust. On our engineering blog, we share how we used the existing service to verify the new one, with teams… | 19 | deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, grok-4-7, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, qwen-4-max |
+| 3* | [@thsottiaux](https://x.com/i/status/2125784147889393806) | We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work … | 19 | deepseek-v4-pro, deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-2-sol, gpt-6-astra, grok-4-7, kimi-k3-1-pro, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
+| 5* | [@ArtificialAnlys](https://x.com/i/status/2125759745655210113) | Sand AI's 480B-parameter MAGI-2 debuts at #1 in Image to Video, statistically tied with Dreamina Seedance 2.5 This sets a new Quality vs Price frontier on AA-V… | 17 | deepseek-v4-pro, deepseek-v4-1-flash-1017, fable-5-2, gemini-4-argon, gemini-4-carbon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-2-sol, gpt-6-astra, grok-4-7, kimi-k3-1-pro, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
+| 6* | [@ArtificialAnlys](https://x.com/i/status/2125691597602058284) | Launching our leaderboard for FrontierPhysics, including 54 physics research tasks written by physicists. Claude Fable 5.2 leads at 32%, 6 points ahead of GPT-6… | 16 | deepseek-v4-pro, fable-5-1, fable-5-2, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, gpt-6-astra, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, sonnet-5-5 |
+| 7* | [@DarioAmodei](https://x.com/i/status/2125656399392690605) | No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do. I have written hundreds of pages of essays … | 15 | deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, grok-4-7, haiku-5-5, kimi-k3-1-pro, opus-5-5, qwen-3-8-max-0902, qwen-4-max, sonnet-5-5 |
+| 8* | [@arena](https://x.com/i/status/2125638411654508641) | Exciting news: MAI-Code-2.1 by @MicrosoftAI has just debuted in Code Arena: WebDev at #13 overall with a score of 1717 pts, placing Microsoft AI #6 among fronti… | 14 | fable-5-1, fable-5-2, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, glm-5-3, gpt-6-1-sol, gpt-6-2-astra, gpt-6-2-sol, grok-4-7, haiku-5-5, minimax-m3-1-flash, opus-5-5, sonnet-5-5 |
+| 9* | [@SemiAnalysis_](https://x.com/i/status/2125658708357128703) | BREAKING NEWS: Amazon has submitted its FIRST Trainium3 UltraServer results to our Agentic Inference Benchmark and has demonstrated 2.28x better perf per dollar… | 13 | deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-argon, gemini-4-carbon, gemini-4-hydrogen, gemini-4-neon, gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-astra, haiku-5-5, qwen-3-8-max-0902, qwen-4-max |
+| 10* | [@karpathy](https://x.com/i/status/2125779541952246039) | I asked Claude to populate a Civilization-style game map with real data from the US. Opus 5.5 downloaded and parse a ton of public data and 7 hours and 45K line… | 12 | deepseek-v4-pro, deepseek-v4-1-flash-1017, fable-5-1, fable-5-2, gemini-4-hydrogen, gemini-4-neon, gpt-6-2-sol, kimi-k3-1-pro, minimax-m3-1-flash, opus-5-5, qwen-3-8-max-0902, sonnet-5-5 |
 | 11 | [@SemiAnalysis_](https://x.com/i/status/2125867835050111357) | BREAKING NEWS🚨: 7 months ago, NVIDIA’s former and current CEO, Jensen, said that TPU & Trainium would never come to InferenceX to prove their performance claims… | 7 | deepseek-v4-pro, glm-5-3, gpt-6-2-sol, gpt-6-astra, gpt-6-luna, kimi-k3-1-pro, minimax-m3-1-flash |
 | 11 | [@ArtificialAnlys](https://x.com/i/status/2125683694103064979) | Announcing AA-Robotics-Sim v0.1: frontier language models driving our Unitree G1 humanoid AA-Robotics v0.1 was our first step, with models controlling a robot … | 7 | gpt-6-1-sol, gpt-6-1-terra, gpt-6-2-sol, gpt-6-luna, haiku-5-5, kimi-k3-1-pro, minimax-m3-1-flash |
 | 11 | [@TencentHunyuan](https://x.com/i/status/2125510109417857368) | Now you can run Tencent Hy4 flash locally, quantized by AngelSlim! 💻 Laptop: up to 39 TPS on Spark, 50 TPS on 128GB Mac M5 Max via llama.cpp. ⚡ PC: up to 58… | 7 | fable-5-1, gemini-4-argon, gemini-4-hydrogen, gemini-4-neon, gpt-6-2-sol, grok-4-7, qwen-4-max |
@@ -100,42 +100,44 @@
 | 23 | [@vllm_project](https://x.com/i/status/2125828172323401754) | vLLM ❤️ Trainium! Thanksgiving 2023: the first Neuron RFC lands in vLLM. Thanksgiving 2026: amazing performance with Trainium3 on vLLM. Official vLLM support … | 1 | deepseek-v4-pro |
 | 23 | [@GeminiApp](https://x.com/i/status/2125629066006950339) | Gemini just got a lot more personal. Say hello to 60+ new expressive voices with local accents across the US, UK, India, Indonesia, Korea, and Brazil. Pick your… | 1 | sonnet-5-5 |
 | 23 | [@NVIDIAAI](https://x.com/i/status/2125707678244892736) | Better code-review routing at about half the inference cost. @CodeRabbitAI and @Baseten customized NVIDIA Nemotron 3.5 Lightning for their workflow. 🔥 … | 1 | minimax-m3-1-flash |
+| 23 | [@emollick](https://x.com/i/status/2125812805534183923) | Model names and numbers have never been less useful in determining ability levels. In part this is because the names are more confusing (neon or carbon) and par… | 1 | deepseek-v4-1-flash-1017 |
 | 23 | [@emollick](https://x.com/i/status/2125620479461573034) | One imaginable outcome is that AI Labs, unwilling or unable (due to more careful government oversight) release new models to the public, become (regulated?) mon… | 1 | sonnet-5-5 |
+| 23 | [@simonw](https://x.com/i/status/2125640464863056148) | It's only been two weeks? I've made 194 commits to my open source projects that were co-authored by Fable 5.2 … | 1 | deepseek-v4-1-flash-1017 |
 
 ## Scoring and interpretation
 
 Headline 5 + stories 5 × 9 + 10 tweets × 5 = 100. Headline column is points; Stories/Tweets are matches. Equal scores share ranks; speed does not break ties. This measures selection agreement, not factual accuracy, editorial quality or model capability.
 Every model contributes to its own reference consensus. All ties at the fifth-story and tenth-tweet vote cutoffs receive credit. Rows use vote count, mean selected position and stable ID to order ties. * marks scoring eligibility.
-Eligible pools: 5 events at >=10 votes; 10 posts at >=11 votes. Denominator: 22 eligible editions of the 23-model cohort (deepseek-v4-1-flash-1017 failed before producing an edition and is excluded; this is a partial batch, so denominators are 22, not 23).
+Eligible pools: 5 events at >=11 votes; 10 posts at >=12 votes. Denominator: all 23 eligible editions of the 23-model cohort (full batch; deepseek-v4-1-flash-1017 completed on a third coordinator-authorized attempt on 2026-11-27 after two provider-rejected attempts).
 
 ## Scope, timing and status
 
-22 of 23 cohort models completed terminal runs with HTML editions this date: 5 complete_local and 17 review_required. deepseek-v4-1-flash-1017 failed (DeepSeek provider invalid_request_error on both attempts) and has no edition. 17 runs are review_required (worker-side visual inspection unavailable); no independent visual certification of the newsletters is claimed here. Worker status is not a factual-quality score.
+All 23 cohort models completed terminal runs with HTML editions: 5 complete_local and 18 review_required. This is a revision of the earlier 22-model partial-batch report (commit 6d2ad1c44d6279974520e523e395755756240cc8), expanded after deepseek-v4-1-flash-1017 succeeded on a third attempt. 18 runs are review_required (worker-side visual inspection unavailable); no independent visual certification of the newsletters is claimed here. Worker status is not a factual-quality score.
 All initial X and web evidence copies match the frozen shared-inputs-auto manifest (54 entries). Web evidence is the authorized 09:45 UTC recapture; X is the saved morning capture (cutoff 10:00:03 UTC). Identical evidence does not mean identical complete input: runtime instructions, model sessions and follow-up research differ.
-'Elapsed times are worker-reported counters from run.json and include tools/research/validation, not just inference. Scheduler lane durations differ and are not used here. The failed deepseek-v4-1-flash-1017 attempts consumed 28 s and 80 s of scheduler time before the provider rejected the requests; those durations are scheduler elapsed, not worker synthesis time, and the model remains unranked.'
+'Elapsed times are worker-reported counters from run.json and include tools/research/validation, not just inference. Scheduler lane durations differ and are not used here. The two failed deepseek-v4-1-flash-1017 attempts on 2026-11-26 consumed 28 s and 80 s of scheduler time before the provider rejected the requests; the completed third attempt is the only one scored, and its elapsed counter covers the 2026-11-27 session that produced the edition.'
 
 ## Event grouping and claim differences
 
-- OpenAI begins testing Private Inference (confidential computing) with a small group of customers: 21 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers: 17 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development: 13 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support: 11 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300: 10 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio: 6 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound: 5 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Artificial Analysis: MAGI-2 debuts #1 in image-to-video, tied with Seedance 2.5 at about one-seventh the price: 4 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs: 4 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- OpenAI corrects GPT-6.2 usage accounting and says paid limits will arrive faster: 3 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Nvidia halts AI server shipments to four Southeast Asian countries amid the US crackdown: 2 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- FCC conditionally authorizes SpaceX to deploy up to one million orbital compute satellites: 2 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- SemiAnalysis GDPx leaderboard puts OpenAI's Astra ahead of Claude Fable 5.2: 2 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Artificial Analysis opens AA-Robotics-Sim v0.1, a simulated humanoid benchmark for language models: 2 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Artificial Analysis: Claude Fable 5.2 leads the new FrontierPhysics research benchmark: 2 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Japan weighs mandatory AI safety duties and penalties for global model providers: 2 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- US chip curbs and anti-distillation defenses are reportedly already slowing Chinese AI labs: 1 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Tencent Hy4 Flash arrives on Fireworks serverless: 1 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- METR: OpenAI's pretraining loss has fallen about 7x faster since early 2026: 1 of 22 models; grouped by announcement, retaining all exact source URLs below.
-- Researcher says MiniMax systems opened private links found in user prompts: 1 of 22 models; grouped by announcement, retaining all exact source URLs below.
+- OpenAI begins testing Private Inference (confidential computing) with a small group of customers: 22 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers: 18 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development: 14 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support: 11 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300: 11 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio: 7 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound: 5 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Artificial Analysis: MAGI-2 debuts #1 in image-to-video, tied with Seedance 2.5 at about one-seventh the price: 4 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs: 4 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- OpenAI corrects GPT-6.2 usage accounting and says paid limits will arrive faster: 3 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Nvidia halts AI server shipments to four Southeast Asian countries amid the US crackdown: 2 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- FCC conditionally authorizes SpaceX to deploy up to one million orbital compute satellites: 2 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- SemiAnalysis GDPx leaderboard puts OpenAI's Astra ahead of Claude Fable 5.2: 2 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Artificial Analysis opens AA-Robotics-Sim v0.1, a simulated humanoid benchmark for language models: 2 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Artificial Analysis: Claude Fable 5.2 leads the new FrontierPhysics research benchmark: 2 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Japan weighs mandatory AI safety duties and penalties for global model providers: 2 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- US chip curbs and anti-distillation defenses are reportedly already slowing Chinese AI labs: 1 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Tencent Hy4 Flash arrives on Fireworks serverless: 1 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- METR: OpenAI's pretraining loss has fallen about 7x faster since early 2026: 1 of 23 models; grouped by announcement, retaining all exact source URLs below.
+- Researcher says MiniMax systems opened private links found in user prompts: 1 of 23 models; grouped by announcement, retaining all exact source URLs below.
 '- The private_inference event groups thenextweb, the-decoder, openai.com, firstpost and i10x coverage plus Sam Altman's announcement tweet: one OpenAI Private Inference announcement across sources. The anthropic_rust event is the single Anthropic research post. The cogentic_math event groups the Google Research papers README with officechai and mlq.ai coverage of the same six-paper announcement.'
 '- SemiAnalysis made two distinct benchmark announcements: the Amazon-first Trainium3 2.28x perf-per-dollar tweet (agentx_trainium3) and the Trainium+TPU joining InferenceX/AgentX at 1.2x-2.5x tweet (inferencex_tpu_trainium, grouped with officechai coverage). They are kept as separate events; gemini-4-hydrogen's officechai citation is bound to inferencex_tpu_trainium with the reason recorded in the audit.'
 '- The magi2_launch event is Sand AI's own release post; aa_i2v_magi2 is Artificial Analysis's separate image-to-video evaluation (tweet plus cryptobriefing coverage) and the two are kept distinct. qwen_audio groups the Alibaba Qwen announcement tweet with the Qwen Cloud model card. rsi_safety_act groups cryptobriefing, thenationaldesk, govinfo BILLS-119hr11157ih and the Gottheimer release, one bill introduction. gpt62_usage_fix groups the OpenAI correction tweet with TechRadar coverage.'
@@ -144,11 +146,11 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 
 ## Model report cards
 
-### gemini-4-neon - 90/100
+### gemini-4-neon - 95/100
 
 - Headline: Anthropic Migrates Messages API From Python to Rust Using Claude Agents
 - Worker status: review_required; elapsed: 9m 54s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
-- Arithmetic: 0 × 5 + 5 × 9 + 9 × 5 = 90.
+- Arithmetic: 1 × 5 + 5 × 9 + 9 × 5 = 95.
 - Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development; Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support.
 - Other stories: None.
 
@@ -168,6 +170,14 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Eligible stories: OpenAI begins testing Private Inference (confidential computing) with a small group of customers; Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development; SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300.
 - Other stories: Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound.
 
+### deepseek-v4-1-flash-1017 - 81/100
+
+- Headline: Anthropic Ported Its Messages API to Rust, Cutting CPU Use About 70%
+- Worker status: review_required; elapsed: 19m 22s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
+- Arithmetic: 1 × 5 + 4 × 9 + 8 × 5 = 81.
+- Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development; OpenAI begins testing Private Inference (confidential computing) with a small group of customers.
+- Other stories: Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio.
+
 ### qwen-3-8-max-0902 - 81/100
 
 - Headline: OpenAI Starts Testing Private Inference for Business Customers
@@ -175,6 +185,14 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Arithmetic: 1 × 5 + 4 × 9 + 8 × 5 = 81.
 - Eligible stories: OpenAI begins testing Private Inference (confidential computing) with a small group of customers; Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300; Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support.
 - Other stories: OpenAI corrects GPT-6.2 usage accounting and says paid limits will arrive faster.
+
+### gemini-4-hydrogen - 77/100
+
+- Headline: Anthropic Migrates Messages API From Python to Rust Using Claude Agents
+- Worker status: complete_local; elapsed: 3m 51s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
+- Arithmetic: 1 × 5 + 3 × 9 + 9 × 5 = 77.
+- Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development.
+- Other stories: SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs; Japan weighs mandatory AI safety duties and penalties for global model providers.
 
 ### gpt-6-1-sol - 76/100
 
@@ -216,14 +234,6 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Eligible stories: OpenAI begins testing Private Inference (confidential computing) with a small group of customers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development.
 - Other stories: Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound; Nvidia halts AI server shipments to four Southeast Asian countries amid the US crackdown; Researcher says MiniMax systems opened private links found in user prompts.
 
-### gemini-4-hydrogen - 72/100
-
-- Headline: Anthropic Migrates Messages API From Python to Rust Using Claude Agents
-- Worker status: complete_local; elapsed: 3m 51s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
-- Arithmetic: 0 × 5 + 3 × 9 + 9 × 5 = 72.
-- Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development.
-- Other stories: SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs; Japan weighs mandatory AI safety duties and penalties for global model providers.
-
 ### gpt-6-1-terra - 71/100
 
 - Headline: Qwen Expands Speech Models Across Languages and Chinese Dialects
@@ -248,6 +258,14 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development.
 - Other stories: Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound; Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio.
 
+### sonnet-5-5 - 67/100
+
+- Headline: Anthropic Moves Its Messages API From Python to Rust, With Claude Agents Fixing Differences
+- Worker status: review_required; elapsed: 5m 15s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
+- Arithmetic: 1 × 5 + 3 × 9 + 7 × 5 = 67.
+- Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development; OpenAI begins testing Private Inference (confidential computing) with a small group of customers.
+- Other stories: SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs; SemiAnalysis GDPx leaderboard puts OpenAI's Astra ahead of Claude Fable 5.2.
+
 ### gpt-6-2-sol - 62/100
 
 - Headline: Sand AI’s MAGI-2 Ties Seedance 2.5 in Image-to-Video at About One-Seventh the Price
@@ -264,14 +282,6 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Eligible stories: OpenAI begins testing Private Inference (confidential computing) with a small group of customers; Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support.
 - Other stories: SemiAnalysis GDPx leaderboard puts OpenAI's Astra ahead of Claude Fable 5.2; SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs.
 
-### sonnet-5-5 - 62/100
-
-- Headline: Anthropic Moves Its Messages API From Python to Rust, With Claude Agents Fixing Differences
-- Worker status: review_required; elapsed: 5m 15s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
-- Arithmetic: 0 × 5 + 3 × 9 + 7 × 5 = 62.
-- Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development; OpenAI begins testing Private Inference (confidential computing) with a small group of customers.
-- Other stories: SemiAnalysis announces Trainium and TPU on InferenceX/AgentX at 1.2x-2.5x performance per dollar over Nvidia GPUs; SemiAnalysis GDPx leaderboard puts OpenAI's Astra ahead of Claude Fable 5.2.
-
 ### gpt-6-astra - 57/100
 
 - Headline: Qwen Expands Audio Models Across Languages and Chinese Dialects
@@ -279,6 +289,14 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Arithmetic: 0 × 5 + 3 × 9 + 6 × 5 = 57.
 - Eligible stories: Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers.
 - Other stories: Tencent Hy4 Flash arrives on Fireworks serverless; Artificial Analysis: MAGI-2 debuts #1 in image-to-video, tied with Seedance 2.5 at about one-seventh the price.
+
+### gpt-6-luna - 56/100
+
+- Headline: Anthropic Rebuilt Its Messages API in Rust, Cutting CPU Use 70%
+- Worker status: review_required; elapsed: 14m 37s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
+- Arithmetic: 1 × 5 + 4 × 9 + 3 × 5 = 56.
+- Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development; Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support.
+- Other stories: Artificial Analysis opens AA-Robotics-Sim v0.1, a simulated humanoid benchmark for language models.
 
 ### deepseek-v4-pro - 53/100
 
@@ -304,14 +322,6 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Eligible stories: SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers.
 - Other stories: METR: OpenAI's pretraining loss has fallen about 7x faster since early 2026; Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio.
 
-### gpt-6-luna - 51/100
-
-- Headline: Anthropic Rebuilt Its Messages API in Rust, Cutting CPU Use 70%
-- Worker status: review_required; elapsed: 14m 37s (Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).)
-- Arithmetic: 0 × 5 + 4 × 9 + 3 × 5 = 51.
-- Eligible stories: Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers; OpenAI begins testing Private Inference (confidential computing) with a small group of customers; House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development; Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support.
-- Other stories: Artificial Analysis opens AA-Robotics-Sim v0.1, a simulated humanoid benchmark for language models.
-
 ### gpt-6-2-astra - 48/100
 
 - Headline: Qwen expands voice coverage to 65 languages for synthesis and 59 for transcription
@@ -320,9 +330,9 @@ All initial X and web evidence copies match the frozen shared-inputs-auto manife
 - Eligible stories: Alibaba expands Qwen-Audio-3.1 speech models to 65 languages and deeper Chinese dialect support; SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300.
 - Other stories: Artificial Analysis: MAGI-2 debuts #1 in image-to-video, tied with Seedance 2.5 at about one-seventh the price; OpenAI corrects GPT-6.2 usage accounting and says paid limits will arrive faster; Artificial Analysis: Claude Fable 5.2 leads the new FrontierPhysics research benchmark.
 
-### deepseek-v4-1-flash-1017 - failed
+## Revision note
 
-- Two dispatch attempts both failed before producing an edition: DeepSeek provider rejected requests with invalid_request_error ('The `reasoning_content` in the thinking mode must be passed back to the API'). Terminal failed status confirmed by scheduler finished records for run cron-request.fe61671d-22e0-4e0d-ab4d-898d1e9b3655 (and earlier attempt cron-request.d1566f27-d0a9-4d8c-8c4e-1836d03c3be8). No HTML produced; excluded from consensus and not assigned scores.
+- Two dispatch attempts on 2026-11-26 failed before producing an edition (DeepSeek provider invalid_request_error: 'The `reasoning_content` in the thinking mode must be passed back to the API'). A third coordinator-authorized attempt (run cron-request.d99b0660-dd18-4f97-911b-8830f59b72ae, started 2026-11-27T21:20:43Z) completed with a validated HTML edition, so the model is included in this 23-model full-batch revision. The prior 22-model report (commit 6d2ad1c44d6279974520e523e395755756240cc8) is preserved in the revision archive.
 
 ## Original selections and audit trail
 
@@ -337,6 +347,18 @@ Source: `2026-11-26/deepseek-v4-pro/`. Coordinator run: `cron-request.b71356d4-e
 5. [Claude Fable 5.2 Leads New FrontierPhysics Research Benchmark](https://x.com/ArtificialAnlys/status/2125691597602058284) -> **Artificial Analysis: Claude Fable 5.2 leads the new FrontierPhysics research benchmark**
 
 Tweet IDs in order: 2125638790593274259, 2125867835050111357, 2125759745655210113, 2125798914490249411, 2125691597602058284, 2125784147889393806, 2125747331748528494, 2125828172323401754, 2125779541952246039, 2125814113641071008.
+
+### deepseek-v4-1-flash-1017
+
+Source: `2026-11-26/deepseek-v4-1-flash-1017/`. Coordinator run: `cron-request.d99b0660-dd18-4f97-911b-8830f59b72ae`; worker session `378eb184-efe0-48ca-85cc-792eb84966b3`.
+
+1. [Anthropic Ported Its Messages API to Rust, Cutting CPU Use About 70%](https://www.anthropic.com/research/migrating-api-to-rust) -> **Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers**
+2. [SemiAnalysis Benchmark Puts Amazon Trainium3 at 2.28x GB300 Performance per Dollar](https://x.com/SemiAnalysis_/status/2125658708357128703) -> **SemiAnalysis Agentic Inference Benchmark: Amazon's first Trainium3 UltraServer results show 2.28x perf per dollar over GB300**
+3. [Sand AI Releases 480B-Parameter MAGI-2 Video Model](https://sand.ai/blog/magi-2/) -> **Sand AI launches MAGI-2, a 480B-parameter video generation model with native audio**
+4. [Bipartisan RSI Safety Act Would Require Quarterly Reports on AI-Built AI](https://gottheimer.house.gov/posts/release-gottheimer-introduces-bipartisan-federal-legislation-to-make-ai-development-safer-and-more-transparent) -> **House lawmakers introduce the bipartisan RSI Safety Act to track AI-assisted model development**
+5. [OpenAI Begins Alpha Testing Private Inference for Business Customers](https://openai.com/business/private-intelligence/) -> **OpenAI begins testing Private Inference (confidential computing) with a small group of customers**
+
+Tweet IDs in order: 2125656399392690605, 2125627317263466739, 2125658708357128703, 2125638790593274259, 2125759745655210113, 2125779541952246039, 2125784147889393806, 2125798914490249411, 2125812805534183923, 2125640464863056148.
 
 ### fable-5-1
 

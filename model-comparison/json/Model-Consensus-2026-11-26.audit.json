@@ -6,7 +6,7 @@
       "slug": "deepseek-v4-pro",
       "status": "complete_local",
       "score": 53,
-      "rank": 18,
+      "rank": 20,
       "headline_event": "private_inference",
       "story_events": [
         "private_inference",
@@ -31,6 +31,37 @@
       "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
       "run_id": "cron-request.b71356d4-ea48-4a7f-a9d8-e54ccf9755f7",
       "session": "37b6a012-c770-486c-938c-b04085a7c766"
+    },
+    {
+      "name": "deepseek-v4-1-flash-1017",
+      "slug": "deepseek-v4-1-flash-1017",
+      "status": "review_required",
+      "score": 81,
+      "rank": 4,
+      "headline_event": "anthropic_rust",
+      "story_events": [
+        "anthropic_rust",
+        "agentx_trainium3",
+        "magi2_launch",
+        "rsi_safety_act",
+        "private_inference"
+      ],
+      "tweet_ids": [
+        "2125656399392690605",
+        "2125627317263466739",
+        "2125658708357128703",
+        "2125638790593274259",
+        "2125759745655210113",
+        "2125779541952246039",
+        "2125784147889393806",
+        "2125798914490249411",
+        "2125812805534183923",
+        "2125640464863056148"
+      ],
+      "elapsed_seconds": 1162,
+      "elapsed_note": "Worker-reported elapsed counter from run.json (numeric elapsed_seconds, since-first-captured/first-exact-capture, final start-to-end, timing or free-text elapsed field).",
+      "run_id": "cron-request.d99b0660-dd18-4f97-911b-8830f59b72ae",
+      "session": "378eb184-efe0-48ca-85cc-792eb84966b3"
     },
     {
       "name": "fable-5-1",
@@ -68,7 +99,7 @@
       "slug": "fable-5-2",
       "status": "review_required",
       "score": 73,
-      "rank": 9,
+      "rank": 11,
       "headline_event": "cogentic_math",
       "story_events": [
         "cogentic_math",
@@ -99,7 +130,7 @@
       "slug": "gemini-4-argon",
       "status": "complete_local",
       "score": 67,
-      "rank": 13,
+      "rank": 14,
       "headline_event": "cogentic_math",
       "story_events": [
         "cogentic_math",
@@ -130,7 +161,7 @@
       "slug": "gemini-4-carbon",
       "status": "review_required",
       "score": 68,
-      "rank": 12,
+      "rank": 13,
       "headline_event": "cogentic_math",
       "story_events": [
         "cogentic_math",
@@ -160,8 +191,8 @@
       "name": "gemini-4-hydrogen",
       "slug": "gemini-4-hydrogen",
       "status": "complete_local",
-      "score": 72,
-      "rank": 10,
+      "score": 77,
+      "rank": 6,
       "headline_event": "anthropic_rust",
       "story_events": [
         "anthropic_rust",
@@ -191,7 +222,7 @@
       "name": "gemini-4-neon",
       "slug": "gemini-4-neon",
       "status": "review_required",
-      "score": 90,
+      "score": 95,
       "rank": 1,
       "headline_event": "anthropic_rust",
       "story_events": [
@@ -223,7 +254,7 @@
       "slug": "glm-5-3",
       "status": "review_required",
       "score": 52,
-      "rank": 20,
+      "rank": 22,
       "headline_event": "agentx_trainium3",
       "story_events": [
         "agentx_trainium3",
@@ -254,7 +285,7 @@
       "slug": "gpt-6-1-sol",
       "status": "review_required",
       "score": 76,
-      "rank": 5,
+      "rank": 7,
       "headline_event": "magi2_launch",
       "story_events": [
         "magi2_launch",
@@ -285,7 +316,7 @@
       "slug": "gpt-6-1-terra",
       "status": "review_required",
       "score": 71,
-      "rank": 11,
+      "rank": 12,
       "headline_event": "qwen_audio",
       "story_events": [
         "qwen_audio",
@@ -316,7 +347,7 @@
       "slug": "gpt-6-2-astra",
       "status": "complete_local",
       "score": 48,
-      "rank": 22,
+      "rank": 23,
       "headline_event": "qwen_audio",
       "story_events": [
         "qwen_audio",
@@ -347,7 +378,7 @@
       "slug": "gpt-6-2-sol",
       "status": "complete_local",
       "score": 62,
-      "rank": 14,
+      "rank": 16,
       "headline_event": "aa_i2v_magi2",
       "story_events": [
         "aa_i2v_magi2",
@@ -378,7 +409,7 @@
       "slug": "gpt-6-astra",
       "status": "review_required",
       "score": 57,
-      "rank": 17,
+      "rank": 18,
       "headline_event": "qwen_audio",
       "story_events": [
         "qwen_audio",
@@ -408,8 +439,8 @@
       "name": "gpt-6-luna",
       "slug": "gpt-6-luna",
       "status": "review_required",
-      "score": 51,
-      "rank": 21,
+      "score": 56,
+      "rank": 19,
       "headline_event": "anthropic_rust",
       "story_events": [
         "anthropic_rust",
@@ -440,7 +471,7 @@
       "slug": "grok-4-7",
       "status": "review_required",
       "score": 53,
-      "rank": 18,
+      "rank": 20,
       "headline_event": "nvidia_seasia_halt",
       "story_events": [
         "nvidia_seasia_halt",
@@ -471,7 +502,7 @@
       "slug": "haiku-5-5",
       "status": "review_required",
       "score": 76,
-      "rank": 5,
+      "rank": 7,
       "headline_event": "private_inference",
       "story_events": [
         "private_inference",
@@ -502,7 +533,7 @@
       "slug": "kimi-k3-1-pro",
       "status": "review_required",
       "score": 76,
-      "rank": 5,
+      "rank": 7,
       "headline_event": "magi2_launch",
       "story_events": [
         "magi2_launch",
@@ -533,7 +564,7 @@
       "slug": "minimax-m3-1-flash",
       "status": "review_required",
       "score": 62,
-      "rank": 14,
+      "rank": 16,
       "headline_event": "private_inference",
       "story_events": [
         "private_inference",
@@ -626,7 +657,7 @@
       "slug": "qwen-4-max",
       "status": "review_required",
       "score": 76,
-      "rank": 5,
+      "rank": 7,
       "headline_event": "private_inference",
       "story_events": [
         "private_inference",
@@ -656,7 +687,7 @@
       "name": "sonnet-5-5",
       "slug": "sonnet-5-5",
       "status": "review_required",
-      "score": 62,
+      "score": 67,
       "rank": 14,
       "headline_event": "anthropic_rust",
       "story_events": [
@@ -684,12 +715,9 @@
       "session": "bfa1ced5-877c-4e2b-ba37-e4c547c35d0b"
     }
   ],
-  "excluded_models": [
-    {
-      "slug": "deepseek-v4-1-flash-1017",
-      "reason": "Two dispatch attempts both failed before producing an edition: DeepSeek provider rejected requests with invalid_request_error ('The `reasoning_content` in the thinking mode must be passed back to the API'). Terminal failed status confirmed by scheduler finished records for run cron-request.fe61671d-22e0-4e0d-ab4d-898d1e9b3655 (and earlier attempt cron-request.d1566f27-d0a9-4d8c-8c4e-1836d03c3be8). No HTML produced; excluded from consensus and not assigned scores."
-    }
-  ],
+  "revision_note": "Two dispatch attempts on 2026-11-26 failed before producing an edition (DeepSeek provider invalid_request_error: 'The `reasoning_content` in the thinking mode must be passed back to the API'). A third coordinator-authorized attempt (run cron-request.d99b0660-dd18-4f97-911b-8830f59b72ae, started 2026-11-27T21:20:43Z) completed with a validated HTML edition, so the model is included in this 23-model full-batch revision.",
+  "previous_commit": "6d2ad1c44d6279974520e523e395755756240cc8",
+  "excluded_models": [],
   "event_labels": {
     "cogentic_math": "Google's Cogentic agent posts six AI-written math papers, led by a claimed factoring bound",
     "anthropic_rust": "Anthropic migrates its Messages API from Python to Rust using Claude agents as verifiers",
@@ -714,8 +742,8 @@
   },
   "headline_votes": {
     "private_inference": 5,
+    "anthropic_rust": 5,
     "cogentic_math": 5,
-    "anthropic_rust": 4,
     "agentx_trainium3": 1,
     "magi2_launch": 2,
     "qwen_audio": 3,
@@ -723,15 +751,15 @@
     "nvidia_seasia_halt": 1
   },
   "story_votes": {
-    "private_inference": 21,
+    "private_inference": 22,
     "inferencex_tpu_trainium": 4,
-    "magi2_launch": 6,
+    "magi2_launch": 7,
     "qwen_audio": 11,
     "fable_physics": 2,
+    "anthropic_rust": 18,
+    "agentx_trainium3": 11,
+    "rsi_safety_act": 14,
     "cogentic_math": 5,
-    "anthropic_rust": 17,
-    "agentx_trainium3": 10,
-    "rsi_safety_act": 13,
     "nvidia_seasia_halt": 2,
     "minimax_links": 1,
     "china_curbs_slowdown": 1,
@@ -745,19 +773,21 @@
     "gdpx_astra": 2
   },
   "tweet_votes": {
-    "2125638790593274259": 20,
+    "2125638790593274259": 21,
     "2125867835050111357": 7,
-    "2125759745655210113": 16,
-    "2125798914490249411": 21,
+    "2125759745655210113": 17,
+    "2125798914490249411": 22,
     "2125691597602058284": 16,
-    "2125784147889393806": 18,
+    "2125784147889393806": 19,
     "2125747331748528494": 1,
     "2125828172323401754": 1,
-    "2125779541952246039": 11,
+    "2125779541952246039": 12,
     "2125814113641071008": 2,
-    "2125627317263466739": 18,
-    "2125656399392690605": 14,
-    "2125658708357128703": 12,
+    "2125656399392690605": 15,
+    "2125627317263466739": 19,
+    "2125658708357128703": 13,
+    "2125812805534183923": 1,
+    "2125640464863056148": 1,
     "2125638411654508641": 14,
     "2125510109417857368": 7,
     "2125673700032905321": 6,
@@ -778,8 +808,8 @@
     "2125620479461573034": 1
   },
   "cutoffs": {
-    "story_cut_votes": 10,
-    "tweet_cut_votes": 11,
+    "story_cut_votes": 11,
+    "tweet_cut_votes": 12,
     "eligible_stories": [
       "agentx_trainium3",
       "anthropic_rust",
@@ -800,7 +830,7 @@
       "2125798914490249411"
     ]
   },
-  "eligible_denominator": 22,
+  "eligible_denominator": 23,
   "cohort_size": 23,
   "source_hashes": {
     "2026-11-26/deepseek-v4-pro/2026-11-26.edition.md": "41586d257c3a00e16ac1c2b317f61fafbc1020abe4961e2be3436bbdf74de7b7",
@@ -809,6 +839,12 @@
     "2026-11-26/deepseek-v4-pro/headline.json": "e844127a8fe5e0031c385197ee611464dd410a2c4319e2ca489e357a449f2239",
     "2026-11-26/deepseek-v4-pro/2026-11-26.x-collection.json": "1214bb8fb80a4e0d10a1d3d62d56ab88c1d6f17bbcabb0767876dc6792c7d6d6",
     "2026-11-26/deepseek-v4-pro/2026-11-26.web-search.json": "479cc6425d3a45443d064d89ecc9de0f82f8c2d06b283e6b9967560eed9c532e",
+    "2026-11-26/deepseek-v4-1-flash-1017/2026-11-26.edition.md": "176b35af66816af1d0a56816b77d077a2cdb0710aab8584e524a16d31e53b182",
+    "2026-11-26/deepseek-v4-1-flash-1017/2026-11-26.html": "bf0d442d24810bf54b3e1b47a907244e0fb83969ff4065936b0b3b2021c59e83",
+    "2026-11-26/deepseek-v4-1-flash-1017/run.json": "0aef07d4b6267d3965a6ef1babfbb612a04f6e87696b1a83fed148977265137e",
+    "2026-11-26/deepseek-v4-1-flash-1017/headline.json": "49ebde1e4e4590ef74215a74ae953804d5e78c07385865e52cb5484424505118",
+    "2026-11-26/deepseek-v4-1-flash-1017/2026-11-26.x-collection.json": "1214bb8fb80a4e0d10a1d3d62d56ab88c1d6f17bbcabb0767876dc6792c7d6d6",
+    "2026-11-26/deepseek-v4-1-flash-1017/2026-11-26.web-search.json": "479cc6425d3a45443d064d89ecc9de0f82f8c2d06b283e6b9967560eed9c532e",
     "2026-11-26/fable-5-1/2026-11-26.edition.md": "28149ba266babd1b01c1c10d328b4a73be42ca9642205693c5bf59fc5e6d9073",
     "2026-11-26/fable-5-1/2026-11-26.html": "6755e004937ee8ef18d5365238cddfef77382d8c8e060a2eb212eefcf2853293",
     "2026-11-26/fable-5-1/run.json": "e2c49fbbd3bccb58c5ee841c2fccc224df38fa5f1a0ad22f60d22167efdc8b17",
@@ -943,6 +979,13 @@
       "magi2_launch": "https://sand.ai/blog/magi-2",
       "qwen_audio": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
       "fable_physics": "https://x.com/ArtificialAnlys/status/2125691597602058284"
+    },
+    "deepseek-v4-1-flash-1017": {
+      "anthropic_rust": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "agentx_trainium3": "https://x.com/SemiAnalysis_/status/2125658708357128703",
+      "magi2_launch": "https://sand.ai/blog/magi-2/",
+      "rsi_safety_act": "https://gottheimer.house.gov/posts/release-gottheimer-introduces-bipartisan-federal-legislation-to-make-ai-development-safer-and-more-transparent",
+      "private_inference": "https://openai.com/business/private-intelligence/"
     },
     "fable-5-1": {
       "cogentic_math": "https://github.com/google-research/google-research/blob/master/cogentic_research_papers/README.md",
@@ -1112,6 +1155,11 @@
       "model": "gemini-4-argon",
       "story": "agentx_trainium3",
       "reason": "gemini-4-argon cited the Amazon-first Trainium3 2.28x tweet; kept distinct from the TPU+Trainium InferenceX announcement."
+    },
+    {
+      "model": "deepseek-v4-1-flash-1017",
+      "story": "magi2_launch",
+      "reason": "deepseek-v4-1-flash-1017 cited https://sand.ai/blog/magi-2/ (trailing slash), the same Sand AI MAGI-2 release post as the canonical https://sand.ai/blog/magi-2 URL."
     }
   ]
 }
