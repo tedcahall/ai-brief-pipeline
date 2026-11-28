@@ -3,12 +3,16 @@
  "status": "published",
  "updated_semantics": "First recorded or most recent observed numeric rate change per model/tier; not provider effective date.",
  "last_daily_verification": {
-  "checked_at": "2026-11-27T08:04:29.526687+00:00",
-  "status": "unchanged",
-  "changed_models": [],
+  "checked_at": "2026-11-28T08:02:09.145803+00:00",
+  "status": "changed",
+  "changed_models": [
+   "gemini-4-carbon"
+  ],
   "base": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-23T020315256499Z",
   "models_checked": 24,
-  "sources_checked": 15
+  "sources_checked": 15,
+  "published": "/home/openclaw/.openclaw/workspace/briefs/model-tests/pricing/2026-11-28T080209145863Z",
+  "note": "Gemini 4 Carbon applicability-condition change only (introductory end date 2026-11-30 recorded); no numeric rate changes. 23 models verified plus preserved GLM-5.4 override."
  },
  "rows": [
   {
@@ -29,8 +33,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -51,8 +55,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -73,8 +77,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -95,8 +99,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -188,8 +192,8 @@
     "sha256": "8e20042634302076a4ad3e8992da08bab21a6a13b499866fe2858b03723eb783"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-21T080621351982Z/api-pricing.json",
-    "sha256": "7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -204,14 +208,33 @@
     "cache_read": 0.1,
     "cache_write_by_ttl": {}
    },
-   "changes": [],
+   "changes": [
+    {
+     "observed": "2026-11-28",
+     "old": {
+      "condition": "unspecified introductory period; schedule referenced in notes but not recorded in tier condition"
+     },
+     "new": {
+      "condition": {
+       "introductory_rates_through": "2026-11-30"
+      }
+     },
+     "note": "Applicability-condition change only; numeric rates unchanged ($2/$10/$0.10 per million tokens). The official Google pricing table explicitly publishes the end of introductory pricing for Gemini 4 Carbon: Standard $2/$10/$0.10 through November 30, 2026, then $4/$20/$0.20 starting December 1, 2026, matching the already-recorded Gemini 4 Argon schedule. Introductory end date now recorded in the rate card tier condition.",
+     "evidence": {
+      "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+      "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90",
+      "source": "https://aistudio.google.com/docs/pricing",
+      "source_retrieved_at": "2026-11-28T08:01:13.896Z"
+     }
+    }
+   ],
    "first_recorded_evidence": {
     "snapshot": "2026-11-11T120252913396Z/api-pricing.json",
     "sha256": "cf8db9bb3978774d89e5822632b61989f4ec501e5b5ba6d954327931d6099c8a"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -232,8 +255,8 @@
     "sha256": "c39ac237c11361b5065a3f42dd6e6790020cb859f1e6494104bc9989abff06ed"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -254,8 +277,8 @@
     "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-18T223149877955Z/api-pricing.json",
-    "sha256": "3c8caa2a97ca0f2e432ea324932fa51dc43a5c5285e67f4f4d4280687dbbffb5"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -524,8 +547,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -549,8 +572,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -574,8 +597,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {
@@ -599,8 +622,8 @@
     "sha256": "c4357c242bfffacc59a50f56bd72746f3902c61d0ac0e7aa436a9f159e1fcd50"
    },
    "latest_snapshot_evidence": {
-    "snapshot": "2026-11-17T233002747281Z/api-pricing.json",
-    "sha256": "d2209ada76c241b4bd95359c90d36e2fc65afc51c3e7321b87f8a7ad03ed32b8"
+    "snapshot": "2026-11-28T080209145863Z/api-pricing.json",
+    "sha256": "eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90"
    }
   },
   {

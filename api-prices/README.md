@@ -1,6 +1,6 @@
 # API Prices — Models in the AI Brief Comparison
 
-**Rate-card date: Monday, November 23, 2026 · 24 models · All prices in US dollars per 1 million tokens.**
+**Rate-card date: Saturday, November 28, 2026 · 24 models · All prices in US dollars per 1 million tokens.**
 
 A readable reference to the saved API pricing used for our model comparisons. Prices describe token categories—not the cost of a finished briefing. For measured run costs, see [token-costs](../token-costs/).
 
@@ -69,21 +69,21 @@ Request tiers are selected per call, not from the cumulative token count of a mu
 
 ## Price history
 
-Qwen4 Max has an observed 5% rate reduction in this snapshot series. Other unchanged rows retain their initial recorded or most recent observed rate-change date. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1. Gemini 4 Carbon is also a new model entry; its announced future schedule is not an observed price change. The November 21 Argon update is an applicability-condition recording, not a numeric price change; its row's Updated date is unchanged.
+Qwen4 Max has an observed 5% rate reduction in this snapshot series. Other unchanged rows retain their initial recorded or most recent observed rate-change date. In particular, Terra’s current rates already appear in the earliest saved card; this history does not establish when the provider changed them. Fable 5.2 is a newly recorded model, not a price change to Fable 5.1. Gemini 4 Carbon is also a new model entry; its announced future schedule is not an observed price change. The November 21 Argon update and the November 28 Carbon update are applicability-condition recordings, not numeric price changes; those rows' Updated dates are unchanged.
 
 GPT-6.2 Astra and GPT-6.2 Sol are separate new entries; GPT-6 Astra and GPT-6.1 Sol remain unchanged for historical comparisons. Gemini 4 Hydrogen and Qwen4 Max were also added as new model entries.
 
 ## Freshness and provenance
 
-GLM-5.4 remains a Ted-authorized manual addition using GLM-5.3 proxy rates; the November 27 daily verification covers it as a preserved override, not a verified provider price. No existing rates were changed. Current snapshot: `2026-11-23T020315256499Z/api-pricing.json`; SHA-256: `ddec8e579d0a169de21ed3e856b2a7b30b9be790bdb39b1fb53793012d7dacc6`.
+GLM-5.4 remains a Ted-authorized manual addition using GLM-5.3 proxy rates; the November 28 daily verification covers it as a preserved override, not a verified provider price. Current snapshot: `2026-11-28T080209145863Z/api-pricing.json`; SHA-256: `eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90`.
 
-This document reflects the saved pricing JSON. The daily verification for Friday, November 27, 2026 (08:04 UTC) checked all 24 models (23 verified at their official sources plus the preserved GLM-5.4 override) across 15 freshly captured official sources and found all numeric rates and applicability conditions unchanged; no new bundle was published, so the rate card remains the November 23 bundle. The tables keep the current $2/$10/$0.10 introductory Argon and Carbon rates through November 30, 2026.
+This document reflects the saved pricing JSON. The daily verification for Saturday, November 28, 2026 (08:02 UTC) checked all 24 models (23 verified at their official sources plus the preserved GLM-5.4 override) across 15 freshly captured official sources. All numeric rates were unchanged; one applicability-condition change was verified and published: Gemini 4 Carbon's Standard introductory window is now explicitly recorded as ending November 30, 2026, with $4/$20/$0.20 scheduled from December 1, 2026, matching the already-recorded Argon schedule. A new bundle was published for this condition recording. The tables keep the current $2/$10/$0.10 introductory Argon and Carbon rates through November 30, 2026.
 
-- **Daily check:** `2026-11-24T08:04:27.777727+00:00`; status: `unchanged`; 24 models (23 verified, 1 preserved GLM-5.4 override), 15 sources; no numeric or condition changes. Prior check `2026-11-22T08:03:13.636664+00:00` (status: `unchanged`, 23 models); the `2026-11-21` check (status: `changed`) recorded the Gemini 4 Argon introductory end date, and that condition change remains in effect.
-- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-24T08:02:26.792Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
-- **Prior verified snapshot:** `2026-11-21T080621351982Z/api-pricing.json`.
-- **Prior verified SHA-256:** `7243f773eb861d7c68b9a556764f1fdb13925b6c9107d0bc60758a7fd6a9b6fc`.
-- **Scheduled, not current:** the Google capture lists introductory Standard pricing for Gemini 4 Argon and Gemini 4 Carbon through November 30, 2026, with Standard $4/$20/$0.20 per million tokens starting December 1, 2026. The rate card now records the Argon introductory end date; the tables keep the current introductory rates until an observed change.
+- **Daily check:** `2026-11-28T08:02:09.145803+00:00`; status: `changed` (condition-only); 24 models (23 verified, 1 preserved GLM-5.4 override), 15 sources; no numeric rate changes. The `2026-11-28` check recorded the Gemini 4 Carbon introductory end date, matching the Argon condition recorded on `2026-11-21`. Prior checks `2026-11-24T08:04:27.777727+00:00` and `2026-11-27T08:04:29.526687+00:00` (status: `unchanged`).
+- **Qwen4 source:** `https://openrouter.ai/api/v1/models/qwen/qwen4-max/endpoints`, re-verified `2026-11-28T08:00:55Z` at $1.425/$4.275/$0.07125/$1.78125 per million tokens.
+- **Current verified snapshot:** `2026-11-28T080209145863Z/api-pricing.json`.
+- **Current verified SHA-256:** `eacbddf7e501e3400ca7c3bf16dbd9eb2f9c69854ce09d2a1dcc06485c5aad90`.
+- **Scheduled, not current:** the Google capture lists introductory Standard pricing for Gemini 4 Argon and Gemini 4 Carbon through November 30, 2026, with Standard $4/$20/$0.20 per million tokens starting December 1, 2026. The rate card records both introductory end dates; the tables keep the current introductory rates until an observed change.
 
 Model-name links in the table point to the pricing sources recorded in the JSON. Historical run-cost reports retain their original pricing basis; this reference does not retroactively reprice them.
 
