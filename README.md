@@ -9,41 +9,41 @@ The aim is to demonstrate the trade-offs of each of the non-deterministic steps 
 <!-- MODEL-LEADERBOARD:START -->
 ## Model Performance Leaders
 
-**Seven-calendar-day statistics | 2026-11-21 through 2026-11-27 | Minimum 4 observed days per metric**
+**Seven-calendar-day statistics | 2026-11-22 through 2026-11-28 | Minimum 4 observed days per metric**
 
-Judging as of 2026-11-27; status: complete.
+Judging update pending. Judging rows retain 2026-11-27. Other rows are current.
 
 ### 🏆 Leaders
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | Gemini 4 Neon | **81.4/100** | 67.6/100 | 56.0/100 | 81.4/100 | 7 |
-| Selection SD | Fable 5.1 | **7.2** | 13.1 | 7.2 | 20.1 | 7 |
+| Ed Selection | Gemini 4 Neon | **78.7/100** | 67.3/100 | 56.9/100 | 78.7/100 | 7 |
+| Selection SD | Fable 5.1 | **7.4** | 13.2 | 7.4 | 20.1 | 7 |
 | Editorial Score | GPT-6.2 Astra | **3.54/5** | 2.99/5 | 2.36/5 | 3.54/5 | 7 |
 | Ed Score SD | Fable 5.2 | **0.2** | 0.3 | 0.2 | 0.5 | 7 |
-| Lowest Cost | GPT-6 Luna | **$0.09** | $1.89 | $0.09 | $9.51 | 7 |
-| Run Time | GPT-6.2 Astra | **2m 50s** | 9m 59s | 2m 50s | 26m 32s | 7 |
-| Token Usage | GPT-6.2 Astra | **819,527** | 5,004,126 | 819,527 | 11,550,898 | 7 |
-| Pulse Words | Gemini 4 Carbon | **168** | 121 | 66 | 168 | 7 |
-| Pulse SD | GPT-6 Astra | **3.6** | 18.6 | 3.6 | 64.6 | 7 |
-| Story Words | DeepSeek V4.1 Flash | **366** | 312 | 256 | 366 | 7 |
-| Story SD | GPT-6 Astra | **6.5** | 19.9 | 6.5 | 50.6 | 7 |
+| Lowest Cost | GPT-6 Luna | **$0.09** | $1.91 | $0.09 | $9.35 | 7 |
+| Run Time | GPT-6.2 Astra | **2m 47s** | 10m 01s | 2m 47s | 27m 26s | 7 |
+| Token Usage | GPT-6.2 Astra | **824,218** | 4,948,615 | 824,218 | 10,420,216 | 7 |
+| Pulse Words | Gemini 4 Carbon | **171** | 120 | 68 | 171 | 7 |
+| Pulse SD | GPT-6 Astra | **3.6** | 16.8 | 3.6 | 37.6 | 7 |
+| Story Words | DeepSeek V4.1 Flash | **356** | 312 | 252 | 356 | 7 |
+| Story SD | GPT-6 Astra | **6.2** | 19.9 | 6.2 | 55.6 | 7 |
 
 ### ⚠️ Laggards
 
 | Category | Model | Mv Avg | All Avg | All Low | All High | Runs |
 |---|---|---:|---:|---:|---:|---:|
-| Ed Selection | GPT-6 Luna | **56.0/100** | 67.6/100 | 56.0/100 | 81.4/100 | 7 |
-| Selection SD | GLM-5.3 | **20.1** | 13.1 | 7.2 | 20.1 | 7 |
+| Ed Selection | GPT-6 Luna | **56.9/100** | 67.3/100 | 56.9/100 | 78.7/100 | 7 |
+| Selection SD | GLM-5.3 | **20.1** | 13.2 | 7.4 | 20.1 | 7 |
 | Editorial Score | GPT-6.1 Terra | **2.36/5** | 2.99/5 | 2.36/5 | 3.54/5 | 7 |
 | Ed Score SD | Gemini 4 Hydrogen | **0.5** | 0.3 | 0.2 | 0.5 | 7 |
-| Highest Cost | Fable 5.1 | **$9.51** | $1.89 | $0.09 | $9.51 | 7 |
-| Run Time | Qwen 3.8 Max 0902 | **26m 32s** | 9m 59s | 2m 50s | 26m 32s | 7 |
-| Token Usage | DeepSeek V4.1 Flash | **11,550,898** | 5,004,126 | 819,527 | 11,550,898 | 7 |
-| Pulse Words | GPT-6.1 Terra | **66** | 121 | 66 | 168 | 7 |
-| Pulse SD | DeepSeek V4 Pro | **64.6** | 18.6 | 3.6 | 64.6 | 7 |
-| Story Words | GPT-6.1 Terra | **256** | 312 | 256 | 366 | 7 |
-| Story SD | MiniMax M3.1 Flash | **50.6** | 19.9 | 6.5 | 50.6 | 7 |
+| Highest Cost | Fable 5.1 | **$9.35** | $1.91 | $0.09 | $9.35 | 7 |
+| Run Time | Qwen 3.8 Max 0902 | **27m 26s** | 10m 01s | 2m 47s | 27m 26s | 7 |
+| Token Usage | DeepSeek V4.1 Flash | **10,420,216** | 4,948,615 | 824,218 | 10,420,216 | 7 |
+| Pulse Words | GPT-6.1 Terra | **68** | 120 | 68 | 171 | 7 |
+| Pulse SD | GLM-5.3 | **37.6** | 16.8 | 3.6 | 37.6 | 7 |
+| Story Words | GPT-6.1 Terra | **252** | 312 | 252 | 356 | 7 |
+| Story SD | DeepSeek V4.1 Flash | **55.6** | 19.9 | 6.2 | 55.6 | 7 |
 
 Mv Avg is the window mean for ordinary rows and sample SD for SD rows. All columns use only eligible models. Word counts rank length, not quality.
 <!-- MODEL-LEADERBOARD:END -->
